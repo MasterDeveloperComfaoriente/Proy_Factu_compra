@@ -1,0 +1,20 @@
+l version='1.0' encoding='UTF-8'?><S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/">
+	<S:Body>
+		<ns2:enviarDocumentoResponse xmlns:ns2="http://wsenviardocumento.webservice.dispapeles.com/">
+			<return>
+				<codigoQr>NumFac: SETT20\nFecFac: 2022-08-02\nHorFac: 16:03:10Z\nNitFac: 890500675\nDocAdq: 88149417\nValFac: 3655400.00\nValIva: 0.00\nValOtroIm: 0.00\nValTolFac: 3655400.00\nCUFE: 286341fcd00798e06ae9ead6a20320395381afb40f2b1776e9349f578aa9b408d3b5befff0078c5921d6ce5ad2657da7\nhttps://catalogo-vpfe-hab.dian.gov.co/document/searchqr?documentkey=286341fcd00798e06ae9ead6a20320395381afb40f2b1776e9349f578aa9b408d3b5befff0078c5921d6ce5ad2657da7</codigoQr>
+				<consecutivo>20</consecutivo>
+				<cufe>286341fcd00798e06ae9ead6a20320395381afb40f2b1776e9349f578aa9b408d3b5befff0078c5921d6ce5ad2657da7</cufe>
+				<descripcionProceso>Documento validado por la DIAN</descripcionProceso>
+				<estadoProceso>1</estadoProceso>
+				<fechaExpedicion>2022-08-02T11:00:00-05:00</fechaExpedicion>
+				<fechaFactura>2022-08-02T11:03:10-05:00</fechaFactura>
+				<fechaRespuesta>2022-08-02T11:00:01.717-05:00</fechaRespuesta>
+				<idErp/>
+				<prefijo>SETT</prefijo>
+				<selloDeValidacion>7fe6a6437fb3b4ff6726bce74e6aa4464319c12ddeebd55a68275f795d6c73b37e6f0b15d1df517cd6840b27d5066d29</selloDeValidacion>
+				<tipoDocumento>7</tipoDocumento>
+			</return>
+		</ns2:enviarDocumentoResponse>
+	</S:Body>
+</S:Envelope>

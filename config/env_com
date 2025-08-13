@@ -1,0 +1,5 @@
+export FGLPROFILE=/desarrollo/Proyectos_G_3_10/Proy_Factu_compra/config/Comfaoriente.fglprofile
+export INFORMIXDIR=/home/jinformix
+export INFORMIXSERVER=comfaoriente_pr4
+export INFORMIXSQLHOSTS=/opt/IBM/csdk/etc/sqlhosts.cm_comfaoriente
+export LD_LIBRARY_PATH=$INFORMIXDIR/lib:$INFORMIXDIR/lib/esql:$INFORMIXDIR/lib/tools:$INFORMIXDIR/lib/cli:$LD_LIBRARY_PATH

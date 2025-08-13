@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="ISO8859_1"?>
+<?RTLStyleSheet  ignoreUnmatchedInput="true" autoCreate4GLVariables="true" variableValueNamesAreInLowerCase="true" styleURL="file:/desarrollo/Proyectos_G_3_10/Proy_Factu_compra/bin/lista_empleadosPDF.4rp" outputDeviceName="PDF" isPreview="0"?>
+<?PrettyPrinterStyleSheet  tee="true" writeToFile="jdebug3.xml"?>
+<?BoxDecoratorStyleSheet  systemId="file:/desarrollo/Proyectos_G_3_10/Proy_Factu_compra/bin/lista_empleadosPDF.4rp"?>
+<?HlPxmlToPxmlStyleSheet  notUsed="true"?>
+<?PrettyPrinterStyleSheet  tee="true" writeToFile="jdebug4.xml"?>
+<?PxmlLayouter  pageWidth="a4width" pageHeight="a4length" topMargin="1.3cm" leftMargin="1.3cm" rightMargin="1.3cm" bottomMargin="1.3cm" markOverfullBoxesInDocument="true"?>
+<?PdfWriterStyleSheet  antialiasFonts="false" antialiasShapes="false" monochrome="false" fromPage="1" encodeImagesAsJPEG="0" jpegQuality="1.0" writeToFile="/tmp/02A1C1A1-0043-44D1-A35D-3E5A5945917E.pdf"?>
+<xxx0:Report name="ReportePri.r_imprimeCatEmpleados" firstHeaderLength="15" headerLength="13" trailerLength="0" pageLength="66" topMargin="3" bottomMargin="3" leftMargin="5" rightMargin="132" xmlns:rtli="http://www.4js.com/2004/RTL-INPUT" xmlns:xxx0="http://www.4js.com/2004/REPORT">
+    <xxx0:Skip/>
+    <xxx0:Skip/>
+    <xxx0:Skip/>
+    <xxx0:FirstPageHeader>
+        <rtli:variable-value name="prefijo" type="CHAR(5)" value="CEPS "/>
+        <rtli:variable-value name="numfac" type="CHAR(7)" value="0000250"/>
+        <rtli:variable-value name="razsoc" type="CHAR(80)" value="JUAN CARLOS SANDOVAL RODRIGUEZ                                                  "/>
+        <rtli:variable-value name="nit_prov" type="CHAR(20)" value="88168494            "/>
+        <rtli:variable-value name="tel_prov" type="CHAR(15)" value="3142654442     "/>
+        <rtli:variable-value name="direccion" type="CHAR(50)" value="MZ M CA 24 CON TAMARINDO                          "/>
+        <rtli:variable-value name="nombreciu" type="VARCHAR(50)" value="Villa Del Rosario"/>
+        <rtli:variable-value name="fecha_elab" type="DATE" value="02/16/2022" isoValue="2022-02-16"/>
+        <rtli:variable-value name="num_auto" type="CHAR(50)" value="18764015389869                                    "/>
+        <rtli:variable-value name="fec_auto" type="DATE" value="07/23/2021" isoValue="2021-07-23"/>
+        <rtli:variable-value name="numini" type="INTEGER" value="          1" isoValue="1"/>
+        <rtli:variable-value name="numfin" type="INTEGER" value="       5000" isoValue="5000"/>
+        <rtli:variable-value name="fec_ven" type="DATE" value="07/23/2022" isoValue="2022-07-23"/>
+        <rtli:variable-value name="email" type="CHAR(80)" value="juancarlossandovalrodriguez@hotmail.com                                         "/>
+        <rtli:variable-value name="digito" type="CHAR(1)" value="7"/>
+    </xxx0:FirstPageHeader>
+    <xxx0:Group>
+        <xxx0:OnEveryRow>
+            <rtli:variable-value name="r_usuario.codigo" type="CHAR(5)" value="00039"/>
+            <rtli:variable-value name="r_usuario.cantidad" type="DECIMAL(12,2)" value="          1.00" isoValue="1.00"/>
+            <rtli:variable-value name="r_usuario.descripcion" type="CHAR(50)" value="ARRIENDO                                          "/>
+            <rtli:variable-value name="r_usuario.valor_unitario" type="DECIMAL(12,2)" value="     336000.00" isoValue="336000.00"/>
+            <rtli:variable-value name="r_usuario.valor_total" type="DECIMAL(12,2)" value="     336000.00" isoValue="336000.00"/>
+        </xxx0:OnEveryRow>
+    </xxx0:Group>
+    <xxx0:OnLastRow>
+        <rtli:variable-value name="ld_total" type="DECIMAL(24,6)" value="             336000.000000" isoValue="336000.000000"/>
+        <rtli:variable-value name="nota" type="CHAR(400)" value="CANCELACION ARRIENDO OFICINA DE COMFAORIENTE EPS-S EN EL MUNICIPIO DE GRAMALOTE, UBICADO EN LA MANZANA 6 CASA 2 BARRIO SANTA ROSA, CORRESPONDIENTE AL MES DE FEBRERO DE 2022, SEG&#218;N CONTRATO DE ARRENDAMIENTO NO. AR-10-2022 VALOR $ 336.000,00.                                                                                                                                                                "/>
+        <rtli:variable-value name="nombre_usuario" type="CHAR(20)" value="USUARIO DE SISTEMAS "/>
+    </xxx0:OnLastRow>
+    <xxx0:Skip/>
+    <xxx0:Skip/>
+    <xxx0:Skip/>
+    <xxx0:Skip/>
+    <xxx0:Skip/>
+    <xxx0:Skip/>
+    <xxx0:Skip/>
+    <xxx0:Skip/>
+    <xxx0:Skip/>
+    <xxx0:Skip/>
+    <xxx0:Skip/>
+    <xxx0:Skip/>
+    <xxx0:Skip/>
+    <xxx0:Skip/>
+    <xxx0:Skip/>
+    <xxx0:Skip/>
+    <xxx0:Skip/>
+    <xxx0:Skip/>
+    <xxx0:Skip/>
+    <xxx0:Skip/>
+    <xxx0:Skip/>
+    <xxx0:Skip/>
+    <xxx0:Skip/>
+    <xxx0:Skip/>
+    <xxx0:Skip/>
+    <xxx0:Skip/>
+    <xxx0:Skip/>
+    <xxx0:Skip/>
+    <xxx0:Skip/>
+    <xxx0:Skip/>
+    <xxx0:Skip/>
+    <xxx0:Skip/>
+    <xxx0:Skip/>
+    <xxx0:Skip/>
+    <xxx0:Skip/>
+    <xxx0:Skip/>
+    <xxx0:Skip/>
+    <xxx0:PageTrailer/>
+</xxx0:Report>

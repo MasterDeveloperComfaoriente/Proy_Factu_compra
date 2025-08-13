@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<Form name="Vista.tmp" build="3.10.18" text="Consumo de servicio web Dispapeles" width="78" height="20">
+  <LStr text="Consumo de servicio web Dispapeles"/>
+  <Grid name="grid1" width="78" height="20">
+    <Label name="label2" width="14" text="Tipo de documento :" posY="1" posX="3" gridWidth="14">
+      <LStr text="Tipo de documento :"/>
+    </Label>
+    <FormField name="formonly.txt_tipodoc" colName="txt_tipodoc" fieldId="0" sqlTabName="formonly" noEntry="1" tabIndex="1">
+      <ComboBox width="15" posY="1" posX="18" gridWidth="17"/>
+    </FormField>
+    <Label name="label3" width="6" text="Prefijo:" posY="1" posX="37" gridWidth="6">
+      <LStr text="Prefijo:"/>
+    </Label>
+    <FormField name="formonly.txt_prefijo" colName="txt_prefijo" fieldId="1" sqlTabName="formonly" noEntry="1" tabIndex="2">
+      <Edit width="7" posY="1" posX="44" gridWidth="7"/>
+    </FormField>
+    <Label name="label5" width="8" text="Numero:" posY="1" posX="54" gridWidth="8">
+      <LStr text="Numero:"/>
+    </Label>
+    <FormField name="formonly.txt_folio_manual" colName="txt_folio_manual" sqlType="INTEGER" fieldId="2" sqlTabName="formonly" noEntry="1" tabIndex="3">
+      <Edit width="10" posY="1" posX="64" gridWidth="10"/>
+    </FormField>
+    <FormField name="formonly.txt_salida" colName="txt_salida" fieldId="3" sqlTabName="formonly" tabIndex="4">
+      <TextEdit width="75" height="14" wantReturns="1" scroll="1" posY="3" posX="2" gridWidth="75" gridHeight="14"/>
+    </FormField>
+    <Button name="bt_cerrar" width="12" text="Cerrar" posY="18" posX="33" gridWidth="12" tabIndex="5">
+      <LStr text="Cerrar"/>
+    </Button>
+  </Grid>
+  <RecordView tabName="formonly">
+    <Link colName="txt_tipodoc" fieldIdRef="0"/>
+    <Link colName="txt_prefijo" fieldIdRef="1"/>
+    <Link colName="txt_folio_manual" fieldIdRef="2"/>
+    <Link colName="txt_salida" fieldIdRef="3"/>
+  </RecordView>
+  <RecordView tabName="undefined">
+    <Link colName="txt_tipodoc" fieldIdRef="0"/>
+    <Link colName="txt_prefijo" fieldIdRef="1"/>
+    <Link colName="txt_folio_manual" fieldIdRef="2"/>
+    <Link colName="txt_salida" fieldIdRef="3"/>
+  </RecordView>
+</Form>

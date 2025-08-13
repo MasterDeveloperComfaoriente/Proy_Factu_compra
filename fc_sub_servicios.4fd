@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ManagedForm databaseName="empresa" fileVersion="30a00" gstVersion="30a0b" name="Root" uid="{45d5f0ba-4964-48fc-9ebc-84b8c49e6eb3}">
+  <AGSettings>
+    <DynamicProperties version="2"/>
+  </AGSettings>
+  <Record additionalTables="" joinLeft="" joinOperator="" joinRight="" name="Undefined" order="" uid="{caf90ddd-53fd-4210-91c8-94136c62c535}" where="">
+    <RecordField colName="codigo" fieldIdRef="9" fieldType="TABLE_COLUMN" name="fc_sub_servicios.codigo" sqlTabName="fc_sub_servicios" sqlType="CHAR" table_alias_name="" uid="{795a3d91-0e2a-4a54-a416-5d11b3fe9c63}"/>
+    <RecordField colName="descripcion" fieldIdRef="6" fieldType="TABLE_COLUMN" name="fc_sub_servicios.descripcion" sqlTabName="fc_sub_servicios" sqlType="CHAR" table_alias_name="" uid="{4668f36e-bef5-44c5-b8ef-1eb9d7831625}"/>
+    <RecordField colName="estado" fieldIdRef="7" fieldType="TABLE_COLUMN" name="fc_sub_servicios.estado" sqlTabName="fc_sub_servicios" sqlType="CHAR" table_alias_name="" uid="{b7b5551d-77eb-4658-8419-2126411edef9}"/>
+    <RecordField colName="" fieldIdRef="1" fieldType="NON_DATABASE" name="detcodser" sqlTabName="" sqlType="CHAR" table_alias_name="" uid="{a28b228a-0976-4156-9011-4c000820abfa}"/>
+    <RecordField colName="codser" fieldIdRef="8" fieldType="TABLE_COLUMN" name="fc_sub_servicios.codser" sqlTabName="fc_sub_servicios" sqlType="CHAR" table_alias_name="" uid="{15b9b321-6a2c-4182-a327-db63d8ed2745}"/>
+  </Record>
+  <Form gridHeight="12" gridWidth="90" lstrtext="false" name="fe_sub_servicios" spacing="normal" text="INFORMACION DE SUB.COD.SERVICIOS">
+    <Grid gridHeight="10" gridWidth="84" lstrcomment="false" name="gr3" posX="3" posY="1">
+      <Label gridHeight="1" gridWidth="34" lstrcomment="false" lstrtext="false" name="lb31" posX="25" posY="1" text="SUBCODIGOS SERVICIOS DE DOCUMENTOS SOPORTE"/>
+      <HLine gridWidth="83" name="hl2" posX="1" posY="2"/>
+      <Label gridHeight="1" gridWidth="17" lstrcomment="false" lstrtext="false" name="lb32" posX="2" posY="3" text="SUB.CODIGO SERVICIO : "/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="codigo" fieldId="9" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="5" lstrcomment="false" lstrtitle="false" name="fc_sub_servicios.codigo" posX="21" posY="3" sqlTabName="fc_sub_servicios" sqlType="CHAR" tabIndex="1" table_alias_name="" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="13" lstrcomment="false" lstrtext="false" name="lb59" posX="2" posY="4" text="COD.SERVICIO : "/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" case="upper" colName="codser" fieldId="8" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="5" lstrcomment="false" lstrtitle="false" name="fc_sub_servicios.codser" posX="21" posY="4" sqlTabName="fc_sub_servicios" sqlType="CHAR" tabIndex="5" table_alias_name="" widget="Edit"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" case="upper" colName="" fieldId="1" fieldType="NON_DATABASE" gridHeight="1" gridWidth="50" length="1" lstrcomment="false" lstrtitle="false" name="detcodser" noEntry="true" posX="27" posY="4" sqlTabName="" sqlType="CHAR" tabIndex="4" table_alias_name="" widget="Edit"/>
+      <HLine gridWidth="83" name="hl1" posX="0" posY="5"/>
+      <Label colorCondition="black" gridHeight="1" gridWidth="12" lstrcomment="false" lstrtext="false" name="lb61" posX="2" posY="6" text="DESCRIPCION : "/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" case="upper" colName="descripcion" fieldId="6" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="50" lstrcomment="false" lstrtitle="false" name="fc_sub_servicios.descripcion" posX="18" posY="6" sqlTabName="fc_sub_servicios" sqlType="CHAR" tabIndex="2" table_alias_name="" widget="Edit"/>
+      <HLine gridWidth="83" name="hl12" posX="0" posY="7"/>
+      <Label gridHeight="1" gridWidth="7" lstrcomment="false" lstrtext="false" name="lb3" posX="31" posY="8" text="ESTADO : "/>
+      <ComboBox aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="estado" fieldId="7" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="17" items="" lstrcomment="false" lstrtitle="false" name="fc_sub_servicios.estado" posX="40" posY="8" sqlTabName="fc_sub_servicios" sqlType="CHAR" tabIndex="3" table_alias_name="" widget="ComboBox"/>
+    </Grid>
+  </Form>
+  <DiagramLayout>
+    <![CDATA[AAAAAgAAAEwAewBjAGEAZgA5ADAAZABkAGQALQA1ADMAZgBkAC0ANAAyADEAMAAtADkAMQBjADgALQA5ADQAMQAzADYAYwA2ADIAYwA1ADMANQB9AAAAAAAAAAAAAAAAAAAAAD90euFHrhR7AQ==]]>
+  </DiagramLayout>
+</ManagedForm>

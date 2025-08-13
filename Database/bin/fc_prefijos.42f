@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<Form name="fc_prefijos.tmp" build="3.10.18" sqlDbName="empresa" spacing="normal" text="INFORMACION DE PREFIJOS" width="77" height="26">
+  <Grid name="gr3" width="77" height="26">
+    <Label name="lb31" width="19" text="PREFIJOS DE FACTURACION" posY="0" posX="30" gridWidth="19"/>
+    <HLine posY="1" posX="0" gridWidth="77"/>
+    <Label name="lb32" width="8" text="PREFIJO : " posY="2" posX="3" gridWidth="8"/>
+    <FormField name="fc_prefijos.prefijo" colName="prefijo" sqlType="CHAR(5)" required="1" notNull="1" fieldId="0" sqlTabName="fc_prefijos" tabIndex="1">
+      <Edit width="6" shift="up" posY="2" posX="12" gridWidth="6"/>
+    </FormField>
+    <Label name="lb61" width="12" text="DESCRIPCION : " posY="2" posX="20" gridWidth="12"/>
+    <FormField name="fc_prefijos.descripcion" colName="descripcion" sqlType="CHAR(50)" required="1" notNull="1" fieldId="1" sqlTabName="fc_prefijos" tabIndex="9">
+      <Edit width="40" shift="up" posY="2" posX="33" gridWidth="40"/>
+    </FormField>
+    <HLine posY="3" posX="0" gridWidth="77"/>
+    <Label name="lb37" width="13" text="Consecutivo Inicial :" posY="4" posX="3" gridWidth="13"/>
+    <FormField name="fc_prefijos.numini" colName="numini" sqlType="INTEGER" required="1" notNull="1" fieldId="2" sqlTabName="fc_prefijos" tabIndex="2">
+      <Edit width="15" shift="up" posY="4" posX="18" gridWidth="15"/>
+    </FormField>
+    <Label name="lb1" width="13" text="Consecutivo Final :" posY="4" posX="36" gridWidth="13"/>
+    <FormField name="fc_prefijos.numfin" colName="numfin" sqlType="INTEGER" required="1" notNull="1" fieldId="3" sqlTabName="fc_prefijos" tabIndex="3">
+      <Edit width="15" shift="up" posY="4" posX="50" gridWidth="15"/>
+    </FormField>
+    <Label name="lb5" width="14" text="Consecutivo actual :" posY="5" posX="3" gridWidth="14"/>
+    <FormField name="fc_prefijos.numero" colName="numero" sqlType="INTEGER" fieldId="4" sqlTabName="fc_prefijos" tabIndex="14">
+      <Edit width="15" shift="up" posY="5" posX="18" gridWidth="15"/>
+    </FormField>
+    <HLine posY="6" posX="0" gridWidth="77"/>
+    <Label name="lb52" width="18" text="No. Autorizacion DIAN :" posY="7" posX="2" gridWidth="18"/>
+    <FormField name="fc_prefijos.num_auto" colName="num_auto" sqlType="CHAR(50)" required="1" notNull="1" fieldId="5" sqlTabName="fc_prefijos" tabIndex="4">
+      <Edit width="50" shift="up" posY="7" posX="21" gridWidth="50"/>
+    </FormField>
+    <Label name="lb56" width="18" text="Fecha Autorizacion :" posY="8" posX="2" gridWidth="18"/>
+    <FormField name="fc_prefijos.fec_auto" colName="fec_auto" sqlType="DATE" required="1" notNull="1" fieldId="6" sqlTabName="fc_prefijos" tabIndex="6">
+      <DateEdit width="8" posY="8" posX="21" gridWidth="10"/>
+    </FormField>
+    <Label name="lb6" width="18" text="Fecha Vencimiento :" posY="8" posX="34" gridWidth="18"/>
+    <FormField name="fc_prefijos.fec_ven" colName="fec_ven" sqlType="DATE" fieldId="7" sqlTabName="fc_prefijos" tabIndex="15">
+      <DateEdit width="8" posY="8" posX="54" gridWidth="10"/>
+    </FormField>
+    <Label name="lb59" width="11" text="Plantilla factura :" posY="10" posX="2" gridWidth="11"/>
+    <FormField name="fc_prefijos.num_plantilla" colName="num_plantilla" sqlType="CHAR(1)" required="1" notNull="1" fieldId="8" sqlTabName="fc_prefijos" tabIndex="11">
+      <ComboBox width="23" posY="10" posX="15" gridWidth="25"/>
+    </FormField>
+    <Label name="lb58" width="15" text="Direccion Facturador:" posY="12" posX="2" gridWidth="15"/>
+    <FormField name="fc_prefijos.direccion" colName="direccion" sqlType="CHAR(50)" required="1" notNull="1" fieldId="9" sqlTabName="fc_prefijos" tabIndex="5">
+      <Edit width="50" shift="up" posY="12" posX="18" gridWidth="50"/>
+    </FormField>
+    <Label name="lb54" width="7" text="Ciudad :" posY="14" posX="2" gridWidth="7"/>
+    <FormField name="fc_prefijos.zona" colName="zona" sqlType="CHAR(9)" required="1" notNull="1" fieldId="10" sqlTabName="fc_prefijos" tabIndex="7">
+      <Edit width="10" posY="14" posX="10" gridWidth="10"/>
+    </FormField>
+    <FormField name="formonly.detciu" colName="detciu" sqlType="CHAR" fieldId="11" sqlTabName="formonly" tabIndex="8" noEntry="1">
+      <Edit width="20" posY="14" posX="21" gridWidth="20"/>
+    </FormField>
+    <Label name="lb2" width="9" text="Dias Credito:" posY="14" posX="42" gridWidth="9"/>
+    <FormField name="fc_prefijos.dias_cred" colName="dias_cred" sqlType="INTEGER" required="1" notNull="1" fieldId="12" sqlTabName="fc_prefijos" tabIndex="10">
+      <Edit width="15" shift="up" posY="14" posX="53" gridWidth="15"/>
+    </FormField>
+    <Label name="lb4" width="7" text="Telefono :" posY="16" posX="2" gridWidth="7"/>
+    <FormField name="fc_prefijos.telefono" colName="telefono" sqlType="CHAR(7)" fieldId="13" sqlTabName="fc_prefijos" tabIndex="13">
+      <Edit width="7" shift="up" posY="16" posX="10" gridWidth="7"/>
+    </FormField>
+    <Label name="lb7" width="15" text="Genera Comprobante:" posY="16" posX="20" gridWidth="15"/>
+    <FormField name="fc_prefijos.conta" colName="conta" sqlType="CHAR(1)" fieldId="14" sqlTabName="fc_prefijos" tabIndex="16">
+      <ComboBox width="15" posY="16" posX="38" gridWidth="17"/>
+    </FormField>
+    <HLine posY="17" posX="0" gridWidth="77"/>
+    <Label name="lb8" width="10" text="Tarifa Vigente:" posY="18" posX="2" gridWidth="10"/>
+    <FormField name="fc_prefijos.tarifa_vigente" colName="tarifa_vigente" sqlType="CHAR(4)" fieldId="15" sqlTabName="fc_prefijos" tabIndex="17">
+      <Edit width="5" shift="up" posY="18" posX="13" gridWidth="5"/>
+    </FormField>
+    <Label name="label1" width="14" text="Maneja redondeo :" posY="18" posX="20" gridWidth="14">
+      <LStr text="Maneja redondeo :"/>
+    </Label>
+    <FormField name="formonly.redondeo" colName="redondeo" fieldId="16" sqlTabName="formonly" tabIndex="18">
+      <ComboBox width="2" posY="18" posX="35" gridWidth="4"/>
+    </FormField>
+    <Label name="lb9" width="5" text="Nota" posY="20" posX="2" gridWidth="5"/>
+    <FormField name="fe_prefijos1.nota" colName="nota" sqlType="VARCHAR(100)" fieldId="17" sqlTabName="fc_prefijos" tabIndex="19">
+      <Edit width="50" shift="up" posY="20" posX="9" gridWidth="50" gridHeight="2"/>
+    </FormField>
+    <Label name="lb3" width="7" text="ESTADO : " posY="24" posX="26" gridWidth="7"/>
+    <FormField name="fc_prefijos.estado" colName="estado" sqlType="CHAR(1)" required="1" notNull="1" fieldId="18" sqlTabName="fc_prefijos" tabIndex="12">
+      <ComboBox width="19" posY="24" posX="35" gridWidth="21"/>
+    </FormField>
+  </Grid>
+  <RecordView tabName="fc_prefijos">
+    <Link colName="prefijo" fieldIdRef="0"/>
+    <Link colName="descripcion" fieldIdRef="1"/>
+    <Link colName="numini" fieldIdRef="2"/>
+    <Link colName="numfin" fieldIdRef="3"/>
+    <Link colName="numero" fieldIdRef="4"/>
+    <Link colName="num_auto" fieldIdRef="5"/>
+    <Link colName="fec_auto" fieldIdRef="6"/>
+    <Link colName="fec_ven" fieldIdRef="7"/>
+    <Link colName="num_plantilla" fieldIdRef="8"/>
+    <Link colName="direccion" fieldIdRef="9"/>
+    <Link colName="zona" fieldIdRef="10"/>
+    <Link colName="dias_cred" fieldIdRef="12"/>
+    <Link colName="telefono" fieldIdRef="13"/>
+    <Link colName="conta" fieldIdRef="14"/>
+    <Link colName="tarifa_vigente" fieldIdRef="15"/>
+    <Link colName="estado" fieldIdRef="18"/>
+  </RecordView>
+  <RecordView tabName="fe_prefijos1">
+    <Link colName="nota" fieldIdRef="17"/>
+  </RecordView>
+  <RecordView tabName="formonly">
+    <Link colName="detciu" fieldIdRef="11"/>
+    <Link colName="redondeo" fieldIdRef="16"/>
+  </RecordView>
+  <RecordView tabName="undefined">
+    <Link colName="prefijo" fieldIdRef="0"/>
+    <Link colName="descripcion" fieldIdRef="1"/>
+    <Link colName="numini" fieldIdRef="2"/>
+    <Link colName="numfin" fieldIdRef="3"/>
+    <Link colName="num_auto" fieldIdRef="5"/>
+    <Link colName="zona" fieldIdRef="10"/>
+    <Link colName="detciu" fieldIdRef="11"/>
+    <Link colName="direccion" fieldIdRef="9"/>
+    <Link colName="fec_auto" fieldIdRef="6"/>
+    <Link colName="dias_cred" fieldIdRef="12"/>
+    <Link colName="num_plantilla" fieldIdRef="8"/>
+    <Link colName="estado" fieldIdRef="18"/>
+    <Link colName="telefono" fieldIdRef="13"/>
+    <Link colName="numero" fieldIdRef="4"/>
+    <Link colName="fec_ven" fieldIdRef="7"/>
+    <Link colName="conta" fieldIdRef="14"/>
+    <Link colName="tarifa_vigente" fieldIdRef="15"/>
+    <Link colName="redondeo" fieldIdRef="16"/>
+    <Link colName="nota" fieldIdRef="17"/>
+  </RecordView>
+</Form>

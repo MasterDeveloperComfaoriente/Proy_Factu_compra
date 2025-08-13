@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<report:Report xmlns:rtl="http://www.4js.com/2004/RTL" xmlns:report="http://www.4js.com/2007/REPORT" xmlns="http://www.4js.com/2004/PXML" gstVersion="30a0b" version="6.00">
+    <report:Settings RWPageWidth="a4width" RWPageLength="a4length" RWLeftMargin="1.3cm" RWTopMargin="1.3cm" RWRightMargin="1.3cm" RWBottomMargin="1.3cm">
+        <report:FormatList>
+            <report:Format-SVG/>
+            <report:Format-PDF/>
+            <report:Format-image/>
+        </report:FormatList>
+    </report:Settings>
+    <report:Data RWDataLocation="bin/fe_factura.rdd" RWFglReportName="brfactu_PDF"/>
+    <report:Conflicts/>
+    <rtl:stylesheet>
+        <PXML>
+            <rtl:match name="Report" nameConstraint="Report" minOccurs="1" maxOccurs="1">
+                <rtl:match name="OnEveryRow" nameConstraint="OnEveryRow" minOccurs="0" maxOccurs="unbounded">
+                    <MINIPAGE name="Page Root" width="max" length="max" alignment="near">
+                        <LAYOUTNODE name="Encabezado" width="20" length="520" alignment="near" layoutDirection="leftToRight" floatingBehavior="enclosed">
+                            <WORDBOX name="fecha" alignment="baseline" fontSize="12" fontBold="true" floatingBehavior="enclosed" text="FECHA:"/>
+                            <rtl:input-variable name="mfecha" type="FGLString" expectedLocation="expectedHere"/>
+                            <WORDBOX name="mfecha Value" class="grwStringValue" y="53.75" alignment="baseline" floatingBehavior="enclosed" text="{{mfecha}}"/>
+                            <WORDBOX name="hora" y="122.5" alignment="baseline" fontSize="12" fontBold="true" floatingBehavior="enclosed" text="HORA:"/>
+                            <rtl:input-variable name="mtime" type="FGLString" expectedLocation="expectedHere"/>
+                            <WORDBOX name="mtime Value" class="grwStringValue" y="175" floatingBehavior="enclosed" text="{{mtime}}"/>
+                            <WORDBOX name="pagina" y="415" fontSize="12" fontBold="true" floatingBehavior="enclosed" text="PAGINA:"/>
+                            <rtl:input-variable name="mpagina" type="FGLString" expectedLocation="expectedHere"/>
+                            <WORDBOX name="mpagina Value" class="grwStringValue" y="462" floatingBehavior="enclosed" text="{{mpagina}}"/>
+                        </LAYOUTNODE>
+                        <LAYOUTNODE name="espacio" width="20" length="520" alignment="near" layoutDirection="leftToRight" floatingBehavior="enclosed"/>
+                        <LAYOUTNODE name="razsocomfa" width="20" length="520" alignment="near" layoutDirection="leftToRight" floatingBehavior="enclosed">
+                            <rtl:input-variable name="mfe_empresa.razsoc" type="FGLString" expectedLocation="expectedHere"/>
+                            <WORDWRAPBOX name="mfe_empresa.razsoc Value" class="grwStringValue" width="520" length="20" fontSize="14" fontBold="true" floatingBehavior="enclosed" text="{{mfe_empresa.razsoc}}" textAlignment="center"/>
+                        </LAYOUTNODE>
+                        <LAYOUTNODE name="espacio1" width="20" length="520" alignment="near" layoutDirection="leftToRight" floatingBehavior="enclosed"/>
+                        <LAYOUTNODE name="orden_pago" width="20" length="520" alignment="near" layoutDirection="leftToRight" floatingBehavior="enclosed">
+                            <WORDBOX name="ordemn_pago" width="520" length="20" alignment="center" fontSize="14" fontBold="true" floatingBehavior="enclosed" textAlignment="center" text="ORDEN PAGO3"/>
+                        </LAYOUTNODE>
+                        <LAYOUTNODE name="espacio2" width="20" length="520" alignment="near" layoutDirection="leftToRight" floatingBehavior="enclosed"/>
+                        <LAYOUTNODE name="informacion" width="20" length="520" alignment="near" layoutDirection="leftToRight" floatingBehavior="enclosed">
+                            <WORDBOX name="prefijo" fontSize="12" fontBold="true" floatingBehavior="enclosed" text="Prefijo:"/>
+                            <rtl:input-variable name="mfe_factura_m.prefijo" type="FGLString" expectedLocation="expectedHere"/>
+                            <WORDBOX name="mfe_factura_m.prefijo Value" class="grwStringValue" y="50.75" fontSize="9" floatingBehavior="enclosed" text="{{mfe_factura_m.prefijo}}"/>
+                            <WORDBOX name="ninterno" y="140" fontSize="12" fontBold="true" floatingBehavior="enclosed" text="Num Interno:"/>
+                            <rtl:input-variable name="mfe_factura_m.documento" type="FGLString" expectedLocation="expectedHere"/>
+                            <WORDBOX name="mfe_factura_m.documento Value" class="grwStringValue" y="226.75" scaleX="1" fontSize="9" floatingBehavior="enclosed" text="{{mfe_factura_m.documento}}"/>
+                            <WORDBOX name="fecha_elab" y="396.25" fontSize="12" fontBold="true" floatingBehavior="enclosed" text="Fecha:"/>
+                            <rtl:input-variable name="mfe_factura_m.fecha_elaboracion" type="FGLString" expectedLocation="expectedHere"/>
+                            <WORDBOX name="mfe_factura_m.fecha_elaboracion Value" class="grwStringValue" y="440" fontSize="9" floatingBehavior="enclosed" text="{{mfe_factura_m.fecha_elaboracion}}"/>
+                        </LAYOUTNODE>
+                        <LAYOUTNODE name="espacio3" width="20" length="520" alignment="near" layoutDirection="leftToRight" floatingBehavior="enclosed">
+                            <WORDBOX name="division" floatingBehavior="enclosed" text="_____________________________________________________________________________"/>
+                        </LAYOUTNODE>
+                        <LAYOUTNODE name="cliente" width="20" length="520" alignment="near" layoutDirection="leftToRight" floatingBehavior="enclosed">
+                            <WORDBOX name="nombre" alignment="none" fontSize="12" fontBold="true" floatingBehavior="enclosed" text="Cliente:"/>
+                            <rtl:input-variable name="mrazsoc" type="FGLString" expectedLocation="expectedHere"/>
+                            <WORDWRAPBOX name="mrazsoc Value" class="grwStringValue" y="50" width="330" fontSize="9" floatingBehavior="enclosed" text="{{mrazsoc}}"/>
+                            <WORDBOX name="nit" y="387" fontSize="12" fontBold="true" floatingBehavior="enclosed" text="Nit:"/>
+                            <rtl:input-variable name="mfe_factura_m.nit" type="FGLString" expectedLocation="expectedHere"/>
+                            <WORDBOX name="mfe_factura_m.nit Value" class="grwStringValue" y="430" fontSize="9" floatingBehavior="enclosed" text="{{mfe_factura_m.nit}}"/>
+                        </LAYOUTNODE>
+                        <LAYOUTNODE name="dir" width="20" length="520" alignment="near" layoutDirection="leftToRight" floatingBehavior="enclosed">
+                            <WORDBOX name="direccion" alignment="none" fontSize="12" fontBold="true" floatingBehavior="enclosed" text="Direccion:"/>
+                            <rtl:input-variable name="mfe_terceros.direccion" type="FGLString" expectedLocation="expectedHere"/>
+                            <WORDWRAPBOX name="mfe_terceros.direccion Value" class="grwStringValue" y="70" width="310" fontSize="9" floatingBehavior="enclosed" text="{{mfe_terceros.direccion}}"/>
+                            <WORDBOX name="telefono" y="387" fontSize="12" fontBold="true" floatingBehavior="enclosed" text="Telefono:"/>
+                            <rtl:input-variable name="mfe_terceros.telefono" type="FGLString" expectedLocation="expectedHere"/>
+                            <WORDBOX name="mfe_terceros.telefono Value" class="grwStringValue" y="445" fontSize="9" floatingBehavior="enclosed" text="{{mfe_terceros.telefono}}"/>
+                        </LAYOUTNODE>
+                        <LAYOUTNODE name="ciudadp" width="20" length="520" alignment="near" layoutDirection="leftToRight" floatingBehavior="enclosed">
+                            <WORDBOX name="ciudad" alignment="none" fontSize="12" fontBold="true" floatingBehavior="enclosed" text="Ciudad:"/>
+                            <rtl:input-variable name="mgener09.detzon" type="FGLString" expectedLocation="expectedHere"/>
+                            <WORDWRAPBOX name="mgener09.detzon Value" class="grwStringValue" y="50" width="330" alignment="center" fontSize="9" floatingBehavior="enclosed" text="{{mgener09.detzon}}"/>
+                        </LAYOUTNODE>
+                        <LAYOUTNODE name="notap" width="20" length="520" alignment="near" layoutDirection="leftToRight" floatingBehavior="enclosed">
+                            <WORDBOX name="nota" alignment="none" fontSize="12" fontBold="true" floatingBehavior="enclosed" text="Nota:"/>
+                            <rtl:input-variable name="mfe_factura_m.nota1" type="FGLString" expectedLocation="expectedHere"/>
+                            <WORDWRAPBOX name="mfe_factura_m.nota1 Value" class="grwStringValue" y="50" width="470" fontSize="9" floatingBehavior="enclosed" text="{{mfe_factura_m.nota1}}"/>
+                        </LAYOUTNODE>
+                        <LAYOUTNODE name="espacio4" width="20" length="520" alignment="near" layoutDirection="leftToRight" floatingBehavior="enclosed">
+                            <WORDBOX name="division1" floatingBehavior="enclosed" text="_____________________________________________________________________________"/>
+                        </LAYOUTNODE>
+                        <LAYOUTNODE name="info_detalle" width="47" length="520" alignment="near" layoutDirection="leftToRight" floatingBehavior="enclosed">
+                            <WORDBOX name="servicio" alignment="none" fontSize="10" fontBold="true" floatingBehavior="enclosed" text="SERVI"/>
+                            <rtl:input-variable name="mfe_factura_d.codigo" type="FGLString" expectedLocation="expectedHere"/>
+                            <WORDBOX name="mfe_factura_d.codigo Value" class="grwStringValue" x="20" y="0" width="55.5" length="7.4" fontSize="9" floatingBehavior="enclosed" text="{{mfe_factura_d.codigo}}"/>
+                            <WORDBOX name="cantidad" y="70" fontSize="10" fontBold="true" floatingBehavior="enclosed" text="CANT"/>
+                            <rtl:input-variable name="mfe_factura_d.cantidad" type="FGLNumeric" expectedLocation="expectedHere"/>
+                            <DECIMALFORMATBOX name="mfe_factura_d.cantidad Value" class="grwNumericValue" x="20" y="65" width="45.25" length="24" fontSize="9" floatingBehavior="enclosed" textAlignment="center" format="----------#" value="{{mfe_factura_d.cantidad}}"/>
+                            <WORDBOX name="descripcion" y="170" fontSize="10" fontBold="true" floatingBehavior="enclosed" text="DESCRIPCION"/>
+                            <rtl:input-variable name="mfe_servicios.descripcion" type="FGLString" expectedLocation="expectedHere"/>
+                            <WORDWRAPBOX name="mfe_servicios.descripcion Value" class="grwStringValue" x="20" y="120" width="89" fontSize="9" floatingBehavior="enclosed" text="{{mfe_servicios.descripcion}}"/>
+                            <WORDBOX name="separador" x="20" y="210" floatingBehavior="enclosed" text="-"/>
+                            <rtl:input-variable name="mfe_sub_servicios.descripcion" type="FGLString" expectedLocation="expectedHere"/>
+                            <WORDWRAPBOX name="mfe_sub_servicios.descripcion Value" class="grwStringValue" x="20" y="220" width="102.5" fontSize="9" floatingBehavior="enclosed" text="{{mfe_sub_servicios.descripcion}}"/>
+                            <WORDBOX name="vrunit" y="330" fontSize="10" fontBold="true" floatingBehavior="enclosed" text="Vr Unit"/>
+                            <rtl:input-variable name="mvaloruni" type="FGLNumeric" expectedLocation="expectedHere"/>
+                            <DECIMALFORMATBOX name="mvaloruni Value" class="grwNumericValue" x="20" y="330" fontSize="9" floatingBehavior="enclosed" textAlignment="right" format="---,---,---,--&amp;.&amp;&amp;" value="{{mvaloruni}}"/>
+                            <WORDBOX name="vrsubsidio" y="390" fontSize="10" fontBold="true" floatingBehavior="enclosed" text="Vr Subsidio"/>
+                            <rtl:input-variable name="vsubsidio" type="FGLNumeric" expectedLocation="expectedHere"/>
+                            <DECIMALFORMATBOX name="vsubsidio Value" class="grwNumericValue" x="20" y="390" fontSize="9" floatingBehavior="enclosed" textAlignment="right" format="---,---,---,--&amp;.&amp;&amp;" value="{{vsubsidio}}"/>
+                            <WORDBOX name="vrtotal" y="470" fontSize="10" fontBold="true" floatingBehavior="enclosed" text="Vr Total"/>
+                            <rtl:input-variable name="vtotal" type="FGLNumeric" expectedLocation="expectedHere"/>
+                            <DECIMALFORMATBOX name="vtotal Value" class="grwNumericValue" x="20" y="470" fontSize="9" floatingBehavior="enclosed" textAlignment="right" format="---,---,---,--&amp;.&amp;&amp;" value="{{vtotal}}"/>
+                        </LAYOUTNODE>
+                        <LAYOUTNODE name="espacio5" width="20" length="520" alignment="near" layoutDirection="leftToRight" floatingBehavior="enclosed">
+                            <WORDBOX name="division3" floatingBehavior="enclosed" text="_____________________________________________________________________________"/>
+                        </LAYOUTNODE>
+                        <LAYOUTNODE name="subtotales" width="120" length="520" alignment="near" layoutDirection="leftToRight" floatingBehavior="enclosed">
+                            <WORDBOX name="substotal" y="330" fontSize="12" fontBold="true" floatingBehavior="enclosed" text="SUBTOTAL:"/>
+                            <rtl:input-variable name="mtotfac" type="FGLNumeric" expectedLocation="expectedWayAhead"/>
+                            <DECIMALFORMATBOX name="mtotfac Value" class="grwNumericValue" y="465" fontSize="9" floatingBehavior="enclosed" textAlignment="right" format="---,---,---,--&amp;.&amp;&amp;" value="{{mtotfac}}"/>
+                            <WORDBOX name="subsidio otorg" x="20" y="330" fontSize="12" fontBold="true" floatingBehavior="enclosed" text="SUBS OTORGADO:"/>
+                            <rtl:input-variable name="mtotsubp" type="FGLNumeric" expectedLocation="expectedWayAhead"/>
+                            <DECIMALFORMATBOX name="mtotsubp Value" class="grwNumericValue" x="22" y="465" fontSize="9" floatingBehavior="enclosed" textAlignment="right" format="---,---,---,--&amp;.&amp;&amp;" value="{{mtotsubp}}"/>
+                            <WORDBOX name="Benf_otorg" x="40" y="330" fontSize="12" fontBold="true" floatingBehavior="enclosed" text="BENEF OTORGADO:"/>
+                            <rtl:input-variable name="mtotsubbenp" type="FGLNumeric" expectedLocation="expectedWayAhead"/>
+                            <DECIMALFORMATBOX name="mtotsubbenp Value" class="grwNumericValue" x="54" y="465" anchorX="1" fontSize="9" floatingBehavior="enclosed" textAlignment="right" format="---,---,---,--&amp;.&amp;&amp;" value="{{mtotsubbenp}}"/>
+                            <WORDBOX name="anticipos" x="60" y="330" fontSize="12" fontBold="true" floatingBehavior="enclosed" text="ANTICIPOS:"/>
+                            <rtl:input-variable name="mvalantp" type="FGLNumeric" expectedLocation="expectedWayAhead"/>
+                            <DECIMALFORMATBOX name="mvalantp Value" class="grwNumericValue" x="74" y="465" anchorX="1" fontSize="9" floatingBehavior="enclosed" textAlignment="right" format="---,---,---,--&amp;.&amp;&amp;" value="{{mvalantp}}"/>
+                            <WORDBOX name="WordBox14" x="80" y="330" fontSize="12" fontBold="true" floatingBehavior="enclosed" text="IVA:"/>
+                            <rtl:input-variable name="mtotiva" type="FGLNumeric" expectedLocation="expectedWayAhead"/>
+                            <DECIMALFORMATBOX name="mtotiva Value" class="grwNumericValue" x="94" y="465" anchorX="1" fontSize="9" floatingBehavior="enclosed" textAlignment="right" format="---,---,---,--&amp;.&amp;&amp;" value="{{mtotiva}}"/>
+                            <WORDBOX name="TOTAL_PAGAR" x="100" y="330" fontSize="12" fontBold="true" floatingBehavior="enclosed" text="TOTAL A PAGAR:"/>
+                            <rtl:input-variable name="mvalchep" type="FGLNumeric" expectedLocation="expectedWayAhead"/>
+                            <DECIMALFORMATBOX name="mvalchep Value" class="grwNumericValue" x="114" y="465" anchorX="1" fontSize="9" floatingBehavior="enclosed" textAlignment="right" format="---,---,---,--&amp;.&amp;&amp;" value="{{mvalchep}}"/>
+                            <rtl:input-variable name="mletras1" type="FGLString" expectedLocation="expectedWayAhead"/>
+                            <WORDWRAPBOX name="mletras1 Value" class="grwStringValue" width="150" alignment="baseline" fontSize="9" floatingBehavior="enclosed" text="{{mletras1}}"/>
+                            <rtl:input-variable name="mletras2" type="FGLString" expectedLocation="expectedWayAhead"/>
+                            <WORDWRAPBOX name="mletras2 Value" class="grwStringValue" y="163" width="150" alignment="baseline" fontSize="9" floatingBehavior="enclosed" text="{{mletras2}}"/>
+                            <WORDBOX name="separador1" x="0" y="155" floatingBehavior="enclosed" text="-"/>
+                        </LAYOUTNODE>
+                        <LAYOUTNODE name="espacio5_1" width="40" length="520" alignment="near" layoutDirection="leftToRight" floatingBehavior="enclosed"/>
+                        <LAYOUTNODE name="espacioelaboro" width="80" length="520" alignment="near" layoutDirection="leftToRight" floatingBehavior="enclosed">
+                            <WORDBOX name="elaboro" x="30" fontSize="12" fontBold="true" floatingBehavior="enclosed" text="Elaboro:"/>
+                            <rtl:input-variable name="mgen02.nombre" type="FGLString" expectedLocation="expectedWayAhead"/>
+                            <WORDBOX name="mgen02.nombre Value" class="grwStringValue" x="33" y="70" alignment="baseline" fontSize="9" floatingBehavior="enclosed" text="{{mgen02.nombre}}"/>
+                            <WORDBOX name="WordBox16" y="0" floatingBehavior="enclosed" text="_________________________________"/>
+                        </LAYOUTNODE>
+                    </MINIPAGE>
+                </rtl:match>
+                <rtl:match name="OnLastRow" nameConstraint="OnLastRow" minOccurs="0" maxOccurs="1"/>
+            </rtl:match>
+        </PXML>
+    </rtl:stylesheet>
+</report:Report>

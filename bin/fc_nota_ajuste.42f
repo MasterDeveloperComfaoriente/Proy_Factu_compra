@@ -1,0 +1,170 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<Form name="fc_nota_ajuste.tmp" build="3.10.18" sqlDbName="empresa" text="Nota de Ajuste" width="97" height="24">
+  <LStr text="Nota de Ajuste"/>
+  <Grid name="grid1" width="97" height="24">
+    <Label name="label2" width="95" text="NOTA DE AJUSTE DEL DOCUMENTO SOPORTE" justify="center" posY="1" posX="1" gridWidth="95">
+      <LStr text="NOTA DE AJUSTE DEL DOCUMENTO SOPORTE"/>
+    </Label>
+    <Label name="label1" width="95" text="EN ADQUISIONES EFECTUADAS A SUJETOS NO OBLIGADOS A EXPEDIR FACTURA DE VENTA O DOCUMENTO EQUIVALENTE" justify="center" posY="2" posX="1" gridWidth="95">
+      <LStr text="EN ADQUISIONES EFECTUADAS A SUJETOS NO OBLIGADOS A EXPEDIR FACTURA DE VENTA O DOCUMENTO EQUIVALENTE"/>
+    </Label>
+    <Label name="label15" width="13" text="NUMERO INTERNO:" justify="left" posY="4" posX="1" gridWidth="13">
+      <LStr text="NUMERO INTERNO:"/>
+    </Label>
+    <FormField name="formonly.numerodoc" colName="numerodoc" sqlType="CHAR" fieldId="0" sqlTabName="formonly" tabIndex="1">
+      <Edit width="15" posY="4" posX="15" gridWidth="15"/>
+    </FormField>
+    <Label name="label3" width="8" text="NAS No." justify="left" posY="4" posX="37" gridWidth="8">
+      <LStr text="NAS No."/>
+    </Label>
+    <FormField name="formonly.numerona" colName="numerona" sqlType="INTEGER" fieldId="1" sqlTabName="formonly" noEntry="1" tabIndex="2">
+      <Edit width="12" posY="4" posX="46" gridWidth="12"/>
+    </FormField>
+    <Label name="label5" width="17" text="FECHA DE GENERACIÓN:" justify="center" posY="4" posX="64" gridWidth="17">
+      <LStr text="FECHA DE GENERACIÓN:"/>
+    </Label>
+    <FormField name="formonly.fechads" colName="fechads" sqlType="DATE" fieldId="2" sqlTabName="formonly" noEntry="1" tabIndex="3">
+      <DateEdit width="12" posY="4" posX="82" gridWidth="14"/>
+    </FormField>
+    <Label name="label4" width="8" text="CUDS:" justify="left" posY="5" posX="1" gridWidth="8">
+      <LStr text="CUDS:"/>
+    </Label>
+    <FormField name="formonly.cuds" colName="cuds" sqlType="CHAR" fieldId="3" sqlTabName="formonly" noEntry="1" tabIndex="4">
+      <Edit width="86" posY="5" posX="10" gridWidth="86" gridHeight="2"/>
+    </FormField>
+    <Label name="label6" width="8" text="PREFIJO:" justify="left" posY="7" posX="1" gridWidth="8">
+      <LStr text="PREFIJO:"/>
+    </Label>
+    <FormField name="formonly.prefijo" colName="prefijo" sqlType="CHAR" fieldId="4" sqlTabName="formonly" tabIndex="5">
+      <Edit width="12" shift="up" posY="7" posX="10" gridWidth="12"/>
+    </FormField>
+    <Label name="label8" width="16" text="NUMERO DOCUMENTO: " justify="center" posY="7" posX="23" gridWidth="16">
+      <LStr text="NUMERO DOCUMENTO: "/>
+    </Label>
+    <FormField name="formonly.numerods" colName="numerods" sqlType="INTEGER" fieldId="5" sqlTabName="formonly" tabIndex="6">
+      <Edit width="18" format="&amp;&amp;&amp;&amp;&amp;&amp;&amp;" posY="7" posX="40" gridWidth="18"/>
+    </FormField>
+    <Label name="label7" width="20" text="FECHA GENERACIÓN CUDS:" justify="center" posY="7" posX="61" gridWidth="20">
+      <LStr text="FECHA GENERACIÓN CUDS:"/>
+    </Label>
+    <FormField name="formonly.fecha_ds" colName="fecha_ds" sqlType="DATE" fieldId="6" sqlTabName="formonly" noEntry="1" tabIndex="7">
+      <DateEdit width="12" posY="7" posX="82" gridWidth="14"/>
+    </FormField>
+    <Label name="label9" width="8" text="NIT:" justify="left" posY="9" posX="1" gridWidth="8">
+      <LStr text="NIT:"/>
+    </Label>
+    <FormField name="formonly.nit" colName="nit" sqlType="CHAR" fieldId="7" sqlTabName="formonly" noEntry="1" tabIndex="8">
+      <Edit width="13" posY="9" posX="10" gridWidth="13"/>
+    </FormField>
+    <Label name="label10" width="20" text="RAZON SOCIAL Y/O NOMBRE:" justify="left" posY="9" posX="24" gridWidth="20">
+      <LStr text="RAZON SOCIAL Y/O NOMBRE:"/>
+    </Label>
+    <FormField name="formonly.razsoc" colName="razsoc" fieldId="8" sqlTabName="formonly" noEntry="1" tabIndex="9">
+      <Edit width="51" posY="9" posX="45" gridWidth="51"/>
+    </FormField>
+    <Label name="label11" width="33" text="DESCRIPCIÓN DEL BIEN Y/O SERVICIO PRESTADO:" justify="left" posY="12" posX="1" gridWidth="33">
+      <LStr text="DESCRIPCIÓN DEL BIEN Y/O SERVICIO PRESTADO:"/>
+    </Label>
+    <FormField name="formonly.nota1" colName="nota1" fieldId="9" sqlTabName="formonly" tabIndex="10">
+      <TextEdit width="95" height="3" wantReturns="1" scroll="1" posY="13" posX="1" gridWidth="95" gridHeight="3"/>
+    </FormField>
+    <Label name="label14" width="6" text="VALOR:" justify="left" posY="17" posX="1" gridWidth="6">
+      <LStr text="VALOR:"/>
+    </Label>
+    <FormField name="formonly.valords" colName="valords" sqlType="DECIMAL(12,2)" fieldId="10" sqlTabName="formonly" tabIndex="11">
+      <Edit width="21" posY="17" posX="8" gridWidth="21"/>
+    </FormField>
+    <Label name="label13" width="9" text="VALOR IVA:" justify="left" posY="17" posX="31" gridWidth="9">
+      <LStr text="VALOR IVA:"/>
+    </Label>
+    <FormField name="formonly.valoriva" colName="valoriva" sqlType="DECIMAL(12,2)" fieldId="11" sqlTabName="formonly" noEntry="1" tabIndex="12">
+      <Edit width="21" posY="17" posX="41" gridWidth="21"/>
+    </FormField>
+    <Label name="label12" width="11" text="VALOR TOTAL:" justify="left" posY="17" posX="63" gridWidth="11">
+      <LStr text="VALOR TOTAL:"/>
+    </Label>
+    <FormField name="formonly.valor_totalds" colName="valor_totalds" sqlType="DECIMAL(12,2)" fieldId="12" sqlTabName="formonly" noEntry="1" tabIndex="13">
+      <Edit width="21" posY="17" posX="75" gridWidth="21"/>
+    </FormField>
+    <Label name="label16" width="7" text="ESTADO:" justify="left" posY="19" posX="1" gridWidth="7">
+      <LStr text="ESTADO:"/>
+    </Label>
+    <FormField name="formonly.estado" colName="estado" sqlType="CHAR" fieldId="13" sqlTabName="formonly" tabIndex="14">
+      <ComboBox width="29" posY="19" posX="9" gridWidth="31">
+        <Item name="B" text="BORRADOR"/>
+        <Item name="A" text="ENVIADA CON ERRORES"/>
+        <Item name="S" text="TRASMITIDA"/>
+        <Item name="P" text="PROCESADA EXITOSA"/>
+        <Item name="G" text="CONTIGENCIA"/>
+        <Item name="R" text="RECHAZADA CLIENTE"/>
+        <Item name="D" text="RECHAZADA DIAN"/>
+        <Item name="X" text="RECHAZADA DISPAPELES"/>
+        <Item name="N" text="ANULADA POR NOTA DE AJUSTE"/>
+      </ComboBox>
+    </FormField>
+    <Label name="label17" width="14" text="CODIGO DE ESTADO:" justify="left" posY="19" posX="41" gridWidth="14">
+      <LStr text="CODIGO DE ESTADO:"/>
+    </Label>
+    <FormField name="formonly.codest" colName="codest" sqlType="CHAR" fieldId="14" sqlTabName="formonly" tabIndex="15">
+      <ComboBox width="25" posY="19" posX="56" gridWidth="27">
+        <Item name="0" text="CON ERROR"/>
+        <Item name="1" text="EXITOSO"/>
+        <Item name="2" text="CON NOTIFICACIONES"/>
+        <Item name="3" text="ENVIADO DOBLE"/>
+        <Item name="4" text="NO ACEPTADA DIAN"/>
+        <Item name="19" text="FALLO ENVIO DISPAPELES"/>
+        <Item name="24" text="CONTIGENCIA DIAN"/>
+      </ComboBox>
+    </FormField>
+    <Label name="label18" width="33" text="MOTIVO DE ANULACIÓN DE DOCUMENTO SOPORTE:" justify="left" posY="21" posX="2" gridWidth="33">
+      <LStr text="MOTIVO DE ANULACIÓN DE DOCUMENTO SOPORTE:"/>
+    </Label>
+    <FormField name="fc_nota_ajuste.nota_descripcion" colName="nota_descripcion" sqlType="CHAR(1)" fieldId="15" sqlTabName="fc_nota_ajuste" tabIndex="16">
+      <ComboBox width="92" posY="22" posX="2" gridWidth="94">
+        <Item name="1" text="DEVOLUCIÓN PARCIAL DE LOS BIENES Y/O NO ACEPTACIÓN PARCIAL DEL SERVICIO"/>
+        <Item name="2" text="ANULACIÓN DEL DOCUMENTO SOPORTE EN ADQUISIONES EFECTUADAS A SUJETOS NO OBLIGADOS A EXPEDIR FACTURAS DE VENTA O DOCUMENTO EQUIVALENTE"/>
+        <Item name="3" text="REBAJA O DESCUENTO PARCIAL O TOTAL"/>
+        <Item name="4" text="AJUSTE DE PRECIO"/>
+        <Item name="5" text="OTROS"/>
+      </ComboBox>
+    </FormField>
+  </Grid>
+  <RecordView tabName="fc_nota_ajuste">
+    <Link colName="nota_descripcion" fieldIdRef="15"/>
+  </RecordView>
+  <RecordView tabName="formonly">
+    <Link colName="numerodoc" fieldIdRef="0"/>
+    <Link colName="numerona" fieldIdRef="1"/>
+    <Link colName="fechads" fieldIdRef="2"/>
+    <Link colName="cuds" fieldIdRef="3"/>
+    <Link colName="prefijo" fieldIdRef="4"/>
+    <Link colName="numerods" fieldIdRef="5"/>
+    <Link colName="fecha_ds" fieldIdRef="6"/>
+    <Link colName="nit" fieldIdRef="7"/>
+    <Link colName="razsoc" fieldIdRef="8"/>
+    <Link colName="nota1" fieldIdRef="9"/>
+    <Link colName="valords" fieldIdRef="10"/>
+    <Link colName="valoriva" fieldIdRef="11"/>
+    <Link colName="valor_totalds" fieldIdRef="12"/>
+    <Link colName="estado" fieldIdRef="13"/>
+    <Link colName="codest" fieldIdRef="14"/>
+  </RecordView>
+  <RecordView tabName="undefined">
+    <Link colName="numerona" fieldIdRef="1"/>
+    <Link colName="cuds" fieldIdRef="3"/>
+    <Link colName="fechads" fieldIdRef="2"/>
+    <Link colName="prefijo" fieldIdRef="4"/>
+    <Link colName="fecha_ds" fieldIdRef="6"/>
+    <Link colName="numerods" fieldIdRef="5"/>
+    <Link colName="nit" fieldIdRef="7"/>
+    <Link colName="razsoc" fieldIdRef="8"/>
+    <Link colName="nota1" fieldIdRef="9"/>
+    <Link colName="valor_totalds" fieldIdRef="12"/>
+    <Link colName="valoriva" fieldIdRef="11"/>
+    <Link colName="valords" fieldIdRef="10"/>
+    <Link colName="numerodoc" fieldIdRef="0"/>
+    <Link colName="estado" fieldIdRef="13"/>
+    <Link colName="codest" fieldIdRef="14"/>
+    <Link colName="nota_descripcion" fieldIdRef="15"/>
+  </RecordView>
+</Form>

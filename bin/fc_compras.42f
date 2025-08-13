@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<Form name="fc_compras.tmp" build="3.10.18" sqlDbName="empresa" text="Form" width="95" height="18">
+  <LStr text="Form"/>
+  <Grid name="empresa1" width="95" height="18">
+    <Label name="label1" width="7" text="Prefijo:" posY="1" posX="1" gridWidth="7">
+      <LStr text="Prefijo:"/>
+    </Label>
+    <FormField name="fc_compras.prefijo" colName="prefijo" sqlType="CHAR(5)" fieldId="0" sqlTabName="fc_compras" tabIndex="12">
+      <Edit width="5" shift="up" posY="1" posX="9" gridWidth="5"/>
+    </FormField>
+    <FormField name="formonly.mprefijo" colName="mprefijo" fieldId="1" sqlTabName="formonly" tabIndex="1">
+      <Edit width="34" posY="1" posX="15" gridWidth="34"/>
+    </FormField>
+    <Label name="label2" width="10" text="N° Documento :" posY="1" posX="50" gridWidth="10">
+      <LStr text="N° Documento :"/>
+    </Label>
+    <FormField name="fc_compras.numfac" colName="numfac" sqlType="INTEGER" fieldId="2" sqlTabName="fc_compras" tabIndex="13">
+      <Edit width="10" posY="1" posX="61" gridWidth="10"/>
+    </FormField>
+    <Label name="label7" width="10" text="No. Interno :" posY="1" posX="72" gridWidth="10">
+      <LStr text="No. Interno :"/>
+    </Label>
+    <FormField name="formonly.numint" colName="numint" fieldId="3" sqlTabName="formonly" tabIndex="2">
+      <Edit width="10" posY="1" posX="83" gridWidth="10"/>
+    </FormField>
+    <Label name="label9" width="9" text="Proveedor:" posY="3" posX="1" gridWidth="9">
+      <LStr text="Proveedor:"/>
+    </Label>
+    <FormField name="formonly.mnit" colName="mnit" sqlType="CHAR" fieldId="4" sqlTabName="formonly" tabIndex="3" noEntry="1">
+      <Edit width="7" autoNext="1" shift="up" posY="3" posX="11" gridWidth="7"/>
+    </FormField>
+    <FormField name="formonly.mrazsoc" colName="mrazsoc" sqlType="CHAR" fieldId="5" sqlTabName="formonly" tabIndex="4" noEntry="1">
+      <Edit width="41" autoNext="1" shift="up" posY="3" posX="19" gridWidth="41"/>
+    </FormField>
+    <Label name="label10" width="6" text="Nota" posY="5" posX="1" gridWidth="6">
+      <LStr text="Nota"/>
+    </Label>
+    <FormField name="formonly.mnota1" colName="mnota1" sqlType="CHAR" fieldId="6" sqlTabName="formonly" tabIndex="5" noEntry="1">
+      <TextEdit width="80" height="3" shift="up" wantReturns="1" scroll="1" posY="5" posX="9" gridWidth="80" gridHeight="3"/>
+    </FormField>
+    <HLine posY="8" posX="0" gridWidth="95"/>
+    <Label name="label14" width="11" text="Med. Compra:" posY="10" posX="1" gridWidth="11">
+      <LStr text="Med. Compra:"/>
+    </Label>
+    <FormField name="fc_compras.medioc" colName="medioc" sqlType="CHAR(2)" fieldId="7" sqlTabName="fc_compras" tabIndex="11">
+      <ComboBox width="15" posY="10" posX="13" gridWidth="17"/>
+    </FormField>
+    <Label name="label3" width="11" text="Fecha Compra:" posY="10" posX="31" gridWidth="11">
+      <LStr text="Fecha Compra:"/>
+    </Label>
+    <FormField name="fc_compras.fecha" colName="fecha" sqlType="DATE" fieldId="8" sqlTabName="fc_compras" tabIndex="10">
+      <DateEdit width="7" posY="10" posX="43" gridWidth="9"/>
+    </FormField>
+    <Label name="label13" width="10" text="Vr. Unit. :" posY="11" posX="70" gridWidth="10">
+      <LStr text="Vr. Unit. :"/>
+    </Label>
+    <FormField name="formonly.dvuni" colName="dvuni" sqlType="DECIMAL" fieldId="9" sqlTabName="formonly" tabIndex="6" noEntry="1">
+      <Edit width="12" format="---,---,---" picture="" posY="11" posX="81" gridWidth="12"/>
+    </FormField>
+    <Label name="label5" width="11" text="Valor Compra:" posY="12" posX="1" gridWidth="11">
+      <LStr text="Valor Compra:"/>
+    </Label>
+    <FormField name="fc_compras.valcomp" colName="valcomp" sqlType="DECIMAL(12,0)" fieldId="10" sqlTabName="fc_compras" tabIndex="14">
+      <Edit width="15" format="---,---,---" posY="12" posX="13" gridWidth="15"/>
+    </FormField>
+    <Label name="label8" width="10" text="Vr. IVA:" posY="12" posX="70" gridWidth="10">
+      <LStr text="Vr. IVA:"/>
+    </Label>
+    <FormField name="formonly.dviva" colName="dviva" sqlType="DECIMAL" fieldId="11" sqlTabName="formonly" tabIndex="7" noEntry="1">
+      <Edit width="12" format="---,---,---" picture="" posY="12" posX="81" gridWidth="12"/>
+    </FormField>
+    <Label name="label12" width="10" text="Vr. Imp. :" posY="13" posX="70" gridWidth="10">
+      <LStr text="Vr. Imp. :"/>
+    </Label>
+    <FormField name="formonly.dvimp" colName="dvimp" sqlType="DECIMAL" fieldId="12" sqlTabName="formonly" tabIndex="8" noEntry="1">
+      <Edit width="12" format="---,---,---" picture="" posY="13" posX="81" gridWidth="12"/>
+    </FormField>
+    <Label name="label6" width="11" text="Soporte:" posY="14" posX="1" gridWidth="11">
+      <LStr text="Soporte:"/>
+    </Label>
+    <FormField name="fc_compras.soporte" colName="soporte" sqlType="CHAR(20)" fieldId="13" sqlTabName="fc_compras" tabIndex="15">
+      <Edit width="32" shift="up" posY="14" posX="13" gridWidth="32"/>
+    </FormField>
+    <Label name="label11" width="10" text="Vr. Total Fact. :" posY="14" posX="70" gridWidth="10">
+      <LStr text="Vr. Total Fact. :"/>
+    </Label>
+    <FormField name="formonly.dvalor" colName="dvalor" sqlType="DECIMAL" fieldId="14" sqlTabName="formonly" tabIndex="9" noEntry="1">
+      <Edit width="12" format="---,---,---" picture="" posY="14" posX="81" gridWidth="12"/>
+    </FormField>
+  </Grid>
+  <RecordView tabName="fc_compras">
+    <Link colName="prefijo" fieldIdRef="0"/>
+    <Link colName="numfac" fieldIdRef="2"/>
+    <Link colName="medioc" fieldIdRef="7"/>
+    <Link colName="fecha" fieldIdRef="8"/>
+    <Link colName="valcomp" fieldIdRef="10"/>
+    <Link colName="soporte" fieldIdRef="13"/>
+  </RecordView>
+  <RecordView tabName="formonly">
+    <Link colName="mprefijo" fieldIdRef="1"/>
+    <Link colName="numint" fieldIdRef="3"/>
+    <Link colName="mnit" fieldIdRef="4"/>
+    <Link colName="mrazsoc" fieldIdRef="5"/>
+    <Link colName="mnota1" fieldIdRef="6"/>
+    <Link colName="dvuni" fieldIdRef="9"/>
+    <Link colName="dviva" fieldIdRef="11"/>
+    <Link colName="dvimp" fieldIdRef="12"/>
+    <Link colName="dvalor" fieldIdRef="14"/>
+  </RecordView>
+  <RecordView tabName="undefined">
+    <Link colName="mprefijo" fieldIdRef="1"/>
+    <Link colName="numint" fieldIdRef="3"/>
+    <Link colName="mnit" fieldIdRef="4"/>
+    <Link colName="mrazsoc" fieldIdRef="5"/>
+    <Link colName="mnota1" fieldIdRef="6"/>
+    <Link colName="dvuni" fieldIdRef="9"/>
+    <Link colName="dviva" fieldIdRef="11"/>
+    <Link colName="dvimp" fieldIdRef="12"/>
+    <Link colName="dvalor" fieldIdRef="14"/>
+    <Link colName="fecha" fieldIdRef="8"/>
+    <Link colName="medioc" fieldIdRef="7"/>
+    <Link colName="prefijo" fieldIdRef="0"/>
+    <Link colName="numfac" fieldIdRef="2"/>
+    <Link colName="valcomp" fieldIdRef="10"/>
+    <Link colName="soporte" fieldIdRef="13"/>
+  </RecordView>
+</Form>

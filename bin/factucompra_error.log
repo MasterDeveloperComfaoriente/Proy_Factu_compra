@@ -1,0 +1,1414 @@
+Date: 08/31/2021    Time: 09:06:17
+Program error at 'fc_main.4gl', line number 267.
+FORMS statement error number -6311.
+No current window.
+Date: 08/31/2021    Time: 09:11:47
+Program error at 'fc_main.4gl', line number 267.
+FORMS statement error number -6311.
+No current window.
+Date: 08/31/2021    Time: 09:20:29
+Program error at 'fc_paises.4gl', line number 14.
+FORMS statement error number -1110.
+Form file (fc_paises) not found.
+Date: 08/31/2021    Time: 09:30:19
+Program error at 'ReportePri.4gl', line number 134.
+SQL statement error number -284.
+A subquery has returned not exactly one row.
+Date: 08/31/2021    Time: 09:30:48
+Program error at 'ReportePri.4gl', line number 134.
+SQL statement error number -284.
+A subquery has returned not exactly one row.
+Date: 08/31/2021    Time: 10:10:34
+Program error at 'fc_paises.4gl', line number 14.
+FORMS statement error number -1110.
+Form file (fc_paises) not found.
+Date: 08/31/2021    Time: 10:11:21
+Program error at 'fc_deptos.4gl', line number 14.
+FORMS statement error number -1110.
+Form file (fc_deptos) not found.
+Date: 08/31/2021    Time: 10:11:58
+Program error at 'fc_ciudades.4gl', line number 14.
+FORMS statement error number -1110.
+Form file (fc_ciudades) not found.
+Date: 08/31/2021    Time: 10:13:38
+Program error at 'fc_descuentos.4gl', line number 14.
+FORMS statement error number -1110.
+Form file (fc_descuentos) not found.
+Date: 08/31/2021    Time: 10:14:20
+Program error at 'fc_impuestos.4gl', line number 16.
+FORMS statement error number -1110.
+Form file (fc_impuestos) not found.
+Date: 08/31/2021    Time: 10:14:54
+Program error at 'fc_tipobligacion.4gl', line number 14.
+FORMS statement error number -1110.
+Form file (fc_tipobligacion) not found.
+Date: 08/31/2021    Time: 10:31:25
+Program error at 'fc_factura.4gl', line number 4.
+FORMS statement error number -6327.
+Internal error in the run time library file myOperators.c(200).
+Date: 08/31/2021    Time: 10:47:01
+Program error at 'fc_factura.4gl', line number 314.
+FORMS statement error number -1102.
+Field (cedtra) not found in form.
+Date: 08/31/2021    Time: 10:48:28
+Program error at 'fc_factura.4gl', line number 314.
+FORMS statement error number -1102.
+Field (cedtra) not found in form.
+Date: 08/31/2021    Time: 10:51:18
+Program error at 'fc_factura.4gl', line number 314.
+FORMS statement error number -1102.
+Field (cedtra) not found in form.
+Date: 08/31/2021    Time: 10:55:04
+Program error at 'fc_factura.4gl', line number 314.
+FORMS statement error number -1102.
+Field (cedtra) not found in form.
+Date: 08/31/2021    Time: 14:58:46
+Program error at 'fc_terceros.4gl', line number 12288.
+FORMS statement error number -6327.
+Internal error in the run time library file myStack.c(227):mystack_top.
+Date: 09/01/2021    Time: 16:10:18
+Program error at 'fc_main.4gl', line number 267.
+FORMS statement error number -6311.
+No current window.
+Date: 09/02/2021    Time: 11:28:48
+Program error at 'fc_main.4gl', line number 267.
+FORMS statement error number -6311.
+No current window.
+Date: 09/21/2021    Time: 13:49:33
+Program error at 'fc_terobligacion.4gl', line number 17.
+FORMS statement error number -1110.
+Form file (fc_terobligacion) not found.
+Date: 10/04/2021    Time: 15:34:47
+Program error at 'fc_main.4gl', line number 567.
+FORMS statement error number -1110.
+Form file (fenit) not found.
+Date: 10/08/2021    Time: 14:37:29
+Program error at 'fc_factura.4gl', line number 1472.
+FORMS statement error number -1260.
+It is not possible to convert between the specified types.
+Date: 10/08/2021    Time: 14:50:45
+Program error at 'fc_factura.4gl', line number 1472.
+FORMS statement error number -1260.
+It is not possible to convert between the specified types.
+Date: 10/14/2021    Time: 13:45:31
+Program error at 'fc_main.4gl', line number 267.
+FORMS statement error number -6311.
+No current window.
+Date: 10/14/2021    Time: 13:45:44
+Program error at 'fc_main.4gl', line number 267.
+FORMS statement error number -6311.
+No current window.
+Date: 10/14/2021    Time: 13:45:58
+Program error at 'fc_main.4gl', line number 267.
+FORMS statement error number -6311.
+No current window.
+Date: 10/14/2021    Time: 13:46:27
+Program error at 'fc_main.4gl', line number 267.
+FORMS statement error number -6311.
+No current window.
+Date: 10/14/2021    Time: 13:49:43
+Program error at 'fc_main.4gl', line number 267.
+FORMS statement error number -6311.
+No current window.
+Date: 10/14/2021    Time: 13:51:21
+Program error at 'fc_main.4gl', line number 267.
+FORMS statement error number -6311.
+No current window.
+Date: 10/14/2021    Time: 13:51:24
+Program error at 'fc_main.4gl', line number 267.
+FORMS statement error number -6311.
+No current window.
+Date: 10/14/2021    Time: 13:52:07
+Program error at 'fc_main.4gl', line number 267.
+FORMS statement error number -6311.
+No current window.
+Date: 10/14/2021    Time: 13:55:21
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 10/14/2021    Time: 13:55:25
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 10/14/2021    Time: 13:56:56
+Program error at 'fc_main.4gl', line number 3077.
+FORMS statement error number -6206.
+The 42m module '' could not be loaded, check FGLLDPATH environment variable.
+Date: 10/14/2021    Time: 13:57:26
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 11/02/2021    Time: 15:41:18
+Program error at 'fc_datos_ips.4gl', line number 30.
+FORMS statement error number -1110.
+Form file (fe_datos_ips) not found.
+Date: 11/03/2021    Time: 16:01:21
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 11/11/2021    Time: 11:02:33
+Program error at 'fc_main.4gl', line number 568.
+FORMS statement error number -1110.
+Form file (fenit) not found.
+Date: 11/11/2021    Time: 11:27:54
+Program error at 'fc_main.4gl', line number 568.
+FORMS statement error number -1110.
+Form file (fenit) not found.
+Date: 11/11/2021    Time: 17:16:54
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 11/12/2021    Time: 17:18:18
+Program error at 'fc_datos_ips.4gl', line number 30.
+FORMS statement error number -1110.
+Form file (fe_datos_ips) not found.
+Date: 11/26/2021    Time: 11:59:58
+Program error at 'fc_datos_ips.4gl', line number 30.
+FORMS statement error number -1110.
+Form file (fe_datos_ips) not found.
+Date: 11/26/2021    Time: 14:34:19
+Program error at 'fc_datos_ips.4gl', line number 30.
+FORMS statement error number -1110.
+Form file (fe_datos_ips) not found.
+Date: 11/26/2021    Time: 17:45:48
+Program error at 'fc_datos_ips.4gl', line number 30.
+FORMS statement error number -1110.
+Form file (fe_datos_ips) not found.
+Date: 11/30/2021    Time: 09:55:57
+Program error at 'fc_datos_ips.4gl', line number 30.
+FORMS statement error number -1110.
+Form file (fe_datos_ips) not found.
+Date: 11/30/2021    Time: 10:41:15
+Program error at 'fc_datos_ips.4gl', line number 30.
+FORMS statement error number -1110.
+Form file (fe_datos_ips) not found.
+Date: 11/30/2021    Time: 16:00:56
+Program error at 'fc_datos_ips.4gl', line number 30.
+FORMS statement error number -1110.
+Form file (fe_datos_ips) not found.
+Date: 12/13/2021    Time: 15:52:19
+Program error at 'fc_factura.4gl', line number 196.
+SQL statement error number -284.
+A subquery has returned not exactly one row.
+Date: 12/13/2021    Time: 15:52:41
+Program error at 'fc_factura.4gl', line number 196.
+SQL statement error number -284.
+A subquery has returned not exactly one row.
+Date: 12/13/2021    Time: 15:54:32
+Program error at 'fc_factura.4gl', line number 196.
+SQL statement error number -284.
+A subquery has returned not exactly one row.
+Date: 12/13/2021    Time: 15:55:01
+Program error at 'fc_factura.4gl', line number 196.
+SQL statement error number -284.
+A subquery has returned not exactly one row.
+Date: 12/13/2021    Time: 15:55:52
+Program error at 'fc_factura.4gl', line number 196.
+SQL statement error number -284.
+A subquery has returned not exactly one row.
+Date: 12/13/2021    Time: 15:57:30
+Program error at 'fc_factura.4gl', line number 196.
+SQL statement error number -284.
+A subquery has returned not exactly one row.
+Date: 12/13/2021    Time: 15:57:57
+Program error at 'fc_factura.4gl', line number 196.
+SQL statement error number -284.
+A subquery has returned not exactly one row.
+Date: 12/21/2021    Time: 09:07:14
+Program error at 'fc_main.4gl', line number 247.
+SQL statement error number -25582.
+Network connection is broken.
+Date: 12/22/2021    Time: 13:52:46
+Program error at 'fc_main.4gl', line number 247.
+SQL statement error number -25582.
+Network connection is broken.
+Date: 12/29/2021    Time: 09:05:24
+Program error at 'fc_datos_ips.4gl', line number 30.
+FORMS statement error number -1110.
+Form file (fe_datos_ips) not found.
+Date: 12/29/2021    Time: 12:07:23
+Program error at 'fc_datos_ips.4gl', line number 30.
+FORMS statement error number -1110.
+Form file (fe_datos_ips) not found.
+Date: 01/21/2022    Time: 11:50:08
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 01/21/2022    Time: 11:54:28
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 01/21/2022    Time: 11:54:54
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 01/24/2022    Time: 15:48:30
+Program error at 'fc_factura.4gl', line number 16391.
+FORMS statement error number -6206.
+The 42m module '' could not be loaded, check FGLLDPATH environment variable.
+Date: 01/24/2022    Time: 16:53:32
+Program error at 'fc_reportes_varios.4gl', line number 25.
+SQL statement error number -284.
+A subquery has returned not exactly one row.
+Date: 01/24/2022    Time: 16:58:13
+Program error at 'fc_reportes_varios.4gl', line number 25.
+SQL statement error number -284.
+A subquery has returned not exactly one row.
+Date: 02/04/2022    Time: 11:31:22
+Program error at 'fc_factura.4gl', line number 2837.
+FORMS statement error number -6206.
+The 42m module '' could not be loaded, check FGLLDPATH environment variable.
+Date: 02/04/2022    Time: 12:37:01
+Program error at 'fc_factura.4gl', line number 3587.
+FORMS statement error number -6327.
+Internal error in the run time library file myOperators.c(1157).
+Date: 03/08/2022    Time: 15:57:19
+Program error at 'fc_factura.4gl', line number 192.
+SQL statement error number -404.
+The cursor or statement is not available.
+Date: 03/17/2022    Time: 14:03:51
+Program error at 'fc_main.4gl', line number 568.
+FORMS statement error number -1110.
+Form file (fenit) not found.
+Date: 03/22/2022    Time: 14:55:24
+Program error at 'fc_main.4gl', line number 1.
+FORMS statement error number -6327.
+Internal error in the run time library file myOperators.c(1156).
+Date: 03/22/2022    Time: 17:49:27
+Program error at 'fc_nota_ajuste.4gl', line number 78.
+FORMS statement error number -1102.
+Field (fc_nota_ajuste_nit) not found in form.
+Date: 03/25/2022    Time: 08:47:55
+Program error at 'fc_nota_ajuste.4gl', line number 121.
+SQL statement error number -284.
+A subquery has returned not exactly one row.
+Date: 03/25/2022    Time: 09:11:02
+Program error at 'fc_nota_ajuste.4gl', line number 121.
+SQL statement error number -217.
+Column (prefijo) not found in any table in the query (or SLV is undefined).
+Date: 03/30/2022    Time: 09:13:57
+Program error at 'fc_nota_ajuste.4gl', line number 131.
+SQL statement error number -201.
+A syntax error has occurred.
+Date: 03/30/2022    Time: 09:19:22
+Program error at 'fc_nota_ajuste.4gl', line number 144.
+FORMS statement error number -1119.
+NEXT FIELD name not found in form.
+Date: 03/30/2022    Time: 09:34:05
+Program error at 'fc_nota_ajuste.4gl', line number 144.
+FORMS statement error number -1119.
+NEXT FIELD name not found in form.
+Date: 03/30/2022    Time: 16:22:08
+Program error at 'fc_nota_ajuste.4gl', line number 144.
+FORMS statement error number -1119.
+NEXT FIELD name not found in form.
+Date: 03/30/2022    Time: 16:26:43
+Program error at 'fc_nota_ajuste.4gl', line number 85.
+FORMS statement error number -1129.
+Field (estado) in BEFORE/AFTER clause not found in form.
+Date: 03/30/2022    Time: 16:31:24
+Program error at 'fc_nota.4gl', line number 122.
+FORMS statement error number -1102.
+Field (tipo) not found in form.
+Date: 03/30/2022    Time: 16:52:37
+Program error at 'fc_nota.4gl', line number 122.
+FORMS statement error number -1102.
+Field (tipo) not found in form.
+Date: 03/31/2022    Time: 11:47:09
+Program error at 'fc_nota.4gl', line number 122.
+FORMS statement error number -1102.
+Field (tipo) not found in form.
+Date: 04/01/2022    Time: 07:40:01
+Program error at 'fc_nota.4gl', line number 122.
+FORMS statement error number -1102.
+Field (tipo) not found in form.
+Date: 04/01/2022    Time: 10:32:59
+Program error at 'fc_nota.4gl', line number 122.
+FORMS statement error number -1102.
+Field (tipo) not found in form.
+Date: 04/01/2022    Time: 11:03:43
+Program error at 'fc_nota.4gl', line number 122.
+FORMS statement error number -1102.
+Field (tipo) not found in form.
+Date: 04/01/2022    Time: 15:47:55
+Program error at 'fc_nota.4gl', line number 122.
+FORMS statement error number -1102.
+Field (tipo) not found in form.
+Date: 04/01/2022    Time: 15:55:38
+Program error at 'fc_nota.4gl', line number 122.
+FORMS statement error number -1102.
+Field (tipo) not found in form.
+Date: 04/04/2022    Time: 07:27:40
+Program error at 'fc_nota.4gl', line number 122.
+FORMS statement error number -1102.
+Field (tipo) not found in form.
+Date: 04/04/2022    Time: 07:57:06
+Program error at 'fc_nota.4gl', line number 122.
+FORMS statement error number -1102.
+Field (tipo) not found in form.
+Date: 04/04/2022    Time: 07:58:45
+Program error at 'fc_nota.4gl', line number 122.
+FORMS statement error number -1102.
+Field (tipo) not found in form.
+Date: 04/04/2022    Time: 08:11:34
+Program error at 'fc_nota.4gl', line number 122.
+FORMS statement error number -1102.
+Field (tipo) not found in form.
+Date: 04/04/2022    Time: 08:21:32
+Program error at 'fc_nota.4gl', line number 122.
+FORMS statement error number -1102.
+Field (tipo) not found in form.
+Date: 04/04/2022    Time: 08:23:09
+Program error at 'fc_nota.4gl', line number 122.
+FORMS statement error number -1102.
+Field (tipo) not found in form.
+Date: 04/04/2022    Time: 14:27:29
+Program error at 'fc_nota.4gl', line number 122.
+FORMS statement error number -1102.
+Field (tipo) not found in form.
+Date: 04/05/2022    Time: 15:20:41
+Program error at 'fc_main.4gl', line number 255.
+SQL statement error number -535.
+Already in transaction.
+Date: 04/05/2022    Time: 15:21:59
+Program error at 'fc_main.4gl', line number 255.
+SQL statement error number -535.
+Already in transaction.
+Date: 04/05/2022    Time: 15:25:40
+Program error at 'fc_main.4gl', line number 255.
+SQL statement error number -535.
+Already in transaction.
+Date: 04/21/2022    Time: 15:12:06
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 04/21/2022    Time: 15:12:33
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 04/21/2022    Time: 15:13:57
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 04/21/2022    Time: 15:14:23
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 04/21/2022    Time: 15:15:25
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 04/28/2022    Time: 15:20:12
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 04/28/2022    Time: 15:20:21
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 04/28/2022    Time: 15:21:39
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 04/28/2022    Time: 15:24:14
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 04/28/2022    Time: 15:27:12
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 04/28/2022    Time: 15:50:13
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 04/28/2022    Time: 15:58:37
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 04/29/2022    Time: 07:55:01
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 04/29/2022    Time: 08:40:51
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 04/29/2022    Time: 11:08:18
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 04/29/2022    Time: 11:09:02
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 04/29/2022    Time: 11:10:38
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 04/29/2022    Time: 11:58:20
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 05/02/2022    Time: 15:43:08
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 05/05/2022    Time: 08:56:23
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 05/05/2022    Time: 10:17:52
+Program error at 'ReportePri.4gl', line number 355.
+SQL statement error number -217.
+Column (docum) not found in any table in the query (or SLV is undefined).
+Date: 05/05/2022    Time: 10:18:16
+Program error at 'ReportePri.4gl', line number 355.
+SQL statement error number -217.
+Column (docum) not found in any table in the query (or SLV is undefined).
+Date: 05/05/2022    Time: 10:19:45
+Program error at 'fc_comgen.4gl', line number 32.
+FORMS statement error number -1110.
+Form file (genimp) not found.
+Date: 05/05/2022    Time: 10:22:39
+Program error at 'ReportePri.4gl', line number 287.
+FORMS statement error number -1322.
+A report output file cannot be opened: : No existe el fichero o el directorio.
+Date: 05/05/2022    Time: 10:23:17
+Program error at 'ReportePri.4gl', line number 287.
+FORMS statement error number -1322.
+A report output file cannot be opened: : No existe el fichero o el directorio.
+Date: 05/05/2022    Time: 10:29:52
+Program error at 'ReportePri.4gl', line number 287.
+FORMS statement error number -1322.
+A report output file cannot be opened: : No existe el fichero o el directorio.
+Date: 05/05/2022    Time: 10:30:50
+Program error at 'ReportePri.4gl', line number 281.
+FORMS statement error number -1322.
+A report output file cannot be opened: : No existe el fichero o el directorio.
+Date: 05/05/2022    Time: 10:35:04
+Program error at 'fc_comgen.4gl', line number 102.
+FORMS statement error number -1102.
+Field (o) not found in form.
+Date: 05/05/2022    Time: 10:37:52
+Program error at 'fc_comgen.4gl', line number 102.
+FORMS statement error number -1102.
+Field (o) not found in form.
+Date: 05/05/2022    Time: 10:41:59
+Program error at 'ReportePri.4gl', line number 281.
+FORMS statement error number -1322.
+A report output file cannot be opened: : No existe el fichero o el directorio.
+Date: 05/05/2022    Time: 10:43:11
+Program error at 'ReportePri.4gl', line number 272.
+FORMS statement error number -1322.
+A report output file cannot be opened: : No existe el fichero o el directorio.
+Date: 05/05/2022    Time: 10:44:34
+Program error at 'ReportePri.4gl', line number 272.
+FORMS statement error number -1322.
+A report output file cannot be opened: : No existe el fichero o el directorio.
+Date: 05/05/2022    Time: 10:45:01
+Program error at 'ReportePri.4gl', line number 272.
+FORMS statement error number -1322.
+A report output file cannot be opened: : No existe el fichero o el directorio.
+Date: 05/05/2022    Time: 10:46:08
+Program error at 'ReportePri.4gl', line number 272.
+FORMS statement error number -1322.
+A report output file cannot be opened: : No existe el fichero o el directorio.
+Date: 05/05/2022    Time: 10:46:43
+Program error at 'ReportePri.4gl', line number 272.
+FORMS statement error number -1322.
+A report output file cannot be opened: : No existe el fichero o el directorio.
+Date: 05/05/2022    Time: 10:49:32
+Program error at 'ReportePri.4gl', line number 273.
+FORMS statement error number -1322.
+A report output file cannot be opened: : No existe el fichero o el directorio.
+Date: 05/05/2022    Time: 11:25:37
+Program error at 'fc_factura.4gl', line number 1396.
+FORMS statement error number -6206.
+The 42m module '' could not be loaded, check FGLLDPATH environment variable.
+Date: 05/05/2022    Time: 13:53:23
+Program error at 'ReportePri.4gl', line number 0.
+FORMS statement error number -6327.
+Internal error in the run time library file myOperators.c(168):s.curr.
+Date: 05/05/2022    Time: 14:13:54
+Program error at 'ReportePri.4gl', line number 61952.
+FORMS statement error number -6327.
+Internal error in the run time library file myOperators.c(168):s.curr.
+Date: 05/05/2022    Time: 14:38:22
+Program error at 'fc_factura.4gl', line number 1486.
+FORMS statement error number -1338.
+The function 'reporte_docsop' has not been defined in any module in the program.
+Date: 05/05/2022    Time: 15:03:31
+Program error at 'ReportePri.4gl', line number 0.
+FORMS statement error number -6327.
+Internal error in the run time library file myStack.c(623).
+Date: 05/05/2022    Time: 15:33:00
+Program error at 'ReportePri.4gl', line number 28.
+FORMS statement error number -6327.
+Internal error in the run time library file myStack.c(81).
+Date: 05/06/2022    Time: 09:53:58
+Program error at 'fc_factura.4gl', line number 34565.
+FORMS statement error number -6206.
+The 42m module '' could not be loaded, check FGLLDPATH environment variable.
+Date: 05/06/2022    Time: 10:52:54
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 05/06/2022    Time: 10:53:10
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 05/06/2022    Time: 14:57:53
+Program error at 'fc_factura.4gl', line number 59648.
+FORMS statement error number -1260.
+It is not possible to convert between the specified types.
+Date: 05/06/2022    Time: 16:34:21
+Program error at 'fc_factura.4gl', line number 63524.
+FORMS statement error number -6327.
+Internal error in the run time library file myStack.c(227):mystack_top.
+Date: 06/03/2022    Time: 11:55:31
+Program error at 'ReportePri.4gl', line number 136.
+SQL statement error number -284.
+A subquery has returned not exactly one row.
+Date: 06/10/2022    Time: 14:54:52
+Program error at 'fc_factura.4gl', line number 85.
+FORMS statement error number -8083.
+Null pointer exception.
+Date: 06/10/2022    Time: 14:58:58
+Program error at 'fc_factura.4gl', line number 4977.
+FORMS statement error number -8083.
+Null pointer exception.
+Date: 06/10/2022    Time: 15:01:25
+Program error at 'fc_factura.4gl', line number 105.
+FORMS statement error number -8083.
+Null pointer exception.
+Date: 06/16/2022    Time: 10:15:14
+Program error at 'ReportePri.4gl', line number 267.
+FORMS statement error number -1320.
+A function has not returned the correct number of values expected.
+Date: 06/24/2022    Time: 10:00:01
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 06/24/2022    Time: 10:00:14
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 06/24/2022    Time: 10:02:58
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 06/24/2022    Time: 10:03:21
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 06/24/2022    Time: 10:03:52
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 06/24/2022    Time: 10:03:59
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 06/24/2022    Time: 10:07:27
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 06/24/2022    Time: 10:13:27
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 06/24/2022    Time: 10:13:33
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 06/24/2022    Time: 10:13:48
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 07/01/2022    Time: 15:05:57
+Program error at 'ReportePri.4gl', line number 221.
+SQL statement error number -284.
+A subquery has returned not exactly one row.
+Date: 08/02/2022    Time: 16:02:29
+Program error at 'fc_consumo_web_service.4gl', line number 313.
+SQL statement error number -201.
+A syntax error has occurred.
+Date: 08/02/2022    Time: 16:03:57
+Program error at 'fc_consumo_web_service.4gl', line number 313.
+SQL statement error number -201.
+A syntax error has occurred.
+Date: 08/02/2022    Time: 16:04:35
+Program error at 'fc_consumo_web_service.4gl', line number 313.
+SQL statement error number -201.
+A syntax error has occurred.
+Date: 08/02/2022    Time: 16:08:40
+Program error at 'fc_consumo_web_service.4gl', line number 313.
+SQL statement error number -201.
+A syntax error has occurred.
+Date: 08/02/2022    Time: 16:15:03
+Program error at 'fc_consumo_web_service.4gl', line number 313.
+SQL statement error number -201.
+A syntax error has occurred.
+Date: 08/02/2022    Time: 16:23:46
+Program error at 'fc_consumo_web_service.4gl', line number 313.
+SQL statement error number -201.
+A syntax error has occurred.
+Date: 08/03/2022    Time: 11:34:57
+Program error at 'fc_consumo_web_service.4gl', line number 37437.
+SQL statement error number -201.
+A syntax error has occurred.
+Date: 08/08/2022    Time: 14:56:39
+Program error at 'fc_main.4gl', line number 115.
+FORMS statement error number -6327.
+Internal error in the run time library file myOperators.c(1157).
+Date: 08/08/2022    Time: 14:58:12
+Program error at 'fc_main.4gl', line number 3358.
+FORMS statement error number -6327.
+Internal error in the run time library file myStack.c(375).
+Date: 08/08/2022    Time: 15:44:59
+Program error at 'fc_main.4gl', line number 115.
+FORMS statement error number -6327.
+Internal error in the run time library file myOperators.c(1157).
+Date: 08/09/2022    Time: 09:13:59
+Program error at 'fc_consumo_web_service.4gl', line number 778.
+FORMS statement error number -15701.
+Invalid parameter.
+Date: 08/09/2022    Time: 09:14:36
+Program error at 'fc_consumo_web_service.4gl', line number 778.
+FORMS statement error number -15701.
+Invalid parameter.
+Date: 08/09/2022    Time: 11:00:37
+Program error at 'fc_consumo_web_service.4gl', line number 787.
+FORMS statement error number -15701.
+Invalid parameter.
+Date: 08/09/2022    Time: 11:28:37
+Program error at 'fc_consumo_web_service.4gl', line number 789.
+FORMS statement error number -15701.
+Invalid parameter.
+Date: 08/09/2022    Time: 11:40:33
+Program error at 'fc_consumo_web_service.4gl', line number 789.
+FORMS statement error number -15701.
+Invalid parameter.
+Date: 08/10/2022    Time: 10:39:47
+Program error at 'fc_consumo_web_service.4gl', line number 771.
+FORMS statement error number -8067.
+Could not read source file for file transfer.
+Date: 08/10/2022    Time: 10:43:42
+Program error at 'fc_consumo_web_service.4gl', line number 794.
+FORMS statement error number -15701.
+Invalid parameter.
+Date: 08/10/2022    Time: 10:49:27
+Program error at 'fc_consumo_web_service.4gl', line number 794.
+FORMS statement error number -15701.
+Invalid parameter.
+Date: 08/10/2022    Time: 10:50:12
+Program error at 'fc_consumo_web_service.4gl', line number 794.
+FORMS statement error number -15701.
+Invalid parameter.
+Date: 08/10/2022    Time: 11:01:44
+Program error at 'fc_consumo_web_service.4gl', line number 794.
+FORMS statement error number -15701.
+Invalid parameter.
+Date: 08/10/2022    Time: 11:02:13
+Program error at 'fc_consumo_web_service.4gl', line number 794.
+FORMS statement error number -15701.
+Invalid parameter.
+Date: 08/10/2022    Time: 14:47:32
+Program error at 'fc_consumo_web_service.4gl', line number 793.
+FORMS statement error number -8087.
+File error in BYTE or TEXT readFile or writeFile.
+Date: 08/10/2022    Time: 15:07:41
+Program error at 'fc_consumo_web_service.4gl', line number 793.
+FORMS statement error number -8087.
+File error in BYTE or TEXT readFile or writeFile.
+Date: 08/12/2022    Time: 08:15:57
+Program error at 'fc_consumo_web_service.4gl', line number 790.
+FORMS statement error number -1260.
+It is not possible to convert between the specified types.
+Date: 08/17/2022    Time: 14:54:04
+Program error at 'fc_consumo_web_service.4gl', line number 663.
+SQL statement error number -1213.
+A character to numeric conversion process failed
+Date: 08/19/2022    Time: 15:00:01
+Program error at 'fc_consumo_web_service.4gl', line number 202.
+FORMS statement error number -1102.
+Field (numfactu) not found in form.
+Date: 08/19/2022    Time: 15:02:43
+Program error at 'fc_consumo_web_service.4gl', line number 192.
+FORMS statement error number -1102.
+Field (txt_folio_manual) not found in form.
+Date: 08/19/2022    Time: 16:41:30
+Program error at 'fc_consumo_web_service.4gl', line number 673.
+SQL statement error number -284.
+A subquery has returned not exactly one row.
+Date: 08/19/2022    Time: 16:50:05
+Program error at 'fc_consumo_web_service.4gl', line number 673.
+SQL statement error number -284.
+A subquery has returned not exactly one row.
+Date: 08/19/2022    Time: 16:53:18
+Program error at 'fc_consumo_web_service.4gl', line number 478.
+SQL statement error number -284.
+A subquery has returned not exactly one row.
+Date: 08/20/2022    Time: 09:43:27
+Program error at 'fc_consumo_web_service.4gl', line number 641.
+SQL statement error number -284.
+A subquery has returned not exactly one row.
+Date: 08/20/2022    Time: 09:44:20
+Program error at 'fc_consumo_web_service.4gl', line number 641.
+SQL statement error number -284.
+A subquery has returned not exactly one row.
+Date: 08/20/2022    Time: 09:45:06
+Program error at 'fc_consumo_web_service.4gl', line number 641.
+SQL statement error number -284.
+A subquery has returned not exactly one row.
+Date: 08/26/2022    Time: 08:48:00
+Program error at 'fc_factura.4gl', line number 440.
+FORMS statement error number -6206.
+The 42m module 'ForStmt' could not be loaded, check FGLLDPATH environment variable.
+Date: 08/29/2022    Time: 07:56:46
+Program error at 'fc_factura.4gl', line number 1536.
+FORMS statement error number -6327.
+Internal error in the run time library file myStack.c(227):mystack_top.
+Date: 08/29/2022    Time: 09:51:00
+Program error at 'fc_factura.4gl', line number 298.
+FORMS statement error number -6327.
+Internal error in the run time library file myStack.c(81).
+Date: 08/29/2022    Time: 09:51:40
+Program error at 'fc_factura.4gl', line number 0.
+FORMS statement error number -6327.
+Internal error in the run time library file myStack.c(589).
+Date: 08/29/2022    Time: 11:15:31
+Program error at 'fc_factura.4gl', line number 0.
+FORMS statement error number -6327.
+Internal error in the run time library file myStack.c(589).
+Date: 08/29/2022    Time: 11:19:43
+Program error at 'fc_factura.4gl', line number 0.
+FORMS statement error number -6327.
+Internal error in the run time library file myStack.c(589).
+Date: 08/29/2022    Time: 15:15:44
+Program error at 'fc_consumo_web_service.4gl', line number 635.
+SQL statement error number -284.
+A subquery has returned not exactly one row.
+Date: 08/31/2022    Time: 10:09:43
+Program error at 'fc_factura.4gl', line number 192.
+SQL statement error number -404.
+The cursor or statement is not available.
+Date: 08/31/2022    Time: 10:16:55
+Program error at 'fc_factura.4gl', line number 192.
+SQL statement error number -404.
+The cursor or statement is not available.
+Date: 08/31/2022    Time: 12:58:41
+Program error at 'fc_factura.4gl', line number 192.
+SQL statement error number -404.
+The cursor or statement is not available.
+Date: 09/06/2022    Time: 22:07:15
+Program error at 'fc_factura.4gl', line number 192.
+SQL statement error number -404.
+The cursor or statement is not available.
+Date: 09/12/2022    Time: 09:47:04
+Program error at 'fc_factura.4gl', line number 4065.
+FORMS statement error number -1335.
+A report is accepting output or being finished before it has been started.
+Date: 09/13/2022    Time: 09:13:03
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 09/13/2022    Time: 09:13:14
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 09/13/2022    Time: 09:14:10
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 09/15/2022    Time: 09:02:23
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 09/15/2022    Time: 09:02:33
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 09/15/2022    Time: 09:06:12
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 09/15/2022    Time: 09:27:23
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 09/15/2022    Time: 09:27:28
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 10/11/2022    Time: 16:32:23
+Program error at 'fc_factura.4gl', line number 4065.
+FORMS statement error number -1335.
+A report is accepting output or being finished before it has been started.
+Date: 10/12/2022    Time: 18:31:06
+Program error at 'fc_factura.4gl', line number 4634.
+FORMS statement error number -1335.
+A report is accepting output or being finished before it has been started.
+Date: 11/01/2022    Time: 16:02:30
+Program error at 'fc_consumo_web_service.4gl', line number 441.
+SQL statement error number -284.
+A subquery has returned not exactly one row.
+Date: 11/10/2022    Time: 08:17:31
+Program error at 'fc_consumo_web_service.4gl', line number 441.
+SQL statement error number -284.
+A subquery has returned not exactly one row.
+Date: 11/23/2022    Time: 11:09:14
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 11/23/2022    Time: 11:09:24
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 11/23/2022    Time: 17:01:19
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 11/30/2022    Time: 16:24:57
+Program error at 'fc_factura.4gl', line number 196.
+SQL statement error number -284.
+A subquery has returned not exactly one row.
+Date: 12/02/2022    Time: 07:29:05
+Program error at 'fc_consumo_web_service.4gl', line number 1.
+FORMS statement error number -1260.
+It is not possible to convert between the specified types.
+Date: 12/02/2022    Time: 15:20:31
+Program error at 'fc_consumo_web_service.4gl', line number 0.
+FORMS statement error number -6327.
+Internal error in the run time library file vm_interp.c(799):nret == mystack_top->index - stack0.
+Date: 12/02/2022    Time: 15:21:21
+Program error at 'fc_consumo_web_service.4gl', line number 0.
+FORMS statement error number -6327.
+Internal error in the run time library file vm_interp.c(799):nret == mystack_top->index - stack0.
+Date: 12/05/2022    Time: 15:15:02
+Program error at 'fc_factura.4gl', line number 2048.
+FORMS statement error number -6327.
+Internal error in the run time library file myStack.c(617).
+Date: 12/12/2022    Time: 16:09:26
+Program error at 'fc_factura.4gl', line number 1024.
+FORMS statement error number -1337.
+The variable status has been redefined with a different type or length, definition in fc_servicios.4gl, redefinition in fgldialog.4gl.
+Date: 12/13/2022    Time: 12:36:46
+Program error at 'fc_consumo_web_service.4gl', line number 851.
+SQL statement error number -284.
+A subquery has returned not exactly one row.
+Date: 12/19/2022    Time: 15:31:53
+Program error at 'fc_consumo_web_service.4gl', line number 5120.
+FORMS statement error number -6327.
+Internal error in the run time library file myStack.c(227):mystack_top.
+Date: 12/19/2022    Time: 15:37:40
+Program error at 'fc_consumo_web_service.4gl', line number 5120.
+FORMS statement error number -6327.
+Internal error in the run time library file myStack.c(227):mystack_top.
+Date: 12/26/2022    Time: 09:53:39
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 12/26/2022    Time: 09:55:02
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 12/26/2022    Time: 09:55:08
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 12/27/2022    Time: 16:29:48
+Program error at 'fc_main.4gl', line number 797.
+FORMS statement error number -6327.
+Internal error in the run time library file myStack.c(81).
+Date: 12/27/2022    Time: 16:47:58
+Program error at 'fc_main.4gl', line number 3077.
+FORMS statement error number -6327.
+Internal error in the run time library file myOperators.c(1157).
+Date: 12/27/2022    Time: 17:06:02
+Program error at 'fc_nota_ajuste.4gl', line number 12082.
+FORMS statement error number -1320.
+A function has not returned the correct number of values expected.
+Date: 12/28/2022    Time: 09:58:24
+Program error at 'fc_main.4gl', line number 3077.
+FORMS statement error number -6206.
+The 42m module 'dow_close' could not be loaded, check FGLLDPATH environment variable.
+Date: 12/28/2022    Time: 10:09:16
+Program error at 'fc_nota_ajuste.4gl', line number 128.
+SQL statement error number -1213.
+A character to numeric conversion process failed
+Date: 12/28/2022    Time: 10:32:08
+Program error at 'fc_nota_ajuste.4gl', line number 9984.
+FORMS statement error number -6327.
+Internal error in the run time library file myStack.c(227):mystack_top.
+Date: 12/28/2022    Time: 10:41:19
+Program error at 'fc_nota_ajuste.4gl', line number 0.
+FORMS statement error number -6327.
+Internal error in the run time library file myStack.c(227):mystack_top.
+Date: 12/28/2022    Time: 15:30:54
+Program error at 'fc_main.4gl', line number 3358.
+FORMS statement error number -6327.
+Internal error in the run time library file myStack.c(375).
+Date: 12/28/2022    Time: 15:40:26
+Program error at 'fc_consumo_web_service.4gl', line number 7425.
+FORMS statement error number -6206.
+The 42m module '' could not be loaded, check FGLLDPATH environment variable.
+Date: 12/28/2022    Time: 15:41:49
+Program error at 'fc_main.4gl', line number 0.
+FORMS statement error number -1320.
+A function has not returned the correct number of values expected.
+Date: 12/28/2022    Time: 15:41:54
+Program error at 'fc_consumo_web_service.4gl', line number 7951.
+FORMS statement error number -6327.
+Internal error in the run time library file myStack.c(603).
+Date: 12/28/2022    Time: 16:48:54
+Program error at 'fc_main.4gl', line number 4871.
+FORMS statement error number -6327.
+Internal error in the run time library file myOperators.c(200).
+Date: 12/30/2022    Time: 08:45:35
+Program error at 'fc_nota_ajuste.4gl', line number 137.
+SQL statement error number -284.
+A subquery has returned not exactly one row.
+Date: 01/04/2023    Time: 11:13:13
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 01/04/2023    Time: 11:14:48
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 01/16/2023    Time: 14:43:46
+Program error at 'fc_consumo_web_service.4gl', line number 880.
+SQL statement error number -284.
+A subquery has returned not exactly one row.
+Date: 01/19/2023    Time: 09:52:56
+Program error at 'fc_factura.4gl', line number 4065.
+FORMS statement error number -1335.
+A report is accepting output or being finished before it has been started.
+Date: 01/30/2023    Time: 10:44:30
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 02/14/2023    Time: 09:50:28
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 02/17/2023    Time: 15:09:47
+Program error at 'fc_factura.4gl', line number 4634.
+FORMS statement error number -1335.
+A report is accepting output or being finished before it has been started.
+Date: 02/28/2023    Time: 15:06:55
+Program error at 'fc_estados_fac.4gl', line number 135.
+SQL statement error number -284.
+A subquery has returned not exactly one row.
+Date: 03/08/2023    Time: 14:19:51
+Program error at 'fc_consumo_web_service.4gl', line number 880.
+SQL statement error number -284.
+A subquery has returned not exactly one row.
+Date: 03/08/2023    Time: 14:36:38
+Program error at 'fc_consumo_web_service.4gl', line number 880.
+SQL statement error number -284.
+A subquery has returned not exactly one row.
+Date: 03/09/2023    Time: 14:10:02
+Program error at 'fc_factura.4gl', line number 192.
+SQL statement error number -404.
+The cursor or statement is not available.
+Date: 04/13/2023    Time: 08:05:22
+Program error at 'fc_factura.4gl', line number 192.
+SQL statement error number -404.
+The cursor or statement is not available.
+Date: 05/04/2023    Time: 08:41:40
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 05/10/2023    Time: 15:53:01
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 05/10/2023    Time: 15:53:32
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 05/10/2023    Time: 15:53:56
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 05/10/2023    Time: 15:54:06
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 05/26/2023    Time: 11:43:09
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 05/30/2023    Time: 08:34:29
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 05/30/2023    Time: 08:47:40
+Program error at 'fc_factura.4gl', line number 192.
+SQL statement error number -404.
+The cursor or statement is not available.
+Date: 05/31/2023    Time: 08:59:51
+Program error at 'fc_factura.4gl', line number 192.
+SQL statement error number -404.
+The cursor or statement is not available.
+Date: 06/01/2023    Time: 11:02:44
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 06/02/2023    Time: 09:25:28
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 06/06/2023    Time: 09:08:49
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 06/07/2023    Time: 17:11:38
+Program error at 'fc_consumo_web_service.4gl', line number 17439.
+FORMS statement error number -8306.
+Java exception thrown: java.lang.NoClassDefFoundError.
+Date: 06/30/2023    Time: 08:53:59
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 06/30/2023    Time: 08:56:33
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 06/30/2023    Time: 08:57:28
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 06/30/2023    Time: 08:57:47
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 06/30/2023    Time: 08:58:41
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 06/30/2023    Time: 09:05:07
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 06/30/2023    Time: 09:10:07
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 06/30/2023    Time: 09:10:15
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 06/30/2023    Time: 09:10:27
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 06/30/2023    Time: 09:10:48
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 06/30/2023    Time: 09:12:42
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 06/30/2023    Time: 09:13:14
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 06/30/2023    Time: 09:15:27
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 06/30/2023    Time: 09:16:40
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 06/30/2023    Time: 09:16:57
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 06/30/2023    Time: 09:19:50
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 06/30/2023    Time: 09:20:00
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 06/30/2023    Time: 09:20:26
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 06/30/2023    Time: 09:20:41
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 06/30/2023    Time: 09:20:48
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 07/10/2023    Time: 08:51:03
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 07/10/2023    Time: 08:51:19
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 07/14/2023    Time: 14:51:34
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 07/17/2023    Time: 14:48:23
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 08/16/2023    Time: 17:01:38
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 08/17/2023    Time: 07:59:08
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 08/17/2023    Time: 07:59:17
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 08/17/2023    Time: 07:59:27
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 08/17/2023    Time: 08:02:50
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 08/17/2023    Time: 08:03:01
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 08/19/2023    Time: 09:38:47
+Program error at 'seguridad_val.4gl', line number 416.
+FORMS statement error number -1102.
+Field (logo) not found in form.
+Date: 08/19/2023    Time: 09:39:27
+Program error at 'seguridad_val.4gl', line number 416.
+FORMS statement error number -1102.
+Field (logo) not found in form.
+Date: 08/22/2023    Time: 11:15:18
+Program error at 'seguridad_val.4gl', line number 12.
+FORMS statement error number -1143.
+Window is already open.
+Date: 08/28/2023    Time: 16:57:48
+Program error at 'fc_consumo_web_service.4gl', line number 777.
+FORMS statement error number -8066.
+Could not write destination file for file transfer.
+Date: 09/08/2023    Time: 15:25:07
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 09/21/2023    Time: 16:44:12
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 09/21/2023    Time: 16:44:29
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 10/03/2023    Time: 15:15:32
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 10/03/2023    Time: 15:15:56
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 11/03/2023    Time: 11:44:45
+Program error at 'fc_estados_fac.4gl', line number 135.
+SQL statement error number -284.
+A subquery has returned not exactly one row.
+Date: 11/10/2023    Time: 12:24:21
+Program error at 'fc_main.4gl', line number 248.
+SQL statement error number -25582.
+Network connection is broken.
+Date: 11/10/2023    Time: 14:34:15
+Program error at 'fc_factura.4gl', line number 192.
+SQL statement error number -404.
+The cursor or statement is not available.
+Date: 12/05/2023    Time: 11:11:20
+Program error at 'seguridad_val.4gl', line number 570.
+SQL statement error number -25582.
+Network connection is broken.
+SYSTEM error number 54.
+Connection reset by peer
+Date: 12/05/2023    Time: 11:16:38
+Program error at 'fc_factura.4gl', line number 192.
+SQL statement error number -404.
+The cursor or statement is not available.
+Date: 12/05/2023    Time: 11:44:00
+Program error at 'seguridad_val.4gl', line number 570.
+SQL statement error number -25582.
+Network connection is broken.
+Date: 12/05/2023    Time: 14:15:30
+Program error at 'fc_factura.4gl', line number 192.
+SQL statement error number -404.
+The cursor or statement is not available.
+Date: 01/31/2024    Time: 13:51:01
+Program error at 'fc_nota_ajuste.4gl', line number 137.
+SQL statement error number -284.
+A subquery has returned not exactly one row.
+Date: 01/31/2024    Time: 13:53:47
+Program error at 'fc_nota_ajuste.4gl', line number 137.
+SQL statement error number -284.
+A subquery has returned not exactly one row.
+Date: 01/31/2024    Time: 14:25:17
+Program error at 'fc_nota_ajuste.4gl', line number 137.
+SQL statement error number -284.
+A subquery has returned not exactly one row.
+Date: 01/31/2024    Time: 14:25:59
+Program error at 'fc_nota_ajuste.4gl', line number 137.
+SQL statement error number -284.
+A subquery has returned not exactly one row.
+Date: 01/31/2024    Time: 14:44:51
+Program error at 'fc_consumo_web_service.4gl', line number 675.
+SQL statement error number -284.
+A subquery has returned not exactly one row.
+Date: 02/06/2024    Time: 14:13:02
+Program error at 'fc_main.4gl', line number 248.
+SQL statement error number -25582.
+Network connection is broken.
+Date: 02/06/2024    Time: 14:39:27
+Program error at 'fc_factura.4gl', line number 192.
+SQL statement error number -404.
+The cursor or statement is not available.
+Date: 02/13/2024    Time: 08:12:42
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 02/13/2024    Time: 08:14:39
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 02/13/2024    Time: 08:16:24
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 02/13/2024    Time: 08:17:53
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 02/13/2024    Time: 08:18:11
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 04/02/2024    Time: 15:49:19
+Program error at 'seguridad_val.4gl', line number 589.
+SQL statement error number -26005.
+The encrypted data is wrong or corrupted.
+Date: 04/02/2024    Time: 15:52:22
+Program error at 'seguridad_val.4gl', line number 589.
+SQL statement error number -26005.
+The encrypted data is wrong or corrupted.
+Date: 04/02/2024    Time: 15:52:50
+Program error at 'seguridad_val.4gl', line number 125.
+SQL statement error number -26005.
+The encrypted data is wrong or corrupted.
+Date: 04/02/2024    Time: 15:53:15
+Program error at 'seguridad_val.4gl', line number 589.
+SQL statement error number -26005.
+The encrypted data is wrong or corrupted.
+Date: 04/17/2024    Time: 10:24:14
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 05/23/2024    Time: 09:34:56
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 05/23/2024    Time: 09:35:13
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 06/11/2024    Time: 09:39:51
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 06/11/2024    Time: 09:40:41
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 06/11/2024    Time: 09:40:54
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 06/11/2024    Time: 09:42:33
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 06/11/2024    Time: 09:43:01
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 06/11/2024    Time: 09:44:05
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 06/11/2024    Time: 09:44:19
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 06/11/2024    Time: 09:45:10
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 06/13/2024    Time: 09:13:09
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 06/13/2024    Time: 15:08:44
+Program error at 'seguridad_val.4gl', line number 589.
+SQL statement error number -26005.
+The encrypted data is wrong or corrupted.
+Date: 07/02/2024    Time: 11:40:11
+Program error at 'fc_consumo_web_service.4gl', line number 911.
+SQL statement error number -284.
+A subquery has returned not exactly one row.
+Date: 07/12/2024    Time: 09:51:17
+Program error at 'fc_nota_ajuste.4gl', line number 137.
+SQL statement error number -284.
+A subquery has returned not exactly one row.
+Date: 07/12/2024    Time: 09:52:27
+Program error at 'fc_nota_ajuste.4gl', line number 137.
+SQL statement error number -284.
+A subquery has returned not exactly one row.
+Date: 07/17/2024    Time: 16:34:03
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 09/06/2024    Time: 10:52:12
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 10/01/2024    Time: 09:15:12
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 10/01/2024    Time: 17:52:47
+Program error at 'fc_consumo_web_service.4gl', line number 911.
+SQL statement error number -284.
+A subquery has returned not exactly one row.
+Date: 10/01/2024    Time: 17:54:00
+Program error at 'fc_consumo_web_service.4gl', line number 911.
+SQL statement error number -284.
+A subquery has returned not exactly one row.
+Date: 11/06/2024    Time: 10:41:37
+Program error at 'fc_main.4gl', line number 127.
+FORMS statement error number -6206.
+The 42m module 'fc_consumo_web_service' could not be loaded, check FGLLDPATH environment variable.
+Date: 11/06/2024    Time: 11:07:51
+Program error at 'fc_factura.4gl', line number 2.
+FORMS statement error number -6327.
+Internal error in the run time library file myOperators.c(1156).

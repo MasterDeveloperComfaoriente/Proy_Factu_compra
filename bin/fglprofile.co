@@ -1,0 +1,305 @@
+# Property of Four Js*
+# (c) Copyright Four Js 1995, 2012. All Rights Reserved.
+# * Trademark of Four Js Development Tools Europe Ltd
+#   in the United States and elsewhere
+
+#-----------------------------------------------------------------------
+# Default FGLPROFILE file Modificado para Comfaoriente
+#
+# This file contains all possible entries that can be set. These entries
+# may differ depending the graphical client that is used to display the
+# application. Keep this file as default, do not edit it. If you want to
+# customize some settings, copy this file to an other directory and set
+# the FGLPROFILE environment variable. Please refer to the documentation
+# for more details about multiple levels of fglprofile files.
+#-----------------------------------------------------------------------
+
+########################################################################
+## VIRTUAL MACHINE - GLOBAL SETTINGS
+########################################################################
+
+#-----------------------------------------------------------------------
+# Directory where program specific configuration files will be searched.
+# The configuration file must have the same name as the 4gl program. For
+# example: With "fglrun ia", the $FGLDIR/defaults/ia configuration will
+# be used.
+# Renark: Environment variables can be used in the value of this entry.
+# Default value : (none)
+#-----------------------------------------------------------------------
+#fglrun.defaults = "$FGLDIR/defaults"
+
+#-----------------------------------------------------------------------
+# Intermediate dialog triggers execution when moving from field to field
+# using the mouse. Dialog triggers are BEFORE FIELD, BEFORE ROW, AFTER
+# FIELD, AFTER ROW. When set to false, 4gl code in intermediate triggers
+# is not executed.
+# Default value : false
+#-----------------------------------------------------------------------
+#Dialog.fieldOrder = true
+
+#-----------------------------------------------------------------------
+# Memory mapping control. When set to true, memory mapping is disabled
+# and standard memory allocation method takes place. For more details
+# about memory mapping, run "man mmap" on UNIX.
+# Default value : false
+#-----------------------------------------------------------------------
+#fglrun.mmapDisable = false
+
+#-----------------------------------------------------------------------
+# Out of range control in static arrays. When this entry is set to
+# true, runtime system returns the first element of the array when
+# the index is <=0 or greater as the static array size. When set to
+# false, error -1326 is raised in case of out of bounds index.
+# Default value : false
+#-----------------------------------------------------------------------
+#fglrun.arrayIgnoreRangeError = true
+
+#-----------------------------------------------------------------------
+# Control the behaviour of ANY ERROR (typically expression errors).
+# If the next entry is true, fglrun does not distinguish ANY ERROR and
+# ERROR exception type: ANY ERROR exceptions will behave exactly like
+# ERROR exceptions.
+# Default value : false
+#-----------------------------------------------------------------------
+#fglrun.mapAnyErrorToError = true
+
+
+########################################################################
+## VIRTUAL MACHINE - USER INTERFACE SETTINGS
+########################################################################
+
+# Render as close as possible like the text user interface.
+# gui.uiMode = "traditional"
+
+#-----------------------------------------------------------------------
+# Offset for SHIFT+FKEY codes. By default, when pressing shift+F1, the
+# key code 13 is sent to the program. You can change this by setting
+# this entry to a different offset.
+# Default value : 12
+#-----------------------------------------------------------------------
+# gui.key.add_function = 12
+
+#-----------------------------------------------------------------------
+# Front-end protocol format.
+# Possible values are:
+#   "default" : Compression is off (fast networks)
+#   "zlib"    : zlib compression (slow networks)
+# On fast networks or when fglrun and front-end are co-located on the
+# same machine, we recommend to disable compression (default).
+# Default value : "default"
+#-----------------------------------------------------------------------
+#gui.protocol.format="default"
+
+#-----------------------------------------------------------------------
+# Timeout delay the runtime system waits for a front-end ping when there
+# is no user activity. After this delay the program stops with an error.
+# A value of -1 disables this feature.
+# Default value : 600 seconds
+#-----------------------------------------------------------------------
+#gui.protocol.pingTimeout=600
+
+#-----------------------------------------------------------------------
+# Timeout delay to connect to the front-end.
+# Default value : 30 seconds
+# A value of -1 means an infinite timeout delay.
+#-----------------------------------------------------------------------
+#gui.connection.timeout=30
+
+#-----------------------------------------------------------------------
+# GUI server autostart command and configuration settings
+#-----------------------------------------------------------------------
+#gui.server.autostart.cmd="<command to start the front-end>"
+# Delay to wait for connection after starting the GUI server
+#gui.server.autostart.wait=2
+# Number of connection attemps
+#gui.server.autostart.repeat=10
+# Map of X11/WinTerm server identifier to FGL GUI server number
+#gui.server.autostart.wsmap.max=3
+#gui.server.autostart.wsmap.0.names = "fox:1.0,fox.mydomain.com:1.0"
+#gui.server.autostart.wsmap.1.names = "wolf:1.0,wolf.mydomain.com:1.0"
+#gui.server.autostart.wsmap.2.names = "wolf:2.0,wolf.mydomain.com:2.0"
+
+#-----------------------------------------------------------------------
+# Localized String resource files
+#-----------------------------------------------------------------------
+#fglrun.localization.warnKeyNotFound = true
+#fglrun.localization.file.count = 1
+#fglrun.localization.file.1.name = "default"
+#fglrun.localization.file.1.name = "location"
+#fglrun.localization.file.3.name = "cat_usuarios"
+
+#-----------------------------------------------------------------------
+# Aggregate function evaluation in reports. When set to true, aggregate
+# functions like AVG() or SUM() are evaluated to zero if one or more
+# values are NULL. When set to false, the runtime evaluates to NULL.
+# Default value : false (evaluate to NULL)
+#-----------------------------------------------------------------------
+#Report.aggregateZero= true
+
+#-----------------------------------------------------------------------
+# Default key labels
+# Uncomment these lines if you want to get default labels like in BDS.
+# Note that these will overwrite the texts defined in action defaults.
+#-----------------------------------------------------------------------
+
+#key.help.text      = "Help"
+#key.accept.text    = "OK"
+#key.interrupt.text = "Interrupt"
+#key.delete.text    = "Delete"
+#key.insert.text    = "Add"
+#key.append.text    = "Append"
+#key.return.text    = "Return"
+#key.escape.text    = "Escape"
+#key.prevpage.text  = "Prev Page"
+#key.nextpage.text  = "Next Page"
+
+#-----------------------------------------------------------------------
+#key.f1.text  = "F1"
+#key.f2.text  = "F2"
+#key.f3.text  = "F3"
+#key.f4.text  = "F4"
+#key.f5.text  = "F5"
+#key.f6.text  = "F6"
+#key.f7.text  = "F7"
+#key.f8.text  = "F8"
+#key.f9.text  = "F9"
+#key.f10.text = "F10"
+#key.f11.text = "F11"
+#key.f12.text = "F12"
+#key.f13.text = "F13"
+#key.f14.text = "F14"
+#key.f15.text = "F15"
+#key.f16.text = "F16"
+#key.f17.text = "F17"
+#key.f18.text = "F18"
+#key.f19.text = "F19"
+#key.f20.text = "F20"
+#key.f21.text = "F21"
+#key.f22.text = "F22"
+#key.f23.text = "F23"
+#key.f24.text = "F24"
+#key.f25.text = "F25"
+#key.f26.text = "F26"
+#key.f27.text = "F27"
+#key.f28.text = "F28"
+#key.f29.text = "F29"
+#key.f30.text = "F30"
+#key.f31.text = "F31"
+#key.f32.text = "F32"
+#key.f33.text = "F33"
+#key.f34.text = "F34"
+#key.f35.text = "F35"
+#key.f36.text = "F36"
+#key.f37.text = "F37"
+#key.f38.text = "F38"
+#key.f39.text = "F39"
+#key.f40.text = "F40"
+#key.f41.text = "F41"
+#key.f42.text = "F42"
+
+#-----------------------------------------------------------------------
+#key.control-a.text = "Control-a"
+#key.control-b.text = "Control-b"
+#key.control-c.text = "Control-c"
+#key.control-d.text = "Control-d"
+#key.control-e.text = "Control-e"
+#key.control-f.text = "Control-f"
+#key.control-g.text = "Control-g"
+#key.control-h.text = "Control-h"
+#key.control-i.text = "Control-i"
+#key.control-j.text = "Control-j"
+#key.control-k.text = "Control-k"
+#key.control-l.text = "Control-l"
+#key.control-m.text = "Control-m"
+#key.control-n.text = "Control-n"
+#key.control-o.text = "Control-o"
+#key.control-p.text = "Control-p"
+#key.control-q.text = "Control-q"
+#key.control-r.text = "Control-r"
+#key.control-s.text = "Control-s"
+#key.control-t.text = "Control-t"
+#key.control-u.text = "Control-u"
+#key.control-v.text = "Control-v"
+#key.control-w.text = "Control-w"
+#key.control-x.text = "Control-x"
+#key.control-y.text = "Control-y"
+#key.control-z.text = "Control-z"
+
+
+########################################################################
+## VIRTUAL MACHINE - WINDOWS SPECIFIC
+########################################################################
+
+#-----------------------------------------------------------------------
+# Instructs the DVM to ignore the LOG OFF event.
+# Should be set to true if the DVM is started from a remote Windows
+# environment (ex: TSE)
+# Default value : false
+#-----------------------------------------------------------------------
+#fglrun.ignoreLogoffEvent = false
+
+#-----------------------------------------------------------------------
+# Instructs the DVM to ignore the debugger event
+# On windows, pressing The CTRL-BREAK key will attach the 4GL debugger.
+# On Unix, the signal SIGTRAP will attach the 4GL debugger.
+# Should be set to true if the debugger event should be ignored.
+# Default value : false
+#-----------------------------------------------------------------------
+#fglrun.ignoreDebuggerEvent = false
+
+########################################################################
+## VIRTUAL MACHINE - DATABASE INTERFACE CONFIGURATION 
+########################################################################
+
+#-----------------------------------------------------------------------
+# Default driver for dynamic database interface. When using runners
+# linked with the dynamic database interface, defines the database
+# driver to be loaded by default if not defined with dbi.* entries.
+# See the Open Database Interface documentation for more details.
+# Default value : (none)
+#-----------------------------------------------------------------------
+#dbi.default.driver = "<drvname>"
+
+#-----------------------------------------------------------------------
+# Data source definition for Open Database Interface drivers. Use these
+# entries to define connection parameters.
+# See the Open Database Interface documentation for more details.
+# Default value : (none)
+#-----------------------------------------------------------------------
+#dbi.database.<name>.source = "<value>"
+#dbi.database.<name>.driver = "<value>"
+#dbi.database.<name>.username = "<value>"
+#dbi.database.<name>.password = "<value>"
+#dbi.database.<name>.ifxemul.<feature> = (true|false)
+
+dbi.database.empresa.source = "empresa@comfaoriente_pr3"
+dbi.database.empresa.driver = "dbmifx_9"
+dbi.database.empresa.username = "informix"
+dbi.database.empresa.password = "info2016"
+
+security.global.ca        = "DispapelesCA.pem"
+                          
+ws.Doc.url                = "https://enviardocumentos.dispafel.com/DFFacturaElectronicaEnviarDocumentos/enviarDocumento?wsdl"
+ws.Doc.security           = "id1"
+security.id1.certificate  = "Comfaoriente.crt"
+security.id1.privatekey   = "Comfaoriente.pem"
+                          
+ws.DocEstado.url          = "https://consultarestadofactura.dispafel.com/DFFacturaElectronicaConsultarEstadoFactura/consultarEstado?wsdl"
+ws.DocEstado.security     = "id2"
+security.id2.certificate  = "Comfaoriente.crt"
+security.id2.privatekey   = "Comfaoriente.pem"
+                          
+ws.Archivo.url            = "https://consultarpdfxmlfactura.dispafel.com/DFFacturaElectronicaConsultarPdfXmlFactura/consultarArchivos?wsdl"
+ws.Archivo.security       = "id3"
+security.id3.certificate  = "Comfaoriente.crt"
+security.id3.privatekey   = "Comfaoriente.pem"
+                          
+ws.LoteDoc.url            = "https://enviardocumentoslote.dispafel.com/DFFacturaElectronicaEnviarDocumentosLote/enviarDocumentoLote?wsdl"
+ws.LoteDoc.security       = "id4"
+security.id4.certificate  = "Comfaoriente.crt"
+security.id4.privatekey   = "Comfaoriente.pem"
+                          
+ws.LoteDocEstado.url      = "https://consultarestadofacturaporlote.dispafel.com/DFFacturaElectronicaConsultarEstadoFacturaPorLote/consultarEstadoFacturaLote?wsdl"
+ws.LoteDocEstado.security = "id5"
+security.id5.certificate  = "Comfaoriente.crt"
+security.id5.privatekey   = "Comfaoriente.pem"

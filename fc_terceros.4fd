@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ManagedForm databaseName="empresa" fileVersion="30a00" gstVersion="30a0b" name="Root" uid="{45d5f0ba-4964-48fc-9ebc-84b8c49e6eb3}">
+  <AGSettings>
+    <DynamicProperties version="2"/>
+  </AGSettings>
+  <Record additionalTables="" joinLeft="" joinOperator="" joinRight="" name="Undefined" order="" uid="{caf90ddd-53fd-4210-91c8-94136c62c535}" where="">
+    <RecordField colName="tipid" fieldIdRef="22" fieldType="TABLE_COLUMN" name="fc_terceros.tipid" sqlTabName="fc_terceros" sqlType="CHAR" table_alias_name="" uid="{3242b8e7-ad4b-46ee-a3b2-4504af1cabf6}"/>
+    <RecordField colName="razsoc" fieldIdRef="6" fieldType="TABLE_COLUMN" name="fc_terceros.razsoc" sqlTabName="fc_terceros" sqlType="CHAR" table_alias_name="" uid="{4668f36e-bef5-44c5-b8ef-1eb9d7831625}"/>
+    <RecordField colName="primer_apellido" fieldIdRef="14" fieldType="TABLE_COLUMN" name="fc_terceros.primer_apellido" sqlTabName="fc_terceros" sqlType="CHAR" table_alias_name="" uid="{8803f483-a4c2-4aa7-bda5-c517c05e66da}"/>
+    <RecordField colName="zona" fieldIdRef="4" fieldType="TABLE_COLUMN" name="fc_terceros.zona" sqlTabName="fc_terceros" sqlType="CHAR" table_alias_name="" uid="{4effd22f-23e9-4aa6-954f-d88f3c3730d2}"/>
+    <RecordField colName="" fieldIdRef="5" fieldType="NON_DATABASE" name="detciu" sqlTabName="" sqlType="CHAR" table_alias_name="" uid="{ebfef38e-0216-437a-81c8-d2a142aaed73}"/>
+    <RecordField colName="direccion" fieldIdRef="16" fieldType="TABLE_COLUMN" name="fc_terceros.direccion" sqlTabName="fc_terceros" sqlType="CHAR" table_alias_name="" uid="{49054ae3-ff50-43bd-9fe5-5923c3842f9b}"/>
+    <RecordField colName="estado" fieldIdRef="7" fieldType="TABLE_COLUMN" name="fc_terceros.estado" sqlTabName="fc_terceros" sqlType="CHAR" table_alias_name="" uid="{b7b5551d-77eb-4658-8419-2126411edef9}"/>
+    <RecordField colName="nit" fieldIdRef="9" fieldType="TABLE_COLUMN" name="fc_terceros.nit" sqlTabName="fc_terceros" sqlType="CHAR" table_alias_name="" uid="{e8acacef-fcd6-4fbb-bfdf-269eaddb5ae8}"/>
+    <RecordField colName="tipo_persona" fieldIdRef="10" fieldType="TABLE_COLUMN" name="fc_terceros.tipo_persona" sqlTabName="fc_terceros" sqlType="CHAR" table_alias_name="" uid="{57bfb104-da21-43b0-a2bc-cbd663e1496e}"/>
+    <RecordField colName="segundo_apellido" fieldIdRef="1" fieldType="TABLE_COLUMN" name="fc_terceros.segundo_apellido" sqlTabName="fc_terceros" sqlType="CHAR" table_alias_name="" uid="{704a953a-7240-4409-a4ae-75fd26f680d3}"/>
+    <RecordField colName="primer_nombre" fieldIdRef="2" fieldType="TABLE_COLUMN" name="fc_terceros.primer_nombre" sqlTabName="fc_terceros" sqlType="CHAR" table_alias_name="" uid="{e69989b2-7454-4bb1-b2a6-e3107f9460d3}"/>
+    <RecordField colName="segundo_nombre" fieldIdRef="3" fieldType="TABLE_COLUMN" name="fc_terceros.segundo_nombre" sqlTabName="fc_terceros" sqlType="CHAR" table_alias_name="" uid="{c1cc8941-fe34-416e-b5b7-c8157f943d11}"/>
+    <RecordField colName="telefono" fieldIdRef="11" fieldType="TABLE_COLUMN" name="fc_terceros.telefono" sqlTabName="fc_terceros" sqlType="CHAR" table_alias_name="" uid="{ed39db6b-3afb-46a8-b39e-efaa6b038099}"/>
+    <RecordField colName="celular" fieldIdRef="13" fieldType="TABLE_COLUMN" name="fc_terceros.celular" sqlTabName="fc_terceros" sqlType="CHAR" table_alias_name="" uid="{5ab47d09-9a39-4567-b1d6-cb70f5c67485}"/>
+    <RecordField colName="pais" fieldIdRef="15" fieldType="TABLE_COLUMN" name="fc_terceros.pais" sqlTabName="fc_terceros" sqlType="CHAR" table_alias_name="" uid="{8f05bf01-17e6-440f-916c-b33528c70363}"/>
+    <RecordField colName="" fieldIdRef="17" fieldType="NON_DATABASE" name="detpais" sqlTabName="" sqlType="CHAR" table_alias_name="" uid="{0f000edf-01a6-4441-8876-8ed02723adc8}"/>
+    <RecordField colName="medio_recep" fieldIdRef="12" fieldType="TABLE_COLUMN" name="fc_terceros.medio_recep" sqlTabName="fc_terceros" sqlType="CHAR" table_alias_name="" uid="{1a0404e8-5c77-47f1-9df0-93511e3c0b32}"/>
+    <RecordField colName="email" fieldIdRef="20" fieldType="TABLE_COLUMN" name="fc_terceros.email" sqlTabName="fc_terceros" sqlType="CHAR" table_alias_name="" uid="{254f2492-4fe5-41a2-b58c-7eb01f2b36a2}"/>
+    <RecordField colName="digver" fieldIdRef="19" fieldType="TABLE_COLUMN" name="fc_terceros.digver" sqlTabName="fc_terceros" sqlType="CHAR" table_alias_name="" uid="{079558d3-84cd-4fd1-8d34-bcf51db60b8f}"/>
+    <RecordField colName="regimen" fieldIdRef="8" fieldType="TABLE_COLUMN" name="fc_terceros.regimen" sqlTabName="fc_terceros" uid="{7595df6e-8645-4d1f-b81f-df28c8c8620c}"/>
+    <RecordField fieldIdRef="18" name="ed_regimen" uid="{3bc3f468-a48d-43ec-a19c-c1a5fba237c9}"/>
+  </Record>
+  <Form gridHeight="21" gridWidth="146" lstrtext="false" name="fc_terceros" spacing="normal" text="INFORMACION DE PROVEEDORES">
+    <Grid gridHeight="18" gridWidth="143" lstrcomment="false" name="gr3" posX="3" posY="1">
+      <Label gridHeight="1" gridWidth="21" lstrcomment="false" lstrtext="false" name="lb31" posX="39" posY="0" text="INFORMACION DEL PROVEEDOR"/>
+      <HLine gridWidth="98" name="HLine4" posX="0" posY="1"/>
+      <Label gridHeight="1" gridWidth="13" lstrcomment="false" lstrtext="false" name="lb32" posX="3" posY="2" text="Tipo Identificacion:"/>
+      <ComboBox aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="tipid" fieldId="22" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="23" items="" lstrcomment="false" lstrtitle="false" name="fc_terceros.tipid" posX="17" posY="2" sizePolicy="initial" sqlTabName="fc_terceros" sqlType="CHAR" tabIndex="18" table_alias_name="" widget="ComboBox"/>
+      <Label gridHeight="1" gridWidth="15" lstrcomment="false" lstrtext="false" name="lb5" posX="43" posY="2" text="Numero Identificacion:"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" case="upper" colName="nit" fieldId="9" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="20" lstrcomment="false" lstrtitle="false" name="fc_terceros.nit" posX="59" posY="2" sqlTabName="fc_terceros" sqlType="CHAR" tabIndex="7" table_alias_name="" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="6" lstrcomment="false" lstrtext="false" name="lb14" posX="80" posY="2" text="Dig.Ver:"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" case="upper" colName="digver" fieldId="19" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="3" lstrcomment="false" lstrtitle="false" name="fc_terceros.digver" posX="87" posY="2" sqlTabName="fc_terceros" sqlType="CHAR" tabIndex="21" table_alias_name="" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="10" lstrcomment="false" lstrtext="false" name="lb1" posX="3" posY="3" text="Tipo Persona :"/>
+      <ComboBox aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="tipo_persona" fieldId="10" fieldType="TABLE_COLUMN" fontPitch="variable" gridHeight="1" gridWidth="13" items="" lstrcomment="false" lstrtitle="false" name="fc_terceros.tipo_persona" posX="17" posY="3" sqlTabName="fc_terceros" sqlType="CHAR" tabIndex="8" table_alias_name="" widget="ComboBox"/>
+      <Label gridHeight="1" gridWidth="11" lstrcomment="false" lstrtext="false" name="lb13" posX="43" posY="3" text="Regimen Fiscal :"/>
+      <Edit colName="regimen" fieldId="8" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="4" name="fc_terceros.regimen" posX="55" posY="3" sqlTabName="fc_terceros" tabIndex="-1" title="edit1" widget="Edit"/>
+      <Edit fieldId="18" gridHeight="1" gridWidth="30" name="ed_regimen" posX="60" posY="3" tabIndex="-1" title="edit1" widget="Edit"/>
+      <HLine gridWidth="98" name="HLine1" posX="0" posY="4"/>
+      <Label colorCondition="black" gridHeight="1" gridWidth="12" lstrcomment="false" lstrtext="false" name="lb61" posX="2" posY="5" text="Razon Social :"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" case="upper" colName="razsoc" fieldId="6" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="80" lstrcomment="false" lstrtitle="false" name="fc_terceros.razsoc" posX="15" posY="5" sqlTabName="fc_terceros" sqlType="CHAR" tabIndex="5" table_alias_name="" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="12" lstrcomment="false" lstrtext="false" name="lb52" posX="2" posY="6" text="Primer Apellido :"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" case="upper" colName="primer_apellido" fieldId="14" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="30" lstrcomment="false" lstrtitle="false" name="fc_terceros.primer_apellido" posX="15" posY="6" sqlTabName="fc_terceros" sqlType="CHAR" tabIndex="1" table_alias_name="" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="12" lstrcomment="false" lstrtext="false" name="lb2" posX="46" posY="6" text="Segundo Apellido:"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" case="upper" colName="segundo_apellido" fieldId="1" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="30" lstrcomment="false" lstrtitle="false" name="fc_terceros.segundo_apellido" posX="59" posY="6" sqlTabName="fc_terceros" sqlType="CHAR" tabIndex="9" table_alias_name="" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="11" lstrcomment="false" lstrtext="false" name="lb6" posX="2" posY="7" text="Primer Nombre:"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" case="upper" colName="primer_nombre" fieldId="2" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="30" lstrcomment="false" lstrtitle="false" name="fc_terceros.primer_nombre" posX="15" posY="7" sqlTabName="fc_terceros" sqlType="CHAR" tabIndex="10" table_alias_name="" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="12" lstrcomment="false" lstrtext="false" name="lb7" posX="46" posY="7" text="Segundo Nombre:"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" case="upper" colName="segundo_nombre" fieldId="3" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="30" lstrcomment="false" lstrtitle="false" name="fc_terceros.segundo_nombre" posX="59" posY="7" sqlTabName="fc_terceros" sqlType="CHAR" tabIndex="11" table_alias_name="" widget="Edit"/>
+      <HLine gridWidth="98" name="HLine2" posX="0" posY="8"/>
+      <Label gridHeight="1" gridWidth="8" lstrcomment="false" lstrtext="false" name="lb58" posX="2" posY="9" text="Direccion:"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" case="upper" colName="direccion" fieldId="16" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="50" lstrcomment="false" lstrtitle="false" name="fc_terceros.direccion" posX="11" posY="9" sqlTabName="fc_terceros" sqlType="CHAR" tabIndex="2" table_alias_name="" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="7" lstrcomment="false" lstrtext="false" name="lb8" posX="64" posY="9" text="Telefono:"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" case="upper" colName="telefono" fieldId="11" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="15" lstrcomment="false" lstrtitle="false" name="fc_terceros.telefono" posX="72" posY="9" sqlTabName="fc_terceros" sqlType="CHAR" tabIndex="12" table_alias_name="" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="6" lstrcomment="false" lstrtext="false" name="lb9" posX="2" posY="10" text="Celular:"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" case="upper" colName="celular" fieldId="13" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="10" lstrcomment="false" lstrtitle="false" name="fc_terceros.celular" posX="9" posY="10" sqlTabName="fc_terceros" sqlType="CHAR" tabIndex="13" table_alias_name="" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="6" lstrcomment="false" lstrtext="false" name="lb54" posX="20" posY="10" text="Ciudad:"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="zona" colorCondition="black" fieldId="4" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="8" lstrcomment="false" lstrtitle="false" name="fc_terceros.zona" posX="27" posY="10" sqlTabName="fc_terceros" sqlType="CHAR" tabIndex="3" table_alias_name="" widget="Edit"/>
+      <Button gridHeight="1" gridWidth="2" name="bt_zona" posX="36" posY="10" tabIndex="20" text="?"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="" colorCondition="black" fieldId="5" fieldType="NON_DATABASE" gridHeight="1" gridWidth="22" length="1" lstrcomment="false" lstrtitle="false" name="detciu" noEntry="true" posX="39" posY="10" sqlTabName="" sqlType="CHAR" tabIndex="4" table_alias_name="" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="4" lstrcomment="false" lstrtext="false" name="lb10" posX="62" posY="10" text="Pais:"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="pais" colorCondition="black" fieldId="15" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="3" lstrcomment="false" lstrtitle="false" name="fc_terceros.pais" posX="67" posY="10" sqlTabName="fc_terceros" sqlType="CHAR" tabIndex="14" table_alias_name="" widget="Edit"/>
+      <Button gridHeight="1" gridWidth="2" name="bt_pais" posX="71" posY="10" tabIndex="19" text="?"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="" colorCondition="black" fieldId="17" fieldType="NON_DATABASE" gridHeight="1" gridWidth="16" length="1" lstrcomment="false" lstrtitle="false" name="detpais" noEntry="true" posX="74" posY="10" sqlTabName="" sqlType="CHAR" tabIndex="15" table_alias_name="" widget="Edit"/>
+      <HLine gridWidth="98" name="HLine3" posX="0" posY="11"/>
+      <Label gridHeight="1" gridWidth="11" lstrcomment="false" lstrtext="false" name="lb4" posX="2" posY="12" text="Medio Recepcion:"/>
+      <ComboBox aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="medio_recep" fieldId="12" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="21" items="" lstrcomment="false" lstrtitle="false" name="fc_terceros.medio_recep" posX="14" posY="12" sqlTabName="fc_terceros" sqlType="CHAR" tabIndex="16" table_alias_name="" widget="ComboBox"/>
+      <Label gridHeight="1" gridWidth="13" lstrcomment="false" lstrtext="false" name="lb12" posX="36" posY="12" text="Correo Electronico:"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" case="none" colName="email" fieldId="20" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="47" lstrcomment="false" lstrtitle="false" name="fc_terceros.email" posX="50" posY="12" sqlTabName="fc_terceros" sqlType="CHAR" tabIndex="17" table_alias_name="" widget="Edit"/>
+      <HLine gridWidth="98" name="HLine5" posX="0" posY="14"/>
+      <Label gridHeight="1" gridWidth="15" lstrcomment="false" lstrtext="false" name="lb3" posX="2" posY="15" text="Estado del Proveedor :"/>
+      <ComboBox aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="estado" fieldId="7" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="21" items="" lstrcomment="false" lstrtitle="false" name="fc_terceros.estado" posX="18" posY="15" sqlTabName="fc_terceros" sqlType="CHAR" tabIndex="6" table_alias_name="" widget="ComboBox"/>
+    </Grid>
+  </Form>
+  <DiagramLayout>
+    <![CDATA[AAAAAgAAAEwAewBjAGEAZgA5ADAAZABkAGQALQA1ADMAZgBkAC0ANAAyADEAMAAtADkAMQBjADgALQA5ADQAMQAzADYAYwA2ADIAYwA1ADMANQB9P/AAAAAAAAAAAAAAAAAAAD90euFHrhR7AQ==]]>
+  </DiagramLayout>
+</ManagedForm>

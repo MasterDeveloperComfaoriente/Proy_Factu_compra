@@ -1,0 +1,37 @@
+  AFTER FIELD codmun
+   IF tpeps_novedad_afi.codmun IS NULL THEN
+   CALL ccf_municipios_val() RETURNING tpeps_novedad_afi.codmun
+   IF tpeps_novedad_afi.codmun is NULL THEN 
+       MENU "Mensaje de Error" ATTRIBUTE(style= "dialog",
+            comment= "El codigo del municipio No fue Digitado ",
+                              image= "exclamation")
+         COMMAND "Aceptar"
+           EXIT MENU
+     END MENU
+    NEXT FIELD codmun
+   ELSE
+    INITIALIZE  mccf_municipios.* TO NULL 
+    SELECT * into mccf_municipios.*  FROM salud_eps:ccf_municipios
+    WHERE codigo_departamento= tpeps_novedad_afi.coddep and
+    codigo_municipio = tpeps_novedad_afi.codmun
+    display mccf_municipios.nombre_municipio to detmun
+   END IF 
+  ELSE
+    INITIALIZE  mccf_municipios.* TO NULL 
+    SELECT * into mccf_municipios.*  FROM salud_eps:ccf_municipios
+    WHERE codigo_departamento= tpeps_novedad_afi.coddep and 
+    codigo_municipio = tpeps_novedad_afi.codmun
+    
+    if mccf_municipios.codigo_municipio is null then
+      MENU "Mensaje de Error" ATTRIBUTE(style= "dialog",
+          comment= " El codigo del municipio  no existe ", image= "exclamation")
+         COMMAND "Aceptar"
+        EXIT MENU
+     END MENU
+     LET tpeps_novedad_afi.codmun = NULL 
+     display BY NAME tpeps_novedad_afi.codmun
+     NEXT FIELD codmun
+    else
+      display mccf_municipios.nombre_municipio to detmun
+    end IF 
+  END IF

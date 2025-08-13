@@ -1,0 +1,38 @@
+---------------------------------------------------------------------------------- 
+-- File created from Z:\Proy_factu_electronica\fe_estado.4fd by Genero Studio
+-- WARNING! All changes made in this file will be lost!
+----------------------------------------------------------------------------------
+
+SCHEMA empresa
+
+LAYOUT (text=%"Form")
+Grid empresa1
+{
+
+[label1     |cod]                          [label2|nombre                   ]
+[label3     |tipo                       ]  [label4|codigo              ]
+[label5     |descripcion                   ]
+
+}
+END -- empresa1
+END -- Form
+
+TABLES
+fe_estados
+ATTRIBUTES
+Label label1:Label1, text=%"codest";
+Edit cod=fe_estados.codest, tabIndex=1, not null, scroll;
+Label label2:Label2, text=%"nombre";
+Edit nombre=fe_estados.nombre, tabIndex=2, scroll;
+Label label3:Label3, text=%"tipo";
+ComboBox tipo=fe_estados.tipo, tabIndex=3, scroll;
+Label label4:Label4, text=%"codigo";
+Edit codigo=fe_estados.codigo, tabIndex=4, scroll;
+Label label5:Label5, text=%"descripcion";
+Edit descripcion=fe_estados.descripcion, tabIndex=5, scroll;
+END -- ATTRIBUTES
+
+INSTRUCTIONS
+SCREEN RECORD Record1(fe_estados.codest,fe_estados.nombre,fe_estados.tipo,fe_estados.codigo,fe_estados.descripcion)
+END -- INSTRUCTIONS
+

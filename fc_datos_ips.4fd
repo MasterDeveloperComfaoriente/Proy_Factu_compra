@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ManagedForm databaseName="empresa" fileVersion="30a00" gstVersion="30a0b" name="managedform" uid="{e76e0733-b694-4116-88ba-8f7cf3942e39}">
+  <AGSettings>
+    <DynamicProperties version="2"/>
+  </AGSettings>
+  <Record masterTable="fe_datos_ips" name="record1" uid="{010730be-4809-4480-993b-87b0bc6d474e}">
+    <RecordField colName="prefijo" fieldIdRef="1" fieldType="TABLE_COLUMN" name="fe_datos_ips.prefijo" sqlTabName="fe_datos_ips" uid="{3cec739f-aee4-4ab0-997a-d31f86f992c2}"/>
+    <RecordField colName="documento" fieldIdRef="2" fieldType="TABLE_COLUMN" name="fe_datos_ips.documento" sqlTabName="fe_datos_ips" uid="{cc1a675d-edfb-4a13-a1d7-d94094a6bffa}"/>
+    <RecordField colName="codprestador" fieldIdRef="3" fieldType="TABLE_COLUMN" name="fe_datos_ips.codprestador" sqlTabName="fe_datos_ips" uid="{12123ec0-f005-45dd-ad87-696a972982fc}"/>
+    <RecordField colName="tipdoc_usuario" fieldIdRef="4" fieldType="TABLE_COLUMN" name="fe_datos_ips.tipdoc_usuario" sqlTabName="fe_datos_ips" uid="{6cb37e16-1698-4d7a-bcae-774535afab94}"/>
+    <RecordField colName="doc_usuario" fieldIdRef="5" fieldType="TABLE_COLUMN" name="fe_datos_ips.doc_usuario" sqlTabName="fe_datos_ips" uid="{ef814f82-291f-429d-afa5-3fe0bf65f7cc}"/>
+    <RecordField colName="priape_u" fieldIdRef="6" fieldType="TABLE_COLUMN" name="fe_datos_ips.priape_u" sqlTabName="fe_datos_ips" uid="{691b575f-cd5c-4507-94f7-49b884b7705b}"/>
+    <RecordField colName="segape_u" fieldIdRef="7" fieldType="TABLE_COLUMN" name="fe_datos_ips.segape_u" sqlTabName="fe_datos_ips" uid="{ba62e2d9-9a19-460d-9d17-f0645958076d}"/>
+    <RecordField colName="prinom_u" fieldIdRef="8" fieldType="TABLE_COLUMN" name="fe_datos_ips.prinom_u" sqlTabName="fe_datos_ips" uid="{f8948376-b9a8-44f8-96e9-5f394429a9f6}"/>
+    <RecordField colName="segnom_u" fieldIdRef="9" fieldType="TABLE_COLUMN" name="fe_datos_ips.segnom_u" sqlTabName="fe_datos_ips" uid="{bc33138f-ec08-4ea3-ad3e-148de0547f86}"/>
+    <RecordField colName="tipusu" fieldIdRef="10" fieldType="TABLE_COLUMN" name="fe_datos_ips.tipusu" sqlTabName="fe_datos_ips" uid="{f2adc6de-baa7-4b7f-aeac-f6c83635e8ad}"/>
+    <RecordField colName="modcontrato" fieldIdRef="11" fieldType="TABLE_COLUMN" name="fe_datos_ips.modcontrato" sqlTabName="fe_datos_ips" uid="{a890e118-f5d8-468c-ab87-4de6d267d4d3}"/>
+    <RecordField colName="tipcob" fieldIdRef="12" fieldType="TABLE_COLUMN" name="fe_datos_ips.tipcob" sqlTabName="fe_datos_ips" uid="{f075017d-432d-4ff2-82b3-79941fb5891e}"/>
+    <RecordField colName="numauto" fieldIdRef="13" fieldType="TABLE_COLUMN" name="fe_datos_ips.numauto" sqlTabName="fe_datos_ips" uid="{d97e8c0f-36e8-4ada-969f-9eb3bc41ff54}"/>
+    <RecordField colName="nummipres" fieldIdRef="14" fieldType="TABLE_COLUMN" name="fe_datos_ips.nummipres" sqlTabName="fe_datos_ips" uid="{6c440c22-18c1-4c93-b519-ae15d2d55bce}"/>
+    <RecordField colName="numcontrato" fieldIdRef="15" fieldType="TABLE_COLUMN" name="fe_datos_ips.numcontrato" sqlTabName="fe_datos_ips" uid="{ac7ee5a8-ed7e-4074-bf8e-2a7a24a88ffe}"/>
+    <RecordField colName="numpoliza" fieldIdRef="16" fieldType="TABLE_COLUMN" name="fe_datos_ips.numpoliza" sqlTabName="fe_datos_ips" uid="{228f7ec5-c2c2-4a97-bf9d-daadb29e6a0a}"/>
+    <RecordField colName="fecini" fieldIdRef="17" fieldType="TABLE_COLUMN" name="fe_datos_ips.fecini" sqlTabName="fe_datos_ips" uid="{4f23b46b-90be-4917-b555-7c8687d0e952}"/>
+    <RecordField colName="fecfin" fieldIdRef="18" fieldType="TABLE_COLUMN" name="fe_datos_ips.fecfin" sqlTabName="fe_datos_ips" uid="{a016216b-2e67-41f0-9a75-1dc1b21eedcf}"/>
+    <RecordField colName="valcopago" fieldIdRef="19" fieldType="TABLE_COLUMN" name="fe_datos_ips.valcopago" sqlTabName="fe_datos_ips" uid="{bc23722d-b591-4927-9f3a-da0b916abe1c}"/>
+    <RecordField colName="valcuotam" fieldIdRef="20" fieldType="TABLE_COLUMN" name="fe_datos_ips.valcuotam" sqlTabName="fe_datos_ips" uid="{48fd4ea0-8d64-40e8-87cc-6cbaf8bbf3fe}"/>
+    <RecordField colName="valrecup" fieldIdRef="21" fieldType="TABLE_COLUMN" name="fe_datos_ips.valrecup" sqlTabName="fe_datos_ips" uid="{0beaa064-9a80-4bb4-a1b9-969692acaabd}"/>
+    <RecordField colName="pago_compartido" fieldIdRef="22" fieldType="TABLE_COLUMN" name="fe_datos_ips.pago_compartido" sqlTabName="fe_datos_ips" uid="{52aef437-bb7e-4576-ba4c-a4c912422777}"/>
+  </Record>
+  <Form gridHeight="20" gridWidth="99" name="form" text="Form">
+    <Grid gridHeight="18" gridWidth="97" name="empresa1" posX="1" posY="1">
+      <HLine gridWidth="97" name="hline2" posX="0" posY="0"/>
+      <Label gridHeight="1" gridWidth="17" name="fe_datos_ips_prefijo_label2" posX="42" posY="1" text="DATOS ADICIONALES IPS">
+        <Initializer text="dbschema:fe_datos_ips.prefijo/@label"/>
+      </Label>
+      <HLine gridWidth="97" name="hline3" posX="0" posY="2"/>
+      <Label gridHeight="1" gridWidth="17" name="fe_datos_ips_prefijo_label3" posX="37" posY="3" text="">
+        <Initializer text="dbschema:fe_datos_ips.prefijo/@label"/>
+      </Label>
+      <Label gridHeight="1" gridWidth="12" name="fe_datos_ips_prefijo_label1" posX="1" posY="4" text="PREFIJO:">
+        <Initializer text="dbschema:fe_datos_ips.prefijo/@label"/>
+      </Label>
+      <Edit colName="prefijo" fieldId="1" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="4" name="fe_datos_ips.prefijo" noEntry="true" posX="14" posY="4" scroll="true" sqlTabName="fe_datos_ips" tabIndex="-1" widget="Edit">
+        <Initializer title="dbschema:$(sqlTabName).$(colName)/@label"/>
+      </Edit>
+      <Label gridHeight="1" gridWidth="15" name="fe_datos_ips_documento_label1" posX="45" posY="4" text="DOCUMENTO:">
+        <Initializer text="dbschema:fe_datos_ips.documento/@label"/>
+      </Label>
+      <Edit colName="documento" fieldId="2" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="7" name="fe_datos_ips.documento" noEntry="true" posX="61" posY="4" scroll="true" sqlTabName="fe_datos_ips" tabIndex="-1" widget="Edit">
+        <Initializer title="dbschema:$(sqlTabName).$(colName)/@label"/>
+      </Edit>
+      <Label gridHeight="1" gridWidth="12" name="fe_datos_ips_codprestador_label1" posX="1" posY="5" text="COD PRESTADOR:">
+        <Initializer text="dbschema:fe_datos_ips.codprestador/@label"/>
+      </Label>
+      <Edit colName="codprestador" fieldId="3" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="10" name="fe_datos_ips.codprestador" posX="14" posY="5" scroll="true" sqlTabName="fe_datos_ips" tabIndex="-1" widget="Edit">
+        <Initializer title="dbschema:$(sqlTabName).$(colName)/@label"/>
+      </Edit>
+      <Label gridHeight="1" gridWidth="15" name="fe_datos_ips_tipdoc_usuario_label1" posX="45" posY="5" text="TIPO DOC. USUARIO:">
+        <Initializer text="dbschema:fe_datos_ips.tipdoc_usuario/@label"/>
+      </Label>
+      <ComboBox colName="tipdoc_usuario" fieldId="4" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="22" items="" name="fe_datos_ips.tipdoc_usuario" posX="61" posY="5" scroll="true" sqlTabName="fe_datos_ips" tabIndex="-1" widget="ComboBox">
+        <Initializer title="dbschema:$(sqlTabName).$(colName)/@label"/>
+      </ComboBox>
+      <Label gridHeight="1" gridWidth="12" name="fe_datos_ips_doc_usuario_label1" posX="1" posY="6" text="DOCUMENTO:">
+        <Initializer text="dbschema:fe_datos_ips.doc_usuario/@label"/>
+      </Label>
+      <Edit colName="doc_usuario" fieldId="5" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="20" name="fe_datos_ips.doc_usuario" posX="14" posY="6" scroll="true" sqlTabName="fe_datos_ips" tabIndex="-1" widget="Edit">
+        <Initializer title="dbschema:$(sqlTabName).$(colName)/@label"/>
+      </Edit>
+      <Label gridHeight="1" gridWidth="15" name="fe_datos_ips_priape_u_label1" posX="45" posY="6" text="PRIMER APELLIDO:">
+        <Initializer text="dbschema:fe_datos_ips.priape_u/@label"/>
+      </Label>
+      <Edit case="upper" colName="priape_u" fieldId="6" fieldType="TABLE_COLUMN" fontPitch="variable" gridHeight="1" gridWidth="30" name="fe_datos_ips.priape_u" posX="61" posY="6" scroll="true" sqlTabName="fe_datos_ips" tabIndex="-1" widget="Edit">
+        <Initializer title="dbschema:$(sqlTabName).$(colName)/@label"/>
+      </Edit>
+      <Label gridHeight="1" gridWidth="12" name="fe_datos_ips_segape_u_label1" posX="1" posY="7" text="SEGUNDO APELLIDO:">
+        <Initializer text="dbschema:fe_datos_ips.segape_u/@label"/>
+      </Label>
+      <Edit case="upper" colName="segape_u" fieldId="7" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="30" name="fe_datos_ips.segape_u" posX="14" posY="7" scroll="true" sqlTabName="fe_datos_ips" tabIndex="-1" widget="Edit">
+        <Initializer title="dbschema:$(sqlTabName).$(colName)/@label"/>
+      </Edit>
+      <Label gridHeight="1" gridWidth="15" name="fe_datos_ips_prinom_u_label1" posX="45" posY="7" text="PRIMER NOMBRE:">
+        <Initializer text="dbschema:fe_datos_ips.prinom_u/@label"/>
+      </Label>
+      <Edit case="upper" colName="prinom_u" fieldId="8" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="30" name="fe_datos_ips.prinom_u" posX="61" posY="7" scroll="true" sqlTabName="fe_datos_ips" tabIndex="-1" widget="Edit">
+        <Initializer title="dbschema:$(sqlTabName).$(colName)/@label"/>
+      </Edit>
+      <Label gridHeight="1" gridWidth="12" name="fe_datos_ips_segnom_u_label1" posX="1" posY="8" text="SEGUNDO NOMBRE:">
+        <Initializer text="dbschema:fe_datos_ips.segnom_u/@label"/>
+      </Label>
+      <Edit case="upper" colName="segnom_u" fieldId="9" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="30" name="fe_datos_ips.segnom_u" posX="14" posY="8" scroll="true" sqlTabName="fe_datos_ips" tabIndex="-1" widget="Edit">
+        <Initializer title="dbschema:$(sqlTabName).$(colName)/@label"/>
+      </Edit>
+      <Label gridHeight="1" gridWidth="15" name="fe_datos_ips_tipusu_label1" posX="45" posY="8" text="TIPO USUARIO:">
+        <Initializer text="dbschema:fe_datos_ips.tipusu/@label"/>
+      </Label>
+      <ComboBox colName="tipusu" fieldId="10" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="22" items="" name="fe_datos_ips.tipusu" posX="61" posY="8" scroll="true" sqlTabName="fe_datos_ips" tabIndex="-1" widget="ComboBox">
+        <Initializer title="dbschema:$(sqlTabName).$(colName)/@label"/>
+      </ComboBox>
+      <Label gridHeight="1" gridWidth="12" name="fe_datos_ips_modcontrato_label1" posX="1" posY="9" text="MODALIDAD CONTRATO:">
+        <Initializer text="dbschema:fe_datos_ips.modcontrato/@label"/>
+      </Label>
+      <ComboBox colName="modcontrato" fieldId="11" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="28" items="" name="fe_datos_ips.modcontrato" posX="14" posY="9" scroll="true" sqlTabName="fe_datos_ips" tabIndex="-1" widget="ComboBox">
+        <Initializer title="dbschema:$(sqlTabName).$(colName)/@label"/>
+      </ComboBox>
+      <Label gridHeight="1" gridWidth="15" name="fe_datos_ips_tipcob_label1" posX="45" posY="9" text="COBERTURA/PLAN BENEFICIOS:">
+        <Initializer text="dbschema:fe_datos_ips.tipcob/@label"/>
+      </Label>
+      <ComboBox colName="tipcob" fieldId="12" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="22" items="" name="fe_datos_ips.tipcob" posX="61" posY="9" scroll="true" sqlTabName="fe_datos_ips" tabIndex="-1" widget="ComboBox">
+        <Initializer title="dbschema:$(sqlTabName).$(colName)/@label"/>
+      </ComboBox>
+      <Label gridHeight="1" gridWidth="12" name="fe_datos_ips_numauto_label1" posX="1" posY="10" text="NUM. AUTORIZACION:">
+        <Initializer text="dbschema:fe_datos_ips.numauto/@label"/>
+      </Label>
+      <Edit colName="numauto" fieldId="13" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="15" name="fe_datos_ips.numauto" posX="14" posY="10" scroll="true" sqlTabName="fe_datos_ips" tabIndex="-1" widget="Edit">
+        <Initializer title="dbschema:$(sqlTabName).$(colName)/@label"/>
+      </Edit>
+      <Label gridHeight="1" gridWidth="15" name="fe_datos_ips_nummipres_label1" posX="45" posY="10" text="NUM. MIPRES:">
+        <Initializer text="dbschema:fe_datos_ips.nummipres/@label"/>
+      </Label>
+      <Edit colName="nummipres" fieldId="14" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="20" name="fe_datos_ips.nummipres" posX="61" posY="10" scroll="true" sqlTabName="fe_datos_ips" tabIndex="-1" widget="Edit">
+        <Initializer title="dbschema:$(sqlTabName).$(colName)/@label"/>
+      </Edit>
+      <Label gridHeight="1" gridWidth="12" name="fe_datos_ips_numcontrato_label1" posX="1" posY="11" text="NUM CONTRATO:">
+        <Initializer text="dbschema:fe_datos_ips.numcontrato/@label"/>
+      </Label>
+      <Edit colName="numcontrato" fieldId="15" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="20" name="fe_datos_ips.numcontrato" posX="14" posY="11" scroll="true" sqlTabName="fe_datos_ips" tabIndex="-1" widget="Edit">
+        <Initializer title="dbschema:$(sqlTabName).$(colName)/@label"/>
+      </Edit>
+      <Label gridHeight="1" gridWidth="15" name="fe_datos_ips_numpoliza_label1" posX="45" posY="11" text="NUM POLIZA:">
+        <Initializer text="dbschema:fe_datos_ips.numpoliza/@label"/>
+      </Label>
+      <Edit colName="numpoliza" fieldId="16" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="20" name="fe_datos_ips.numpoliza" posX="61" posY="11" scroll="true" sqlTabName="fe_datos_ips" tabIndex="-1" widget="Edit">
+        <Initializer title="dbschema:$(sqlTabName).$(colName)/@label"/>
+      </Edit>
+      <Label gridHeight="1" gridWidth="12" name="fe_datos_ips_fecini_label1" posX="1" posY="12" text="FECHA INICIO:">
+        <Initializer text="dbschema:fe_datos_ips.fecini/@label"/>
+      </Label>
+      <DateEdit colName="fecini" fieldId="17" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="10" name="fe_datos_ips.fecini" posX="14" posY="12" sqlTabName="fe_datos_ips" tabIndex="-1" widget="DateEdit">
+        <Initializer title="dbschema:$(sqlTabName).$(colName)/@label"/>
+      </DateEdit>
+      <Label gridHeight="1" gridWidth="15" name="fe_datos_ips_fecfin_label1" posX="45" posY="12" text="FECHA FINAL:">
+        <Initializer text="dbschema:fe_datos_ips.fecfin/@label"/>
+      </Label>
+      <DateEdit colName="fecfin" fieldId="18" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="10" name="fe_datos_ips.fecfin" posX="61" posY="12" sqlTabName="fe_datos_ips" tabIndex="-1" widget="DateEdit">
+        <Initializer title="dbschema:$(sqlTabName).$(colName)/@label"/>
+      </DateEdit>
+      <Label gridHeight="1" gridWidth="12" name="fe_datos_ips_valcopago_label1" posX="1" posY="13" text="VAL. COPAGO:">
+        <Initializer text="dbschema:fe_datos_ips.valcopago/@label"/>
+      </Label>
+      <Edit colName="valcopago" fieldId="19" fieldType="TABLE_COLUMN" format="##,###,###,###" gridHeight="1" gridWidth="14" name="fe_datos_ips.valcopago" posX="14" posY="13" scroll="true" sqlTabName="fe_datos_ips" tabIndex="-1" widget="Edit">
+        <Initializer title="dbschema:$(sqlTabName).$(colName)/@label"/>
+      </Edit>
+      <Label gridHeight="1" gridWidth="15" name="fe_datos_ips_valcuotam_label1" posX="45" posY="13" text="CUOTA MODERADORA:">
+        <Initializer text="dbschema:fe_datos_ips.valcuotam/@label"/>
+      </Label>
+      <Edit colName="valcuotam" fieldId="20" fieldType="TABLE_COLUMN" format="##,###,###,###" gridHeight="1" gridWidth="14" name="fe_datos_ips.valcuotam" posX="61" posY="13" scroll="true" sqlTabName="fe_datos_ips" tabIndex="-1" widget="Edit">
+        <Initializer title="dbschema:$(sqlTabName).$(colName)/@label"/>
+      </Edit>
+      <Label gridHeight="1" gridWidth="12" name="fe_datos_ips_valrecup_label1" posX="1" posY="14" text="CUOTA RECUPERACION:">
+        <Initializer text="dbschema:fe_datos_ips.valrecup/@label"/>
+      </Label>
+      <Edit colName="valrecup" fieldId="21" fieldType="TABLE_COLUMN" format="##,###,###,###" gridHeight="1" gridWidth="14" name="fe_datos_ips.valrecup" posX="14" posY="14" scroll="true" sqlTabName="fe_datos_ips" tabIndex="-1" widget="Edit">
+        <Initializer title="dbschema:$(sqlTabName).$(colName)/@label"/>
+      </Edit>
+      <Label gridHeight="1" gridWidth="15" name="fe_datos_ips_pago_compartido_label1" posX="45" posY="14" text="PAGO COMPARTIDO:">
+        <Initializer text="dbschema:fe_datos_ips.pago_compartido/@label"/>
+      </Label>
+      <Edit colName="pago_compartido" fieldId="22" fieldType="TABLE_COLUMN" format="##,###,###,###" gridHeight="1" gridWidth="14" name="fe_datos_ips.pago_compartido" posX="61" posY="14" scroll="true" sqlTabName="fe_datos_ips" tabIndex="-1" widget="Edit">
+        <Initializer title="dbschema:$(sqlTabName).$(colName)/@label"/>
+      </Edit>
+      <HLine gridWidth="97" name="HLine1" posX="0" posY="15"/>
+      <Button gridHeight="1" gridWidth="11" name="bt_mod" posX="37" posY="16" tabIndex="-1" text="MODIFICAR"/>
+    </Grid>
+  </Form>
+  <DiagramLayout>
+    <![CDATA[AAAAAgAAAEwAewAwADEAMAA3ADMAMABiAGUALQA0ADgAMAA5AC0ANAA0ADgAMAAtADkAOQAzAGIALQA4ADcAYgAwAGIAYwA2AGQANAA3ADQAZQB9AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ==]]>
+  </DiagramLayout>
+</ManagedForm>

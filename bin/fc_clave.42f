@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<Form name="fc_clave.tmp" build="3.10.18" sqlDbName="empresa" text="CLAVE DE ACCESO" width="45" height="23">
+  <LStr text="CLAVE DE ACCESO"/>
+  <Grid name="gr3" width="45" height="23">
+    <FormField name="formonly.logo" colName="logo" fieldId="0" sqlTabName="formonly" noEntry="1" tabIndex="1">
+      <Image width="27" height="8" posY="1" posX="9" gridWidth="27" gridHeight="8"/>
+    </FormField>
+    <Label name="label2" width="12" text="ID USUARIO:" posY="10" posX="9" gridWidth="12">
+      <LStr text="ID USUARIO:"/>
+    </Label>
+    <FormField name="formonly.usuarioin" colName="usuarioin" sqlType="INTEGER" fieldId="1" sqlTabName="formonly" tabIndex="2">
+      <Edit width="14" justify="right" posY="10" posX="22" gridWidth="14"/>
+    </FormField>
+    <Label name="lb1" width="12" text="N° DOCUMENTO:" posY="12" posX="9" gridWidth="12">
+      <LStr text="N° DOCUMENTO:"/>
+    </Label>
+    <FormField name="formonly.documentoin" colName="documentoin" sqlType="CHAR" fieldId="2" sqlTabName="formonly" tabIndex="3">
+      <Edit width="14" justify="right" posY="12" posX="22" gridWidth="14"/>
+    </FormField>
+    <Label name="lb3" width="12" text="CLAVE :" posY="14" posX="9" gridWidth="12">
+      <LStr text="CLAVE :"/>
+    </Label>
+    <FormField name="formonly.mclave_seguridad" colName="mclave_seguridad" sqlType="VARCHAR" fieldId="3" sqlTabName="formonly" tabIndex="4">
+      <Edit width="14" isPassword="1" justify="right" posY="14" posX="22" gridWidth="14"/>
+    </FormField>
+    <Button name="olvido" width="27" text="Reestablecer Contraseña" posY="16" posX="9" gridWidth="27" tabIndex="5">
+      <LStr text="Reestablecer Contraseña"/>
+    </Button>
+    <Button name="olvido_clave" width="27" text="Olvidaste tu contraseña?" posY="17" posX="9" gridWidth="27" tabIndex="6">
+      <LStr text="Olvidaste tu contraseña?"/>
+    </Button>
+    <Button name="accept" width="7" text="Aceptar" posY="19" posX="14" gridWidth="7" tabIndex="7">
+      <LStr text="Aceptar"/>
+    </Button>
+    <Button name="cancel" width="7" text="Cancelar" posY="19" posX="23" gridWidth="7" tabIndex="8">
+      <LStr text="Cancelar"/>
+    </Button>
+    <Label name="label1" width="43" height="2" text="" justify="center" posY="20" posX="1" gridWidth="43" gridHeight="2">
+      <LStr text=""/>
+    </Label>
+  </Grid>
+  <RecordView tabName="formonly">
+    <Link colName="logo" fieldIdRef="0"/>
+    <Link colName="usuarioin" fieldIdRef="1"/>
+    <Link colName="documentoin" fieldIdRef="2"/>
+    <Link colName="mclave_seguridad" fieldIdRef="3"/>
+  </RecordView>
+  <RecordView tabName="undefined">
+    <Link colName="mclave_seguridad" fieldIdRef="3"/>
+    <Link colName="usuarioin" fieldIdRef="1"/>
+    <Link colName="documentoin" fieldIdRef="2"/>
+    <Link colName="logo" fieldIdRef="0"/>
+  </RecordView>
+</Form>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ManagedForm databaseName="empresa" gstVersion="22800" name="ManagedForm" uid="{ecf7ae7a-2087-4c99-8a0e-6f81ac8b4f1d}">
+  <AGSettings/>
+  <Record additionalTables="" joinLeft="" joinOperator="" joinRight="" name="paises" order="" uid="{a6e3eff2-a187-4cf4-865d-505718928498}" where="">
+    <RecordField colName="codpais" fieldIdRef="1" fieldType="TABLE_COLUMN" name="fe_paises.codpais" sqlTabName="fe_paises" sqlType="CHAR" table_alias_name="" uid="{19b272d2-7fc2-4df6-8449-5986f4830b5e}"/>
+    <RecordField colName="nombrepais" fieldIdRef="2" fieldType="TABLE_COLUMN" name="fe_paises.nombrepais" sqlTabName="fe_paises" sqlType="CHAR" table_alias_name="" uid="{6decad01-42c9-4990-ad8b-547d7c23ad71}"/>
+  </Record>
+  <Form gridHeight="18" gridWidth="51" name="PAISES" text="PAISES">
+    <Grid gridHeight="16" gridWidth="49" name="gr3" posX="1" posY="1">
+      <Group gridHeight="14" gridWidth="45" name="Group1" posX="2" posY="1" text="PAISES">
+        <Label gridHeight="1" gridWidth="7" name="Label1" posX="2" posY="2" text="CODIGO"/>
+        <Label gridHeight="1" gridWidth="7" name="Label2" posX="21" posY="2" text="NOMBRE"/>
+        <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="codpais" columnCount="1" fieldId="1" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="3" name="fe_paises.codpais" noEntry="true" notNull="true" posX="3" posY="3" repeat="true" required="true" rowCount="10" sqlTabName="fe_paises" sqlType="CHAR" stepX="1" stepY="0" tabIndex="1" table_alias_name="" widget="Edit"/>
+        <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="nombrepais" columnCount="1" fieldId="2" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="30" name="fe_paises.nombrepais" notNull="true" posX="11" posY="3" repeat="true" required="true" rowCount="10" sqlTabName="fe_paises" sqlType="CHAR" stepX="1" stepY="0" tabIndex="2" table_alias_name="" widget="Edit"/>
+      </Group>
+    </Grid>
+  </Form>
+  <DiagramLayout>
+    <![CDATA[AAAAAgAAAEwAewAxADkAYgAyADcAMgBkADIALQA3AGYAYwAyAC0ANABkAGYANgAtADgANAA0ADkALQA1ADkAOAA2AGYANAA4ADMAMABiADUAZQB9QCQAAAAAAABAQwAAAAAAAAAAAAAAAAAAAQAAAEwAewBhADYAZQAzAGUAZgBmADIALQBhADEAOAA3AC0ANABjAGYANAAtADgANgA1AGQALQA1ADAANQA3ADEAOAA5ADIAOAA0ADkAOAB9QDQAAAAAAABANAAAAAAAAD9QYk3S8an8AQAAAEwAewA2AGQAZQBjAGEAZAAwADEALQA0ADIAYwA5AC0ANAA5ADkAMAAtAGEAZAA4AGIALQA1ADQANwBkADcAYwAyADMAYQBkADcAMQB9QCQAAAAAAABAToAAAAAAAAAAAAAAAAAAAQ==]]>
+  </DiagramLayout>
+</ManagedForm>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ManagedForm fileVersion="30a00" gstVersion="30a0b" name="Root" uid="{5bbc4579-10f5-484f-bf16-879600dc8ad7}">
+  <AGSettings>
+    <DynamicProperties version="2"/>
+  </AGSettings>
+  <Record additionalTables="" joinLeft="" joinOperator="" joinRight="" name="Undefined" order="" uid="{edba01c6-7392-4220-bf26-5ab346379392}" where="">
+    <RecordField colName="" fieldIdRef="0" fieldType="NON_DATABASE" name="message1" sqlTabName="" sqlType="CHAR" table_alias_name="" uid="{9c05b22a-234a-4782-be29-6f6fc338f43b}"/>
+    <RecordField colName="" fieldIdRef="1" fieldType="NON_DATABASE" name="message2" sqlTabName="" sqlType="CHAR" table_alias_name="" uid="{10503762-b22b-414f-8dd3-0089b20007cc}"/>
+  </Record>
+  <Form gridHeight="6" gridWidth="77" minHeight="1" name="v_espera">
+    <Grid gridHeight="5" gridWidth="77" name="Grid1" posX="0" posY="1">
+      <FFLabel aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="" fieldId="0" fieldType="NON_DATABASE" gridHeight="1" gridWidth="73" justify="center" length="1" name="message1" posX="2" posY="1" sizePolicy="dynamic" sqlTabName="" sqlType="CHAR" style="titulo" table_alias_name="" widget="FFLabel"/>
+      <FFLabel aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="" fieldId="1" fieldType="NON_DATABASE" gridHeight="1" gridWidth="73" justify="center" length="1" name="message2" posX="2" posY="3" sizePolicy="dynamic" sqlTabName="" sqlType="CHAR" style="negrita" table_alias_name="" widget="FFLabel"/>
+    </Grid>
+  </Form>
+  <DiagramLayout>
+    <![CDATA[AAAAAgAAAEwAewBlAGQAYgBhADAAMQBjADYALQA3ADMAOQAyAC0ANAAyADIAMAAtAGIAZgAyADYALQA1AGEAYgAzADQANgAzADcAOQAzADkAMgB9AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ==]]>
+  </DiagramLayout>
+</ManagedForm>

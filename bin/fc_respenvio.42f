@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<Form name="fc_respenvio.tmp" build="3.10.18" sqlDbName="empresa" text="Form" width="96" height="12">
+  <LStr text="Form"/>
+  <Grid name="empresa1" width="96" height="12">
+    <HLine posY="0" posX="0" gridWidth="96"/>
+    <Label name="label1" width="11" text="Tipo Documento:" posY="1" posX="1" gridWidth="11">
+      <LStr text="Tipo Documento:"/>
+    </Label>
+    <FormField name="fc_respenvio.tpdocumento" colName="tpdocumento" sqlType="CHAR(1)" fieldId="0" sqlTabName="fc_respenvio" tabIndex="12">
+      <ComboBox width="14" posY="1" posX="13" gridWidth="16"/>
+    </FormField>
+    <Label name="label2" width="11" text="PREFIJO/TIPO :" posY="1" posX="30" gridWidth="11">
+      <LStr text="PREFIJO/TIPO :"/>
+    </Label>
+    <FormField name="fc_respenvio.prefijo" colName="prefijo" sqlType="CHAR(5)" fieldId="1" sqlTabName="fc_respenvio" tabIndex="1">
+      <Edit width="7" scroll="1" posY="1" posX="42" gridWidth="7"/>
+    </FormField>
+    <Label name="label3" width="7" text="NUMERO:" posY="1" posX="50" gridWidth="7">
+      <LStr text="NUMERO:"/>
+    </Label>
+    <FormField name="fc_respenvio.numfac" colName="numfac" sqlType="CHAR(7)" fieldId="2" sqlTabName="fc_respenvio" tabIndex="2">
+      <Edit width="11" scroll="1" posY="1" posX="58" gridWidth="11"/>
+    </FormField>
+    <Label name="label6" width="14" text="Fecha Elaboración:" posY="1" posX="70" gridWidth="14">
+      <LStr text="Fecha Elaboración:"/>
+    </Label>
+    <FormField name="fc_respenvio.fecfactura" colName="fecfactura" sqlType="DATE" fieldId="3" sqlTabName="fc_respenvio" tabIndex="4">
+      <DateEdit width="8" posY="1" posX="85" gridWidth="10"/>
+    </FormField>
+    <Label name="label5" width="11" text="No. INTERNO :" posY="2" posX="1" gridWidth="11">
+      <LStr text="No. INTERNO :"/>
+    </Label>
+    <FormField name="formonly.numint" colName="numint" sqlType="CHAR" fieldId="4" sqlTabName="formonly" tabIndex="11">
+      <Edit width="12" posY="2" posX="13" gridWidth="12"/>
+    </FormField>
+    <Label name="label4" width="10" text="CUFE/CUDE :" posY="2" posX="27" gridWidth="10">
+      <LStr text="CUFE/CUDE :"/>
+    </Label>
+    <FormField name="fc_respenvio.cufe" colName="cufe" sqlType="CHAR(100)" fieldId="5" sqlTabName="fc_respenvio" tabIndex="3">
+      <Edit width="55" scroll="1" posY="2" posX="40" gridWidth="55"/>
+    </FormField>
+    <HLine posY="4" posX="0" gridWidth="96"/>
+    <Label name="lb41" width="9" text="Cliente:" posY="5" posX="1" gridWidth="9"/>
+    <FormField name="formonly.mnit" colName="mnit" sqlType="CHAR" fieldId="6" sqlTabName="formonly" tabIndex="9">
+      <Edit width="19" posY="5" posX="11" gridWidth="19"/>
+    </FormField>
+    <FormField name="formonly.mnombre" colName="mnombre" fieldId="7" sqlTabName="formonly" tabIndex="10">
+      <Edit width="53" posY="5" posX="31" gridWidth="53"/>
+    </FormField>
+    <Label name="lb1" width="9" text="Raz. Social:" posY="6" posX="1" gridWidth="9"/>
+    <FormField name="formonly.mrazsoc" colName="mrazsoc" fieldId="8" sqlTabName="formonly" tabIndex="8">
+      <Edit width="73" posY="6" posX="11" gridWidth="73"/>
+    </FormField>
+    <HLine posY="7" posX="0" gridWidth="96"/>
+    <Label name="label7" width="17" text="Fecha recibido respuesta:" posY="8" posX="1" gridWidth="17">
+      <LStr text="Fecha recibido respuesta:"/>
+    </Label>
+    <FormField name="fc_respenvio.fecresp" colName="fecresp" sqlType="DATE" fieldId="9" sqlTabName="fc_respenvio" tabIndex="5">
+      <DateEdit width="8" posY="8" posX="20" gridWidth="10"/>
+    </FormField>
+    <Label name="label8" width="18" text="Fecha de Transmisión:" posY="8" posX="43" gridWidth="18">
+      <LStr text="Fecha de Transmisión:"/>
+    </Label>
+    <FormField name="fc_respenvio.fecexped" colName="fecexped" sqlType="DATE" fieldId="10" sqlTabName="fc_respenvio" tabIndex="6">
+      <DateEdit width="8" posY="8" posX="64" gridWidth="10"/>
+    </FormField>
+    <HLine posY="9" posX="0" gridWidth="96"/>
+    <Label name="label12" width="11" text="Estado Envio :" posY="10" posX="35" gridWidth="11">
+      <LStr text="Estado Envio :"/>
+    </Label>
+    <FormField name="fc_respenvio.codest" colName="codest" sqlType="CHAR(3)" fieldId="11" sqlTabName="fc_respenvio" tabIndex="7">
+      <ComboBox width="18" scroll="1" posY="10" posX="47" gridWidth="20"/>
+    </FormField>
+  </Grid>
+  <RecordView tabName="fc_respenvio">
+    <Link colName="tpdocumento" fieldIdRef="0"/>
+    <Link colName="prefijo" fieldIdRef="1"/>
+    <Link colName="numfac" fieldIdRef="2"/>
+    <Link colName="fecfactura" fieldIdRef="3"/>
+    <Link colName="cufe" fieldIdRef="5"/>
+    <Link colName="fecresp" fieldIdRef="9"/>
+    <Link colName="fecexped" fieldIdRef="10"/>
+    <Link colName="codest" fieldIdRef="11"/>
+  </RecordView>
+  <RecordView tabName="formonly">
+    <Link colName="numint" fieldIdRef="4"/>
+    <Link colName="mnit" fieldIdRef="6"/>
+    <Link colName="mnombre" fieldIdRef="7"/>
+    <Link colName="mrazsoc" fieldIdRef="8"/>
+  </RecordView>
+  <RecordView tabName="record1">
+    <Link colName="prefijo" fieldIdRef="1"/>
+    <Link colName="numfac" fieldIdRef="2"/>
+    <Link colName="cufe" fieldIdRef="5"/>
+    <Link colName="fecfactura" fieldIdRef="3"/>
+    <Link colName="fecresp" fieldIdRef="9"/>
+    <Link colName="fecexped" fieldIdRef="10"/>
+    <Link colName="codest" fieldIdRef="11"/>
+  </RecordView>
+  <RecordView tabName="undefined">
+    <Link colName="mrazsoc" fieldIdRef="8"/>
+    <Link colName="mnit" fieldIdRef="6"/>
+    <Link colName="mnombre" fieldIdRef="7"/>
+    <Link colName="numint" fieldIdRef="4"/>
+    <Link colName="tpdocumento" fieldIdRef="0"/>
+  </RecordView>
+</Form>

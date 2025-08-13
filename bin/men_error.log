@@ -1,0 +1,92 @@
+Date: 07/23/2021    Time: 09:30:56
+Program error at 'fc_terceros.4gl', line number 41.
+FORMS statement error number -8083.
+Null pointer exception.
+Date: 07/23/2021    Time: 13:04:57
+Program error at 'fc_prefijos.4gl', line number 22.
+FORMS statement error number -8083.
+Null pointer exception.
+Date: 07/26/2021    Time: 09:27:05
+Program error at 'fc_factura.4gl', line number 196.
+SQL statement error number -1204.
+Invalid year in date
+Date: 07/26/2021    Time: 09:27:36
+Program error at 'fc_factura.4gl', line number 196.
+SQL statement error number -1204.
+Invalid year in date
+Date: 07/26/2021    Time: 09:31:23
+Program error at 'fc_integracionWebServ.4gl', line number 126.
+SQL statement error number -26005.
+The encrypted data is wrong or corrupted.
+Date: 07/26/2021    Time: 10:05:28
+Program error at 'fc_integracionWebServ.4gl', line number 126.
+SQL statement error number -26008.
+The internal decryption function failed.
+Date: 07/26/2021    Time: 10:09:24
+Program error at 'fc_integracionWebServ.4gl', line number 135.
+FORMS statement error number -1102.
+Field (txt_tipodoc) not found in form.
+Date: 07/26/2021    Time: 11:38:50
+Program error at 'fc_integracionWebServ.4gl', line number 836.
+SQL statement error number -284.
+A subquery has returned not exactly one row.
+Date: 07/28/2021    Time: 11:16:36
+Program error at 'fc_integracionWebServ.4gl', line number 236.
+SQL statement error number -26008.
+The internal decryption function failed.
+Date: 07/28/2021    Time: 11:19:20
+Program error at 'fc_integracionWebServ.4gl', line number 329.
+SQL statement error number -26008.
+The internal decryption function failed.
+Date: 07/28/2021    Time: 11:22:19
+Program error at 'fc_integracionWebServ.4gl', line number 3362.
+FORMS statement error number -1260.
+It is not possible to convert between the specified types.
+Date: 07/29/2021    Time: 09:17:08
+Program error at 'fc_integracionWebServ.4gl', line number 135.
+FORMS statement error number -1102.
+Field (txt_tipodoc) not found in form.
+Date: 07/30/2021    Time: 09:55:37
+Program error at 'fc_main.4gl', line number 267.
+FORMS statement error number -6311.
+No current window.
+Date: 07/30/2021    Time: 09:57:34
+Program error at 'fc_main.4gl', line number 267.
+FORMS statement error number -6311.
+No current window.
+Date: 07/30/2021    Time: 09:58:51
+Program error at 'fc_main.4gl', line number 267.
+FORMS statement error number -6311.
+No current window.
+Date: 07/30/2021    Time: 10:10:25
+Program error at 'fc_main.4gl', line number 267.
+FORMS statement error number -6311.
+No current window.
+Date: 08/02/2021    Time: 13:26:43
+Program error at 'fc_integracionWebServ.4gl', line number 1283.
+FORMS statement error number -6327.
+Internal error in the run time library file myStack.c(81).
+Date: 08/04/2021    Time: 08:58:15
+Program error at 'fc_factura.4gl', line number 156.
+FORMS statement error number -8014.
+The resource file 'acciones' can not be read.
+Date: 08/04/2021    Time: 11:41:10
+Program error at 'fc_factura.4gl', line number 189.
+FORMS statement error number -1102.
+Field (mprefijo) not found in form.
+Date: 08/25/2021    Time: 16:54:27
+Program error at 'fc_factura.4gl', line number 4186.
+FORMS statement error number -1335.
+A report is accepting output or being finished before it has been started.
+Date: 08/27/2021    Time: 09:10:23
+Program error at 'ReportePri.4gl', line number 160.
+SQL statement error number -284.
+A subquery has returned not exactly one row.
+Date: 08/27/2021    Time: 09:12:06
+Program error at 'ReportePri.4gl', line number 161.
+SQL statement error number -284.
+A subquery has returned not exactly one row.
+Date: 08/30/2021    Time: 13:52:24
+Program error at 'fc_terobligacion.4gl', line number 17.
+FORMS statement error number -1110.
+Form file (fc_terobligacion) not found.

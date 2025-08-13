@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<Form name="fc_contable3.tmp" build="3.10.18" sqlDbName="empresa" width="86" height="27">
+  <Grid name="grid1" width="86" height="27">
+    <Label name="lb6" width="34" text="PARAMETROS CONTABLES - TIPOS COMPRABANTES" posY="1" posX="25" gridWidth="34"/>
+    <HLine posY="2" posX="0" gridWidth="85"/>
+    <Label text="Codigo Del Servicio" posY="3" posX="1" gridWidth="19"/>
+    <FormField name="fc_conta3.codigo" colName="codigo" sqlType="CHAR(5)" fieldId="0" sqlTabName="fc_conta3" tabIndex="1" notNull="1" required="1">
+      <Edit width="5" picture="#####" comment="DIGITE EL CODIGO DEL SERVICIO" posY="3" posX="21" gridWidth="5">
+        <LStr comment="DIGITE EL CODIGO DEL SERVICIO"/>
+      </Edit>
+    </FormField>
+    <Label text="Detalle" posY="3" posX="30" gridWidth="8"/>
+    <FormField name="formonly.mdetser" colName="mdetser" fieldId="1" sqlTabName="formonly" tabIndex="2" noEntry="1">
+      <Edit width="43" posY="3" posX="39" gridWidth="43"/>
+    </FormField>
+    <HLine posY="4" posX="0" gridWidth="85"/>
+    <Label name="lb59" width="13" text="Prefijo Documento:" posY="5" posX="1" gridWidth="13"/>
+    <FormField name="fc_conta3.prefijo" colName="prefijo" sqlType="CHAR(5)" fieldId="2" sqlTabName="fc_conta3" tabIndex="6">
+      <Edit width="5" shift="up" posY="5" posX="21" gridWidth="5"/>
+    </FormField>
+    <Label text="Detalle" posY="5" posX="30" gridWidth="8"/>
+    <FormField name="formonly.detprefijo" colName="detprefijo" sqlType="CHAR" fieldId="3" sqlTabName="formonly" tabIndex="7" noEntry="1">
+      <Edit width="44" shift="up" posY="5" posX="39" gridWidth="44"/>
+    </FormField>
+    <HLine posY="6" posX="0" gridWidth="85"/>
+    <Label name="lb8" width="14" text="Codigo Contabilidad:" posY="8" posX="1" gridWidth="14"/>
+    <FormField name="fc_conta3.codconta" colName="codconta" sqlType="CHAR(2)" fieldId="4" sqlTabName="fc_conta3" tabIndex="8">
+      <Edit width="2" shift="up" posY="8" posX="21" gridWidth="2"/>
+    </FormField>
+    <Label text="Detalle" posY="8" posX="30" gridWidth="8"/>
+    <FormField name="formonly.detconta" colName="detconta" sqlType="CHAR" fieldId="5" sqlTabName="formonly" tabIndex="9" noEntry="1">
+      <Edit width="44" shift="up" posY="8" posX="39" gridWidth="44"/>
+    </FormField>
+    <HLine posY="9" posX="1" gridWidth="85"/>
+    <Label name="lb9" width="15" text="Tipo Cruce X Pagar:" posY="10" posX="1" gridWidth="15"/>
+    <FormField name="fc_conta3.tipcru" colName="tipcru" sqlType="CHAR(2)" fieldId="6" sqlTabName="fc_conta3" tabIndex="10">
+      <Edit width="2" shift="up" posY="10" posX="21" gridWidth="2"/>
+    </FormField>
+    <Label text="Detalle" posY="10" posX="30" gridWidth="8"/>
+    <FormField name="formonly.dettipcru" colName="dettipcru" sqlType="CHAR" fieldId="7" sqlTabName="formonly" tabIndex="11" noEntry="1">
+      <Edit width="44" shift="up" posY="10" posX="39" gridWidth="44"/>
+    </FormField>
+    <HLine posY="11" posX="0" gridWidth="85"/>
+    <Label name="lb4" width="15" text="Tipo Cruce X Cobrar:" posY="13" posX="1" gridWidth="15"/>
+    <FormField name="fc_conta3.tipcruu" colName="tipcruu" sqlType="CHAR(2)" fieldId="8" sqlTabName="fc_conta3" tabIndex="12">
+      <Edit width="2" shift="up" posY="13" posX="21" gridWidth="2"/>
+    </FormField>
+    <Label text="Detalle" posY="13" posX="30" gridWidth="8"/>
+    <FormField name="formonly.dettipcru1" colName="dettipcru1" sqlType="CHAR" fieldId="9" sqlTabName="formonly" tabIndex="13" noEntry="1">
+      <Edit width="44" shift="up" posY="13" posX="39" gridWidth="44"/>
+    </FormField>
+    <HLine posY="14" posX="0" gridWidth="85"/>
+    <Label name="lb2" width="17" text="Comp. Ingreso Efectivo : " posY="15" posX="2" gridWidth="17"/>
+    <FormField name="fc_conta3.codcop_ef" colName="codcop_ef" sqlType="CHAR(4)" fieldId="10" sqlTabName="fc_conta3" tabIndex="3">
+      <Edit width="4" picture="#####" comment="DIGITE EL CODIGO DEL SERVICIO" posY="15" posX="24" gridWidth="4">
+        <LStr comment="DIGITE EL CODIGO DEL SERVICIO"/>
+      </Edit>
+    </FormField>
+    <Label name="lb1" width="17" text="Comp. Ingreso Banco : " posY="17" posX="2" gridWidth="17"/>
+    <FormField name="fc_conta3.codcop_ba" colName="codcop_ba" sqlType="CHAR(4)" fieldId="11" sqlTabName="fc_conta3" tabIndex="4">
+      <Edit width="4" picture="#####" comment="DIGITE EL CODIGO DEL SERVICIO" posY="17" posX="24" gridWidth="4">
+        <LStr comment="DIGITE EL CODIGO DEL SERVICIO"/>
+      </Edit>
+    </FormField>
+    <Label name="lb3" width="17" text="Comp. Ingreso Credito : " posY="19" posX="2" gridWidth="17"/>
+    <FormField name="fc_conta3.codcop_cr" colName="codcop_cr" sqlType="CHAR(4)" fieldId="12" sqlTabName="fc_conta3" tabIndex="5">
+      <Edit width="4" picture="#####" comment="DIGITE EL CODIGO DEL SERVICIO" posY="19" posX="24" gridWidth="4">
+        <LStr comment="DIGITE EL CODIGO DEL SERVICIO"/>
+      </Edit>
+    </FormField>
+    <Label name="lb5" width="17" text="Comp. Causac. Subsidio : " posY="21" posX="2" gridWidth="17"/>
+    <FormField name="fc_conta3.codcop_su" colName="codcop_su" sqlType="CHAR(4)" fieldId="13" sqlTabName="fc_conta3" tabIndex="14">
+      <Edit width="4" picture="#####" comment="DIGITE EL CODIGO DEL SERVICIO" posY="21" posX="24" gridWidth="4">
+        <LStr comment="DIGITE EL CODIGO DEL SERVICIO"/>
+      </Edit>
+    </FormField>
+    <Label name="lb7" width="17" text="Comp. Legaliz. Anticipo : " posY="23" posX="2" gridWidth="17"/>
+    <FormField name="fc_conta3.codcop_an" colName="codcop_an" sqlType="CHAR(4)" fieldId="14" sqlTabName="fc_conta3" tabIndex="15">
+      <Edit width="4" picture="#####" comment="DIGITE EL CODIGO DEL SERVICIO" posY="23" posX="24" gridWidth="4">
+        <LStr comment="DIGITE EL CODIGO DEL SERVICIO"/>
+      </Edit>
+    </FormField>
+    <Label name="lb10" width="17" text="Comp. Reversa Sub.Tar : " posY="25" posX="2" gridWidth="17"/>
+    <FormField name="fc_conta3.codcop_nrs" colName="codcop_nrs" sqlType="CHAR(4)" fieldId="15" sqlTabName="fc_conta3" tabIndex="16">
+      <Edit width="4" picture="#####" comment="DIGITE EL CODIGO DEL SERVICIO" posY="25" posX="24" gridWidth="4">
+        <LStr comment="DIGITE EL CODIGO DEL SERVICIO"/>
+      </Edit>
+    </FormField>
+  </Grid>
+  <RecordView tabName="fc_conta3">
+    <Link colName="codigo" fieldIdRef="0"/>
+    <Link colName="prefijo" fieldIdRef="2"/>
+    <Link colName="codconta" fieldIdRef="4"/>
+    <Link colName="tipcru" fieldIdRef="6"/>
+    <Link colName="tipcruu" fieldIdRef="8"/>
+    <Link colName="codcop_ef" fieldIdRef="10"/>
+    <Link colName="codcop_ba" fieldIdRef="11"/>
+    <Link colName="codcop_cr" fieldIdRef="12"/>
+    <Link colName="codcop_su" fieldIdRef="13"/>
+    <Link colName="codcop_an" fieldIdRef="14"/>
+    <Link colName="codcop_nrs" fieldIdRef="15"/>
+  </RecordView>
+  <RecordView tabName="formonly">
+    <Link colName="mdetser" fieldIdRef="1"/>
+    <Link colName="detprefijo" fieldIdRef="3"/>
+    <Link colName="detconta" fieldIdRef="5"/>
+    <Link colName="dettipcru" fieldIdRef="7"/>
+    <Link colName="dettipcru1" fieldIdRef="9"/>
+  </RecordView>
+  <RecordView tabName="undefined">
+    <Link colName="codigo" fieldIdRef="0"/>
+    <Link colName="mdetser" fieldIdRef="1"/>
+    <Link colName="codcop_ef" fieldIdRef="10"/>
+    <Link colName="codcop_ba" fieldIdRef="11"/>
+    <Link colName="codcop_cr" fieldIdRef="12"/>
+    <Link colName="prefijo" fieldIdRef="2"/>
+    <Link colName="detprefijo" fieldIdRef="3"/>
+    <Link colName="codconta" fieldIdRef="4"/>
+    <Link colName="detconta" fieldIdRef="5"/>
+    <Link colName="tipcru" fieldIdRef="6"/>
+    <Link colName="dettipcru" fieldIdRef="7"/>
+    <Link colName="tipcruu" fieldIdRef="8"/>
+    <Link colName="dettipcru1" fieldIdRef="9"/>
+    <Link colName="codcop_su" fieldIdRef="13"/>
+    <Link colName="codcop_an" fieldIdRef="14"/>
+    <Link colName="codcop_nrs" fieldIdRef="15"/>
+  </RecordView>
+</Form>

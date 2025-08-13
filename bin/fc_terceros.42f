@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<Form name="fc_terceros.tmp" build="3.10.18" sqlDbName="empresa" spacing="normal" text="INFORMACION DE PROVEEDORES" width="98" height="18">
+  <Grid name="gr3" width="98" height="18">
+    <Label name="lb31" width="21" text="INFORMACION DEL PROVEEDOR" posY="0" posX="39" gridWidth="21"/>
+    <HLine posY="1" posX="0" gridWidth="98"/>
+    <Label name="lb32" width="13" text="Tipo Identificacion:" posY="2" posX="3" gridWidth="13"/>
+    <FormField name="fc_terceros.tipid" colName="tipid" sqlType="CHAR(2)" required="1" notNull="1" fieldId="0" sqlTabName="fc_terceros" tabIndex="18">
+      <ComboBox width="21" sizePolicy="initial" posY="2" posX="17" gridWidth="23"/>
+    </FormField>
+    <Label name="lb5" width="15" text="Numero Identificacion:" posY="2" posX="43" gridWidth="15"/>
+    <FormField name="fc_terceros.nit" colName="nit" sqlType="CHAR(20)" required="1" notNull="1" fieldId="1" sqlTabName="fc_terceros" tabIndex="7">
+      <Edit width="20" shift="up" posY="2" posX="59" gridWidth="20"/>
+    </FormField>
+    <Label name="lb14" width="6" text="Dig.Ver:" posY="2" posX="80" gridWidth="6"/>
+    <FormField name="fc_terceros.digver" colName="digver" sqlType="CHAR(1)" fieldId="2" sqlTabName="fc_terceros" tabIndex="21">
+      <Edit width="3" shift="up" posY="2" posX="87" gridWidth="3"/>
+    </FormField>
+    <Label name="lb1" width="10" text="Tipo Persona :" posY="3" posX="3" gridWidth="10"/>
+    <FormField name="fc_terceros.tipo_persona" colName="tipo_persona" sqlType="CHAR(1)" required="1" notNull="1" fieldId="3" sqlTabName="fc_terceros" tabIndex="8">
+      <ComboBox width="11" fontPitch="variable" posY="3" posX="17" gridWidth="13"/>
+    </FormField>
+    <Label name="lb13" width="11" text="Regimen Fiscal :" posY="3" posX="43" gridWidth="11"/>
+    <FormField name="fc_terceros.regimen" colName="regimen" sqlType="CHAR(1)" required="1" notNull="1" fieldId="4" sqlTabName="fc_terceros" tabIndex="22">
+      <Edit width="4" posY="3" posX="55" gridWidth="4"/>
+    </FormField>
+    <FormField name="formonly.ed_regimen" colName="ed_regimen" fieldId="5" sqlTabName="formonly" tabIndex="23">
+      <Edit width="30" posY="3" posX="60" gridWidth="30"/>
+    </FormField>
+    <HLine posY="4" posX="0" gridWidth="98"/>
+    <Label name="lb61" width="12" text="Razon Social :" posY="5" posX="2" gridWidth="12"/>
+    <FormField name="fc_terceros.razsoc" colName="razsoc" sqlType="CHAR(80)" fieldId="6" sqlTabName="fc_terceros" tabIndex="5">
+      <Edit width="80" shift="up" posY="5" posX="15" gridWidth="80"/>
+    </FormField>
+    <Label name="lb52" width="12" text="Primer Apellido :" posY="6" posX="2" gridWidth="12"/>
+    <FormField name="fc_terceros.primer_apellido" colName="primer_apellido" sqlType="CHAR(30)" fieldId="7" sqlTabName="fc_terceros" tabIndex="1">
+      <Edit width="30" shift="up" posY="6" posX="15" gridWidth="30"/>
+    </FormField>
+    <Label name="lb2" width="12" text="Segundo Apellido:" posY="6" posX="46" gridWidth="12"/>
+    <FormField name="fc_terceros.segundo_apellido" colName="segundo_apellido" sqlType="CHAR(30)" fieldId="8" sqlTabName="fc_terceros" tabIndex="9">
+      <Edit width="30" shift="up" posY="6" posX="59" gridWidth="30"/>
+    </FormField>
+    <Label name="lb6" width="11" text="Primer Nombre:" posY="7" posX="2" gridWidth="11"/>
+    <FormField name="fc_terceros.primer_nombre" colName="primer_nombre" sqlType="CHAR(30)" fieldId="9" sqlTabName="fc_terceros" tabIndex="10">
+      <Edit width="30" shift="up" posY="7" posX="15" gridWidth="30"/>
+    </FormField>
+    <Label name="lb7" width="12" text="Segundo Nombre:" posY="7" posX="46" gridWidth="12"/>
+    <FormField name="fc_terceros.segundo_nombre" colName="segundo_nombre" sqlType="CHAR(30)" fieldId="10" sqlTabName="fc_terceros" tabIndex="11">
+      <Edit width="30" shift="up" posY="7" posX="59" gridWidth="30"/>
+    </FormField>
+    <HLine posY="8" posX="0" gridWidth="98"/>
+    <Label name="lb58" width="8" text="Direccion:" posY="9" posX="2" gridWidth="8"/>
+    <FormField name="fc_terceros.direccion" colName="direccion" sqlType="CHAR(50)" required="1" notNull="1" fieldId="11" sqlTabName="fc_terceros" tabIndex="2">
+      <Edit width="50" shift="up" posY="9" posX="11" gridWidth="50"/>
+    </FormField>
+    <Label name="lb8" width="7" text="Telefono:" posY="9" posX="64" gridWidth="7"/>
+    <FormField name="fc_terceros.telefono" colName="telefono" sqlType="CHAR(15)" fieldId="12" sqlTabName="fc_terceros" tabIndex="12">
+      <Edit width="15" shift="up" posY="9" posX="72" gridWidth="15"/>
+    </FormField>
+    <Label name="lb9" width="6" text="Celular:" posY="10" posX="2" gridWidth="6"/>
+    <FormField name="fc_terceros.celular" colName="celular" sqlType="CHAR(10)" fieldId="13" sqlTabName="fc_terceros" tabIndex="13">
+      <Edit width="10" shift="up" posY="10" posX="9" gridWidth="10"/>
+    </FormField>
+    <Label name="lb54" width="6" text="Ciudad:" posY="10" posX="20" gridWidth="6"/>
+    <FormField name="fc_terceros.zona" colName="zona" sqlType="CHAR(9)" required="1" notNull="1" fieldId="14" sqlTabName="fc_terceros" tabIndex="3">
+      <Edit width="8" posY="10" posX="27" gridWidth="8"/>
+    </FormField>
+    <Button name="bt_zona" width="2" tabIndex="20" text="?" posY="10" posX="36" gridWidth="2">
+      <LStr text="?"/>
+    </Button>
+    <FormField name="formonly.detciu" colName="detciu" sqlType="CHAR" fieldId="15" sqlTabName="formonly" tabIndex="4" noEntry="1">
+      <Edit width="22" posY="10" posX="39" gridWidth="22"/>
+    </FormField>
+    <Label name="lb10" width="4" text="Pais:" posY="10" posX="62" gridWidth="4"/>
+    <FormField name="fc_terceros.pais" colName="pais" sqlType="CHAR(2)" required="1" notNull="1" fieldId="16" sqlTabName="fc_terceros" tabIndex="14">
+      <Edit width="3" posY="10" posX="67" gridWidth="3"/>
+    </FormField>
+    <Button name="bt_pais" width="2" tabIndex="19" text="?" posY="10" posX="71" gridWidth="2">
+      <LStr text="?"/>
+    </Button>
+    <FormField name="formonly.detpais" colName="detpais" sqlType="CHAR" fieldId="17" sqlTabName="formonly" tabIndex="15" noEntry="1">
+      <Edit width="16" posY="10" posX="74" gridWidth="16"/>
+    </FormField>
+    <HLine posY="11" posX="0" gridWidth="98"/>
+    <Label name="lb4" width="11" text="Medio Recepcion:" posY="12" posX="2" gridWidth="11"/>
+    <FormField name="fc_terceros.medio_recep" colName="medio_recep" sqlType="CHAR(1)" fieldId="18" sqlTabName="fc_terceros" tabIndex="16">
+      <ComboBox width="19" posY="12" posX="14" gridWidth="21"/>
+    </FormField>
+    <Label name="lb12" width="13" text="Correo Electronico:" posY="12" posX="36" gridWidth="13"/>
+    <FormField name="fc_terceros.email" colName="email" sqlType="CHAR(80)" fieldId="19" sqlTabName="fc_terceros" tabIndex="17">
+      <Edit width="47" posY="12" posX="50" gridWidth="47"/>
+    </FormField>
+    <HLine posY="14" posX="0" gridWidth="98"/>
+    <Label name="lb3" width="15" text="Estado del Proveedor :" posY="15" posX="2" gridWidth="15"/>
+    <FormField name="fc_terceros.estado" colName="estado" sqlType="CHAR(1)" required="1" notNull="1" fieldId="20" sqlTabName="fc_terceros" tabIndex="6">
+      <ComboBox width="19" posY="15" posX="18" gridWidth="21"/>
+    </FormField>
+  </Grid>
+  <RecordView tabName="fc_terceros">
+    <Link colName="tipid" fieldIdRef="0"/>
+    <Link colName="nit" fieldIdRef="1"/>
+    <Link colName="digver" fieldIdRef="2"/>
+    <Link colName="tipo_persona" fieldIdRef="3"/>
+    <Link colName="regimen" fieldIdRef="4"/>
+    <Link colName="razsoc" fieldIdRef="6"/>
+    <Link colName="primer_apellido" fieldIdRef="7"/>
+    <Link colName="segundo_apellido" fieldIdRef="8"/>
+    <Link colName="primer_nombre" fieldIdRef="9"/>
+    <Link colName="segundo_nombre" fieldIdRef="10"/>
+    <Link colName="direccion" fieldIdRef="11"/>
+    <Link colName="telefono" fieldIdRef="12"/>
+    <Link colName="celular" fieldIdRef="13"/>
+    <Link colName="zona" fieldIdRef="14"/>
+    <Link colName="pais" fieldIdRef="16"/>
+    <Link colName="medio_recep" fieldIdRef="18"/>
+    <Link colName="email" fieldIdRef="19"/>
+    <Link colName="estado" fieldIdRef="20"/>
+  </RecordView>
+  <RecordView tabName="formonly">
+    <Link colName="ed_regimen" fieldIdRef="5"/>
+    <Link colName="detciu" fieldIdRef="15"/>
+    <Link colName="detpais" fieldIdRef="17"/>
+  </RecordView>
+  <RecordView tabName="undefined">
+    <Link colName="tipid" fieldIdRef="0"/>
+    <Link colName="razsoc" fieldIdRef="6"/>
+    <Link colName="primer_apellido" fieldIdRef="7"/>
+    <Link colName="zona" fieldIdRef="14"/>
+    <Link colName="detciu" fieldIdRef="15"/>
+    <Link colName="direccion" fieldIdRef="11"/>
+    <Link colName="estado" fieldIdRef="20"/>
+    <Link colName="nit" fieldIdRef="1"/>
+    <Link colName="tipo_persona" fieldIdRef="3"/>
+    <Link colName="segundo_apellido" fieldIdRef="8"/>
+    <Link colName="primer_nombre" fieldIdRef="9"/>
+    <Link colName="segundo_nombre" fieldIdRef="10"/>
+    <Link colName="telefono" fieldIdRef="12"/>
+    <Link colName="celular" fieldIdRef="13"/>
+    <Link colName="pais" fieldIdRef="16"/>
+    <Link colName="detpais" fieldIdRef="17"/>
+    <Link colName="medio_recep" fieldIdRef="18"/>
+    <Link colName="email" fieldIdRef="19"/>
+    <Link colName="digver" fieldIdRef="2"/>
+    <Link colName="regimen" fieldIdRef="4"/>
+    <Link colName="ed_regimen" fieldIdRef="5"/>
+  </RecordView>
+</Form>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ManagedForm databaseName="empresa" fileVersion="30a00" gstVersion="30a0b" name="Root" uid="{45d5f0ba-4964-48fc-9ebc-84b8c49e6eb3}">
+  <AGSettings>
+    <DynamicProperties version="2"/>
+  </AGSettings>
+  <Record additionalTables="" joinLeft="" joinOperator="" joinRight="" name="Undefined" order="" uid="{caf90ddd-53fd-4210-91c8-94136c62c535}" where="">
+    <RecordField colName="codigo" fieldIdRef="9" fieldType="TABLE_COLUMN" name="fe_tarifas.codigo" sqlTabName="fe_tarifas" sqlType="CHAR" table_alias_name="" uid="{795a3d91-0e2a-4a54-a416-5d11b3fe9c63}"/>
+    <RecordField colName="vigencia" fieldIdRef="3" fieldType="TABLE_COLUMN" name="fe_tarifas.vigencia" precisionDecimal="5" scaleDecimal="2" sqlTabName="fe_tarifas" sqlType="CHAR" table_alias_name="" uid="{64c86175-7071-4b3b-945c-c1abeb593125}"/>
+    <RecordField colName="" fieldIdRef="1" fieldType="NON_DATABASE" name="detprefijo" sqlTabName="" sqlType="CHAR" table_alias_name="" uid="{a28b228a-0976-4156-9011-4c000820abfa}"/>
+    <RecordField colName="codcat" fieldIdRef="5" fieldType="TABLE_COLUMN" name="fe_tarifas.codcat" sqlTabName="fe_tarifas" sqlType="CHAR" table_alias_name="" uid="{19b36af6-9fcc-4866-8eff-500632472aec}"/>
+    <RecordField colName="prefijo" fieldIdRef="8" fieldType="TABLE_COLUMN" name="fe_tarifas.prefijo" sqlTabName="fe_tarifas" sqlType="CHAR" table_alias_name="" uid="{15b9b321-6a2c-4182-a327-db63d8ed2745}"/>
+    <RecordField colName="valor" fieldIdRef="2" fieldType="TABLE_COLUMN" name="fe_tarifas.valor" precisionDecimal="12" scaleDecimal="2" sqlTabName="fe_tarifas" sqlType="DECIMAL" table_alias_name="" uid="{868fb59b-db2a-4b65-b388-4bb7f4505b92}"/>
+    <RecordField colName="" fieldIdRef="4" fieldType="NON_DATABASE" name="detcodigo" sqlTabName="" sqlType="CHAR" table_alias_name="" uid="{619e71f7-5b66-4cd7-b8b5-4d47ccc0f174}"/>
+    <RecordField colName="valorsub" fieldIdRef="6" fieldType="TABLE_COLUMN" name="fe_tarifas.valorsub" precisionDecimal="12" scaleDecimal="2" sqlTabName="fe_tarifas" sqlType="DECIMAL" table_alias_name="" uid="{2062232e-1f1e-47be-b6b4-26376cdafb73}"/>
+  </Record>
+  <Form gridHeight="11" gridWidth="87" lstrtext="false" name="fe_tarifas" spacing="normal" text="INFORMACION DE TARIFAS">
+    <Grid gridHeight="9" gridWidth="83" lstrcomment="false" name="gr3" posX="3" posY="1">
+      <Label gridHeight="1" gridWidth="16" lstrcomment="false" lstrtext="false" name="lb31" posX="31" posY="0" text="TARIFAS DE SERVICIOS"/>
+      <HLine gridWidth="83" name="hl8" posX="0" posY="1"/>
+      <Label gridHeight="1" gridWidth="12" lstrcomment="false" lstrtext="false" name="lb32" posX="3" posY="2" text="Codigo Servicio :"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="codigo" fieldId="9" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="7" lstrcomment="false" lstrtitle="false" name="fe_tarifas.codigo" posX="16" posY="2" sqlTabName="fe_tarifas" sqlType="CHAR" tabIndex="1" table_alias_name="" widget="Edit"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" case="upper" colName="" fieldId="4" fieldType="NON_DATABASE" gridHeight="1" gridWidth="50" length="1" lstrcomment="false" lstrtitle="false" name="detcodigo" noEntry="true" posX="24" posY="2" sqlTabName="" sqlType="CHAR" tabIndex="7" table_alias_name="" widget="Edit"/>
+      <HLine gridWidth="83" name="hl1" posX="0" posY="3"/>
+      <Label gridHeight="1" gridWidth="12" lstrcomment="false" lstrtext="false" name="lb59" posX="3" posY="4" text="Prefijo Facturacion:"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="prefijo" fieldId="8" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="5" lstrcomment="false" lstrtitle="false" name="fe_tarifas.prefijo" posX="16" posY="4" sqlTabName="fe_tarifas" sqlType="CHAR" tabIndex="5" table_alias_name="" widget="Edit"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" case="upper" colName="" fieldId="1" fieldType="NON_DATABASE" gridHeight="1" gridWidth="50" length="1" lstrcomment="false" lstrtitle="false" name="detprefijo" noEntry="true" posX="22" posY="4" sqlTabName="" sqlType="CHAR" tabIndex="3" table_alias_name="" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="8" lstrcomment="false" lstrtext="false" name="lb5" posX="3" posY="5" text="Categoria:"/>
+      <ComboBox aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="codcat" fieldId="5" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="5" items="" lstrcomment="false" lstrtitle="false" name="fe_tarifas.codcat" posX="12" posY="5" sqlTabName="fe_tarifas" sqlType="CHAR" tabIndex="4" table_alias_name="" widget="ComboBox"/>
+      <Label gridHeight="1" gridWidth="7" lstrcomment="false" lstrtext="false" name="lb2" posX="22" posY="5" text="Vigencia:"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" case="upper" colName="vigencia" fieldId="3" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="5" lstrcomment="false" lstrtitle="false" name="fe_tarifas.vigencia" posX="31" posY="5" precisionDecimal="5" scaleDecimal="2" sqlTabName="fe_tarifas" sqlType="CHAR" tabIndex="2" table_alias_name="" widget="Edit"/>
+      <HLine gridWidth="83" name="hl12" posX="0" posY="6"/>
+      <Label gridHeight="1" gridWidth="10" lstrcomment="false" lstrtext="false" name="lb1" posX="3" posY="7" text="Valor Tarifa :"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" case="upper" colName="valor" fieldId="2" fieldType="TABLE_COLUMN" format="---,---,--&amp;.--" gridHeight="1" gridWidth="20" lstrcomment="false" lstrtitle="false" name="fe_tarifas.valor" posX="14" posY="7" precisionDecimal="12" scaleDecimal="2" sqlTabName="fe_tarifas" sqlType="DECIMAL" tabIndex="6" table_alias_name="" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="15" lstrcomment="false" lstrtext="false" name="lb3" posX="38" posY="7" text="Valor Subsidio:"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" case="upper" colName="valorsub" fieldId="6" fieldType="TABLE_COLUMN" format="---,---,--&amp;.--" gridHeight="1" gridWidth="20" lstrcomment="false" lstrtitle="false" name="fe_tarifas.valorsub" posX="54" posY="7" precisionDecimal="12" scaleDecimal="2" sqlTabName="fe_tarifas" sqlType="DECIMAL" tabIndex="8" table_alias_name="" widget="Edit"/>
+    </Grid>
+  </Form>
+  <DiagramLayout>
+    <![CDATA[AAAAAgAAAEwAewBjAGEAZgA5ADAAZABkAGQALQA1ADMAZgBkAC0ANAAyADEAMAAtADkAMQBjADgALQA5ADQAMQAzADYAYwA2ADIAYwA1ADMANQB9AAAAAAAAAAAAAAAAAAAAAD90euFHrhR7AQ==]]>
+  </DiagramLayout>
+</ManagedForm>

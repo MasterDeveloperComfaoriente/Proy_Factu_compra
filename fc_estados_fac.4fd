@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ManagedForm databaseName="empresa" fileVersion="30a00" gstVersion="30a0b" name="Root" uid="{64d80a8d-1089-4b2b-87fd-444a3ab1c6f7}">
+  <AGSettings>
+    <DynamicProperties version="2"/>
+  </AGSettings>
+  <Record additionalTables="" joinLeft="" joinOperator="" joinRight="" name="tb_hist" order="" uid="{3e163cc6-ee8d-4862-a133-3dcff71e1cf0}" where=""/>
+  <Record additionalTables="" joinLeft="" joinOperator="" joinRight="" name="tb2" order="" uid="{9b8d5e5d-211e-43e3-80ed-a4241888f9a9}" where=""/>
+  <Record additionalTables="" joinLeft="" joinOperator="" joinRight="" name="Undefined" order="" uid="{04e63a9b-e265-4df1-a2df-fabaed5b4e60}" where="">
+    <RecordField colName="prefijo" fieldIdRef="13" fieldType="TABLE_COLUMN" name="fc_estados_fac.prefijo" sqlTabName="fc_estados_fac" sqlType="CHAR" table_alias_name="" uid="{810d3b93-920e-44e2-bfaa-dd7075f097e0}"/>
+    <RecordField colName="numfac" fieldIdRef="14" fieldType="TABLE_COLUMN" name="fc_estados_fac.numfac" sqlTabName="fc_estados_fac" sqlType="CHAR" table_alias_name="" uid="{7c312da1-6b4f-42ee-9302-6c477570caf1}"/>
+    <RecordField colName="documento" fieldIdRef="15" fieldType="NON_DATABASE" name="numint" sqlTabName="fe_factura_m" sqlType="CHAR" table_alias_name="" uid="{982bdaaf-9aa5-44d1-b0ca-4b43ef36c63a}"/>
+    <RecordField colName="fecfactura" fieldIdRef="16" fieldType="TABLE_ALIAS" name="fc_estado_fac.fecfactura" sqlTabName="fc_estados_fac" sqlType="DATE" table_alias_name="fc_estado_fac" uid="{54197f6a-8d14-4bd5-ac40-c70971c0dfb8}"/>
+    <RecordField colName="fecest" fieldIdRef="5" fieldType="TABLE_COLUMN" name="fc_estados_fac.fecest" sqlTabName="fc_estados_fac" sqlType="DATE" table_alias_name="" uid="{fba3713a-e2e1-46b1-81ae-816bb109cc3e}"/>
+    <RecordField colName="nit" fieldIdRef="6" fieldType="NON_DATABASE" name="mnit" sqlTabName="fe_factura_m" sqlType="CHAR" table_alias_name="" uid="{440e5fbe-4b06-4ad0-84b9-6523157f029a}"/>
+    <RecordField colName="" fieldIdRef="7" name="mnombre" sqlTabName="" table_alias_name="" uid="{139e750d-b467-4e47-91ab-8d9be4a366fb}"/>
+    <RecordField colName="codest" fieldIdRef="8" fieldType="TABLE_COLUMN" name="fc_estados_fac.codest" sqlTabName="fc_estados_fac" sqlType="CHAR" table_alias_name="" uid="{d9176d69-3c4a-4f13-aae6-8fa604c68d7e}"/>
+    <RecordField colName="" fieldIdRef="11" name="mrazsoc" sqlTabName="" table_alias_name="" uid="{17279735-b4c4-4f0b-b6fa-16db7f701335}"/>
+    <RecordField colName="tpdocumento" fieldIdRef="1" fieldType="TABLE_COLUMN" name="fc_estados_fac.tpdocumento" sqlTabName="fc_estados_fac" sqlType="CHAR" table_alias_name="" uid="{652e7c4d-b7d1-401f-839a-14a3188ca83d}"/>
+    <RecordField colName="cufe" fieldIdRef="2" fieldType="TABLE_COLUMN" name="fc_estados_fac.cufe" sqlTabName="fc_estados_fac" sqlType="CHAR" table_alias_name="" uid="{c0c928c9-88ad-414f-a7d2-134e51bd7c7d}"/>
+    <RecordField colName="codult_estdisp" fieldIdRef="3" fieldType="TABLE_COLUMN" name="fc_estados_fac.codult_estdisp" sqlTabName="fc_estados_fac" sqlType="INTEGER" table_alias_name="" uid="{debd7129-4bf6-4a2b-b3b6-3f2e6b3ffd27}"/>
+    <RecordField colName="des_ult_estdisp" fieldIdRef="4" fieldType="TABLE_COLUMN" name="fc_estados_fac.des_ult_estdisp" sqlTabName="fc_estados_fac" sqlType="CHAR" table_alias_name="" uid="{04461287-90d4-4985-9ac2-139b02a3d24f}"/>
+    <RecordField colName="fecres_ultestdisp" fieldIdRef="9" fieldType="TABLE_COLUMN" name="fc_estados_fac.fecres_ultestdisp" sqlTabName="fc_estados_fac" sqlType="DATE" table_alias_name="" uid="{0ce369ce-1cfe-4db2-a3fb-f7c3268ee688}"/>
+    <RecordField colName="cod_ult_estdian" fieldIdRef="10" fieldType="TABLE_COLUMN" name="fc_estados_fac.cod_ult_estdian" sqlTabName="fc_estados_fac" sqlType="INTEGER" table_alias_name="" uid="{0da297e3-2c2e-4fbd-9c56-28453260d882}"/>
+    <RecordField colName="des_ult_estdian" fieldIdRef="12" fieldType="TABLE_COLUMN" name="fc_estados_fac.des_ult_estdian" sqlTabName="fc_estados_fac" sqlType="CHAR" table_alias_name="" uid="{7ccb345c-d0fd-49a1-b7a5-9df800d14d92}"/>
+    <RecordField colName="fecres_ultestdian" fieldIdRef="17" fieldType="TABLE_COLUMN" name="fc_estados_fac.fecres_ultestdian" sqlTabName="fc_estados_fac" sqlType="DATE" table_alias_name="" uid="{b1277b9f-c3c3-49e5-86ab-e60013418578}"/>
+    <RecordField colName="cod_ult_estmail" fieldIdRef="18" fieldType="TABLE_COLUMN" name="fc_estados_fac.cod_ult_estmail" sqlTabName="fc_estados_fac" sqlType="INTEGER" table_alias_name="" uid="{baaaa355-d0c2-4f4f-b9a1-051b035302f3}"/>
+    <RecordField colName="des_ult_estmail" fieldIdRef="19" fieldType="TABLE_COLUMN" name="fc_estados_fac.des_ult_estmail" sqlTabName="fc_estados_fac" sqlType="CHAR" table_alias_name="" uid="{87b09418-d006-47f8-b339-6d9e8bcfbbb2}"/>
+    <RecordField colName="fecres_ultestmail" fieldIdRef="20" fieldType="TABLE_COLUMN" name="fc_estados_fac.fecres_ultestmail" sqlTabName="fc_estados_fac" sqlType="DATE" table_alias_name="" uid="{48e5480b-394e-472f-9580-456dc05843f2}"/>
+    <RecordField colName="cod_ult_estadq" fieldIdRef="21" fieldType="TABLE_COLUMN" name="fc_estados_fac.cod_ult_estadq" sqlTabName="fc_estados_fac" sqlType="INTEGER" table_alias_name="" uid="{f7d2149d-a02a-4a70-a0cf-a806fe887954}"/>
+    <RecordField colName="des_ult_estadq" fieldIdRef="22" fieldType="TABLE_COLUMN" name="fc_estados_fac.des_ult_estadq" sqlTabName="fc_estados_fac" sqlType="CHAR" table_alias_name="" uid="{f15397a7-9872-4f70-9ed8-89f31e4aa1f3}"/>
+    <RecordField colName="fecres_ultestadq" fieldIdRef="23" fieldType="TABLE_COLUMN" name="fc_estados_fac.fecres_ultestadq" sqlTabName="fc_estados_fac" sqlType="DATE" table_alias_name="" uid="{9e5729ed-e30b-43d2-8da6-4e94ac975ffc}"/>
+    <RecordField colName="fecrep" fieldIdRef="28" fieldType="TABLE_COLUMN" name="fc_estados_fac.fecrep" sqlTabName="fc_estados_fac" sqlType="DATE" table_alias_name="" uid="{3544c806-db87-4528-8381-9cdee7baab8c}"/>
+  </Record>
+  <Form gridHeight="24" gridWidth="113" lstrtext="false" name="fe_estados_fac" spacing="normal" text="HISTORICO DE ESTADOS DE LAS  FACTURAS">
+    <Grid gridHeight="22" gridWidth="102" lstrcomment="false" name="gr4" posX="6" posY="1">
+      <HLine gridWidth="100" name="hl9" posX="0" posY="0"/>
+      <Label gridHeight="1" gridWidth="12" name="Label1" posX="1" posY="1" text="Tipo Documento :"/>
+      <ComboBox aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="tpdocumento" fieldId="1" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="19" items="" name="fc_estados_fac.tpdocumento" posX="14" posY="1" scroll="true" sqlTabName="fc_estados_fac" sqlType="CHAR" tabIndex="2" table_alias_name="" title="tpdocumento" widget="ComboBox"/>
+      <Label gridHeight="1" gridWidth="6" name="Label17" posX="34" posY="1" text="Prefijo:"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="prefijo" fieldId="13" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="5" lstrcomment="false" lstrtitle="false" name="fc_estados_fac.prefijo" posX="41" posY="1" sqlTabName="fc_estados_fac" sqlType="CHAR" tabIndex="-1" table_alias_name="" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="11" name="Label18" posX="47" posY="1" text="No. Documento:"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="numfac" fieldId="14" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="10" lstrcomment="false" lstrtitle="false" name="fc_estados_fac.numfac" posX="59" posY="1" sqlTabName="fc_estados_fac" sqlType="CHAR" tabIndex="-1" table_alias_name="" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="15" name="Label20" posX="70" posY="1" text="Fecha de facturacion :"/>
+      <DateEdit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="fecfactura" fieldId="16" fieldType="TABLE_ALIAS" gridHeight="1" gridWidth="10" lstrcomment="false" lstrtitle="false" name="fc_estado_fac.fecfactura" posX="86" posY="1" sqlTabName="fc_estados_fac" sqlType="DATE" tabIndex="-1" table_alias_name="fc_estado_fac" widget="DateEdit"/>
+      <Label gridHeight="1" gridWidth="12" name="Label7" posX="1" posY="2" text="No. INTERNO :"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="documento" fieldId="15" fieldType="NON_DATABASE" gridHeight="1" gridWidth="7" length="1" lstrcomment="false" lstrtitle="false" name="numint" posX="14" posY="2" sqlTabName="fe_factura_m" sqlType="CHAR" tabIndex="-1" table_alias_name="" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="4" name="Label19" posX="23" posY="2" text="CUFE"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="cufe" fieldId="2" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="68" name="fc_estados_fac.cufe" noEntry="true" notNull="false" posX="28" posY="2" required="false" sqlTabName="fc_estados_fac" sqlType="CHAR" tabIndex="3" table_alias_name="" widget="Edit"/>
+      <HLine gridWidth="100" name="hl1" posX="0" posY="3"/>
+      <Label gridHeight="1" gridWidth="9" lstrcomment="false" lstrtext="false" name="lb41" posX="1" posY="4" text="Cliente:"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="nit" fieldId="6" fieldType="NON_DATABASE" gridHeight="1" gridWidth="19" length="1" name="mnit" posX="11" posY="4" sqlTabName="fe_factura_m" sqlType="CHAR" tabIndex="-1" table_alias_name="" title="Edit1" widget="Edit"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="" fieldId="7" gridHeight="1" gridWidth="53" name="mnombre" posX="31" posY="4" sqlTabName="" tabIndex="-1" table_alias_name="" title="Edit1" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="9" lstrcomment="false" lstrtext="false" name="lb1" posX="1" posY="5" text="Raz. Social:"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="" fieldId="11" gridHeight="1" gridWidth="73" name="mrazsoc" posX="11" posY="5" sqlTabName="" tabIndex="-1" table_alias_name="" title="Edit1" widget="Edit"/>
+      <HLine gridWidth="100" name="hl2" posX="0" posY="7"/>
+      <Label gridHeight="1" gridWidth="14" name="Label2" posX="1" posY="8" text="Cod Edo Dispapeles :"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="codult_estdisp" fieldId="3" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="11" name="fc_estados_fac.codult_estdisp" posX="16" posY="8" scroll="true" sqlTabName="fc_estados_fac" sqlType="INTEGER" tabIndex="4" table_alias_name="" title="codult_estdisp" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="18" name="Label8" posX="1" posY="9" text="Descripcion Edo Dispapeles:"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="des_ult_estdisp" fieldId="4" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="46" name="fc_estados_fac.des_ult_estdisp" posX="20" posY="9" scroll="true" sqlTabName="fc_estados_fac" sqlType="CHAR" tabIndex="5" table_alias_name="" title="des_ult_estdisp" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="8" name="Label9" posX="69" posY="9" text="Fecha/Hora:"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="fecres_ultestdisp" fieldId="9" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="15" name="fc_estados_fac.fecres_ultestdisp" posX="78" posY="9" sqlTabName="fc_estados_fac" sqlType="DATE" tabIndex="6" table_alias_name="" title="fecres_ultestdisp" widget="Edit"/>
+      <HLine gridWidth="100" name="hl3" posX="0" posY="10"/>
+      <Label gridHeight="1" gridWidth="10" name="Label10" posX="1" posY="11" text="Cod Edo Dian:"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="cod_ult_estdian" fieldId="10" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="11" name="fc_estados_fac.cod_ult_estdian" posX="12" posY="11" scroll="true" sqlTabName="fc_estados_fac" sqlType="INTEGER" tabIndex="7" table_alias_name="" title="cod_ult_estdian" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="15" name="Label11" posX="1" posY="12" text="Descripcion Edo Dian:"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="des_ult_estdian" fieldId="12" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="49" name="fc_estados_fac.des_ult_estdian" posX="18" posY="12" scroll="true" sqlTabName="fc_estados_fac" sqlType="CHAR" tabIndex="8" table_alias_name="" title="des_ult_estdian" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="8" name="label5" posX="69" posY="12" text="Fecha/Hora:"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="fecres_ultestdian" fieldId="17" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="15" name="fc_estados_fac.fecres_ultestdian" posX="78" posY="12" sqlTabName="fc_estados_fac" sqlType="DATE" tabIndex="9" table_alias_name="" title="fecres_ultestdian" widget="Edit"/>
+      <HLine gridWidth="100" name="hl4" posX="0" posY="13"/>
+      <Label gridHeight="1" gridWidth="14" name="Label13" posX="1" posY="14" text="Cod Estado Envio:"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="cod_ult_estmail" fieldId="18" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="11" name="fc_estados_fac.cod_ult_estmail" posX="16" posY="14" scroll="true" sqlTabName="fc_estados_fac" sqlType="INTEGER" tabIndex="10" table_alias_name="" title="cod_ult_estmail" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="15" name="Label14" posX="1" posY="15" text="Descripcion Edo Email:"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="des_ult_estmail" fieldId="19" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="50" name="fc_estados_fac.des_ult_estmail" posX="18" posY="15" scroll="true" sqlTabName="fc_estados_fac" sqlType="CHAR" tabIndex="11" table_alias_name="" title="des_ult_estmail" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="8" name="label12" posX="69" posY="15" text="Fecha/Hora:"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="fecres_ultestmail" fieldId="20" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="15" name="fc_estados_fac.fecres_ultestmail" posX="78" posY="15" sqlTabName="fc_estados_fac" sqlType="DATE" tabIndex="12" table_alias_name="" title="fecres_ultestmail" widget="Edit"/>
+      <HLine gridWidth="100" name="hl5" posX="0" posY="16"/>
+      <Label gridHeight="1" gridWidth="14" name="Label16" posX="1" posY="17" text="Cod Edo Adquiriente:"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="cod_ult_estadq" fieldId="21" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="11" name="fc_estados_fac.cod_ult_estadq" posX="17" posY="17" scroll="true" sqlTabName="fc_estados_fac" sqlType="INTEGER" tabIndex="13" table_alias_name="" title="cod_ult_estadq" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="18" name="Label3" posX="1" posY="18" text="Descripcion Edo Adquiriente:"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="des_ult_estadq" fieldId="22" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="49" name="fc_estados_fac.des_ult_estadq" posX="21" posY="18" scroll="true" sqlTabName="fc_estados_fac" sqlType="CHAR" tabIndex="14" table_alias_name="" title="des_ult_estadq" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="8" name="label15" posX="72" posY="18" text="Fecha/Hora:"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="fecres_ultestadq" fieldId="23" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="15" name="fc_estados_fac.fecres_ultestadq" posX="81" posY="18" sqlTabName="fc_estados_fac" sqlType="DATE" tabIndex="15" table_alias_name="" title="fecres_ultestadq" widget="Edit"/>
+      <HLine gridWidth="100" name="hl6" posX="0" posY="19"/>
+      <Label gridHeight="1" gridWidth="10" name="Label4" posX="1" posY="20" text="Cod/Estado :"/>
+      <ComboBox aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="codest" fieldId="8" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="47" items="" name="fc_estados_fac.codest" posX="12" posY="20" sqlTabName="fc_estados_fac" sqlType="CHAR" tabIndex="-1" table_alias_name="" title="Edit1" widget="ComboBox"/>
+      <Label gridHeight="1" gridWidth="11" name="Label6" posX="63" posY="20" text="Fecha Estado :"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="fecest" fieldId="5" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="15" lstrcomment="false" lstrtitle="false" name="fc_estados_fac.fecest" posX="75" posY="20" sqlTabName="fc_estados_fac" sqlType="DATE" tabIndex="-1" table_alias_name="" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="14" name="Label25" posX="1" posY="21" text="Fecha Respuesta:"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="fecrep" fieldId="28" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="15" name="fc_estados_fac.fecrep" posX="17" posY="21" sqlTabName="fc_estados_fac" sqlType="DATE" tabIndex="16" table_alias_name="" title="fecrep" widget="Edit"/>
+    </Grid>
+  </Form>
+  <DiagramLayout>
+    <![CDATA[AAAAAgAAAEwAewAwADQAZQA2ADMAYQA5AGIALQBlADIANgA1AC0ANABkAGYAMQAtAGEAMgBkAGYALQBmAGEAYgBhAGUAZAA1AGIANABlADYAMAB9QDQAAAAAAABANAAAAAAAAD+dsi0OVgQeAQAAAEwAewA5AGIAOABkADUAZQA1AGQALQAyADEAMQBlAC0ANAAzAGUAMwAtADgAMABlAGQALQBhADQAMgA0ADEAOAA4ADgAZgA5AGEAOQB9QHIwAAAgAADAL////AAAAD+x64UeuFHvAQAAAEwAewAzAGUAMQA2ADMAYwBjADYALQBlAGUAOABkAC0ANAA4ADYAMgAtAGEAMQAzADMALQAzAGQAYwBmAGYANwAxAGUAMQBjAGYAMAB9wGMAAAAAAABACAAAAAAAAD+yLQ5WBBiXAQ==]]>
+  </DiagramLayout>
+</ManagedForm>

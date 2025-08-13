@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<Form name="fc_principal" build="3.10.18" text="APLICATIVO DOCUMENTO SOPORTE NO OBLIGADOS A FACTURAR " windowStyle="main" width="85" height="24">
+  <TopMenu>
+    <TopMenuGroup name="param" text="Parametros" comment="Definicion de parametros del aplicativo">
+      <TopMenuGroup name="basicos" text="Basicos">
+        <TopMenuCommand name="empresas" text="Informacion Empresa"/>
+        <TopMenuCommand name="prefijos" text="Prefijos"/>
+        <TopMenuCommand name="servicios" text="Definicion Servicios"/>
+        <TopMenuSeparator/>
+        <TopMenuCommand name="edofact" text="Estados del proceso"/>
+      </TopMenuGroup>
+      <TopMenuGroup name="catalogos" text="Catalogos Dian">
+        <TopMenuCommand name="unidades" text="Registro Unidades de Medida"/>
+        <TopMenuCommand name="paises" text="Codigo de paises"/>
+        <TopMenuCommand name="deptos" text="Codigo de Departamentos"/>
+        <TopMenuCommand name="ciudades" text="Codigo de Ciudades"/>
+        <TopMenuCommand name="descuentos" text="Codigo de Descuentos"/>
+        <TopMenuCommand name="impuestos" text="Codigo de Impuestos"/>
+        <TopMenuCommand name="tpobligacion" text="Obigaciones Tributarias"/>
+      </TopMenuGroup>
+      <TopMenuGroup name="permisos" text="Permisos">
+        <TopMenuGroup name="permi_e" text="Elaborar Documento Soporte">
+          <TopMenuCommand name="prefijos_usu" text="Permisos usuarios Prefijos"/>
+        </TopMenuGroup>
+        <TopMenuGroup name="permi_e" text="Autorizar Documento Soporte">
+          <TopMenuCommand name="prefijos_usuu" text="Permisos usuarios Prefijos"/>
+        </TopMenuGroup>
+      </TopMenuGroup>
+      <TopMenuGroup name="conta" text="Parametros Contable">
+        <TopMenuCommand name="conta1" text="Aux Servicios"/>
+        <TopMenuCommand name="conta3" text="Comprobantes Forma Pago-Servicios"/>
+      </TopMenuGroup>
+    </TopMenuGroup>
+    <TopMenuGroup name="procesos" text="Procesos">
+      <TopMenuCommand name="proveedores" text="Actualizacion Proveedores"/>
+      <TopMenuCommand name="factura" text="Generar Documento Soporte"/>
+      <TopMenuCommand name="notad" text="Nota Debito-Credito"/>
+      <TopMenuCommand name="aprueba_masivo" text="Aprobar Documentos masivo"/>
+      <TopMenuCommand name="genera_comprobante" text="Genera Causacion factura"/>
+      <TopMenuCommand name="genera_comprobante_nota" text="Genera Causacion Nota"/>
+      <TopMenuCommand name="genera_comprobante_rever" text="Reversion Rechazo Cliente/Fact"/>
+      <TopMenuCommand name="habilita_genera_comprobante" text="Desmarca Causacion factura"/>
+      <TopMenuCommand name="migra_copagos_eps" text="Migrar Copagos Eps"/>
+      <TopMenuCommand name="pagosagencia" text="Registro Pagos Agencia"/>
+    </TopMenuGroup>
+    <TopMenuGroup name="consultaresul" text="Interaccion DIAN">
+      <TopMenuCommand name="enviar_factura" text="Trasmitir Factura"/>
+      <TopMenuCommand name="enviar_nota" text="Trasmitir Nota Cred/Deb"/>
+      <TopMenuCommand name="consulta_est_webs1" text="Traer Estados Documentos"/>
+      <TopMenuCommand name="consulta_est_webs2" text="Traer Estados Notas"/>
+      <TopMenuCommand name="traer_represent_factu" text="Descargar Documento Soporte"/>
+      <TopMenuCommand name="traer_represent_nota" text="Descargar Nota"/>
+      <TopMenuSeparator/>
+      <TopMenuCommand name="consulta_est_webs3" text="Traer Estados Masivo"/>
+      <TopMenuSeparator/>
+      <TopMenuCommand name="consul_respenv" text="Consulta Respuesta Envio"/>
+      <TopMenuCommand name="consul_estfac" text="Consulta Estados"/>
+    </TopMenuGroup>
+    <TopMenuGroup name="reportes" text="Reportes De Facturacion">
+      <TopMenuGroup name="repgen" text="Reportes Generales Facturas">
+        <TopMenuCommand name="factu1" text="Facturas Generadas"/>
+        <TopMenuCommand name="factu2" text="Facturas Generadas Nit"/>
+        <TopMenuCommand name="factu3" text="Facturas Forma Pago"/>
+        <TopMenuCommand name="factu4" text="Facturas Medio Pago"/>
+        <TopMenuCommand name="factu6" text="Facturas Impuestos"/>
+        <TopMenuCommand name="factu8" text="Facturas Generadas Estado"/>
+        <TopMenuCommand name="factu9" text="Facturas Contabilizadas"/>
+      </TopMenuGroup>
+      <TopMenuGroup name="repgen_n" text="Reportes Generales Notas">
+        <TopMenuCommand name="notagen" text="Notas Generadas"/>
+        <TopMenuCommand name="notacont" text="Notas Contabilizadas"/>
+      </TopMenuGroup>
+      <TopMenuCommand name="arqueo1" text="Reporte de Movimientos Facturas"/>
+      <TopMenuCommand name="arqueo2" text="Reporte de Movimientos Notas"/>
+    </TopMenuGroup>
+    <TopMenuGroup name="salir" text="Salir">
+      <TopMenuCommand name="salir" text="Salir del Aplicativo"/>
+    </TopMenuGroup>
+  </TopMenu>
+  <ToolBar>
+    <ToolBarSeparator/>
+    <ToolBarItem name="facturarengter" text="Cobertura" comment="beneficiarios factura" image="cobertura"/>
+    <ToolBarSeparator/>
+    <ToolBarItem name="terceros" text="Adquirientes" comment="comfaRegistro de Adquirientes" image="terceros3"/>
+    <ToolBarSeparator/>
+    <ToolBarItem name="factura" text="Facturas" comment="Registro de Facturas" image="reptercero2"/>
+    <ToolBarSeparator/>
+    <ToolBarItem name="notad" text="Nota Debito-Credito" comment="Registro de Notas" image="tiposdoc"/>
+    <ToolBarSeparator/>
+    <ToolBarItem name="tarifas" text="Tarifas" comment="Registro de tarifas" image="tarifas"/>
+    <ToolBarSeparator/>
+    <ToolBarItem name="salir" text="Salir" comment="Salir del aplicativo" image="quit"/>
+  </ToolBar>
+  <Grid name="gr2" width="85" height="24">
+    <FormField name="formonly.musuario" colName="musuario" fieldId="0" sqlTabName="formonly" noEntry="1" tabIndex="1">
+      <Edit width="37" posY="19" posX="47" gridWidth="37"/>
+    </FormField>
+    <FormField name="formonly.mingreso" colName="mingreso" fieldId="1" sqlTabName="formonly" noEntry="1" tabIndex="2">
+      <Edit width="37" posY="20" posX="47" gridWidth="37"/>
+    </FormField>
+    <FormField name="formonly.mlogin" colName="mlogin" fieldId="2" sqlTabName="formonly" noEntry="1" tabIndex="3">
+      <Edit width="37" posY="21" posX="47" gridWidth="37"/>
+    </FormField>
+    <FormField name="formonly.mcontab" colName="mcontab" fieldId="3" sqlTabName="formonly" noEntry="1" tabIndex="4">
+      <Edit width="37" posY="22" posX="47" gridWidth="37"/>
+    </FormField>
+  </Grid>
+  <RecordView tabName="formonly">
+    <Link colName="musuario" fieldIdRef="0"/>
+    <Link colName="mingreso" fieldIdRef="1"/>
+    <Link colName="mlogin" fieldIdRef="2"/>
+    <Link colName="mcontab" fieldIdRef="3"/>
+  </RecordView>
+</Form>

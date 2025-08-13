@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="ISO8859_1"?>
+<?PxmlLayouter  pageWidth="a4width" pageHeight="a4length" topMargin="1.3cm" leftMargin="1.3cm" rightMargin="1.3cm" bottomMargin="1.3cm" markOverfullBoxesInDocument="true"?>
+<?PdfWriterStyleSheet  antialiasFonts="false" antialiasShapes="false" monochrome="false" fromPage="1" encodeImagesAsJPEG="0" jpegQuality="1.0" writeToFile="/tmp/02A1C1A1-0043-44D1-A35D-3E5A5945917E.pdf"?>
+<xxx0:PXML xmlns:xxx0="http://www.4js.com/2004/PXML">
+    <xxx0:BORDERBOX borderBottomWidth="1" borderLeftWidth="1" borderRightWidth="1" borderStyle="solid" borderTopWidth="1" borderWidth="1" alignment="center">
+        <xxx0:MINIPAGE length="max" name="Page Root" width="521.575">
+            <xxx0:LAYOUTNODE floatingBehavior="enclosed" layoutDirection="leftToRight" length="max" name="LayoutNode61" width="80">
+                <xxx0:LAYOUTNODE floatingBehavior="enclosed" length="min" name="LayoutNode62" width="210">
+                    <xxx0:BORDERBOX paddingLeftWidth="5" paddingTopWidth="10" alignment="near" floatingBehavior="enclosed">
+                        <xxx0:IMAGEBOX intendedResolution="96" length="59.25" name="ImageBox1" url="../pics/formulario.png" width="199.969"/>
+                    </xxx0:BORDERBOX>
+                </xxx0:LAYOUTNODE>
+                <xxx0:BORDERBOX paddingTopWidth="10" floatingBehavior="enclosed">
+                    <xxx0:LAYOUTNODE length="70" name="LayoutNode63" width="300">
+                        <xxx0:BORDERBOX borderBottomWidth="1" borderLeftWidth="1" borderRightWidth="1" borderStyle="none" borderTopWidth="1" floatingBehavior="enclosed">
+                            <xxx0:LAYOUTNODE layoutDirection="leftToRight" length="max" name="LayoutNode64" width="20">
+                                <xxx0:WORDBOX color="#005500" floatingBehavior="enclosed" fontName="Bahnschrift SemiBold" fontSize="12" length="max" name="WordBox35" text="DOCUMENTO SOPORTE ADQUISIONES" textAlignment="center" width="max"/>
+                            </xxx0:LAYOUTNODE>
+                        </xxx0:BORDERBOX>
+                        <xxx0:BORDERBOX borderBottomWidth="1" borderLeftWidth="1" borderRightWidth="1" borderStyle="none" borderTopWidth="1" floatingBehavior="enclosed">
+                            <xxx0:LAYOUTNODE layoutDirection="leftToRight" length="max" name="LayoutNode64_1" width="20">
+                                <xxx0:WORDBOX bgColor="#ffffff" color="#005500" floatingBehavior="enclosed" fontBold="true" fontName="Bahnschrift SemiBold" fontSize="12" length="max" name="WordBox35_1" text="NO OBLIGADOS A FACTURAR" textAlignment="center" width="max"/>
+                            </xxx0:LAYOUTNODE>
+                        </xxx0:BORDERBOX>
+                        <xxx0:BORDERBOX borderBottomWidth="1" borderLeftWidth="1" borderRightWidth="1" borderStyle="none" borderTopWidth="1" floatingBehavior="enclosed">
+                            <xxx0:LAYOUTNODE layoutDirection="leftToRight" length="max" name="LayoutNode64_1_1" width="25">
+                                <xxx0:LAYOUTNODE floatingBehavior="enclosed" length="min" name="LayoutNode102" width="50"/>
+                                <xxx0:LAYOUTNODE alignment="near" floatingBehavior="enclosed" length="min" name="NUMFAC" width="200">
+                                    <xxx0:LAYOUTNODE floatingBehavior="enclosed" layoutDirection="leftToRight" length="max" name="LayoutNode105" width="min">
+                                        <xxx0:LAYOUTNODE floatingBehavior="enclosed" length="min" name="LayoutNode106" width="100">
+                                            <xxx0:BORDERBOX borderBottomWidth="1" borderLeftWidth="1" borderRightWidth="1" borderStyle="solid" borderTopWidth="1" floatingBehavior="enclosed">
+                                                <xxx0:WORDBOX bgColor="#0000ff" class="grwStringValue" color="#ffffff" fontBold="true" fontName="Arial Black" fontSize="13" name="prefijo Value" text="CEPS " textAlignment="center" width="max"/>
+                                            </xxx0:BORDERBOX>
+                                        </xxx0:LAYOUTNODE>
+                                        <xxx0:LAYOUTNODE floatingBehavior="enclosed" length="min" name="LayoutNode107" width="100">
+                                            <xxx0:BORDERBOX borderBottomWidth="1" borderLeftWidth="1" borderRightWidth="1" borderStyle="solid" borderTopWidth="1" floatingBehavior="enclosed">
+                                                <xxx0:WORDBOX bgColor="#ffffff" class="grwStringValue" color="#0000ff" fontBold="true" fontName="Arial Black" fontSize="13" name="numfac Value" text="0000250" textAlignment="center" width="max"/>
+                                            </xxx0:BORDERBOX>
+                                        </xxx0:LAYOUTNODE>
+                                    </xxx0:LAYOUTNODE>
+                                </xxx0:LAYOUTNODE>
+                                <xxx0:LAYOUTNODE floatingBehavior="enclosed" length="min" name="LayoutNode104" width="50"/>
+                            </xxx0:LAYOUTNODE>
+                        </xxx0:BORDERBOX>
+                    </xxx0:LAYOUTNODE>
+                </xxx0:BORDERBOX>
+            </xxx0:LAYOUTNODE>
+            <xxx0:BORDERBOX paddingLeftWidth="10" floatingBehavior="enclosed">
+                <xxx0:LAYOUTNODE layoutDirection="leftToRight" length="500" name="LayoutNode11" width="60">
+                    <xxx0:BORDERBOX borderBottomWidth="1" borderLeftWidth="1" borderRightWidth="1" borderStyle="solid" borderTopWidth="1" borderWidth="0" roundedCorners="true" floatingBehavior="enclosed">
+                        <xxx0:LAYOUTNODE length="60" name="LayoutNode" width="340">
+                            <xxx0:BORDERBOX borderBottomWidth="1" borderStyle="solid" borderWidth="0" alignment="center" floatingBehavior="enclosed">
+                                <xxx0:LAYOUTNODE bgColor="#dddddd" layoutDirection="leftToRight" length="339.5" name="LayoutNode31" width="12.9">
+                                    <xxx0:WORDBOX alignment="center" floatingBehavior="enclosed" fontBold="true" fontSize="9" length="12.8" name="WordBox" text="DATOS DEL PROVEEDOR:" textAlignment="center" trimText="left" width="339"/>
+                                </xxx0:LAYOUTNODE>
+                            </xxx0:BORDERBOX>
+                            <xxx0:BORDERBOX borderBottomWidth="1" borderStyle="solid" borderWidth="0" floatingBehavior="enclosed">
+                                <xxx0:LAYOUTNODE layoutDirection="leftToRight" length="340" name="LayoutNode14" width="14">
+                                    <xxx0:WORDBOX floatingBehavior="enclosed" fontBold="true" fontSize="9" length="15" name="WordBox17" text="Nombre: " width="47"/>
+                                    <xxx0:BORDERBOX marginLeftWidth="5" floatingBehavior="enclosed">
+                                        <xxx0:WORDWRAPBOX class="grwStringValue" fontSize="9" length="15" name="razsoc Value" text="JUAN CARLOS SANDOVAL RODRIGUEZ                                                  " width="288"/>
+                                    </xxx0:BORDERBOX>
+                                </xxx0:LAYOUTNODE>
+                            </xxx0:BORDERBOX>
+                            <xxx0:BORDERBOX borderBottomWidth="1" borderStyle="solid" borderWidth="0" floatingBehavior="enclosed">
+                                <xxx0:LAYOUTNODE layoutDirection="leftToRight" length="340" name="LayoutNode33" width="14">
+                                    <xxx0:WORDBOX floatingBehavior="enclosed" fontBold="true" fontSize="9" length="15" name="WordBox18" text="NIT /RUT :" width="47"/>
+                                    <xxx0:BORDERBOX borderRightWidth="1" borderStyle="none" borderWidth="0" marginLeftWidth="5" alignment="near" floatingBehavior="enclosed">
+                                        <xxx0:WORDBOX class="grwStringValue" fontSize="9" length="15" name="nit_prov Value" text="88168494            " width="57"/>
+                                    </xxx0:BORDERBOX>
+                                    <xxx0:WORDBOX floatingBehavior="enclosed" fontBold="false" fontSize="9" length="15" name="WordBox18_1" text="-" textAlignment="center" width="5"/>
+                                    <xxx0:BORDERBOX borderRightWidth="1" borderStyle="solid" borderWidth="0" floatingBehavior="enclosed">
+                                        <xxx0:WORDBOX class="grwStringValue" fontSize="9" length="max" name="digito Value" text="7" width="90"/>
+                                    </xxx0:BORDERBOX>
+                                    <xxx0:BORDERBOX borderLeftWidth="1" borderWidth="0" floatingBehavior="enclosed">
+                                        <xxx0:WORDBOX fontBold="true" fontSize="9" length="15" name="WordBox19" text="Tel&#233;fono:" width="47"/>
+                                    </xxx0:BORDERBOX>
+                                    <xxx0:WORDBOX alignment="center" class="grwStringValue" floatingBehavior="enclosed" fontSize="9" length="15" name="tel_prov Value" text="3142654442     " width="90"/>
+                                </xxx0:LAYOUTNODE>
+                            </xxx0:BORDERBOX>
+                            <xxx0:LAYOUTNODE floatingBehavior="enclosed" layoutDirection="leftToRight" length="340" name="LayoutNode34" width="15">
+                                <xxx0:WORDBOX alignment="baseline" floatingBehavior="enclosed" fontBold="true" fontSize="9" length="15" name="WordBox20" text="Direcci&#243;n:" width="47.5"/>
+                                <xxx0:BORDERBOX borderRightWidth="1" borderStyle="solid" borderWidth="0" marginLeftWidth="5" alignment="center" floatingBehavior="enclosed">
+                                    <xxx0:WORDWRAPBOX class="grwStringValue" fontSize="8" length="15" name="direccion Value" text="MZ M CA 24 CON TAMARINDO                          " width="151"/>
+                                </xxx0:BORDERBOX>
+                                <xxx0:WORDBOX alignment="baseline" floatingBehavior="enclosed" fontBold="true" fontSize="9" length="15" name="WordBox21" text="Ciudad:" width="47"/>
+                                <xxx0:WORDWRAPBOX class="grwStringValue" floatingBehavior="enclosed" fontSize="9" length="15" name="nombreciu Value" text="Villa Del Rosario" width="90"/>
+                            </xxx0:LAYOUTNODE>
+                            <xxx0:BORDERBOX borderBottomWidth="1" borderLeftWidth="1" borderRightWidth="1" borderStyle="solid" borderWidth="0" floatingBehavior="enclosed">
+                                <xxx0:LAYOUTNODE layoutDirection="leftToRight" length="341" name="LayoutNode71" width="15">
+                                    <xxx0:WORDBOX alignment="baseline" floatingBehavior="enclosed" fontBold="true" fontSize="9" length="15" name="WordBox20_1" text="Correo Electr&#243;nico: " width="100"/>
+                                    <xxx0:WORDWRAPBOX class="grwStringValue" floatingBehavior="enclosed" fontSize="9" name="email Value" text="juancarlossandovalrodriguez@hotmail.com                                         " width="230"/>
+                                </xxx0:LAYOUTNODE>
+                            </xxx0:BORDERBOX>
+                        </xxx0:LAYOUTNODE>
+                    </xxx0:BORDERBOX>
+                    <xxx0:LAYOUTNODE floatingBehavior="enclosed" length="75" name="LayoutNode30" width="158">
+                        <xxx0:BORDERBOX borderBottomWidth="1" borderLeftWidth="1" borderRightWidth="1" borderStyle="solid" borderTopWidth="1" borderWidth="0" roundedCorners="true" floatingBehavior="enclosed">
+                            <xxx0:LAYOUTNODE layoutDirection="leftToRight" length="154.75" name="LayoutNode36" width="56">
+                                <xxx0:LAYOUTNODE floatingBehavior="enclosed" length="min" name="LayoutNode101" width="max">
+                                    <xxx0:LAYOUTNODE alignment="near" floatingBehavior="enclosed" layoutDirection="leftToRight" length="max" name="dian1" width="14.6">
+                                        <xxx0:WORDBOX floatingBehavior="enclosed" fontSize="8" length="10" name="WordBox41" text="Autorizaci&#243;n numeraci&#243;n Res. No. " textAlignment="center" width="max"/>
+                                    </xxx0:LAYOUTNODE>
+                                    <xxx0:LAYOUTNODE alignment="near" floatingBehavior="enclosed" layoutDirection="leftToRight" length="max" name="dian2" width="14.6">
+                                        <xxx0:BORDERBOX marginLeftWidth="5" floatingBehavior="enclosed">
+                                            <xxx0:WORDWRAPBOX class="grwStringValue" fontSize="8" length="10" name="num_auto Value" text="18764015389869                                    " width="78"/>
+                                        </xxx0:BORDERBOX>
+                                        <xxx0:WORDBOX floatingBehavior="enclosed" fontSize="8" length="10" name="WordBox41_1" text="de  "/>
+                                        <xxx0:WORDBOX alignment="baseline" class="grwStringValue" floatingBehavior="enclosed" fontSize="8" length="10" name="fec_auto Value" text="07/23/2021" width="40"/>
+                                    </xxx0:LAYOUTNODE>
+                                    <xxx0:LAYOUTNODE floatingBehavior="enclosed" layoutDirection="leftToRight" length="max" name="dian3" width="14.6">
+                                        <xxx0:BORDERBOX marginLeftWidth="5" floatingBehavior="enclosed">
+                                            <xxx0:WORDBOX fontSize="8" length="10" name="WordBox41_2" text="del "/>
+                                        </xxx0:BORDERBOX>
+                                        <xxx0:DECIMALFORMATBOX alignment="near" anchorX="1" class="grwNumericValue" floatingBehavior="enclosed" fontSize="8" format="----------#" length="10" name="numini Value" textAlignment="center" value="1" width="10"/>
+                                        <xxx0:WORDBOX floatingBehavior="enclosed" fontSize="8" length="10" name="WordBox41_2_1" text=" al "/>
+                                        <xxx0:DECIMALFORMATBOX anchorX="1" class="grwNumericValue" floatingBehavior="enclosed" fontSize="8" format="----------#" length="10" name="numfin Value" textAlignment="center" value="5000" width="20"/>
+                                        <xxx0:WORDBOX floatingBehavior="enclosed" fontSize="8" length="10" name="WordBox41_2_2" text=" vence el "/>
+                                        <xxx0:WORDBOX class="grwStringValue" floatingBehavior="enclosed" fontSize="8" length="10" name="fec_ven Value" text="07/23/2022"/>
+                                    </xxx0:LAYOUTNODE>
+                                    <xxx0:LAYOUTNODE floatingBehavior="enclosed" layoutDirection="leftToRight" length="max" name="dian4" width="14.6">
+                                        <xxx0:WORDBOX floatingBehavior="enclosed" fontBold="false" fontSize="8" name="WordBox42" text="Emitida por la DIAN" textAlignment="center" width="max"/>
+                                    </xxx0:LAYOUTNODE>
+                                </xxx0:LAYOUTNODE>
+                            </xxx0:LAYOUTNODE>
+                        </xxx0:BORDERBOX>
+                        <xxx0:BORDERBOX borderStyle="none" borderTopWidth="0" borderWidth="0" floatingBehavior="enclosed">
+                            <xxx0:LAYOUTNODE layoutDirection="leftToRight" length="158" name="LayoutNode37" width="15">
+                                <xxx0:BORDERBOX marginLeftWidth="10" floatingBehavior="enclosed">
+                                    <xxx0:WORDBOX fontBold="true" fontSize="9" name="WordBox22" text="Fecha Emisi&#243;n:"/>
+                                </xxx0:BORDERBOX>
+                                <xxx0:WORDBOX class="grwStringValue" floatingBehavior="enclosed" fontSize="8" name="fecha_elab Value" text="02/16/2022" textAlignment="center" width="80"/>
+                            </xxx0:LAYOUTNODE>
+                        </xxx0:BORDERBOX>
+                    </xxx0:LAYOUTNODE>
+                </xxx0:LAYOUTNODE>
+            </xxx0:BORDERBOX>
+            <xxx0:LAYOUTNODE alignment="center" floatingBehavior="enclosed" layoutDirection="leftToRight" length="max" name="LayoutNode35" width="60"/>
+            <xxx0:LAYOUTNODE floatingBehavior="enclosed" layoutDirection="leftToRight" length="max" name="LayoutNode97" width="min">
+                <xxx0:LAYOUTNODE floatingBehavior="enclosed" length="min" name="LayoutNode98" width="10"/>
+                <xxx0:LAYOUTNODE floatingBehavior="enclosed" length="min" name="LayoutNode99" width="min">
+                    <xxx0:BORDERBOX borderBottomWidth="1" borderLeftWidth="1" borderRightWidth="1" borderStyle="solid" borderTopWidth="1" borderWidth="1" floatingBehavior="enclosed">
+                        <xxx0:LAYOUTNODE layoutDirection="leftToRight" length="500" name="LayoutNode15" width="min">
+                            <xxx0:LAYOUTNODE floatingBehavior="enclosed" length="min" name="LayoutNode16" width="500">
+                                <xxx0:BORDERBOX borderBottomWidth="1" borderStyle="solid" borderWidth="0">
+                                    <xxx0:LAYOUTNODE bgColor="#dddddd" layoutDirection="leftToRight" length="500" name="LayoutNode17" width="13">
+                                        <xxx0:WORDBOX floatingBehavior="enclosed" fontBold="true" fontSize="10" length="13" name="WordBox7" text="DATOS DEL ADQUIRIENTE:" textAlignment="center" width="max"/>
+                                    </xxx0:LAYOUTNODE>
+                                </xxx0:BORDERBOX>
+                                <xxx0:BORDERBOX borderBottomWidth="1" borderStyle="solid" borderWidth="0" alignment="near" floatingBehavior="enclosed">
+                                    <xxx0:LAYOUTNODE layoutDirection="leftToRight" length="max" name="LayoutNode18" width="13">
+                                        <xxx0:WORDBOX floatingBehavior="enclosed" fontBold="true" fontSize="10" name="WordBox8" text="Nombre:" width="52"/>
+                                        <xxx0:WORDBOX floatingBehavior="enclosed" fontSize="10" name="WordBox9" text="CAJA DE COMPENSACION DEL ORIENTE COLOMBIANO COMFAORIENTE"/>
+                                    </xxx0:LAYOUTNODE>
+                                </xxx0:BORDERBOX>
+                                <xxx0:BORDERBOX borderBottomWidth="1" borderStyle="solid" borderWidth="0" floatingBehavior="enclosed">
+                                    <xxx0:LAYOUTNODE layoutDirection="leftToRight" length="max" name="LayoutNode19" width="13">
+                                        <xxx0:BORDERBOX borderRightWidth="1" borderStyle="solid" borderWidth="0" floatingBehavior="enclosed">
+                                            <xxx0:LAYOUTNODE length="13" name="LayoutNode20" width="260">
+                                                <xxx0:LAYOUTNODE floatingBehavior="enclosed" layoutDirection="leftToRight" length="min" name="LayoutNode22" width="min">
+                                                    <xxx0:WORDBOX floatingBehavior="enclosed" fontBold="true" fontSize="10" name="WordBox10" text="NIT:" width="57"/>
+                                                    <xxx0:WORDBOX floatingBehavior="enclosed" fontSize="10" name="WordBox11" text="890500675-6" width="203"/>
+                                                </xxx0:LAYOUTNODE>
+                                            </xxx0:LAYOUTNODE>
+                                        </xxx0:BORDERBOX>
+                                        <xxx0:LAYOUTNODE floatingBehavior="enclosed" length="13" name="LayoutNode21" width="260">
+                                            <xxx0:LAYOUTNODE floatingBehavior="enclosed" layoutDirection="leftToRight" length="260" name="LayoutNode23" width="13">
+                                                <xxx0:WORDBOX floatingBehavior="enclosed" fontBold="true" fontSize="10" name="WordBox12" text="Tel&#233;fono:" width="52"/>
+                                                <xxx0:WORDBOX floatingBehavior="enclosed" fontSize="10" name="WordBox13" text="5748880"/>
+                                            </xxx0:LAYOUTNODE>
+                                        </xxx0:LAYOUTNODE>
+                                    </xxx0:LAYOUTNODE>
+                                </xxx0:BORDERBOX>
+                                <xxx0:LAYOUTNODE floatingBehavior="enclosed" layoutDirection="leftToRight" length="max" name="LayoutNode24" width="13">
+                                    <xxx0:BORDERBOX borderRightWidth="1" borderStyle="solid" borderWidth="0" floatingBehavior="enclosed">
+                                        <xxx0:LAYOUTNODE length="13" name="LayoutNode25" width="260">
+                                            <xxx0:LAYOUTNODE floatingBehavior="enclosed" layoutDirection="leftToRight" length="min" name="LayoutNode27" width="min">
+                                                <xxx0:WORDBOX alignment="baseline" floatingBehavior="enclosed" fontBold="true" fontSize="10" name="WordBox14" text="Direcci&#243;n:" width="60"/>
+                                                <xxx0:WORDWRAPBOX floatingBehavior="enclosed" fontSize="10" length="13" name="WordWrapBox" text="Avenida 2 No. 13-75 La Playa" width="150"/>
+                                            </xxx0:LAYOUTNODE>
+                                        </xxx0:LAYOUTNODE>
+                                    </xxx0:BORDERBOX>
+                                    <xxx0:LAYOUTNODE floatingBehavior="enclosed" length="13" name="LayoutNode26" width="260">
+                                        <xxx0:LAYOUTNODE alignment="near" floatingBehavior="enclosed" layoutDirection="leftToRight" length="260" name="LayoutNode28" width="13">
+                                            <xxx0:WORDBOX floatingBehavior="enclosed" fontBold="true" fontSize="10" name="WordBox15" text="Ciudad:" width="52"/>
+                                            <xxx0:WORDBOX floatingBehavior="enclosed" fontSize="10" name="WordBox16" text="San Jos&#233; de C&#250;cuta"/>
+                                        </xxx0:LAYOUTNODE>
+                                    </xxx0:LAYOUTNODE>
+                                </xxx0:LAYOUTNODE>
+                                <xxx0:BORDERBOX borderStyle="solid" borderTopWidth="1" borderWidth="0" floatingBehavior="enclosed">
+                                    <xxx0:LAYOUTNODE layoutDirection="leftToRight" length="max" name="LayoutNode72" width="13">
+                                        <xxx0:WORDBOX alignment="baseline" floatingBehavior="enclosed" fontBold="true" fontSize="10" name="WordBox14_1" text="Correo Electr&#243;nico:   " width="min"/>
+                                        <xxx0:WORDBOX floatingBehavior="enclosed" fontSize="9" name="WordBox43" text="facturacion@comfaoriente.com"/>
+                                    </xxx0:LAYOUTNODE>
+                                </xxx0:BORDERBOX>
+                            </xxx0:LAYOUTNODE>
+                        </xxx0:LAYOUTNODE>
+                    </xxx0:BORDERBOX>
+                </xxx0:LAYOUTNODE>
+                <xxx0:LAYOUTNODE floatingBehavior="enclosed" length="min" name="LayoutNode100" width="10"/>
+            </xxx0:LAYOUTNODE>
+            <xxx0:LAYOUTNODE floatingBehavior="enclosed" layoutDirection="leftToRight" length="max" name="LayoutNode29" width="25"/>
+            <xxx0:BORDERBOX borderBottomWidth="0" borderLeftWidth="1" borderRightWidth="1" borderStyle="none" borderTopWidth="1" borderWidth="0" paddingLeftWidth="10" floatingBehavior="enclosed">
+                <xxx0:LAYOUTNODE bgColor="#dddddd" layoutDirection="leftToRight" length="500" name="LayoutNode67" width="15">
+                    <xxx0:WORDBOX floatingBehavior="enclosed" fontBold="true" fontSize="9" name="WordBox36" text="CODIGO" textAlignment="center" width="53"/>
+                    <xxx0:WORDBOX floatingBehavior="enclosed" fontBold="true" fontSize="9" name="WordBox37" text="DESCRIPCI&#211;N" textAlignment="center" width="187"/>
+                    <xxx0:WORDBOX floatingBehavior="enclosed" fontBold="true" fontSize="9" name="WordBox38" text="CANTIDAD" textAlignment="center" width="58"/>
+                    <xxx0:WORDBOX floatingBehavior="enclosed" fontBold="true" fontSize="9" name="WordBox39" text="VALOR U." textAlignment="center" width="120"/>
+                    <xxx0:WORDBOX floatingBehavior="enclosed" fontBold="true" fontSize="9" name="WordBox40" text="VALOR TOTAL" textAlignment="center" width="80"/>
+                </xxx0:LAYOUTNODE>
+            </xxx0:BORDERBOX>
+            <xxx0:LAYOUTNODE floatingBehavior="enclosed" layoutDirection="leftToRight" length="min" name="LayoutNode93" width="min">
+                <xxx0:LAYOUTNODE floatingBehavior="enclosed" length="min" name="LayoutNode94" width="10"/>
+                <xxx0:LAYOUTNODE floatingBehavior="enclosed" length="min" name="LayoutNode95" width="min">
+                    <xxx0:MINIPAGE floatingBehavior="enclosed" name="Table" width="498.825" layoutDirection="topToBottom" swapX="true" length="min" class="grwTable grwMainBox">
+                        <xxx0:LAYOUTNODE length="max" width="0.5" port="anyPageHeader" bgColor="black" layoutDirection="leftToRight" class="grwTableHRule grwHRule grwRule"/>
+                        <xxx0:LAYOUTNODE length="max" width="0.5" port="anyPageFooter" bgColor="black" layoutDirection="leftToRight" class="grwTableHRule grwHRule grwRule"/>
+                        <xxx0:MINIPAGE floatingBehavior="enclosed" name="Table" layoutDirection="topToBottom" swapX="true" length="min" width="max" class="grwTable grwMainBox1">
+                            <xxx0:LAYOUTNODE length="max" width="1" port="itemSeparator" bgColor="black" layoutDirection="leftToRight" class="grwTableHRule grwHRule grwRule"/>
+                            <xxx0:MINIPAGE name="Row85" width="min" length="max" widthAdjustment="expandToParent" layoutDirection="leftToRight" class="grwRow">
+                                <xxx0:LAYOUTNODE length="expand" width="0.5" port="anyPageHeader" bgColor="black" class="grwTableVRule grwVRule grwRule"/>
+                                <xxx0:LAYOUTNODE length="expand" width="0.5" port="anyPageFooter" bgColor="black" class="grwTableVRule grwVRule grwRule"/>
+                                <xxx0:LAYOUTNODE length="expand" width="1" port="itemSeparator" bgColor="black" class="grwTableVRule grwVRule grwRule"/>
+                                <xxx0:MINIPAGE name="Col255" width="0+0*1+(max-(0+4*1))*(0.5345/5.000002)" length="min" alignment="near" swapX="true" class="grwColVBox">
+                                    <xxx0:MINIPAGE width="min" length="min" alignment="far" layoutDirection="leftToRight" class="grwColHBox grwContentBox">
+                                        <xxx0:WORDBOX class="grwStringValue" floatingBehavior="enclosed" fontSize="8" name="r_usuario.codigo Value" text="00039" width="max"/>
+                                    </xxx0:MINIPAGE>
+                                </xxx0:MINIPAGE>
+                                <xxx0:MINIPAGE name="Col256" width="0+0*1+(max-(0+4*1))*(1.88736/5.000002)" length="min" alignment="near" swapX="true" class="grwColVBox">
+                                    <xxx0:MINIPAGE width="min" length="min" alignment="far" layoutDirection="leftToRight" class="grwColHBox grwContentBox">
+                                        <xxx0:WORDWRAPBOX class="grwTableStringColumnValue" floatingBehavior="enclosed" fontSize="8" name="r_usuario.descripcion Value" text="ARRIENDO                                          " width="max"/>
+                                    </xxx0:MINIPAGE>
+                                </xxx0:MINIPAGE>
+                                <xxx0:MINIPAGE name="Col261" width="0+0*1+(max-(0+4*1))*(0.578141/5.000002)" length="min" alignment="near" swapX="true" class="grwColVBox">
+                                    <xxx0:MINIPAGE width="min" length="min" alignment="far" layoutDirection="leftToRight" class="grwColHBox grwContentBox">
+                                        <xxx0:DECIMALFORMATBOX anchorX="1" class="grwTableNumericColumnValue" floatingBehavior="enclosed" fontSize="8" format="---,---,---,--&amp;.&amp;&amp;" name="r_usuario.cantidad Value" textAlignment="center" value="1" width="max"/>
+                                    </xxx0:MINIPAGE>
+                                </xxx0:MINIPAGE>
+                                <xxx0:MINIPAGE name="Col259" width="0+0*1+(max-(0+4*1))*(1.18527/5.000002)" length="min" alignment="near" swapX="true" class="grwColVBox">
+                                    <xxx0:MINIPAGE width="min" length="min" alignment="far" layoutDirection="leftToRight" class="grwColHBox grwContentBox">
+                                        <xxx0:DECIMALFORMATBOX anchorX="1" class="grwTableNumericColumnValue" floatingBehavior="enclosed" fontSize="8" format="---,---,---,--&amp;.&amp;&amp;" name="r_usuario.valor_unitario Value" textAlignment="right" value="336000" width="max"/>
+                                    </xxx0:MINIPAGE>
+                                </xxx0:MINIPAGE>
+                                <xxx0:MINIPAGE name="Col257" width="rest" length="min" alignment="near" swapX="true" class="grwColVBox">
+                                    <xxx0:MINIPAGE width="min" length="min" alignment="far" layoutDirection="leftToRight" class="grwColHBox grwContentBox">
+                                        <xxx0:DECIMALFORMATBOX anchorX="1" class="grwTableNumericColumnValue" floatingBehavior="enclosed" fontSize="8" format="---,---,---,--&amp;.&amp;&amp;" name="r_usuario.valor_total Value" textAlignment="right" value="336000" width="max"/>
+                                    </xxx0:MINIPAGE>
+                                </xxx0:MINIPAGE>
+                            </xxx0:MINIPAGE>
+                        </xxx0:MINIPAGE>
+                    </xxx0:MINIPAGE>
+                </xxx0:LAYOUTNODE>
+                <xxx0:LAYOUTNODE alignment="near" floatingBehavior="enclosed" length="min" name="LayoutNode96" width="10"/>
+            </xxx0:LAYOUTNODE>
+            <xxx0:LAYOUTNODE floatingBehavior="enclosed" layoutDirection="leftToRight" length="min" name="LayoutNode92" width="min">
+                <xxx0:LAYOUTNODE floatingBehavior="enclosed" length="271.25" name="separador_izq" width="10"/>
+                <xxx0:LAYOUTNODE floatingBehavior="enclosed" length="min" name="contenido" width="500">
+                    <xxx0:LAYOUTNODE floatingBehavior="enclosed" layoutDirection="leftToRight" length="max" name="LayoutNode58" width="25"/>
+                    <xxx0:LAYOUTNODE floatingBehavior="enclosed" layoutDirection="leftToRight" length="max" name="LayoutNode2" width="50">
+                        <xxx0:BORDERBOX borderBottomWidth="1" borderLeftWidth="1" borderRightWidth="1" borderStyle="solid" borderTopWidth="1" borderWidth="0" roundedCorners="true" floatingBehavior="enclosed">
+                            <xxx0:LAYOUTNODE length="50" name="LayoutNode54" width="365">
+                                <xxx0:LAYOUTNODE floatingBehavior="enclosed" layoutDirection="leftToRight" length="365" name="LayoutNode57" width="11">
+                                    <xxx0:WORDBOX floatingBehavior="enclosed" fontBold="true" fontSize="9" length="20" name="WordBox33" text="Concepto:" width="max"/>
+                                </xxx0:LAYOUTNODE>
+                                <xxx0:LAYOUTNODE floatingBehavior="enclosed" layoutDirection="leftToRight" length="min" name="LayoutNode68" width="min">
+                                    <xxx0:WORDWRAPBOX class="grwStringValue" floatingBehavior="enclosed" fontSize="8" length="40" name="nota Value" text="CANCELACION ARRIENDO OFICINA DE COMFAORIENTE EPS-S EN EL MUNICIPIO DE GRAMALOTE, UBICADO EN LA MANZANA 6 CASA 2 BARRIO SANTA ROSA, CORRESPONDIENTE AL MES DE FEBRERO DE 2022, SEG&#218;N CONTRATO DE ARRENDAMIENTO NO. AR-10-2022 VALOR $ 336.000,00.                                                                                                                                                                " width="max"/>
+                                </xxx0:LAYOUTNODE>
+                            </xxx0:LAYOUTNODE>
+                        </xxx0:BORDERBOX>
+                        <xxx0:LAYOUTNODE bgColor="#ffffff" floatingBehavior="enclosed" length="50" name="LayoutNode55" width="50">
+                            <xxx0:BORDERBOX marginTopWidth="7" floatingBehavior="enclosed">
+                                <xxx0:WORDBOX fontBold="true" fontSize="10" length="20" name="WordBox34" text="TOTAL:" textAlignment="right" width="50"/>
+                            </xxx0:BORDERBOX>
+                        </xxx0:LAYOUTNODE>
+                        <xxx0:BORDERBOX borderBottomWidth="1" borderLeftWidth="1" borderRightWidth="1" borderStyle="solid" borderTopWidth="1" borderWidth="0" roundedCorners="true" floatingBehavior="enclosed">
+                            <xxx0:LAYOUTNODE bgColor="#dddddd" length="30" name="LayoutNode56" width="82">
+                                <xxx0:BORDERBOX marginTopWidth="7" anchorX="1" alignment="baseline" floatingBehavior="enclosed">
+                                    <xxx0:DECIMALFORMATBOX bgColor="#dddddd" class="grwNumericValue" fontBold="true" fontSize="10" format="---,---,---,---,---,---,---,--&amp;.&amp;&amp;" length="20" name="ld_total Value" textAlignment="center" underline="false" value="336000" width="82"/>
+                                </xxx0:BORDERBOX>
+                            </xxx0:LAYOUTNODE>
+                        </xxx0:BORDERBOX>
+                    </xxx0:LAYOUTNODE>
+                    <xxx0:LAYOUTNODE floatingBehavior="enclosed" layoutDirection="leftToRight" length="max" name="LayoutNode73" width="145"/>
+                    <xxx0:LAYOUTNODE floatingBehavior="enclosed" layoutDirection="leftToRight" length="max" name="LayoutNode74" width="40">
+                        <xxx0:LAYOUTNODE floatingBehavior="enclosed" length="40" name="LayoutNode75" width="250.25">
+                            <xxx0:LAYOUTNODE alignment="near" floatingBehavior="enclosed" layoutDirection="leftToRight" length="250" name="LayoutNode77" width="min">
+                                <xxx0:LAYOUTNODE floatingBehavior="enclosed" length="min" name="LayoutNode79" width="10"/>
+                                <xxx0:BORDERBOX borderBottomWidth="2" floatingBehavior="enclosed">
+                                    <xxx0:LAYOUTNODE length="min" name="LayoutNode80" width="230">
+                                        <xxx0:WORDBOX class="grwStringValue" floatingBehavior="enclosed" fontSize="9" name="nombre_usuario Value" text="USUARIO DE SISTEMAS " textAlignment="center" width="max"/>
+                                    </xxx0:LAYOUTNODE>
+                                </xxx0:BORDERBOX>
+                                <xxx0:LAYOUTNODE floatingBehavior="enclosed" length="min" name="LayoutNode81" width="10"/>
+                            </xxx0:LAYOUTNODE>
+                            <xxx0:LAYOUTNODE floatingBehavior="enclosed" layoutDirection="leftToRight" length="250" name="LayoutNode78" width="min">
+                                <xxx0:LAYOUTNODE floatingBehavior="enclosed" length="min" name="LayoutNode79_1" width="10"/>
+                                <xxx0:LAYOUTNODE alignment="near" floatingBehavior="enclosed" length="min" name="LayoutNode80_1" width="220">
+                                    <xxx0:BORDERBOX borderStyle="solid" borderTopWidth="1" borderWidth="0" floatingBehavior="enclosed">
+                                        <xxx0:WORDBOX fontSize="9" length="15.6648" name="WordBox44" text="ELABORADO POR" textAlignment="center" width="229.75"/>
+                                    </xxx0:BORDERBOX>
+                                </xxx0:LAYOUTNODE>
+                            </xxx0:LAYOUTNODE>
+                        </xxx0:LAYOUTNODE>
+                        <xxx0:LAYOUTNODE floatingBehavior="enclosed" length="40" name="LayoutNode76" width="250">
+                            <xxx0:LAYOUTNODE floatingBehavior="enclosed" layoutDirection="leftToRight" length="max" name="LayoutNode77_1" width="min">
+                                <xxx0:LAYOUTNODE floatingBehavior="enclosed" length="min" name="LayoutNode88" width="10"/>
+                                <xxx0:LAYOUTNODE floatingBehavior="enclosed" length="min" name="LayoutNode89" width="210">
+                                    <xxx0:WORDBOX floatingBehavior="enclosed" fontSize="9" name="WordBox46" text="" textAlignment="center" width="230"/>
+                                </xxx0:LAYOUTNODE>
+                                <xxx0:LAYOUTNODE floatingBehavior="enclosed" length="min" name="LayoutNode90" width="30"/>
+                            </xxx0:LAYOUTNODE>
+                            <xxx0:LAYOUTNODE floatingBehavior="enclosed" layoutDirection="leftToRight" length="max" name="LayoutNode78_1" width="min">
+                                <xxx0:LAYOUTNODE floatingBehavior="enclosed" length="min" name="LayoutNode79_2" width="10.25"/>
+                                <xxx0:LAYOUTNODE floatingBehavior="enclosed" length="min" name="LayoutNode80_2" width="210">
+                                    <xxx0:BORDERBOX borderStyle="solid" borderTopWidth="1" borderWidth="0" floatingBehavior="enclosed">
+                                        <xxx0:WORDBOX fontSize="9" length="15" name="WordBox44_1" text="REVISADO POR" textAlignment="center" width="230"/>
+                                    </xxx0:BORDERBOX>
+                                </xxx0:LAYOUTNODE>
+                                <xxx0:LAYOUTNODE floatingBehavior="enclosed" length="min" name="LayoutNode81_2" width="30"/>
+                            </xxx0:LAYOUTNODE>
+                        </xxx0:LAYOUTNODE>
+                    </xxx0:LAYOUTNODE>
+                    <xxx0:LAYOUTNODE floatingBehavior="enclosed" layoutDirection="leftToRight" length="max" name="LayoutNode91" width="min">
+                        <xxx0:WORDBOX floatingBehavior="enclosed" fontSize="9" name="WordBox45" text="Lo anterior en cumplimiento del Articulo 55 de la Resoluci&#243;n 42 de Mayo de 2020" textAlignment="center" width="max"/>
+                    </xxx0:LAYOUTNODE>
+                </xxx0:LAYOUTNODE>
+                <xxx0:LAYOUTNODE floatingBehavior="enclosed" length="269" name="separador_dere" width="10"/>
+            </xxx0:LAYOUTNODE>
+        </xxx0:MINIPAGE>
+    </xxx0:BORDERBOX>
+</xxx0:PXML>

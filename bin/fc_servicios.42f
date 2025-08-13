@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<Form name="fc_servicios.tmp" build="3.10.18" sqlDbName="empresa" spacing="normal" text="INFORMACION DE SERVICIOS" width="90" height="11">
+  <Grid name="gr3" width="90" height="11">
+    <Label name="lb31" width="30" text="DEFINICION DE  SERVICIOS Y/O PRODUCTOS " posY="1" posX="30" gridWidth="30"/>
+    <HLine posY="2" posX="0" gridWidth="90"/>
+    <Label name="lb32" width="11" text="Codigo Servicio:" posY="3" posX="3" gridWidth="11"/>
+    <FormField name="fc_servicios.codigo" colName="codigo" sqlType="CHAR(5)" required="1" notNull="1" fieldId="0" sqlTabName="fc_servicios" tabIndex="0">
+      <Edit width="7" posY="3" posX="16" gridWidth="7"/>
+    </FormField>
+    <Label name="lb61" width="9" text="Descripcion :" posY="4" posX="3" gridWidth="9"/>
+    <FormField name="fc_servicios.descripcion" colName="descripcion" sqlType="CHAR(50)" required="1" notNull="1" fieldId="1" sqlTabName="fc_servicios" tabIndex="1">
+      <Edit width="50" shift="up" posY="4" posX="16" gridWidth="50"/>
+    </FormField>
+    <Label name="label2" width="12" text="Tipo de Impuesto:" posY="5" posX="3" gridWidth="12">
+      <LStr text="Tipo de Impuesto:"/>
+    </Label>
+    <FormField name="fc_servicios.tpimpuesto" colName="tpimpuesto" sqlType="CHAR(1)" fieldId="2" sqlTabName="fc_servicios" tabIndex="5">
+      <ComboBox width="19" sizePolicy="fixed" posY="5" posX="16" gridWidth="21"/>
+    </FormField>
+    <Label name="lb7" width="12" text="Unidad de Medida:" posY="6" posX="3" gridWidth="12"/>
+    <FormField name="fc_servicios.coduni" colName="coduni" sqlType="CHAR(4)" fieldId="3" sqlTabName="fc_servicios" tabIndex="3">
+      <Edit width="3" posY="6" posX="16" gridWidth="3"/>
+    </FormField>
+    <FormField name="formonly.mdescripcion" colName="mdescripcion" sqlType="VARCHAR" fieldId="4" sqlTabName="formonly" tabIndex="4" noEntry="1">
+      <Edit width="23" shift="up" posY="6" posX="20" gridWidth="23"/>
+    </FormField>
+    <Label name="label1" width="12" text="Prefijo Asociado:" posY="7" posX="3" gridWidth="12">
+      <LStr text="Prefijo Asociado:"/>
+    </Label>
+    <FormField name="fc_servicios.prefijo" colName="prefijo" sqlType="CHAR(5)" required="1" notNull="1" fieldId="5" sqlTabName="fc_servicios" tabIndex="6">
+      <ComboBox width="8" sizePolicy="fixed" posY="7" posX="16" gridWidth="10"/>
+    </FormField>
+    <HLine posY="8" posX="0" gridWidth="90"/>
+    <Label name="lb3" width="7" text="Estado :" posY="9" posX="31" gridWidth="7"/>
+    <FormField name="fc_servicios.estado" colName="estado" sqlType="CHAR(1)" required="1" notNull="1" fieldId="6" sqlTabName="fc_servicios" tabIndex="2">
+      <ComboBox width="15" sizePolicy="fixed" posY="9" posX="41" gridWidth="17"/>
+    </FormField>
+  </Grid>
+  <RecordView tabName="fc_servicios">
+    <Link colName="codigo" fieldIdRef="0"/>
+    <Link colName="descripcion" fieldIdRef="1"/>
+    <Link colName="tpimpuesto" fieldIdRef="2"/>
+    <Link colName="coduni" fieldIdRef="3"/>
+    <Link colName="prefijo" fieldIdRef="5"/>
+    <Link colName="estado" fieldIdRef="6"/>
+  </RecordView>
+  <RecordView tabName="formonly">
+    <Link colName="mdescripcion" fieldIdRef="4"/>
+  </RecordView>
+  <RecordView tabName="undefined">
+    <Link colName="codigo" fieldIdRef="0"/>
+    <Link colName="descripcion" fieldIdRef="1"/>
+    <Link colName="estado" fieldIdRef="6"/>
+    <Link colName="coduni" fieldIdRef="3"/>
+    <Link colName="mdescripcion" fieldIdRef="4"/>
+    <Link colName="prefijo" fieldIdRef="5"/>
+    <Link colName="tpimpuesto" fieldIdRef="2"/>
+  </RecordView>
+</Form>

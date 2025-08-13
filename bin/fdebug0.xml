@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="ISO8859_1"?>
+<?PipeConfiguratorStyleSheet reportFileName="lista_empleadosPDF.4rp" outputDevice="PDF" PDFAntialiasFonts="0" PDFAntialiasShapes="0" PDFMonochrome="0" PDFFromPage="1" localizationExecutableName="Factu_Compra" localizationFourRpName="lista_empleadosPDF" fglppid="principal-app3.ad.comfaoriente.com:4721" fglfeid="{ef0b7ff3-00e1-2643-1db6-bf525f5fe68e}" clientHost="127.0.0.1" clientPort="33060" debugLevel="9" preview="false" outputFileName="/tmp/02A1C1A1-0043-44D1-A35D-3E5A5945917E.pdf"?>
+<Report name="ReportePri.r_imprimeCatEmpleados" firstHeaderLength="15" headerLength="13" trailerLength="0" pageLength="66" topMargin="3" bottomMargin="3" leftMargin="5" rightMargin="132" xmlns="http://www.4js.com/2004/REPORT">
+    <Skip/>
+    <Skip/>
+    <Skip/>
+    <FirstPageHeader>
+        <Print>
+            <Item name="prefijo" type="CHAR(5)" value="CEPS "/>
+        </Print>
+        <Print>
+            <Item name="numfac" type="CHAR(7)" value="0000250"/>
+        </Print>
+        <Print>
+            <Item name="razsoc" type="CHAR(80)" value="JUAN CARLOS SANDOVAL RODRIGUEZ                                                  "/>
+        </Print>
+        <Print>
+            <Item name="nit_prov" type="CHAR(20)" value="88168494            "/>
+        </Print>
+        <Print>
+            <Item name="tel_prov" type="CHAR(15)" value="3142654442     "/>
+        </Print>
+        <Print>
+            <Item name="direccion" type="CHAR(50)" value="MZ M CA 24 CON TAMARINDO                          "/>
+        </Print>
+        <Print>
+            <Item name="nombreciu" type="VARCHAR(50)" value="Villa Del Rosario"/>
+        </Print>
+        <Print>
+            <Item name="fecha_elab" type="DATE" value="02/16/2022" isoValue="2022-02-16"/>
+        </Print>
+        <Print>
+            <Item name="num_auto" type="CHAR(50)" value="18764015389869                                    "/>
+        </Print>
+        <Print>
+            <Item name="fec_auto" type="DATE" value="07/23/2021" isoValue="2021-07-23"/>
+        </Print>
+        <Print>
+            <Item name="numini" type="INTEGER" value="          1" isoValue="1"/>
+        </Print>
+        <Print>
+            <Item name="numfin" type="INTEGER" value="       5000" isoValue="5000"/>
+        </Print>
+        <Print>
+            <Item name="fec_ven" type="DATE" value="07/23/2022" isoValue="2022-07-23"/>
+        </Print>
+        <Print>
+            <Item name="email" type="CHAR(80)" value="juancarlossandovalrodriguez@hotmail.com                                         "/>
+        </Print>
+        <Print>
+            <Item name="digito" type="CHAR(1)" value="7"/>
+        </Print>
+    </FirstPageHeader>
+    <Group>
+        <OnEveryRow>
+            <Print>
+                <Item name="r_usuario.codigo" type="CHAR(5)" value="00039"/>
+            </Print>
+            <Print>
+                <Item name="r_usuario.cantidad" type="DECIMAL(12,2)" value="          1.00" isoValue="1.00"/>
+            </Print>
+            <Print>
+                <Item name="r_usuario.descripcion" type="CHAR(50)" value="ARRIENDO                                          "/>
+            </Print>
+            <Print>
+                <Item name="r_usuario.valor_unitario" type="DECIMAL(12,2)" value="     336000.00" isoValue="336000.00"/>
+            </Print>
+            <Print>
+                <Item name="r_usuario.valor_total" type="DECIMAL(12,2)" value="     336000.00" isoValue="336000.00"/>
+            </Print>
+        </OnEveryRow>
+    </Group>
+    <OnLastRow>
+        <Print>
+            <Item name="ld_total" type="DECIMAL(24,6)" value="             336000.000000" isoValue="336000.000000"/>
+        </Print>
+        <Print>
+            <Item name="nota" type="CHAR(400)" value="CANCELACION ARRIENDO OFICINA DE COMFAORIENTE EPS-S EN EL MUNICIPIO DE GRAMALOTE, UBICADO EN LA MANZANA 6 CASA 2 BARRIO SANTA ROSA, CORRESPONDIENTE AL MES DE FEBRERO DE 2022, SEG&#218;N CONTRATO DE ARRENDAMIENTO NO. AR-10-2022 VALOR $ 336.000,00.                                                                                                                                                                "/>
+        </Print>
+        <Print>
+            <Item name="nombre_usuario" type="CHAR(20)" value="USUARIO DE SISTEMAS "/>
+        </Print>
+    </OnLastRow>
+    <Skip/>
+    <Skip/>
+    <Skip/>
+    <Skip/>
+    <Skip/>
+    <Skip/>
+    <Skip/>
+    <Skip/>
+    <Skip/>
+    <Skip/>
+    <Skip/>
+    <Skip/>
+    <Skip/>
+    <Skip/>
+    <Skip/>
+    <Skip/>
+    <Skip/>
+    <Skip/>
+    <Skip/>
+    <Skip/>
+    <Skip/>
+    <Skip/>
+    <Skip/>
+    <Skip/>
+    <Skip/>
+    <Skip/>
+    <Skip/>
+    <Skip/>
+    <Skip/>
+    <Skip/>
+    <Skip/>
+    <Skip/>
+    <Skip/>
+    <Skip/>
+    <Skip/>
+    <Skip/>
+    <Skip/>
+    <PageTrailer/>
+</Report>

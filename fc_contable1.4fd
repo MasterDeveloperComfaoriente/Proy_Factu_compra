@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ManagedForm databaseName="empresa" fileVersion="30a00" gstVersion="30a0b" name="ManagedForm" uid="{008bb54e-5095-4889-818c-6483ad37bdce}">
+  <AGSettings>
+    <DynamicProperties version="2"/>
+  </AGSettings>
+  <Record additionalTables="" joinLeft="" joinOperator="" joinRight="" name="Undefined" order="" uid="{93b7ff57-7433-47a3-b526-9bec3bec176e}" where="">
+    <RecordField colName="codigo" fieldIdRef="0" fieldType="TABLE_COLUMN" name="fc_conta1.codigo" sqlTabName="fc_conta1" sqlType="CHAR" table_alias_name="" uid="{13f5930b-3b48-4f34-9772-f0c52d8142e6}"/>
+    <RecordField colName="mdetser" fieldIdRef="1" name="mdetser" sqlTabName="formonly" table_alias_name="" uid="{7d69fc3f-8514-4bc0-be96-aa1af795a245}"/>
+    <RecordField colName="auxiliariva" fieldIdRef="5" fieldType="TABLE_COLUMN" name="fc_conta1.auxiliariva" sqlTabName="fc_conta1" sqlType="CHAR" table_alias_name="" uid="{011d5425-8a08-493c-9a1d-64408aa207b1}"/>
+    <RecordField colName="detalle1" fieldIdRef="6" name="detalle1" sqlTabName="formonly" table_alias_name="" uid="{a910ca9d-f980-4f4c-a397-317f76063f30}"/>
+    <RecordField colName="cencosiva" fieldIdRef="7" fieldType="TABLE_COLUMN" name="fc_conta1.cencosiva" sqlTabName="fc_conta1" sqlType="CHAR" table_alias_name="" uid="{8a68c195-fb8e-423c-b4a3-a6c029482300}"/>
+    <RecordField colName="detalle2" fieldIdRef="8" name="detalle2" sqlTabName="formonly" table_alias_name="" uid="{2e3f066d-0a57-40bf-8bc0-3fa7f1cd1a07}"/>
+    <RecordField colName="auxiliaring" fieldIdRef="9" fieldType="TABLE_COLUMN" name="fc_conta1.auxiliaring" sqlTabName="fc_conta1" sqlType="CHAR" table_alias_name="" uid="{74b7b404-17b8-4063-84e2-4dc6ec601284}"/>
+    <RecordField colName="detalle3" fieldIdRef="10" name="detalle3" sqlTabName="formonly" table_alias_name="" uid="{dc6784e4-6bd0-4778-8f78-cc481c57b725}"/>
+    <RecordField colName="cencosing" fieldIdRef="11" fieldType="TABLE_COLUMN" name="fc_conta1.cencosing" sqlTabName="fc_conta1" sqlType="CHAR" table_alias_name="" uid="{b9ab0790-137a-4a65-9796-6248324d6389}"/>
+    <RecordField colName="detalle4" fieldIdRef="12" name="detalle4" sqlTabName="formonly" table_alias_name="" uid="{7185c301-b6c2-4f15-bc79-c8227c96803b}"/>
+    <RecordField colName="auxiliarimpc" fieldIdRef="2" fieldType="TABLE_COLUMN" name="fc_conta1.auxiliarimpc" sqlTabName="fc_conta1" sqlType="CHAR" table_alias_name="" uid="{d715dd0a-07ed-482f-a8de-8c4ee45b07f5}"/>
+    <RecordField colName="detalle1" fieldIdRef="3" name="detalle5" sqlTabName="formonly" table_alias_name="" uid="{a620f01a-7c79-4041-854c-377637c15015}"/>
+    <RecordField colName="cencosimpc" fieldIdRef="4" fieldType="TABLE_COLUMN" name="fc_conta1.cencosimpc" sqlTabName="fc_conta1" sqlType="CHAR" table_alias_name="" uid="{9046b5c7-d20d-43e1-acf9-3dbae85979a2}"/>
+    <RecordField colName="detalle2" fieldIdRef="13" name="detalle6" sqlTabName="formonly" table_alias_name="" uid="{eaf26807-5429-4aac-88af-200a8db7444b}"/>
+    <RecordField colName="auxiliarcar" fieldIdRef="14" fieldType="TABLE_COLUMN" name="fc_conta1.auxiliarcar" sqlTabName="fc_conta1" sqlType="CHAR" table_alias_name="" uid="{24217b43-be94-4a9a-b223-e3154ee42b76}"/>
+    <RecordField colName="detalle3" fieldIdRef="15" name="detalle7" sqlTabName="formonly" table_alias_name="" uid="{99d470f4-7479-42fa-91c1-83000ef41ab4}"/>
+    <RecordField colName="cencoscar" fieldIdRef="16" fieldType="TABLE_COLUMN" name="fc_conta1.cencoscar" sqlTabName="fc_conta1" sqlType="CHAR" table_alias_name="" uid="{dad66db4-aa1e-4be8-b794-16eeef706ced}"/>
+    <RecordField colName="detalle4" fieldIdRef="17" name="detalle8" sqlTabName="formonly" table_alias_name="" uid="{ccde220e-fc65-4a00-981f-57443b30047a}"/>
+    <RecordField colName="auxiliarsubsi" fieldIdRef="18" fieldType="TABLE_COLUMN" name="fc_conta1.auxiliarsubsi" sqlTabName="fc_conta1" sqlType="CHAR" table_alias_name="" uid="{edb98b6d-2617-442a-bfd0-33b67aa9bef6}"/>
+    <RecordField colName="detalle3" fieldIdRef="19" name="detalle9" sqlTabName="formonly" table_alias_name="" uid="{96d0bb2b-4e89-41ab-9352-2e8282ec9597}"/>
+    <RecordField colName="cencosant" fieldIdRef="20" fieldType="TABLE_COLUMN" name="fc_conta1.cencosant" sqlTabName="fc_conta1" sqlType="CHAR" table_alias_name="" uid="{57e430d0-087c-48c5-b4df-6b4b6407c95e}"/>
+    <RecordField colName="detalle4" fieldIdRef="21" name="detalle10" sqlTabName="formonly" table_alias_name="" uid="{9ef3fec6-e42c-474e-8aa6-296361cf7b97}"/>
+    <RecordField colName="auxiliarant" fieldIdRef="22" fieldType="TABLE_COLUMN" name="fc_conta1.auxiliarant" sqlTabName="fc_conta1" sqlType="CHAR" table_alias_name="" uid="{b90055b4-112e-4338-b7ad-786600e662ac}"/>
+    <RecordField colName="detalle3" fieldIdRef="23" name="detalle11" sqlTabName="formonly" table_alias_name="" uid="{ae045990-8f7d-453e-bc07-addb23044945}"/>
+    <RecordField colName="cencossubsi" fieldIdRef="24" fieldType="TABLE_COLUMN" name="fc_conta1.cencossubsi" sqlTabName="fc_conta1" sqlType="CHAR" table_alias_name="" uid="{8c59889b-d622-4c56-ac0f-a75c680dd52b}"/>
+    <RecordField colName="detalle4" fieldIdRef="25" name="detalle12" sqlTabName="formonly" table_alias_name="" uid="{1b34d99d-4670-4b22-a11b-df37b4f33e63}"/>
+    <RecordField colName="auxiliarcaja" fieldIdRef="26" fieldType="TABLE_COLUMN" name="fc_conta1.auxiliarcaja" sqlTabName="fc_conta1" sqlType="CHAR" table_alias_name="" uid="{dcef8b0d-10aa-444b-bc7a-480f3349ad8f}"/>
+    <RecordField colName="detalle3" fieldIdRef="27" name="detalle13" sqlTabName="formonly" table_alias_name="" uid="{06611395-297d-495e-b9f2-4286fd7c28ae}"/>
+    <RecordField colName="cencoscaja" fieldIdRef="28" fieldType="TABLE_COLUMN" name="fc_conta1.cencoscaja" sqlTabName="fc_conta1" sqlType="CHAR" table_alias_name="" uid="{c196fa0e-b551-4825-a1f7-bee23a59afc7}"/>
+    <RecordField colName="detalle4" fieldIdRef="29" name="detalle14" sqlTabName="formonly" table_alias_name="" uid="{b9e878ff-4f1e-4328-9ed4-ccec4878ed4c}"/>
+    <RecordField colName="auxiliarbanco" fieldIdRef="30" fieldType="TABLE_COLUMN" name="fc_conta1.auxiliarbanco" sqlTabName="fc_conta1" sqlType="CHAR" table_alias_name="" uid="{38a2949f-51e5-4e98-a876-27e67838b544}"/>
+    <RecordField colName="detalle3" fieldIdRef="31" name="detalle15" sqlTabName="formonly" table_alias_name="" uid="{57a3309d-1e44-43d9-97fe-47215dbe4978}"/>
+    <RecordField colName="cencosbanco" fieldIdRef="32" fieldType="TABLE_COLUMN" name="fc_conta1.cencosbanco" sqlTabName="fc_conta1" sqlType="CHAR" table_alias_name="" uid="{45d5c9ad-e911-4d4f-bbfd-684b03431a32}"/>
+    <RecordField colName="detalle4" fieldIdRef="33" name="detalle16" sqlTabName="formonly" table_alias_name="" uid="{ad5c46e0-217e-425a-a444-4ff488177ac7}"/>
+    <RecordField colName="auxiliarcars" fieldIdRef="34" fieldType="TABLE_COLUMN" name="fc_conta1.auxiliarcars" sqlTabName="fc_conta1" sqlType="CHAR" table_alias_name="" uid="{cfdd6be7-4ef8-4908-b6b7-ae5aedebd47f}"/>
+    <RecordField colName="detalle3" fieldIdRef="35" name="detalle17" sqlTabName="formonly" table_alias_name="" uid="{f665b6c9-8fed-4ce1-8a2b-692542e2fe66}"/>
+    <RecordField colName="cencoscars" fieldIdRef="36" fieldType="TABLE_COLUMN" name="fc_conta1.cencoscars" sqlTabName="fc_conta1" sqlType="CHAR" table_alias_name="" uid="{8023193b-8dd3-4ffd-91b6-9ef9408eb930}"/>
+    <RecordField colName="detalle4" fieldIdRef="37" name="detalle18" sqlTabName="formonly" table_alias_name="" uid="{bc467edf-1568-46f7-8beb-c0b689aa402a}"/>
+  </Record>
+  <Form gridHeight="17" gridWidth="88" name="fe_conta1">
+    <Grid gridHeight="15" gridWidth="85" name="Grid1" posX="0" posY="1">
+      <Label gridHeight="1" gridWidth="37" lstrcomment="false" lstrtext="false" name="lb6" posX="25" posY="1" text="PARAMETROS CONTABLES - AUXILIARES POR SERVICIO"/>
+      <HLine gridWidth="83" name="HLine1" posX="0" posY="2"/>
+      <Label gridHeight="1" gridWidth="15" name="Label1" posX="6" posY="3" text="Codigo Del Servicio  :"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" autoNext="false" colName="codigo" comment="DIGITE EL CODIGO DEL SERVICIO" fieldId="0" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="5" name="fc_conta1.codigo" notNull="true" picture="#####" posX="22" posY="3" required="true" sqlTabName="fc_conta1" sqlType="CHAR" tabIndex="1" table_alias_name="" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="6" name="Label2" posX="30" posY="3" text="Detalle:"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="mdetser" fieldId="1" gridHeight="1" gridWidth="40" name="mdetser" noEntry="true" posX="37" posY="3" sqlTabName="formonly" tabIndex="2" table_alias_name="" widget="Edit"/>
+      <HLine gridWidth="83" name="HLine2" posX="0" posY="4"/>
+      <Label gridHeight="1" gridWidth="7" name="Label3" posX="1" posY="5" text="Aux IVA :"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="auxiliariva" comment="DIGITE AL AUXILIAR DEL IVA &lt;?&gt;AYUDA" fieldId="5" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="12" name="fc_conta1.auxiliariva" posX="15" posY="5" sqlTabName="fc_conta1" sqlType="CHAR" tabIndex="3" table_alias_name="" widget="Edit"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="detalle1" fieldId="6" gridHeight="1" gridWidth="23" name="detalle1" noEntry="true" posX="28" posY="5" sqlTabName="formonly" tabIndex="4" table_alias_name="" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="3" name="Label7" posX="52" posY="5" text="CC"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" autoNext="false" colName="cencosiva" comment="DIGITE EL CODIGO DEL CENTRO DE COSTOS &lt;?&gt;AYUDA" fieldId="7" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="4" name="fc_conta1.cencosiva" posX="56" posY="5" sqlTabName="fc_conta1" sqlType="CHAR" tabIndex="5" table_alias_name="" widget="Edit"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="detalle2" fieldId="8" gridHeight="1" gridWidth="21" name="detalle2" noEntry="true" posX="61" posY="5" sqlTabName="formonly" tabIndex="6" table_alias_name="" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="13" name="Label4" posX="1" posY="6" text="Aux Imp Consumo :"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="auxiliarimpc" comment="DIGITE EL AUXILIAR IMPC" fieldId="2" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="12" name="fc_conta1.auxiliarimpc" posX="15" posY="6" sqlTabName="fc_conta1" sqlType="CHAR" tabIndex="11" table_alias_name="" widget="Edit"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="detalle1" fieldId="3" gridHeight="1" gridWidth="23" name="detalle5" noEntry="true" posX="28" posY="6" sqlTabName="formonly" tabIndex="12" table_alias_name="" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="3" name="Label8" posX="52" posY="6" text="CC"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" autoNext="false" colName="cencosimpc" comment="DIGITE EL CODIGO DEL CENTRO DE COSTOS &lt;?&gt;AYUDA" fieldId="4" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="4" name="fc_conta1.cencosimpc" posX="56" posY="6" sqlTabName="fc_conta1" sqlType="CHAR" tabIndex="13" table_alias_name="" widget="Edit"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="detalle2" fieldId="13" gridHeight="1" gridWidth="21" name="detalle6" noEntry="true" posX="61" posY="6" sqlTabName="formonly" tabIndex="14" table_alias_name="" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="13" name="Label5" posX="1" posY="7" text="Aux Ingreso :"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="auxiliaring" comment="DIGITE AL AUXILIAR DEL INGRESO &lt;?&gt;AYUDA" fieldId="9" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="12" name="fc_conta1.auxiliaring" posX="15" posY="7" sqlTabName="fc_conta1" sqlType="CHAR" tabIndex="7" table_alias_name="" widget="Edit"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="detalle3" fieldId="10" gridHeight="1" gridWidth="23" name="detalle3" noEntry="true" posX="28" posY="7" sqlTabName="formonly" tabIndex="8" table_alias_name="" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="3" name="Label9" posX="52" posY="7" text="CC"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" autoNext="false" colName="cencosing" comment="DIGITE EL CODIGO DEL CENTRO DE COSTOS &lt;?&gt;AYUDA" fieldId="11" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="4" name="fc_conta1.cencosing" posX="56" posY="7" sqlTabName="fc_conta1" sqlType="CHAR" tabIndex="9" table_alias_name="" widget="Edit"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="detalle4" fieldId="12" gridHeight="1" gridWidth="21" name="detalle4" noEntry="true" posX="61" posY="7" sqlTabName="formonly" tabIndex="10" table_alias_name="" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="11" name="Label6" posX="1" posY="8" text="Aux Cartera :"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="auxiliarcar" comment="DIGITE AL AUXILIAR DEL INGRESO &lt;?&gt;AYUDA" fieldId="14" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="12" name="fc_conta1.auxiliarcar" posX="15" posY="8" sqlTabName="fc_conta1" sqlType="CHAR" tabIndex="15" table_alias_name="" widget="Edit"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="detalle3" fieldId="15" gridHeight="1" gridWidth="23" name="detalle7" noEntry="true" posX="28" posY="8" sqlTabName="formonly" tabIndex="16" table_alias_name="" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="3" name="Label10" posX="52" posY="8" text="CC"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" autoNext="false" colName="cencoscar" comment="DIGITE EL CODIGO DEL CENTRO DE COSTOS &lt;?&gt;AYUDA" fieldId="16" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="4" name="fc_conta1.cencoscar" posX="56" posY="8" sqlTabName="fc_conta1" sqlType="CHAR" tabIndex="17" table_alias_name="" widget="Edit"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="detalle4" fieldId="17" gridHeight="1" gridWidth="21" name="detalle8" noEntry="true" posX="61" posY="8" sqlTabName="formonly" tabIndex="18" table_alias_name="" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="11" name="Label11" posX="1" posY="9" text="Aux Sub (DB) :"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="auxiliarsubsi" comment="DIGITE AL AUXILIAR DEL INGRESO &lt;?&gt;AYUDA" fieldId="18" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="12" name="fc_conta1.auxiliarsubsi" posX="15" posY="9" sqlTabName="fc_conta1" sqlType="CHAR" tabIndex="19" table_alias_name="" widget="Edit"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="detalle3" fieldId="19" gridHeight="1" gridWidth="23" name="detalle9" noEntry="true" posX="28" posY="9" sqlTabName="formonly" tabIndex="20" table_alias_name="" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="3" name="Label12" posX="52" posY="9" text="CC"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" autoNext="false" colName="cencossubsi" comment="DIGITE EL CODIGO DEL CENTRO DE COSTOS &lt;?&gt;AYUDA" fieldId="24" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="4" name="fc_conta1.cencossubsi" posX="56" posY="9" sqlTabName="fc_conta1" sqlType="CHAR" tabIndex="25" table_alias_name="" widget="Edit"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="detalle4" fieldId="21" gridHeight="1" gridWidth="21" name="detalle10" noEntry="true" posX="61" posY="9" sqlTabName="formonly" tabIndex="22" table_alias_name="" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="11" name="Label13" posX="1" posY="10" text="Aux Anticipo :"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="auxiliarant" comment="DIGITE AL AUXILIAR DEL INGRESO &lt;?&gt;AYUDA" fieldId="22" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="12" name="fc_conta1.auxiliarant" posX="15" posY="10" sqlTabName="fc_conta1" sqlType="CHAR" tabIndex="23" table_alias_name="" widget="Edit"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="detalle3" fieldId="23" gridHeight="1" gridWidth="23" name="detalle11" noEntry="true" posX="28" posY="10" sqlTabName="formonly" tabIndex="24" table_alias_name="" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="3" name="Label14" posX="52" posY="10" text="CC"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" autoNext="false" colName="cencosant" comment="DIGITE EL CODIGO DEL CENTRO DE COSTOS &lt;?&gt;AYUDA" fieldId="20" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="4" name="fc_conta1.cencosant" posX="56" posY="10" sqlTabName="fc_conta1" sqlType="CHAR" tabIndex="21" table_alias_name="" widget="Edit"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="detalle4" fieldId="25" gridHeight="1" gridWidth="21" name="detalle12" noEntry="true" posX="61" posY="10" sqlTabName="formonly" tabIndex="26" table_alias_name="" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="11" name="Label15" posX="1" posY="11" text="Aux Caja :"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="auxiliarcaja" comment="DIGITE AL AUXILIAR DEL INGRESO &lt;?&gt;AYUDA" fieldId="26" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="12" name="fc_conta1.auxiliarcaja" posX="15" posY="11" sqlTabName="fc_conta1" sqlType="CHAR" tabIndex="27" table_alias_name="" widget="Edit"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="detalle3" fieldId="27" gridHeight="1" gridWidth="23" name="detalle13" noEntry="true" posX="28" posY="11" sqlTabName="formonly" tabIndex="28" table_alias_name="" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="3" name="Label16" posX="52" posY="11" text="CC"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" autoNext="false" colName="cencoscaja" comment="DIGITE EL CODIGO DEL CENTRO DE COSTOS &lt;?&gt;AYUDA" fieldId="28" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="4" name="fc_conta1.cencoscaja" posX="56" posY="11" sqlTabName="fc_conta1" sqlType="CHAR" tabIndex="29" table_alias_name="" widget="Edit"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="detalle4" fieldId="29" gridHeight="1" gridWidth="21" name="detalle14" noEntry="true" posX="61" posY="11" sqlTabName="formonly" tabIndex="30" table_alias_name="" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="11" name="Label17" posX="1" posY="12" text="Aux Banco :"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="auxiliarbanco" comment="DIGITE AL AUXILIAR DEL INGRESO &lt;?&gt;AYUDA" fieldId="30" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="12" name="fc_conta1.auxiliarbanco" posX="15" posY="12" sqlTabName="fc_conta1" sqlType="CHAR" tabIndex="31" table_alias_name="" widget="Edit"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="detalle3" fieldId="31" gridHeight="1" gridWidth="23" name="detalle15" noEntry="true" posX="28" posY="12" sqlTabName="formonly" tabIndex="32" table_alias_name="" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="3" name="Label18" posX="52" posY="12" text="CC"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" autoNext="false" colName="cencosbanco" comment="DIGITE EL CODIGO DEL CENTRO DE COSTOS &lt;?&gt;AYUDA" fieldId="32" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="4" name="fc_conta1.cencosbanco" posX="56" posY="12" sqlTabName="fc_conta1" sqlType="CHAR" tabIndex="33" table_alias_name="" widget="Edit"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="detalle4" fieldId="33" gridHeight="1" gridWidth="21" name="detalle16" noEntry="true" posX="61" posY="12" sqlTabName="formonly" tabIndex="34" table_alias_name="" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="11" name="Label19" posX="1" posY="13" text="Aux Sub (CR) :"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="auxiliarcars" comment="DIGITE AL AUXILIAR DEL INGRESO &lt;?&gt;AYUDA" fieldId="34" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="12" name="fc_conta1.auxiliarcars" posX="15" posY="13" sqlTabName="fc_conta1" sqlType="CHAR" tabIndex="35" table_alias_name="" widget="Edit"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="detalle3" fieldId="35" gridHeight="1" gridWidth="23" name="detalle17" noEntry="true" posX="28" posY="13" sqlTabName="formonly" tabIndex="36" table_alias_name="" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="3" name="Label20" posX="52" posY="13" text="CC"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" autoNext="false" colName="cencoscars" comment="DIGITE EL CODIGO DEL CENTRO DE COSTOS &lt;?&gt;AYUDA" fieldId="36" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="4" name="fc_conta1.cencoscars" posX="56" posY="13" sqlTabName="fc_conta1" sqlType="CHAR" tabIndex="37" table_alias_name="" widget="Edit"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="detalle4" fieldId="37" gridHeight="1" gridWidth="21" name="detalle18" noEntry="true" posX="61" posY="13" sqlTabName="formonly" tabIndex="38" table_alias_name="" widget="Edit"/>
+    </Grid>
+  </Form>
+  <DiagramLayout>
+    <![CDATA[AAAAAgAAAEwAewA5ADMAYgA3AGYAZgA1ADcALQA3ADQAMwAzAC0ANAA3AGEAMwAtAGIANQAyADYALQA5AGIAZQBjADMAYgBlAGMAMQA3ADYAZQB9AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ==]]>
+  </DiagramLayout>
+</ManagedForm>

@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<Form name="fc_prefijos_usum.tmp" build="3.10.18" sqlDbName="empresa" text="USUARIOS POR PREFIJO" width="117" height="20">
+  <LStr text="USUARIOS POR PREFIJO"/>
+  <Grid name="gr2" width="117" height="20">
+    <Label name="label1" width="35" text="USUARIOS AUTORIZADOS PARA APROBAR FACTURAS" posY="1" posX="30" gridWidth="35">
+      <LStr text="USUARIOS AUTORIZADOS PARA APROBAR FACTURAS"/>
+    </Label>
+    <HLine posY="2" posX="0" gridWidth="117"/>
+    <Label name="lb1" width="8" text="PREFIJO :" posY="3" posX="2" gridWidth="8">
+      <LStr text="PREFIJO :"/>
+    </Label>
+    <FormField name="fc_prefijos.prefijo" colName="prefijo" sqlType="CHAR(5)" required="1" notNull="1" fieldId="0" sqlTabName="fc_prefijos" tabIndex="1">
+      <Edit width="5" posY="3" posX="12" gridWidth="5"/>
+    </FormField>
+    <FormField name="fc_prefijos.descripcion" colName="descripcion" sqlType="CHAR(50)" required="1" notNull="1" fieldId="1" sqlTabName="fc_prefijos" tabIndex="4">
+      <Edit width="38" posY="3" posX="20" gridWidth="38"/>
+    </FormField>
+    <HLine posY="4" posX="0" gridWidth="117"/>
+    <Label name="lb4" width="14" text="USUARIO AUTORIZA" color="blue" posY="5" posX="1" gridWidth="14">
+      <LStr text="USUARIO AUTORIZA"/>
+    </Label>
+    <Label name="lb5" width="13" text="NOMBRE USUARIO" color="blue" posY="5" posX="18" gridWidth="13">
+      <LStr text="NOMBRE USUARIO"/>
+    </Label>
+    <Label name="lb2" width="5" text="EMAIL" color="blue" posY="5" posX="55" gridWidth="5">
+      <LStr text="EMAIL"/>
+    </Label>
+    <Label name="lb3" width="5" text="EMAIL" color="blue" posY="5" posX="97" gridWidth="5">
+      <LStr text="EMAIL"/>
+    </Label>
+    <Matrix pageSize="10" name="fc_prefijos_usuu.usu_autoriza" colName="usu_autoriza" sqlType="INTEGER" required="1" notNull="1" fieldId="2" sqlTabName="fc_prefijos_usuu" tabIndex="2">
+      <Edit width="5" posY="6" posX="3" gridWidth="5"/>
+    </Matrix>
+    <Matrix pageSize="10" name="gener02.nombre" colName="nombre" sqlType="CHAR(20)" required="1" notNull="1" fieldId="3" sqlTabName="gener02" tabIndex="3" noEntry="1">
+      <Edit width="20" posY="6" posX="14" gridWidth="20"/>
+    </Matrix>
+    <Matrix pageSize="10" name="fc_prefijos_usuu.email" colName="email" sqlType="CHAR(50)" required="1" notNull="1" fieldId="4" sqlTabName="fc_prefijos_usuu" tabIndex="5">
+      <Edit width="40" posY="6" posX="37" gridWidth="40"/>
+    </Matrix>
+    <Matrix pageSize="10" name="fc_prefijos_usuu.emaill" colName="emaill" sqlType="CHAR(50)" fieldId="5" sqlTabName="fc_prefijos_usuu" tabIndex="6">
+      <Edit width="30" posY="6" posX="84" gridWidth="30"/>
+    </Matrix>
+  </Grid>
+  <RecordView tabName="fc_prefijos">
+    <Link colName="prefijo" fieldIdRef="0"/>
+    <Link colName="descripcion" fieldIdRef="1"/>
+  </RecordView>
+  <RecordView tabName="fc_prefijos_usuu">
+    <Link colName="usu_autoriza" fieldIdRef="2"/>
+    <Link colName="email" fieldIdRef="4"/>
+    <Link colName="emaill" fieldIdRef="5"/>
+  </RecordView>
+  <RecordView tabName="gener02">
+    <Link colName="nombre" fieldIdRef="3"/>
+  </RecordView>
+  <RecordView tabName="dlincon">
+    <Link colName="usu_autoriza" fieldIdRef="2"/>
+    <Link colName="nombre" fieldIdRef="3"/>
+    <Link colName="email" fieldIdRef="4"/>
+    <Link colName="emaill" fieldIdRef="5"/>
+  </RecordView>
+  <RecordView tabName="undefined">
+    <Link colName="prefijo" fieldIdRef="0"/>
+    <Link colName="descripcion" fieldIdRef="1"/>
+  </RecordView>
+</Form>

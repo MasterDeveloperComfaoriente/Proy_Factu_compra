@@ -1,0 +1,12 @@
+IMPORT FGL Enlace_Archivo_bbl
+IMPORT FGL Enlace_Doc_bbl
+IMPORT FGL Enlace_DocEstado_bbl
+
+FUNCTION envio_documento(mtipodoc, mprefijo, mdocumento)
+  DEFINE mtipodoc char(1),
+  DEFINE mprefijo char(4),
+  DEFINE mdocumento char(7)
+
+
+END FUNCTION
+

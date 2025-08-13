@@ -1,0 +1,8 @@
+ ON ACTION bt_selruta
+    CALL WINOPENFILE( "C:\\","","*.jpg *.pdf", "SELECCIONE EL DOCUMENTO SOPORTE") returning mruta
+    CALL WINSAVEFILE( "Z:\\","","*.jpg *.pdf", "SELECCIONE EL DOCUMENTO SOPORTE") returning mruta2
+    CALL FGL_GETFILE(mruta , mruta2) 
+    IF mruta2 IS NOT NULL THEN
+     LET tpct_contrato.soporte = mruta2
+      DISPLAY mruta2 TO soporte
+    END IF

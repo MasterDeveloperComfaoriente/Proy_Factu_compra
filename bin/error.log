@@ -1,0 +1,108 @@
+Date: 12/09/2024    Time: 16:37:10
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 12/12/2024    Time: 14:57:22
+Program error at 'fc_factura.4gl', line number 192.
+SQL statement error number -25582.
+Network connection is broken.
+Date: 12/16/2024    Time: 15:02:52
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 12/16/2024    Time: 15:03:22
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 01/07/2025    Time: 11:26:25
+Program error at 'seguridad_val.4gl', line number 516.
+FORMS statement error number -1119.
+NEXT FIELD name not found in form.
+Date: 01/07/2025    Time: 11:26:38
+Program error at 'seguridad_val.4gl', line number 516.
+FORMS statement error number -1119.
+NEXT FIELD name not found in form.
+Date: 01/17/2025    Time: 08:50:37
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 01/17/2025    Time: 08:51:22
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 01/21/2025    Time: 11:15:23
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 01/23/2025    Time: 08:27:07
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 02/03/2025    Time: 16:21:30
+Program error at 'seguridad_val.4gl', line number 516.
+FORMS statement error number -1119.
+NEXT FIELD name not found in form.
+Date: 02/10/2025    Time: 15:06:36
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 02/11/2025    Time: 07:23:33
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 02/12/2025    Time: 16:46:42
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 02/25/2025    Time: 15:47:14
+Program error at 'seguridad_val.4gl', line number 708.
+FORMS statement error number -1143.
+Window is already open.
+Date: 03/14/2025    Time: 16:54:45
+Program error at 'fc_main.4gl', line number 33.
+FORMS statement error number -6017.
+User limit exceeded. Cannot run this program.
+Date: 03/14/2025    Time: 16:54:50
+Program error at 'fc_main.4gl', line number 33.
+FORMS statement error number -6017.
+User limit exceeded. Cannot run this program.
+Date: 04/01/2025    Time: 09:51:06
+Program error at 'fc_main.4gl', line number 596.
+FORMS statement error number -1110.
+Form file (fenit) not found.
+Date: 06/05/2025    Time: 16:36:33
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 07/02/2025    Time: 17:01:09
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 07/02/2025    Time: 17:01:41
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 07/02/2025    Time: 17:02:10
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 07/03/2025    Time: 09:50:40
+Program error at 'fgldialog.4gl', line number 274.
+FORMS statement error number -6311.
+No current window.
+Date: 07/14/2025    Time: 07:53:05
+Program error at 'fc_nota_ajuste.4gl', line number 137.
+SQL statement error number -284.
+A subquery has returned not exactly one row.
+Date: 07/14/2025    Time: 07:53:41
+Program error at 'fc_nota_ajuste.4gl', line number 137.
+SQL statement error number -284.
+A subquery has returned not exactly one row.
+Date: 07/14/2025    Time: 07:55:23
+Program error at 'fc_nota_ajuste.4gl', line number 137.
+SQL statement error number -284.
+A subquery has returned not exactly one row.
+Date: 07/16/2025    Time: 10:02:35
+Program error at 'seguridad_val.4gl', line number 710.
+FORMS statement error number -1143.
+Window is already open.

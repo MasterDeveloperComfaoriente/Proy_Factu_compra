@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ManagedForm databaseName="empresa" fileVersion="30a00" gstVersion="30a0b" name="ManagedForm" uid="{327fc36f-7b20-45a7-93fe-6750b6079f7b}">
+  <AGSettings>
+    <DynamicProperties version="2"/>
+  </AGSettings>
+  <Record additionalTables="" joinLeft="" joinOperator="" joinRight="" name="Undefined" order="" uid="{a16ef99c-5780-446d-a6f5-75910504f49b}" where="">
+    <RecordField colName="" fieldIdRef="7" name="mprefijo" sqlTabName="" table_alias_name="" uid="{8a04e844-036f-4e7c-bdf0-94c070d4f5e8}"/>
+    <RecordField colName="" fieldIdRef="8" name="numint" sqlTabName="" table_alias_name="" uid="{26f98e8d-e8e9-4059-9bd9-e90e755484d0}"/>
+    <RecordField colName="" fieldIdRef="3" fieldType="NON_DATABASE" name="mnit" sqlTabName="" sqlType="CHAR" table_alias_name="" uid="{5a399840-7577-4308-acb5-09a0a75b7892}"/>
+    <RecordField colName="" fieldIdRef="9" fieldType="NON_DATABASE" name="mrazsoc" sqlTabName="" sqlType="CHAR" table_alias_name="" uid="{821ad037-92b3-4d22-9f8d-c1c7d4ba95c2}"/>
+    <RecordField colName="" fieldIdRef="10" fieldType="NON_DATABASE" name="mnota1" sqlTabName="" sqlType="CHAR" table_alias_name="" uid="{1d4484ba-6676-4815-b01a-b7988d6ac0cd}"/>
+    <RecordField colName="" fieldIdRef="11" fieldType="NON_DATABASE" name="dvuni" sqlTabName="" sqlType="DECIMAL" table_alias_name="" uid="{bb7f90c4-6f61-43c8-9739-aded9dd32fd1}"/>
+    <RecordField colName="" fieldIdRef="12" fieldType="NON_DATABASE" name="dviva" sqlTabName="" sqlType="DECIMAL" table_alias_name="" uid="{a2fae5ff-5990-4969-bb24-54614c9a9cbf}"/>
+    <RecordField colName="" fieldIdRef="13" fieldType="NON_DATABASE" name="dvimp" sqlTabName="" sqlType="DECIMAL" table_alias_name="" uid="{951c9e9c-9017-4d10-a3fe-a71fc760915c}"/>
+    <RecordField colName="" fieldIdRef="14" fieldType="NON_DATABASE" name="dvalor" sqlTabName="" sqlType="DECIMAL" table_alias_name="" uid="{defc7040-8e87-40ef-a92c-1e411e905d0d}"/>
+    <RecordField colName="fecha" fieldIdRef="15" fieldType="TABLE_COLUMN" name="fc_compras.fecha" sqlTabName="fc_compras" sqlType="DATE" table_alias_name="" uid="{ea4fe4d0-6baa-4c8d-a3d2-c15fdc2de3ed}"/>
+    <RecordField colName="medioc" fieldIdRef="16" fieldType="TABLE_COLUMN" name="fc_compras.medioc" sqlTabName="fc_compras" sqlType="CHAR" table_alias_name="" uid="{272199ae-b411-4a3e-9dc5-334afa070bfa}"/>
+    <RecordField colName="prefijo" fieldIdRef="4" fieldType="TABLE_COLUMN" name="fc_compras.prefijo" sqlTabName="fc_compras" sqlType="CHAR" table_alias_name="" uid="{9e7c8223-9e1d-4228-bdb0-2b3cffe61f8a}"/>
+    <RecordField colName="numfac" fieldIdRef="17" fieldType="TABLE_COLUMN" name="fc_compras.numfac" sqlTabName="fc_compras" sqlType="INTEGER" table_alias_name="" uid="{23f91897-085f-44be-b103-e7a0830b5ba4}"/>
+    <RecordField colName="valcomp" fieldIdRef="18" fieldType="TABLE_COLUMN" name="fc_compras.valcomp" precisionDecimal="12" scaleDecimal="0" sqlTabName="fc_compras" sqlType="DECIMAL" table_alias_name="" uid="{233ed96d-0edf-469d-99d9-8191d8df43cf}"/>
+    <RecordField colName="soporte" fieldIdRef="19" fieldType="TABLE_COLUMN" name="fc_compras.soporte" sqlTabName="fc_compras" sqlType="CHAR" table_alias_name="" uid="{4b77f655-7ff3-401d-a94b-9251b936a8c5}"/>
+  </Record>
+  <Form gridHeight="19" gridWidth="98" name="Form" text="Form">
+    <Grid gridHeight="18" gridWidth="95" name="empresa1" posX="1" posY="1">
+      <Label gridHeight="1" gridWidth="7" name="Label1" posX="1" posY="1" text="Prefijo:"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" case="upper" colName="prefijo" fieldId="4" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="5" name="fc_compras.prefijo" posX="9" posY="1" sqlTabName="fc_compras" sqlType="CHAR" tabIndex="12" table_alias_name="" title="Edit1" widget="Edit"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="" fieldId="7" gridHeight="1" gridWidth="34" name="mprefijo" posX="15" posY="1" sqlTabName="" tabIndex="1" table_alias_name="" title="Edit1" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="10" name="Label2" posX="50" posY="1" text="N° Documento :"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="numfac" fieldId="17" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="10" name="fc_compras.numfac" posX="61" posY="1" sqlTabName="fc_compras" sqlType="INTEGER" tabIndex="13" table_alias_name="" title="Edit1" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="10" name="Label7" posX="72" posY="1" text="No. Interno :"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="" fieldId="8" gridHeight="1" gridWidth="10" name="numint" posX="83" posY="1" sqlTabName="" tabIndex="2" table_alias_name="" title="Edit1" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="9" name="Label9" posX="1" posY="3" text="Proveedor:"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" autoNext="true" case="upper" colName="" fieldId="3" fieldType="NON_DATABASE" gridHeight="1" gridWidth="7" length="1" name="mnit" noEntry="true" notNull="false" posX="11" posY="3" sqlTabName="" sqlType="CHAR" tabIndex="3" table_alias_name="" widget="Edit"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" autoNext="true" case="upper" colName="" fieldId="9" fieldType="NON_DATABASE" gridHeight="1" gridWidth="41" length="1" name="mrazsoc" noEntry="true" notNull="false" posX="19" posY="3" sqlTabName="" sqlType="CHAR" tabIndex="4" table_alias_name="" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="6" name="Label10" posX="1" posY="5" text="Nota"/>
+      <TextEdit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" case="upper" colName="" fieldId="10" fieldType="NON_DATABASE" gridHeight="3" gridWidth="80" length="1" name="mnota1" noEntry="true" posX="9" posY="5" sqlTabName="" sqlType="CHAR" tabIndex="5" table_alias_name="" title="TextEdit1" widget="TextEdit"/>
+      <HLine gridWidth="95" name="HLine2" posX="0" posY="8"/>
+      <Label gridHeight="1" gridWidth="11" name="Label14" posX="1" posY="10" text="Med. Compra:"/>
+      <ComboBox aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="medioc" fieldId="16" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="17" items="" lstrcomment="false" lstrtitle="false" name="fc_compras.medioc" posX="13" posY="10" sqlTabName="fc_compras" sqlType="CHAR" tabIndex="11" table_alias_name="" widget="ComboBox"/>
+      <Label gridHeight="1" gridWidth="11" name="Label3" posX="31" posY="10" text="Fecha Compra:"/>
+      <DateEdit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="fecha" fieldId="15" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="9" name="fc_compras.fecha" posX="43" posY="10" sqlTabName="fc_compras" sqlType="DATE" tabIndex="10" table_alias_name="" title="DateEdit1" widget="DateEdit"/>
+      <Label gridHeight="1" gridWidth="10" name="Label13" posX="70" posY="11" text="Vr. Unit. :"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="" fieldId="11" fieldType="NON_DATABASE" format="---,---,---" gridHeight="1" gridWidth="12" length="1" name="dvuni" noEntry="true" picture="" posX="81" posY="11" sqlTabName="" sqlType="DECIMAL" tabIndex="6" table_alias_name="" title="Edit1" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="11" name="Label5" posX="1" posY="12" text="Valor Compra:"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="valcomp" fieldId="18" fieldType="TABLE_COLUMN" format="---,---,---" gridHeight="1" gridWidth="15" name="fc_compras.valcomp" posX="13" posY="12" precisionDecimal="12" scaleDecimal="0" sqlTabName="fc_compras" sqlType="DECIMAL" tabIndex="14" table_alias_name="" title="Edit1" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="10" name="Label8" posX="70" posY="12" text="Vr. IVA:"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="" fieldId="12" fieldType="NON_DATABASE" format="---,---,---" gridHeight="1" gridWidth="12" length="1" name="dviva" noEntry="true" picture="" posX="81" posY="12" sqlTabName="" sqlType="DECIMAL" tabIndex="7" table_alias_name="" title="Edit1" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="10" name="Label12" posX="70" posY="13" text="Vr. Imp. :"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="" fieldId="13" fieldType="NON_DATABASE" format="---,---,---" gridHeight="1" gridWidth="12" length="1" name="dvimp" noEntry="true" picture="" posX="81" posY="13" sqlTabName="" sqlType="DECIMAL" tabIndex="8" table_alias_name="" title="Edit1" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="11" name="Label6" posX="1" posY="14" text="Soporte:"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" case="upper" colName="soporte" fieldId="19" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="32" name="fc_compras.soporte" posX="13" posY="14" sqlTabName="fc_compras" sqlType="CHAR" tabIndex="15" table_alias_name="" title="Edit1" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="10" name="Label11" posX="70" posY="14" text="Vr. Total Fact. :"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="" fieldId="14" fieldType="NON_DATABASE" format="---,---,---" gridHeight="1" gridWidth="12" length="1" name="dvalor" noEntry="true" picture="" posX="81" posY="14" sqlTabName="" sqlType="DECIMAL" tabIndex="9" table_alias_name="" title="Edit1" widget="Edit"/>
+    </Grid>
+  </Form>
+  <DiagramLayout>
+    <![CDATA[AAAAAgAAAEwAewBhADEANgBlAGYAOQA5AGMALQA1ADcAOAAwAC0ANAA0ADYAZAAtAGEANgBmADUALQA3ADUAOQAxADAANQAwADQAZgA0ADkAYgB9QG+gAAAAAABAGAAAAAAAAD+Yk3S8an7+AQ==]]>
+  </DiagramLayout>
+</ManagedForm>

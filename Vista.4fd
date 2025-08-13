@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ManagedForm fileVersion="30a00" gstVersion="30a0b" name="managedform" uid="{e8c4885c-b87c-4732-bed2-0e562f4dcbb4}">
+  <AGSettings>
+    <DynamicProperties version="2"/>
+  </AGSettings>
+  <Record name="Undefined" uid="{5943155a-7a40-451c-a8d1-649c08f2a09e}">
+    <RecordField fieldIdRef="3" name="txt_tipodoc" uid="{642fef82-462b-4315-962f-ed40910a533f}"/>
+    <RecordField fieldIdRef="2" length="1" name="txt_prefijo" uid="{70d87e40-d6da-434a-98b7-bdc0ab523a54}"/>
+    <RecordField fieldIdRef="4" length="1" name="txt_folio_manual" sqlType="INTEGER" uid="{3d3fa22d-d95a-4d1d-a3c9-46f0366acf0f}"/>
+    <RecordField fieldIdRef="1" name="txt_salida" uid="{605f136f-b1b7-4cd2-ab14-7432cd31ef5b}"/>
+  </Record>
+  <Form gridHeight="22" gridWidth="83" name="form" text="Consumo de servicio web Dispapeles">
+    <Grid gridHeight="20" gridWidth="79" name="grid1" posX="1" posY="1">
+      <Label gridHeight="1" gridWidth="14" name="label2" posX="3" posY="1" text="Tipo de documento :"/>
+      <ComboBox fieldId="3" gridHeight="1" gridWidth="17" items="" name="txt_tipodoc" noEntry="true" posX="18" posY="1" tabIndex="-1" title="edit2" widget="ComboBox"/>
+      <Label gridHeight="1" gridWidth="6" name="label3" posX="37" posY="1" text="Prefijo:"/>
+      <Edit fieldId="2" gridHeight="1" gridWidth="7" length="1" name="txt_prefijo" noEntry="true" posX="44" posY="1" tabIndex="-1" title="edit1" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="8" name="label5" posX="54" posY="1" text="Numero:"/>
+      <Edit fieldId="4" gridHeight="1" gridWidth="10" length="1" name="txt_folio_manual" noEntry="true" posX="64" posY="1" sqlType="INTEGER" tabIndex="-1" title="edit1" widget="Edit"/>
+      <TextEdit fieldId="1" gridHeight="14" gridWidth="75" name="txt_salida" posX="2" posY="3" tabIndex="-1" title="textedit1" widget="TextEdit"/>
+      <Button gridHeight="1" gridWidth="12" name="bt_cerrar" posX="33" posY="18" tabIndex="-1" text="Cerrar"/>
+    </Grid>
+  </Form>
+  <DiagramLayout>
+    <![CDATA[AAAAAgAAAEwAewA1ADkANAAzADEANQA1AGEALQA3AGEANAAwAC0ANAA1ADEAYwAtAGEAOABkADEALQA2ADQAOQBjADAAOABmADIAYQAwADkAZQB9AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ==]]>
+  </DiagramLayout>
+</ManagedForm>

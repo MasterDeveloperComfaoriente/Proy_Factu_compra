@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ManagedForm databaseName="empresa" fileVersion="30a00" gstVersion="30a0b" name="ManagedForm" uid="{a610ac88-5dd1-4d23-85ed-72e190577c76}">
+  <AGSettings>
+    <DynamicProperties version="2"/>
+  </AGSettings>
+  <Record additionalTables="" joinLeft="" joinOperator="" joinRight="" masterTable="fe_beneficios" name="Record1" order="" uid="{41ec0866-35b3-4aaa-a52a-19802dd86cc7}" where="">
+    <RecordField colName="codigo" fieldIdRef="1" fieldType="TABLE_COLUMN" name="fe_beneficios.codigo" sqlTabName="fe_beneficios" sqlType="CHAR" table_alias_name="" uid="{03f16eda-c468-42c9-b390-dde52e29d6cb}"/>
+    <RecordField colName="descripcion" fieldIdRef="2" fieldType="TABLE_COLUMN" name="fe_beneficios.descripcion" sqlTabName="fe_beneficios" sqlType="CHAR" table_alias_name="" uid="{dd7b524d-7c2e-4aa4-96a7-116f0b2f36a6}"/>
+    <RecordField colName="auxiliarcr" fieldIdRef="6" fieldType="TABLE_COLUMN" name="fe_beneficios.auxiliarcr" sqlTabName="fe_beneficios" sqlType="CHAR" table_alias_name="" uid="{7f54ee72-3c15-40a4-97d0-29c87bddb759}"/>
+    <RecordField colName="detalle1" fieldIdRef="5" name="detalle1" sqlTabName="formonly" table_alias_name="" uid="{98cde05e-1303-4d62-b778-db9c6ab03b99}"/>
+    <RecordField colName="auxiliardb" fieldIdRef="3" fieldType="TABLE_COLUMN" name="fe_beneficios.auxiliardb" sqlTabName="fe_beneficios" sqlType="CHAR" table_alias_name="" uid="{8eaa294e-1286-4245-bf71-373ff9a8165b}"/>
+    <RecordField colName="detalle1" fieldIdRef="7" name="detalle2" sqlTabName="formonly" table_alias_name="" uid="{836e4de6-d49a-4525-9053-c002f4703116}"/>
+    <RecordField colName="estado" fieldIdRef="4" fieldType="TABLE_COLUMN" name="fe_beneficios.estado" sqlTabName="fe_beneficios" sqlType="CHAR" table_alias_name="" uid="{6ad9a0c2-3c24-4307-acbf-3b024dc9e544}"/>
+  </Record>
+  <Record additionalTables="" joinLeft="" joinOperator="" joinRight="" name="Undefined" order="" uid="{ca76ae14-a3ea-467c-a3a9-c23a58cf4978}" where="">
+    <RecordField colName="codcop" fieldIdRef="8" fieldType="TABLE_COLUMN" name="fe_beneficios.codcop" sqlTabName="fe_beneficios" sqlType="CHAR" table_alias_name="" uid="{d669e127-c793-48aa-b841-1170fb0ad2f2}"/>
+    <RecordField colName="codcop2" fieldIdRef="9" fieldType="TABLE_COLUMN" name="fe_beneficios.codcop2" sqlTabName="fe_beneficios" sqlType="CHAR" table_alias_name="" uid="{68466460-8ace-4744-929e-a1c1f59f6b7d}"/>
+  </Record>
+  <Form gridHeight="15" gridWidth="80" name="Form" text="Form">
+    <Grid gridHeight="13" gridWidth="77" name="empresa1" posX="1" posY="1">
+      <Label blink="true" color="green" gridHeight="1" gridWidth="32" justify="center" name="Label6" posX="23" posY="1" text="INFORMACIÓN DE BENEFICIOS Y/O DESCUENTOS" underline="true"/>
+      <HLine gridWidth="77" name="HLine2" posX="0" posY="2"/>
+      <Label gridHeight="1" gridWidth="8" name="Label1" posX="1" posY="3" text="Código:"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="codigo" fieldId="1" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="2" name="fe_beneficios.codigo" posX="10" posY="3" scroll="true" sqlTabName="fe_beneficios" sqlType="CHAR" tabIndex="1" table_alias_name="" title="codigo" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="9" name="Label2" posX="14" posY="3" text="Descripción:"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" case="upper" colName="descripcion" fieldId="2" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="47" name="fe_beneficios.descripcion" posX="25" posY="3" scroll="true" sqlTabName="fe_beneficios" sqlType="CHAR" tabIndex="2" table_alias_name="" title="descripcion" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="9" name="Label5" posX="1" posY="5" text="Auxiliar Db:"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="auxiliardb" fieldId="3" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="12" name="fe_beneficios.auxiliardb" posX="12" posY="5" scroll="true" sqlTabName="fe_beneficios" sqlType="CHAR" tabIndex="3" table_alias_name="" title="auxiliar" widget="Edit"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="detalle1" fieldId="5" gridHeight="1" gridWidth="46" name="detalle1" noEntry="true" posX="25" posY="5" sqlTabName="formonly" tabIndex="5" table_alias_name="" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="9" name="Label3" posX="1" posY="6" text="Auxiliar Cr:"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="auxiliarcr" fieldId="6" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="12" name="fe_beneficios.auxiliarcr" posX="12" posY="6" scroll="true" sqlTabName="fe_beneficios" sqlType="CHAR" tabIndex="6" table_alias_name="" title="auxiliar" widget="Edit"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="detalle1" fieldId="7" gridHeight="1" gridWidth="46" name="detalle2" noEntry="true" posX="25" posY="6" sqlTabName="formonly" tabIndex="7" table_alias_name="" widget="Edit"/>
+      <Label colorCondition="black" gridHeight="1" gridWidth="20" lstrcomment="false" lstrtext="false" name="lb2" posX="2" posY="9" text="Tipo Comprobante Factura : "/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" autoNext="false" colName="codcop" comment="DIGITE EL CODIGO DEL SERVICIO" fieldId="8" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="4" name="fe_beneficios.codcop" notNull="false" picture="#####" posX="28" posY="9" required="false" sqlTabName="fe_beneficios" sqlType="CHAR" tabIndex="8" table_alias_name="" widget="Edit"/>
+      <Label colorCondition="black" gridHeight="1" gridWidth="19" lstrcomment="false" lstrtext="false" name="lb1" posX="40" posY="9" text="Tipo Comprobante Nota : "/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" autoNext="false" colName="codcop2" comment="DIGITE EL CODIGO DEL SERVICIO" fieldId="9" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="4" name="fe_beneficios.codcop2" notNull="false" picture="#####" posX="64" posY="9" required="false" sqlTabName="fe_beneficios" sqlType="CHAR" tabIndex="9" table_alias_name="" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="8" name="Label4" posX="2" posY="11" text="Estado:"/>
+      <ComboBox aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="estado" fieldId="4" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="17" items="" lstrcomment="false" lstrtitle="false" name="fe_beneficios.estado" posX="12" posY="11" sqlTabName="fe_beneficios" sqlType="CHAR" tabIndex="4" table_alias_name="" widget="ComboBox"/>
+    </Grid>
+  </Form>
+  <DiagramLayout>
+    <![CDATA[AAAAAgAAAEwAewA0ADEAZQBjADAAOAA2ADYALQAzADUAYgAzAC0ANABhAGEAYQAtAGEANQAyAGEALQAxADkAOAAwADIAZABkADgANgBjAGMANwB9AAAAAAAAAAAAAAAAAAAAAD9gYk3S8an8AQAAAEwAewBjAGEANwA2AGEAZQAxADQALQBhADMAZQBhAC0ANAA2ADcAYwAtAGEAMwBhADkALQBjADIAMwBhADUAOABjAGYANAA5ADcAOAB9QCQAAAAAAABAJAAAAAAAAAAAAAAAAAAAAQ==]]>
+  </DiagramLayout>
+</ManagedForm>

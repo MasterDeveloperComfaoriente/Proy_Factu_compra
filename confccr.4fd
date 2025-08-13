@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ManagedForm fileVersion="30a00" gstVersion="30a0b" name="Root" uid="{60255dc7-c7d5-48f5-a73c-f75505b15568}">
+  <AGSettings>
+    <DynamicProperties version="2"/>
+  </AGSettings>
+  <Record additionalTables="" joinLeft="" joinOperator="" joinRight="" name="Undefined" order="" uid="{1795e070-15dc-4e99-8214-a31829bc7c52}" where="">
+    <RecordField colName="" fieldIdRef="1" fieldType="NON_DATABASE" name="titulo" sqlTabName="" sqlType="CHAR" table_alias_name="" uid="{a6df3283-2efc-4aa2-af8c-a4ae65e1cf55}"/>
+    <RecordField colName="" fieldIdRef="2" fieldType="NON_DATABASE" name="prompt" sqlTabName="" sqlType="CHAR" table_alias_name="" uid="{b352a402-7f4b-4e0a-8b7c-7acb964d0b22}"/>
+    <RecordField colName="" fieldIdRef="3" fieldType="NON_DATABASE" name="fecha1" sqlTabName="" sqlType="DATE" table_alias_name="" uid="{b3288798-49a0-46f5-9059-4665605d4cf6}"/>
+    <RecordField colName="" fieldIdRef="4" fieldType="NON_DATABASE" name="fecha2" sqlTabName="" sqlType="DATE" table_alias_name="" uid="{d262b148-0aff-4e7a-ad59-a5bfd86686d6}"/>
+  </Record>
+  <Form gridHeight="12" gridWidth="73" name="confecr" spacing="normal" text="confecr">
+    <Grid gridHeight="11" gridWidth="71" lstrcomment="false" name="gr1" posX="0" posY="0">
+      <HLine gridWidth="71" name="hline2" posX="0" posY="0"/>
+      <Group gridHeight="3" gridWidth="36" lstrcomment="false" lstrtext="false" name="gb1" posX="17" posY="1">
+        <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" autoNext="true" colName="" fieldId="1" fieldType="NON_DATABASE" gridHeight="1" gridWidth="32" length="1" lstrcomment="false" lstrtitle="false" name="titulo" posX="2" posY="1" sqlTabName="" sqlType="CHAR" tabIndex="1" table_alias_name="" widget="Edit"/>
+      </Group>
+      <HLine gridWidth="71" name="hline1" posX="0" posY="4"/>
+      <Group gridHeight="5" gridWidth="66" lstrcomment="false" lstrtext="false" name="gb2" posX="2" posY="5">
+        <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" autoNext="true" colName="" fieldId="2" fieldType="NON_DATABASE" gridHeight="1" gridWidth="23" length="1" lstrcomment="false" lstrtitle="false" name="prompt" posX="1" posY="1" sqlTabName="" sqlType="CHAR" tabIndex="2" table_alias_name="" widget="Edit"/>
+        <Label posX="26" posY="1" text=":Inicial"/>
+        <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" autoNext="true" colName="" fieldId="3" fieldType="NON_DATABASE" gridHeight="1" gridWidth="10" length="1" lstrcomment="false" lstrtitle="false" name="fecha1" posX="35" posY="1" sqlTabName="" sqlType="DATE" tabIndex="3" table_alias_name="" widget="Edit"/>
+        <Label posX="46" posY="1" text="Final"/>
+        <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" autoNext="true" colName="" fieldId="4" fieldType="NON_DATABASE" gridHeight="1" gridWidth="10" length="1" lstrcomment="false" lstrtitle="false" name="fecha2" posX="52" posY="1" sqlTabName="" sqlType="DATE" tabIndex="4" table_alias_name="" widget="Edit"/>
+      </Group>
+    </Grid>
+  </Form>
+  <DiagramLayout>
+    <![CDATA[AAAAAgAAAEwAewAxADcAOQA1AGUAMAA3ADAALQAxADUAZABjAC0ANABlADkAOQAtADgAMgAxADQALQBhADMAMQA4ADIAOQBiAGMANwBjADUAMgB9AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ==]]>
+  </DiagramLayout>
+</ManagedForm>

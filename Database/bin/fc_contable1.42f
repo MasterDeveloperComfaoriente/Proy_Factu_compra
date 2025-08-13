@@ -1,0 +1,302 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<Form name="fc_contable1.tmp" build="3.10.18" sqlDbName="empresa" width="83" height="15">
+  <Grid name="grid1" width="83" height="15">
+    <Label name="lb6" width="37" text="PARAMETROS CONTABLES - AUXILIARES POR SERVICIO" posY="1" posX="25" gridWidth="37"/>
+    <HLine posY="2" posX="0" gridWidth="83"/>
+    <Label name="label1" width="15" text="Codigo Del Servicio  :" posY="3" posX="6" gridWidth="15">
+      <LStr text="Codigo Del Servicio  :"/>
+    </Label>
+    <FormField name="fc_conta1.codigo" colName="codigo" sqlType="CHAR(5)" required="1" notNull="1" fieldId="0" sqlTabName="fc_conta1" tabIndex="1">
+      <Edit width="5" picture="#####" comment="DIGITE EL CODIGO DEL SERVICIO" posY="3" posX="22" gridWidth="5">
+        <LStr comment="DIGITE EL CODIGO DEL SERVICIO"/>
+      </Edit>
+    </FormField>
+    <Label name="label2" width="6" text="Detalle:" posY="3" posX="30" gridWidth="6">
+      <LStr text="Detalle:"/>
+    </Label>
+    <FormField name="formonly.mdetser" colName="mdetser" fieldId="1" sqlTabName="formonly" tabIndex="2" noEntry="1">
+      <Edit width="40" posY="3" posX="37" gridWidth="40"/>
+    </FormField>
+    <HLine posY="4" posX="0" gridWidth="83"/>
+    <Label name="label3" width="7" text="Aux IVA :" posY="5" posX="1" gridWidth="7">
+      <LStr text="Aux IVA :"/>
+    </Label>
+    <FormField name="fc_conta1.auxiliariva" colName="auxiliariva" sqlType="CHAR(12)" fieldId="2" sqlTabName="fc_conta1" tabIndex="3">
+      <Edit width="12" comment="DIGITE AL AUXILIAR DEL IVA &lt;?&gt;AYUDA" posY="5" posX="15" gridWidth="12">
+        <LStr comment="DIGITE AL AUXILIAR DEL IVA &lt;?&gt;AYUDA"/>
+      </Edit>
+    </FormField>
+    <FormField name="formonly.detalle1" colName="detalle1" fieldId="3" sqlTabName="formonly" tabIndex="4" noEntry="1">
+      <Edit width="23" posY="5" posX="28" gridWidth="23"/>
+    </FormField>
+    <Label name="label7" width="3" text="CC" posY="5" posX="52" gridWidth="3">
+      <LStr text="CC"/>
+    </Label>
+    <FormField name="fc_conta1.cencosiva" colName="cencosiva" sqlType="CHAR(4)" fieldId="4" sqlTabName="fc_conta1" tabIndex="5">
+      <Edit width="4" comment="DIGITE EL CODIGO DEL CENTRO DE COSTOS &lt;?&gt;AYUDA" posY="5" posX="56" gridWidth="4">
+        <LStr comment="DIGITE EL CODIGO DEL CENTRO DE COSTOS &lt;?&gt;AYUDA"/>
+      </Edit>
+    </FormField>
+    <FormField name="formonly.detalle2" colName="detalle2" fieldId="5" sqlTabName="formonly" tabIndex="6" noEntry="1">
+      <Edit width="21" posY="5" posX="61" gridWidth="21"/>
+    </FormField>
+    <Label name="label4" width="13" text="Aux Imp Consumo :" posY="6" posX="1" gridWidth="13">
+      <LStr text="Aux Imp Consumo :"/>
+    </Label>
+    <FormField name="fc_conta1.auxiliarimpc" colName="auxiliarimpc" sqlType="CHAR(12)" fieldId="6" sqlTabName="fc_conta1" tabIndex="11">
+      <Edit width="12" comment="DIGITE EL AUXILIAR IMPC" posY="6" posX="15" gridWidth="12">
+        <LStr comment="DIGITE EL AUXILIAR IMPC"/>
+      </Edit>
+    </FormField>
+    <FormField name="formonly.detalle5" colName="detalle5" fieldId="7" sqlTabName="formonly" tabIndex="12" noEntry="1">
+      <Edit width="23" posY="6" posX="28" gridWidth="23"/>
+    </FormField>
+    <Label name="label8" width="3" text="CC" posY="6" posX="52" gridWidth="3">
+      <LStr text="CC"/>
+    </Label>
+    <FormField name="fc_conta1.cencosimpc" colName="cencosimpc" sqlType="CHAR(4)" fieldId="8" sqlTabName="fc_conta1" tabIndex="13">
+      <Edit width="4" comment="DIGITE EL CODIGO DEL CENTRO DE COSTOS &lt;?&gt;AYUDA" posY="6" posX="56" gridWidth="4">
+        <LStr comment="DIGITE EL CODIGO DEL CENTRO DE COSTOS &lt;?&gt;AYUDA"/>
+      </Edit>
+    </FormField>
+    <FormField name="formonly.detalle6" colName="detalle6" fieldId="9" sqlTabName="formonly" tabIndex="14" noEntry="1">
+      <Edit width="21" posY="6" posX="61" gridWidth="21"/>
+    </FormField>
+    <Label name="label5" width="13" text="Aux Ingreso :" posY="7" posX="1" gridWidth="13">
+      <LStr text="Aux Ingreso :"/>
+    </Label>
+    <FormField name="fc_conta1.auxiliaring" colName="auxiliaring" sqlType="CHAR(12)" fieldId="10" sqlTabName="fc_conta1" tabIndex="7">
+      <Edit width="12" comment="DIGITE AL AUXILIAR DEL INGRESO &lt;?&gt;AYUDA" posY="7" posX="15" gridWidth="12">
+        <LStr comment="DIGITE AL AUXILIAR DEL INGRESO &lt;?&gt;AYUDA"/>
+      </Edit>
+    </FormField>
+    <FormField name="formonly.detalle3" colName="detalle3" fieldId="11" sqlTabName="formonly" tabIndex="8" noEntry="1">
+      <Edit width="23" posY="7" posX="28" gridWidth="23"/>
+    </FormField>
+    <Label name="label9" width="3" text="CC" posY="7" posX="52" gridWidth="3">
+      <LStr text="CC"/>
+    </Label>
+    <FormField name="fc_conta1.cencosing" colName="cencosing" sqlType="CHAR(4)" fieldId="12" sqlTabName="fc_conta1" tabIndex="9">
+      <Edit width="4" comment="DIGITE EL CODIGO DEL CENTRO DE COSTOS &lt;?&gt;AYUDA" posY="7" posX="56" gridWidth="4">
+        <LStr comment="DIGITE EL CODIGO DEL CENTRO DE COSTOS &lt;?&gt;AYUDA"/>
+      </Edit>
+    </FormField>
+    <FormField name="formonly.detalle4" colName="detalle4" fieldId="13" sqlTabName="formonly" tabIndex="10" noEntry="1">
+      <Edit width="21" posY="7" posX="61" gridWidth="21"/>
+    </FormField>
+    <Label name="label6" width="11" text="Aux Cartera :" posY="8" posX="1" gridWidth="11">
+      <LStr text="Aux Cartera :"/>
+    </Label>
+    <FormField name="fc_conta1.auxiliarcar" colName="auxiliarcar" sqlType="CHAR(12)" fieldId="14" sqlTabName="fc_conta1" tabIndex="15">
+      <Edit width="12" comment="DIGITE AL AUXILIAR DEL INGRESO &lt;?&gt;AYUDA" posY="8" posX="15" gridWidth="12">
+        <LStr comment="DIGITE AL AUXILIAR DEL INGRESO &lt;?&gt;AYUDA"/>
+      </Edit>
+    </FormField>
+    <FormField name="formonly.detalle7" colName="detalle7" fieldId="15" sqlTabName="formonly" tabIndex="16" noEntry="1">
+      <Edit width="23" posY="8" posX="28" gridWidth="23"/>
+    </FormField>
+    <Label name="label10" width="3" text="CC" posY="8" posX="52" gridWidth="3">
+      <LStr text="CC"/>
+    </Label>
+    <FormField name="fc_conta1.cencoscar" colName="cencoscar" sqlType="CHAR(4)" fieldId="16" sqlTabName="fc_conta1" tabIndex="17">
+      <Edit width="4" comment="DIGITE EL CODIGO DEL CENTRO DE COSTOS &lt;?&gt;AYUDA" posY="8" posX="56" gridWidth="4">
+        <LStr comment="DIGITE EL CODIGO DEL CENTRO DE COSTOS &lt;?&gt;AYUDA"/>
+      </Edit>
+    </FormField>
+    <FormField name="formonly.detalle8" colName="detalle8" fieldId="17" sqlTabName="formonly" tabIndex="18" noEntry="1">
+      <Edit width="21" posY="8" posX="61" gridWidth="21"/>
+    </FormField>
+    <Label name="label11" width="11" text="Aux Sub (DB) :" posY="9" posX="1" gridWidth="11">
+      <LStr text="Aux Sub (DB) :"/>
+    </Label>
+    <FormField name="fc_conta1.auxiliarsubsi" colName="auxiliarsubsi" sqlType="CHAR(12)" fieldId="18" sqlTabName="fc_conta1" tabIndex="19">
+      <Edit width="12" comment="DIGITE AL AUXILIAR DEL INGRESO &lt;?&gt;AYUDA" posY="9" posX="15" gridWidth="12">
+        <LStr comment="DIGITE AL AUXILIAR DEL INGRESO &lt;?&gt;AYUDA"/>
+      </Edit>
+    </FormField>
+    <FormField name="formonly.detalle9" colName="detalle9" fieldId="19" sqlTabName="formonly" tabIndex="20" noEntry="1">
+      <Edit width="23" posY="9" posX="28" gridWidth="23"/>
+    </FormField>
+    <Label name="label12" width="3" text="CC" posY="9" posX="52" gridWidth="3">
+      <LStr text="CC"/>
+    </Label>
+    <FormField name="fc_conta1.cencossubsi" colName="cencossubsi" sqlType="CHAR(4)" fieldId="20" sqlTabName="fc_conta1" tabIndex="25">
+      <Edit width="4" comment="DIGITE EL CODIGO DEL CENTRO DE COSTOS &lt;?&gt;AYUDA" posY="9" posX="56" gridWidth="4">
+        <LStr comment="DIGITE EL CODIGO DEL CENTRO DE COSTOS &lt;?&gt;AYUDA"/>
+      </Edit>
+    </FormField>
+    <FormField name="formonly.detalle10" colName="detalle10" fieldId="21" sqlTabName="formonly" tabIndex="22" noEntry="1">
+      <Edit width="21" posY="9" posX="61" gridWidth="21"/>
+    </FormField>
+    <Label name="label13" width="11" text="Aux Anticipo :" posY="10" posX="1" gridWidth="11">
+      <LStr text="Aux Anticipo :"/>
+    </Label>
+    <FormField name="fc_conta1.auxiliarant" colName="auxiliarant" sqlType="CHAR(12)" fieldId="22" sqlTabName="fc_conta1" tabIndex="23">
+      <Edit width="12" comment="DIGITE AL AUXILIAR DEL INGRESO &lt;?&gt;AYUDA" posY="10" posX="15" gridWidth="12">
+        <LStr comment="DIGITE AL AUXILIAR DEL INGRESO &lt;?&gt;AYUDA"/>
+      </Edit>
+    </FormField>
+    <FormField name="formonly.detalle11" colName="detalle11" fieldId="23" sqlTabName="formonly" tabIndex="24" noEntry="1">
+      <Edit width="23" posY="10" posX="28" gridWidth="23"/>
+    </FormField>
+    <Label name="label14" width="3" text="CC" posY="10" posX="52" gridWidth="3">
+      <LStr text="CC"/>
+    </Label>
+    <FormField name="fc_conta1.cencosant" colName="cencosant" sqlType="CHAR(4)" fieldId="24" sqlTabName="fc_conta1" tabIndex="21">
+      <Edit width="4" comment="DIGITE EL CODIGO DEL CENTRO DE COSTOS &lt;?&gt;AYUDA" posY="10" posX="56" gridWidth="4">
+        <LStr comment="DIGITE EL CODIGO DEL CENTRO DE COSTOS &lt;?&gt;AYUDA"/>
+      </Edit>
+    </FormField>
+    <FormField name="formonly.detalle12" colName="detalle12" fieldId="25" sqlTabName="formonly" tabIndex="26" noEntry="1">
+      <Edit width="21" posY="10" posX="61" gridWidth="21"/>
+    </FormField>
+    <Label name="label15" width="11" text="Aux Caja :" posY="11" posX="1" gridWidth="11">
+      <LStr text="Aux Caja :"/>
+    </Label>
+    <FormField name="fc_conta1.auxiliarcaja" colName="auxiliarcaja" sqlType="CHAR(12)" fieldId="26" sqlTabName="fc_conta1" tabIndex="27">
+      <Edit width="12" comment="DIGITE AL AUXILIAR DEL INGRESO &lt;?&gt;AYUDA" posY="11" posX="15" gridWidth="12">
+        <LStr comment="DIGITE AL AUXILIAR DEL INGRESO &lt;?&gt;AYUDA"/>
+      </Edit>
+    </FormField>
+    <FormField name="formonly.detalle13" colName="detalle13" fieldId="27" sqlTabName="formonly" tabIndex="28" noEntry="1">
+      <Edit width="23" posY="11" posX="28" gridWidth="23"/>
+    </FormField>
+    <Label name="label16" width="3" text="CC" posY="11" posX="52" gridWidth="3">
+      <LStr text="CC"/>
+    </Label>
+    <FormField name="fc_conta1.cencoscaja" colName="cencoscaja" sqlType="CHAR(4)" fieldId="28" sqlTabName="fc_conta1" tabIndex="29">
+      <Edit width="4" comment="DIGITE EL CODIGO DEL CENTRO DE COSTOS &lt;?&gt;AYUDA" posY="11" posX="56" gridWidth="4">
+        <LStr comment="DIGITE EL CODIGO DEL CENTRO DE COSTOS &lt;?&gt;AYUDA"/>
+      </Edit>
+    </FormField>
+    <FormField name="formonly.detalle14" colName="detalle14" fieldId="29" sqlTabName="formonly" tabIndex="30" noEntry="1">
+      <Edit width="21" posY="11" posX="61" gridWidth="21"/>
+    </FormField>
+    <Label name="label17" width="11" text="Aux Banco :" posY="12" posX="1" gridWidth="11">
+      <LStr text="Aux Banco :"/>
+    </Label>
+    <FormField name="fc_conta1.auxiliarbanco" colName="auxiliarbanco" sqlType="CHAR(12)" fieldId="30" sqlTabName="fc_conta1" tabIndex="31">
+      <Edit width="12" comment="DIGITE AL AUXILIAR DEL INGRESO &lt;?&gt;AYUDA" posY="12" posX="15" gridWidth="12">
+        <LStr comment="DIGITE AL AUXILIAR DEL INGRESO &lt;?&gt;AYUDA"/>
+      </Edit>
+    </FormField>
+    <FormField name="formonly.detalle15" colName="detalle15" fieldId="31" sqlTabName="formonly" tabIndex="32" noEntry="1">
+      <Edit width="23" posY="12" posX="28" gridWidth="23"/>
+    </FormField>
+    <Label name="label18" width="3" text="CC" posY="12" posX="52" gridWidth="3">
+      <LStr text="CC"/>
+    </Label>
+    <FormField name="fc_conta1.cencosbanco" colName="cencosbanco" sqlType="CHAR(4)" fieldId="32" sqlTabName="fc_conta1" tabIndex="33">
+      <Edit width="4" comment="DIGITE EL CODIGO DEL CENTRO DE COSTOS &lt;?&gt;AYUDA" posY="12" posX="56" gridWidth="4">
+        <LStr comment="DIGITE EL CODIGO DEL CENTRO DE COSTOS &lt;?&gt;AYUDA"/>
+      </Edit>
+    </FormField>
+    <FormField name="formonly.detalle16" colName="detalle16" fieldId="33" sqlTabName="formonly" tabIndex="34" noEntry="1">
+      <Edit width="21" posY="12" posX="61" gridWidth="21"/>
+    </FormField>
+    <Label name="label19" width="11" text="Aux Sub (CR) :" posY="13" posX="1" gridWidth="11">
+      <LStr text="Aux Sub (CR) :"/>
+    </Label>
+    <FormField name="fc_conta1.auxiliarcars" colName="auxiliarcars" sqlType="CHAR(12)" fieldId="34" sqlTabName="fc_conta1" tabIndex="35">
+      <Edit width="12" comment="DIGITE AL AUXILIAR DEL INGRESO &lt;?&gt;AYUDA" posY="13" posX="15" gridWidth="12">
+        <LStr comment="DIGITE AL AUXILIAR DEL INGRESO &lt;?&gt;AYUDA"/>
+      </Edit>
+    </FormField>
+    <FormField name="formonly.detalle17" colName="detalle17" fieldId="35" sqlTabName="formonly" tabIndex="36" noEntry="1">
+      <Edit width="23" posY="13" posX="28" gridWidth="23"/>
+    </FormField>
+    <Label name="label20" width="3" text="CC" posY="13" posX="52" gridWidth="3">
+      <LStr text="CC"/>
+    </Label>
+    <FormField name="fc_conta1.cencoscars" colName="cencoscars" sqlType="CHAR(4)" fieldId="36" sqlTabName="fc_conta1" tabIndex="37">
+      <Edit width="4" comment="DIGITE EL CODIGO DEL CENTRO DE COSTOS &lt;?&gt;AYUDA" posY="13" posX="56" gridWidth="4">
+        <LStr comment="DIGITE EL CODIGO DEL CENTRO DE COSTOS &lt;?&gt;AYUDA"/>
+      </Edit>
+    </FormField>
+    <FormField name="formonly.detalle18" colName="detalle18" fieldId="37" sqlTabName="formonly" tabIndex="38" noEntry="1">
+      <Edit width="21" posY="13" posX="61" gridWidth="21"/>
+    </FormField>
+  </Grid>
+  <RecordView tabName="fc_conta1">
+    <Link colName="codigo" fieldIdRef="0"/>
+    <Link colName="auxiliariva" fieldIdRef="2"/>
+    <Link colName="cencosiva" fieldIdRef="4"/>
+    <Link colName="auxiliarimpc" fieldIdRef="6"/>
+    <Link colName="cencosimpc" fieldIdRef="8"/>
+    <Link colName="auxiliaring" fieldIdRef="10"/>
+    <Link colName="cencosing" fieldIdRef="12"/>
+    <Link colName="auxiliarcar" fieldIdRef="14"/>
+    <Link colName="cencoscar" fieldIdRef="16"/>
+    <Link colName="auxiliarsubsi" fieldIdRef="18"/>
+    <Link colName="cencossubsi" fieldIdRef="20"/>
+    <Link colName="auxiliarant" fieldIdRef="22"/>
+    <Link colName="cencosant" fieldIdRef="24"/>
+    <Link colName="auxiliarcaja" fieldIdRef="26"/>
+    <Link colName="cencoscaja" fieldIdRef="28"/>
+    <Link colName="auxiliarbanco" fieldIdRef="30"/>
+    <Link colName="cencosbanco" fieldIdRef="32"/>
+    <Link colName="auxiliarcars" fieldIdRef="34"/>
+    <Link colName="cencoscars" fieldIdRef="36"/>
+  </RecordView>
+  <RecordView tabName="formonly">
+    <Link colName="mdetser" fieldIdRef="1"/>
+    <Link colName="detalle1" fieldIdRef="3"/>
+    <Link colName="detalle2" fieldIdRef="5"/>
+    <Link colName="detalle5" fieldIdRef="7"/>
+    <Link colName="detalle6" fieldIdRef="9"/>
+    <Link colName="detalle3" fieldIdRef="11"/>
+    <Link colName="detalle4" fieldIdRef="13"/>
+    <Link colName="detalle7" fieldIdRef="15"/>
+    <Link colName="detalle8" fieldIdRef="17"/>
+    <Link colName="detalle9" fieldIdRef="19"/>
+    <Link colName="detalle10" fieldIdRef="21"/>
+    <Link colName="detalle11" fieldIdRef="23"/>
+    <Link colName="detalle12" fieldIdRef="25"/>
+    <Link colName="detalle13" fieldIdRef="27"/>
+    <Link colName="detalle14" fieldIdRef="29"/>
+    <Link colName="detalle15" fieldIdRef="31"/>
+    <Link colName="detalle16" fieldIdRef="33"/>
+    <Link colName="detalle17" fieldIdRef="35"/>
+    <Link colName="detalle18" fieldIdRef="37"/>
+  </RecordView>
+  <RecordView tabName="undefined">
+    <Link colName="codigo" fieldIdRef="0"/>
+    <Link colName="mdetser" fieldIdRef="1"/>
+    <Link colName="auxiliariva" fieldIdRef="2"/>
+    <Link colName="detalle1" fieldIdRef="3"/>
+    <Link colName="cencosiva" fieldIdRef="4"/>
+    <Link colName="detalle2" fieldIdRef="5"/>
+    <Link colName="auxiliaring" fieldIdRef="10"/>
+    <Link colName="detalle3" fieldIdRef="11"/>
+    <Link colName="cencosing" fieldIdRef="12"/>
+    <Link colName="detalle4" fieldIdRef="13"/>
+    <Link colName="auxiliarimpc" fieldIdRef="6"/>
+    <Link colName="detalle5" fieldIdRef="7"/>
+    <Link colName="cencosimpc" fieldIdRef="8"/>
+    <Link colName="detalle6" fieldIdRef="9"/>
+    <Link colName="auxiliarcar" fieldIdRef="14"/>
+    <Link colName="detalle7" fieldIdRef="15"/>
+    <Link colName="cencoscar" fieldIdRef="16"/>
+    <Link colName="detalle8" fieldIdRef="17"/>
+    <Link colName="auxiliarsubsi" fieldIdRef="18"/>
+    <Link colName="detalle9" fieldIdRef="19"/>
+    <Link colName="cencosant" fieldIdRef="24"/>
+    <Link colName="detalle10" fieldIdRef="21"/>
+    <Link colName="auxiliarant" fieldIdRef="22"/>
+    <Link colName="detalle11" fieldIdRef="23"/>
+    <Link colName="cencossubsi" fieldIdRef="20"/>
+    <Link colName="detalle12" fieldIdRef="25"/>
+    <Link colName="auxiliarcaja" fieldIdRef="26"/>
+    <Link colName="detalle13" fieldIdRef="27"/>
+    <Link colName="cencoscaja" fieldIdRef="28"/>
+    <Link colName="detalle14" fieldIdRef="29"/>
+    <Link colName="auxiliarbanco" fieldIdRef="30"/>
+    <Link colName="detalle15" fieldIdRef="31"/>
+    <Link colName="cencosbanco" fieldIdRef="32"/>
+    <Link colName="detalle16" fieldIdRef="33"/>
+    <Link colName="auxiliarcars" fieldIdRef="34"/>
+    <Link colName="detalle17" fieldIdRef="35"/>
+    <Link colName="cencoscars" fieldIdRef="36"/>
+    <Link colName="detalle18" fieldIdRef="37"/>
+  </RecordView>
+</Form>

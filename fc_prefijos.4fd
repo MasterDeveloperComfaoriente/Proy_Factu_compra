@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ManagedForm databaseName="empresa" fileVersion="30a00" gstVersion="30a0b" name="Root" uid="{45d5f0ba-4964-48fc-9ebc-84b8c49e6eb3}">
+  <AGSettings>
+    <DynamicProperties version="2"/>
+  </AGSettings>
+  <Record additionalTables="" joinLeft="" joinOperator="" joinRight="" name="Undefined" order="" uid="{caf90ddd-53fd-4210-91c8-94136c62c535}" where="">
+    <RecordField colName="prefijo" fieldIdRef="9" fieldType="TABLE_COLUMN" name="fc_prefijos.prefijo" sqlTabName="fc_prefijos" sqlType="CHAR" table_alias_name="" uid="{795a3d91-0e2a-4a54-a416-5d11b3fe9c63}"/>
+    <RecordField colName="descripcion" fieldIdRef="6" fieldType="TABLE_COLUMN" name="fc_prefijos.descripcion" sqlTabName="fc_prefijos" sqlType="CHAR" table_alias_name="" uid="{4668f36e-bef5-44c5-b8ef-1eb9d7831625}"/>
+    <RecordField colName="numini" fieldIdRef="10" fieldType="TABLE_COLUMN" name="fc_prefijos.numini" sqlTabName="fc_prefijos" sqlType="INTEGER" table_alias_name="" uid="{026aad38-4aae-4bd2-bc80-8080e2f082d1}"/>
+    <RecordField colName="numfin" fieldIdRef="11" fieldType="TABLE_COLUMN" name="fc_prefijos.numfin" sqlTabName="fc_prefijos" sqlType="INTEGER" table_alias_name="" uid="{1a69cd1d-e0cc-4143-82a5-59b6b8ae62cd}"/>
+    <RecordField colName="num_auto" fieldIdRef="14" fieldType="TABLE_COLUMN" name="fc_prefijos.num_auto" sqlTabName="fc_prefijos" sqlType="CHAR" table_alias_name="" uid="{8803f483-a4c2-4aa7-bda5-c517c05e66da}"/>
+    <RecordField colName="zona" fieldIdRef="4" fieldType="TABLE_COLUMN" name="fc_prefijos.zona" sqlTabName="fc_prefijos" sqlType="CHAR" table_alias_name="" uid="{4effd22f-23e9-4aa6-954f-d88f3c3730d2}"/>
+    <RecordField colName="" fieldIdRef="5" fieldType="NON_DATABASE" name="detciu" sqlTabName="" sqlType="CHAR" table_alias_name="" uid="{ebfef38e-0216-437a-81c8-d2a142aaed73}"/>
+    <RecordField colName="direccion" fieldIdRef="16" fieldType="TABLE_COLUMN" name="fc_prefijos.direccion" sqlTabName="fc_prefijos" sqlType="CHAR" table_alias_name="" uid="{49054ae3-ff50-43bd-9fe5-5923c3842f9b}"/>
+    <RecordField colName="fec_auto" fieldIdRef="2" fieldType="TABLE_COLUMN" name="fc_prefijos.fec_auto" sqlTabName="fc_prefijos" sqlType="DATE" table_alias_name="" uid="{2cda0924-d125-4d9c-8dda-f64b609578d0}"/>
+    <RecordField colName="dias_cred" fieldIdRef="3" fieldType="TABLE_COLUMN" name="fc_prefijos.dias_cred" sqlTabName="fc_prefijos" sqlType="INTEGER" table_alias_name="" uid="{0641d979-ba41-40cf-8b2d-9ba138b9b7cb}"/>
+    <RecordField colName="estado" fieldIdRef="7" fieldType="TABLE_COLUMN" name="fc_prefijos.estado" sqlTabName="fc_prefijos" sqlType="CHAR" table_alias_name="" uid="{b7b5551d-77eb-4658-8419-2126411edef9}"/>
+    <RecordField colName="telefono" fieldIdRef="12" fieldType="TABLE_COLUMN" name="fc_prefijos.telefono" sqlTabName="fc_prefijos" sqlType="CHAR" table_alias_name="" uid="{8de71b7e-7b1e-4310-8e64-cd79c318afc2}"/>
+    <RecordField colName="numero" fieldIdRef="8" fieldType="TABLE_COLUMN" name="fc_prefijos.numero" sqlTabName="fc_prefijos" sqlType="INTEGER" table_alias_name="" uid="{7317892f-73a1-481b-8cac-def1a582cee6}"/>
+    <RecordField colName="fec_ven" fieldIdRef="13" fieldType="TABLE_COLUMN" name="fc_prefijos.fec_ven" sqlTabName="fc_prefijos" sqlType="DATE" table_alias_name="" uid="{db669ffe-e7d3-4c89-afcb-a5de98ea9e7a}"/>
+    <RecordField colName="tarifa_vigente" fieldIdRef="17" fieldType="TABLE_COLUMN" name="fc_prefijos.tarifa_vigente" precisionDecimal="5" scaleDecimal="2" sqlTabName="fc_prefijos" sqlType="CHAR" table_alias_name="" uid="{f0632ad5-1709-4383-a52c-2dc3a76d1eef}"/>
+    <RecordField colName="" fieldIdRef="18" name="redondeo" sqlTabName="" table_alias_name="" uid="{c3cfb6bf-ad26-4ee6-8a4b-c3f8f34d8df7}"/>
+    <RecordField colName="nota" fieldIdRef="19" fieldType="TABLE_ALIAS" name="fc_prefijos1.nota" sqlTabName="fc_prefijos" table_alias_name="fc_prefijos1" uid="{fc06892b-aff5-4c25-9d1e-7ee75430a9eb}"/>
+  </Record>
+  <Form gridHeight="28" gridWidth="92" lstrtext="false" name="cre_empresas" spacing="normal" text="INFORMACION DE PREFIJOS">
+    <Grid gridHeight="26" gridWidth="77" lstrcomment="false" name="gr3" posX="3" posY="1">
+      <Label gridHeight="1" gridWidth="25" lstrcomment="false" lstrtext="false" name="lb31" posX="26" posY="0" text="PREFIJOS DE DOCUMENTO SOPORTE"/>
+      <HLine gridWidth="77" name="hl8" posX="0" posY="1"/>
+      <Label gridHeight="1" gridWidth="8" lstrcomment="false" lstrtext="false" name="lb32" posX="3" posY="2" text="PREFIJO : "/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" case="upper" colName="prefijo" fieldId="9" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="6" lstrcomment="false" lstrtitle="false" name="fc_prefijos.prefijo" posX="12" posY="2" sqlTabName="fc_prefijos" sqlType="CHAR" tabIndex="0" table_alias_name="" widget="Edit"/>
+      <Label colorCondition="black" gridHeight="1" gridWidth="12" lstrcomment="false" lstrtext="false" name="lb61" posX="20" posY="2" text="DESCRIPCION : "/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" case="upper" colName="descripcion" fieldId="6" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="40" lstrcomment="false" lstrtitle="false" name="fc_prefijos.descripcion" posX="33" posY="2" sqlTabName="fc_prefijos" sqlType="CHAR" tabIndex="0" table_alias_name="" widget="Edit"/>
+      <HLine gridWidth="77" name="hl1" posX="0" posY="3"/>
+      <Label gridHeight="1" gridWidth="13" lstrcomment="false" lstrtext="false" name="lb37" posX="3" posY="4" text="Consecutivo Inicial :"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" case="upper" colName="numini" fieldId="10" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="15" lstrcomment="false" lstrtitle="false" name="fc_prefijos.numini" posX="18" posY="4" sqlTabName="fc_prefijos" sqlType="INTEGER" tabIndex="0" table_alias_name="" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="13" lstrcomment="false" lstrtext="false" name="lb1" posX="36" posY="4" text="Consecutivo Final :"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" case="upper" colName="numfin" fieldId="11" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="15" lstrcomment="false" lstrtitle="false" name="fc_prefijos.numfin" posX="50" posY="4" sqlTabName="fc_prefijos" sqlType="INTEGER" tabIndex="0" table_alias_name="" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="14" lstrcomment="false" lstrtext="false" name="lb5" posX="3" posY="5" text="Consecutivo actual :"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" case="upper" colName="numero" fieldId="8" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="15" lstrcomment="false" lstrtitle="false" name="fc_prefijos.numero" posX="18" posY="5" sqlTabName="fc_prefijos" sqlType="INTEGER" tabIndex="13" table_alias_name="" widget="Edit"/>
+      <HLine gridWidth="77" name="hl12" posX="0" posY="6"/>
+      <Label gridHeight="1" gridWidth="18" lstrcomment="false" lstrtext="false" name="lb52" posX="2" posY="7" text="No. Autorizacion DIAN :"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" case="upper" colName="num_auto" fieldId="14" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="50" lstrcomment="false" lstrtitle="false" name="fc_prefijos.num_auto" posX="21" posY="7" sqlTabName="fc_prefijos" sqlType="CHAR" tabIndex="0" table_alias_name="" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="18" lstrcomment="false" lstrtext="false" name="lb56" posX="2" posY="8" text="Fecha Autorizacion :"/>
+      <DateEdit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="fec_auto" fieldId="2" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="10" lstrcomment="false" lstrtitle="false" name="fc_prefijos.fec_auto" noEntry="false" posX="21" posY="8" sqlTabName="fc_prefijos" sqlType="DATE" tabIndex="0" table_alias_name="" widget="DateEdit"/>
+      <Label gridHeight="1" gridWidth="18" lstrcomment="false" lstrtext="false" name="lb6" posX="34" posY="8" text="Fecha Vencimiento :"/>
+      <DateEdit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="fec_ven" fieldId="13" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="10" lstrcomment="false" lstrtitle="false" name="fc_prefijos.fec_ven" noEntry="false" posX="54" posY="8" sqlTabName="fc_prefijos" sqlType="DATE" tabIndex="14" table_alias_name="" widget="DateEdit"/>
+      <Label gridHeight="1" gridWidth="15" lstrcomment="false" lstrtext="false" name="lb58" posX="2" posY="12" text="Direccion Proveedor:"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" case="upper" colName="direccion" fieldId="16" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="50" lstrcomment="false" lstrtitle="false" name="fc_prefijos.direccion" posX="18" posY="12" sqlTabName="fc_prefijos" sqlType="CHAR" tabIndex="0" table_alias_name="" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="7" lstrcomment="false" lstrtext="false" name="lb54" posX="2" posY="14" text="Ciudad :"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="zona" colorCondition="black" fieldId="4" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="10" lstrcomment="false" lstrtitle="false" name="fc_prefijos.zona" posX="10" posY="14" sqlTabName="fc_prefijos" sqlType="CHAR" tabIndex="0" table_alias_name="" widget="Edit"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="" colorCondition="black" fieldId="5" fieldType="NON_DATABASE" gridHeight="1" gridWidth="20" length="1" lstrcomment="false" lstrtitle="false" name="detciu" noEntry="true" posX="21" posY="14" sqlTabName="" sqlType="CHAR" tabIndex="0" table_alias_name="" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="9" lstrcomment="false" lstrtext="false" name="lb2" posX="42" posY="14" text="Dias Credito:"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" case="upper" colName="dias_cred" fieldId="3" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="15" lstrcomment="false" lstrtitle="false" name="fc_prefijos.dias_cred" posX="53" posY="14" sqlTabName="fc_prefijos" sqlType="INTEGER" tabIndex="0" table_alias_name="" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="7" lstrcomment="false" lstrtext="false" name="lb4" posX="2" posY="16" text="Telefono :"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" case="upper" colName="telefono" fieldId="12" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="7" lstrcomment="false" lstrtitle="false" name="fc_prefijos.telefono" posX="10" posY="16" sqlTabName="fc_prefijos" sqlType="CHAR" tabIndex="12" table_alias_name="" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="10" lstrcomment="false" lstrtext="false" name="lb8" posX="18" posY="16" text="Tarifa Vigente:"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" case="upper" colName="tarifa_vigente" fieldId="17" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="5" lstrcomment="false" lstrtitle="false" name="fc_prefijos.tarifa_vigente" posX="29" posY="16" precisionDecimal="5" scaleDecimal="2" sqlTabName="fc_prefijos" sqlType="CHAR" tabIndex="15" table_alias_name="" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="14" name="Label1" posX="35" posY="16" text="Maneja redondeo :"/>
+      <ComboBox aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="" fieldId="18" gridHeight="1" gridWidth="4" items="" name="redondeo" posX="50" posY="16" sqlTabName="" tabIndex="16" table_alias_name="" title="Edit1" widget="ComboBox"/>
+      <HLine gridWidth="77" name="hl3" posX="0" posY="17"/>
+      <Label gridHeight="1" gridWidth="5" lstrcomment="false" lstrtext="false" name="lb9" posX="2" posY="20" text="Nota"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" case="upper" colName="nota" fieldId="19" fieldType="TABLE_ALIAS" gridHeight="2" gridWidth="50" lstrcomment="false" lstrtitle="false" name="fc_prefijos1.nota" posX="9" posY="20" sqlTabName="fc_prefijos" tabIndex="-1" table_alias_name="fc_prefijos1" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="7" lstrcomment="false" lstrtext="false" name="lb3" posX="26" posY="24" text="ESTADO : "/>
+      <ComboBox aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="estado" fieldId="7" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="21" items="" lstrcomment="false" lstrtitle="false" name="fc_prefijos.estado" posX="35" posY="24" sqlTabName="fc_prefijos" sqlType="CHAR" tabIndex="11" table_alias_name="" widget="ComboBox"/>
+    </Grid>
+  </Form>
+  <DiagramLayout>
+    <![CDATA[AAAAAgAAAEwAewBjAGEAZgA5ADAAZABkAGQALQA1ADMAZgBkAC0ANAAyADEAMAAtADkAMQBjADgALQA5ADQAMQAzADYAYwA2ADIAYwA1ADMANQB9AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ==]]>
+  </DiagramLayout>
+</ManagedForm>

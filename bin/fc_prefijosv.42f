@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<Form name="fc_prefijosv.tmp" build="3.10.18" sqlDbName="empresa" width="43" height="13">
+  <Grid name="grid1" width="43" height="13">
+    <Group name="group1" text="PREFIJOS DOCUMENTO SOPORTE" posY="1" posX="2" gridWidth="41" gridHeight="9">
+      <LStr text="PREFIJOS DOCUMENTO SOPORTE"/>
+      <Label name="label1" width="7" text="CODIGO" posY="2" posX="5" gridWidth="7">
+        <LStr text="CODIGO"/>
+      </Label>
+      <Label name="label2" width="10" text="DESCRIPCION" posY="2" posX="22" gridWidth="10">
+        <LStr text="DESCRIPCION"/>
+      </Label>
+      <Matrix pageSize="5" name="fc_prefijos.prefijo" colName="prefijo" sqlType="CHAR(5)" required="1" notNull="1" fieldId="0" sqlTabName="fc_prefijos" noEntry="1" tabIndex="1">
+        <Edit width="5" posY="3" posX="5" gridWidth="5"/>
+      </Matrix>
+      <Matrix pageSize="5" name="fc_prefijos.descripcion" colName="descripcion" sqlType="CHAR(50)" required="1" notNull="1" fieldId="1" sqlTabName="fc_prefijos" tabIndex="2">
+        <Edit width="25" posY="3" posX="15" gridWidth="25"/>
+      </Matrix>
+    </Group>
+  </Grid>
+  <RecordView tabName="fc_prefijos">
+    <Link colName="prefijo" fieldIdRef="0"/>
+    <Link colName="descripcion" fieldIdRef="1"/>
+  </RecordView>
+  <RecordView tabName="cenv">
+    <Link colName="prefijo" fieldIdRef="0"/>
+    <Link colName="descripcion" fieldIdRef="1"/>
+  </RecordView>
+</Form>

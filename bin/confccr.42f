@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<Form name="confccr.tmp" build="3.10.18" spacing="normal" text="confecr" width="71" height="11">
+  <LStr text="confecr"/>
+  <Grid name="gr1" width="71" height="11">
+    <HLine posY="0" posX="0" gridWidth="71"/>
+    <Group name="gb1" posY="1" posX="17" gridWidth="36" gridHeight="3">
+      <FormField name="formonly.titulo" colName="titulo" sqlType="CHAR" fieldId="0" sqlTabName="formonly" tabIndex="1">
+        <Edit width="32" autoNext="1" posY="1" posX="2" gridWidth="32"/>
+      </FormField>
+    </Group>
+    <HLine posY="4" posX="0" gridWidth="71"/>
+    <Group name="gb2" posY="5" posX="2" gridWidth="66" gridHeight="5">
+      <FormField name="formonly.prompt" colName="prompt" sqlType="CHAR" fieldId="1" sqlTabName="formonly" tabIndex="2">
+        <Edit width="23" autoNext="1" posY="1" posX="1" gridWidth="23"/>
+      </FormField>
+      <Label text=":Inicial" posY="1" posX="26" gridWidth="8"/>
+      <FormField name="formonly.fecha1" colName="fecha1" sqlType="DATE" fieldId="2" sqlTabName="formonly" tabIndex="3">
+        <Edit width="10" autoNext="1" posY="1" posX="35" gridWidth="10"/>
+      </FormField>
+      <Label text="Final" posY="1" posX="46" gridWidth="5"/>
+      <FormField name="formonly.fecha2" colName="fecha2" sqlType="DATE" fieldId="3" sqlTabName="formonly" tabIndex="4">
+        <Edit width="10" autoNext="1" posY="1" posX="52" gridWidth="10"/>
+      </FormField>
+    </Group>
+  </Grid>
+  <RecordView tabName="formonly">
+    <Link colName="titulo" fieldIdRef="0"/>
+    <Link colName="prompt" fieldIdRef="1"/>
+    <Link colName="fecha1" fieldIdRef="2"/>
+    <Link colName="fecha2" fieldIdRef="3"/>
+  </RecordView>
+  <RecordView tabName="undefined">
+    <Link colName="titulo" fieldIdRef="0"/>
+    <Link colName="prompt" fieldIdRef="1"/>
+    <Link colName="fecha1" fieldIdRef="2"/>
+    <Link colName="fecha2" fieldIdRef="3"/>
+  </RecordView>
+</Form>

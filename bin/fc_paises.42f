@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<Form name="fc_paises.tmp" build="3.10.18" sqlDbName="empresa" text="PAISES" width="47" height="16">
+  <LStr text="PAISES"/>
+  <Grid name="gr3" width="47" height="16">
+    <Group name="group1" text="PAISES" posY="1" posX="2" gridWidth="45" gridHeight="14">
+      <LStr text="PAISES"/>
+      <Label name="label1" width="7" text="CODIGO" posY="2" posX="2" gridWidth="7">
+        <LStr text="CODIGO"/>
+      </Label>
+      <Label name="label2" width="7" text="NOMBRE" posY="2" posX="21" gridWidth="7">
+        <LStr text="NOMBRE"/>
+      </Label>
+      <Matrix pageSize="10" name="fe_paises.codpais" colName="codpais" sqlType="CHAR(2)" fieldId="0" sqlTabName="fe_paises" tabIndex="1" noEntry="1" notNull="1" required="1">
+        <Edit width="3" posY="3" posX="3" gridWidth="3"/>
+      </Matrix>
+      <Matrix pageSize="10" name="fe_paises.nombrepais" colName="nombrepais" sqlType="CHAR(50)" fieldId="1" sqlTabName="fe_paises" tabIndex="2" notNull="1" required="1">
+        <Edit width="30" posY="3" posX="11" gridWidth="30"/>
+      </Matrix>
+    </Group>
+  </Grid>
+  <RecordView tabName="fe_paises">
+    <Link colName="codpais" fieldIdRef="0"/>
+    <Link colName="nombrepais" fieldIdRef="1"/>
+  </RecordView>
+  <RecordView tabName="paises">
+    <Link colName="codpais" fieldIdRef="0"/>
+    <Link colName="nombrepais" fieldIdRef="1"/>
+  </RecordView>
+</Form>

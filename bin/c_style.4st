@@ -1,0 +1,93 @@
+<StyleList>
+  <Style name="Window"> 
+    <StyleAttribute name='windowType'             value='normal'/>
+    <StyleAttribute name='windowState'            value='normal'/>
+    <StyleAttribute name='windowOptionClose'      value='No'/>
+    <StyleAttribute name='windowOptionMinimize'   value='No'/>
+    <StyleAttribute name='windowOptionMaximize'   value='yes'/>
+    <StyleAttribute name='windowSystemMenu'       value='auto'/>
+    <StyleAttribute name='sizable'                value='no'/>    
+    <StyleAttribute name='position'               value='center'/>
+    <StyleAttribute name='border'                 value='normal'/>
+    <StyleAttribute name='forceDefaultSettings'   value='0'/>    
+
+    <StyleAttribute name='actionPanelPosition'    value='bottom'/>
+    <StyleAttribute name='actionPanelButtonSize'  value='normal'/>    
+    <StyleAttribute name='actionPanelButtonSpace' value='medium'/>    
+    <StyleAttribute name='ringMenuPosition'       value='bottom'/>
+    <StyleAttribute name='ringMenuButtonSize'     value='normal'/>
+    <StyleAttribute name='ringMenuButtonSpace'    value='medium'/> 
+    
+    <StyleAttribute name='toolBarPosition'        value='top'/>
+    
+    <StyleAttribute name='startMenuPosition'      value='tree'/>
+    <StyleAttribute name='startMenuSize'          value='medium'/>
+    
+    <StyleAttribute name='startMenuShortcut'      value='control-shift-F12'/>
+
+    <StyleAttribute name='statusBarType'          value='lines1'/>   
+
+    <StyleAttribute name='showGrid'               value='1'/>
+    <StyleAttribute name='highlightCurrentCell'   value='1'/>
+    <!--StyleAttribute name='highlightCurrentColor'  value='1'/>
+    <StyleAttribute name='highlightColor'         value='blue'/>
+    
+    <StyleAttribute name='backgroundColor'        value='#33CCCC'/>
+    <StyleAttribute name='textColor'              value='#000000'/>
+    <StyleAttribute name='fontWeight'             value='bolder'/> 
+    <StyleAttribute name='buttonFace'             value='#D3D3D3'/> 
+    
+    <StyleAttribute name='highLight'              value='blue'/>
+    <StyleAttribute name='highLightText'          value='blue'/>
+    <StyleAttribute name='infoBackground'         value='#ADD8E6'/>
+    <StyleAttribute name="fontSize"               value='small'/>
+    
+    <StyleAttribute name='backgroundImage'        value='C:\FOURJS\GENERO\132\GDC\pics\fotofamilia2.jpg'/>  
+    <StyleAttribute name="fontFamily"         value="'tahoma'" />
+    <StyleAttribute name="fontSize"           value="xx-small" />-->
+  </Style>             
+  
+
+  <Style name="ComboBox">  
+     <StyleAttribute name='backgroundColor'       value='#ADD8E6'/> 
+     <StyleAttribute name='fontWeight'            value='bolder'/>
+  </Style>  
+
+  <Style name="Table">
+    <StyleAttribute name='highlightColor'         value='#D3D3D3'/>  
+    <!--<StyleAttribute name='highlightCurrentColor'  value='blue'/>-->
+    <StyleAttribute name='highlightCurrentCell'   value='1'/>    
+    <StyleAttribute name='showGrid'               value=''/>
+  </Style>
+ 
+  <Style name="Form">  
+     <StyleAttribute name='backgroundColor'       value='#FBFBEF'/>
+     <StyleAttribute name='windowOptionMaximize'   value='yes'/> 
+  </Style>    
+
+  <Style name="Edit">  
+     <!--<StyleAttribute name='backgroundColor'   value='#F0F1F5'/>-->
+     <StyleAttribute name='backgroundColor'       value='#F6F4F4'/>
+     <StyleAttribute name='fontWeight'            value='bolder'/>
+  </Style> 
+  <Style name=".rojo">
+     <StyleAttribute name="textColor" value="red"/>
+  </Style>
+  <Style name=".imp">
+     <StyleAttribute name="fontWeight" value="bold"/>
+  </Style>
+  <Style name=".azul">
+     <StyleAttribute name="textColor" value="blue"/>
+  </Style>
+  <Style name="Window.dialog">  
+     <StyleAttribute name='backgroundColor'       value='#F6F4F4'/>
+     <StyleAttribute name='fontWeight'            value='bolder'/>
+  </Style> 
+ <Style name="Window.main">
+     <StyleAttribute name="windowType" value="normal" />
+     <StyleAttribute name="startMenuPosition" value="menu" />
+     <StyleAttribute name="position" value="center" />
+     <StyleAttribute name='windowState' value='maximized'/>
+     <StyleAttribute name="windowOptionMinimize" value="yes" />
+  </Style>
+</StyleList>

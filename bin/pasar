@@ -1,0 +1,4 @@
+cp *.* /home/fcsis  
+cp *.4st /home/fcsis
+cp * /home/factucompra   
+

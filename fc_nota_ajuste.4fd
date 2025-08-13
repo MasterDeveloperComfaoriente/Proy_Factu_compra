@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ManagedForm databaseName="empresa" fileVersion="30a00" gstVersion="30a0b" name="managedform" uid="{2e1a1c57-858a-40e6-8a84-625bd5fd3f7e}">
+  <AGSettings>
+    <DynamicProperties version="2"/>
+  </AGSettings>
+  <Record name="Undefined" uid="{8f021289-d4ff-4f78-ad63-5241c86d6b2d}">
+    <RecordField fieldIdRef="1" fieldType="NON_DATABASE" name="numerona" sqlType="INTEGER" uid="{06147764-5095-45a6-8638-74b12e5849ac}"/>
+    <RecordField fieldIdRef="2" fieldType="NON_DATABASE" length="70" name="cuds" sqlType="CHAR" uid="{753ff7ad-2290-457c-b91d-d39af510e7d4}"/>
+    <RecordField fieldIdRef="3" fieldType="NON_DATABASE" name="fechads" sqlType="DATE" uid="{f31c96fa-5ead-4eb7-a4a2-1ee3b77b14d2}"/>
+    <RecordField fieldIdRef="4" fieldType="NON_DATABASE" length="5" name="prefijo" sqlType="CHAR" uid="{6ebd5f11-57f9-4c61-99ed-55c1deb065bf}"/>
+    <RecordField fieldIdRef="5" name="fecha_ds" sqlType="DATE" uid="{a2e30c18-b6f2-43b0-b8aa-4ef0310f773f}"/>
+    <RecordField fieldIdRef="6" fieldType="NON_DATABASE" length="7" name="numerods" sqlType="INTEGER" uid="{7dba68d8-1b76-4c13-b4e4-91823dbcb5f6}"/>
+    <RecordField fieldIdRef="7" fieldType="NON_DATABASE" length="14" name="nit" sqlType="CHAR" uid="{e4e8ffdd-c9a5-4a72-83f0-16b930011983}"/>
+    <RecordField fieldIdRef="8" length="100" name="razsoc" uid="{85c8982a-8e80-4f7f-8aac-4be3531ecf45}"/>
+    <RecordField fieldIdRef="9" length="400" name="nota1" uid="{b3a3252d-1518-4b4a-a3d3-990b670b0360}"/>
+    <RecordField fieldIdRef="10" fieldType="NON_DATABASE" name="valor_totalds" precisionDecimal="12" scaleDecimal="2" sqlType="DECIMAL" uid="{6e15589b-639e-432f-9e12-2cf25f44995b}"/>
+    <RecordField fieldIdRef="11" fieldType="NON_DATABASE" name="valoriva" precisionDecimal="12" scaleDecimal="2" sqlType="DECIMAL" uid="{eacd3303-fb71-44a8-a756-cd6b84a8bb6a}"/>
+    <RecordField fieldIdRef="12" fieldType="NON_DATABASE" name="valords" precisionDecimal="12" scaleDecimal="2" sqlType="DECIMAL" uid="{b6e2376e-407c-40a9-8ca0-7cde7c361936}"/>
+    <RecordField fieldIdRef="13" fieldType="NON_DATABASE" length="7" name="numerodoc" sqlType="CHAR" uid="{16d6dc93-9904-4eec-a14b-7ab35301c659}"/>
+    <RecordField fieldIdRef="14" fieldType="NON_DATABASE" length="1" name="estado" sqlType="CHAR" uid="{6b9845f4-7070-4178-8eaa-80e053d237ce}"/>
+    <RecordField fieldIdRef="15" fieldType="NON_DATABASE" length="3" name="codest" sqlType="CHAR" uid="{22e022e9-839c-4841-9c5c-091b4a93dcb8}"/>
+    <RecordField colName="nota_descripcion" fieldIdRef="16" fieldType="TABLE_COLUMN" name="fc_nota_ajuste.nota_descripcion" sqlTabName="fc_nota_ajuste" uid="{1e1e3146-1862-4341-886e-08c6502f8bac}"/>
+  </Record>
+  <Form gridHeight="25" gridWidth="99" name="form" text="Nota de Ajuste">
+    <Grid gridHeight="24" gridWidth="97" name="grid1" posX="1" posY="0">
+      <Label gridHeight="1" gridWidth="95" justify="center" name="label2" posX="1" posY="1" text="NOTA DE AJUSTE DEL DOCUMENTO SOPORTE"/>
+      <Label gridHeight="1" gridWidth="95" justify="center" name="label1" posX="1" posY="2" text="EN ADQUISIONES EFECTUADAS A SUJETOS NO OBLIGADOS A EXPEDIR FACTURA DE VENTA O DOCUMENTO EQUIVALENTE"/>
+      <Label gridHeight="1" gridWidth="13" justify="left" name="label15" posX="1" posY="4" text="NUMERO INTERNO:"/>
+      <Edit fieldId="13" gridHeight="1" gridWidth="15" length="7" name="numerodoc" posX="15" posY="4" sqlType="CHAR" tabIndex="-1" title="edit1" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="8" justify="left" name="label3" posX="37" posY="4" text="NAS No."/>
+      <Edit fieldId="1" gridHeight="1" gridWidth="12" name="numerona" noEntry="true" posX="46" posY="4" sqlType="INTEGER" tabIndex="-1" title="edit1" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="17" justify="center" name="label5" posX="64" posY="4" text="FECHA DE GENERACIÓN:"/>
+      <DateEdit fieldId="3" fieldType="NON_DATABASE" gridHeight="1" gridWidth="14" length="1" name="fechads" noEntry="true" posX="82" posY="4" sqlType="DATE" tabIndex="-1" title="dateedit1" widget="DateEdit"/>
+      <Label gridHeight="1" gridWidth="8" justify="left" name="label4" posX="1" posY="5" text="CUDS:"/>
+      <Edit fieldId="2" gridHeight="2" gridWidth="86" length="70" name="cuds" noEntry="true" posX="10" posY="5" sqlType="CHAR" tabIndex="-1" title="edit2" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="8" justify="left" name="label6" posX="1" posY="7" text="PREFIJO:"/>
+      <Edit case="upper" fieldId="4" gridHeight="1" gridWidth="12" length="5" name="prefijo" posX="10" posY="7" sqlType="CHAR" tabIndex="-1" title="edit1" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="16" justify="center" name="label8" posX="23" posY="7" text="NUMERO DOCUMENTO: "/>
+      <Edit fieldId="6" format="&amp;&amp;&amp;&amp;&amp;&amp;&amp;" gridHeight="1" gridWidth="18" length="7" name="numerods" posX="40" posY="7" sqlType="INTEGER" tabIndex="-1" title="edit4" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="20" justify="center" name="label7" posX="61" posY="7" text="FECHA GENERACIÓN CUDS:"/>
+      <DateEdit fieldId="5" gridHeight="1" gridWidth="14" name="fecha_ds" noEntry="true" posX="82" posY="7" sqlType="DATE" tabIndex="-1" title="dateedit1" widget="DateEdit"/>
+      <Label gridHeight="1" gridWidth="8" justify="left" name="label9" posX="1" posY="9" text="NIT:"/>
+      <Edit fieldId="7" gridHeight="1" gridWidth="13" length="14" name="nit" noEntry="true" posX="10" posY="9" sqlType="CHAR" tabIndex="-1" title="edit1" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="20" justify="left" name="label10" posX="24" posY="9" text="RAZON SOCIAL Y/O NOMBRE:"/>
+      <Edit fieldId="8" gridHeight="1" gridWidth="51" length="100" name="razsoc" noEntry="true" posX="45" posY="9" tabIndex="-1" title="edit1" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="33" justify="left" name="label11" posX="1" posY="12" text="DESCRIPCIÓN DEL BIEN Y/O SERVICIO PRESTADO:"/>
+      <TextEdit fieldId="9" gridHeight="3" gridWidth="95" length="400" name="nota1" noEntry="false" posX="1" posY="13" tabIndex="-1" title="edit7" widget="TextEdit"/>
+      <Label gridHeight="1" gridWidth="6" justify="left" name="label14" posX="1" posY="17" text="VALOR:"/>
+      <Edit fieldId="12" gridHeight="1" gridWidth="21" name="valords" posX="8" posY="17" precisionDecimal="12" scaleDecimal="2" sqlType="DECIMAL" tabIndex="-1" title="edit8" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="9" justify="left" name="label13" posX="31" posY="17" text="VALOR IVA:"/>
+      <Edit fieldId="11" gridHeight="1" gridWidth="21" name="valoriva" noEntry="true" posX="41" posY="17" precisionDecimal="12" scaleDecimal="2" sqlType="DECIMAL" tabIndex="-1" title="edit8" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="11" justify="left" name="label12" posX="63" posY="17" text="VALOR TOTAL:"/>
+      <Edit fieldId="10" gridHeight="1" gridWidth="21" name="valor_totalds" noEntry="true" posX="75" posY="17" precisionDecimal="12" scaleDecimal="2" sqlType="DECIMAL" tabIndex="-1" title="edit8" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="7" justify="left" name="label16" posX="1" posY="19" text="ESTADO:"/>
+      <ComboBox fieldId="14" fieldType="NON_DATABASE" gridHeight="1" gridWidth="31" items="BORRADOR, ENVIADA CON ERRORES, TRASMITIDA, PROCESADA EXITOSA, CONTIGENCIA, RECHAZADA CLIENTE, RECHAZADA DIAN, RECHAZADA DISPAPELES, ANULADA POR NOTA DE AJUSTE" length="1" name="estado" posX="9" posY="19" sqlType="CHAR" tabIndex="-1" title="combobox1" widget="ComboBox">
+        <Item lstrtext="false" name="B" text="BORRADOR"/>
+        <Item lstrtext="false" name="A" text="ENVIADA CON ERRORES"/>
+        <Item lstrtext="false" name="S" text="TRASMITIDA"/>
+        <Item lstrtext="false" name="P" text="PROCESADA EXITOSA"/>
+        <Item lstrtext="false" name="G" text="CONTIGENCIA"/>
+        <Item lstrtext="false" name="R" text="RECHAZADA CLIENTE"/>
+        <Item lstrtext="false" name="D" text="RECHAZADA DIAN"/>
+        <Item lstrtext="false" name="X" text="RECHAZADA DISPAPELES"/>
+        <Item lstrtext="false" name="N" text="ANULADA POR NOTA DE AJUSTE"/>
+      </ComboBox>
+      <Label gridHeight="1" gridWidth="14" justify="left" name="label17" posX="41" posY="19" text="CODIGO DE ESTADO:"/>
+      <ComboBox fieldId="15" fieldType="NON_DATABASE" gridHeight="1" gridWidth="27" items="CON ERROR, EXITOSO, CON NOTIFICACIONES, ENVIADO DOBLE, NO ACEPTADA DIAN, FALLO ENVIO DISPAPELES, CONTIGENCIA DIAN" length="3" name="codest" posX="56" posY="19" sqlType="CHAR" tabIndex="-1" title="combobox1" widget="ComboBox">
+        <Item lstrtext="false" name="0" text="CON ERROR"/>
+        <Item lstrtext="false" name="1" text="EXITOSO"/>
+        <Item lstrtext="false" name="2" text="CON NOTIFICACIONES"/>
+        <Item lstrtext="false" name="3" text="ENVIADO DOBLE"/>
+        <Item lstrtext="false" name="4" text="NO ACEPTADA DIAN"/>
+        <Item lstrtext="false" name="19" text="FALLO ENVIO DISPAPELES"/>
+        <Item lstrtext="false" name="24" text="CONTIGENCIA DIAN"/>
+      </ComboBox>
+      <Label gridHeight="1" gridWidth="33" justify="left" name="label18" posX="2" posY="21" text="MOTIVO DE ANULACIÓN DE DOCUMENTO SOPORTE:"/>
+      <ComboBox colName="nota_descripcion" fieldId="16" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="94" items="DEVOLUCIÓN PARCIAL DE LOS BIENES Y/O NO ACEPTACIÓN PARCIAL DEL SERVICIO, ANULACIÓN DEL DOCUMENTO SOPORTE EN ADQUISIONES EFECTUADAS A SUJETOS NO OBLIGADOS A EXPEDIR FACTURAS DE VENTA O DOCUMENTO EQUIVALENTE, REBAJA O DESCUENTO PARCIAL O TOTAL, AJUSTE DE PRECIO, OTROS" name="fc_nota_ajuste.nota_descripcion" posX="2" posY="22" sqlTabName="fc_nota_ajuste" tabIndex="-1" title="textedit1" widget="ComboBox">
+        <Item lstrtext="false" name="1" text="DEVOLUCIÓN PARCIAL DE LOS BIENES Y/O NO ACEPTACIÓN PARCIAL DEL SERVICIO"/>
+        <Item lstrtext="false" name="2" text="ANULACIÓN DEL DOCUMENTO SOPORTE EN ADQUISIONES EFECTUADAS A SUJETOS NO OBLIGADOS A EXPEDIR FACTURAS DE VENTA O DOCUMENTO EQUIVALENTE"/>
+        <Item lstrtext="false" name="3" text="REBAJA O DESCUENTO PARCIAL O TOTAL"/>
+        <Item lstrtext="false" name="4" text="AJUSTE DE PRECIO"/>
+        <Item lstrtext="false" name="5" text="OTROS"/>
+      </ComboBox>
+    </Grid>
+  </Form>
+  <DiagramLayout>
+    <![CDATA[AAAAAgAAAEwAewA4AGYAMAAyADEAMgA4ADkALQBkADQAZgBmAC0ANABmADcAOAAtAGEAZAA2ADMALQA1ADIANAAxAGMAOAA2AGQANgBiADIAZAB9AAAAAAAAAAAAAAAAAAAAAD+MrAgxJul8AQ==]]>
+  </DiagramLayout>
+</ManagedForm>

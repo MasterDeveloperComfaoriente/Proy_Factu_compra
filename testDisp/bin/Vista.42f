@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='windows-1252'?>
+<Form name="Vista.tmp" build="3.10.14" text="Consumo de servicio web Dispapeles" width="75" height="19">
+  <LStr text="Consumo de servicio web Dispapeles"/>
+  <Grid name="grid1" width="75" height="19">
+    <Label name="label1" width="7" text="Prefijo:" posY="1" posX="4" gridWidth="7">
+      <LStr text="Prefijo:"/>
+    </Label>
+    <Label name="label2" width="10" text="Consecutivo:" posY="1" posX="12" gridWidth="10">
+      <LStr text="Consecutivo:"/>
+    </Label>
+    <Label name="label3" width="10" text="Folio Manual:" posY="1" posX="27" gridWidth="10">
+      <LStr text="Folio Manual:"/>
+    </Label>
+    <FormField name="formonly.txt_prefijo" colName="txt_prefijo" fieldId="0" sqlTabName="formonly" tabIndex="1">
+      <Edit width="7" posY="2" posX="4" gridWidth="7"/>
+    </FormField>
+    <FormField name="formonly.txt_consecutivo" colName="txt_consecutivo" fieldId="1" sqlTabName="formonly" tabIndex="2">
+      <Edit width="10" posY="2" posX="12" gridWidth="10"/>
+    </FormField>
+    <FormField name="formonly.txt_folio_manual" colName="txt_folio_manual" fieldId="2" sqlTabName="formonly" tabIndex="3">
+      <Edit width="10" posY="2" posX="27" gridWidth="10"/>
+    </FormField>
+    <FormField name="formonly.txt_salida" colName="txt_salida" fieldId="3" sqlTabName="formonly" tabIndex="4">
+      <TextEdit width="72" height="13" wantReturns="1" scroll="1" posY="4" posX="2" gridWidth="72" gridHeight="13"/>
+    </FormField>
+  </Grid>
+  <RecordView tabName="formonly">
+    <Link colName="txt_prefijo" fieldIdRef="0"/>
+    <Link colName="txt_consecutivo" fieldIdRef="1"/>
+    <Link colName="txt_folio_manual" fieldIdRef="2"/>
+    <Link colName="txt_salida" fieldIdRef="3"/>
+  </RecordView>
+  <RecordView tabName="undefined">
+    <Link colName="txt_salida" fieldIdRef="3"/>
+    <Link colName="txt_prefijo" fieldIdRef="0"/>
+    <Link colName="txt_consecutivo" fieldIdRef="1"/>
+    <Link colName="txt_folio_manual" fieldIdRef="2"/>
+  </RecordView>
+</Form>

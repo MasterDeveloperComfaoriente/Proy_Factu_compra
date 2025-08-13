@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<report:Report xmlns:rtl="http://www.4js.com/2004/RTL" xmlns:report="http://www.4js.com/2007/REPORT" xmlns="http://www.4js.com/2004/PXML" gstVersion="30a0b" version="6.00">
+    <report:Settings RWPageWidth="a4width" RWPageLength="a4length" RWLeftMargin="1.3cm" RWTopMargin="1.3cm" RWRightMargin="1.3cm" RWBottomMargin="1.3cm">
+        <report:FormatList>
+            <report:Format-SVG/>
+            <report:Format-PDF/>
+            <report:Format-image/>
+        </report:FormatList>
+    </report:Settings>
+    <report:Data RWDataLocation="fc_reportes_varios.rdd" RWFglReportName="r_imprimeDocuPref"/>
+    <report:Conflicts/>
+    <rtl:stylesheet>
+        <PXML>
+            <rtl:match name="Report" nameConstraint="Report" minOccurs="1" maxOccurs="1">
+                <MINIPAGE name="Page Root" width="max" length="max">
+                    <rtl:match name="FirstPageHeader" nameConstraint="FirstPageHeader" minOccurs="0" maxOccurs="1">
+                        <LAYOUTNODE name="LayoutNode" width="max" length="56" port="anyPageHeader" floatingBehavior="enclosed">
+                            <LAYOUTNODE name="LayoutNode1" width="28" length="max" layoutDirection="leftToRight" floatingBehavior="enclosed">
+                                <WORDBOX name="WordBox" fontSize="14" fontBold="true" floatingBehavior="enclosed" text="REPORTE DOCUMENTOS GENERADOR CON EL PREFIJO:  " paddingLeftWidth="45"/>
+                                <rtl:input-variable name="pre" type="FGLString" expectedLocation="expectedHere"/>
+                                <WORDBOX name="pre Value" class="grwStringValue" color="#ffffff" bgColor="#0000ff" fontSize="14" fontBold="true" floatingBehavior="enclosed" textAlignment="center" text="{{pre}}"/>
+                            </LAYOUTNODE>
+                            <LAYOUTNODE name="LayoutNode2" width="min" length="max" layoutDirection="leftToRight" floatingBehavior="enclosed">
+                                <WORDBOX name="WordBox1" fontSize="11" fontBold="false" floatingBehavior="enclosed" text="ENTRE LAS FECHAS:  "/>
+                                <rtl:input-variable name="fechai" type="FGLString" expectedLocation="expectedHere"/>
+                                <WORDBOX name="fechai Value" class="grwStringValue" fontSize="11" floatingBehavior="enclosed" text="{{fechai}}"/>
+                                <WORDBOX name="WordBox1_1" fontSize="11" fontBold="false" floatingBehavior="enclosed" text="  A  "/>
+                                <rtl:input-variable name="fechaf" type="FGLString" expectedLocation="expectedHere"/>
+                                <WORDBOX name="fechaf Value" class="grwStringValue" fontSize="11" floatingBehavior="enclosed" text="{{fechaf}}"/>
+                            </LAYOUTNODE>
+                            <LAYOUTNODE name="LayoutNode3" width="15" length="max" color="#ffffff" bgColor="#0000ff" fontBold="true" layoutDirection="leftToRight" floatingBehavior="enclosed">
+                                <WORDBOX name="WordBox2" width="130" floatingBehavior="enclosed" textAlignment="center" text="FECHA"/>
+                                <WORDBOX name="WordBox3" width="130" floatingBehavior="enclosed" textAlignment="center" text="N°. DOCUMENTO"/>
+                                <WORDBOX name="WordBox4" width="130" alignment="baseline" floatingBehavior="enclosed" textAlignment="center" text="NIT"/>
+                                <WORDBOX name="WordBox5" width="130" floatingBehavior="enclosed" textAlignment="center" text="TOTAL"/>
+                            </LAYOUTNODE>
+                        </LAYOUTNODE>
+                    </rtl:match>
+                    <rtl:match name="Group fecha" nameConstraint="Group" minOccurs="0" maxOccurs="unbounded">
+                        <rtl:match name="OnEveryRow" nameConstraint="OnEveryRow" minOccurs="0" maxOccurs="unbounded">
+                            <TABLE name="Table" floatingBehavior="enclosed" rule="1" border="0">
+                                <COLDEFS name="Coldefs24">
+                                    <COLDEF pWidth="1" name="Coldef72"/>
+                                    <COLDEF pWidth="1" name="Coldef73"/>
+                                    <COLDEF pWidth="1" name="Coldef74"/>
+                                    <COLDEF pWidth="1" name="Coldef75"/>
+                                </COLDEFS>
+                                <TBODY name="Body24">
+                                    <ROW name="Row49">
+                                        <COL name="Col147">
+                                            <rtl:input-variable name="r_usuario.fecha" type="FGLString" expectedLocation="expectedHere"/>
+                                            <WORDBOX name="r_usuario.fecha Value" class="grwStringValue" width="max" fontSize="9" floatingBehavior="enclosed" textAlignment="left" text="{{r_usuario.fecha}}"/>
+                                        </COL>
+                                        <COL name="Col148">
+                                            <rtl:input-variable name="r_usuario.document" type="FGLString" expectedLocation="expectedHere"/>
+                                            <WORDBOX name="r_usuario.document Value" class="grwStringValue" width="max" fontSize="9" floatingBehavior="enclosed" textAlignment="left" text="{{r_usuario.document}}"/>
+                                        </COL>
+                                        <COL name="Col149">
+                                            <rtl:input-variable name="r_usuario.nit" type="FGLString" expectedLocation="expectedHere"/>
+                                            <WORDBOX name="r_usuario.nit Value" class="grwStringValue" width="max" fontSize="9" floatingBehavior="enclosed" textAlignment="left" text="{{r_usuario.nit}}"/>
+                                        </COL>
+                                        <COL name="Col150">
+                                            <rtl:input-variable name="r_usuario.total" type="FGLNumeric" expectedLocation="expectedHere"/>
+                                            <DECIMALFORMATBOX name="r_usuario.total Value" class="grwTableNumericColumnValue" width="max" anchorX="1" fontSize="9" floatingBehavior="enclosed" textAlignment="right" format="---,---,---,--&amp;.&amp;&amp;" value="{{r_usuario.total}}"/>
+                                        </COL>
+                                    </ROW>
+                                </TBODY>
+                            </TABLE>
+                        </rtl:match>
+                    </rtl:match>
+                    <rtl:match name="OnLastRow" nameConstraint="OnLastRow" minOccurs="0" maxOccurs="1">
+                        <LAYOUTNODE name="LayoutNode5" width="min" length="max" layoutDirection="leftToRight" floatingBehavior="enclosed">
+                            <WORDBOX name="WordBox6" fontSize="12" fontBold="true" floatingBehavior="enclosed" text="TOTAL DE DOCUMENTOS:   "/>
+                            <rtl:input-variable name="i" type="FGLNumeric" expectedLocation="expectedHere"/>
+                            <DECIMALFORMATBOX name="i Value" class="grwNumericValue" anchorX="1" color="#ffffff" bgColor="#0000ff" fontSize="12" fontBold="true" floatingBehavior="enclosed" textAlignment="right" format="----------#" value="{{i}}"/>
+                        </LAYOUTNODE>
+                    </rtl:match>
+                </MINIPAGE>
+            </rtl:match>
+        </PXML>
+    </rtl:stylesheet>
+</report:Report>

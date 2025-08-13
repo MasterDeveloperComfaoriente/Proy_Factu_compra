@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ManagedForm databaseName="empresa" fileVersion="30a00" gstVersion="30a0b" name="ManagedForm" uid="{e3125345-376e-46b7-b4e1-dd420c88e38f}">
+  <AGSettings>
+    <DynamicProperties version="2"/>
+  </AGSettings>
+  <Record additionalTables="" joinLeft="" joinOperator="" joinRight="" name="cenv" order="" uid="{ca3f022a-1c54-4aef-a35d-440ce17e7057}" where="">
+    <RecordField colName="documento" fieldIdRef="0" fieldType="TABLE_COLUMN" name="subsi22.documento" sqlTabName="subsi22" sqlType="CHAR" table_alias_name="" uid="{0128b546-58cb-4b23-a536-4776469401a2}"/>
+    <RecordField colName="priape" fieldIdRef="1" fieldType="TABLE_COLUMN" name="subsi22.priape" sqlTabName="subsi22" sqlType="CHAR" table_alias_name="" uid="{bf1a305f-5ef5-4139-98c1-1c0236e772c9}"/>
+    <RecordField colName="segape" fieldIdRef="2" fieldType="TABLE_COLUMN" name="subsi22.segape" sqlTabName="subsi22" sqlType="CHAR" table_alias_name="" uid="{68ce8d65-6018-4c67-99ef-aae48cb0f1bf}"/>
+    <RecordField colName="nombre" fieldIdRef="3" fieldType="TABLE_COLUMN" name="subsi22.nombre" sqlTabName="subsi22" sqlType="CHAR" table_alias_name="" uid="{0bfa7723-98fd-4aa6-b57e-55d1acf964be}"/>
+    <RecordField colName="" fieldIdRef="4" fieldType="NON_DATABASE" name="parent" sqlTabName="" sqlType="CHAR" table_alias_name="" uid="{9508dbd6-cd43-4019-86ab-b69e2d742e98}"/>
+  </Record>
+  <Form gridHeight="18" gridWidth="105" name="nucleo">
+    <Grid gridHeight="14" gridWidth="102" name="Grid1" posX="1" posY="2">
+      <Group gridHeight="12" gridWidth="98" name="Group1" posX="2" posY="1" text="GRUPO FAMILIAR">
+        <Label gridHeight="1" gridWidth="8" name="Label1" posX="7" posY="2" text="Documento"/>
+        <Label gridHeight="1" gridWidth="11" name="Label2" posX="28" posY="2" text="Primer Apellido"/>
+        <Label gridHeight="1" gridWidth="13" name="Label3" posX="48" posY="2" text="Segundo Apellido"/>
+        <Label gridHeight="1" gridWidth="6" name="Label4" posX="74" posY="2" text="Nombre"/>
+        <Label gridHeight="1" gridWidth="8" name="Label5" posX="89" posY="2" text="Parentesco"/>
+        <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="documento" columnCount="1" fieldId="0" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="20" name="subsi22.documento" noEntry="true" notNull="true" posX="1" posY="3" repeat="true" required="true" rowCount="8" sqlTabName="subsi22" sqlType="CHAR" stepX="1" stepY="0" tabIndex="-1" table_alias_name="" widget="Edit"/>
+        <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="priape" columnCount="1" fieldId="1" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="20" name="subsi22.priape" notNull="true" posX="23" posY="3" repeat="true" required="true" rowCount="8" sqlTabName="subsi22" sqlType="CHAR" stepX="1" stepY="0" tabIndex="-1" table_alias_name="" widget="Edit"/>
+        <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="segape" columnCount="1" fieldId="2" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="20" name="subsi22.segape" notNull="true" posX="45" posY="3" repeat="true" required="true" rowCount="8" sqlTabName="subsi22" sqlType="CHAR" stepX="1" stepY="0" tabIndex="2" table_alias_name="" widget="Edit"/>
+        <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="nombre" columnCount="1" fieldId="3" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="25" name="subsi22.nombre" notNull="true" posX="66" posY="3" repeat="true" required="true" rowCount="8" sqlTabName="subsi22" sqlType="CHAR" stepX="1" stepY="0" tabIndex="3" table_alias_name="" widget="Edit"/>
+        <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="" columnCount="1" fieldId="4" fieldType="NON_DATABASE" gridHeight="1" gridWidth="4" length="1" name="parent" notNull="true" posX="92" posY="3" repeat="true" required="true" rowCount="8" sqlTabName="" sqlType="CHAR" stepX="1" stepY="0" tabIndex="4" table_alias_name="" widget="Edit"/>
+      </Group>
+    </Grid>
+  </Form>
+  <DiagramLayout>
+    <![CDATA[AAAAAgAAAEwAewBjAGEAMwBmADAAMgAyAGEALQAxAGMANQA0AC0ANABhAGUAZgAtAGEAMwA1AGQALQA0ADQAMABjAGUAMQA3AGUANwAwADUANwB9AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ==]]>
+  </DiagramLayout>
+</ManagedForm>

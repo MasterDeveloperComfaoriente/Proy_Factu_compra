@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<Form name="TBText.tmp" build="3.10.18" text="TBText" width="86" height="30">
+  <LStr text="TBText"/>
+  <Grid name="gr6" width="86" height="30">
+    <FormField name="formonly.txt" colName="txt" fieldId="0" sqlTabName="formonly" tabIndex="1">
+      <TextEdit width="84" height="28" fontPitch="fixed" stretch="both" scrollBars="both" wantReturns="0" scroll="1" posY="0" posX="1" gridWidth="84" gridHeight="28"/>
+    </FormField>
+  </Grid>
+  <RecordView tabName="formonly">
+    <Link colName="txt" fieldIdRef="0"/>
+  </RecordView>
+  <RecordView tabName="undefined">
+    <Link colName="txt" fieldIdRef="0"/>
+  </RecordView>
+</Form>

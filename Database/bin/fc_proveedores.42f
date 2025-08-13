@@ -1,0 +1,314 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<Form name="fc_proveedores.tmp" build="3.10.18" sqlDbName="empresa" text="Aqui Podras Consultar / Adicionar Proveedores" width="108" height="24">
+  <LStr text="Aqui Podras Consultar / Adicionar Proveedores"/>
+  <Grid name="grid1" width="108" height="24">
+    <Label name="label1" width="31" text="PROVEEDORES" justify="center" posY="1" posX="40" gridWidth="31">
+      <LStr text="PROVEEDORES"/>
+    </Label>
+    <Label name="label2" width="7" text="Radicado:" posY="3" posX="1" gridWidth="7">
+      <LStr text="Radicado:"/>
+    </Label>
+    <FormField name="com_proveedores.radicado" colName="radicado" sqlType="CHAR(7)" fieldId="0" sqlTabName="com_proveedores" tabIndex="1">
+      <Edit width="24" posY="3" posX="9" gridWidth="24"/>
+    </FormField>
+    <Label name="label3" width="14" text="Fecha de Radicación:" posY="3" posX="34" gridWidth="14">
+      <LStr text="Fecha de Radicación:"/>
+    </Label>
+    <FormField name="com_proveedores.fecrad" colName="fecrad" sqlType="DATE" fieldId="1" sqlTabName="com_proveedores" tabIndex="2">
+      <DateEdit width="21" posY="3" posX="49" gridWidth="23"/>
+    </FormField>
+    <Label name="label4" width="7" text="Incrip??? Act-Nue" posY="3" posX="74" gridWidth="7">
+      <LStr text="Incrip??? Act-Nue"/>
+    </Label>
+    <FormField name="com_proveedores.inscrip" colName="inscrip" sqlType="CHAR(1)" fieldId="2" sqlTabName="com_proveedores" tabIndex="3">
+      <Edit width="24" posY="3" posX="82" gridWidth="24"/>
+    </FormField>
+    <Label name="label6" width="11" text="Fecha Recibo" posY="4" posX="1" gridWidth="11">
+      <LStr text="Fecha Recibo"/>
+    </Label>
+    <FormField name="com_proveedores.fecrec" colName="fecrec" sqlType="DATE" fieldId="3" sqlTabName="com_proveedores" tabIndex="4">
+      <DateEdit width="7" posY="4" posX="13" gridWidth="9"/>
+    </FormField>
+    <Label name="label5" width="7" text="Recibo" posY="4" posX="25" gridWidth="7">
+      <LStr text="Recibo"/>
+    </Label>
+    <FormField name="com_proveedores.recibo" colName="recibo" sqlType="CHAR(7)" fieldId="4" sqlTabName="com_proveedores" tabIndex="5">
+      <Edit width="23" posY="4" posX="33" gridWidth="23"/>
+    </FormField>
+    <Label name="label23" width="4" text="AZ???" posY="4" posX="63" gridWidth="4">
+      <LStr text="AZ???"/>
+    </Label>
+    <FormField name="com_proveedores.az" colName="az" sqlType="CHAR(3)" fieldId="5" sqlTabName="com_proveedores" tabIndex="6">
+      <Edit width="3" posY="4" posX="69" gridWidth="3"/>
+    </FormField>
+    <Label name="label35" width="15" text="Fecha de Aprobación" posY="4" posX="75" gridWidth="15">
+      <LStr text="Fecha de Aprobación"/>
+    </Label>
+    <FormField name="com_proveedores.fecapro" colName="fecapro" sqlType="DATE" fieldId="6" sqlTabName="com_proveedores" tabIndex="7">
+      <DateEdit width="9" posY="4" posX="93" gridWidth="11"/>
+    </FormField>
+    <Label name="label9" width="9" text="Razón Social" posY="5" posX="1" gridWidth="9">
+      <LStr text="Razón Social"/>
+    </Label>
+    <FormField name="com_proveedores.razsoc" colName="razsoc" sqlType="VARCHAR(50)" fieldId="7" sqlTabName="com_proveedores" tabIndex="8">
+      <Edit width="41" posY="5" posX="11" gridWidth="41"/>
+    </FormField>
+    <Label name="label7" width="7" text="NIT:" posY="5" posX="53" gridWidth="7">
+      <LStr text="NIT:"/>
+    </Label>
+    <FormField name="com_proveedores.nit" colName="nit" sqlType="CHAR(14)" fieldId="8" sqlTabName="com_proveedores" tabIndex="9">
+      <Edit width="24" posY="5" posX="61" gridWidth="24"/>
+    </FormField>
+    <Label name="label8" width="14" text="Digito de Verificación -" posY="5" posX="86" gridWidth="14">
+      <LStr text="Digito de Verificación -"/>
+    </Label>
+    <FormField name="com_proveedores.digver" colName="digver" sqlType="CHAR(1)" fieldId="9" sqlTabName="com_proveedores" tabIndex="10">
+      <Edit width="5" posY="5" posX="101" gridWidth="5"/>
+    </FormField>
+    <Label name="label10" width="15" text="Cédula Representante:" posY="6" posX="1" gridWidth="15">
+      <LStr text="Cédula Representante:"/>
+    </Label>
+    <FormField name="com_proveedores.cedrep" colName="cedrep" sqlType="CHAR(15)" fieldId="10" sqlTabName="com_proveedores" tabIndex="11">
+      <Edit width="20" posY="6" posX="17" gridWidth="20"/>
+    </FormField>
+    <Label name="label11" width="15" text="Nombre Representante:" posY="6" posX="38" gridWidth="15">
+      <LStr text="Nombre Representante:"/>
+    </Label>
+    <FormField name="com_proveedores.nomrep" colName="nomrep" sqlType="VARCHAR(50)" fieldId="11" sqlTabName="com_proveedores" tabIndex="12">
+      <Edit width="52" posY="6" posX="54" gridWidth="52"/>
+    </FormField>
+    <Label name="label12" width="12" text="Departamento:" posY="7" posX="1" gridWidth="12">
+      <LStr text="Departamento:"/>
+    </Label>
+    <FormField name="formonly.dpto" colName="dpto" sqlType="VARCHAR" fieldId="12" sqlTabName="formonly" tabIndex="13">
+      <ComboBox width="24" posY="7" posX="15" gridWidth="26"/>
+    </FormField>
+    <Label name="label13" width="8" text="Ciudad:" posY="7" posX="42" gridWidth="8">
+      <LStr text="Ciudad:"/>
+    </Label>
+    <FormField name="formonly.ciudad" colName="ciudad" sqlType="VARCHAR" fieldId="13" sqlTabName="formonly" tabIndex="14">
+      <ComboBox width="24" posY="7" posX="51" gridWidth="26"/>
+    </FormField>
+    <Label name="label14" width="7" text="Teléfono:" posY="7" posX="78" gridWidth="7">
+      <LStr text="Teléfono:"/>
+    </Label>
+    <FormField name="com_proveedores.telefono" colName="telefono" sqlType="VARCHAR(22)" fieldId="14" sqlTabName="com_proveedores" tabIndex="15">
+      <Edit width="20" posY="7" posX="86" gridWidth="20"/>
+    </FormField>
+    <Label name="label31" width="11" text="Dirección:" posY="8" posX="1" gridWidth="11">
+      <LStr text="Dirección:"/>
+    </Label>
+    <FormField name="com_proveedores.direccion" colName="direccion" sqlType="VARCHAR(40)" fieldId="15" sqlTabName="com_proveedores" tabIndex="16">
+      <Edit width="65" posY="8" posX="13" gridWidth="65"/>
+    </FormField>
+    <Label name="label32" width="5" text="Fax:" posY="8" posX="79" gridWidth="5">
+      <LStr text="Fax:"/>
+    </Label>
+    <FormField name="com_proveedores.fax" colName="fax" sqlType="VARCHAR(12)" fieldId="16" sqlTabName="com_proveedores" tabIndex="17">
+      <Edit width="22" posY="8" posX="85" gridWidth="22"/>
+    </FormField>
+    <Label name="label15" width="7" text="E-mail:" posY="9" posX="1" gridWidth="7">
+      <LStr text="E-mail:"/>
+    </Label>
+    <FormField name="com_proveedores.mail" colName="mail" sqlType="VARCHAR(40)" fieldId="17" sqlTabName="com_proveedores" tabIndex="18">
+      <Edit width="26" posY="9" posX="9" gridWidth="26"/>
+    </FormField>
+    <Label name="label16" width="14" text="Tipo de Proveedor:" posY="9" posX="36" gridWidth="14">
+      <LStr text="Tipo de Proveedor:"/>
+    </Label>
+    <FormField name="com_proveedores.tip_prov" colName="tip_prov" sqlType="CHAR(1)" fieldId="18" sqlTabName="com_proveedores" notNull="1" required="1" tabIndex="19">
+      <ComboBox width="9" posY="9" posX="51" gridWidth="11">
+        <Item name="E" text="E"/>
+        <Item name="R" text="R"/>
+        <Item name="Item1" text="Seleccione una opción"/>
+      </ComboBox>
+    </FormField>
+    <Label name="label17" width="14" text="Gran Contribuyente:" posY="9" posX="63" gridWidth="14">
+      <LStr text="Gran Contribuyente:"/>
+    </Label>
+    <FormField name="com_proveedores.g_contrib" colName="g_contrib" sqlType="CHAR(1)" fieldId="19" sqlTabName="com_proveedores" tabIndex="20">
+      <ComboBox width="3" posY="9" posX="78" gridWidth="5">
+        <Item name="Item1" text="Seleccione una Opción"/>
+        <Item name="Item2" text="Si"/>
+        <Item name="Item3" text="No"/>
+      </ComboBox>
+    </FormField>
+    <Label name="label18" width="12" text="Autoretenedores:" posY="9" posX="84" gridWidth="12">
+      <LStr text="Autoretenedores:"/>
+    </Label>
+    <FormField name="com_proveedores.autoret" colName="autoret" sqlType="CHAR(1)" fieldId="20" sqlTabName="com_proveedores" tabIndex="21">
+      <ComboBox width="4" posY="9" posX="99" gridWidth="6">
+        <Item name="Item1" text="Si"/>
+        <Item name="Item2" text="No"/>
+      </ComboBox>
+    </FormField>
+    <Label name="label19" width="15" text="Actividad Económica 1:" posY="10" posX="1" gridWidth="15">
+      <LStr text="Actividad Económica 1:"/>
+    </Label>
+    <FormField name="formonly.actividad1" colName="actividad1" sqlType="VARCHAR" fieldId="21" sqlTabName="formonly" tabIndex="22">
+      <ComboBox width="47" initializer="llenar_combo_actividad" posY="10" posX="17" gridWidth="49"/>
+    </FormField>
+    <Label name="label20" width="15" text="Actividad Económica 2:" posY="11" posX="1" gridWidth="15">
+      <LStr text="Actividad Económica 2:"/>
+    </Label>
+    <FormField name="formonly.actividad2" colName="actividad2" sqlType="VARCHAR" fieldId="22" sqlTabName="formonly" tabIndex="23">
+      <ComboBox width="47" posY="11" posX="17" gridWidth="49"/>
+    </FormField>
+    <Label name="label21" width="15" text="Actividad Económica 3:" posY="12" posX="1" gridWidth="15">
+      <LStr text="Actividad Económica 3:"/>
+    </Label>
+    <FormField name="formonly.actividad3" colName="actividad3" sqlType="VARCHAR" fieldId="23" sqlTabName="formonly" tabIndex="24">
+      <ComboBox width="47" posY="12" posX="17" gridWidth="49"/>
+    </FormField>
+    <Label name="label22" width="15" text="Actividad Económica 4:" posY="13" posX="1" gridWidth="15">
+      <LStr text="Actividad Económica 4:"/>
+    </Label>
+    <FormField name="formonly.actividad4" colName="actividad4" sqlType="VARCHAR" fieldId="24" sqlTabName="formonly" tabIndex="25">
+      <ComboBox width="47" posY="13" posX="17" gridWidth="49"/>
+    </FormField>
+    <Label name="label24" width="12" text="Clase de Sociedad" posY="14" posX="1" gridWidth="12">
+      <LStr text="Clase de Sociedad"/>
+    </Label>
+    <FormField name="com_proveedores.cl_soc" colName="cl_soc" sqlType="CHAR(1)" fieldId="25" sqlTabName="com_proveedores" tabIndex="26">
+      <Edit width="6" posY="14" posX="14" gridWidth="6"/>
+    </FormField>
+    <Label name="label25" width="12" text="Clase empresa" posY="14" posX="22" gridWidth="12">
+      <LStr text="Clase empresa"/>
+    </Label>
+    <FormField name="com_proveedores.cl_emp" colName="cl_emp" sqlType="CHAR(1)" fieldId="26" sqlTabName="com_proveedores" tabIndex="27">
+      <Edit width="6" posY="14" posX="35" gridWidth="6"/>
+    </FormField>
+    <Label name="label26" width="12" text="resolg???" posY="14" posX="42" gridWidth="12">
+      <LStr text="resolg???"/>
+    </Label>
+    <FormField name="com_proveedores.resolg" colName="resolg" sqlType="VARCHAR(15)" fieldId="27" sqlTabName="com_proveedores" tabIndex="28">
+      <Edit width="9" posY="14" posX="55" gridWidth="9"/>
+    </FormField>
+    <Label name="label27" width="12" text="resola???" posY="14" posX="66" gridWidth="12">
+      <LStr text="resola???"/>
+    </Label>
+    <FormField name="com_proveedores.resola" colName="resola" sqlType="VARCHAR(15)" fieldId="28" sqlTabName="com_proveedores" tabIndex="29">
+      <Edit width="9" posY="14" posX="79" gridWidth="9"/>
+    </FormField>
+    <Label name="label33" width="7" text="Régimen:" posY="14" posX="89" gridWidth="7">
+      <LStr text="Régimen:"/>
+    </Label>
+    <FormField name="com_proveedores.regimen" colName="regimen" sqlType="CHAR(1)" fieldId="29" sqlTabName="com_proveedores" tabIndex="30">
+      <ComboBox width="8" posY="14" posX="97" gridWidth="10">
+        <Item name="Item1" text="Seleccione una opción"/>
+        <Item name="Simplificado" text="S"/>
+        <Item name="Contributivo" text="C"/>
+      </ComboBox>
+    </FormField>
+    <Label name="label29" width="10" text="Código Caja:" posY="15" posX="1" gridWidth="10">
+      <LStr text="Código Caja:"/>
+    </Label>
+    <FormField name="com_proveedores.codcaja" colName="codcaja" sqlType="CHAR(6)" fieldId="30" sqlTabName="com_proveedores" tabIndex="31">
+      <Edit width="6" posY="15" posX="12" gridWidth="6"/>
+    </FormField>
+    <Label name="label28" width="10" text="Exento Imp.:" posY="15" posX="19" gridWidth="10">
+      <LStr text="Exento Imp.:"/>
+    </Label>
+    <FormField name="com_proveedores.exento_imp" colName="exento_imp" sqlType="CHAR(1)" fieldId="31" sqlTabName="com_proveedores" tabIndex="32">
+      <ComboBox width="16" posY="15" posX="30" gridWidth="18">
+        <Item name="Item3" text="Seleccione una opción"/>
+        <Item name="Item1" text="Si"/>
+        <Item name="Item2" text="No"/>
+      </ComboBox>
+    </FormField>
+    <Label name="label30" width="13" text="Estado:" posY="15" posX="50" gridWidth="13">
+      <LStr text="Estado:"/>
+    </Label>
+    <FormField name="com_proveedores.estado" colName="estado" sqlType="CHAR(1)" fieldId="32" sqlTabName="com_proveedores" tabIndex="33">
+      <ComboBox width="17" posY="15" posX="64" gridWidth="19">
+        <Item name="Item1" text="Seleccione una opción"/>
+        <Item name="Item2" text="A"/>
+        <Item name="Item3" text="D"/>
+      </ComboBox>
+    </FormField>
+    <Label name="label34" width="12" text="Afiliado a la caja?" posY="15" posX="84" gridWidth="12">
+      <LStr text="Afiliado a la caja?"/>
+    </Label>
+    <FormField name="com_proveedores.aficaja" colName="aficaja" sqlType="CHAR(1)" fieldId="33" sqlTabName="com_proveedores" tabIndex="34">
+      <ComboBox width="7" posY="15" posX="97" gridWidth="9">
+        <Item name="Item1" text="Seleccione una opción:"/>
+        <Item name="Si" text="Si"/>
+        <Item name="No" text="No"/>
+      </ComboBox>
+    </FormField>
+  </Grid>
+  <RecordView tabName="com_proveedores">
+    <Link colName="radicado" fieldIdRef="0"/>
+    <Link colName="fecrad" fieldIdRef="1"/>
+    <Link colName="inscrip" fieldIdRef="2"/>
+    <Link colName="fecrec" fieldIdRef="3"/>
+    <Link colName="recibo" fieldIdRef="4"/>
+    <Link colName="az" fieldIdRef="5"/>
+    <Link colName="fecapro" fieldIdRef="6"/>
+    <Link colName="razsoc" fieldIdRef="7"/>
+    <Link colName="nit" fieldIdRef="8"/>
+    <Link colName="digver" fieldIdRef="9"/>
+    <Link colName="cedrep" fieldIdRef="10"/>
+    <Link colName="nomrep" fieldIdRef="11"/>
+    <Link colName="telefono" fieldIdRef="14"/>
+    <Link colName="direccion" fieldIdRef="15"/>
+    <Link colName="fax" fieldIdRef="16"/>
+    <Link colName="mail" fieldIdRef="17"/>
+    <Link colName="tip_prov" fieldIdRef="18"/>
+    <Link colName="g_contrib" fieldIdRef="19"/>
+    <Link colName="autoret" fieldIdRef="20"/>
+    <Link colName="cl_soc" fieldIdRef="25"/>
+    <Link colName="cl_emp" fieldIdRef="26"/>
+    <Link colName="resolg" fieldIdRef="27"/>
+    <Link colName="resola" fieldIdRef="28"/>
+    <Link colName="regimen" fieldIdRef="29"/>
+    <Link colName="codcaja" fieldIdRef="30"/>
+    <Link colName="exento_imp" fieldIdRef="31"/>
+    <Link colName="estado" fieldIdRef="32"/>
+    <Link colName="aficaja" fieldIdRef="33"/>
+  </RecordView>
+  <RecordView tabName="formonly">
+    <Link colName="dpto" fieldIdRef="12"/>
+    <Link colName="ciudad" fieldIdRef="13"/>
+    <Link colName="actividad1" fieldIdRef="21"/>
+    <Link colName="actividad2" fieldIdRef="22"/>
+    <Link colName="actividad3" fieldIdRef="23"/>
+    <Link colName="actividad4" fieldIdRef="24"/>
+  </RecordView>
+  <RecordView tabName="undefined">
+    <Link colName="radicado" fieldIdRef="0"/>
+    <Link colName="inscrip" fieldIdRef="2"/>
+    <Link colName="nit" fieldIdRef="8"/>
+    <Link colName="recibo" fieldIdRef="4"/>
+    <Link colName="nomrep" fieldIdRef="11"/>
+    <Link colName="digver" fieldIdRef="9"/>
+    <Link colName="cedrep" fieldIdRef="10"/>
+    <Link colName="razsoc" fieldIdRef="7"/>
+    <Link colName="dpto" fieldIdRef="12"/>
+    <Link colName="ciudad" fieldIdRef="13"/>
+    <Link colName="telefono" fieldIdRef="14"/>
+    <Link colName="mail" fieldIdRef="17"/>
+    <Link colName="tip_prov" fieldIdRef="18"/>
+    <Link colName="g_contrib" fieldIdRef="19"/>
+    <Link colName="autoret" fieldIdRef="20"/>
+    <Link colName="actividad1" fieldIdRef="21"/>
+    <Link colName="actividad3" fieldIdRef="23"/>
+    <Link colName="actividad4" fieldIdRef="24"/>
+    <Link colName="actividad2" fieldIdRef="22"/>
+    <Link colName="az" fieldIdRef="5"/>
+    <Link colName="cl_soc" fieldIdRef="25"/>
+    <Link colName="cl_emp" fieldIdRef="26"/>
+    <Link colName="resolg" fieldIdRef="27"/>
+    <Link colName="resola" fieldIdRef="28"/>
+    <Link colName="exento_imp" fieldIdRef="31"/>
+    <Link colName="codcaja" fieldIdRef="30"/>
+    <Link colName="estado" fieldIdRef="32"/>
+    <Link colName="fecrad" fieldIdRef="1"/>
+    <Link colName="fecrec" fieldIdRef="3"/>
+    <Link colName="direccion" fieldIdRef="15"/>
+    <Link colName="fax" fieldIdRef="16"/>
+    <Link colName="regimen" fieldIdRef="29"/>
+    <Link colName="aficaja" fieldIdRef="33"/>
+    <Link colName="fecapro" fieldIdRef="6"/>
+  </RecordView>
+</Form>

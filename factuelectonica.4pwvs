@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<WorkspaceViewState version="1.0">
+  <ExpandedNodes>
+    <Node path="factuelectonica.4pw" type="pm/main-project"/>
+    <Node path="factuelectonica.4pw/Application Generator" type="pm/group"/>
+    <Node path="factuelectonica.4pw/Application Generator/Databases" type="pm/library"/>
+    <Node path="factuelectonica.4pw/Application Generator/factuelectonica" type="pm/application"/>
+    <Node path="factuelectonica.4pw/Application Generator/factuelectonica/per" type="pm/virtual-folder"/>
+  </ExpandedNodes>
+  <OpenDocuments>
+    <Document container="true" filePath="fe_terceros.4gl" locator="1:1" module="mod-ce3">
+      <Data name="8" value="CP1252"/>
+    </Document>
+    <Document container="true" filePath="fe_terceros.4fd" locator="" module="mod-fd"/>
+  </OpenDocuments>
+  <CurrentDocument filePath="fe_terceros.4fd" module="mod-fd"/>
+</WorkspaceViewState>

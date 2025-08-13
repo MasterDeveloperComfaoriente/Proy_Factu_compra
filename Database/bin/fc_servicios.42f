@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<Form name="fc_servicios.tmp" build="3.10.18" sqlDbName="empresa" spacing="normal" text="INFORMACION DE SERVICIOS" width="90" height="15">
+  <Grid name="gr3" width="90" height="15">
+    <Label name="lb31" width="28" text="SERVICIOS Y/O PRODUCTOS A FACTURAR" posY="1" posX="26" gridWidth="28"/>
+    <HLine posY="2" posX="0" gridWidth="90"/>
+    <Label name="lb32" width="11" text="Codigo Servicio:" posY="4" posX="3" gridWidth="11"/>
+    <FormField name="fc_servicios.codigo" colName="codigo" sqlType="CHAR(5)" required="1" notNull="1" fieldId="0" sqlTabName="fc_servicios" tabIndex="1">
+      <Edit width="7" posY="4" posX="16" gridWidth="7"/>
+    </FormField>
+    <Label name="lb61" width="9" text="Descripcion :" posY="5" posX="3" gridWidth="9"/>
+    <FormField name="fc_servicios.descripcion" colName="descripcion" sqlType="CHAR(50)" required="1" notNull="1" fieldId="1" sqlTabName="fc_servicios" tabIndex="3">
+      <Edit width="50" shift="up" posY="5" posX="16" gridWidth="50"/>
+    </FormField>
+    <Label name="lb7" width="12" text="Unidad de Medida:" posY="6" posX="3" gridWidth="12"/>
+    <FormField name="fc_servicios.coduni" colName="coduni" sqlType="CHAR(4)" fieldId="2" sqlTabName="fc_servicios" tabIndex="11">
+      <Edit width="3" posY="6" posX="16" gridWidth="3"/>
+    </FormField>
+    <FormField name="formonly.mdescripcion" colName="mdescripcion" fieldId="3" sqlTabName="formonly" tabIndex="12">
+      <Edit width="23" shift="up" posY="6" posX="20" gridWidth="23"/>
+    </FormField>
+    <Label name="lb8" width="12" text="Tipo de Impuesto:" posY="7" posX="3" gridWidth="12"/>
+    <FormField name="fc_servicios.tpimpuesto" colName="tpimpuesto" sqlType="CHAR(1)" fieldId="4" sqlTabName="fc_servicios" tabIndex="13">
+      <ComboBox width="9" posY="7" posX="16" gridWidth="11"/>
+    </FormField>
+    <HLine posY="8" posX="0" gridWidth="90"/>
+    <Label name="lb52" width="7" text="% IVA :" posY="9" posX="3" gridWidth="7"/>
+    <FormField name="fc_servicios.iva" colName="iva" sqlType="DECIMAL(5,2)" required="1" notNull="1" fieldId="5" sqlTabName="fc_servicios" tabIndex="2">
+      <Edit width="10" shift="up" posY="9" posX="11" gridWidth="10"/>
+    </FormField>
+    <Label name="lb2" width="16" text="% Impuesto Consumo :" posY="9" posX="24" gridWidth="16"/>
+    <FormField name="fc_servicios.impc" colName="impc" sqlType="DECIMAL(5,2)" required="1" notNull="1" fieldId="6" sqlTabName="fc_servicios" tabIndex="5">
+      <Edit width="10" shift="up" posY="9" posX="41" gridWidth="10"/>
+    </FormField>
+    <Label name="lb5" width="14" text="Tarifa Categorizada ?" posY="10" posX="3" gridWidth="14"/>
+    <FormField name="fc_servicios.maneja_cat" colName="maneja_cat" sqlType="CHAR(1)" fieldId="7" sqlTabName="fc_servicios" tabIndex="6">
+      <ComboBox width="6" posY="10" posX="18" gridWidth="8"/>
+    </FormField>
+    <Label name="lb4" width="9" text="Tarifa Fija ?" posY="10" posX="30" gridWidth="9"/>
+    <FormField name="fc_servicios.tar_fija" colName="tar_fija" sqlType="CHAR(1)" fieldId="8" sqlTabName="fc_servicios" tabIndex="8">
+      <ComboBox width="6" posY="10" posX="42" gridWidth="8"/>
+    </FormField>
+    <Label name="lb6" width="15" text="Maneja Cobertura : " posY="10" posX="52" gridWidth="15"/>
+    <FormField name="fc_servicios.cobertura" colName="cobertura" sqlType="CHAR(1)" fieldId="9" sqlTabName="fc_servicios" tabIndex="9">
+      <ComboBox width="15" posY="10" posX="70" gridWidth="17"/>
+    </FormField>
+    <Label name="lb1" width="15" text="Tope Cuotas Credito : " posY="11" posX="3" gridWidth="15"/>
+    <FormField name="fc_servicios.cuotas" colName="cuotas" sqlType="INTEGER" fieldId="10" sqlTabName="fc_servicios" tabIndex="7" required="1">
+      <Edit width="5" shift="up" posY="11" posX="19" gridWidth="5"/>
+    </FormField>
+    <Label name="label1" width="9" text="Servicio SSF:" posY="11" posX="25" gridWidth="9">
+      <LStr text="Servicio SSF:"/>
+    </Label>
+    <FormField name="fc_servicios.codser_sf" colName="codser_sf" sqlType="CHAR(2)" fieldId="11" sqlTabName="fc_servicios" tabIndex="10">
+      <ComboBox width="49" posY="11" posX="35" gridWidth="51"/>
+    </FormField>
+    <HLine posY="12" posX="0" gridWidth="90"/>
+    <Label name="lb3" width="7" text="Estado :" posY="13" posX="32" gridWidth="7"/>
+    <FormField name="fc_servicios.estado" colName="estado" sqlType="CHAR(1)" required="1" notNull="1" fieldId="12" sqlTabName="fc_servicios" tabIndex="4">
+      <ComboBox width="15" posY="13" posX="40" gridWidth="17"/>
+    </FormField>
+  </Grid>
+  <RecordView tabName="fc_servicios">
+    <Link colName="codigo" fieldIdRef="0"/>
+    <Link colName="descripcion" fieldIdRef="1"/>
+    <Link colName="coduni" fieldIdRef="2"/>
+    <Link colName="tpimpuesto" fieldIdRef="4"/>
+    <Link colName="iva" fieldIdRef="5"/>
+    <Link colName="impc" fieldIdRef="6"/>
+    <Link colName="maneja_cat" fieldIdRef="7"/>
+    <Link colName="tar_fija" fieldIdRef="8"/>
+    <Link colName="cobertura" fieldIdRef="9"/>
+    <Link colName="cuotas" fieldIdRef="10"/>
+    <Link colName="codser_sf" fieldIdRef="11"/>
+    <Link colName="estado" fieldIdRef="12"/>
+  </RecordView>
+  <RecordView tabName="formonly">
+    <Link colName="mdescripcion" fieldIdRef="3"/>
+  </RecordView>
+  <RecordView tabName="undefined">
+    <Link colName="codigo" fieldIdRef="0"/>
+    <Link colName="descripcion" fieldIdRef="1"/>
+    <Link colName="iva" fieldIdRef="5"/>
+    <Link colName="estado" fieldIdRef="12"/>
+    <Link colName="impc" fieldIdRef="6"/>
+    <Link colName="maneja_cat" fieldIdRef="7"/>
+    <Link colName="cuotas" fieldIdRef="10"/>
+    <Link colName="tar_fija" fieldIdRef="8"/>
+    <Link colName="cobertura" fieldIdRef="9"/>
+    <Link colName="codser_sf" fieldIdRef="11"/>
+    <Link colName="coduni" fieldIdRef="2"/>
+    <Link colName="mdescripcion" fieldIdRef="3"/>
+    <Link colName="tpimpuesto" fieldIdRef="4"/>
+  </RecordView>
+</Form>

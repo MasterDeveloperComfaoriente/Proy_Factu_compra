@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ManagedForm databaseName="empresa" fileVersion="30a00" gstVersion="30a0b" name="ManagedForm" uid="{8a77d4f4-4ca0-46f2-a10a-e87ef2d61ca5}">
+  <AGSettings>
+    <DynamicProperties version="2"/>
+  </AGSettings>
+  <Record additionalTables="" joinLeft="" joinOperator="" joinRight="" masterTable="fe_respenvio" name="Record1" order="" uid="{5a137a2b-3a30-43b3-9561-9af0fd98767d}" where="">
+    <RecordField colName="prefijo" fieldIdRef="2" fieldType="TABLE_COLUMN" name="fc_respenvio.prefijo" sqlTabName="fc_respenvio" sqlType="CHAR" table_alias_name="" uid="{b50d2d78-80d4-4c10-b664-b20a51ea0e2b}"/>
+    <RecordField colName="numfac" fieldIdRef="3" fieldType="TABLE_COLUMN" name="fc_respenvio.numfac" sqlTabName="fc_respenvio" sqlType="CHAR" table_alias_name="fe_FACTURA_M" uid="{ccb397e6-5155-4530-a181-5ab967b0082d}"/>
+    <RecordField colName="cufe" fieldIdRef="4" fieldType="TABLE_COLUMN" name="fc_respenvio.cufe" sqlTabName="fc_respenvio" sqlType="CHAR" table_alias_name="" uid="{8a40a1c9-d960-49d9-af7b-ad9e04b2a5aa}"/>
+    <RecordField colName="fecfactura" fieldIdRef="6" fieldType="TABLE_COLUMN" name="fc_respenvio.fecfactura" sqlTabName="fc_respenvio" sqlType="DATE" table_alias_name="" uid="{c728cb97-3f7a-4619-95d4-b16f2d4fc3d4}"/>
+    <RecordField colName="fecresp" fieldIdRef="7" fieldType="TABLE_COLUMN" name="fc_respenvio.fecresp" sqlTabName="fc_respenvio" sqlType="DATE" table_alias_name="" uid="{e673749d-ab1e-4cd1-b43c-2735d7f16958}"/>
+    <RecordField colName="fecexped" fieldIdRef="8" fieldType="TABLE_COLUMN" name="fc_respenvio.fecexped" sqlTabName="fc_respenvio" sqlType="DATE" table_alias_name="" uid="{aeee9c08-f550-4f15-915e-5a7faec8ce7f}"/>
+    <RecordField colName="codest" fieldIdRef="12" fieldType="TABLE_COLUMN" name="fc_respenvio.codest" sqlTabName="fc_respenvio" sqlType="CHAR" table_alias_name="" uid="{3d93870f-0bc3-43d8-ba16-6669b4326629}"/>
+  </Record>
+  <Record additionalTables="" joinLeft="" joinOperator="" joinRight="" name="Undefined" order="" uid="{1ebd799e-14c1-49ed-9e35-775b5cfc3f7b}" where="">
+    <RecordField colName="" fieldIdRef="13" name="mrazsoc" sqlTabName="" table_alias_name="" uid="{7d307086-6c0f-4e72-bcd1-1eb7cb3da278}"/>
+    <RecordField colName="nit" fieldIdRef="14" fieldType="NON_DATABASE" name="mnit" sqlTabName="fe_factura_m" sqlType="CHAR" table_alias_name="" uid="{2795aa2c-ed62-4374-b705-015e06988072}"/>
+    <RecordField colName="" fieldIdRef="15" name="mnombre" sqlTabName="" table_alias_name="" uid="{3a237a38-2c0d-4da7-a266-88107232645e}"/>
+    <RecordField colName="documento" fieldIdRef="5" fieldType="NON_DATABASE" name="numint" sqlTabName="fe_factura_m" sqlType="CHAR" table_alias_name="" uid="{1b6ca1d2-c303-4a0a-aa6f-52b730f6784b}"/>
+    <RecordField colName="tpdocumento" fieldIdRef="1" fieldType="TABLE_COLUMN" name="fc_respenvio.tpdocumento" sqlTabName="fc_respenvio" sqlType="CHAR" table_alias_name="" uid="{dc833e0d-f348-48fc-b674-d27ea6531445}"/>
+  </Record>
+  <Form gridHeight="14" gridWidth="99" name="Form" text="Form">
+    <Grid gridHeight="12" gridWidth="96" name="empresa1" posX="1" posY="1">
+      <HLine gridWidth="96" name="HLine2" posX="0" posY="0"/>
+      <Label gridHeight="1" gridWidth="11" name="Label1" posX="1" posY="1" text="Tipo Documento:"/>
+      <ComboBox aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="tpdocumento" fieldId="1" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="16" items="" name="fc_respenvio.tpdocumento" posX="13" posY="1" sqlTabName="fc_respenvio" sqlType="CHAR" tabIndex="12" table_alias_name="" title="Edit1" widget="ComboBox"/>
+      <Label gridHeight="1" gridWidth="11" name="Label2" posX="30" posY="1" text="PREFIJO/TIPO :"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="prefijo" fieldId="2" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="7" name="fc_respenvio.prefijo" posX="42" posY="1" scroll="true" sqlTabName="fc_respenvio" sqlType="CHAR" tabIndex="1" table_alias_name="" title="prefijo" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="7" name="Label3" posX="50" posY="1" text="NUMERO:"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="numfac" fieldId="3" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="11" name="fc_respenvio.numfac" posX="58" posY="1" scroll="true" sqlTabName="fc_respenvio" sqlType="CHAR" tabIndex="2" table_alias_name="fe_FACTURA_M" title="consecutivo" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="14" name="Label6" posX="70" posY="1" text="Fecha Elaboración:"/>
+      <DateEdit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="fecfactura" fieldId="6" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="10" name="fc_respenvio.fecfactura" posX="85" posY="1" sqlTabName="fc_respenvio" sqlType="DATE" tabIndex="4" table_alias_name="" title="fecfactura" widget="DateEdit"/>
+      <Label gridHeight="1" gridWidth="11" name="Label5" posX="1" posY="2" text="No. INTERNO :"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="documento" fieldId="5" fieldType="NON_DATABASE" gridHeight="1" gridWidth="12" length="1" lstrcomment="false" lstrtitle="false" name="numint" posX="13" posY="2" sqlTabName="fe_factura_m" sqlType="CHAR" tabIndex="11" table_alias_name="" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="10" name="Label4" posX="27" posY="2" text="CUFE/CUDE :"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="cufe" fieldId="4" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="55" name="fc_respenvio.cufe" posX="40" posY="2" scroll="true" sqlTabName="fc_respenvio" sqlType="CHAR" tabIndex="3" table_alias_name="" title="cu" widget="Edit"/>
+      <HLine gridWidth="96" name="HLine1" posX="0" posY="4"/>
+      <Label gridHeight="1" gridWidth="9" lstrcomment="false" lstrtext="false" name="lb41" posX="1" posY="5" text="Cliente:"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="nit" fieldId="14" fieldType="NON_DATABASE" gridHeight="1" gridWidth="19" length="1" name="mnit" posX="11" posY="5" sqlTabName="fe_factura_m" sqlType="CHAR" tabIndex="9" table_alias_name="" title="Edit1" widget="Edit"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="" fieldId="15" gridHeight="1" gridWidth="53" name="mnombre" posX="31" posY="5" sqlTabName="" tabIndex="10" table_alias_name="" title="Edit1" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="9" lstrcomment="false" lstrtext="false" name="lb1" posX="1" posY="6" text="Raz. Social:"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="" fieldId="13" gridHeight="1" gridWidth="73" name="mrazsoc" posX="11" posY="6" sqlTabName="" tabIndex="8" table_alias_name="" title="Edit1" widget="Edit"/>
+      <HLine gridWidth="96" name="HLine3" posX="0" posY="7"/>
+      <Label gridHeight="1" gridWidth="17" name="Label7" posX="1" posY="8" text="Fecha recibido respuesta:"/>
+      <DateEdit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="fecresp" fieldId="7" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="10" name="fc_respenvio.fecresp" posX="20" posY="8" sqlTabName="fc_respenvio" sqlType="DATE" tabIndex="5" table_alias_name="" title="fecresp" widget="DateEdit"/>
+      <Label gridHeight="1" gridWidth="18" name="Label8" posX="43" posY="8" text="Fecha de Transmisión:"/>
+      <DateEdit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="fecexped" fieldId="8" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="10" name="fc_respenvio.fecexped" posX="64" posY="8" sqlTabName="fc_respenvio" sqlType="DATE" tabIndex="6" table_alias_name="" title="fecexped" widget="DateEdit"/>
+      <HLine gridWidth="96" name="HLine4" posX="0" posY="9"/>
+      <Label gridHeight="1" gridWidth="11" name="Label12" posX="35" posY="10" text="Estado Envio :"/>
+      <ComboBox aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="codest" fieldId="12" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="20" items="" name="fc_respenvio.codest" posX="47" posY="10" scroll="true" sqlTabName="fc_respenvio" sqlType="CHAR" tabIndex="7" table_alias_name="" title="codest" widget="ComboBox"/>
+    </Grid>
+  </Form>
+  <DiagramLayout>
+    <![CDATA[AAAAAgAAAEwAewA1AGEAMQAzADcAYQAyAGIALQAzAGEAMwAwAC0ANAAzAGIAMwAtADkANQA2ADEALQA5AGEAZgAwAGYAZAA5ADgANwA2ADcAZAB9AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAEwAewAxAGUAYgBkADcAOQA5AGUALQAxADQAYwAxAC0ANAA5AGUAZAAtADkAZQAzADUALQA3ADcANQBiADUAYwBmAGMAMwBmADcAYgB9QCQAAAAAAABAJAAAAAAAAAAAAAAAAAAAAQ==]]>
+  </DiagramLayout>
+</ManagedForm>

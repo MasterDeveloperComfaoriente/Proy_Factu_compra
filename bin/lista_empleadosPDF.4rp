@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<report:Report xmlns:rtl="http://www.4js.com/2004/RTL" xmlns:report="http://www.4js.com/2007/REPORT" xmlns="http://www.4js.com/2004/PXML" gstVersion="30a0b" version="6.00">
+    <report:Settings RWPageWidth="a4width" RWPageLength="a4length" RWLeftMargin="1.3cm" RWTopMargin="1.3cm" RWRightMargin="1.3cm" RWBottomMargin="1.3cm">
+        <report:FormatList>
+            <report:Format-SVG/>
+            <report:Format-PDF/>
+            <report:Format-image/>
+        </report:FormatList>
+    </report:Settings>
+    <report:Data RWDataLocation="ReportePri.rdd" RWFglReportName="r_imprimeCatEmpleados"/>
+    <report:Conflicts/>
+    <rtl:stylesheet>
+        <PXML>
+            <rtl:match name="Report" nameConstraint="Report" minOccurs="1" maxOccurs="1">
+                <MINIPAGE name="Page Root" width="521.575" length="max" alignment="center" borderWidth="1" borderTopWidth="1" borderRightWidth="1" borderBottomWidth="1" borderLeftWidth="1" borderStyle="solid">
+                    <rtl:match name="FirstPageHeader" nameConstraint="FirstPageHeader" minOccurs="0" maxOccurs="1">
+                        <LAYOUTNODE name="LayoutNode61" width="80" length="max" layoutDirection="leftToRight" floatingBehavior="enclosed">
+                            <LAYOUTNODE name="LayoutNode62" width="210" length="min" floatingBehavior="enclosed">
+                                <IMAGEBOX name="ImageBox1" width="199.969" length="59.25" alignment="near" floatingBehavior="enclosed" url="../pics/formulario.png" intendedResolution="96" paddingTopWidth="10" paddingLeftWidth="5"/>
+                            </LAYOUTNODE>
+                            <LAYOUTNODE name="LayoutNode63" width="300" length="70" floatingBehavior="enclosed" paddingTopWidth="10">
+                                <LAYOUTNODE name="LayoutNode64" width="20" length="max" layoutDirection="leftToRight" floatingBehavior="enclosed" borderTopWidth="1" borderRightWidth="1" borderBottomWidth="1" borderLeftWidth="1" borderStyle="none">
+                                    <WORDBOX name="WordBox35" width="max" length="max" alignment="near" color="#005500" fontName="Bahnschrift SemiBold" fontSize="12" floatingBehavior="enclosed" textAlignment="center" text="DOCUMENTO SOPORTE ADQUISIONES"/>
+                                </LAYOUTNODE>
+                                <LAYOUTNODE name="LayoutNode64_1" width="20" length="max" layoutDirection="leftToRight" floatingBehavior="enclosed" borderTopWidth="1" borderRightWidth="1" borderBottomWidth="1" borderLeftWidth="1" borderStyle="none">
+                                    <WORDBOX name="WordBox35_1" width="max" length="max" color="#005500" bgColor="#ffffff" fontName="Bahnschrift SemiBold" fontSize="12" fontBold="true" floatingBehavior="enclosed" textAlignment="center" text="NO OBLIGADOS A FACTURAR"/>
+                                </LAYOUTNODE>
+                                <LAYOUTNODE name="LayoutNode64_1_1" width="25" length="max" layoutDirection="leftToRight" floatingBehavior="enclosed" borderTopWidth="1" borderRightWidth="1" borderBottomWidth="1" borderLeftWidth="1" borderStyle="none">
+                                    <LAYOUTNODE name="LayoutNode102" width="50" length="min" floatingBehavior="enclosed"/>
+                                    <LAYOUTNODE name="NUMFAC" width="200" length="min" alignment="near" floatingBehavior="enclosed">
+                                        <LAYOUTNODE name="LayoutNode105" width="min" length="max" layoutDirection="leftToRight" floatingBehavior="enclosed">
+                                            <LAYOUTNODE name="LayoutNode106" width="100" length="min" floatingBehavior="enclosed">
+                                                <rtl:input-variable name="prefijo" type="FGLString" expectedLocation="expectedHere"/>
+                                                <WORDBOX name="prefijo Value" class="grwStringValue" width="max" color="#ffffff" bgColor="#0000ff" fontName="Arial Black" fontSize="13" fontBold="true" floatingBehavior="enclosed" textAlignment="center" text="{{prefijo}}" borderTopWidth="1" borderRightWidth="1" borderBottomWidth="1" borderLeftWidth="1" borderStyle="solid"/>
+                                            </LAYOUTNODE>
+                                            <LAYOUTNODE name="LayoutNode107" width="100" length="min" floatingBehavior="enclosed">
+                                                <rtl:input-variable name="numfac" type="FGLString" expectedLocation="expectedHere"/>
+                                                <WORDBOX name="numfac Value" class="grwStringValue" width="max" color="#0000ff" bgColor="#ffffff" fontName="Arial Black" fontSize="13" fontBold="true" floatingBehavior="enclosed" textAlignment="center" text="{{numfac}}" borderTopWidth="1" borderRightWidth="1" borderBottomWidth="1" borderLeftWidth="1" borderStyle="solid"/>
+                                            </LAYOUTNODE>
+                                        </LAYOUTNODE>
+                                    </LAYOUTNODE>
+                                    <LAYOUTNODE name="LayoutNode104" width="50" length="min" floatingBehavior="enclosed"/>
+                                </LAYOUTNODE>
+                            </LAYOUTNODE>
+                        </LAYOUTNODE>
+                        <LAYOUTNODE name="LayoutNode11" width="60" length="500" layoutDirection="leftToRight" floatingBehavior="enclosed" paddingLeftWidth="10">
+                            <LAYOUTNODE name="LayoutNode" width="340" length="60" floatingBehavior="enclosed" roundedCorners="true" borderWidth="0" borderTopWidth="1" borderRightWidth="1" borderBottomWidth="1" borderLeftWidth="1" borderStyle="solid">
+                                <LAYOUTNODE name="LayoutNode31" width="12.9" length="339.5" alignment="center" bgColor="#dddddd" layoutDirection="leftToRight" floatingBehavior="enclosed" borderWidth="0" borderBottomWidth="1" borderStyle="solid">
+                                    <WORDBOX name="WordBox" width="339" length="12.8" alignment="center" fontSize="9" fontBold="true" floatingBehavior="enclosed" textAlignment="center" text="DATOS DEL PROVEEDOR:" trimText="left"/>
+                                </LAYOUTNODE>
+                                <LAYOUTNODE name="LayoutNode14" width="14" length="340" layoutDirection="leftToRight" floatingBehavior="enclosed" borderWidth="0" borderBottomWidth="1" borderStyle="solid">
+                                    <WORDBOX name="WordBox17" width="47" length="15" fontSize="9" fontBold="true" floatingBehavior="enclosed" text="Nombre: "/>
+                                    <rtl:input-variable name="razsoc" type="FGLString" expectedLocation="expectedHere"/>
+                                    <WORDWRAPBOX name="razsoc Value" class="grwStringValue" width="288" length="15" fontSize="9" floatingBehavior="enclosed" text="{{razsoc}}" marginLeftWidth="5"/>
+                                </LAYOUTNODE>
+                                <LAYOUTNODE name="LayoutNode33" width="14" length="340" layoutDirection="leftToRight" floatingBehavior="enclosed" borderWidth="0" borderBottomWidth="1" borderStyle="solid">
+                                    <WORDBOX name="WordBox18" width="47" length="15" fontSize="9" fontBold="true" floatingBehavior="enclosed" text="NIT /RUT :"/>
+                                    <rtl:input-variable name="nit_prov" type="FGLString" expectedLocation="expectedHere"/>
+                                    <WORDBOX name="nit_prov Value" class="grwStringValue" width="57" length="15" alignment="near" fontSize="9" floatingBehavior="enclosed" text="{{nit_prov}}" borderWidth="0" borderRightWidth="1" borderStyle="none" marginLeftWidth="5"/>
+                                    <WORDBOX name="WordBox18_1" width="5" length="15" fontSize="9" fontBold="false" floatingBehavior="enclosed" textAlignment="center" text="-"/>
+                                    <rtl:input-variable name="digito" type="FGLString" expectedLocation="expectedHere"/>
+                                    <WORDBOX name="digito Value" class="grwStringValue" width="90" length="max" fontSize="9" floatingBehavior="enclosed" text="{{digito}}" borderWidth="0" borderRightWidth="1" borderStyle="solid"/>
+                                    <WORDBOX name="WordBox19" width="47" length="15" fontSize="9" fontBold="true" floatingBehavior="enclosed" text="Teléfono:" borderWidth="0" borderLeftWidth="1"/>
+                                    <rtl:input-variable name="tel_prov" type="FGLString" expectedLocation="expectedHere"/>
+                                    <WORDBOX name="tel_prov Value" class="grwStringValue" width="90" length="15" alignment="center" fontSize="9" floatingBehavior="enclosed" text="{{tel_prov}}"/>
+                                </LAYOUTNODE>
+                                <LAYOUTNODE name="LayoutNode34" width="15" length="340" layoutDirection="leftToRight" floatingBehavior="enclosed">
+                                    <WORDBOX name="WordBox20" width="47.5" length="15" alignment="baseline" fontSize="9" fontBold="true" floatingBehavior="enclosed" text="Dirección:"/>
+                                    <rtl:input-variable name="direccion" type="FGLString" expectedLocation="expectedHere"/>
+                                    <WORDWRAPBOX name="direccion Value" class="grwStringValue" width="151" length="15" alignment="center" fontSize="8" floatingBehavior="enclosed" text="{{direccion}}" borderWidth="0" borderRightWidth="1" borderStyle="solid" marginLeftWidth="5"/>
+                                    <WORDBOX name="WordBox21" width="47" length="15" alignment="baseline" fontSize="9" fontBold="true" floatingBehavior="enclosed" text="Ciudad:"/>
+                                    <rtl:input-variable name="nombreciu" type="FGLString" expectedLocation="expectedHere"/>
+                                    <WORDWRAPBOX name="nombreciu Value" class="grwStringValue" width="90" length="15" fontSize="9" floatingBehavior="enclosed" text="{{nombreciu}}"/>
+                                </LAYOUTNODE>
+                                <LAYOUTNODE name="LayoutNode71" width="15" length="341" layoutDirection="leftToRight" floatingBehavior="enclosed" borderWidth="0" borderRightWidth="1" borderBottomWidth="1" borderLeftWidth="1" borderStyle="solid">
+                                    <WORDBOX name="WordBox20_1" width="100" length="15" alignment="baseline" fontSize="9" fontBold="true" floatingBehavior="enclosed" text="Correo Electrónico: "/>
+                                    <rtl:input-variable name="email" type="FGLString" expectedLocation="expectedHere"/>
+                                    <WORDWRAPBOX name="email Value" class="grwStringValue" width="230" fontSize="9" floatingBehavior="enclosed" text="{{email}}"/>
+                                </LAYOUTNODE>
+                            </LAYOUTNODE>
+                            <LAYOUTNODE name="LayoutNode30" width="158" length="75" floatingBehavior="enclosed">
+                                <LAYOUTNODE name="LayoutNode36" width="56" length="154.75" layoutDirection="leftToRight" floatingBehavior="enclosed" roundedCorners="true" borderWidth="0" borderTopWidth="1" borderRightWidth="1" borderBottomWidth="1" borderLeftWidth="1" borderStyle="solid">
+                                    <LAYOUTNODE name="LayoutNode101" width="max" length="min" floatingBehavior="enclosed">
+                                        <LAYOUTNODE name="dian1" width="14.6" length="max" alignment="near" layoutDirection="leftToRight" floatingBehavior="enclosed">
+                                            <WORDBOX name="WordBox41" width="max" length="10" fontSize="8" floatingBehavior="enclosed" textAlignment="center" text="Autorización numeración Res. No. "/>
+                                        </LAYOUTNODE>
+                                        <LAYOUTNODE name="dian2" width="14.6" length="max" alignment="near" layoutDirection="leftToRight" floatingBehavior="enclosed">
+                                            <rtl:input-variable name="num_auto" type="FGLString" expectedLocation="expectedHere"/>
+                                            <WORDWRAPBOX name="num_auto Value" class="grwStringValue" width="78" length="10" fontSize="8" floatingBehavior="enclosed" text="{{num_auto}}" marginLeftWidth="5"/>
+                                            <WORDBOX name="WordBox41_1" length="10" fontSize="8" floatingBehavior="enclosed" text="de  "/>
+                                            <rtl:input-variable name="fec_auto" type="FGLString" expectedLocation="expectedHere"/>
+                                            <WORDBOX name="fec_auto Value" class="grwStringValue" width="40" length="10" alignment="baseline" fontSize="8" floatingBehavior="enclosed" text="{{fec_auto}}"/>
+                                        </LAYOUTNODE>
+                                        <LAYOUTNODE name="dian3" width="14.6" length="max" layoutDirection="leftToRight" floatingBehavior="enclosed">
+                                            <WORDBOX name="WordBox41_2" length="10" fontSize="8" floatingBehavior="enclosed" text="del " marginLeftWidth="5"/>
+                                            <rtl:input-variable name="numini" type="FGLNumeric" expectedLocation="expectedHere"/>
+                                            <DECIMALFORMATBOX name="numini Value" class="grwNumericValue" width="10" length="10" anchorX="1" alignment="near" fontSize="8" floatingBehavior="enclosed" textAlignment="center" format="----------#" value="{{numini}}"/>
+                                            <WORDBOX name="WordBox41_2_1" length="10" fontSize="8" floatingBehavior="enclosed" text=" al "/>
+                                            <rtl:input-variable name="numfin" type="FGLNumeric" expectedLocation="expectedHere"/>
+                                            <DECIMALFORMATBOX name="numfin Value" class="grwNumericValue" width="20" length="10" anchorX="1" fontSize="8" floatingBehavior="enclosed" textAlignment="center" format="----------#" value="{{numfin}}"/>
+                                            <WORDBOX name="WordBox41_2_2" length="10" fontSize="8" floatingBehavior="enclosed" text=" vence el "/>
+                                            <rtl:input-variable name="fec_ven" type="FGLString" expectedLocation="expectedHere"/>
+                                            <WORDBOX name="fec_ven Value" class="grwStringValue" length="10" fontSize="8" floatingBehavior="enclosed" text="{{fec_ven}}"/>
+                                        </LAYOUTNODE>
+                                        <LAYOUTNODE name="dian4" width="14.6" length="max" layoutDirection="leftToRight" floatingBehavior="enclosed">
+                                            <WORDBOX name="WordBox42" width="max" fontSize="8" fontBold="false" floatingBehavior="enclosed" textAlignment="center" text="Emitida por la DIAN"/>
+                                        </LAYOUTNODE>
+                                    </LAYOUTNODE>
+                                </LAYOUTNODE>
+                                <LAYOUTNODE name="LayoutNode37" width="15" length="158" layoutDirection="leftToRight" floatingBehavior="enclosed" borderWidth="0" borderTopWidth="0" borderStyle="none">
+                                    <WORDBOX name="WordBox22" fontSize="9" fontBold="true" floatingBehavior="enclosed" text="Fecha Emisión:" marginLeftWidth="10"/>
+                                    <rtl:input-variable name="fecha_elab" type="FGLString" expectedLocation="expectedHere"/>
+                                    <WORDBOX name="fecha_elab Value" class="grwStringValue" width="80" fontSize="8" floatingBehavior="enclosed" textAlignment="center" text="{{fecha_elab}}"/>
+                                </LAYOUTNODE>
+                            </LAYOUTNODE>
+                        </LAYOUTNODE>
+                        <LAYOUTNODE name="LayoutNode35" width="60" length="max" alignment="center" layoutDirection="leftToRight" floatingBehavior="enclosed"/>
+                        <LAYOUTNODE name="LayoutNode97" width="min" length="max" layoutDirection="leftToRight" floatingBehavior="enclosed">
+                            <LAYOUTNODE name="LayoutNode98" width="10" length="min" floatingBehavior="enclosed"/>
+                            <LAYOUTNODE name="LayoutNode99" width="min" length="min" floatingBehavior="enclosed">
+                                <LAYOUTNODE name="LayoutNode15" width="min" length="500" layoutDirection="leftToRight" floatingBehavior="enclosed" borderWidth="1" borderTopWidth="1" borderRightWidth="1" borderBottomWidth="1" borderLeftWidth="1" borderStyle="solid">
+                                    <LAYOUTNODE name="LayoutNode16" width="500" length="min" floatingBehavior="enclosed">
+                                        <LAYOUTNODE name="LayoutNode17" width="13" length="500" bgColor="#dddddd" layoutDirection="leftToRight" borderWidth="0" borderBottomWidth="1" borderStyle="solid">
+                                            <WORDBOX name="WordBox7" width="max" length="13" fontSize="10" fontBold="true" floatingBehavior="enclosed" textAlignment="center" text="DATOS DEL ADQUIRIENTE:"/>
+                                        </LAYOUTNODE>
+                                        <LAYOUTNODE name="LayoutNode18" width="13" length="max" alignment="near" layoutDirection="leftToRight" floatingBehavior="enclosed" borderWidth="0" borderBottomWidth="1" borderStyle="solid">
+                                            <WORDBOX name="WordBox8" width="52" fontSize="10" fontBold="true" floatingBehavior="enclosed" text="Nombre:"/>
+                                            <WORDBOX name="WordBox9" fontSize="10" floatingBehavior="enclosed" text="CAJA DE COMPENSACION DEL ORIENTE COLOMBIANO COMFAORIENTE"/>
+                                        </LAYOUTNODE>
+                                        <LAYOUTNODE name="LayoutNode19" width="13" length="max" layoutDirection="leftToRight" floatingBehavior="enclosed" borderWidth="0" borderBottomWidth="1" borderStyle="solid">
+                                            <LAYOUTNODE name="LayoutNode20" width="260" length="13" floatingBehavior="enclosed" borderWidth="0" borderRightWidth="1" borderStyle="solid">
+                                                <LAYOUTNODE name="LayoutNode22" width="min" length="min" layoutDirection="leftToRight" floatingBehavior="enclosed">
+                                                    <WORDBOX name="WordBox10" width="57" fontSize="10" fontBold="true" floatingBehavior="enclosed" text="NIT:"/>
+                                                    <WORDBOX name="WordBox11" width="203" fontSize="10" floatingBehavior="enclosed" text="890500675-6"/>
+                                                </LAYOUTNODE>
+                                            </LAYOUTNODE>
+                                            <LAYOUTNODE name="LayoutNode21" width="260" length="13" floatingBehavior="enclosed">
+                                                <LAYOUTNODE name="LayoutNode23" width="13" length="260" layoutDirection="leftToRight" floatingBehavior="enclosed">
+                                                    <WORDBOX name="WordBox12" width="52" fontSize="10" fontBold="true" floatingBehavior="enclosed" text="Teléfono:"/>
+                                                    <WORDBOX name="WordBox13" fontSize="10" floatingBehavior="enclosed" text="5748880"/>
+                                                </LAYOUTNODE>
+                                            </LAYOUTNODE>
+                                        </LAYOUTNODE>
+                                        <LAYOUTNODE name="LayoutNode24" width="13" length="max" layoutDirection="leftToRight" floatingBehavior="enclosed">
+                                            <LAYOUTNODE name="LayoutNode25" width="260" length="13" floatingBehavior="enclosed" borderWidth="0" borderRightWidth="1" borderStyle="solid">
+                                                <LAYOUTNODE name="LayoutNode27" width="min" length="min" layoutDirection="leftToRight" floatingBehavior="enclosed">
+                                                    <WORDBOX name="WordBox14" width="60" alignment="baseline" fontSize="10" fontBold="true" floatingBehavior="enclosed" text="Dirección:"/>
+                                                    <WORDWRAPBOX name="WordWrapBox" width="150" length="13" fontSize="10" floatingBehavior="enclosed" text="Avenida 2 No. 13-75 La Playa"/>
+                                                </LAYOUTNODE>
+                                            </LAYOUTNODE>
+                                            <LAYOUTNODE name="LayoutNode26" width="260" length="13" floatingBehavior="enclosed">
+                                                <LAYOUTNODE name="LayoutNode28" width="13" length="260" alignment="near" layoutDirection="leftToRight" floatingBehavior="enclosed">
+                                                    <WORDBOX name="WordBox15" width="52" fontSize="10" fontBold="true" floatingBehavior="enclosed" text="Ciudad:"/>
+                                                    <WORDBOX name="WordBox16" fontSize="10" floatingBehavior="enclosed" text="San José de Cúcuta"/>
+                                                </LAYOUTNODE>
+                                            </LAYOUTNODE>
+                                        </LAYOUTNODE>
+                                        <LAYOUTNODE name="LayoutNode72" width="13" length="max" layoutDirection="leftToRight" floatingBehavior="enclosed" borderWidth="0" borderTopWidth="1" borderStyle="solid">
+                                            <WORDBOX name="WordBox14_1" width="min" alignment="baseline" fontSize="10" fontBold="true" floatingBehavior="enclosed" text="Correo Electrónico:   "/>
+                                            <WORDBOX name="WordBox43" fontSize="9" floatingBehavior="enclosed" text="facturacion@comfaoriente.com"/>
+                                        </LAYOUTNODE>
+                                    </LAYOUTNODE>
+                                </LAYOUTNODE>
+                            </LAYOUTNODE>
+                            <LAYOUTNODE name="LayoutNode100" width="10" length="min" floatingBehavior="enclosed"/>
+                        </LAYOUTNODE>
+                        <LAYOUTNODE name="LayoutNode29" width="25" length="max" layoutDirection="leftToRight" floatingBehavior="enclosed"/>
+                        <LAYOUTNODE name="LayoutNode67" width="15" length="500" bgColor="#dddddd" layoutDirection="leftToRight" floatingBehavior="enclosed" paddingLeftWidth="10" borderWidth="0" borderTopWidth="1" borderRightWidth="1" borderBottomWidth="0" borderLeftWidth="1" borderStyle="none">
+                            <WORDBOX name="WordBox36" width="53" fontSize="9" fontBold="true" floatingBehavior="enclosed" textAlignment="center" text="CODIGO"/>
+                            <WORDBOX name="WordBox37" width="187" fontSize="9" fontBold="true" floatingBehavior="enclosed" textAlignment="center" text="DESCRIPCIÓN"/>
+                            <WORDBOX name="WordBox38" width="58" fontSize="9" fontBold="true" floatingBehavior="enclosed" textAlignment="center" text="CANTIDAD"/>
+                            <WORDBOX name="WordBox39" width="120" fontSize="9" fontBold="true" floatingBehavior="enclosed" textAlignment="center" text="VALOR U."/>
+                            <WORDBOX name="WordBox40" width="80" fontSize="9" fontBold="true" floatingBehavior="enclosed" textAlignment="center" text="VALOR TOTAL"/>
+                        </LAYOUTNODE>
+                    </rtl:match>
+                    <rtl:match name="Group codigo" nameConstraint="Group" minOccurs="0" maxOccurs="unbounded">
+                        <rtl:match name="OnEveryRow" nameConstraint="OnEveryRow" minOccurs="0" maxOccurs="unbounded">
+                            <LAYOUTNODE name="LayoutNode93" width="min" length="min" layoutDirection="leftToRight" floatingBehavior="enclosed">
+                                <LAYOUTNODE name="LayoutNode94" width="10" length="min" floatingBehavior="enclosed"/>
+                                <LAYOUTNODE name="LayoutNode95" width="min" length="min" floatingBehavior="enclosed">
+                                    <TABLE name="Table" width="498.825" floatingBehavior="enclosed" rule="1" border="0.5">
+                                        <COLDEFS name="Coldefs42">
+                                            <COLDEF pWidth="0.5345" name="Coldef126"/>
+                                            <COLDEF pWidth="1.88736" name="Coldef127"/>
+                                            <COLDEF pWidth="0.578141" name="Coldef130"/>
+                                            <COLDEF pWidth="1.18527" name="Coldef129"/>
+                                            <COLDEF pWidth="0.814731" name="Coldef128"/>
+                                        </COLDEFS>
+                                        <TBODY name="Body42">
+                                            <ROW name="Row85">
+                                                <COL name="Col255">
+                                                    <rtl:input-variable name="r_usuario.codigo" type="FGLString" expectedLocation="expectedHere"/>
+                                                    <WORDBOX name="r_usuario.codigo Value" class="grwStringValue" width="max" fontSize="8" floatingBehavior="enclosed" text="{{r_usuario.codigo}}"/>
+                                                </COL>
+                                                <COL name="Col256">
+                                                    <rtl:input-variable name="r_usuario.descripcion" type="FGLString" expectedLocation="expectedHere"/>
+                                                    <WORDWRAPBOX name="r_usuario.descripcion Value" class="grwTableStringColumnValue" width="max" fontSize="8" floatingBehavior="enclosed" text="{{r_usuario.descripcion}}"/>
+                                                </COL>
+                                                <COL name="Col261">
+                                                    <rtl:input-variable name="r_usuario.cantidad" type="FGLNumeric" expectedLocation="expectedHere"/>
+                                                    <DECIMALFORMATBOX name="r_usuario.cantidad Value" class="grwTableNumericColumnValue" width="max" anchorX="1" fontSize="8" floatingBehavior="enclosed" textAlignment="center" format="---,---,---,--&amp;.&amp;&amp;" value="{{r_usuario.cantidad}}"/>
+                                                </COL>
+                                                <COL name="Col259">
+                                                    <rtl:input-variable name="r_usuario.valor_unitario" type="FGLNumeric" expectedLocation="expectedHere"/>
+                                                    <DECIMALFORMATBOX name="r_usuario.valor_unitario Value" class="grwTableNumericColumnValue" width="max" anchorX="1" fontSize="8" floatingBehavior="enclosed" textAlignment="right" format="---,---,---,--&amp;.&amp;&amp;" value="{{r_usuario.valor_unitario}}"/>
+                                                </COL>
+                                                <COL name="Col257">
+                                                    <rtl:input-variable name="r_usuario.valor_total" type="FGLNumeric" expectedLocation="expectedHere"/>
+                                                    <DECIMALFORMATBOX name="r_usuario.valor_total Value" class="grwTableNumericColumnValue" width="max" anchorX="1" fontSize="8" floatingBehavior="enclosed" textAlignment="right" format="---,---,---,--&amp;.&amp;&amp;" value="{{r_usuario.valor_total}}"/>
+                                                </COL>
+                                            </ROW>
+                                        </TBODY>
+                                    </TABLE>
+                                </LAYOUTNODE>
+                                <LAYOUTNODE name="LayoutNode96" width="10" length="min" alignment="near" floatingBehavior="enclosed"/>
+                            </LAYOUTNODE>
+                        </rtl:match>
+                    </rtl:match>
+                    <rtl:match name="OnLastRow" nameConstraint="OnLastRow" minOccurs="0" maxOccurs="1">
+                        <LAYOUTNODE name="LayoutNode92" width="min" length="min" layoutDirection="leftToRight" floatingBehavior="enclosed">
+                            <LAYOUTNODE name="separador_izq" width="10" length="271.25" floatingBehavior="enclosed"/>
+                            <LAYOUTNODE name="contenido" width="500" length="min" floatingBehavior="enclosed">
+                                <LAYOUTNODE name="LayoutNode58" width="25" length="max" layoutDirection="leftToRight" floatingBehavior="enclosed"/>
+                                <LAYOUTNODE name="LayoutNode2" width="80" length="max" layoutDirection="leftToRight" floatingBehavior="enclosed">
+                                    <LAYOUTNODE name="LayoutNode54" width="380" length="80" floatingBehavior="enclosed" roundedCorners="true" borderWidth="0" borderTopWidth="1" borderRightWidth="1" borderBottomWidth="1" borderLeftWidth="1" borderStyle="solid">
+                                        <LAYOUTNODE name="LayoutNode57" width="11" length="365" layoutDirection="leftToRight" floatingBehavior="enclosed">
+                                            <WORDBOX name="WordBox33" width="max" length="11" alignment="baseline" fontSize="9" fontBold="true" floatingBehavior="enclosed" text="Concepto:"/>
+                                        </LAYOUTNODE>
+                                        <LAYOUTNODE name="LayoutNode68" width="65" length="min" layoutDirection="leftToRight" floatingBehavior="enclosed">
+                                            <rtl:input-variable name="nota" type="FGLString" expectedLocation="expectedHere"/>
+                                            <WORDWRAPBOX name="nota Value" class="grwStringValue" width="380" length="65" fontSize="8" floatingBehavior="enclosed" text="{{nota}}"/>
+                                        </LAYOUTNODE>
+                                    </LAYOUTNODE>
+                                    <LAYOUTNODE name="LayoutNode55" width="34" length="50" bgColor="#ffffff" floatingBehavior="enclosed">
+                                        <WORDBOX name="WordBox34" width="34" length="20" alignment="baseline" fontSize="8" fontBold="true" floatingBehavior="enclosed" textAlignment="right" text="TOTAL:" marginTopWidth="7"/>
+                                    </LAYOUTNODE>
+                                    <LAYOUTNODE name="LayoutNode56" width="82" length="30" bgColor="#dddddd" floatingBehavior="enclosed" roundedCorners="true" borderWidth="0" borderTopWidth="1" borderRightWidth="1" borderBottomWidth="1" borderLeftWidth="1" borderStyle="solid">
+                                        <rtl:input-variable name="ld_total" type="FGLNumeric" expectedLocation="expectedHere"/>
+                                        <DECIMALFORMATBOX name="ld_total Value" class="grwNumericValue" width="82" length="20" anchorX="1" alignment="baseline" bgColor="#dddddd" fontSize="10" fontBold="true" underline="false" floatingBehavior="enclosed" textAlignment="center" format="---,---,---,---,---,---,---,--&amp;.&amp;&amp;" value="{{ld_total}}" marginTopWidth="7"/>
+                                    </LAYOUTNODE>
+                                </LAYOUTNODE>
+                                <LAYOUTNODE name="LayoutNode73" width="145" length="max" alignment="center" layoutDirection="leftToRight" floatingBehavior="enclosed"/>
+                                <LAYOUTNODE name="LayoutNode74" width="40" length="max" layoutDirection="leftToRight" floatingBehavior="enclosed">
+                                    <LAYOUTNODE name="LayoutNode75" width="250.25" length="40" floatingBehavior="enclosed">
+                                        <LAYOUTNODE name="LayoutNode77" width="min" length="250" alignment="near" layoutDirection="leftToRight" floatingBehavior="enclosed">
+                                            <LAYOUTNODE name="LayoutNode79" width="10" length="min" floatingBehavior="enclosed"/>
+                                            <LAYOUTNODE name="LayoutNode80" width="230" length="min" floatingBehavior="enclosed" borderBottomWidth="2">
+                                                <rtl:input-variable name="nombre_usuario" type="FGLString" expectedLocation="expectedHere"/>
+                                                <WORDBOX name="nombre_usuario Value" class="grwStringValue" width="max" fontSize="9" floatingBehavior="enclosed" textAlignment="center" text="{{nombre_usuario}}"/>
+                                            </LAYOUTNODE>
+                                            <LAYOUTNODE name="LayoutNode81" width="10" length="min" floatingBehavior="enclosed"/>
+                                        </LAYOUTNODE>
+                                        <LAYOUTNODE name="LayoutNode78" width="min" length="250" layoutDirection="leftToRight" floatingBehavior="enclosed">
+                                            <LAYOUTNODE name="LayoutNode79_1" width="10" length="min" floatingBehavior="enclosed"/>
+                                            <LAYOUTNODE name="LayoutNode80_1" width="220" length="min" alignment="near" floatingBehavior="enclosed">
+                                                <WORDBOX name="WordBox44" width="229.75" length="15.6648" fontSize="9" floatingBehavior="enclosed" textAlignment="center" text="ELABORADO POR" borderWidth="0" borderTopWidth="1" borderStyle="solid"/>
+                                            </LAYOUTNODE>
+                                        </LAYOUTNODE>
+                                    </LAYOUTNODE>
+                                    <LAYOUTNODE name="LayoutNode76" width="250" length="40" floatingBehavior="enclosed">
+                                        <LAYOUTNODE name="LayoutNode77_1" width="min" length="max" layoutDirection="leftToRight" floatingBehavior="enclosed">
+                                            <LAYOUTNODE name="LayoutNode88" width="10" length="min" floatingBehavior="enclosed"/>
+                                            <LAYOUTNODE name="LayoutNode89" width="210" length="min" floatingBehavior="enclosed">
+                                                <WORDBOX name="WordBox46" width="230" fontSize="9" floatingBehavior="enclosed" textAlignment="center" text=""/>
+                                            </LAYOUTNODE>
+                                            <LAYOUTNODE name="LayoutNode90" width="30" length="min" floatingBehavior="enclosed"/>
+                                        </LAYOUTNODE>
+                                        <LAYOUTNODE name="LayoutNode78_1" width="min" length="max" layoutDirection="leftToRight" floatingBehavior="enclosed">
+                                            <LAYOUTNODE name="LayoutNode79_2" width="10.25" length="min" floatingBehavior="enclosed"/>
+                                            <LAYOUTNODE name="LayoutNode80_2" width="210" length="min" floatingBehavior="enclosed">
+                                                <WORDBOX name="WordBox44_1" width="230" length="15" fontSize="9" floatingBehavior="enclosed" textAlignment="center" text="REVISADO POR" borderWidth="0" borderTopWidth="1" borderStyle="solid"/>
+                                            </LAYOUTNODE>
+                                            <LAYOUTNODE name="LayoutNode81_2" width="30" length="min" floatingBehavior="enclosed"/>
+                                        </LAYOUTNODE>
+                                    </LAYOUTNODE>
+                                </LAYOUTNODE>
+                                <LAYOUTNODE name="LayoutNode91" width="min" length="max" layoutDirection="leftToRight" floatingBehavior="enclosed">
+                                    <WORDBOX name="WordBox45" width="max" fontSize="9" floatingBehavior="enclosed" textAlignment="center" text="Lo anterior en cumplimiento del Articulo 55 de la Resolución 42 de Mayo de 2020"/>
+                                </LAYOUTNODE>
+                            </LAYOUTNODE>
+                            <LAYOUTNODE name="separador_dere" width="10" length="269" floatingBehavior="enclosed"/>
+                        </LAYOUTNODE>
+                    </rtl:match>
+                </MINIPAGE>
+            </rtl:match>
+        </PXML>
+    </rtl:stylesheet>
+</report:Report>

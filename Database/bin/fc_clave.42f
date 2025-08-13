@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<Form name="fc_clave.tmp" build="3.10.18" sqlDbName="empresa" text="CLAVE DE ACCESO" width="45" height="16">
+  <LStr text="CLAVE DE ACCESO"/>
+  <Grid name="gr3" width="45" height="16">
+    <Image name="logo" width="33" height="7" image="formulario" autoScale="1" stretch="none" posY="0" posX="10" gridWidth="25" gridHeight="9"/>
+    <Label name="lb3" width="7" text="CLAVE :" posY="10" posX="15" gridWidth="7">
+      <LStr text="CLAVE :"/>
+    </Label>
+    <FormField name="formonly.mclave" colName="mclave" sqlType="CHAR" fieldId="0" sqlTabName="formonly" tabIndex="0">
+      <Edit width="7" isPassword="1" posY="10" posX="24" gridWidth="7"/>
+    </FormField>
+    <Label name="label1" width="43" height="2" text="APLICATIVO DOCUMENTO SOPORTE NO OBLIGADOS A FACTURAR" justify="center" posY="12" posX="1" gridWidth="43" gridHeight="2">
+      <LStr text="APLICATIVO DOCUMENTO SOPORTE NO OBLIGADOS A FACTURAR"/>
+    </Label>
+  </Grid>
+  <RecordView tabName="formonly">
+    <Link colName="mclave" fieldIdRef="0"/>
+  </RecordView>
+  <RecordView tabName="undefined">
+    <Link colName="mclave" fieldIdRef="0"/>
+  </RecordView>
+</Form>

@@ -1,0 +1,266 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<Form name="fc_nota.tmp" build="3.10.18" sqlDbName="empresa" text="MODULO DE NOTAS DEBITO-CREDITO" width="155" height="25">
+  <LStr text="MODULO DE NOTAS DEBITO-CREDITO"/>
+  <Grid name="grid1" width="155" height="25">
+    <Label name="label17" width="8" text="Tipo Nota:" posY="1" posX="1" gridWidth="8">
+      <LStr text="Tipo Nota:"/>
+    </Label>
+    <FormField name="fc_nota_m.tipo" colName="tipo" sqlType="CHAR(2)" required="1" notNull="1" fieldId="0" sqlTabName="fc_nota_m" tabIndex="6">
+      <ComboBox width="21" shift="up" posY="1" posX="10" gridWidth="23"/>
+    </FormField>
+    <Label name="label7" width="11" text="Numero interno :" posY="1" posX="34" gridWidth="11">
+      <LStr text="Numero interno :"/>
+    </Label>
+    <FormField name="fc_nota_m.documento" colName="documento" sqlType="CHAR(7)" required="1" notNull="1" fieldId="1" sqlTabName="fc_nota_m" tabIndex="11">
+      <Edit width="7" posY="1" posX="46" gridWidth="7"/>
+    </FormField>
+    <Label name="label18" width="10" text="Numero Nota :" posY="1" posX="54" gridWidth="10">
+      <LStr text="Numero Nota :"/>
+    </Label>
+    <FormField name="fc_nota_m.numnota" colName="numnota" sqlType="INTEGER" fieldId="2" sqlTabName="fc_nota_m" noEntry="1" tabIndex="12">
+      <Edit width="7" posY="1" posX="65" gridWidth="7"/>
+    </FormField>
+    <Label name="label3" width="13" text="Fecha elaboracion :" posY="1" posX="73" gridWidth="13">
+      <LStr text="Fecha elaboracion :"/>
+    </Label>
+    <FormField name="fc_nota_m.fecha_elaboracion" colName="fecha_elaboracion" sqlType="DATE" required="1" notNull="1" fieldId="3" sqlTabName="fc_nota_m" noEntry="1" tabIndex="13">
+      <DateEdit width="8" posY="1" posX="87" gridWidth="10"/>
+    </FormField>
+    <Label name="label20" width="9" text="Fecha Nota :" posY="1" posX="98" gridWidth="9">
+      <LStr text="Fecha Nota :"/>
+    </Label>
+    <FormField name="fc_nota_m.fecha_nota" colName="fecha_nota" sqlType="DATE" fieldId="4" sqlTabName="fc_nota_m" noEntry="1" tabIndex="14">
+      <DateEdit width="8" posY="1" posX="108" gridWidth="10"/>
+    </FormField>
+    <Label name="label21" width="5" text="Hora :" posY="1" posX="119" gridWidth="5">
+      <LStr text="Hora :"/>
+    </Label>
+    <FormField name="fc_nota_m.hora" colName="hora" sqlType="CHAR(8)" fieldId="5" sqlTabName="fc_nota_m" noEntry="1" tabIndex="15">
+      <Edit width="6" posY="1" posX="125" gridWidth="6"/>
+    </FormField>
+    <Label name="label2" width="13" text="Motivo Nota Dian: " posY="2" posX="1" gridWidth="13">
+      <LStr text="Motivo Nota Dian: "/>
+    </Label>
+    <FormField name="fc_nota_m.tipo_nota" colName="tipo_nota" sqlType="CHAR(1)" required="1" notNull="1" fieldId="6" sqlTabName="fc_nota_m" tabIndex="7">
+      <ComboBox width="44" shift="up" posY="2" posX="16" gridWidth="46"/>
+    </FormField>
+    <Label name="label26" width="13" text="Motivo Nota CCF: " posY="2" posX="64" gridWidth="13">
+      <LStr text="Motivo Nota CCF: "/>
+    </Label>
+    <FormField name="fc_nota_m.tipo_nota_c" colName="tipo_nota_c" sqlType="CHAR(1)" fieldId="7" sqlTabName="fc_nota_m" tabIndex="10">
+      <ComboBox width="49" shift="up" posY="2" posX="78" gridWidth="51"/>
+    </FormField>
+    <HLine posY="3" posX="0" gridWidth="155"/>
+    <Label name="label22" width="6" text="Prefijo:" posY="4" posX="1" gridWidth="6">
+      <LStr text="Prefijo:"/>
+    </Label>
+    <FormField name="fc_nota_m.prefijo" colName="prefijo" sqlType="CHAR(5)" required="1" notNull="1" fieldId="8" sqlTabName="fc_nota_m" tabIndex="2">
+      <Edit width="5" shift="up" posY="4" posX="8" gridWidth="5"/>
+    </FormField>
+    <FormField name="formonly.mprefijo" colName="mprefijo" sqlType="CHAR" fieldId="9" sqlTabName="formonly" tabIndex="3" noEntry="1">
+      <Edit width="25" autoNext="1" shift="up" posY="4" posX="14" gridWidth="25"/>
+    </FormField>
+    <Label name="label23" width="13" text="Numero Documento :" posY="4" posX="40" gridWidth="13">
+      <LStr text="Numero Documento :"/>
+    </Label>
+    <FormField name="fc_nota_m.numfac" colName="numfac" sqlType="INTEGER" required="1" notNull="1" fieldId="10" sqlTabName="fc_nota_m" tabIndex="4">
+      <Edit width="8" posY="4" posX="54" gridWidth="8"/>
+    </FormField>
+    <Label name="label19" width="5" text="CUDE:" posY="4" posX="63" gridWidth="5">
+      <LStr text="CUDE:"/>
+    </Label>
+    <FormField name="fc_nota_m.cude" colName="cude" sqlType="CHAR(100)" fieldId="11" sqlTabName="fc_nota_m" noEntry="1" tabIndex="16">
+      <Edit width="76" posY="4" posX="69" gridWidth="76"/>
+    </FormField>
+    <Label name="label16" width="8" text="Proveedor :" posY="5" posX="1" gridWidth="8">
+      <LStr text="Proveedor :"/>
+    </Label>
+    <FormField name="formonly.mnit" colName="mnit" sqlType="CHAR" fieldId="12" sqlTabName="formonly" notNull="1" required="1" tabIndex="17">
+      <Edit width="20" autoNext="1" shift="up" comment="DIGITE EL NUMERO DEL DOCUMENTO" posY="5" posX="10" gridWidth="20">
+        <LStr comment="DIGITE EL NUMERO DEL DOCUMENTO"/>
+      </Edit>
+    </FormField>
+    <FormField name="formonly.mrazsoc" colName="mrazsoc" sqlType="CHAR" fieldId="13" sqlTabName="formonly" noEntry="1" tabIndex="18">
+      <Edit width="50" autoNext="1" shift="up" posY="5" posX="32" gridWidth="50"/>
+    </FormField>
+    <Label name="label25" width="9" text="Fecha Factu :" posY="5" posX="83" gridWidth="9">
+      <LStr text="Fecha Factu :"/>
+    </Label>
+    <FormField name="formonly.mfecfactu" colName="mfecfactu" sqlType="DATE" fieldId="14" sqlTabName="formonly" tabIndex="5" noEntry="1">
+      <DateEdit width="8" posY="5" posX="93" gridWidth="10"/>
+    </FormField>
+    <HLine posY="6" posX="0" gridWidth="155"/>
+    <Label name="label1" width="5" text="Nota:" posY="7" posX="1" gridWidth="5">
+      <LStr text="Nota:"/>
+    </Label>
+    <FormField name="fc_nota_m.nota1" colName="nota1" sqlType="CHAR(400)" fieldId="15" sqlTabName="fc_nota_m" tabIndex="1">
+      <TextEdit width="100" height="3" shift="up" wantReturns="1" scroll="1" posY="7" posX="8" gridWidth="100" gridHeight="3"/>
+    </FormField>
+    <HLine posY="10" posX="0" gridWidth="155"/>
+    <Label name="label5" width="6" text="Estado :" posY="11" posX="1" gridWidth="6">
+      <LStr text="Estado :"/>
+    </Label>
+    <FormField name="fc_nota_m.estado" colName="estado" sqlType="CHAR(1)" required="1" notNull="1" fieldId="16" sqlTabName="fc_nota_m" tabIndex="19">
+      <ComboBox width="18" posY="11" posX="8" gridWidth="20"/>
+    </FormField>
+    <Label name="label4" width="9" text="Cod/Estado :" posY="11" posX="30" gridWidth="9">
+      <LStr text="Cod/Estado :"/>
+    </Label>
+    <FormField name="fc_nota_m.codest" colName="codest" sqlType="CHAR(3)" fieldId="17" sqlTabName="fc_nota_m" noEntry="1" tabIndex="20">
+      <ComboBox width="14" posY="11" posX="40" gridWidth="16"/>
+    </FormField>
+    <Label name="label6" width="11" text="Fecha Estado :" posY="11" posX="58" gridWidth="11">
+      <LStr text="Fecha Estado :"/>
+    </Label>
+    <FormField name="fc_nota_m.fecest" colName="fecest" sqlType="DATE" fieldId="18" sqlTabName="fc_nota_m" noEntry="1" tabIndex="21">
+      <DateEdit width="8" posY="11" posX="70" gridWidth="10"/>
+    </FormField>
+    <Label name="label24" width="5" text="Hora :" posY="11" posX="81" gridWidth="5">
+      <LStr text="Hora :"/>
+    </Label>
+    <FormField name="fc_nota_m.horaest" colName="horaest" sqlType="CHAR(8)" fieldId="19" sqlTabName="fc_nota_m" noEntry="1" tabIndex="22">
+      <Edit width="5" posY="11" posX="87" gridWidth="5"/>
+    </FormField>
+    <Label name="label30" width="13" text="Compr Contable :" posY="11" posX="93" gridWidth="13">
+      <LStr text="Compr Contable :"/>
+    </Label>
+    <FormField name="fc_nota_m.codcop" colName="codcop" sqlType="CHAR(4)" fieldId="20" sqlTabName="fc_nota_m" noEntry="1" tabIndex="23">
+      <Edit width="3" posY="11" posX="107" gridWidth="3"/>
+    </FormField>
+    <Label name="label31" width="2" text="-" posY="11" posX="111" gridWidth="2">
+      <LStr text="-"/>
+    </Label>
+    <FormField name="fc_nota_m.docu" colName="docu" sqlType="CHAR(7)" fieldId="21" sqlTabName="fc_nota_m" noEntry="1" tabIndex="24">
+      <Edit width="8" posY="11" posX="114" gridWidth="8"/>
+    </FormField>
+    <HLine posY="12" posX="0" gridWidth="155"/>
+    <Label name="label8" width="7" text="Cod/Serv" posY="13" posX="1" gridWidth="7">
+      <LStr text="Cod/Serv"/>
+    </Label>
+    <Label name="label14" width="14" text="Descripcion Servicio" posY="13" posX="10" gridWidth="14">
+      <LStr text="Descripcion Servicio"/>
+    </Label>
+    <Label name="label27" width="6" text="Sub.Cod" posY="13" posX="29" gridWidth="6">
+      <LStr text="Sub.Cod"/>
+    </Label>
+    <Label name="label28" width="14" text="Descripcion Servicio" posY="13" posX="48" gridWidth="14">
+      <LStr text="Descripcion Servicio"/>
+    </Label>
+    <Label name="label10" width="5" text="Cant." posY="13" posX="76" gridWidth="5">
+      <LStr text="Cant."/>
+    </Label>
+    <Label name="label11" width="9" text="Valor Unitario" posY="13" posX="84" gridWidth="9">
+      <LStr text="Valor Unitario"/>
+    </Label>
+    <Label name="label13" width="8" text="Valor Total" posY="13" posX="99" gridWidth="8">
+      <LStr text="Valor Total"/>
+    </Label>
+    <Matrix pageSize="9" name="fc_nota_d.codigo" colName="codigo" sqlType="CHAR(5)" required="1" notNull="1" fieldId="22" sqlTabName="fc_nota_d" noEntry="1" tabIndex="25">
+      <Edit width="5" autoNext="1" comment="DIGITE EL CODIGO DEL SERVICIO" posY="14" posX="1" gridWidth="5">
+        <LStr comment="DIGITE EL CODIGO DEL SERVICIO"/>
+      </Edit>
+    </Matrix>
+    <Matrix pageSize="9" name="fc_servicios.descripcion" colName="descripcion" sqlType="CHAR(50)" required="1" notNull="1" fieldId="23" sqlTabName="fc_servicios" noEntry="1" tabIndex="26">
+      <Edit width="22" autoNext="1" comment="DESCRIPCION DEL SERVICIO" posY="14" posX="7" gridWidth="22">
+        <LStr comment="DESCRIPCION DEL SERVICIO"/>
+      </Edit>
+    </Matrix>
+    <Matrix pageSize="9" name="fc_nota_d.subcodigo" colName="subcodigo" sqlType="CHAR(5)" fieldId="24" sqlTabName="fc_nota_d" tabIndex="8">
+      <Edit width="5" autoNext="1" comment="DIGITE EL CODIGO DEL SERVICIO" posY="14" posX="30" gridWidth="5">
+        <LStr comment="DIGITE EL CODIGO DEL SERVICIO"/>
+      </Edit>
+    </Matrix>
+    <Matrix pageSize="9" name="formonly.descri" colName="descri" sqlType="CHAR" fieldId="25" sqlTabName="formonly" tabIndex="9" noEntry="1" notNull="1" required="1">
+      <Edit width="37" autoNext="1" comment="DESCRIPCION DEL SERVICIO" posY="14" posX="36" gridWidth="37">
+        <LStr comment="DESCRIPCION DEL SERVICIO"/>
+      </Edit>
+    </Matrix>
+    <Matrix pageSize="9" name="fc_nota_d.cantidad" colName="cantidad" sqlType="INTEGER" required="1" notNull="1" fieldId="26" sqlTabName="fc_nota_d" tabIndex="27">
+      <Edit width="6" autoNext="1" comment="DIGITE LA CANTIDAD DE PERSONAS" posY="14" posX="75" gridWidth="6">
+        <LStr comment="DIGITE LA CANTIDAD DE PERSONAS"/>
+      </Edit>
+    </Matrix>
+    <Matrix pageSize="9" name="fc_nota_d.valoruni" colName="valoruni" sqlType="DECIMAL(12,2)" required="1" notNull="1" fieldId="27" sqlTabName="fc_nota_d" tabIndex="28">
+      <Edit width="14" autoNext="1" format="###,###,##&amp;.&amp;&amp;" comment="VALOR UNITARIO DEL CONVENIO" posY="14" posX="82" gridWidth="14">
+        <LStr comment="VALOR UNITARIO DEL CONVENIO"/>
+      </Edit>
+    </Matrix>
+    <Matrix pageSize="9" name="fc_factura_d.valor" colName="valor" sqlType="DECIMAL(12,2)" required="1" notNull="1" fieldId="28" sqlTabName="fc_factura_d" noEntry="1" tabIndex="29">
+      <Edit width="14" autoNext="1" format="###,###,##&amp;.&amp;&amp;" comment="VALOR TOTAL" posY="14" posX="97" gridWidth="14">
+        <LStr comment="VALOR TOTAL"/>
+      </Edit>
+    </Matrix>
+  </Grid>
+  <RecordView tabName="fc_servicios">
+    <Link colName="descripcion" fieldIdRef="23"/>
+  </RecordView>
+  <RecordView tabName="fc_nota_m">
+    <Link colName="tipo" fieldIdRef="0"/>
+    <Link colName="documento" fieldIdRef="1"/>
+    <Link colName="numnota" fieldIdRef="2"/>
+    <Link colName="fecha_elaboracion" fieldIdRef="3"/>
+    <Link colName="fecha_nota" fieldIdRef="4"/>
+    <Link colName="hora" fieldIdRef="5"/>
+    <Link colName="tipo_nota" fieldIdRef="6"/>
+    <Link colName="tipo_nota_c" fieldIdRef="7"/>
+    <Link colName="prefijo" fieldIdRef="8"/>
+    <Link colName="numfac" fieldIdRef="10"/>
+    <Link colName="cude" fieldIdRef="11"/>
+    <Link colName="nota1" fieldIdRef="15"/>
+    <Link colName="estado" fieldIdRef="16"/>
+    <Link colName="codest" fieldIdRef="17"/>
+    <Link colName="fecest" fieldIdRef="18"/>
+    <Link colName="horaest" fieldIdRef="19"/>
+    <Link colName="codcop" fieldIdRef="20"/>
+    <Link colName="docu" fieldIdRef="21"/>
+  </RecordView>
+  <RecordView tabName="fc_factura_d">
+    <Link colName="valor" fieldIdRef="28"/>
+  </RecordView>
+  <RecordView tabName="fc_nota_d">
+    <Link colName="codigo" fieldIdRef="22"/>
+    <Link colName="subcodigo" fieldIdRef="24"/>
+    <Link colName="cantidad" fieldIdRef="26"/>
+    <Link colName="valoruni" fieldIdRef="27"/>
+  </RecordView>
+  <RecordView tabName="formonly">
+    <Link colName="mprefijo" fieldIdRef="9"/>
+    <Link colName="mnit" fieldIdRef="12"/>
+    <Link colName="mrazsoc" fieldIdRef="13"/>
+    <Link colName="mfecfactu" fieldIdRef="14"/>
+    <Link colName="descri" fieldIdRef="25"/>
+  </RecordView>
+  <RecordView tabName="ofe">
+    <Link colName="codigo" fieldIdRef="22"/>
+    <Link colName="descripcion" fieldIdRef="23"/>
+    <Link colName="subcodigo" fieldIdRef="24"/>
+    <Link colName="descri" fieldIdRef="25"/>
+    <Link colName="cantidad" fieldIdRef="26"/>
+    <Link colName="valoruni" fieldIdRef="27"/>
+    <Link colName="valor" fieldIdRef="28"/>
+  </RecordView>
+  <RecordView tabName="undefined">
+    <Link colName="documento" fieldIdRef="1"/>
+    <Link colName="mnit" fieldIdRef="12"/>
+    <Link colName="fecha_elaboracion" fieldIdRef="3"/>
+    <Link colName="estado" fieldIdRef="16"/>
+    <Link colName="numnota" fieldIdRef="2"/>
+    <Link colName="cude" fieldIdRef="11"/>
+    <Link colName="fecha_nota" fieldIdRef="4"/>
+    <Link colName="hora" fieldIdRef="5"/>
+    <Link colName="mrazsoc" fieldIdRef="13"/>
+    <Link colName="codest" fieldIdRef="17"/>
+    <Link colName="fecest" fieldIdRef="18"/>
+    <Link colName="horaest" fieldIdRef="19"/>
+    <Link colName="nota1" fieldIdRef="15"/>
+    <Link colName="prefijo" fieldIdRef="8"/>
+    <Link colName="mprefijo" fieldIdRef="9"/>
+    <Link colName="numfac" fieldIdRef="10"/>
+    <Link colName="mfecfactu" fieldIdRef="14"/>
+    <Link colName="tipo" fieldIdRef="0"/>
+    <Link colName="tipo_nota" fieldIdRef="6"/>
+    <Link colName="tipo_nota_c" fieldIdRef="7"/>
+    <Link colName="codcop" fieldIdRef="20"/>
+    <Link colName="docu" fieldIdRef="21"/>
+  </RecordView>
+</Form>

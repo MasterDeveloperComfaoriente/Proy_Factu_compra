@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ManagedForm databaseName="empresa" fileVersion="30a00" gstVersion="30a0b" name="Root" uid="{f310a4d9-0dce-4d0f-89c3-011a9601fb83}">
+  <AGSettings>
+    <DynamicProperties version="2"/>
+  </AGSettings>
+  <Record additionalTables="" joinLeft="" joinOperator="" joinRight="" name="Undefined" order="" uid="{ba099522-444a-4eb0-8292-193d0598980c}" where="">
+    <RecordField colName="auxiliar_ef" fieldIdRef="1" fieldType="TABLE_COLUMN" name="fe_medio_pago_aux.auxiliar_ef" sqlTabName="fe_medio_pago_aux" sqlType="CHAR" table_alias_name="" uid="{3b4435cf-bf73-42b3-a1f7-b9b0fd9c6bfe}"/>
+    <RecordField colName="detalle1" fieldIdRef="2" name="detalle1" sqlTabName="formonly" table_alias_name="" uid="{dc100af3-bbf8-4176-b925-50f3fd540b3c}"/>
+    <RecordField colName="auxiliar_tc" fieldIdRef="3" fieldType="TABLE_COLUMN" name="fe_medio_pago_aux.auxiliar_tc" sqlTabName="fe_medio_pago_aux" sqlType="CHAR" table_alias_name="" uid="{c0fb2d46-4813-4757-a1f8-976335a3445d}"/>
+    <RecordField colName="detalle1" fieldIdRef="4" name="detalle2" sqlTabName="formonly" table_alias_name="" uid="{da9087b1-a7d3-4992-b2c2-03cd8e4b9094}"/>
+    <RecordField colName="auxiliar_td" fieldIdRef="5" fieldType="TABLE_COLUMN" name="fe_medio_pago_aux.auxiliar_td" sqlTabName="fe_medio_pago_aux" sqlType="CHAR" table_alias_name="" uid="{6962bf17-15a6-49af-bc84-cce79edde222}"/>
+    <RecordField colName="detalle1" fieldIdRef="6" name="detalle3" sqlTabName="formonly" table_alias_name="" uid="{32a76658-0817-414f-9e5c-6efb5c1b86fd}"/>
+    <RecordField colName="auxiliar_co" fieldIdRef="7" fieldType="TABLE_COLUMN" name="fe_medio_pago_aux.auxiliar_co" sqlTabName="fe_medio_pago_aux" sqlType="CHAR" table_alias_name="" uid="{eabae127-cb6d-4872-9cd1-cb5aafa8240a}"/>
+    <RecordField colName="detalle1" fieldIdRef="8" name="detalle4" sqlTabName="formonly" table_alias_name="" uid="{fdf6ab8c-f6b3-438a-a1a6-ea24e9ca8b90}"/>
+    <RecordField colName="auxiliar_ch" fieldIdRef="9" fieldType="TABLE_COLUMN" name="fe_medio_pago_aux.auxiliar_ch" sqlTabName="fe_medio_pago_aux" sqlType="CHAR" table_alias_name="" uid="{2fdc8776-0f40-4d51-830c-1669180b6da9}"/>
+    <RecordField colName="detalle1" fieldIdRef="10" name="detalle5" sqlTabName="formonly" table_alias_name="" uid="{489d9437-f704-4969-baab-963412842630}"/>
+    <RecordField colName="auxiliar_tr" fieldIdRef="11" fieldType="TABLE_COLUMN" name="fe_medio_pago_aux.auxiliar_tr" sqlTabName="fe_medio_pago_aux" sqlType="CHAR" table_alias_name="" uid="{b8029897-33bd-427f-a955-48753ef879f6}"/>
+    <RecordField colName="detalle1" fieldIdRef="12" name="detalle6" sqlTabName="formonly" table_alias_name="" uid="{1ddf0e78-bc4b-4054-bdaa-680ec693be25}"/>
+    <RecordField colName="cencos_ef" fieldIdRef="13" fieldType="TABLE_COLUMN" name="fe_medio_pago_aux.cencos_ef" sqlTabName="fe_medio_pago_aux" sqlType="CHAR" table_alias_name="" uid="{24c484cc-1267-4ef7-80f1-d2b64b33f733}"/>
+    <RecordField colName="detalle2" fieldIdRef="14" name="detalle7" sqlTabName="formonly" table_alias_name="" uid="{68f8df5d-1572-45ce-ac97-83072b86a3a2}"/>
+    <RecordField colName="cencos_tc" fieldIdRef="15" fieldType="TABLE_COLUMN" name="fe_medio_pago_aux.cencos_tc" sqlTabName="fe_medio_pago_aux" sqlType="CHAR" table_alias_name="" uid="{e827a284-2438-4335-aab6-39d7e161e870}"/>
+    <RecordField colName="cencos_td" fieldIdRef="16" fieldType="TABLE_COLUMN" name="fe_medio_pago_aux.cencos_td" sqlTabName="fe_medio_pago_aux" sqlType="CHAR" table_alias_name="" uid="{4921728e-7d94-431c-8a7a-3937011bdc55}"/>
+    <RecordField colName="cencos_co" fieldIdRef="17" fieldType="TABLE_COLUMN" name="fe_medio_pago_aux.cencos_co" sqlTabName="fe_medio_pago_aux" sqlType="CHAR" table_alias_name="" uid="{19e0d280-b2d6-476f-8dda-4e5042c4acbf}"/>
+    <RecordField colName="cencos_ch" fieldIdRef="18" fieldType="TABLE_COLUMN" name="fe_medio_pago_aux.cencos_ch" sqlTabName="fe_medio_pago_aux" sqlType="CHAR" table_alias_name="" uid="{5a0b4705-3af5-46f7-b2fc-f5de10d49d98}"/>
+    <RecordField colName="cencos_tr" fieldIdRef="19" fieldType="TABLE_COLUMN" name="fe_medio_pago_aux.cencos_tr" sqlTabName="fe_medio_pago_aux" sqlType="CHAR" table_alias_name="" uid="{26c6d5c4-dcf4-494e-affc-73c4d3beac51}"/>
+    <RecordField colName="detalle2" fieldIdRef="20" name="detalle8" sqlTabName="formonly" table_alias_name="" uid="{5f3a89e5-b10c-458e-ab1c-bc85bb4eae30}"/>
+    <RecordField colName="detalle2" fieldIdRef="21" name="detalle9" sqlTabName="formonly" table_alias_name="" uid="{97eb3d96-3bc4-4524-ab43-2099d66efd26}"/>
+    <RecordField colName="detalle2" fieldIdRef="22" name="detalle10" sqlTabName="formonly" table_alias_name="" uid="{2efee303-128b-44fe-a030-3ad386c5e9de}"/>
+    <RecordField colName="detalle2" fieldIdRef="23" name="detalle11" sqlTabName="formonly" table_alias_name="" uid="{364f5424-66a5-4f16-a627-45999a303883}"/>
+    <RecordField colName="detalle2" fieldIdRef="24" name="detalle12" sqlTabName="formonly" table_alias_name="" uid="{b27fb73f-fe5d-4716-860e-4404fc8ee00f}"/>
+  </Record>
+  <Form gridHeight="23" gridWidth="113" lstrtext="false" name="fe_medio_pago_aux" spacing="normal" text="REGISTRO EMPRESA">
+    <Grid gridHeight="21" gridWidth="107" lstrcomment="false" name="gr1" posX="3" posY="1">
+      <Label color="blue" colorCondition="black" gridHeight="1" gridWidth="31" lstrcomment="false" lstrtext="false" name="lb1" posX="21" posY="1" text="AUXILIARES CONTABLES POR TIPOS DE PAGO"/>
+      <HLine gridWidth="107" name="hl6" posX="0" posY="2"/>
+      <Label colorCondition="black" gridHeight="1" gridWidth="8" lstrcomment="false" lstrtext="false" name="lb2" posX="2" posY="3" text="Efectivo : "/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="auxiliar_ef" comment="DIGITE AL AUXILIAR &lt;?&gt;AYUDA" fieldId="1" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="12" name="fe_medio_pago_aux.auxiliar_ef" posX="20" posY="3" sqlTabName="fe_medio_pago_aux" sqlType="CHAR" tabIndex="1" table_alias_name="" widget="Edit"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="detalle1" fieldId="2" gridHeight="1" gridWidth="23" name="detalle1" noEntry="true" posX="35" posY="3" sqlTabName="formonly" tabIndex="2" table_alias_name="" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="3" name="Label7" posX="60" posY="3" text="CC"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" autoNext="false" colName="cencos_ef" comment="DIGITE EL CODIGO DEL CENTRO DE COSTOS &lt;?&gt;AYUDA" fieldId="13" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="4" name="fe_medio_pago_aux.cencos_ef" posX="66" posY="3" sqlTabName="fe_medio_pago_aux" sqlType="CHAR" tabIndex="13" table_alias_name="" widget="Edit"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="detalle2" fieldId="14" gridHeight="1" gridWidth="21" name="detalle7" noEntry="true" posX="73" posY="3" sqlTabName="formonly" tabIndex="14" table_alias_name="" widget="Edit"/>
+      <HLine gridWidth="107" name="hl2" posX="0" posY="4"/>
+      <Label colorCondition="black" gridHeight="1" gridWidth="12" lstrcomment="false" lstrtext="false" name="lb3" posX="2" posY="6" text="Tarjeta Credito : "/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="auxiliar_tc" comment="DIGITE AL AUXILIAR &lt;?&gt;AYUDA" fieldId="3" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="12" name="fe_medio_pago_aux.auxiliar_tc" posX="20" posY="6" sqlTabName="fe_medio_pago_aux" sqlType="CHAR" tabIndex="3" table_alias_name="" widget="Edit"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="detalle1" fieldId="4" gridHeight="1" gridWidth="23" name="detalle2" noEntry="true" posX="35" posY="6" sqlTabName="formonly" tabIndex="4" table_alias_name="" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="3" name="Label1" posX="60" posY="6" text="CC"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" autoNext="false" colName="cencos_tc" comment="DIGITE EL CODIGO DEL CENTRO DE COSTOS &lt;?&gt;AYUDA" fieldId="15" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="4" name="fe_medio_pago_aux.cencos_tc" posX="66" posY="6" sqlTabName="fe_medio_pago_aux" sqlType="CHAR" tabIndex="15" table_alias_name="" widget="Edit"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="detalle2" fieldId="20" gridHeight="1" gridWidth="21" name="detalle8" noEntry="true" posX="73" posY="6" sqlTabName="formonly" tabIndex="20" table_alias_name="" widget="Edit"/>
+      <HLine gridWidth="107" name="hl1" posX="0" posY="7"/>
+      <Label colorCondition="black" gridHeight="1" gridWidth="11" lstrcomment="false" lstrtext="false" name="lb4" posX="2" posY="9" text="Tarjeta Debito : "/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="auxiliar_td" comment="DIGITE AL AUXILIAR &lt;?&gt;AYUDA" fieldId="5" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="12" name="fe_medio_pago_aux.auxiliar_td" posX="20" posY="9" sqlTabName="fe_medio_pago_aux" sqlType="CHAR" tabIndex="5" table_alias_name="" widget="Edit"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="detalle1" fieldId="6" gridHeight="1" gridWidth="23" name="detalle3" noEntry="true" posX="35" posY="9" sqlTabName="formonly" tabIndex="6" table_alias_name="" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="3" name="Label2" posX="60" posY="9" text="CC"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" autoNext="false" colName="cencos_td" comment="DIGITE EL CODIGO DEL CENTRO DE COSTOS &lt;?&gt;AYUDA" fieldId="16" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="4" name="fe_medio_pago_aux.cencos_td" posX="66" posY="9" sqlTabName="fe_medio_pago_aux" sqlType="CHAR" tabIndex="16" table_alias_name="" widget="Edit"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="detalle2" fieldId="21" gridHeight="1" gridWidth="21" name="detalle9" noEntry="true" posX="73" posY="9" sqlTabName="formonly" tabIndex="21" table_alias_name="" widget="Edit"/>
+      <HLine gridWidth="107" name="hl3" posX="0" posY="10"/>
+      <Label colorCondition="black" gridHeight="1" gridWidth="11" lstrcomment="false" lstrtext="false" name="lb5" posX="2" posY="12" text="Consignacion :"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="auxiliar_co" comment="DIGITE AL AUXILIAR &lt;?&gt;AYUDA" fieldId="7" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="12" name="fe_medio_pago_aux.auxiliar_co" posX="20" posY="12" sqlTabName="fe_medio_pago_aux" sqlType="CHAR" tabIndex="7" table_alias_name="" widget="Edit"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="detalle1" fieldId="8" gridHeight="1" gridWidth="23" name="detalle4" noEntry="true" posX="35" posY="12" sqlTabName="formonly" tabIndex="8" table_alias_name="" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="3" name="Label3" posX="60" posY="12" text="CC"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" autoNext="false" colName="cencos_co" comment="DIGITE EL CODIGO DEL CENTRO DE COSTOS &lt;?&gt;AYUDA" fieldId="17" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="4" name="fe_medio_pago_aux.cencos_co" posX="66" posY="12" sqlTabName="fe_medio_pago_aux" sqlType="CHAR" tabIndex="17" table_alias_name="" widget="Edit"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="detalle2" fieldId="22" gridHeight="1" gridWidth="21" name="detalle10" noEntry="true" posX="73" posY="12" sqlTabName="formonly" tabIndex="22" table_alias_name="" widget="Edit"/>
+      <HLine gridWidth="107" name="hl4" posX="0" posY="13"/>
+      <Label colorCondition="black" gridHeight="1" gridWidth="8" lstrcomment="false" lstrtext="false" name="lb6" posX="2" posY="15" text="Cheque : "/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="auxiliar_ch" comment="DIGITE AL AUXILIAR &lt;?&gt;AYUDA" fieldId="9" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="12" name="fe_medio_pago_aux.auxiliar_ch" posX="20" posY="15" sqlTabName="fe_medio_pago_aux" sqlType="CHAR" tabIndex="9" table_alias_name="" widget="Edit"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="detalle1" fieldId="10" gridHeight="1" gridWidth="23" name="detalle5" noEntry="true" posX="35" posY="15" sqlTabName="formonly" tabIndex="10" table_alias_name="" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="3" name="Label4" posX="60" posY="15" text="CC"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" autoNext="false" colName="cencos_ch" comment="DIGITE EL CODIGO DEL CENTRO DE COSTOS &lt;?&gt;AYUDA" fieldId="18" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="4" name="fe_medio_pago_aux.cencos_ch" posX="66" posY="15" sqlTabName="fe_medio_pago_aux" sqlType="CHAR" tabIndex="18" table_alias_name="" widget="Edit"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="detalle2" fieldId="23" gridHeight="1" gridWidth="21" name="detalle11" noEntry="true" posX="73" posY="15" sqlTabName="formonly" tabIndex="23" table_alias_name="" widget="Edit"/>
+      <HLine gridWidth="107" name="hl5" posX="0" posY="16"/>
+      <Label colorCondition="black" gridHeight="1" gridWidth="11" lstrcomment="false" lstrtext="false" name="lb7" posX="2" posY="18" text="Transferencia : "/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="auxiliar_tr" comment="DIGITE AL AUXILIAR &lt;?&gt;AYUDA" fieldId="11" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="12" name="fe_medio_pago_aux.auxiliar_tr" posX="20" posY="18" sqlTabName="fe_medio_pago_aux" sqlType="CHAR" tabIndex="11" table_alias_name="" widget="Edit"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="detalle1" fieldId="12" gridHeight="1" gridWidth="23" name="detalle6" noEntry="true" posX="35" posY="18" sqlTabName="formonly" tabIndex="12" table_alias_name="" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="3" name="Label5" posX="60" posY="18" text="CC"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" autoNext="false" colName="cencos_tr" comment="DIGITE EL CODIGO DEL CENTRO DE COSTOS &lt;?&gt;AYUDA" fieldId="19" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="4" name="fe_medio_pago_aux.cencos_tr" posX="66" posY="18" sqlTabName="fe_medio_pago_aux" sqlType="CHAR" tabIndex="19" table_alias_name="" widget="Edit"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="detalle2" fieldId="24" gridHeight="1" gridWidth="21" name="detalle12" noEntry="true" posX="73" posY="18" sqlTabName="formonly" tabIndex="24" table_alias_name="" widget="Edit"/>
+      <HLine gridWidth="107" name="hl7" posX="0" posY="19"/>
+    </Grid>
+  </Form>
+  <DiagramLayout>
+    <![CDATA[AAAAAgAAAEwAewBiAGEAMAA5ADkANQAyADIALQA0ADQANABhAC0ANABlAGIAMAAtADgAMgA5ADIALQAxADkAMwBkADAANQA5ADgAOQA4ADAAYwB9AAAAAAAAAAAAAAAAAAAAAD9gYk3S8an8AQ==]]>
+  </DiagramLayout>
+</ManagedForm>

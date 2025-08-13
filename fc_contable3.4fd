@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ManagedForm databaseName="empresa" fileVersion="30a00" gstVersion="30a0b" name="ManagedForm" uid="{008bb54e-5095-4889-818c-6483ad37bdce}">
+  <AGSettings>
+    <DynamicProperties version="2"/>
+  </AGSettings>
+  <Record additionalTables="" joinLeft="" joinOperator="" joinRight="" name="Undefined" order="" uid="{93b7ff57-7433-47a3-b526-9bec3bec176e}" where="">
+    <RecordField colName="codigo" fieldIdRef="0" fieldType="TABLE_COLUMN" name="fc_conta3.codigo" sqlTabName="fc_conta3" sqlType="CHAR" table_alias_name="" uid="{13f5930b-3b48-4f34-9772-f0c52d8142e6}"/>
+    <RecordField colName="mdetser" fieldIdRef="1" name="mdetser" sqlTabName="formonly" table_alias_name="" uid="{7d69fc3f-8514-4bc0-be96-aa1af795a245}"/>
+    <RecordField colName="codcop_ef" fieldIdRef="2" fieldType="TABLE_COLUMN" name="fc_conta3.codcop_ef" sqlTabName="fc_conta3" sqlType="CHAR" table_alias_name="" uid="{baa31ec6-e00d-4761-a3de-a3daa5bb620f}"/>
+    <RecordField colName="codcop_ba" fieldIdRef="3" fieldType="TABLE_COLUMN" name="fc_conta3.codcop_ba" sqlTabName="fc_conta3" sqlType="CHAR" table_alias_name="" uid="{c2a200b6-962f-4ec4-8464-6ad95f7c97d4}"/>
+    <RecordField colName="codcop_cr" fieldIdRef="4" fieldType="TABLE_COLUMN" name="fc_conta3.codcop_cr" sqlTabName="fc_conta3" sqlType="CHAR" table_alias_name="" uid="{3045df9c-ae07-4cba-ada8-eeb6d9feca26}"/>
+    <RecordField colName="prefijo" fieldIdRef="8" fieldType="TABLE_COLUMN" name="fc_conta3.prefijo" sqlTabName="fc_conta3" sqlType="CHAR" table_alias_name="" uid="{ad700fc4-6410-4e4b-a4bf-3e39c2104d17}"/>
+    <RecordField colName="" fieldIdRef="9" fieldType="NON_DATABASE" name="detprefijo" sqlTabName="" sqlType="CHAR" table_alias_name="" uid="{c451678e-0ecb-49e8-9730-46752b803b04}"/>
+    <RecordField colName="codconta" fieldIdRef="10" fieldType="TABLE_COLUMN" name="fc_conta3.codconta" sqlTabName="fc_conta3" sqlType="CHAR" table_alias_name="" uid="{d4f57b91-d261-4d02-a388-fe9edd4250e6}"/>
+    <RecordField colName="" fieldIdRef="11" fieldType="NON_DATABASE" name="detconta" sqlTabName="" sqlType="CHAR" table_alias_name="" uid="{0e4c552a-3634-4c76-a6d4-9aacdf5c9224}"/>
+    <RecordField colName="tipcru" fieldIdRef="12" fieldType="TABLE_COLUMN" name="fc_conta3.tipcru" sqlTabName="fc_conta3" sqlType="CHAR" table_alias_name="" uid="{2bedac53-7bc2-4643-b430-9b8ca4c9bc21}"/>
+    <RecordField colName="" fieldIdRef="13" fieldType="NON_DATABASE" name="dettipcru" sqlTabName="" sqlType="CHAR" table_alias_name="" uid="{b98a667b-bfa4-4370-9c7e-39d2854b1070}"/>
+    <RecordField colName="tipcruu" fieldIdRef="5" fieldType="TABLE_COLUMN" name="fc_conta3.tipcruu" sqlTabName="fc_conta3" sqlType="CHAR" table_alias_name="" uid="{df9ed0a2-d8ae-43fd-9a10-29db7448f0bb}"/>
+    <RecordField colName="" fieldIdRef="6" fieldType="NON_DATABASE" name="dettipcru1" sqlTabName="" sqlType="CHAR" table_alias_name="" uid="{3823d3c6-63c5-44de-bb18-44c9f11f9340}"/>
+    <RecordField colName="codcop_su" fieldIdRef="7" fieldType="TABLE_COLUMN" name="fc_conta3.codcop_su" sqlTabName="fc_conta3" sqlType="CHAR" table_alias_name="" uid="{a05e8c87-3241-4ee2-8767-1fa28cfb5b25}"/>
+    <RecordField colName="codcop_an" fieldIdRef="14" fieldType="TABLE_COLUMN" name="fc_conta3.codcop_an" sqlTabName="fc_conta3" sqlType="CHAR" table_alias_name="" uid="{3e63efed-109e-4a8d-89dd-1b6faf8d430d}"/>
+    <RecordField colName="codcop_nrs" fieldIdRef="15" fieldType="TABLE_COLUMN" name="fc_conta3.codcop_nrs" sqlTabName="fc_conta3" sqlType="CHAR" table_alias_name="" uid="{78921d47-b356-46a7-a9fc-9e8b9feda077}"/>
+  </Record>
+  <Form gridHeight="28" gridWidth="88" name="contable1">
+    <Grid gridHeight="27" gridWidth="86" name="Grid1" posX="0" posY="0">
+      <Label gridHeight="1" gridWidth="34" lstrcomment="false" lstrtext="false" name="lb6" posX="25" posY="1" text="PARAMETROS CONTABLES - TIPOS COMPRABANTES"/>
+      <HLine gridWidth="85" name="HLine1" posX="0" posY="2"/>
+      <Label posX="1" posY="3" text="Codigo Del Servicio"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" autoNext="false" colName="codigo" comment="DIGITE EL CODIGO DEL SERVICIO" fieldId="0" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="5" name="fc_conta3.codigo" notNull="true" picture="#####" posX="21" posY="3" required="true" sqlTabName="fc_conta3" sqlType="CHAR" tabIndex="1" table_alias_name="" widget="Edit"/>
+      <Label posX="30" posY="3" text="Detalle"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="mdetser" fieldId="1" gridHeight="1" gridWidth="43" name="mdetser" noEntry="true" posX="39" posY="3" sqlTabName="formonly" tabIndex="2" table_alias_name="" widget="Edit"/>
+      <HLine gridWidth="85" name="HLine2" posX="0" posY="4"/>
+      <Label gridHeight="1" gridWidth="13" lstrcomment="false" lstrtext="false" name="lb59" posX="1" posY="5" text="Prefijo Documento:"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" case="upper" colName="prefijo" fieldId="8" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="5" lstrcomment="false" lstrtitle="false" name="fc_conta3.prefijo" posX="21" posY="5" sqlTabName="fc_conta3" sqlType="CHAR" tabIndex="6" table_alias_name="" widget="Edit"/>
+      <Label posX="30" posY="5" text="Detalle"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" case="upper" colName="" fieldId="9" fieldType="NON_DATABASE" gridHeight="1" gridWidth="44" length="1" lstrcomment="false" lstrtitle="false" name="detprefijo" noEntry="true" posX="39" posY="5" sqlTabName="" sqlType="CHAR" tabIndex="7" table_alias_name="" widget="Edit"/>
+      <HLine gridWidth="85" name="HLine3" posX="0" posY="6"/>
+      <Label gridHeight="1" gridWidth="14" lstrcomment="false" lstrtext="false" name="lb8" posX="1" posY="8" text="Codigo Contabilidad:"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" case="upper" colName="codconta" fieldId="10" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="2" lstrcomment="false" lstrtitle="false" name="fc_conta3.codconta" posX="21" posY="8" sqlTabName="fc_conta3" sqlType="CHAR" tabIndex="8" table_alias_name="" widget="Edit"/>
+      <Label posX="30" posY="8" text="Detalle"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" case="upper" colName="" fieldId="11" fieldType="NON_DATABASE" gridHeight="1" gridWidth="44" length="1" lstrcomment="false" lstrtitle="false" name="detconta" noEntry="true" posX="39" posY="8" sqlTabName="" sqlType="CHAR" tabIndex="9" table_alias_name="" widget="Edit"/>
+      <HLine gridWidth="85" name="HLine4" posX="1" posY="9"/>
+      <Label gridHeight="1" gridWidth="15" lstrcomment="false" lstrtext="false" name="lb9" posX="1" posY="10" text="Tipo Cruce X Pagar:"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" case="upper" colName="tipcru" fieldId="12" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="2" lstrcomment="false" lstrtitle="false" name="fc_conta3.tipcru" posX="21" posY="10" sqlTabName="fc_conta3" sqlType="CHAR" tabIndex="10" table_alias_name="" widget="Edit"/>
+      <Label posX="30" posY="10" text="Detalle"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" case="upper" colName="" fieldId="13" fieldType="NON_DATABASE" gridHeight="1" gridWidth="44" length="1" lstrcomment="false" lstrtitle="false" name="dettipcru" noEntry="true" posX="39" posY="10" sqlTabName="" sqlType="CHAR" tabIndex="11" table_alias_name="" widget="Edit"/>
+      <HLine gridWidth="85" name="HLine5" posX="0" posY="11"/>
+      <Label gridHeight="1" gridWidth="15" lstrcomment="false" lstrtext="false" name="lb4" posX="1" posY="13" text="Tipo Cruce X Cobrar:"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" case="upper" colName="tipcruu" fieldId="5" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="2" lstrcomment="false" lstrtitle="false" name="fc_conta3.tipcruu" posX="21" posY="13" sqlTabName="fc_conta3" sqlType="CHAR" tabIndex="12" table_alias_name="" widget="Edit"/>
+      <Label posX="30" posY="13" text="Detalle"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" case="upper" colName="" fieldId="6" fieldType="NON_DATABASE" gridHeight="1" gridWidth="44" length="1" lstrcomment="false" lstrtitle="false" name="dettipcru1" noEntry="true" posX="39" posY="13" sqlTabName="" sqlType="CHAR" tabIndex="13" table_alias_name="" widget="Edit"/>
+      <HLine gridWidth="85" name="HLine6" posX="0" posY="14"/>
+      <Label colorCondition="black" gridHeight="1" gridWidth="17" lstrcomment="false" lstrtext="false" name="lb2" posX="2" posY="15" text="Comp. Ingreso Efectivo : "/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" autoNext="false" colName="codcop_ef" comment="DIGITE EL CODIGO DEL SERVICIO" fieldId="2" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="4" name="fc_conta3.codcop_ef" notNull="false" picture="#####" posX="24" posY="15" required="false" sqlTabName="fc_conta3" sqlType="CHAR" tabIndex="3" table_alias_name="" widget="Edit"/>
+      <Label colorCondition="black" gridHeight="1" gridWidth="17" lstrcomment="false" lstrtext="false" name="lb1" posX="2" posY="17" text="Comp. Ingreso Banco : "/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" autoNext="false" colName="codcop_ba" comment="DIGITE EL CODIGO DEL SERVICIO" fieldId="3" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="4" name="fc_conta3.codcop_ba" notNull="false" picture="#####" posX="24" posY="17" required="false" sqlTabName="fc_conta3" sqlType="CHAR" tabIndex="4" table_alias_name="" widget="Edit"/>
+      <Label colorCondition="black" gridHeight="1" gridWidth="17" lstrcomment="false" lstrtext="false" name="lb3" posX="2" posY="19" text="Comp. Ingreso Credito : "/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" autoNext="false" colName="codcop_cr" comment="DIGITE EL CODIGO DEL SERVICIO" fieldId="4" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="4" name="fc_conta3.codcop_cr" notNull="false" picture="#####" posX="24" posY="19" required="false" sqlTabName="fc_conta3" sqlType="CHAR" tabIndex="5" table_alias_name="" widget="Edit"/>
+      <Label colorCondition="black" gridHeight="1" gridWidth="17" lstrcomment="false" lstrtext="false" name="lb5" posX="2" posY="21" text="Comp. Causac. Subsidio : "/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" autoNext="false" colName="codcop_su" comment="DIGITE EL CODIGO DEL SERVICIO" fieldId="7" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="4" name="fc_conta3.codcop_su" notNull="false" picture="#####" posX="24" posY="21" required="false" sqlTabName="fc_conta3" sqlType="CHAR" tabIndex="14" table_alias_name="" widget="Edit"/>
+      <Label colorCondition="black" gridHeight="1" gridWidth="17" lstrcomment="false" lstrtext="false" name="lb7" posX="2" posY="23" text="Comp. Legaliz. Anticipo : "/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" autoNext="false" colName="codcop_an" comment="DIGITE EL CODIGO DEL SERVICIO" fieldId="14" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="4" name="fc_conta3.codcop_an" notNull="false" picture="#####" posX="24" posY="23" required="false" sqlTabName="fc_conta3" sqlType="CHAR" tabIndex="15" table_alias_name="" widget="Edit"/>
+      <Label colorCondition="black" gridHeight="1" gridWidth="17" lstrcomment="false" lstrtext="false" name="lb10" posX="2" posY="25" text="Comp. Reversa Sub.Tar : "/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" autoNext="false" colName="codcop_nrs" comment="DIGITE EL CODIGO DEL SERVICIO" fieldId="15" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="4" name="fc_conta3.codcop_nrs" notNull="false" picture="#####" posX="24" posY="25" required="false" sqlTabName="fc_conta3" sqlType="CHAR" tabIndex="16" table_alias_name="" widget="Edit"/>
+    </Grid>
+  </Form>
+  <DiagramLayout>
+    <![CDATA[AAAAAgAAAEwAewA5ADMAYgA3AGYAZgA1ADcALQA3ADQAMwAzAC0ANAA3AGEAMwAtAGIANQAyADYALQA5AGIAZQBjADMAYgBlAGMAMQA3ADYAZQB9AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ==]]>
+  </DiagramLayout>
+</ManagedForm>

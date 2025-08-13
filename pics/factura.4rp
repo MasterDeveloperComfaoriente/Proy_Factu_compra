@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<report:Report xmlns:rtl="http://www.4js.com/2004/RTL" xmlns:report="http://www.4js.com/2007/REPORT" xmlns="http://www.4js.com/2004/PXML" version="3.01">
+    <report:Settings RWPageWidth="a4width" RWPageLength="a4length" RWLeftMargin="1.3cm" RWTopMargin="1.3cm" RWRightMargin="1.3cm" RWBottomMargin="1.3cm">
+        <report:FormatList>
+            <report:Format-SVG/>
+            <report:Format-PDF/>
+            <report:Format-image/>
+        </report:FormatList>
+    </report:Settings>
+    <report:Data RWDataLocation="fe_reportes.rdd" RWFglReportName="hrfactu_r"/>
+    <rtl:stylesheet>
+        <PXML>
+            <rtl:match nameConstraint="Report">
+                <MINIPAGE name="Page Root" width="max" length="max" alignment="near">
+                    <LAYOUTNODE name="Page Header" width="523.688" length="165.701" alignment="near" port="anyPageHeader">
+                        <MINIPAGE name="StripeLayouter3" x="1.0042" y="6.0078" width="16.2386" length="520.96" anchorX="0.00192762" anchorY="0.36997" layoutDirection="leftToRight">
+                            <WORDBOX name="Report Title" x="0" y="max/2" anchorX="0" anchorY="0.5" alignment="baseline" fontSize="11" fontBold="true" baselineType="leftleft" floatingBehavior="enclosed" text="CAJA DE COMPENSACION FAMILIAR DEL ORIENTE COLOMBIANO COMFAORIENTE"/>
+                            <PAGENOBOX name="PageNoBox" x="1.23857" y="max" anchorX="0" anchorY="1" alignment="baseline" fontSize="10" baselineType="leftleft" floatingBehavior="enclosed" textAlignment="right"/>
+                        </MINIPAGE>
+                        <LAYOUTNODE name="LayoutNode" x="3.4428" y="27.5193" width="17.6015" length="min" anchorX="0.0118648" anchorY="0.5" alignment="near" layoutDirection="leftToRight" floatingBehavior="enclosed">
+                            <WORDBOX name="WordBox" x="17.4497" y="6.1424" width="522" length="15.9563" anchorX="1" anchorY="0.00717025" alignment="far" fontSize="11" fontBold="true" floatingBehavior="enclosed" textAlignment="center" text="NIT 890.500.675-6 "/>
+                        </LAYOUTNODE>
+                        <LAYOUTNODE name="LayoutNode1" x="3.4428" y="27.5193" width="17.6015" length="min" anchorX="0.0118648" anchorY="0.5" alignment="near" layoutDirection="leftToRight" floatingBehavior="enclosed">
+                            <WORDBOX name="WordBox2" x="35.4747" y="6.1424" width="521.357" length="15.9367" anchorX="1" anchorY="0.00717025" alignment="far" floatingBehavior="enclosed" textAlignment="center" text="">
+                                <rtl:input-variable name="mfe_prefijos.direccion" type="FGLString" expectedLocation="expectedAhead"/>
+                                <WORDWRAPBOX name="mfe_prefijos.direccion Value" x="153.686" y="13.5719" width="376.5" length="12.9941" anchorX="0.0242294" anchorY="1" alignment="none" fontSize="11" fontBold="true" floatingBehavior="enclosed" text="{{mfe_prefijos.direccion}}" textAlignment="center"/>
+                            </WORDBOX>
+                        </LAYOUTNODE>
+                        <LAYOUTNODE name="LayoutNode1_1" x="3.4428" y="59.2363" width="17.6015" length="min" anchorX="0.0118648" anchorY="0.5" alignment="near" layoutDirection="leftToRight" floatingBehavior="enclosed">
+                            <WORDBOX name="WordBox4" x="18.3032" y="6.1811" width="522" length="15.9563" anchorX="1" anchorY="0.00717025" alignment="far" fontSize="11" fontBold="true" floatingBehavior="enclosed" textAlignment="center" text="Responsables de IVA"/>
+                        </LAYOUTNODE>
+                        <LAYOUTNODE name="LayoutNode1_1_1" x="5.7009" y="77.1412" width="17.6015" length="min" anchorX="0.0118648" anchorY="0.5" alignment="near" layoutDirection="leftToRight" floatingBehavior="enclosed">
+                            <WORDBOX name="WordBox6" x="16.653" y="6.1811" width="522" length="15.9563" anchorX="1" anchorY="0.00717025" alignment="far" fontSize="10" fontBold="true" floatingBehavior="enclosed" textAlignment="center" text="No Somos Grandes Contribuyentes Resolución DIAN No. 0041 Del 30/01/2014"/>
+                        </LAYOUTNODE>
+                        <IMAGEBOX name="ImageBox" x="7.8783" y="66.4855" width="135" length="53.2658" anchorX="0.0104352" anchorY="1" alignment="near" floatingBehavior="enclosed" url="logocomfaoriente1-1.png" intendedResolution="96"/>
+                        <LAYOUTNODE name="LayoutNode1_1_1_1" x="5.7009" y="77.1412" width="17.6015" length="min" anchorX="0.0118648" anchorY="0.5" alignment="near" layoutDirection="leftToRight" floatingBehavior="enclosed">
+                            <WORDBOX name="WordBox8" x="33.9443" y="6.2135" width="522" length="15.9563" anchorX="1" anchorY="0.00717025" alignment="far" fontSize="11" fontBold="true" underline="true" floatingBehavior="enclosed" textAlignment="center" text=""/>
+                        </LAYOUTNODE>
+                        <LAYOUTNODE name="LayoutNode1_1_1_1_1" x="5.7009" y="77.1412" width="17.6015" length="min" anchorX="0.0118648" anchorY="0.5" alignment="near" layoutDirection="leftToRight" floatingBehavior="enclosed">
+                            <WORDBOX name="WordBox10" x="33.9443" y="6.2135" width="522" length="15.9563" anchorX="1" anchorY="0.00717025" alignment="far" fontSize="11" fontBold="true" underline="true" floatingBehavior="enclosed" textAlignment="center" text=""/>
+                        </LAYOUTNODE>
+                        <LAYOUTNODE name="LayoutNode1_1_1_1_1_1" x="5.7009" y="108.167" width="18.8534" length="316.25" anchorX="0.0118648" anchorY="0.5" alignment="near" layoutDirection="leftToRight" floatingBehavior="enclosed">
+                            <WORDBOX name="WordBox12" fontSize="10" fontBold="true" floatingBehavior="enclosed" text="Cliente:"/>
+                            <rtl:input-variable name="mrazsoc" type="FGLString" expectedLocation="expectedAhead"/>
+                            <WORDWRAPBOX name="mrazsoc Value" x="14.6106" y="60.2476" width="260.879" length="13.4216" anchorX="1" anchorY="0.0344705" fontSize="9" floatingBehavior="enclosed" text="{{mrazsoc}}"/>
+                            <WORDBOX name="WordBox13" x="8.16" y="316.093" anchorX="0.427444" anchorY="4.26326e-15" alignment="far" fontSize="10" fontBold="true" floatingBehavior="enclosed" text="Factura de Venta:"/>
+                            <rtl:input-variable name="mfe_factura_m.nit" type="FGLString" expectedLocation="expectedAhead"/>
+                            <WORDBOX name="mfe_factura_m.nit Value" x="21.7677" y="39.7191" anchorX="0" anchorY="0" fontSize="9" fontBold="true" floatingBehavior="enclosed" text="{{mfe_factura_m.nit}}"/>
+                        </LAYOUTNODE>
+                        <LAYOUTNODE name="LayoutNode2" x="4.4484" y="120.508" width="15" length="524" anchorX="0" anchorY="0" layoutDirection="leftToRight" floatingBehavior="enclosed">
+                            <WORDBOX name="WordBox18" x="1.296" y="-1.0767" anchorX="0.153183" anchorY="3.17654e-14" alignment="far" fontSize="10" fontBold="true" floatingBehavior="enclosed" text="Nit:"/>
+                            <rtl:input-variable name="mdet" type="FGLString" expectedLocation="expectedAhead"/>
+                            <WORDBOX name="mdet Value" x="1.296" y="212.502" anchorX="0" anchorY="0" fontSize="9" floatingBehavior="enclosed" text="{{mdet}}"/>
+                            <rtl:input-variable name="mfe_factura_m.fecha_factura" type="FGLString" expectedLocation="expectedAhead"/>
+                            <WORDBOX name="mfe_factura_m.fecha_factura Value" x="1.296" y="364.165" anchorX="0" anchorY="0" fontSize="9" fontBold="true" floatingBehavior="enclosed" text="{{mfe_factura_m.fecha_factura}}"/>
+                        </LAYOUTNODE>
+                        <LAYOUTNODE name="LayoutNode3" x="5.2892" y="136.572" width="14.75" length="14.75" anchorX="0" anchorY="0.274025" layoutDirection="leftToRight" floatingBehavior="enclosed">
+                            <WORDBOX name="WordBox19" x="12.7955" y="-1.9175" anchorX="0.400421" anchorY="1.00002e-14" alignment="far" fontSize="10" fontBold="true" floatingBehavior="enclosed" text="Direccion:"/>
+                            <WORDBOX name="WordBox21" x="37.3143" y="-5.7009" width="522" anchorX="0.400421" anchorY="0" alignment="far" fontSize="11" fontBold="true" underline="false" strikethrough="false" fidelity="true" floatingBehavior="enclosed" text="Servicio            Descripcion                            Cant     Vlr Uni        Valor Sub         Valor Total "/>
+                        </LAYOUTNODE>
+                        <rtl:input-variable name="mfe_terceros.direccion" type="FGLString" expectedLocation="expectedAhead"/>
+                        <WORDWRAPBOX name="mfe_terceros.direccion Value" x="62.1963" y="141.346" width="240.75" anchorX="0" anchorY="0" fontSize="9" floatingBehavior="enclosed" text="{{mfe_terceros.direccion}}"/>
+                        <WORDBOX name="WordBox66" x="319.87" y="129.402" anchorX="0.0101954" anchorY="0.62047" alignment="far" fontSize="9" fontBold="true" floatingBehavior="enclosed" text="Fecha:"/>
+                        <WORDBOX name="WordBox19_1" x="332.802" y="141.346" anchorX="0.400421" anchorY="1.00002e-14" alignment="far" fontSize="10" fontBold="true" floatingBehavior="enclosed" text="Telefono:"/>
+                        <rtl:input-variable name="mfe_terceros.telefono" type="FGLString" expectedLocation="expectedAhead"/>
+                        <WORDBOX name="mfe_terceros.telefono Value" x="370.288" y="141.346" anchorX="0" anchorY="0" fontSize="9" floatingBehavior="enclosed" text="{{mfe_terceros.telefono}}"/>
+                        <WORDBOX name="WordBox72" x="135.776" y="120.508" anchorX="0" anchorY="0" fontSize="9" fontBold="true" floatingBehavior="enclosed" text="Forma Pago:"/>
+                        <rtl:input-variable name="mfe_factura_m.prefijo" type="FGLString" expectedLocation="expectedAhead"/>
+                        <WORDBOX name="mfe_factura_m.prefijo Value" x="409.222" y="103.1" width="15.5" anchorX="0" anchorY="0" fontSize="8" fontBold="true" floatingBehavior="enclosed" text="{{mfe_factura_m.prefijo}}"/>
+                        <rtl:input-variable name="mfe_factura_m.numfac" type="FGLNumeric" expectedLocation="expectedAhead"/>
+                        <DECIMALFORMATBOX name="mfe_factura_m.numfac Value" x="484.165" y="105.071" width="56.6998" length="11.8125" anchorX="1" anchorY="0.259523" fontSize="8" fontBold="true" floatingBehavior="enclosed" textAlignment="right" format="&amp;&amp;&amp;&amp;&amp;&amp;&amp;" value="{{mfe_factura_m.numfac}}"/>
+                        <IMAGEBOX name="ImageBox1" x="522.799" y="328.19" width="30" length="129.25" anchorX="0.0104265" anchorY="0.639376" alignment="near" floatingBehavior="enclosed" url="vigilado.png" intendedResolution="96"/>
+                    </LAYOUTNODE>
+                    <rtl:match nameConstraint="OnEveryRow" minOccurs="0" maxOccurs="unbounded">
+                        <MINIPAGE name="MiniPage1" width="18.0058" length="max" alignment="near" layoutDirection="leftToRight">
+                            <rtl:input-variable name="mfe_factura_d.codigo" type="FGLString" expectedLocation="expectedHere"/>
+                            <WORDBOX name="mfe_factura_d.codigo Value" x="32.5345" y="27.9991" width="48" length="12.6848" anchorX="0.0168321" anchorY="0.5" alignment="baseline" fontSize="8" floatingBehavior="enclosed" text="{{mfe_factura_d.codigo}}"/>
+                            <rtl:input-variable name="mfe_servicios.descripcion" type="FGLString" expectedLocation="expectedHere"/>
+                            <WORDWRAPBOX name="mfe_servicios.descripcion Value" x="41.7198" y="62.1963" width="170.406" length="10.1909" anchorX="1" anchorY="8.25215e-17" fontSize="8" floatingBehavior="enclosed" text="{{mfe_servicios.descripcion}}"/>
+                            <rtl:input-variable name="mfe_factura_d.cantidad" type="FGLNumeric" expectedLocation="expectedHere"/>
+                            <DECIMALFORMATBOX name="mfe_factura_d.cantidad Value" x="41.7198" y="260.48" width="40" anchorX="1" anchorY="0.5" fontSize="8" floatingBehavior="enclosed" textAlignment="right" format="----------#" value="{{mfe_factura_d.cantidad}}"/>
+                            <rtl:input-variable name="mvaloruni" type="FGLNumeric" expectedLocation="expectedHere"/>
+                            <DECIMALFORMATBOX name="mvaloruni Value" x="41.7198" y="324.387" anchorX="1" anchorY="0.312195" fontSize="8" floatingBehavior="enclosed" textAlignment="right" format="---,---,---,--&amp;.&amp;&amp;" value="{{mvaloruni}}"/>
+                            <rtl:input-variable name="mvalorsub" type="FGLNumeric" expectedLocation="expectedHere"/>
+                            <DECIMALFORMATBOX name="mvalorsub Value" x="32.5345" y="439.028" anchorX="0" anchorY="1" fontSize="8" floatingBehavior="enclosed" textAlignment="right" format="---,---,---,--&amp;.&amp;&amp;" value="{{mvalorsub}}"/>
+                            <rtl:input-variable name="mtotfacc" type="FGLNumeric" expectedLocation="expectedHere"/>
+                            <DECIMALFORMATBOX name="mtotfacc Value" x="41.7198" y="488.783" anchorX="1" anchorY="0.311092" alignment="far" fontSize="8" floatingBehavior="enclosed" textAlignment="right" format="---,---,---,--&amp;.&amp;&amp;" value="{{mtotfacc}}"/>
+                        </MINIPAGE>
+                    </rtl:match>
+                    <LAYOUTNODE name="LayoutNode13" x="0" y="702.647" width="524.023" length="285.5" anchorX="0.00379554" anchorY="0.754023" alignment="near" floatingBehavior="enclosed">
+                        <LAYOUTNODE name="LayoutNode15" width="19.25" length="19.25" alignment="near" fontBold="true" layoutDirection="leftToRight" floatingBehavior="enclosed">
+                            <WORDBOX name="WordBox51" width="524.75" length="20" fontBold="true" underline="false" floatingBehavior="enclosed" text="____________________________________________________________________________________"/>
+                        </LAYOUTNODE>
+                        <LAYOUTNODE name="LayoutNode14" width="min" length="522.5" alignment="near" fontSize="9" fontBold="true" layoutDirection="leftToRight" floatingBehavior="enclosed">
+                            <WORDBOX name="WordBox38" x="-0.736" y="336.588" anchorX="0" anchorY="0" fontSize="9" fontBold="true" floatingBehavior="enclosed" text="SUBTOTAL:"/>
+                            <rtl:input-variable name="mtotfac" type="FGLNumeric" expectedLocation="expectedHere"/>
+                            <DECIMALFORMATBOX name="mtotfac Value" x="10.8252" y="453.149" width="56" anchorX="1" anchorY="0" alignment="none" lengthAdjustment="expandToParent" fontSize="9" fontBold="true" floatingBehavior="enclosed" textAlignment="right" format="---,---,---,--&amp;.&amp;&amp;" value="{{mtotfac}}"/>
+                        </LAYOUTNODE>
+                        <LAYOUTNODE name="LayoutNode14_1" width="min" length="522.5" alignment="near" fontSize="9" fontBold="true" layoutDirection="leftToRight" floatingBehavior="enclosed">
+                            <WORDBOX name="WordBox40" x="4.0793" y="336.588" anchorX="0" anchorY="0" fontSize="9" fontBold="true" floatingBehavior="enclosed" text="SUBSIDIO:"/>
+                            <rtl:input-variable name="mtotsub" type="FGLNumeric" expectedLocation="expectedHere"/>
+                            <DECIMALFORMATBOX name="mtotsub Value" x="4.0793" y="510.421" width="51" anchorX="0" anchorY="1" alignment="none" widthAdjustment="shrinkToChildren" floatingBehavior="enclosed" textAlignment="center" format="---,---,---,--&amp;.&amp;&amp;" value="{{mtotsub}}"/>
+                        </LAYOUTNODE>
+                        <LAYOUTNODE name="LayoutNode14_2" width="15.5" length="522.5" alignment="none" fontSize="9" fontBold="true" layoutDirection="leftToRight" floatingBehavior="enclosed">
+                            <WORDBOX name="WordBox43" x="2.4464" y="336.588" anchorX="0" anchorY="0" fontSize="9" fontBold="true" floatingBehavior="enclosed" text="ANTICIPO"/>
+                            <rtl:input-variable name="mvalant" type="FGLNumeric" expectedLocation="expectedHere"/>
+                            <DECIMALFORMATBOX name="mvalant Value" x="13.1121" y="466.705" width="43" length="11" anchorX="1" anchorY="0" alignment="none" fontSize="9" fontBold="true" floatingBehavior="enclosed" textAlignment="right" format="---,---,---,--&amp;.&amp;&amp;" value="{{mvalant}}"/>
+                        </LAYOUTNODE>
+                        <LAYOUTNODE name="LayoutNode14_3" width="min" length="522.5" alignment="near" fontSize="9" fontBold="true" layoutDirection="leftToRight" floatingBehavior="enclosed">
+                            <WORDBOX name="WordBox46" x="-0.0729" y="337.592" anchorX="0" anchorY="0" fontSize="9" fontBold="true" floatingBehavior="enclosed" text="IVA:"/>
+                            <rtl:input-variable name="mtotiva" type="FGLNumeric" expectedLocation="expectedHere"/>
+                            <DECIMALFORMATBOX name="mtotiva Value" x="-1.2409" y="509.265" width="46.25" anchorX="0" anchorY="1" alignment="none" fontSize="9" fontBold="true" floatingBehavior="enclosed" textAlignment="right" format="---,---,---,--&amp;.&amp;&amp;" value="{{mtotiva}}"/>
+                        </LAYOUTNODE>
+                        <LAYOUTNODE name="LayoutNode14_4" width="min" length="522.5" alignment="near" fontSize="9" fontBold="true" layoutDirection="leftToRight" floatingBehavior="enclosed">
+                            <WORDBOX name="WordBox48" x="2.4464" y="336.588" anchorX="0" anchorY="0" fontSize="9" fontBold="true" floatingBehavior="enclosed" text="IMP AL CONSUMO:"/>
+                        </LAYOUTNODE>
+                        <LAYOUTNODE name="LayoutNode14_5" width="min" length="522.5" alignment="near" fontSize="9" fontBold="true" layoutDirection="leftToRight" floatingBehavior="enclosed">
+                            <WORDBOX name="WordBox50" x="2.4464" y="336.588" anchorX="0" anchorY="0" fontSize="9" fontBold="true" floatingBehavior="enclosed" text="TOTAL A PAGAR:"/>
+                            <rtl:input-variable name="mtotal" type="FGLNumeric" expectedLocation="expectedHere"/>
+                            <DECIMALFORMATBOX name="mtotal Value" x="2.4464" y="509.265" anchorX="0" anchorY="1" floatingBehavior="enclosed" textAlignment="right" format="---,---,---,--&amp;.&amp;&amp;" value="{{mtotal}}"/>
+                        </LAYOUTNODE>
+                        <LAYOUTNODE name="LayoutNode16" x="3.9506" y="232.563" width="min" length="522.5" anchorX="0" anchorY="0" layoutDirection="leftToRight" floatingBehavior="enclosed">
+                            <WORDBOX name="WordBox52" x="0.7632" y="4.3759" anchorX="0" anchorY="0" fontSize="7" fontBold="true" floatingBehavior="enclosed" text="FACTURA POR COMPUTADOR"/>
+                        </LAYOUTNODE>
+                        <LAYOUTNODE name="LayoutNode16_1" x="5.3607" y="244.491" width="min" length="522.5" anchorX="0" anchorY="0" layoutDirection="leftToRight" floatingBehavior="enclosed">
+                            <WORDBOX name="WordBox54" x="1.1082" y="3.3717" anchorX="0" anchorY="0" fontSize="7" fontBold="true" floatingBehavior="enclosed" text="Autorizacion de Facturacion DIAN No. "/>
+                            <rtl:input-variable name="mfe_prefijos.num_auto" type="FGLString" expectedLocation="expectedBefore"/>
+                            <WORDWRAPBOX name="mfe_prefijos.num_auto Value" x="0" y="149.948" width="89.288" length="8.11242" anchorX="0" anchorY="0.148885" fontSize="7" fontBold="true" floatingBehavior="enclosed" text="{{mfe_prefijos.num_auto}}"/>
+                            <WORDBOX name="WordBox62" x="2.567" y="257.108" anchorX="0.250244" anchorY="0.00717025" alignment="far" fontSize="7" fontBold="true" floatingBehavior="enclosed" text="Fecha: "/>
+                            <rtl:input-variable name="mfe_prefijos.fec_auto" type="FGLString" expectedLocation="expectedHere"/>
+                            <WORDBOX name="mfe_prefijos.fec_auto Value" x="4.5829" y="286.81" anchorX="0.427444" anchorY="0" alignment="near" fontSize="7" fontBold="true" floatingBehavior="enclosed" text="{{mfe_prefijos.fec_auto}}"/>
+                        </LAYOUTNODE>
+                        <LAYOUTNODE name="LayoutNode16_1_1" x="3.9506" y="255.061" width="min" length="522.5" anchorX="0" anchorY="0" layoutDirection="leftToRight" floatingBehavior="enclosed">
+                            <WORDBOX name="WordBox59" x="1.1082" y="3.3717" anchorX="0" anchorY="0" fontSize="7" fontBold="true" floatingBehavior="enclosed" text="Numeracion Habilitada del "/>
+                            <rtl:input-variable name="mfe_prefijos.numini" type="FGLNumeric" expectedLocation="expectedBefore"/>
+                            <DECIMALFORMATBOX name="mfe_prefijos.numini Value" x="8.1679" y="139.365" anchorX="1" anchorY="0.0208854" alignment="far" fontSize="7" fontBold="true" floatingBehavior="enclosed" textAlignment="right" format="----------#" value="{{mfe_prefijos.numini}}"/>
+                            <WORDBOX name="WordBox63" x="12.1026" y="249.519" width="27.2727" length="11.1111" anchorX="0.870933" anchorY="5.76371e-15" alignment="baseline" fontSize="7" fontBold="true" floatingBehavior="enclosed" text="Hasta el :"/>
+                            <rtl:input-variable name="mfe_prefijos.numfin" type="FGLNumeric" expectedLocation="expectedHere"/>
+                            <DECIMALFORMATBOX name="mfe_prefijos.numfin Value" x="1.1082" y="357.151" anchorX="0" anchorY="1" fontSize="7" fontBold="true" floatingBehavior="enclosed" textAlignment="right" format="----------#" value="{{mfe_prefijos.numfin}}"/>
+                        </LAYOUTNODE>
+                        <LAYOUTNODE name="LayoutNode16_1_1_1" x="3.9506" y="265.404" width="13.8771" length="522.5" anchorX="0" anchorY="0" layoutDirection="leftToRight" floatingBehavior="enclosed">
+                            <WORDBOX name="WordBox61" x="1.7592" y="4.4354" anchorX="0" anchorY="0" fontSize="7" fontBold="true" floatingBehavior="enclosed" text="Fecha Vencimiento:"/>
+                            <rtl:input-variable name="mfe_prefijos.fec_ven" type="FGLString" expectedLocation="expectedHere"/>
+                            <WORDBOX name="mfe_prefijos.fec_ven Value" x="1.75957" y="109.776" anchorX="0" anchorY="0" fontSize="7" fontBold="true" floatingBehavior="enclosed" text="{{mfe_prefijos.fec_ven}}"/>
+                        </LAYOUTNODE>
+                        <LAYOUTNODE name="LayoutNode15_1" width="19.25" length="19.25" alignment="near" fontBold="true" layoutDirection="leftToRight" floatingBehavior="enclosed">
+                            <WORDBOX name="WordBox65" width="524.75" length="20" fontBold="true" underline="false" floatingBehavior="enclosed" text="____________________________________________________________________________________"/>
+                        </LAYOUTNODE>
+                        <LAYOUTNODE name="LayoutNode16_1_1_1_1" x="2.9932" y="-2.9738" width="13.8771" length="522.5" anchorX="0" anchorY="0" layoutDirection="leftToRight" floatingBehavior="enclosed">
+                            <WORDBOX name="WordBox69" x="1.7592" y="4.4354" anchorX="0" anchorY="0" fontSize="10" fontBold="true" floatingBehavior="enclosed" text="Nota:"/>
+                            <rtl:input-variable name="mfe_factura_m.nota1" type="FGLString" expectedLocation="expectedHere"/>
+                            <WORDWRAPBOX name="mfe_factura_m.nota1 Value" x="2.9852" y="40.6636" width="476.75" anchorX="0" anchorY="0" fontSize="8" fontBold="true" floatingBehavior="enclosed" text="{{mfe_factura_m.nota1}}"/>
+                        </LAYOUTNODE>
+                        <LAYOUTNODE name="LayoutNode16_1_1_1_1_1" x="6.4374" y="128.913" width="13.8771" length="522.5" anchorX="0.0019245" anchorY="0.5" layoutDirection="leftToRight" floatingBehavior="enclosed">
+                            <WORDBOX name="WordBox71" x="1.7592" y="4.4354" anchorX="0" anchorY="0" fontSize="10" fontBold="true" floatingBehavior="enclosed" text="Son:"/>
+                            <rtl:input-variable name="mletras1" type="FGLString" expectedLocation="expectedHere"/>
+                            <WORDWRAPBOX name="mletras1 Value" x="8.3606" y="41.9075" width="482" length="9.0357" anchorX="0.5" anchorY="0.0138112" fontSize="8" floatingBehavior="enclosed" text="{{mletras1}}"/>
+                        </LAYOUTNODE>
+                        <rtl:input-variable name="mletras2" type="FGLString" expectedLocation="expectedHere"/>
+                        <WORDWRAPBOX name="mletras2 Value" x="42.0382" y="137.132" width="width(&quot;M&quot;)*20" anchorX="0" anchorY="0" fontSize="8" floatingBehavior="enclosed" text="{{mletras2}}"/>
+                        <WORDBOX name="WordBox73" x="9.8673" y="158.271" anchorX="0" anchorY="0" fontSize="9" fontBold="true" floatingBehavior="enclosed" text="Elaboró:"/>
+                        <rtl:input-variable name="mgen02.nombre" type="FGLString" expectedLocation="expectedHere"/>
+                        <WORDBOX name="mgen02.nombre Value" x="59.6654" y="158.271" anchorX="0" anchorY="0" fontSize="9" floatingBehavior="enclosed" text="{{mgen02.nombre}}"/>
+                        <WORDBOX name="WordBox74" x="314.315" y="159.844" anchorX="0" anchorY="0" fontSize="9" fontBold="true" floatingBehavior="enclosed" text="Recibido:  _______________________________"/>
+                    </LAYOUTNODE>
+                    <WORDBOX name="WordBox51_1" x="1.0042" y="186.197" width="524.75" length="20" anchorX="0.00391604" anchorY="0.5" alignment="baseline" fontBold="true" underline="false" floatingBehavior="enclosed" text="____________________________________________________________________________________"/>
+                </MINIPAGE>
+            </rtl:match>
+        </PXML>
+    </rtl:stylesheet>
+</report:Report>

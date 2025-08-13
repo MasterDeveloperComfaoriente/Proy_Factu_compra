@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ManagedForm fileVersion="30a00" gstVersion="30a0b" name="managedform" uid="{48f48079-4475-4210-a36e-9667b5ea2e13}">
+  <AGSettings>
+    <DynamicProperties version="2"/>
+  </AGSettings>
+  <Form gridHeight="25" gridWidth="92" name="form" text="Form">
+    <Grid gridHeight="23" gridWidth="90" name="grid1" posX="1" posY="1">
+      <Label gridHeight="1" gridWidth="10" name="label1" posX="40" posY="1" text="PROVEEDORES"/>
+    </Grid>
+  </Form>
+  <DiagramLayout>
+    <![CDATA[AAAAAg==]]>
+  </DiagramLayout>
+</ManagedForm>

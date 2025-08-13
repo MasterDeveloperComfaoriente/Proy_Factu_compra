@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ManagedForm databaseName="empresa" fileVersion="30a00" gstVersion="30a0b" name="Root" uid="{45d5f0ba-4964-48fc-9ebc-84b8c49e6eb3}">
+  <AGSettings>
+    <DynamicProperties version="2"/>
+  </AGSettings>
+  <Record additionalTables="" joinLeft="" joinOperator="" joinRight="" name="Undefined" order="" uid="{caf90ddd-53fd-4210-91c8-94136c62c535}" where="">
+    <RecordField colName="codigo" fieldIdRef="9" fieldType="TABLE_COLUMN" name="fc_servicios.codigo" sqlTabName="fc_servicios" sqlType="CHAR" table_alias_name="" uid="{795a3d91-0e2a-4a54-a416-5d11b3fe9c63}"/>
+    <RecordField colName="descripcion" fieldIdRef="6" fieldType="TABLE_COLUMN" name="fc_servicios.descripcion" sqlTabName="fc_servicios" sqlType="CHAR" table_alias_name="" uid="{4668f36e-bef5-44c5-b8ef-1eb9d7831625}"/>
+    <RecordField colName="estado" fieldIdRef="7" fieldType="TABLE_COLUMN" name="fc_servicios.estado" sqlTabName="fc_servicios" sqlType="CHAR" table_alias_name="" uid="{b7b5551d-77eb-4658-8419-2126411edef9}"/>
+    <RecordField colName="coduni" fieldIdRef="10" fieldType="TABLE_COLUMN" name="fc_servicios.coduni" sqlTabName="fc_servicios" sqlType="CHAR" table_alias_name="" uid="{a67095bc-a2f3-4d58-ba6e-0534bb90105d}"/>
+    <RecordField colName="" fieldIdRef="11" length="60" name="mdescripcion" sqlTabName="" sqlType="VARCHAR" table_alias_name="" uid="{689d311a-1727-4d38-bcc0-1d67fe34b4fb}"/>
+    <RecordField colName="prefijo" fieldIdRef="1" fieldType="TABLE_COLUMN" name="fc_servicios.prefijo" sqlTabName="fc_servicios" uid="{bcb8634a-ab2d-4bc2-a6db-b179fbb5b181}"/>
+    <RecordField colName="tpimpuesto" fieldIdRef="2" fieldType="TABLE_COLUMN" name="fc_servicios.tpimpuesto" sqlTabName="fc_servicios" uid="{b109c156-1ec8-462a-aa32-f06ef94faa89}"/>
+  </Record>
+  <Form gridHeight="13" gridWidth="94" lstrtext="false" name="fe_servicios" spacing="normal" text="INFORMACION DE SERVICIOS">
+    <Grid gridHeight="11" gridWidth="90" lstrcomment="false" name="gr3" posX="1" posY="1">
+      <Label gridHeight="1" gridWidth="30" lstrcomment="false" lstrtext="false" name="lb31" posX="30" posY="1" text="DEFINICION DE  SERVICIOS Y/O PRODUCTOS "/>
+      <HLine gridWidth="90" name="hl8" posX="0" posY="2"/>
+      <Label gridHeight="1" gridWidth="11" lstrcomment="false" lstrtext="false" name="lb32" posX="3" posY="3" text="Codigo Servicio:"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="codigo" fieldId="9" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="7" lstrcomment="false" lstrtitle="false" name="fc_servicios.codigo" posX="16" posY="3" sqlTabName="fc_servicios" sqlType="CHAR" tabIndex="0" table_alias_name="" widget="Edit"/>
+      <Label colorCondition="black" gridHeight="1" gridWidth="9" lstrcomment="false" lstrtext="false" name="lb61" posX="3" posY="4" text="Descripcion :"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" case="upper" colName="descripcion" fieldId="6" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="50" lstrcomment="false" lstrtitle="false" name="fc_servicios.descripcion" posX="16" posY="4" sqlTabName="fc_servicios" sqlType="CHAR" tabIndex="1" table_alias_name="" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="12" name="label2" posX="3" posY="5" text="Tipo de Impuesto:"/>
+      <ComboBox colName="tpimpuesto" fieldId="2" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="21" items="" name="fc_servicios.tpimpuesto" posX="16" posY="5" sizePolicy="fixed" sqlTabName="fc_servicios" tabIndex="-1" title="combobox1" widget="ComboBox"/>
+      <Label colorCondition="black" gridHeight="1" gridWidth="12" lstrcomment="false" lstrtext="false" name="lb7" posX="3" posY="6" text="Unidad de Medida:"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="coduni" fieldId="10" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="3" lstrcomment="false" lstrtitle="false" name="fc_servicios.coduni" posX="16" posY="6" sqlTabName="fc_servicios" sqlType="CHAR" tabIndex="3" table_alias_name="" widget="Edit"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" case="upper" colName="" fieldId="11" gridHeight="1" gridWidth="23" length="60" name="mdescripcion" noEntry="true" posX="20" posY="6" sqlTabName="" sqlType="VARCHAR" tabIndex="4" table_alias_name="" title="Edit1" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="12" name="label1" posX="3" posY="7" text="Prefijo Asociado:"/>
+      <ComboBox colName="prefijo" fieldId="1" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="10" initializer="" items="" name="fc_servicios.prefijo" posX="16" posY="7" sizePolicy="fixed" sqlTabName="fc_servicios" tabIndex="-1" title="combobox1" widget="ComboBox"/>
+      <HLine gridWidth="90" name="hl12" posX="0" posY="8"/>
+      <Label gridHeight="1" gridWidth="7" lstrcomment="false" lstrtext="false" name="lb3" posX="31" posY="9" text="Estado :"/>
+      <ComboBox aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="estado" fieldId="7" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="17" items="" lstrcomment="false" lstrtitle="false" name="fc_servicios.estado" posX="41" posY="9" sizePolicy="fixed" sqlTabName="fc_servicios" sqlType="CHAR" tabIndex="2" table_alias_name="" widget="ComboBox"/>
+    </Grid>
+  </Form>
+  <DiagramLayout>
+    <![CDATA[AAAAAgAAAEwAewBjAGEAZgA5ADAAZABkAGQALQA1ADMAZgBkAC0ANAAyADEAMAAtADkAMQBjADgALQA5ADQAMQAzADYAYwA2ADIAYwA1ADMANQB9AAAAAAAAAAAAAAAAAAAAAD90euFHrhR7AQ==]]>
+  </DiagramLayout>
+</ManagedForm>

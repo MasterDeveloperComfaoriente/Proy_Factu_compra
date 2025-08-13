@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<WorkspaceViewState version="1.0">
+  <ExpandedNodes>
+    <Node path="FactuCompra.4pw" type="pm/main-project"/>
+    <Node path="FactuCompra.4pw/Application Generator" type="pm/group"/>
+    <Node path="FactuCompra.4pw/Application Generator/Database" type="pm/library"/>
+    <Node path="FactuCompra.4pw/Application Generator/Factu_Compra" type="pm/application"/>
+    <Node path="FactuCompra.4pw/Application Generator/Factu_Compra/Controllers" type="pm/virtual-folder"/>
+  </ExpandedNodes>
+  <OpenDocuments>
+    <Document container="true" filePath="fc_consumo_web_service.4gl" locator="208:16" module="mod-ce3">
+      <Data name="8" value="CP1252"/>
+    </Document>
+    <Document container="true" filePath="Vista.4fd" locator="" module="mod-fd"/>
+    <Document container="true" filePath="fc_nota_ajuste.4gl" locator="137:9:140:43" module="mod-ce3">
+      <Data name="8" value="CP1252"/>
+    </Document>
+    <Document container="true" filePath="fc_factura.4gl" locator="90:52" module="mod-ce3">
+      <Data name="8" value="CP1252"/>
+    </Document>
+    <Document container="true" filePath="fc_main.4gl" locator="20:2" module="mod-ce3">
+      <Data name="8" value="CP1252"/>
+    </Document>
+    <Document container="true" filePath="fc_globales.4gl" locator="11:49" module="mod-ce3">
+      <Data name="8" value="CP1252"/>
+    </Document>
+    <Document container="true" filePath="seguridad_val.4gl" locator="372:23" module="mod-ce3">
+      <Data name="8" value="CP1252"/>
+    </Document>
+    <Document container="true" filePath="fc_datos_ips.4gl" locator="5:27" module="mod-ce3">
+      <Data name="8" value="CP1252"/>
+    </Document>
+    <Document container="true" filePath="Database/empresa.4db" locator="" module="mod-db3"/>
+    <Document container="true" filePath="../Prueba_Integracion_WS/EnvioCorreo.4gl" locator="95:10:95:57" module="mod-ce3">
+      <Data name="8" value="CP1252"/>
+    </Document>
+  </OpenDocuments>
+  <CurrentDocument filePath="seguridad_val.4gl" module="mod-ce3"/>
+</WorkspaceViewState>

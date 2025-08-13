@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<Form name="fc_ciudades.tmp" build="3.10.18" sqlDbName="empresa" text="CIUDADES" width="53" height="16">
+  <LStr text="CIUDADES"/>
+  <Grid name="gr3" width="53" height="16">
+    <Group name="group1" text="CIUDADES" posY="1" posX="2" gridWidth="51" gridHeight="14">
+      <LStr text="CIUDADES"/>
+      <Label name="label1" width="7" text="CODIGO" justify="center" posY="2" posX="2" gridWidth="7">
+        <LStr text="CODIGO"/>
+      </Label>
+      <Label name="label2" width="7" text="NOMBRE" posY="2" posX="26" gridWidth="7">
+        <LStr text="NOMBRE"/>
+      </Label>
+      <Matrix pageSize="10" name="fe_ciudades.codciu" colName="codciu" sqlType="CHAR(6)" required="1" notNull="1" fieldId="0" sqlTabName="fe_ciudades" tabIndex="1" noEntry="1">
+        <Edit width="9" posY="3" posX="2" gridWidth="9"/>
+      </Matrix>
+      <Matrix pageSize="10" name="fe_ciudades.nombreciu" colName="nombreciu" sqlType="VARCHAR(50)" required="1" notNull="1" fieldId="1" sqlTabName="fe_ciudades" tabIndex="2">
+        <Edit width="31" posY="3" posX="13" gridWidth="31"/>
+      </Matrix>
+    </Group>
+  </Grid>
+  <RecordView tabName="fe_ciudades">
+    <Link colName="codciu" fieldIdRef="0"/>
+    <Link colName="nombreciu" fieldIdRef="1"/>
+  </RecordView>
+  <RecordView tabName="ciudades">
+    <Link colName="codciu" fieldIdRef="0"/>
+    <Link colName="nombreciu" fieldIdRef="1"/>
+  </RecordView>
+</Form>

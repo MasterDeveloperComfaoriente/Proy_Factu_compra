@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<Form name="fc_deptos.tmp" build="3.10.18" sqlDbName="empresa" text="DEPARTAMENTOS" width="53" height="16">
+  <LStr text="DEPARTAMENTOS"/>
+  <Grid name="gr3" width="53" height="16">
+    <Group name="group1" text="DEPARTAMENTOS" posY="1" posX="2" gridWidth="51" gridHeight="14">
+      <LStr text="DEPARTAMENTOS"/>
+      <Label name="label1" width="7" text="CODIGO" justify="center" posY="2" posX="2" gridWidth="7">
+        <LStr text="CODIGO"/>
+      </Label>
+      <Label name="label2" width="7" text="NOMBRE" posY="2" posX="22" gridWidth="7">
+        <LStr text="NOMBRE"/>
+      </Label>
+      <Matrix pageSize="10" name="fe_deptos.coddep" colName="coddep" sqlType="CHAR(2)" required="1" notNull="1" fieldId="0" sqlTabName="fe_deptos" tabIndex="1" noEntry="1">
+        <Edit width="4" posY="3" posX="3" gridWidth="4"/>
+      </Matrix>
+      <Matrix pageSize="10" name="fe_deptos.nombredep" colName="nombredep" sqlType="VARCHAR(50)" required="1" notNull="1" fieldId="1" sqlTabName="fe_deptos" tabIndex="2">
+        <Edit width="37" posY="3" posX="11" gridWidth="37"/>
+      </Matrix>
+    </Group>
+  </Grid>
+  <RecordView tabName="fe_deptos">
+    <Link colName="coddep" fieldIdRef="0"/>
+    <Link colName="nombredep" fieldIdRef="1"/>
+  </RecordView>
+  <RecordView tabName="deptos">
+    <Link colName="coddep" fieldIdRef="0"/>
+    <Link colName="nombredep" fieldIdRef="1"/>
+  </RecordView>
+</Form>

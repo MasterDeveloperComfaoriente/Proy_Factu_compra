@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ManagedForm fileVersion="30a00" gstVersion="30a0b" name="managedform" uid="{675a94f4-45de-4a94-ba3f-50e9e89f9be9}">
+  <AGSettings>
+    <DynamicProperties version="2"/>
+  </AGSettings>
+  <Record name="Undefined" uid="{17a6a11a-0bce-40e3-b709-36ee1fb98883}">
+    <RecordField fieldIdRef="1" name="ruta" uid="{565fdaae-9ed7-418d-ac03-36e25f57c4e9}"/>
+  </Record>
+  <Form gridHeight="11" gridWidth="80" name="form" text="Form">
+    <Grid gridHeight="10" gridWidth="78" name="grid1" posX="1" posY="0">
+      <Edit fieldId="1" gridHeight="1" gridWidth="37" name="ruta" posX="6" posY="1" tabIndex="-1" title="edit1" widget="Edit"/>
+      <Button gridHeight="1" gridWidth="11" name="bt_selruta" posX="44" posY="1" tabIndex="-1" text="Elegir Ruta"/>
+    </Grid>
+  </Form>
+  <DiagramLayout>
+    <![CDATA[AAAAAgAAAEwAewAxADcAYQA2AGEAMQAxAGEALQAwAGIAYwBlAC0ANAAwAGUAMwAtAGIANwAwADkALQAzADYAZQBlADEAZgBiADkAOAA4ADgAMwB9AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ==]]>
+  </DiagramLayout>
+</ManagedForm>

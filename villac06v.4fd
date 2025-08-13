@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ManagedForm databaseName="empresa" fileVersion="30a00" gstVersion="30a0b" name="ManagedForm" uid="{88f84d70-ef17-4fb3-88f8-a4ac82162afc}">
+  <AGSettings>
+    <DynamicProperties version="2"/>
+  </AGSettings>
+  <Record additionalTables="" joinLeft="" joinOperator="" joinRight="" name="cenv" order="" uid="{26bbadb3-e2a7-471d-a816-e655da7fdb05}" where="">
+    <RecordField colName="codcen" fieldIdRef="0" fieldType="TABLE_COLUMN" name="niif147.codcen" sqlTabName="niif147" sqlType="CHAR" table_alias_name="" uid="{616548ce-c7ba-49e3-8bd7-d67315f8f7ad}"/>
+    <RecordField colName="detalle" fieldIdRef="1" fieldType="TABLE_COLUMN" name="niif147.detalle" sqlTabName="niif147" sqlType="CHAR" table_alias_name="" uid="{94b36876-449e-402b-ab2d-c70c460e43e3}"/>
+  </Record>
+  <Form gridHeight="14" gridWidth="36" name="villac06v" text="villac06v">
+    <Grid gridHeight="14" gridWidth="36" name="gr36" posX="0" posY="0">
+      <Label posX="9" posY="1" text="CENTROS DE COSTOS"/>
+      <Label posX="7" posY="3" text="Codigo"/>
+      <Label posX="22" posY="3" text="Detalle"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="codcen" columnCount="1" fieldId="0" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="4" name="niif147.codcen" posX="5" posY="5" repeat="true" rowCount="5" sqlTabName="niif147" sqlType="CHAR" stepX="1" stepY="0" tabIndex="1" table_alias_name="" widget="Edit"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="detalle" columnCount="1" fieldId="1" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="20" name="niif147.detalle" posX="12" posY="5" repeat="true" rowCount="5" sqlTabName="niif147" sqlType="CHAR" stepX="1" stepY="0" tabIndex="2" table_alias_name="" widget="Edit"/>
+    </Grid>
+  </Form>
+  <DiagramLayout>
+    <![CDATA[AAAAAgAAAEwAewAyADYAYgBiAGEAZABiADMALQBlADIAYQA3AC0ANAA3ADEAZAAtAGEAOAAxADYALQBlADYANQA1AGQAYQA3AGYAZABiADAANQB9AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ==]]>
+  </DiagramLayout>
+</ManagedForm>

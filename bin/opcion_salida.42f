@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<Form name="opcion_salida.tmp" build="3.10.18" text="Form" width="78" height="24">
+  <LStr text="Form"/>
+  <Grid name="grid1" width="78" height="24">
+    <Label name="label1" width="76" text="SELECCIONE EL FORMATO DEL REPORTE" justify="center" posY="1" posX="1" gridWidth="76">
+      <LStr text="SELECCIONE EL FORMATO DEL REPORTE"/>
+    </Label>
+    <FormField name="formonly.radiogroup1" colName="radiogroup1" fieldId="0" sqlTabName="formonly" tabIndex="1">
+      <RadioGroup width="18" posY="3" posX="31" gridWidth="18" gridHeight="10">
+        <Item name="PDF" text="PDF"/>
+        <Item name="XLSX" text="Hoja de Calculo"/>
+        <Item name="RTF" text="Documento de Texto"/>
+      </RadioGroup>
+    </FormField>
+  </Grid>
+  <RecordView tabName="formonly">
+    <Link colName="radiogroup1" fieldIdRef="0"/>
+  </RecordView>
+  <RecordView tabName="undefined">
+    <Link colName="radiogroup1" fieldIdRef="0"/>
+  </RecordView>
+</Form>

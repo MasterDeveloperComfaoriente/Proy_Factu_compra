@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ManagedForm fileVersion="30a00" gstVersion="30a0b" name="Root" uid="{bb17f91e-c8fb-4455-bad6-a7a4e72ef4a1}">
+  <AGSettings>
+    <DynamicProperties version="2"/>
+  </AGSettings>
+  <Record additionalTables="" joinLeft="" joinOperator="" joinRight="" name="Undefined" order="" uid="{873cc284-9ac7-42aa-a511-ff241c616158}" where="">
+    <RecordField colName="" fieldIdRef="3" fieldType="NON_DATABASE" name="titulo" sqlTabName="" sqlType="CHAR" table_alias_name="" uid="{ad1ff7a4-5f7d-45ac-9ade-22eec5091f3b}"/>
+    <RecordField colName="" fieldIdRef="1" fieldType="NON_DATABASE" name="prompt" sqlTabName="" sqlType="CHAR" table_alias_name="" uid="{5c705c34-452e-4d71-983a-99e2cd080489}"/>
+    <RecordField colName="" fieldIdRef="2" fieldType="NON_DATABASE" name="fecha" sqlTabName="" sqlType="DATE" table_alias_name="" uid="{0665059d-cf18-4313-a9d8-4e00d27a749e}"/>
+  </Record>
+  <Form gridHeight="9" gridWidth="46" name="confec" spacing="normal" text="confec">
+    <Grid gridHeight="8" gridWidth="44" lstrcomment="false" name="gr1" posX="0" posY="0">
+      <HLine gridWidth="43" name="hl2" posX="0" posY="1"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" autoNext="true" colName="" fieldId="3" fieldType="NON_DATABASE" gridHeight="1" gridWidth="32" length="1" lstrcomment="false" lstrtitle="false" name="titulo" posX="5" posY="2" sqlTabName="" sqlType="CHAR" tabIndex="1" table_alias_name="" widget="Edit"/>
+      <HLine gridWidth="43" name="hl1" posX="0" posY="3"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" autoNext="true" colName="" fieldId="1" fieldType="NON_DATABASE" gridHeight="1" gridWidth="23" length="1" lstrcomment="false" lstrtitle="false" name="prompt" posX="3" posY="5" sqlTabName="" sqlType="CHAR" tabIndex="2" table_alias_name="" widget="Edit"/>
+      <Label posX="27" posY="5" text=":"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" autoNext="true" colName="" fieldId="2" fieldType="NON_DATABASE" gridHeight="1" gridWidth="10" length="1" lstrcomment="false" lstrtitle="false" name="fecha" posX="29" posY="5" sqlTabName="" sqlType="DATE" tabIndex="3" table_alias_name="" widget="Edit"/>
+    </Grid>
+  </Form>
+  <DiagramLayout>
+    <![CDATA[AAAAAgAAAEwAewA4ADcAMwBjAGMAMgA4ADQALQA5AGEAYwA3AC0ANAAyAGEAYQAtAGEANQAxADEALQBmAGYAMgA0ADEAYwA2ADEANgAxADUAOAB9AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ==]]>
+  </DiagramLayout>
+</ManagedForm>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ManagedForm databaseName="empresa" fileVersion="30a00" gstVersion="30a0b" name="managedform" uid="{06e3e75e-dd05-44cd-a360-ab76d56354c0}">
+  <AGSettings>
+    <DynamicProperties version="2"/>
+  </AGSettings>
+  <Record name="Undefined" uid="{64ded9c7-1996-41b1-baf1-611624173bf7}">
+    <RecordField colName="radicado" fieldIdRef="2" fieldType="TABLE_COLUMN" name="com_proveedores.radicado" sqlTabName="com_proveedores" uid="{01dbae75-e9cd-47fb-8b0c-a6718ea1a82a}"/>
+    <RecordField colName="inscrip" fieldIdRef="3" fieldType="TABLE_COLUMN" name="com_proveedores.inscrip" sqlTabName="com_proveedores" uid="{78a89497-ba36-492b-a90b-d304836467f3}"/>
+    <RecordField colName="nit" fieldIdRef="4" fieldType="TABLE_COLUMN" name="com_proveedores.nit" sqlTabName="com_proveedores" uid="{5befa6f4-42d5-4d24-b5aa-3a0deb3c19ec}"/>
+    <RecordField colName="recibo" fieldIdRef="6" fieldType="TABLE_COLUMN" name="com_proveedores.recibo" sqlTabName="com_proveedores" uid="{c2c9edc6-7892-4683-9b79-694c548fcbce}"/>
+    <RecordField colName="nomrep" fieldIdRef="8" fieldType="TABLE_COLUMN" name="com_proveedores.nomrep" sqlTabName="com_proveedores" uid="{f1724d08-2137-4bed-b641-df6ddb1c5950}"/>
+    <RecordField colName="digver" fieldIdRef="9" fieldType="TABLE_COLUMN" name="com_proveedores.digver" sqlTabName="com_proveedores" uid="{9d7ac2f6-9e0c-48cb-ac8c-34cca69d3344}"/>
+    <RecordField colName="cedrep" fieldIdRef="10" fieldType="TABLE_COLUMN" name="com_proveedores.cedrep" sqlTabName="com_proveedores" uid="{6c6fc5af-a245-475e-a35c-2c898b8e62fe}"/>
+    <RecordField colName="razsoc" fieldIdRef="5" fieldType="TABLE_COLUMN" name="com_proveedores.razsoc" sqlTabName="com_proveedores" uid="{36f2b890-30c4-49af-97e7-6c855a81fb52}"/>
+    <RecordField fieldIdRef="11" fieldType="NON_DATABASE" length="20" name="dpto" sqlType="CHAR" uid="{ec253288-96f8-4683-b7cd-f79c29d16d74}"/>
+    <RecordField colName="codciu" fieldIdRef="12" fieldType="NON_DATABASE" length="6" name="ciudad" sqlTabName="fe_ciudades" sqlType="CHAR" uid="{6a623b0c-14af-48e1-afc4-17e096b23be1}"/>
+    <RecordField colName="telefono" fieldIdRef="13" fieldType="TABLE_COLUMN" name="com_proveedores.telefono" sqlTabName="com_proveedores" uid="{56f4235a-718d-4dcb-92a2-efc40bf6d4da}"/>
+    <RecordField colName="mail" fieldIdRef="14" fieldType="TABLE_COLUMN" name="com_proveedores.mail" sqlTabName="com_proveedores" uid="{90ea9883-7423-44f7-99d0-0f240e77fb38}"/>
+    <RecordField colName="tip_prov" fieldIdRef="15" fieldType="TABLE_COLUMN" name="com_proveedores.tip_prov" sqlTabName="com_proveedores" uid="{35d3f5b3-cc6d-4b10-be19-52ad1470de39}"/>
+    <RecordField colName="g_contrib" fieldIdRef="16" fieldType="TABLE_COLUMN" name="com_proveedores.g_contrib" sqlTabName="com_proveedores" uid="{846438d0-e2b9-4674-bcd9-a53081cec770}"/>
+    <RecordField colName="autoret" fieldIdRef="17" fieldType="TABLE_COLUMN" name="com_proveedores.autoret" sqlTabName="com_proveedores" uid="{468ae309-3a40-4763-9fd4-df81b714d15e}"/>
+    <RecordField colName="actividad1" fieldIdRef="18" fieldType="TABLE_COLUMN" name="com_proveedores.actividad1" sqlTabName="com_proveedores" uid="{d0f3546c-2a33-4dd0-b6d3-01385bb06001}"/>
+    <RecordField colName="actividad3" fieldIdRef="19" fieldType="TABLE_COLUMN" name="com_proveedores.actividad3" sqlTabName="com_proveedores" uid="{c7da2e70-70fc-48d1-87ed-c008ada22131}"/>
+    <RecordField colName="actividad4" fieldIdRef="20" fieldType="TABLE_COLUMN" name="com_proveedores.actividad4" sqlTabName="com_proveedores" uid="{fd2c594d-5e64-4b7f-a0a4-29ba21058a91}"/>
+    <RecordField colName="actividad2" fieldIdRef="21" fieldType="TABLE_COLUMN" name="com_proveedores.actividad2" sqlTabName="com_proveedores" uid="{39748fa7-fbc3-445f-a0e4-e1348c81c8f3}"/>
+    <RecordField colName="az" fieldIdRef="22" fieldType="TABLE_COLUMN" name="com_proveedores.az" sqlTabName="com_proveedores" uid="{cb618724-9302-42e9-96b7-d20e0545edf6}"/>
+    <RecordField colName="cl_soc" fieldIdRef="23" fieldType="TABLE_COLUMN" name="com_proveedores.cl_soc" sqlTabName="com_proveedores" uid="{e84684eb-710f-4fa6-9411-aa440d8ba3b7}"/>
+    <RecordField colName="cl_emp" fieldIdRef="24" fieldType="TABLE_COLUMN" name="com_proveedores.cl_emp" sqlTabName="com_proveedores" uid="{21c79630-be8a-4782-8149-79ce976a795f}"/>
+    <RecordField colName="resolg" fieldIdRef="25" fieldType="TABLE_COLUMN" name="com_proveedores.resolg" sqlTabName="com_proveedores" uid="{5b668472-f1e2-476b-82e8-ca74207c5513}"/>
+    <RecordField colName="resola" fieldIdRef="26" fieldType="TABLE_COLUMN" name="com_proveedores.resola" sqlTabName="com_proveedores" uid="{f18b53d0-1402-4b2e-a1a1-e5212229ea27}"/>
+    <RecordField colName="exento_imp" fieldIdRef="27" fieldType="TABLE_COLUMN" name="com_proveedores.exento_imp" sqlTabName="com_proveedores" uid="{2eeeaae6-3fb1-4af3-b913-2a1799750076}"/>
+    <RecordField colName="codcaja" fieldIdRef="28" fieldType="TABLE_COLUMN" name="com_proveedores.codcaja" sqlTabName="com_proveedores" uid="{b88e7a3d-64db-4800-9630-4d81f2535049}"/>
+    <RecordField colName="estado" fieldIdRef="29" fieldType="TABLE_COLUMN" name="com_proveedores.estado" sqlTabName="com_proveedores" uid="{a5bd7763-40a2-497e-b227-4090809cdb35}"/>
+    <RecordField colName="fecrad" fieldIdRef="1" fieldType="TABLE_COLUMN" name="com_proveedores.fecrad" sqlTabName="com_proveedores" uid="{f92e464e-1734-4eb2-b97e-b83c16c8d594}"/>
+    <RecordField colName="fecrec" fieldIdRef="7" fieldType="TABLE_COLUMN" name="com_proveedores.fecrec" sqlTabName="com_proveedores" uid="{248a840f-31b4-46f0-8626-cff79dc7aa5f}"/>
+    <RecordField colName="direccion" fieldIdRef="30" fieldType="TABLE_COLUMN" name="com_proveedores.direccion" sqlTabName="com_proveedores" uid="{569a15fe-1908-4e3d-afe6-37e2c8d58e39}"/>
+    <RecordField colName="fax" fieldIdRef="31" fieldType="TABLE_COLUMN" name="com_proveedores.fax" sqlTabName="com_proveedores" uid="{431df529-2301-4f81-9e02-ddb1ff0af295}"/>
+    <RecordField colName="regimen" fieldIdRef="32" fieldType="TABLE_COLUMN" name="com_proveedores.regimen" sqlTabName="com_proveedores" uid="{6f4965ac-19d0-41d7-bbf0-5d3dbd1c1213}"/>
+    <RecordField colName="aficaja" fieldIdRef="33" fieldType="TABLE_COLUMN" name="com_proveedores.aficaja" sqlTabName="com_proveedores" uid="{16a8185a-c113-4da0-a381-ea7c0affdb06}"/>
+    <RecordField colName="fecapro" fieldIdRef="34" fieldType="TABLE_COLUMN" name="com_proveedores.fecapro" sqlTabName="com_proveedores" uid="{bb5b6972-e3cb-437f-9f56-5742856967a2}"/>
+    <RecordField fieldIdRef="35" name="act1" uid="{92f4ec4e-1612-40ab-9797-aa1aa1e69363}"/>
+    <RecordField fieldIdRef="36" name="act2" uid="{8ddcc934-9f01-4885-acf2-32a6fac3ebe5}"/>
+    <RecordField fieldIdRef="37" name="act3" uid="{fb85324f-7954-4326-887f-f4a17db5173f}"/>
+    <RecordField fieldIdRef="38" name="act4" uid="{449ba8fb-5c3a-40bc-88c9-45b1250fb463}"/>
+  </Record>
+  <Form gridHeight="25" gridWidth="113" name="form" text="Aqui Podras Consultar / Adicionar Proveedores">
+    <Grid gridHeight="24" gridWidth="111" name="grid1" posX="1" posY="1">
+      <Label gridHeight="1" gridWidth="31" justify="center" name="label1" posX="40" posY="1" text="PROVEEDORES"/>
+      <Label gridHeight="1" gridWidth="7" name="label2" posX="1" posY="3" text="Radicado:"/>
+      <Edit colName="radicado" fieldId="2" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="24" name="com_proveedores.radicado" posX="9" posY="3" sqlTabName="com_proveedores" tabIndex="-1" title="edit1" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="14" name="label3" posX="34" posY="3" text="Fecha de Radicación:"/>
+      <DateEdit colName="fecrad" fieldId="1" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="23" name="com_proveedores.fecrad" posX="49" posY="3" sqlTabName="com_proveedores" tabIndex="-1" title="dateedit1" widget="DateEdit"/>
+      <Label gridHeight="1" gridWidth="9" name="label4" posX="74" posY="3" text="Acta Nueva:"/>
+      <Edit colName="inscrip" fieldId="3" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="24" name="com_proveedores.inscrip" posX="84" posY="3" sqlTabName="com_proveedores" tabIndex="-1" title="edit1" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="11" name="label6" posX="1" posY="4" text="Fecha Recibo"/>
+      <DateEdit colName="fecrec" fieldId="7" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="9" name="com_proveedores.fecrec" posX="13" posY="4" sqlTabName="com_proveedores" tabIndex="-1" title="dateedit1" widget="DateEdit"/>
+      <Label gridHeight="1" gridWidth="7" name="label5" posX="25" posY="4" text="Recibo"/>
+      <Edit colName="recibo" fieldId="6" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="23" name="com_proveedores.recibo" posX="33" posY="4" sqlTabName="com_proveedores" tabIndex="-1" title="edit1" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="4" name="label23" posX="63" posY="4" text="AZ"/>
+      <Edit colName="az" fieldId="22" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="3" name="com_proveedores.az" posX="69" posY="4" sqlTabName="com_proveedores" tabIndex="-1" title="edit13" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="15" name="label35" posX="75" posY="4" text="Fecha de Aprobación"/>
+      <DateEdit colName="fecapro" fieldId="34" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="11" name="com_proveedores.fecapro" posX="93" posY="4" sqlTabName="com_proveedores" tabIndex="-1" title="dateedit1" widget="DateEdit"/>
+      <Label gridHeight="1" gridWidth="9" name="label9" posX="1" posY="5" text="Razón Social"/>
+      <Edit colName="razsoc" fieldId="5" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="41" name="com_proveedores.razsoc" posX="11" posY="5" sqlTabName="com_proveedores" tabIndex="-1" title="edit5" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="7" name="label7" posX="53" posY="5" text="NIT:"/>
+      <Edit colName="nit" fieldId="4" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="24" name="com_proveedores.nit" posX="61" posY="5" sqlTabName="com_proveedores" tabIndex="-1" title="edit1" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="14" name="label8" posX="86" posY="5" text="Digito de Verificación -"/>
+      <Edit colName="digver" fieldId="9" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="5" name="com_proveedores.digver" posX="101" posY="5" sqlTabName="com_proveedores" tabIndex="-1" title="edit1" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="15" name="label10" posX="1" posY="6" text="Cédula Representante:"/>
+      <Edit colName="cedrep" fieldId="10" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="20" name="com_proveedores.cedrep" posX="17" posY="6" sqlTabName="com_proveedores" tabIndex="-1" title="edit1" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="15" name="label11" posX="38" posY="6" text="Nombre Representante:"/>
+      <Edit colName="nomrep" fieldId="8" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="52" name="com_proveedores.nomrep" posX="54" posY="6" sqlTabName="com_proveedores" tabIndex="-1" title="edit1" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="12" name="label12" posX="1" posY="7" text="Departamento:"/>
+      <ComboBox fieldId="11" fieldType="NON_DATABASE" gridHeight="1" gridWidth="26" items="" length="20" name="dpto" posX="15" posY="7" sqlType="CHAR" tabIndex="-1" title="combobox1" widget="ComboBox"/>
+      <Label gridHeight="1" gridWidth="8" name="label13" posX="42" posY="7" text="Ciudad:"/>
+      <Edit colName="codciu" fieldId="12" fieldType="NON_DATABASE" gridHeight="1" gridWidth="26" length="6" name="ciudad" posX="51" posY="7" sqlTabName="fe_ciudades" sqlType="CHAR" tabIndex="-1" title="combobox2" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="7" name="label14" posX="78" posY="7" text="Teléfono:"/>
+      <Edit colName="telefono" fieldId="13" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="20" name="com_proveedores.telefono" posX="86" posY="7" sqlTabName="com_proveedores" tabIndex="-1" title="edit11" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="11" name="label31" posX="1" posY="8" text="Dirección:"/>
+      <Edit colName="direccion" fieldId="30" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="65" name="com_proveedores.direccion" posX="13" posY="8" sqlTabName="com_proveedores" tabIndex="-1" title="edit1" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="5" name="label32" posX="79" posY="8" text="Fax:"/>
+      <Edit colName="fax" fieldId="31" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="22" name="com_proveedores.fax" posX="85" posY="8" sqlTabName="com_proveedores" tabIndex="-1" title="edit1" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="7" name="label15" posX="1" posY="9" text="E-mail:"/>
+      <Edit colName="mail" fieldId="14" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="26" name="com_proveedores.mail" posX="9" posY="9" sqlTabName="com_proveedores" tabIndex="-1" title="edit12" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="14" name="label16" posX="36" posY="9" text="Tipo de Proveedor:"/>
+      <ComboBox colName="tip_prov" fieldId="15" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="11" items="E, R, Seleccione una opción" name="com_proveedores.tip_prov" notNull="true" posX="51" posY="9" sqlTabName="com_proveedores" tabIndex="-1" title="combobox3" widget="ComboBox">
+        <Item lstrtext="false" name="E" text="E"/>
+        <Item lstrtext="false" name="R" text="R"/>
+        <Item lstrtext="false" name="Item1" text="Seleccione una opción"/>
+      </ComboBox>
+      <Label gridHeight="1" gridWidth="14" name="label17" posX="63" posY="9" text="Gran Contribuyente:"/>
+      <ComboBox colName="g_contrib" fieldId="16" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="5" items="Seleccione una Opción, Si, No" name="com_proveedores.g_contrib" posX="78" posY="9" sqlTabName="com_proveedores" tabIndex="-1" title="combobox3" widget="ComboBox">
+        <Item lstrtext="false" name="Item1" text="Seleccione una Opción"/>
+        <Item lstrtext="false" name="Item2" text="Si"/>
+        <Item lstrtext="false" name="Item3" text="No"/>
+      </ComboBox>
+      <Label gridHeight="1" gridWidth="12" name="label18" posX="84" posY="9" text="Autoretenedores:"/>
+      <ComboBox colName="autoret" fieldId="17" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="6" items="Si, No" name="com_proveedores.autoret" posX="99" posY="9" sqlTabName="com_proveedores" tabIndex="-1" title="combobox4" widget="ComboBox">
+        <Item lstrtext="false" name="Item1" text="Si"/>
+        <Item lstrtext="false" name="Item2" text="No"/>
+      </ComboBox>
+      <Label gridHeight="1" gridWidth="15" name="label19" posX="1" posY="10" text="Actividad Económica 1:"/>
+      <Edit colName="actividad1" fieldId="18" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="12" name="com_proveedores.actividad1" posX="17" posY="10" sqlTabName="com_proveedores" tabIndex="-1" title="combobox5" widget="Edit"/>
+      <Edit fieldId="35" gridHeight="1" gridWidth="41" name="act1" posX="31" posY="10" tabIndex="-1" title="edit1" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="15" name="label20" posX="1" posY="11" text="Actividad Económica 2:"/>
+      <Edit colName="actividad2" fieldId="21" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="12" name="com_proveedores.actividad2" posX="17" posY="11" sqlTabName="com_proveedores" tabIndex="-1" title="combobox5" widget="Edit"/>
+      <Edit fieldId="36" gridHeight="1" gridWidth="41" name="act2" posX="31" posY="11" tabIndex="-1" title="edit1" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="15" name="label21" posX="1" posY="12" text="Actividad Económica 3:"/>
+      <Edit colName="actividad3" fieldId="19" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="12" name="com_proveedores.actividad3" posX="17" posY="12" sqlTabName="com_proveedores" tabIndex="-1" title="combobox5" widget="Edit"/>
+      <Edit fieldId="37" gridHeight="1" gridWidth="41" name="act3" posX="31" posY="12" tabIndex="-1" title="edit1" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="15" name="label22" posX="1" posY="13" text="Actividad Económica 4:"/>
+      <Edit colName="actividad4" fieldId="20" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="12" name="com_proveedores.actividad4" posX="17" posY="13" sqlTabName="com_proveedores" tabIndex="-1" title="combobox5" widget="Edit"/>
+      <Edit fieldId="38" gridHeight="1" gridWidth="41" name="act4" posX="31" posY="13" tabIndex="-1" title="edit1" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="12" name="label24" posX="1" posY="14" text="Clase de Sociedad"/>
+      <Edit colName="cl_soc" fieldId="23" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="6" name="com_proveedores.cl_soc" posX="14" posY="14" sqlTabName="com_proveedores" tabIndex="-1" title="edit14" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="12" name="label25" posX="22" posY="14" text="Clase empresa"/>
+      <Edit colName="cl_emp" fieldId="24" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="6" name="com_proveedores.cl_emp" posX="35" posY="14" sqlTabName="com_proveedores" tabIndex="-1" title="edit14" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="12" name="label26" posX="42" posY="14" text="resolg???"/>
+      <Edit colName="resolg" fieldId="25" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="9" name="com_proveedores.resolg" posX="55" posY="14" sqlTabName="com_proveedores" tabIndex="-1" title="edit14" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="12" name="label27" posX="66" posY="14" text="resola???"/>
+      <Edit colName="resola" fieldId="26" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="9" name="com_proveedores.resola" posX="79" posY="14" sqlTabName="com_proveedores" tabIndex="-1" title="edit14" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="7" name="label33" posX="89" posY="14" text="Régimen:"/>
+      <ComboBox colName="regimen" fieldId="32" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="10" items="Seleccione una opción, S, C" name="com_proveedores.regimen" posX="97" posY="14" sqlTabName="com_proveedores" tabIndex="-1" title="combobox1" widget="ComboBox">
+        <Item lstrtext="false" name="Item1" text="Seleccione una opción"/>
+        <Item lstrtext="false" name="Simplificado" text="S"/>
+        <Item lstrtext="false" name="Contributivo" text="C"/>
+      </ComboBox>
+      <Label gridHeight="1" gridWidth="10" name="label29" posX="1" posY="15" text="Código Caja:"/>
+      <Edit colName="codcaja" fieldId="28" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="6" name="com_proveedores.codcaja" posX="12" posY="15" sqlTabName="com_proveedores" tabIndex="-1" title="edit14" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="10" name="label28" posX="19" posY="15" text="Exento Imp.:"/>
+      <ComboBox colName="exento_imp" fieldId="27" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="18" items="Seleccione una opción, Si, No" name="com_proveedores.exento_imp" posX="30" posY="15" sqlTabName="com_proveedores" tabIndex="-1" title="combobox9" widget="ComboBox">
+        <Item lstrtext="false" name="Item3" text="Seleccione una opción"/>
+        <Item lstrtext="false" name="Item1" text="Si"/>
+        <Item lstrtext="false" name="Item2" text="No"/>
+      </ComboBox>
+      <Label gridHeight="1" gridWidth="13" name="label30" posX="50" posY="15" text="Estado:"/>
+      <ComboBox colName="estado" fieldId="29" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="19" items="Seleccione una opción, A, D" name="com_proveedores.estado" posX="64" posY="15" sqlTabName="com_proveedores" tabIndex="-1" title="combobox10" widget="ComboBox">
+        <Item lstrtext="false" name="Item1" text="Seleccione una opción"/>
+        <Item lstrtext="false" name="Item2" text="A"/>
+        <Item lstrtext="false" name="Item3" text="D"/>
+      </ComboBox>
+      <Label gridHeight="1" gridWidth="12" name="label34" posX="84" posY="15" text="Afiliado a la caja?"/>
+      <ComboBox colName="aficaja" fieldId="33" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="9" items="Seleccione una opción:, Si, No" name="com_proveedores.aficaja" posX="97" posY="15" sqlTabName="com_proveedores" tabIndex="-1" title="combobox1" widget="ComboBox">
+        <Item lstrtext="false" name="Item1" text="Seleccione una opción:"/>
+        <Item lstrtext="false" name="Si" text="Si"/>
+        <Item lstrtext="false" name="No" text="No"/>
+      </ComboBox>
+    </Grid>
+  </Form>
+  <DiagramLayout>
+    <![CDATA[AAAAAgAAAEwAewA2ADQAZABlAGQAOQBjADcALQAxADkAOQA2AC0ANAAxAGIAMQAtAGIAYQBmADEALQA2ADEAMQA2ADIANAAxADcAMwBiAGYANwB9AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ==]]>
+  </DiagramLayout>
+</ManagedForm>

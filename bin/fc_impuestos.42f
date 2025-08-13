@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<Form name="fc_impuestos.tmp" build="3.10.18" sqlDbName="empresa" text="IMPUESTOS" width="84" height="16">
+  <LStr text="IMPUESTOS"/>
+  <Grid name="gr3" width="84" height="16">
+    <Group name="group1" text="IMPUESTOS" posY="1" posX="5" gridWidth="79" gridHeight="14">
+      <LStr text="IMPUESTOS"/>
+      <Label name="label1" width="7" text="CODIGO" justify="center" posY="2" posX="2" gridWidth="7">
+        <LStr text="CODIGO"/>
+      </Label>
+      <Label name="label2" width="7" text="NOMBRE" posY="2" posX="19" gridWidth="7">
+        <LStr text="NOMBRE"/>
+      </Label>
+      <Label name="label3" width="10" text="DESCRIPCION" posY="2" posX="50" gridWidth="10">
+        <LStr text="DESCRIPCION"/>
+      </Label>
+      <Matrix pageSize="10" name="fe_impuestos.codimpu" colName="codimpu" sqlType="CHAR(2)" fieldId="0" sqlTabName="fe_impuestos" tabIndex="1" noEntry="1" notNull="1" required="1">
+        <Edit width="4" posY="3" posX="3" gridWidth="4"/>
+      </Matrix>
+      <Matrix pageSize="10" name="fe_impuestos.nombreimpu" colName="nombreimpu" sqlType="CHAR(20)" fieldId="1" sqlTabName="fe_impuestos" tabIndex="2" notNull="1" required="1">
+        <Edit width="23" posY="3" posX="10" gridWidth="23"/>
+      </Matrix>
+      <Matrix pageSize="10" name="fe_impuestos.descripcionimpu" colName="descripcionimpu" sqlType="CHAR(50)" fieldId="2" sqlTabName="fe_impuestos" tabIndex="3" notNull="1" required="1">
+        <Edit width="43" posY="3" posX="34" gridWidth="43"/>
+      </Matrix>
+    </Group>
+  </Grid>
+  <RecordView tabName="fe_impuestos">
+    <Link colName="codimpu" fieldIdRef="0"/>
+    <Link colName="nombreimpu" fieldIdRef="1"/>
+    <Link colName="descripcionimpu" fieldIdRef="2"/>
+  </RecordView>
+  <RecordView tabName="impuestos">
+    <Link colName="codimpu" fieldIdRef="0"/>
+    <Link colName="nombreimpu" fieldIdRef="1"/>
+    <Link colName="descripcionimpu" fieldIdRef="2"/>
+  </RecordView>
+</Form>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ManagedForm databaseName="empresa" fileVersion="30a00" gstVersion="30a0b" name="ManagedForm" uid="{f4066e4e-aa2b-412c-923f-fa299d9c65db}">
+  <AGSettings>
+    <DynamicProperties version="2"/>
+  </AGSettings>
+  <Record additionalTables="" joinLeft="" joinOperator="" joinRight="" name="planv" order="" uid="{7f9d3ab8-34a8-4d0a-b7cd-40aedd7e8d8d}" where="">
+    <RecordField colName="auxiliar" fieldIdRef="0" fieldType="TABLE_COLUMN" name="niif233.auxiliar" sqlTabName="niif233" sqlType="CHAR" table_alias_name="" uid="{7e51a2dd-c09f-4afd-b608-f9968d9f6e4e}"/>
+    <RecordField colName="detalle" fieldIdRef="1" fieldType="TABLE_COLUMN" name="niif233.detalle" sqlTabName="niif233" sqlType="CHAR" table_alias_name="" uid="{f3ccc9ef-511a-405d-bb3f-9b590e1f06b4}"/>
+  </Record>
+  <Form gridHeight="14" gridWidth="52" name="villac02v" text="villac02v">
+    <Grid gridHeight="14" gridWidth="52" name="gr9" posX="0" posY="0">
+      <Label posX="14" posY="2" text="PLAN DE CUENTAS"/>
+      <HLine gridWidth="43" name="HLine1" posX="4" posY="3"/>
+      <Label posX="4" posY="4" text="Auxiliar"/>
+      <Label posX="26" posY="4" text="D e t a l l e"/>
+      <HLine gridWidth="43" name="HLine2" posX="4" posY="5"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" case="upper" colName="auxiliar" columnCount="1" fieldId="0" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="12" name="niif233.auxiliar" posX="4" posY="6" repeat="true" rowCount="5" sqlTabName="niif233" sqlType="CHAR" stepX="1" stepY="0" tabIndex="1" table_alias_name="" widget="Edit"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" case="upper" colName="detalle" columnCount="1" fieldId="1" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="30" name="niif233.detalle" posX="17" posY="6" repeat="true" rowCount="5" sqlTabName="niif233" sqlType="CHAR" stepX="1" stepY="0" tabIndex="2" table_alias_name="" widget="Edit"/>
+      <HLine gridWidth="43" name="HLine3" posX="4" posY="11"/>
+    </Grid>
+  </Form>
+  <DiagramLayout>
+    <![CDATA[AAAAAgAAAEwAewA3AGYAOQBkADMAYQBiADgALQAzADQAYQA4AC0ANABkADAAYQAtAGIANwBjAGQALQA0ADAAYQBlAGQAZAA3AGUAOABkADgAZAB9AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ==]]>
+  </DiagramLayout>
+</ManagedForm>

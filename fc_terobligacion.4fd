@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ManagedForm databaseName="empresa" fileVersion="30a00" gstVersion="30a0b" name="ManagedForm" uid="{c88b08da-b27f-45ca-91ac-b6bab6456886}">
+  <AGSettings>
+    <DynamicProperties version="2"/>
+  </AGSettings>
+  <Record additionalTables="" joinLeft="" joinOperator="" joinRight="" name="dteroblig" order="" uid="{b5ebdc70-10a5-444f-ae54-0ecebf0ee22f}" where="">
+    <RecordField colName="codigo_oblig" fieldIdRef="2" fieldType="TABLE_COLUMN" name="fe_terobligacion.codigo_oblig" sqlTabName="fe_terobligacion" sqlType="CHAR" table_alias_name="" uid="{8b73e6ca-47af-4008-98da-b2c74123bcac}"/>
+    <RecordField colName="descripcion" fieldIdRef="3" fieldType="TABLE_COLUMN" name="fe_tipobligacion.descripcion" sqlTabName="fe_tipobligacion" sqlType="CHAR" table_alias_name="" uid="{257bf0bb-f03f-4467-88b8-305fd98ee902}"/>
+  </Record>
+  <Record additionalTables="" joinLeft="" joinOperator="" joinRight="" name="Undefined" order="" uid="{1ec05c20-b658-4115-809d-d9b60521028a}" where="">
+    <RecordField colName="nit" fieldIdRef="0" fieldType="TABLE_COLUMN" name="fe_terceros.nit" sqlTabName="fe_terceros" sqlType="CHAR" table_alias_name="" uid="{82e90cd5-bdba-4fc1-b6b2-e7d8bf895442}"/>
+    <RecordField colName="primer_nombre" fieldIdRef="4" fieldType="TABLE_COLUMN" name="fe_terceros.primer_nombre" sqlTabName="fe_terceros" sqlType="CHAR" table_alias_name="" uid="{acf999fe-8d59-438b-9dd8-2e99a2a71b32}"/>
+  </Record>
+  <Form gridHeight="20" gridWidth="76" name="fe_prefijos_usu" text="USUARIOS POR PREFIJO">
+    <Grid gridHeight="18" gridWidth="71" name="gr2" posX="3" posY="1">
+      <Label gridHeight="1" gridWidth="35" name="Label1" posX="20" posY="1" text="OBLIGACIONES TRIBUTARIAS DEL ADQUIRIENTE"/>
+      <HLine gridWidth="71" name="HLine1" posX="0" posY="2"/>
+      <Label gridHeight="1" gridWidth="4" name="lb1" posX="1" posY="3" text="NIT:"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="nit" fieldId="0" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="20" name="fe_terceros.nit" posX="6" posY="3" sqlTabName="fe_terceros" sqlType="CHAR" tabIndex="1" table_alias_name="" widget="Edit"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="primer_nombre" fieldId="4" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="40" name="fe_terceros.primer_nombre" posX="27" posY="3" sqlTabName="fe_terceros" sqlType="CHAR" tabIndex="4" table_alias_name="" widget="Edit"/>
+      <HLine gridWidth="71" name="HLine2" posX="0" posY="5"/>
+      <Label color="blue" gridHeight="1" gridWidth="6" justify="center" name="lb4" posX="5" posY="6" text="CODIGO"/>
+      <Label color="blue" gridHeight="1" gridWidth="10" name="lb5" posX="33" posY="6" text="DESCRIPCIÓN"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="codigo_oblig" columnCount="1" fieldId="2" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="5" name="fe_terobligacion.codigo_oblig" posX="5" posY="7" repeat="true" rowCount="10" sqlTabName="fe_terobligacion" sqlType="CHAR" stepX="1" stepY="0" tabIndex="2" table_alias_name="" widget="Edit"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="descripcion" columnCount="1" fieldId="3" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="54" name="fe_tipobligacion.descripcion" noEntry="true" posX="12" posY="7" repeat="true" rowCount="10" sqlTabName="fe_tipobligacion" sqlType="CHAR" stepX="1" stepY="0" tabIndex="3" table_alias_name="" widget="Edit"/>
+    </Grid>
+  </Form>
+  <DiagramLayout>
+    <![CDATA[AAAAAgAAAEwAewAxAGUAYwAwADUAYwAyADAALQBiADYANQA4AC0ANAAxADEANQAtADgAMAA5AGQALQBkADkAYgA2ADAANQAyADEAMAAyADgAYQB9QHAQAAAgAAA/8AAAIAAAAD9QYk3S8an8AQAAAEwAewBiADUAZQBiAGQAYwA3ADAALQAxADAAYQA1AC0ANAA0ADQAZgAtAGEAZQA1ADQALQAwAGUAYwBlAGIAZgAwAGUAZQAyADIAZgB9AAAAAAAAAAAAAAAAAAAAAD+crAgxJul+AQ==]]>
+  </DiagramLayout>
+</ManagedForm>

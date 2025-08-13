@@ -1,0 +1,5 @@
+<ReportDataSample>
+    <report name="r_imprimeCatEmpleados">
+        <sample path="Report.FirstPageHeader.fecha_elab" value="20-09-2010"/>
+    </report>
+</ReportDataSample>

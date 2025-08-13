@@ -1,0 +1,255 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<Form name="fc_factura.tmp" build="3.10.18" sqlDbName="empresa" text="MODULO DE DOCUMENTO SOPORTE" width="157" height="29">
+  <LStr text="MODULO DE DOCUMENTO SOPORTE"/>
+  <Grid name="grid1" width="157" height="29">
+    <Label name="label17" width="6" text="Prefijo:" posY="1" posX="1" gridWidth="6">
+      <LStr text="Prefijo:"/>
+    </Label>
+    <FormField name="fc_factura_m.prefijo" colName="prefijo" sqlType="CHAR(5)" required="1" notNull="1" fieldId="0" sqlTabName="fc_factura_m" tabIndex="5">
+      <Edit width="10" shift="up" posY="1" posX="8" gridWidth="10"/>
+    </FormField>
+    <FormField name="formonly.mprefijo" colName="mprefijo" fieldId="1" sqlTabName="formonly" tabIndex="6">
+      <Edit width="23" posY="1" posX="19" gridWidth="23"/>
+    </FormField>
+    <Label name="label7" width="10" text="No. INTERNO :" posY="1" posX="43" gridWidth="10">
+      <LStr text="No. INTERNO :"/>
+    </Label>
+    <FormField name="fc_factura_m.documento" colName="documento" sqlType="CHAR(7)" required="1" notNull="1" fieldId="2" sqlTabName="fc_factura_m" tabIndex="7">
+      <Edit width="7" posY="1" posX="54" gridWidth="7"/>
+    </FormField>
+    <Label name="label18" width="11" text="No. Documento:" posY="1" posX="62" gridWidth="11">
+      <LStr text="No. Documento:"/>
+    </Label>
+    <FormField name="fc_factura_m.numfac" colName="numfac" sqlType="INTEGER" fieldId="3" sqlTabName="fc_factura_m" noEntry="1" tabIndex="8">
+      <Edit width="7" posY="1" posX="74" gridWidth="7"/>
+    </FormField>
+    <Label name="label3" width="13" text="Fecha elaboracion :" posY="2" posX="1" gridWidth="13">
+      <LStr text="Fecha elaboracion :"/>
+    </Label>
+    <FormField name="fc_factura_m.fecha_elaboracion" colName="fecha_elaboracion" sqlType="DATE" required="1" notNull="1" fieldId="4" sqlTabName="fc_factura_m" noEntry="1" tabIndex="9">
+      <DateEdit width="8" posY="2" posX="15" gridWidth="10"/>
+    </FormField>
+    <Label name="label20" width="13" text="Fecha documento :" posY="2" posX="27" gridWidth="13">
+      <LStr text="Fecha documento :"/>
+    </Label>
+    <FormField name="fc_factura_m.fecha_factura" colName="fecha_factura" sqlType="DATE" fieldId="5" sqlTabName="fc_factura_m" noEntry="1" tabIndex="10">
+      <DateEdit width="8" posY="2" posX="41" gridWidth="10"/>
+    </FormField>
+    <Label name="label21" width="5" text="Hora :" posY="2" posX="52" gridWidth="5">
+      <LStr text="Hora :"/>
+    </Label>
+    <FormField name="fc_factura_m.hora" colName="hora" sqlType="CHAR(8)" fieldId="6" sqlTabName="fc_factura_m" noEntry="1" tabIndex="11">
+      <Edit width="7" posY="2" posX="58" gridWidth="7"/>
+    </FormField>
+    <Label name="label19" width="5" text="CUDS:" posY="3" posX="1" gridWidth="5">
+      <LStr text="CUDS:"/>
+    </Label>
+    <FormField name="fc_factura_m.cufe" colName="cufe" sqlType="CHAR(100)" fieldId="7" sqlTabName="fc_factura_m" noEntry="1" tabIndex="12">
+      <Edit width="70" posY="3" posX="8" gridWidth="70"/>
+    </FormField>
+    <HLine posY="4" posX="0" gridWidth="100"/>
+    <Label name="label16" width="9" text="Proveedor :" posY="5" posX="1" gridWidth="9">
+      <LStr text="Proveedor :"/>
+    </Label>
+    <FormField name="fc_factura_m.nit" colName="nit" sqlType="CHAR(20)" required="1" notNull="1" fieldId="8" sqlTabName="fc_factura_m" tabIndex="13">
+      <Edit width="20" autoNext="1" shift="up" comment="DIGITE EL NUMERO DEL DOCUMENTO" posY="5" posX="11" gridWidth="20">
+        <LStr comment="DIGITE EL NUMERO DEL DOCUMENTO"/>
+      </Edit>
+    </FormField>
+    <FormField name="formonly.mrazsoc" colName="mrazsoc" sqlType="CHAR" fieldId="9" sqlTabName="formonly" noEntry="1" tabIndex="14">
+      <Edit width="50" autoNext="1" shift="up" posY="5" posX="32" gridWidth="50"/>
+    </FormField>
+    <Label name="label23" width="11" text="Forma de Pago:" posY="7" posX="1" gridWidth="11">
+      <LStr text="Forma de Pago:"/>
+    </Label>
+    <FormField name="fc_factura_m.forma_pago" colName="forma_pago" sqlType="CHAR(1)" required="1" notNull="1" fieldId="10" sqlTabName="fc_factura_m" tabIndex="15">
+      <ComboBox width="10" posY="7" posX="13" gridWidth="12"/>
+    </FormField>
+    <Label name="label2" width="11" text="Medio de Pago:" posY="7" posX="26" gridWidth="11">
+      <LStr text="Medio de Pago:"/>
+    </Label>
+    <FormField name="fc_factura_m.medio_pago" colName="medio_pago" sqlType="CHAR(2)" fieldId="11" sqlTabName="fc_factura_m" tabIndex="16">
+      <ComboBox width="10" posY="7" posX="38" gridWidth="12">
+        <Item name="10" text="EFECTIVO"/>
+        <Item name="20" text="CHEQUE"/>
+        <Item name="42" text="CONSIGNACIÓN"/>
+        <Item name="45" text="TRANSFERENCIA"/>
+        <Item name="48" text="TARJETA CRÉDITO"/>
+        <Item name="49" text="TARJETA DÉBITO"/>
+      </ComboBox>
+    </FormField>
+    <Label name="label22" width="13" text="Fecha Vencimiento:" posY="7" posX="53" gridWidth="13">
+      <LStr text="Fecha Vencimiento:"/>
+    </Label>
+    <FormField name="fc_factura_m.fecha_vencimiento" colName="fecha_vencimiento" sqlType="DATE" fieldId="12" sqlTabName="fc_factura_m" noEntry="1" tabIndex="17">
+      <DateEdit width="8" posY="7" posX="67" gridWidth="10"/>
+    </FormField>
+    <HLine posY="8" posX="0" gridWidth="100"/>
+    <Label name="label1" width="5" text="Nota:" posY="9" posX="1" gridWidth="5">
+      <LStr text="Nota:"/>
+    </Label>
+    <FormField name="fc_factura_m.nota1" colName="nota1" sqlType="CHAR(140)" fieldId="13" sqlTabName="fc_factura_m" tabIndex="1">
+      <TextEdit width="73" height="3" shift="up" wantReturns="1" scroll="1" posY="9" posX="9" gridWidth="73" gridHeight="3"/>
+    </FormField>
+    <HLine posY="12" posX="0" gridWidth="100"/>
+    <Label name="label5" width="6" text="Estado :" posY="13" posX="1" gridWidth="6">
+      <LStr text="Estado :"/>
+    </Label>
+    <FormField name="fc_factura_m.estado" colName="estado" sqlType="CHAR(1)" required="1" notNull="1" fieldId="14" sqlTabName="fc_factura_m" noEntry="1" tabIndex="18">
+      <ComboBox width="18" posY="13" posX="8" gridWidth="20"/>
+    </FormField>
+    <Label name="label4" width="9" text="Cod/Estado :" posY="13" posX="29" gridWidth="9">
+      <LStr text="Cod/Estado :"/>
+    </Label>
+    <FormField name="fc_factura_m.codest" colName="codest" sqlType="CHAR(3)" fieldId="15" sqlTabName="fc_factura_m" tabIndex="19">
+      <ComboBox width="14" posY="13" posX="39" gridWidth="16"/>
+    </FormField>
+    <Label name="label6" width="8" text="Fecha Est:" posY="13" posX="56" gridWidth="8">
+      <LStr text="Fecha Est:"/>
+    </Label>
+    <FormField name="fc_factura_m.fecest" colName="fecest" sqlType="DATE" fieldId="16" sqlTabName="fc_factura_m" noEntry="1" tabIndex="20">
+      <DateEdit width="8" posY="13" posX="65" gridWidth="10"/>
+    </FormField>
+    <Label name="label24" width="5" text="Hora :" posY="13" posX="76" gridWidth="5">
+      <LStr text="Hora :"/>
+    </Label>
+    <FormField name="fc_factura_m.horaest" colName="horaest" sqlType="CHAR(8)" fieldId="17" sqlTabName="fc_factura_m" noEntry="1" tabIndex="21">
+      <Edit width="6" posY="13" posX="82" gridWidth="6"/>
+    </FormField>
+    <Label name="label36" width="11" text="Compr Contable:" posY="14" posX="51" gridWidth="11">
+      <LStr text="Compr Contable:"/>
+    </Label>
+    <FormField name="fc_factura_m.codcop" colName="codcop" sqlType="CHAR(4)" fieldId="18" sqlTabName="fc_factura_m" noEntry="1" tabIndex="22">
+      <Edit width="4" posY="14" posX="63" gridWidth="4"/>
+    </FormField>
+    <Label name="label37" width="2" text="-" posY="14" posX="68" gridWidth="2">
+      <LStr text="-"/>
+    </Label>
+    <FormField name="fc_factura_m.docu" colName="docu" sqlType="CHAR(7)" fieldId="19" sqlTabName="fc_factura_m" noEntry="1" tabIndex="23">
+      <Edit width="7" posY="14" posX="71" gridWidth="7"/>
+    </FormField>
+    <HLine posY="15" posX="0" gridWidth="100"/>
+    <Label name="label8" width="6" text="Cod/Ser" posY="16" posX="1" gridWidth="6">
+      <LStr text="Cod/Ser"/>
+    </Label>
+    <Label name="label14" width="14" text="Descripcion Servicio" posY="16" posX="10" gridWidth="14">
+      <LStr text="Descripcion Servicio"/>
+    </Label>
+    <Label name="label27" width="6" text="Sub.Cod" posY="16" posX="27" gridWidth="6">
+      <LStr text="Sub.Cod"/>
+    </Label>
+    <Label name="label28" width="15" text="Descripcion Sub-Servicio" justify="center" posY="16" posX="34" gridWidth="15">
+      <LStr text="Descripcion Sub-Servicio"/>
+    </Label>
+    <Label name="label10" width="8" text="Cant." justify="center" posY="16" posX="50" gridWidth="8">
+      <LStr text="Cant."/>
+    </Label>
+    <Label name="label11" width="8" text="Costo_Unit" posY="16" posX="64" gridWidth="8">
+      <LStr text="Costo_Unit"/>
+    </Label>
+    <Label name="label13" width="7" text="Vr. Total" posY="16" posX="85" gridWidth="7">
+      <LStr text="Vr. Total"/>
+    </Label>
+    <Matrix pageSize="9" name="formonly.codigo" colName="codigo" sqlType="CHAR" fieldId="20" sqlTabName="formonly" notNull="1" required="1" tabIndex="24">
+      <Edit width="5" comment="DIGITE EL CODIGO DEL SERVICIO" posY="17" posX="1" gridWidth="5">
+        <LStr comment="DIGITE EL CODIGO DEL SERVICIO"/>
+      </Edit>
+    </Matrix>
+    <Matrix pageSize="9" name="formonly.descripcion" colName="descripcion" sqlType="CHAR" fieldId="21" sqlTabName="formonly" tabIndex="0" noEntry="1" notNull="1" required="1">
+      <Edit width="19" autoNext="1" comment="DESCRIPCION DEL SERVICIO" posY="17" posX="7" gridWidth="19">
+        <LStr comment="DESCRIPCION DEL SERVICIO"/>
+      </Edit>
+    </Matrix>
+    <Matrix pageSize="9" name="formonly.subcodigo" colName="subcodigo" sqlType="CHAR" fieldId="22" sqlTabName="formonly" tabIndex="2">
+      <Edit width="5" autoNext="1" comment="DIGITE EL CODIGO DEL SERVICIO" posY="17" posX="27" gridWidth="5">
+        <LStr comment="DIGITE EL CODIGO DEL SERVICIO"/>
+      </Edit>
+    </Matrix>
+    <Matrix pageSize="9" name="formonly.descri" colName="descri" sqlType="CHAR" fieldId="23" sqlTabName="formonly" tabIndex="3" noEntry="1" notNull="1" required="1">
+      <Edit width="16" autoNext="1" comment="DESCRIPCION DEL SERVICIO" posY="17" posX="33" gridWidth="16">
+        <LStr comment="DESCRIPCION DEL SERVICIO"/>
+      </Edit>
+    </Matrix>
+    <Matrix pageSize="9" name="formonly.cantidad" colName="cantidad" sqlType="INTEGER" fieldId="24" sqlTabName="formonly" notNull="1" required="1" tabIndex="25">
+      <Edit width="8" autoNext="1" comment="DIGITE LA CANTIDAD DE PERSONAS" posY="17" posX="50" gridWidth="8">
+        <LStr comment="DIGITE LA CANTIDAD DE PERSONAS"/>
+      </Edit>
+    </Matrix>
+    <Matrix pageSize="9" name="formonly.valoruni" colName="valoruni" sqlType="DECIMAL(12,2)" fieldId="25" sqlTabName="formonly" notNull="1" required="1" tabIndex="26">
+      <Edit width="19" autoNext="1" format="###,###,###,##&amp;.&amp;&amp;" comment="VALOR UNITARIO DEL CONVENIO" posY="17" posX="59" gridWidth="19">
+        <LStr comment="VALOR UNITARIO DEL CONVENIO"/>
+      </Edit>
+    </Matrix>
+    <Matrix pageSize="9" name="formonly.valor" colName="valor" sqlType="DECIMAL(12,2)" fieldId="26" sqlTabName="formonly" noEntry="1" notNull="1" required="1" tabIndex="27">
+      <Edit width="19" autoNext="1" format="###,###,###,##&amp;.&amp;&amp;" comment="VALOR TOTAL" posY="17" posX="79" gridWidth="19">
+        <LStr comment="VALOR TOTAL"/>
+      </Edit>
+    </Matrix>
+    <HLine posY="26" posX="0" gridWidth="157"/>
+    <Button name="bt_detalle" width="14" tabIndex="4" text="Detalle" posY="27" posX="2" gridWidth="14">
+      <LStr text="Detalle"/>
+    </Button>
+  </Grid>
+  <RecordView tabName="fc_factura_m">
+    <Link colName="prefijo" fieldIdRef="0"/>
+    <Link colName="documento" fieldIdRef="2"/>
+    <Link colName="numfac" fieldIdRef="3"/>
+    <Link colName="fecha_elaboracion" fieldIdRef="4"/>
+    <Link colName="fecha_factura" fieldIdRef="5"/>
+    <Link colName="hora" fieldIdRef="6"/>
+    <Link colName="cufe" fieldIdRef="7"/>
+    <Link colName="nit" fieldIdRef="8"/>
+    <Link colName="forma_pago" fieldIdRef="10"/>
+    <Link colName="medio_pago" fieldIdRef="11"/>
+    <Link colName="fecha_vencimiento" fieldIdRef="12"/>
+    <Link colName="nota1" fieldIdRef="13"/>
+    <Link colName="estado" fieldIdRef="14"/>
+    <Link colName="codest" fieldIdRef="15"/>
+    <Link colName="fecest" fieldIdRef="16"/>
+    <Link colName="horaest" fieldIdRef="17"/>
+    <Link colName="codcop" fieldIdRef="18"/>
+    <Link colName="docu" fieldIdRef="19"/>
+  </RecordView>
+  <RecordView tabName="formonly">
+    <Link colName="mprefijo" fieldIdRef="1"/>
+    <Link colName="mrazsoc" fieldIdRef="9"/>
+    <Link colName="codigo" fieldIdRef="20"/>
+    <Link colName="descripcion" fieldIdRef="21"/>
+    <Link colName="subcodigo" fieldIdRef="22"/>
+    <Link colName="descri" fieldIdRef="23"/>
+    <Link colName="cantidad" fieldIdRef="24"/>
+    <Link colName="valoruni" fieldIdRef="25"/>
+    <Link colName="valor" fieldIdRef="26"/>
+  </RecordView>
+  <RecordView tabName="ofe">
+    <Link colName="codigo" fieldIdRef="20"/>
+    <Link colName="descripcion" fieldIdRef="21"/>
+    <Link colName="subcodigo" fieldIdRef="22"/>
+    <Link colName="descri" fieldIdRef="23"/>
+    <Link colName="cantidad" fieldIdRef="24"/>
+    <Link colName="valoruni" fieldIdRef="25"/>
+    <Link colName="valor" fieldIdRef="26"/>
+  </RecordView>
+  <RecordView tabName="master">
+    <Link colName="prefijo" fieldIdRef="0"/>
+    <Link colName="mprefijo" fieldIdRef="1"/>
+    <Link colName="documento" fieldIdRef="2"/>
+    <Link colName="nit" fieldIdRef="8"/>
+    <Link colName="fecha_elaboracion" fieldIdRef="4"/>
+    <Link colName="medio_pago" fieldIdRef="11"/>
+    <Link colName="estado" fieldIdRef="14"/>
+    <Link colName="numfac" fieldIdRef="3"/>
+    <Link colName="cufe" fieldIdRef="7"/>
+    <Link colName="fecha_factura" fieldIdRef="5"/>
+    <Link colName="hora" fieldIdRef="6"/>
+    <Link colName="mrazsoc" fieldIdRef="9"/>
+    <Link colName="fecha_vencimiento" fieldIdRef="12"/>
+    <Link colName="forma_pago" fieldIdRef="10"/>
+    <Link colName="codest" fieldIdRef="15"/>
+    <Link colName="fecest" fieldIdRef="16"/>
+    <Link colName="horaest" fieldIdRef="17"/>
+    <Link colName="nota1" fieldIdRef="13"/>
+    <Link colName="codcop" fieldIdRef="18"/>
+    <Link colName="docu" fieldIdRef="19"/>
+  </RecordView>
+</Form>

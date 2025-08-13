@@ -1,0 +1,119 @@
+----------------------------------------------------------------------------------------------------
+-- Form interface generated from file C:\FOURJS\GENERO\LAB\creditos\creditos\cre_principal.4fd
+-- Created: sáb 23. abr 08:17:36 2011
+-- by: The User Interface Compiler ($Id: GS/fd 10101 )
+----------------------------------------------------------------------------------------------------
+-- WARNING! All changes made in this file will be lost!
+----------------------------------------------------------------------------------------------------
+SCHEMA FORMONLY
+TOPMENU 
+  GROUP param(TEXT="Parametros", COMMENT="Definicion de parametros del aplicativo")
+    GROUP basicos(TEXT="Basicos")
+      COMMAND empresas(TEXT="Informacion General")
+      COMMAND prefijos(TEXT="Prefijos")
+      COMMAND servicios(TEXT="Definicion Servicios")
+      COMMAND subservicios(TEXT="Subservicios")
+      SEPARATOR
+      COMMAND edofact(TEXT="Estados del proceso")
+   end
+    GROUP catalogos(TEXT="Catalogos Dian")
+     COMMAND unidades(TEXT="Registro Unidades de Medida")
+     COMMAND paises(TEXT="Codigo de paises")
+     COMMAND deptos(TEXT="Codigo de Departamentos")
+     COMMAND ciudades(TEXT="Codigo de Ciudades")
+     COMMAND descuentos(TEXT="Codigo de Descuentos")
+     COMMAND impuestos(TEXT="Codigo de Impuestos")
+     COMMAND tpobligacion(TEXT="Obigaciones Tributarias")
+    END 
+    GROUP permisos(TEXT="Permisos")
+     GROUP permi_e(TEXT="Elaborar Documento Soporte")
+      COMMAND prefijos_usu(TEXT="Permisos usuarios Prefijos")
+     END
+     GROUP permi_e(TEXT="Autorizar Documento Soporte")
+      COMMAND prefijos_usuu(TEXT="Permisos usuarios Prefijos")
+     END
+    END
+  END
+  GROUP procesos(TEXT="Procesos")
+   COMMAND proveedores(TEXT="Proveedores")
+   COMMAND factura(TEXT="Generar Documento Soporte")
+  END 
+  GROUP ConsultaResul(TEXT="Interaccion DIAN")
+   COMMAND enviar_factura(TEXT="Trasmitir Documento No_obligados")
+   COMMAND consulta_est_webs1(TEXT="Consulta Estados documento")
+   COMMAND traer_represent_factu(TEXT="Descargar Documento Soporte")
+   SEPARATOR
+   COMMAND aprueba_masivo(TEXT="Trasmitir Documento masivo")
+   COMMAND consulta_est_webs3(TEXT="Traer Estados Masivo")
+   SEPARATOR
+   COMMAND consul_respenv(TEXT="Consulta Respuesta Envio")
+   COMMAND consul_estfac(TEXT="Consulta Estados")
+   SEPARATOR
+   command transmitir_nota (TEXT="Transmitir nota de ajuste")
+   COMMAND consulta_estado_nota1(TEXT="Consulta estado nota de ajuste")
+   END 
+  GROUP reportes(TEXT="Reportes De Documentos Soporte")
+   GROUP repgen(TEXT= "Reportes Generales Documentos")
+     COMMAND factu1(TEXT="Documentos Generados")
+     COMMAND factu2(TEXT="Documentos Generados Nit")
+     COMMAND factu3(TEXT="Documentos Forma Pago")
+     COMMAND factu4(TEXT="Documentos Medio Pago")
+     COMMAND factu8(TEXT="Documentos Generados Estado")
+   END
+   GROUP salir(TEXT="Salir")
+    COMMAND salir(TEXT="Salir del Aplicativo")
+   END
+END
+
+TOOLBAR
+  SEPARATOR
+   ITEM terceros( TEXT="Proveedores",COMMENT="comfaRegistro de Proveedores", IMAGE="terceros3" )
+   SEPARATOR  
+   ITEM servicios( TEXT="Servicios",COMMENT="Registro de Servicios", IMAGE="services" )
+  SEPARATOR  
+   ITEM factura( TEXT="Documentos Soporte",COMMENT="Registro de Documentos Soporte", IMAGE="reptercero2" )
+  SEPARATOR
+   ITEM nota_ajuste ( TEXT="Nota de Ajuste",COMMENT="Registro de Nota de Ajuste", IMAGE="nota_ajuste" )
+  SEPARATOR
+   ITEM salir ( TEXT="Salir",COMMENT="Salir del aplicativo", IMAGE="salir" ) 
+END
+
+LAYOUT( TEXT="APLICATIVO DOCUMENTO SOPORTE NO OBLIGADOS A FACTURAR ", WINDOWSTYLE="main")
+  GRID gr2
+ {
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  
+                                               [musuario                             ]
+                                               [mingreso                             ]
+                                               [mlogin                               ]
+                                               [mcontab                              ]
+    
+  }
+  END -- GRID
+    
+  END
+
+attributes
+musuario = formonly.musuario,NOENTRY,NOUPDATE;
+mingreso = formonly.mingreso,NOENTRY,NOUPDATE;
+mlogin   = formonly.mlogin,NOENTRY,NOUPDATE;
+mcontab  = formonly.mcontab,NOENTRY,NOUPDATE;
+
+end

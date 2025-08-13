@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ManagedForm fileVersion="30a00" gstVersion="30a0b" name="managedform" uid="{585b90d2-91fe-416e-bf3a-8d64a6a698b4}">
+  <AGSettings>
+    <DynamicProperties version="2"/>
+  </AGSettings>
+  <Record name="Undefined" uid="{acf4b7a3-d0eb-4604-8793-9b6741030bde}">
+    <RecordField fieldIdRef="1" name="rgp_salida_reporte" uid="{6247f3c2-c4d8-4808-8baf-80c898344c04}"/>
+  </Record>
+  <Form gridHeight="25" gridWidth="84" name="form" text="Form">
+    <Grid gridHeight="14" gridWidth="81" name="grid1" posX="1" posY="1">
+      <RadioGroup fieldId="1" gridHeight="11" gridWidth="59" items="PDF, Genero Report Viewer, Excel XLS Hoja de Calculo, Excel XLSX Hoja de Calculo, RTF(MS-Word), HTML, Imagen, Impresora" name="rgp_salida_reporte" posX="19" posY="1" tabIndex="-1" title="radiogroup1" widget="RadioGroup">
+        <Item lstrtext="false" name="PDF" text="PDF"/>
+        <Item lstrtext="false" name="Genero Report Viewer" text="Genero Report Viewer"/>
+        <Item lstrtext="false" name="XLS" text="Excel XLS Hoja de Calculo"/>
+        <Item lstrtext="false" name="XLSX" text="Excel XLSX Hoja de Calculo"/>
+        <Item lstrtext="false" name="RTF" text="RTF(MS-Word)"/>
+        <Item lstrtext="false" name="HTML" text="HTML"/>
+        <Item lstrtext="false" name="Image" text="Imagen"/>
+        <Item lstrtext="false" name="Printer" text="Impresora"/>
+      </RadioGroup>
+      <Label gridHeight="2" gridWidth="17" name="label1" posX="1" posY="3" text="Salida del Reporte:"/>
+    </Grid>
+  </Form>
+  <DiagramLayout>
+    <![CDATA[AAAAAgAAAEwAewBhAGMAZgA0AGIANwBhADMALQBkADAAZQBiAC0ANAA2ADAANAAtADgANwA5ADMALQA5AGIANgA3ADQAMQAwADMAMABiAGQAZQB9AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ==]]>
+  </DiagramLayout>
+</ManagedForm>

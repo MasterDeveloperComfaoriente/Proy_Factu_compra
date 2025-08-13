@@ -1,0 +1,204 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<Form name="genimp.tmp" build="3.10.18" sqlDbName="empresa" text="genimp" width="79" height="22">
+  <LStr text="genimp"/>
+  <Grid name="gr2" width="79" height="22">
+    <Label name="lb10" width="18" text="CONTROL DE IMPRESION" posY="0" posX="26" gridWidth="18">
+      <LStr text="CONTROL DE IMPRESION"/>
+    </Label>
+    <Group name="gb1" text="IMPRESORA" posY="2" posX="1" gridWidth="63" gridHeight="8">
+      <LStr text="IMPRESORA"/>
+      <Label text="NOMBRE" posY="1" posX="10" gridWidth="6"/>
+      <Label text="CLASE" posY="1" posX="28" gridWidth="5"/>
+      <Label text="UBICACION" posY="1" posX="45" gridWidth="9"/>
+      <Matrix pageSize="4" name="formonly.a" colName="a" fieldId="0" sqlTabName="formonly" tabIndex="1">
+        <Edit width="2" shift="up" posY="2" posX="3" gridWidth="2"/>
+      </Matrix>
+      <Matrix pageSize="4" name="gener25.nombre" colName="nombre" sqlType="CHAR(15)" fieldId="1" sqlTabName="gener25" tabIndex="2" noEntry="1">
+        <Edit width="13" posY="2" posX="7" gridWidth="13"/>
+      </Matrix>
+      <Matrix pageSize="4" name="gener25.clase" colName="clase" sqlType="CHAR(15)" fieldId="2" sqlTabName="gener25" tabIndex="3" noEntry="1">
+        <Edit width="17" posY="2" posX="23" gridWidth="17"/>
+      </Matrix>
+      <Matrix pageSize="4" name="gener25.ubicada" colName="ubicada" sqlType="CHAR(15)" fieldId="3" sqlTabName="gener25" tabIndex="4" noEntry="1">
+        <Edit width="15" posY="2" posX="43" gridWidth="15"/>
+      </Matrix>
+    </Group>
+    <Group name="gb2" text="LETRAS" posY="2" posX="65" gridWidth="14" gridHeight="14">
+      <LStr text="LETRAS"/>
+      <FormField name="formonly.b" colName="b" sqlType="CHAR" fieldId="4" sqlTabName="formonly" tabIndex="5" include="X| ">
+        <Edit width="2" autoNext="1" shift="up" posY="1" posX="2" gridWidth="2"/>
+      </FormField>
+      <Label name="lb3" width="5" text="Bold" posY="1" posX="5" gridWidth="5">
+        <LStr text="Bold"/>
+      </Label>
+      <FormField name="formonly.c" colName="c" sqlType="CHAR" fieldId="5" sqlTabName="formonly" tabIndex="6" include="X| ">
+        <Edit width="2" autoNext="1" shift="up" posY="2" posX="2" gridWidth="2"/>
+      </FormField>
+      <Label name="lb4" width="6" text="Italica" posY="2" posX="5" gridWidth="6">
+        <LStr text="Italica"/>
+      </Label>
+      <FormField name="formonly.d" colName="d" sqlType="CHAR" fieldId="6" sqlTabName="formonly" tabIndex="7" include="X| ">
+        <Edit width="2" autoNext="1" shift="up" posY="3" posX="2" gridWidth="2"/>
+      </FormField>
+      <Label name="lb5" width="8" text="Condensada" posY="3" posX="5" gridWidth="8">
+        <LStr text="Condensada"/>
+      </Label>
+      <FormField name="formonly.e" colName="e" sqlType="CHAR" fieldId="7" sqlTabName="formonly" tabIndex="8" include="X| ">
+        <Edit width="2" autoNext="1" shift="up" posY="4" posX="2" gridWidth="2"/>
+      </FormField>
+      <Label name="lb6" width="4" text="Elite" posY="4" posX="5" gridWidth="4">
+        <LStr text="Elite"/>
+      </Label>
+      <FormField name="formonly.f" colName="f" sqlType="CHAR" fieldId="8" sqlTabName="formonly" tabIndex="9" include="X| ">
+        <Edit width="2" autoNext="1" shift="up" posY="5" posX="2" gridWidth="2"/>
+      </FormField>
+      <Label name="lb7" width="7" text="Draft" posY="5" posX="5" gridWidth="7">
+        <LStr text="Draft"/>
+      </Label>
+      <FormField name="formonly.g" colName="g" sqlType="CHAR" fieldId="9" sqlTabName="formonly" tabIndex="13" include="X| ">
+        <Edit width="2" autoNext="1" shift="up" posY="6" posX="2" gridWidth="2"/>
+      </FormField>
+      <Label name="lb8" width="8" text="Roman" posY="6" posX="5" gridWidth="8">
+        <LStr text="Roman"/>
+      </Label>
+      <FormField name="formonly.h" colName="h" sqlType="CHAR" fieldId="10" sqlTabName="formonly" tabIndex="14" include="X| ">
+        <Edit width="2" autoNext="1" shift="up" posY="8" posX="2" gridWidth="2"/>
+      </FormField>
+      <Label name="lb9" width="6" text="Sans Serif" posY="8" posX="5" gridWidth="6">
+        <LStr text="Sans Serif"/>
+      </Label>
+    </Group>
+    <Group name="gb3" posY="10" posX="1" gridWidth="63" gridHeight="6">
+      <Label name="label2" width="25" text="(I)nmediato  (A)nterior  (T)omar  :" posY="1" posX="2" gridWidth="25">
+        <LStr text="(I)nmediato  (A)nterior  (T)omar  :"/>
+      </Label>
+      <FormField name="formonly.p1" colName="p1" sqlType="CHAR" fieldId="11" sqlTabName="formonly" tabIndex="26" include="I|A|T|S">
+        <Edit width="1" autoNext="1" shift="up" posY="1" posX="32" gridWidth="1"/>
+      </FormField>
+      <Label text="Impresora" posY="2" posX="2" gridWidth="10"/>
+      <FormField name="formonly.dnombre" colName="dnombre" fieldId="12" sqlTabName="formonly" tabIndex="10" noEntry="1">
+        <Edit width="12" posY="2" posX="13" gridWidth="12"/>
+      </FormField>
+      <Label text="Letra" posY="2" posX="27" gridWidth="5"/>
+      <FormField name="formonly.dletra" colName="dletra" fieldId="13" sqlTabName="formonly" tabIndex="11" noEntry="1">
+        <Edit width="10" posY="2" posX="33" gridWidth="10"/>
+      </FormField>
+      <Label text="Copias" posY="2" posX="47" gridWidth="6"/>
+      <FormField name="formonly.dnc" colName="dnc" fieldId="14" sqlTabName="formonly" tabIndex="12" noEntry="1">
+        <Edit width="2" posY="2" posX="54" gridWidth="2"/>
+      </FormField>
+      <Label name="label1" width="42" text="(P)antalla I)mpresora (L)etras (C)opias P(g)ina (S)/(N)=" posY="3" posX="2" gridWidth="42">
+        <LStr text="(P)antalla I)mpresora (L)etras (C)opias P(g)ina (S)/(N)="/>
+      </Label>
+      <FormField name="formonly.o" colName="o" fieldId="15" sqlTabName="formonly" tabIndex="25">
+        <Edit width="1" autoNext="1" shift="up" posY="3" posX="48" gridWidth="1"/>
+      </FormField>
+      <Label name="label3" width="7" text="(A)rchivo" posY="4" posX="2" gridWidth="7">
+        <LStr text="(A)rchivo"/>
+      </Label>
+      <FormField name="formonly.mfile" colName="mfile" sqlType="CHAR" fieldId="16" sqlTabName="formonly" tabIndex="15">
+        <Edit width="17" autoNext="1" comment="NOMBRE DE ARCHIVO" posY="4" posX="10" gridWidth="17">
+          <LStr comment="NOMBRE DE ARCHIVO"/>
+        </Edit>
+      </FormField>
+      <Label text="Diskette (S/N)" posY="4" posX="29" gridWidth="14"/>
+      <FormField name="formonly.x" colName="x" sqlType="CHAR" fieldId="17" sqlTabName="formonly" tabIndex="16" include="S|N">
+        <Edit width="2" autoNext="1" shift="up" posY="4" posX="44" gridWidth="2"/>
+      </FormField>
+    </Group>
+    <Group name="gb4" posY="16" posX="1" gridWidth="78" gridHeight="5">
+      <Label text="Nombre" posY="1" posX="2" gridWidth="6"/>
+      <FormField name="formonly.mnom" colName="mnom" fieldId="18" sqlTabName="formonly" tabIndex="17" noEntry="1">
+        <Edit width="38" posY="1" posX="9" gridWidth="38"/>
+      </FormField>
+      <Label text="Fecha" posY="1" posX="50" gridWidth="6"/>
+      <FormField name="formonly.mf" colName="mf" fieldId="19" sqlTabName="formonly" tabIndex="18" noEntry="1">
+        <Edit width="10" posY="1" posX="57" gridWidth="10"/>
+      </FormField>
+      <Label text="/" posY="1" posX="68" gridWidth="2"/>
+      <FormField name="formonly.mh" colName="mh" fieldId="20" sqlTabName="formonly" tabIndex="19" noEntry="1">
+        <Edit width="5" posY="1" posX="71" gridWidth="5"/>
+      </FormField>
+      <Label text="Hoja" posY="2" posX="2" gridWidth="4"/>
+      <FormField name="formonly.mhoja" colName="mhoja" fieldId="21" sqlTabName="formonly" tabIndex="20" noEntry="1">
+        <Edit width="7" posY="2" posX="9" gridWidth="7"/>
+      </FormField>
+      <Label text="NoPag." posY="2" posX="20" gridWidth="6"/>
+      <FormField name="formonly.np" colName="np" fieldId="22" sqlTabName="formonly" tabIndex="21" noEntry="1">
+        <Edit width="5" posY="2" posX="27" gridWidth="5"/>
+      </FormField>
+      <Label text="NoCopias" posY="2" posX="35" gridWidth="8"/>
+      <FormField name="formonly.nc" colName="nc" sqlType="INTEGER" fieldId="23" sqlTabName="formonly" tabIndex="22" include="1:99">
+        <Edit width="2" autoNext="1" posY="2" posX="44" gridWidth="2"/>
+      </FormField>
+      <Label text="Pg.Inial" posY="2" posX="50" gridWidth="8"/>
+      <FormField name="formonly.pi" colName="pi" sqlType="INTEGER" fieldId="24" sqlTabName="formonly" tabIndex="23">
+        <Edit width="5" autoNext="1" posY="2" posX="59" gridWidth="5"/>
+      </FormField>
+      <Label text="Final" posY="2" posX="65" gridWidth="5"/>
+      <FormField name="formonly.pf" colName="pf" sqlType="INTEGER" fieldId="25" sqlTabName="formonly" tabIndex="24">
+        <Edit width="5" autoNext="1" posY="2" posX="71" gridWidth="5"/>
+      </FormField>
+    </Group>
+  </Grid>
+  <RecordView tabName="gener25">
+    <Link colName="nombre" fieldIdRef="1"/>
+    <Link colName="clase" fieldIdRef="2"/>
+    <Link colName="ubicada" fieldIdRef="3"/>
+  </RecordView>
+  <RecordView tabName="formonly">
+    <Link colName="a" fieldIdRef="0"/>
+    <Link colName="b" fieldIdRef="4"/>
+    <Link colName="c" fieldIdRef="5"/>
+    <Link colName="d" fieldIdRef="6"/>
+    <Link colName="e" fieldIdRef="7"/>
+    <Link colName="f" fieldIdRef="8"/>
+    <Link colName="g" fieldIdRef="9"/>
+    <Link colName="h" fieldIdRef="10"/>
+    <Link colName="p1" fieldIdRef="11"/>
+    <Link colName="dnombre" fieldIdRef="12"/>
+    <Link colName="dletra" fieldIdRef="13"/>
+    <Link colName="dnc" fieldIdRef="14"/>
+    <Link colName="o" fieldIdRef="15"/>
+    <Link colName="mfile" fieldIdRef="16"/>
+    <Link colName="x" fieldIdRef="17"/>
+    <Link colName="mnom" fieldIdRef="18"/>
+    <Link colName="mf" fieldIdRef="19"/>
+    <Link colName="mh" fieldIdRef="20"/>
+    <Link colName="mhoja" fieldIdRef="21"/>
+    <Link colName="np" fieldIdRef="22"/>
+    <Link colName="nc" fieldIdRef="23"/>
+    <Link colName="pi" fieldIdRef="24"/>
+    <Link colName="pf" fieldIdRef="25"/>
+  </RecordView>
+  <RecordView tabName="impresora">
+    <Link colName="a" fieldIdRef="0"/>
+    <Link colName="nombre" fieldIdRef="1"/>
+    <Link colName="clase" fieldIdRef="2"/>
+    <Link colName="ubicada" fieldIdRef="3"/>
+  </RecordView>
+  <RecordView tabName="undefined">
+    <Link colName="b" fieldIdRef="4"/>
+    <Link colName="c" fieldIdRef="5"/>
+    <Link colName="d" fieldIdRef="6"/>
+    <Link colName="e" fieldIdRef="7"/>
+    <Link colName="f" fieldIdRef="8"/>
+    <Link colName="g" fieldIdRef="9"/>
+    <Link colName="h" fieldIdRef="10"/>
+    <Link colName="dnombre" fieldIdRef="12"/>
+    <Link colName="dletra" fieldIdRef="13"/>
+    <Link colName="dnc" fieldIdRef="14"/>
+    <Link colName="mfile" fieldIdRef="16"/>
+    <Link colName="x" fieldIdRef="17"/>
+    <Link colName="mnom" fieldIdRef="18"/>
+    <Link colName="mf" fieldIdRef="19"/>
+    <Link colName="mh" fieldIdRef="20"/>
+    <Link colName="mhoja" fieldIdRef="21"/>
+    <Link colName="np" fieldIdRef="22"/>
+    <Link colName="nc" fieldIdRef="23"/>
+    <Link colName="pi" fieldIdRef="24"/>
+    <Link colName="pf" fieldIdRef="25"/>
+    <Link colName="o" fieldIdRef="15"/>
+    <Link colName="p1" fieldIdRef="11"/>
+  </RecordView>
+</Form>

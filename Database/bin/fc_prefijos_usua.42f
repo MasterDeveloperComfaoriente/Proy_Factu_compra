@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<Form name="fc_prefijos_usua.tmp" build="3.10.18" sqlDbName="empresa" text="USUARIOS POR PREFIJO" width="57" height="17">
+  <LStr text="USUARIOS POR PREFIJO"/>
+  <Grid name="gr2" width="57" height="17">
+    <Label name="label1" width="35" text="USUARIOS AUTORIZADOS PARA ELABORAR FACTURAS" posY="1" posX="8" gridWidth="35">
+      <LStr text="USUARIOS AUTORIZADOS PARA ELABORAR FACTURAS"/>
+    </Label>
+    <HLine posY="2" posX="0" gridWidth="57"/>
+    <Label name="lb1" width="8" text="PREFIJO :" posY="3" posX="2" gridWidth="8">
+      <LStr text="PREFIJO :"/>
+    </Label>
+    <FormField name="fc_prefijos.prefijo" colName="prefijo" sqlType="CHAR(5)" required="1" notNull="1" fieldId="0" sqlTabName="fc_prefijos" tabIndex="1">
+      <Edit width="5" posY="3" posX="11" gridWidth="5"/>
+    </FormField>
+    <FormField name="fc_prefijos.descripcion" colName="descripcion" sqlType="CHAR(50)" required="1" notNull="1" fieldId="1" sqlTabName="fc_prefijos" tabIndex="4">
+      <Edit width="38" posY="3" posX="17" gridWidth="38"/>
+    </FormField>
+    <HLine posY="4" posX="0" gridWidth="57"/>
+    <Label name="lb4" width="11" text="Usuario Elabora" color="blue" posY="5" posX="8" gridWidth="11">
+      <LStr text="Usuario Elabora"/>
+    </Label>
+    <Label name="lb5" width="13" text="Nombre del Usuario" color="blue" posY="5" posX="23" gridWidth="13">
+      <LStr text="Nombre del Usuario"/>
+    </Label>
+    <Matrix pageSize="10" name="fc_prefijos_usu.usu_elabora" colName="usu_elabora" sqlType="INTEGER" required="1" notNull="1" fieldId="2" sqlTabName="fc_prefijos_usu" tabIndex="2">
+      <Edit width="5" posY="6" posX="10" gridWidth="5"/>
+    </Matrix>
+    <Matrix pageSize="10" name="gener02.nombre" colName="nombre" sqlType="CHAR(20)" required="1" notNull="1" fieldId="3" sqlTabName="gener02" tabIndex="3" noEntry="1">
+      <Edit width="20" posY="6" posX="20" gridWidth="20"/>
+    </Matrix>
+  </Grid>
+  <RecordView tabName="fc_prefijos">
+    <Link colName="prefijo" fieldIdRef="0"/>
+    <Link colName="descripcion" fieldIdRef="1"/>
+  </RecordView>
+  <RecordView tabName="fc_prefijos_usu">
+    <Link colName="usu_elabora" fieldIdRef="2"/>
+  </RecordView>
+  <RecordView tabName="gener02">
+    <Link colName="nombre" fieldIdRef="3"/>
+  </RecordView>
+  <RecordView tabName="dlincon">
+    <Link colName="usu_elabora" fieldIdRef="2"/>
+    <Link colName="nombre" fieldIdRef="3"/>
+  </RecordView>
+  <RecordView tabName="undefined">
+    <Link colName="prefijo" fieldIdRef="0"/>
+    <Link colName="descripcion" fieldIdRef="1"/>
+  </RecordView>
+</Form>

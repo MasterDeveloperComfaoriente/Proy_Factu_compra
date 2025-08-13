@@ -1,0 +1,205 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<Form name="fc_estados_fac.tmp" build="3.10.18" sqlDbName="empresa" spacing="normal" text="HISTORICO DE ESTADOS DE LAS  FACTURAS" width="100" height="22">
+  <Grid name="gr4" width="100" height="22">
+    <HLine posY="0" posX="0" gridWidth="100"/>
+    <Label name="label1" width="12" text="Tipo Documento :" posY="1" posX="1" gridWidth="12">
+      <LStr text="Tipo Documento :"/>
+    </Label>
+    <FormField name="fc_estados_fac.tpdocumento" colName="tpdocumento" sqlType="CHAR(1)" fieldId="0" sqlTabName="fc_estados_fac" tabIndex="2">
+      <ComboBox width="17" scroll="1" posY="1" posX="14" gridWidth="19"/>
+    </FormField>
+    <Label name="label17" width="6" text="Prefijo:" posY="1" posX="34" gridWidth="6">
+      <LStr text="Prefijo:"/>
+    </Label>
+    <FormField name="fc_estados_fac.prefijo" colName="prefijo" sqlType="CHAR(5)" fieldId="1" sqlTabName="fc_estados_fac" tabIndex="17">
+      <Edit width="5" posY="1" posX="41" gridWidth="5"/>
+    </FormField>
+    <Label name="label18" width="11" text="No. Documento:" posY="1" posX="47" gridWidth="11">
+      <LStr text="No. Documento:"/>
+    </Label>
+    <FormField name="fc_estados_fac.numfac" colName="numfac" sqlType="CHAR(7)" fieldId="2" sqlTabName="fc_estados_fac" tabIndex="18">
+      <Edit width="10" posY="1" posX="59" gridWidth="10"/>
+    </FormField>
+    <Label name="label20" width="15" text="Fecha de facturacion :" posY="1" posX="70" gridWidth="15">
+      <LStr text="Fecha de facturacion :"/>
+    </Label>
+    <FormField name="fc_estado_fac.fecfactura" colName="fecfactura" sqlType="DATE" fieldId="3" sqlTabName="fc_estados_fac" tabIndex="19">
+      <DateEdit width="8" posY="1" posX="86" gridWidth="10"/>
+    </FormField>
+    <Label name="label7" width="12" text="No. INTERNO :" posY="2" posX="1" gridWidth="12">
+      <LStr text="No. INTERNO :"/>
+    </Label>
+    <FormField name="formonly.numint" colName="numint" sqlType="CHAR" fieldId="4" sqlTabName="formonly" tabIndex="20">
+      <Edit width="7" posY="2" posX="14" gridWidth="7"/>
+    </FormField>
+    <Label name="label19" width="4" text="CUFE" posY="2" posX="23" gridWidth="4">
+      <LStr text="CUFE"/>
+    </Label>
+    <FormField name="fc_estados_fac.cufe" colName="cufe" sqlType="CHAR(100)" fieldId="5" sqlTabName="fc_estados_fac" tabIndex="3" noEntry="1">
+      <Edit width="68" posY="2" posX="28" gridWidth="68"/>
+    </FormField>
+    <HLine posY="3" posX="0" gridWidth="100"/>
+    <Label name="lb41" width="9" text="Cliente:" posY="4" posX="1" gridWidth="9"/>
+    <FormField name="formonly.mnit" colName="mnit" sqlType="CHAR" fieldId="6" sqlTabName="formonly" tabIndex="21">
+      <Edit width="19" posY="4" posX="11" gridWidth="19"/>
+    </FormField>
+    <FormField name="formonly.mnombre" colName="mnombre" fieldId="7" sqlTabName="formonly" tabIndex="22">
+      <Edit width="53" posY="4" posX="31" gridWidth="53"/>
+    </FormField>
+    <Label name="lb1" width="9" text="Raz. Social:" posY="5" posX="1" gridWidth="9"/>
+    <FormField name="formonly.mrazsoc" colName="mrazsoc" fieldId="8" sqlTabName="formonly" tabIndex="23">
+      <Edit width="73" posY="5" posX="11" gridWidth="73"/>
+    </FormField>
+    <HLine posY="7" posX="0" gridWidth="100"/>
+    <Label name="label2" width="14" text="Cod Edo Dispapeles :" posY="8" posX="1" gridWidth="14">
+      <LStr text="Cod Edo Dispapeles :"/>
+    </Label>
+    <FormField name="fc_estados_fac.codult_estdisp" colName="codult_estdisp" sqlType="INTEGER" fieldId="9" sqlTabName="fc_estados_fac" tabIndex="4">
+      <Edit width="11" scroll="1" posY="8" posX="16" gridWidth="11"/>
+    </FormField>
+    <Label name="label8" width="18" text="Descripcion Edo Dispapeles:" posY="9" posX="1" gridWidth="18">
+      <LStr text="Descripcion Edo Dispapeles:"/>
+    </Label>
+    <FormField name="fc_estados_fac.des_ult_estdisp" colName="des_ult_estdisp" sqlType="VARCHAR(240)" fieldId="10" sqlTabName="fc_estados_fac" tabIndex="5">
+      <Edit width="46" scroll="1" posY="9" posX="20" gridWidth="46"/>
+    </FormField>
+    <Label name="label9" width="8" text="Fecha/Hora:" posY="9" posX="69" gridWidth="8">
+      <LStr text="Fecha/Hora:"/>
+    </Label>
+    <FormField name="fc_estados_fac.fecres_ultestdisp" colName="fecres_ultestdisp" sqlType="DATETIME YEAR TO SECOND" fieldId="11" sqlTabName="fc_estados_fac" tabIndex="6">
+      <Edit width="15" posY="9" posX="78" gridWidth="15"/>
+    </FormField>
+    <HLine posY="10" posX="0" gridWidth="100"/>
+    <Label name="label10" width="10" text="Cod Edo Dian:" posY="11" posX="1" gridWidth="10">
+      <LStr text="Cod Edo Dian:"/>
+    </Label>
+    <FormField name="fc_estados_fac.cod_ult_estdian" colName="cod_ult_estdian" sqlType="INTEGER" fieldId="12" sqlTabName="fc_estados_fac" tabIndex="7">
+      <Edit width="11" scroll="1" posY="11" posX="12" gridWidth="11"/>
+    </FormField>
+    <Label name="label11" width="15" text="Descripcion Edo Dian:" posY="12" posX="1" gridWidth="15">
+      <LStr text="Descripcion Edo Dian:"/>
+    </Label>
+    <FormField name="fc_estados_fac.des_ult_estdian" colName="des_ult_estdian" sqlType="VARCHAR(240)" fieldId="13" sqlTabName="fc_estados_fac" tabIndex="8">
+      <Edit width="49" scroll="1" posY="12" posX="18" gridWidth="49"/>
+    </FormField>
+    <Label name="label5" width="8" text="Fecha/Hora:" posY="12" posX="69" gridWidth="8">
+      <LStr text="Fecha/Hora:"/>
+    </Label>
+    <FormField name="fc_estados_fac.fecres_ultestdian" colName="fecres_ultestdian" sqlType="DATETIME YEAR TO SECOND" fieldId="14" sqlTabName="fc_estados_fac" tabIndex="9">
+      <Edit width="15" posY="12" posX="78" gridWidth="15"/>
+    </FormField>
+    <HLine posY="13" posX="0" gridWidth="100"/>
+    <Label name="label13" width="14" text="Cod Estado Envio:" posY="14" posX="1" gridWidth="14">
+      <LStr text="Cod Estado Envio:"/>
+    </Label>
+    <FormField name="fc_estados_fac.cod_ult_estmail" colName="cod_ult_estmail" sqlType="INTEGER" fieldId="15" sqlTabName="fc_estados_fac" tabIndex="10">
+      <Edit width="11" scroll="1" posY="14" posX="16" gridWidth="11"/>
+    </FormField>
+    <Label name="label14" width="15" text="Descripcion Edo Email:" posY="15" posX="1" gridWidth="15">
+      <LStr text="Descripcion Edo Email:"/>
+    </Label>
+    <FormField name="fc_estados_fac.des_ult_estmail" colName="des_ult_estmail" sqlType="VARCHAR(240)" fieldId="16" sqlTabName="fc_estados_fac" tabIndex="11">
+      <Edit width="50" scroll="1" posY="15" posX="18" gridWidth="50"/>
+    </FormField>
+    <Label name="label12" width="8" text="Fecha/Hora:" posY="15" posX="69" gridWidth="8">
+      <LStr text="Fecha/Hora:"/>
+    </Label>
+    <FormField name="fc_estados_fac.fecres_ultestmail" colName="fecres_ultestmail" sqlType="DATETIME YEAR TO SECOND" fieldId="17" sqlTabName="fc_estados_fac" tabIndex="12">
+      <Edit width="15" posY="15" posX="78" gridWidth="15"/>
+    </FormField>
+    <HLine posY="16" posX="0" gridWidth="100"/>
+    <Label name="label16" width="14" text="Cod Edo Adquiriente:" posY="17" posX="1" gridWidth="14">
+      <LStr text="Cod Edo Adquiriente:"/>
+    </Label>
+    <FormField name="fc_estados_fac.cod_ult_estadq" colName="cod_ult_estadq" sqlType="INTEGER" fieldId="18" sqlTabName="fc_estados_fac" tabIndex="13">
+      <Edit width="11" scroll="1" posY="17" posX="17" gridWidth="11"/>
+    </FormField>
+    <Label name="label3" width="18" text="Descripcion Edo Adquiriente:" posY="18" posX="1" gridWidth="18">
+      <LStr text="Descripcion Edo Adquiriente:"/>
+    </Label>
+    <FormField name="fc_estados_fac.des_ult_estadq" colName="des_ult_estadq" sqlType="VARCHAR(240)" fieldId="19" sqlTabName="fc_estados_fac" tabIndex="14">
+      <Edit width="49" scroll="1" posY="18" posX="21" gridWidth="49"/>
+    </FormField>
+    <Label name="label15" width="8" text="Fecha/Hora:" posY="18" posX="72" gridWidth="8">
+      <LStr text="Fecha/Hora:"/>
+    </Label>
+    <FormField name="fc_estados_fac.fecres_ultestadq" colName="fecres_ultestadq" sqlType="DATETIME YEAR TO SECOND" fieldId="20" sqlTabName="fc_estados_fac" tabIndex="15">
+      <Edit width="15" posY="18" posX="81" gridWidth="15"/>
+    </FormField>
+    <HLine posY="19" posX="0" gridWidth="100"/>
+    <Label name="label4" width="10" text="Cod/Estado :" posY="20" posX="1" gridWidth="10">
+      <LStr text="Cod/Estado :"/>
+    </Label>
+    <FormField name="fc_estados_fac.codest" colName="codest" sqlType="CHAR(3)" fieldId="21" sqlTabName="fc_estados_fac" tabIndex="24">
+      <ComboBox width="45" posY="20" posX="12" gridWidth="47"/>
+    </FormField>
+    <Label name="label6" width="11" text="Fecha Estado :" posY="20" posX="63" gridWidth="11">
+      <LStr text="Fecha Estado :"/>
+    </Label>
+    <FormField name="fc_estados_fac.fecest" colName="fecest" sqlType="DATETIME YEAR TO SECOND" fieldId="22" sqlTabName="fc_estados_fac" tabIndex="25">
+      <Edit width="15" posY="20" posX="75" gridWidth="15"/>
+    </FormField>
+    <Label name="label25" width="14" text="Fecha Respuesta:" posY="21" posX="1" gridWidth="14">
+      <LStr text="Fecha Respuesta:"/>
+    </Label>
+    <FormField name="fc_estados_fac.fecrep" colName="fecrep" sqlType="DATETIME YEAR TO SECOND" fieldId="23" sqlTabName="fc_estados_fac" tabIndex="16">
+      <Edit width="15" posY="21" posX="17" gridWidth="15"/>
+    </FormField>
+  </Grid>
+  <RecordView tabName="fc_estado_fac">
+    <Link colName="fecfactura" fieldIdRef="3"/>
+  </RecordView>
+  <RecordView tabName="fc_estados_fac">
+    <Link colName="tpdocumento" fieldIdRef="0"/>
+    <Link colName="prefijo" fieldIdRef="1"/>
+    <Link colName="numfac" fieldIdRef="2"/>
+    <Link colName="cufe" fieldIdRef="5"/>
+    <Link colName="codult_estdisp" fieldIdRef="9"/>
+    <Link colName="des_ult_estdisp" fieldIdRef="10"/>
+    <Link colName="fecres_ultestdisp" fieldIdRef="11"/>
+    <Link colName="cod_ult_estdian" fieldIdRef="12"/>
+    <Link colName="des_ult_estdian" fieldIdRef="13"/>
+    <Link colName="fecres_ultestdian" fieldIdRef="14"/>
+    <Link colName="cod_ult_estmail" fieldIdRef="15"/>
+    <Link colName="des_ult_estmail" fieldIdRef="16"/>
+    <Link colName="fecres_ultestmail" fieldIdRef="17"/>
+    <Link colName="cod_ult_estadq" fieldIdRef="18"/>
+    <Link colName="des_ult_estadq" fieldIdRef="19"/>
+    <Link colName="fecres_ultestadq" fieldIdRef="20"/>
+    <Link colName="codest" fieldIdRef="21"/>
+    <Link colName="fecest" fieldIdRef="22"/>
+    <Link colName="fecrep" fieldIdRef="23"/>
+  </RecordView>
+  <RecordView tabName="formonly">
+    <Link colName="numint" fieldIdRef="4"/>
+    <Link colName="mnit" fieldIdRef="6"/>
+    <Link colName="mnombre" fieldIdRef="7"/>
+    <Link colName="mrazsoc" fieldIdRef="8"/>
+  </RecordView>
+  <RecordView tabName="undefined">
+    <Link colName="prefijo" fieldIdRef="1"/>
+    <Link colName="numfac" fieldIdRef="2"/>
+    <Link colName="numint" fieldIdRef="4"/>
+    <Link colName="fecfactura" fieldIdRef="3"/>
+    <Link colName="fecest" fieldIdRef="22"/>
+    <Link colName="mnit" fieldIdRef="6"/>
+    <Link colName="mnombre" fieldIdRef="7"/>
+    <Link colName="codest" fieldIdRef="21"/>
+    <Link colName="mrazsoc" fieldIdRef="8"/>
+    <Link colName="tpdocumento" fieldIdRef="0"/>
+    <Link colName="cufe" fieldIdRef="5"/>
+    <Link colName="codult_estdisp" fieldIdRef="9"/>
+    <Link colName="des_ult_estdisp" fieldIdRef="10"/>
+    <Link colName="fecres_ultestdisp" fieldIdRef="11"/>
+    <Link colName="cod_ult_estdian" fieldIdRef="12"/>
+    <Link colName="des_ult_estdian" fieldIdRef="13"/>
+    <Link colName="fecres_ultestdian" fieldIdRef="14"/>
+    <Link colName="cod_ult_estmail" fieldIdRef="15"/>
+    <Link colName="des_ult_estmail" fieldIdRef="16"/>
+    <Link colName="fecres_ultestmail" fieldIdRef="17"/>
+    <Link colName="cod_ult_estadq" fieldIdRef="18"/>
+    <Link colName="des_ult_estadq" fieldIdRef="19"/>
+    <Link colName="fecres_ultestadq" fieldIdRef="20"/>
+    <Link colName="fecrep" fieldIdRef="23"/>
+  </RecordView>
+</Form>

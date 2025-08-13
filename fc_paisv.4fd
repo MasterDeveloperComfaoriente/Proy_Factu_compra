@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ManagedForm databaseName="empresa" fileVersion="30a00" gstVersion="30a0b" name="ManagedForm" uid="{e3125345-376e-46b7-b4e1-dd420c88e38f}">
+  <AGSettings>
+    <DynamicProperties version="2"/>
+  </AGSettings>
+  <Record additionalTables="" joinLeft="" joinOperator="" joinRight="" name="cenv" order="" uid="{ca3f022a-1c54-4aef-a35d-440ce17e7057}" where="">
+    <RecordField colName="pais" fieldIdRef="0" fieldType="TABLE_COLUMN" name="fe_pais.pais" sqlTabName="fe_pais" sqlType="CHAR" table_alias_name="" uid="{0128b546-58cb-4b23-a536-4776469401a2}"/>
+    <RecordField colName="detalle" fieldIdRef="1" fieldType="TABLE_COLUMN" name="fe_pais.detalle" sqlTabName="fe_pais" sqlType="CHAR" table_alias_name="" uid="{bf1a305f-5ef5-4139-98c1-1c0236e772c9}"/>
+  </Record>
+  <Form gridHeight="13" gridWidth="49" name="gen02v">
+    <Grid gridHeight="13" gridWidth="49" name="Grid1" posX="0" posY="0">
+      <Group gridHeight="9" gridWidth="45" name="Group1" posX="2" posY="1" text="PAISES">
+        <Label gridHeight="1" gridWidth="7" name="Label1" posX="2" posY="2" text="CODIGO"/>
+        <Label gridHeight="1" gridWidth="10" name="Label2" posX="15" posY="2" text="DESCRIPCION"/>
+        <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="pais" columnCount="1" fieldId="0" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="3" name="fe_pais.pais" noEntry="true" notNull="true" posX="3" posY="3" repeat="true" required="true" rowCount="5" sqlTabName="fe_pais" sqlType="CHAR" stepX="1" stepY="0" tabIndex="-1" table_alias_name="" widget="Edit"/>
+        <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="detalle" columnCount="1" fieldId="1" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="30" name="fe_pais.detalle" notNull="true" posX="11" posY="3" repeat="true" required="true" rowCount="5" sqlTabName="fe_pais" sqlType="CHAR" stepX="1" stepY="0" tabIndex="-1" table_alias_name="" widget="Edit"/>
+      </Group>
+    </Grid>
+  </Form>
+  <DiagramLayout>
+    <![CDATA[AAAAAgAAAEwAewBjAGEAMwBmADAAMgAyAGEALQAxAGMANQA0AC0ANABhAGUAZgAtAGEAMwA1AGQALQA0ADQAMABjAGUAMQA3AGUANwAwADUANwB9AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ==]]>
+  </DiagramLayout>
+</ManagedForm>

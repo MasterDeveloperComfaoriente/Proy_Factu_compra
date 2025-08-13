@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<Form name="fc_descuentos.tmp" build="3.10.18" sqlDbName="empresa" text="DESCUENTOS" width="63" height="16">
+  <LStr text="DESCUENTOS"/>
+  <Grid name="gr3" width="63" height="16">
+    <Group name="group1" text="CODIGOS TIPOS DE DESCUENTOS" posY="1" posX="2" gridWidth="61" gridHeight="14">
+      <LStr text="CODIGOS TIPOS DE DESCUENTOS"/>
+      <Label name="label1" width="7" text="CODIGO" justify="center" posY="2" posX="2" gridWidth="7">
+        <LStr text="CODIGO"/>
+      </Label>
+      <Label name="label2" width="10" text="DESCRIPCION" posY="2" posX="20" gridWidth="10">
+        <LStr text="DESCRIPCION"/>
+      </Label>
+      <Matrix pageSize="10" name="fe_descuentos.coddesc" colName="coddesc" sqlType="CHAR(2)" fieldId="0" sqlTabName="fe_descuentos" tabIndex="1" notNull="1" required="1">
+        <Edit width="4" posY="3" posX="3" gridWidth="4"/>
+      </Matrix>
+      <Matrix pageSize="10" name="fe_descuentos.nombredes" colName="nombredes" sqlType="CHAR(50)" fieldId="1" sqlTabName="fe_descuentos" tabIndex="2" notNull="1" required="1">
+        <Edit width="51" shift="up" posY="3" posX="8" gridWidth="51"/>
+      </Matrix>
+    </Group>
+  </Grid>
+  <RecordView tabName="fe_descuentos">
+    <Link colName="coddesc" fieldIdRef="0"/>
+    <Link colName="nombredes" fieldIdRef="1"/>
+  </RecordView>
+  <RecordView tabName="descuentos">
+    <Link colName="coddesc" fieldIdRef="0"/>
+    <Link colName="nombredes" fieldIdRef="1"/>
+  </RecordView>
+</Form>

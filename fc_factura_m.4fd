@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ManagedForm databaseName="empresa" fileVersion="30a00" gstVersion="30a0b" name="ManagedForm" uid="{65f00a39-55e2-42d6-8642-6968975cce60}">
+  <AGSettings>
+    <DynamicProperties version="2"/>
+  </AGSettings>
+  <Record additionalTables="" joinLeft="" joinOperator="" joinRight="" masterTable="fe_factura_m" name="record1" order="" uid="{ddfc4d71-7062-43f1-8e11-0f96e40a3252}" where="">
+    <RecordField colName="prefijo" fieldIdRef="1" fieldType="TABLE_COLUMN" name="fe_factura_m.prefijo" sqlTabName="fe_factura_m" sqlType="CHAR" table_alias_name="" uid="{478e2966-2bc5-4e47-afec-18540862636f}"/>
+    <RecordField colName="documento" fieldIdRef="2" fieldType="TABLE_COLUMN" name="fe_factura_m.documento" sqlTabName="fe_factura_m" sqlType="CHAR" table_alias_name="" uid="{d2f35b5c-2f1a-4593-b772-8204dad509a0}"/>
+    <RecordField colName="estado" fieldIdRef="10" fieldType="TABLE_COLUMN" name="fe_factura_m.estado" sqlTabName="fe_factura_m" sqlType="CHAR" table_alias_name="" uid="{878e6283-3035-4ede-a745-54497bc6417a}"/>
+    <RecordField colName="numfac" fieldIdRef="4" fieldType="TABLE_COLUMN" name="fe_factura_m.numfac" sqlTabName="fe_factura_m" sqlType="INTEGER" table_alias_name="" uid="{87043b37-cea0-45af-84de-3cb261d39471}"/>
+    <RecordField colName="fecha_factura" fieldIdRef="3" fieldType="TABLE_COLUMN" name="fe_factura_m.fecha_factura" sqlTabName="fe_factura_m" sqlType="DATE" table_alias_name="" uid="{d0be7206-1150-4b7b-b398-c4c1497715e5}"/>
+  </Record>
+  <Record additionalTables="" joinLeft="" joinOperator="" joinRight="" name="tb_factura_ter" order="" uid="{13925def-5a9e-4579-8449-8cbaaef5a9d1}" where="">
+    <RecordField colName="cedula" fieldIdRef="5" fieldType="TABLE_COLUMN" name="fe_factura_ter.cedula" sqlTabName="fe_factura_ter" sqlType="CHAR" table_alias_name="" uid="{71e1a2c6-f656-46c1-83fe-61ae8e206f75}"/>
+    <RecordField colName="nombre" fieldIdRef="6" fieldType="TABLE_COLUMN" name="fe_factura_ter.nombre" sqlTabName="fe_factura_ter" sqlType="CHAR" table_alias_name="" uid="{dd939cc7-ae36-4e2f-8d44-bb33ab3e4571}"/>
+    <RecordField colName="edad" fieldIdRef="11" fieldType="TABLE_COLUMN" name="fe_factura_ter.edad" sqlTabName="fe_factura_ter" sqlType="INTEGER" table_alias_name="" uid="{c648cf58-7cdb-4874-a860-4298715e4bfc}"/>
+    <RecordField colName="sexo" fieldIdRef="8" fieldType="TABLE_COLUMN" name="fe_factura_ter.sexo" sqlTabName="fe_factura_ter" sqlType="CHAR" table_alias_name="" uid="{73535497-e4f2-410a-8a2e-ac893324f983}"/>
+    <RecordField colName="cat" fieldIdRef="9" fieldType="TABLE_COLUMN" name="fe_factura_ter.cat" sqlTabName="fe_factura_ter" sqlType="CHAR" table_alias_name="" uid="{43ce99e7-f1a1-4dbb-ac8a-95a63bf84553}"/>
+    <RecordField colName="valor" fieldIdRef="7" fieldType="TABLE_COLUMN" name="fe_factura_ter.valor" precisionDecimal="12" scaleDecimal="2" sqlTabName="fe_factura_ter" sqlType="DECIMAL" table_alias_name="" uid="{6f3a5c73-00f5-4d75-b7c7-f078877985bc}"/>
+  </Record>
+  <Form gridHeight="24" gridWidth="81" name="Form" text="Form">
+    <Grid gridHeight="21" gridWidth="77" name="empresa1" posX="1" posY="1">
+      <Label blink="true" color="green" gridHeight="1" gridWidth="37" justify="center" name="Label6" posX="21" posY="1" text="DETALLE- COBERTURA DE FACTURA ELECTRÓNICA" underline="true"/>
+      <Label blink="true" color="green" gridHeight="1" gridWidth="37" justify="center" name="Label7" posX="21" posY="2" text="" underline="true"/>
+      <Label blink="true" color="green" gridHeight="1" gridWidth="37" justify="center" name="Label8" posX="21" posY="3" text="" underline="true"/>
+      <Label gridHeight="1" gridWidth="6" name="Label1" posX="1" posY="4" text="Prefijo:"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" case="upper" colName="prefijo" fieldId="1" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="5" name="fe_factura_m.prefijo" noEntry="true" notNull="false" posX="8" posY="4" scroll="true" sqlTabName="fe_factura_m" sqlType="CHAR" tabIndex="1" table_alias_name="" title="prefijo" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="9" name="Label2" posX="14" posY="4" text="No. Interno :"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="documento" fieldId="2" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="7" name="fe_factura_m.documento" noEntry="true" notNull="true" posX="24" posY="4" scroll="true" sqlTabName="fe_factura_m" sqlType="CHAR" tabIndex="2" table_alias_name="" title="documento" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="6" name="Label5" posX="32" posY="4" text="Estado:"/>
+      <ComboBox aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="estado" fieldId="10" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="20" items="" name="fe_factura_m.estado" noEntry="true" posX="39" posY="4" sqlTabName="fe_factura_m" sqlType="CHAR" tabIndex="10" table_alias_name="" title="ComboBox2" widget="ComboBox"/>
+      <Label gridHeight="1" gridWidth="9" name="Label4" posX="60" posY="4" text="Num. Factura:"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="numfac" fieldId="4" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="6" name="fe_factura_m.numfac" noEntry="true" posX="70" posY="4" sqlTabName="fe_factura_m" sqlType="INTEGER" tabIndex="8" table_alias_name="" title="Edit1" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="15" name="Label20" posX="1" posY="5" text="Fecha de facturacion :"/>
+      <DateEdit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="fecha_factura" fieldId="3" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="10" name="fe_factura_m.fecha_factura" noEntry="false" posX="17" posY="5" sqlTabName="fe_factura_m" sqlType="DATE" tabIndex="9" table_alias_name="" title="DateEdit1" widget="DateEdit"/>
+      <HLine gridWidth="77" name="HLine4" posX="0" posY="6"/>
+      <Label gridHeight="1" gridWidth="6" name="Label27" posX="4" posY="7" text="Cedula"/>
+      <Label gridHeight="1" gridWidth="7" name="Label28" posX="27" posY="7" text="Nombre"/>
+      <Label gridHeight="1" gridWidth="5" name="Label9" posX="46" posY="7" text="Edad"/>
+      <Label gridHeight="1" gridWidth="5" name="Label3" posX="52" posY="7" text="Sexo"/>
+      <Label gridHeight="1" gridWidth="4" name="Label10" posX="59" posY="7" text="Cat."/>
+      <Label gridHeight="1" gridWidth="10" name="Label11" posX="65" posY="7" text="Valor Beneficio"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" autoNext="true" colName="cedula" columnCount="1" comment="DIGITE LA CEDULA" fieldId="5" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="15" name="fe_factura_ter.cedula" noEntry="false" notNull="false" posX="1" posY="8" repeat="true" required="true" rowCount="9" sqlTabName="fe_factura_ter" sqlType="CHAR" stepX="1" stepY="0" tabIndex="3" table_alias_name="" widget="Edit"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" autoNext="true" colName="nombre" columnCount="1" comment="DIGITE EL NOMBRE" fieldId="6" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="28" name="fe_factura_ter.nombre" noEntry="false" notNull="false" posX="17" posY="8" repeat="true" required="true" rowCount="9" sqlTabName="fe_factura_ter" sqlType="CHAR" stepX="1" stepY="0" tabIndex="4" table_alias_name="" widget="Edit"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" autoNext="true" colName="edad" columnCount="1" comment="DIGITE LA EDAD" fieldId="11" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="5" justify="center" name="fe_factura_ter.edad" notNull="true" posX="46" posY="8" repeat="true" required="true" rowCount="9" sqlTabName="fe_factura_ter" sqlType="INTEGER" stepX="1" stepY="0" tabIndex="12" table_alias_name="" widget="Edit"/>
+      <ComboBox aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" case="upper" colName="sexo" columnCount="1" comment="DIGITE EL SEXO" fieldId="8" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="5" items="" justify="center" name="fe_factura_ter.sexo" notNull="true" posX="52" posY="8" repeat="true" required="true" rowCount="9" sqlTabName="fe_factura_ter" sqlType="CHAR" stepX="1" stepY="0" tabIndex="6" table_alias_name="" widget="ComboBox"/>
+      <ComboBox aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" case="upper" colName="cat" columnCount="1" comment="DIGITE LA CATEGORIA" fieldId="9" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="5" items="" justify="center" name="fe_factura_ter.cat" notNull="true" posX="58" posY="8" repeat="true" required="true" rowCount="9" sqlTabName="fe_factura_ter" sqlType="CHAR" stepX="1" stepY="0" tabIndex="7" table_alias_name="" widget="ComboBox"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" autoNext="true" colName="valor" columnCount="1" comment="DIGITE LA EDAD" fieldId="7" fieldType="TABLE_COLUMN" format="--,---,--&amp;" gridHeight="1" gridWidth="11" justify="right" name="fe_factura_ter.valor" notNull="true" posX="64" posY="8" precisionDecimal="12" repeat="true" required="true" rowCount="9" scaleDecimal="2" sqlTabName="fe_factura_ter" sqlType="DECIMAL" stepX="1" stepY="0" tabIndex="5" table_alias_name="" widget="Edit"/>
+      <HLine gridWidth="77" name="HLine1" posX="0" posY="17"/>
+      <Button gridHeight="1" gridWidth="14" name="bt_detalle" posX="31" posY="18" tabIndex="11" text="Modificar"/>
+    </Grid>
+  </Form>
+  <DiagramLayout>
+    <![CDATA[AAAAAgAAAEwAewAxADMAOQAyADUAZABlAGYALQA1AGEAOQBlAC0ANAA1ADcAOQAtADgANAA0ADkALQA4AGMAYgBhAGEAZQBmADUAYQA5AGQAMQB9QHGQAAAAAABAIgAAAAAAAD+haHKwIMSfAQAAAEwAewBkAGQAZgBjADQAZAA3ADEALQA3ADAANgAyAC0ANAAzAGYAMQAtADgAZQAxADEALQAwAGYAOQA2AGUANAAwAGEAMwAyADUAMgB9wEmAAAAAAABAOQAAAAAAAD+h64UeuFHvAQ==]]>
+  </DiagramLayout>
+</ManagedForm>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<Form name="fc_zonav.tmp" build="3.10.18" sqlDbName="empresa" width="52" height="13">
+  <Grid name="grid1" width="52" height="13">
+    <Group name="group1" text="ZONAS" posY="1" posX="2" gridWidth="50" gridHeight="9">
+      <LStr text="ZONAS"/>
+      <Label name="label1" width="7" text="CODIGO" posY="2" posX="4" gridWidth="7">
+        <LStr text="CODIGO"/>
+      </Label>
+      <Label name="label2" width="10" text="DESCRIPCION" posY="2" posX="30" gridWidth="10">
+        <LStr text="DESCRIPCION"/>
+      </Label>
+      <Matrix pageSize="5" name="gener09.codzon" colName="codzon" sqlType="CHAR(10)" fieldId="0" sqlTabName="gener09" noEntry="1" notNull="1" required="1" tabIndex="1">
+        <Edit width="9" posY="3" posX="3" gridWidth="9"/>
+      </Matrix>
+      <Matrix pageSize="5" name="gener09.detzon" colName="detzon" sqlType="CHAR(80)" fieldId="1" sqlTabName="gener09" notNull="1" required="1" tabIndex="2">
+        <Edit width="30" posY="3" posX="19" gridWidth="30"/>
+      </Matrix>
+    </Group>
+  </Grid>
+  <RecordView tabName="gener09">
+    <Link colName="codzon" fieldIdRef="0"/>
+    <Link colName="detzon" fieldIdRef="1"/>
+  </RecordView>
+  <RecordView tabName="cenv">
+    <Link colName="codzon" fieldIdRef="0"/>
+    <Link colName="detzon" fieldIdRef="1"/>
+  </RecordView>
+</Form>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<report:Report xmlns:rtl="http://www.4js.com/2004/RTL" xmlns:report="http://www.4js.com/2007/REPORT" xmlns="http://www.4js.com/2004/PXML" gstVersion="30a0b" version="6.00">
+    <report:Settings RWPageWidth="a4width" RWPageLength="a4length" RWLeftMargin="1.3cm" RWTopMargin="1.3cm" RWRightMargin="1.3cm" RWBottomMargin="1.3cm">
+        <report:FormatList>
+            <report:Format-SVG/>
+            <report:Format-PDF/>
+            <report:Format-image/>
+        </report:FormatList>
+    </report:Settings>
+    <report:Data RWDataLocation="ReportePri.rdd" RWFglReportName="r_imprimeCatEmpleados"/>
+    <report:Conflicts/>
+    <rtl:stylesheet>
+        <PXML>
+            <rtl:match name="Report" nameConstraint="Report" minOccurs="1" maxOccurs="1">
+                <MINIPAGE name="Page Root" width="max" length="max">
+                    <rtl:match name="FirstPageHeader" nameConstraint="FirstPageHeader" minOccurs="0" maxOccurs="1">
+                        <LAYOUTNODE name="LayoutNode" width="min" length="min" layoutDirection="leftToRight" floatingBehavior="enclosed">
+                            <rtl:input-variable name="razsoc" type="FGLString" expectedLocation="expectedHere"/>
+                            <WORDWRAPBOX name="razsoc Value" class="grwStringValue" width="width(&quot;M&quot;)*20" floatingBehavior="enclosed" text="{{razsoc}}"/>
+                        </LAYOUTNODE>
+                    </rtl:match>
+                    <rtl:match name="Group codigo" nameConstraint="Group" minOccurs="0" maxOccurs="unbounded">
+                        <rtl:match name="OnEveryRow" nameConstraint="OnEveryRow" minOccurs="0" maxOccurs="unbounded">
+                            <LAYOUTNODE name="LayoutNode1" width="min" length="min" layoutDirection="leftToRight" floatingBehavior="enclosed">
+                                <rtl:input-variable name="r_usuario.cantidad" type="FGLNumeric" expectedLocation="expectedHere"/>
+                                <DECIMALFORMATBOX name="r_usuario.cantidad Value" class="grwNumericValue" anchorX="1" floatingBehavior="enclosed" textAlignment="right" format="----------#" value="{{r_usuario.cantidad}}"/>
+                                <rtl:input-variable name="r_usuario.descripcion" type="FGLString" expectedLocation="expectedHere"/>
+                                <WORDWRAPBOX name="r_usuario.descripcion Value" class="grwStringValue" width="width(&quot;M&quot;)*20" floatingBehavior="enclosed" text="{{r_usuario.descripcion}}"/>
+                                <rtl:input-variable name="r_usuario.valor_unitario" type="FGLNumeric" expectedLocation="expectedHere"/>
+                                <DECIMALFORMATBOX name="r_usuario.valor_unitario Value" class="grwNumericValue" anchorX="1" floatingBehavior="enclosed" textAlignment="right" format="---,---,---,--&amp;.&amp;&amp;" value="{{r_usuario.valor_unitario}}"/>
+                                <rtl:input-variable name="r_usuario.valor_total" type="FGLNumeric" expectedLocation="expectedHere"/>
+                                <DECIMALFORMATBOX name="r_usuario.valor_total Value" class="grwNumericValue" anchorX="1" floatingBehavior="enclosed" textAlignment="right" format="---,---,---,--&amp;.&amp;&amp;" value="{{r_usuario.valor_total}}"/>
+                            </LAYOUTNODE>
+                        </rtl:match>
+                    </rtl:match>
+                    <rtl:match name="OnLastRow" nameConstraint="OnLastRow" minOccurs="0" maxOccurs="1">
+                        <LAYOUTNODE name="LayoutNode2" width="min" length="min" layoutDirection="leftToRight" floatingBehavior="enclosed">
+                            <rtl:input-variable name="ld_total" type="FGLNumeric" expectedLocation="expectedHere"/>
+                            <DECIMALFORMATBOX name="ld_total Value" class="grwNumericValue" anchorX="1" floatingBehavior="enclosed" textAlignment="right" format="---,---,---,---,---,---,---,--&amp;.&amp;&amp;" value="{{ld_total}}"/>
+                        </LAYOUTNODE>
+                    </rtl:match>
+                </MINIPAGE>
+            </rtl:match>
+        </PXML>
+    </rtl:stylesheet>
+</report:Report>

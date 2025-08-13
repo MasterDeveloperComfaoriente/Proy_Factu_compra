@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<Form name="fc_reestablecer_clave.tmp" build="3.10.18" text="Form" width="48" height="10">
+  <LStr text="Form"/>
+  <Grid name="grid1" width="48" height="10">
+    <Label name="label1" width="46" text="REESTABLECER CONTRASEÑA" justify="center" posY="1" posX="1" gridWidth="46">
+      <LStr text="REESTABLECER CONTRASEÑA"/>
+    </Label>
+    <Label name="label5" width="20" text="CEDULA USUARIO:" posY="3" posX="1" gridWidth="20">
+      <LStr text="CEDULA USUARIO:"/>
+    </Label>
+    <FormField name="formonly.cedtra" colName="cedtra" fieldId="0" sqlTabName="formonly" tabIndex="1">
+      <Edit width="25" justify="right" posY="3" posX="22" gridWidth="25"/>
+    </FormField>
+    <Label name="label2" width="20" text="CONTRASEÑA ANTERIOR:" posY="4" posX="1" gridWidth="20">
+      <LStr text="CONTRASEÑA ANTERIOR:"/>
+    </Label>
+    <FormField name="formonly.usuario" colName="usuario" sqlType="VARCHAR" fieldId="1" sqlTabName="formonly" tabIndex="2">
+      <Edit width="25" isPassword="1" justify="right" posY="4" posX="22" gridWidth="25"/>
+    </FormField>
+    <Label name="label3" width="20" text="DIGITE NUEVA CONTRASEÑA:" posY="5" posX="1" gridWidth="20">
+      <LStr text="DIGITE NUEVA CONTRASEÑA:"/>
+    </Label>
+    <FormField name="formonly.clave1" colName="clave1" sqlType="VARCHAR" fieldId="2" sqlTabName="formonly" tabIndex="3">
+      <Edit width="25" isPassword="1" justify="right" posY="5" posX="22" gridWidth="25"/>
+    </FormField>
+    <Label name="label4" width="20" text="CONFIRME CONTRASEÑA:" posY="6" posX="1" gridWidth="20">
+      <LStr text="CONFIRME CONTRASEÑA:"/>
+    </Label>
+    <FormField name="formonly.clave2" colName="clave2" sqlType="VARCHAR" fieldId="3" sqlTabName="formonly" tabIndex="4">
+      <Edit width="25" isPassword="1" justify="right" posY="6" posX="22" gridWidth="25"/>
+    </FormField>
+    <Button name="accept" width="7" text="Aceptar" posY="8" posX="15" gridWidth="7" tabIndex="5">
+      <LStr text="Aceptar"/>
+    </Button>
+    <Button name="cancel" width="7" text="Cancelar" posY="8" posX="24" gridWidth="7" tabIndex="6">
+      <LStr text="Cancelar"/>
+    </Button>
+  </Grid>
+  <RecordView tabName="formonly">
+    <Link colName="cedtra" fieldIdRef="0"/>
+    <Link colName="usuario" fieldIdRef="1"/>
+    <Link colName="clave1" fieldIdRef="2"/>
+    <Link colName="clave2" fieldIdRef="3"/>
+  </RecordView>
+  <RecordView tabName="undefined">
+    <Link colName="clave1" fieldIdRef="2"/>
+    <Link colName="clave2" fieldIdRef="3"/>
+    <Link colName="cedtra" fieldIdRef="0"/>
+    <Link colName="usuario" fieldIdRef="1"/>
+  </RecordView>
+</Form>

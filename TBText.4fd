@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ManagedForm fileVersion="30a00" gstVersion="30a0b" name="ManagedForm" uid="{4960ef33-adfc-4c29-82e5-9f06b6ed73d6}">
+  <AGSettings>
+    <DynamicProperties version="2"/>
+  </AGSettings>
+  <Record additionalTables="" joinLeft="" joinOperator="" joinRight="" name="Undefined" order="" uid="{f8778222-6805-486b-9773-7e6293126756}" where="">
+    <RecordField colName="txt" fieldIdRef="0" name="txt" sqlTabName="formonly" table_alias_name="" uid="{bd28c18e-7087-465f-a30f-7bda3b9aad86}"/>
+  </Record>
+  <Form gridHeight="30" gridWidth="86" name="TBText" text="TBText">
+    <Grid gridHeight="30" gridWidth="86" name="gr6" posX="0" posY="0">
+      <TextEdit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="txt" fieldId="0" fontPitch="fixed" gridHeight="28" gridWidth="84" name="txt" posX="1" posY="0" scrollBars="both" sqlTabName="formonly" stretch="both" tabIndex="1" table_alias_name="" wantNoReturns="true" widget="TextEdit"/>
+    </Grid>
+  </Form>
+  <DiagramLayout>
+    <![CDATA[AAAAAgAAAEwAewBmADgANwA3ADgAMgAyADIALQA2ADgAMAA1AC0ANAA4ADYAYgAtADkANwA3ADMALQA3AGUANgAyADkAMwAxADIANgA3ADUANgB9AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ==]]>
+  </DiagramLayout>
+</ManagedForm>

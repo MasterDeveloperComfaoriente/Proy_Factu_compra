@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<Form name="fc_olvido_clave.tmp" build="3.10.18" text="Form" width="38" height="8">
+  <LStr text="Form"/>
+  <Grid name="grid1" width="38" height="8">
+    <Label name="label1" width="34" text="NUEVA CONTRASEÑA" justify="center" posY="1" posX="1" gridWidth="34">
+      <LStr text="NUEVA CONTRASEÑA"/>
+    </Label>
+    <Label name="label2" width="17" text="CONTRASEÑA NUEVA" posY="3" posX="1" gridWidth="17">
+      <LStr text="CONTRASEÑA NUEVA"/>
+    </Label>
+    <FormField name="formonly.contrasena" colName="contrasena" sqlType="VARCHAR" fieldId="0" sqlTabName="formonly" tabIndex="1">
+      <Edit width="18" isPassword="1" sizePolicy="initial" posY="3" posX="19" gridWidth="18"/>
+    </FormField>
+    <Label name="label3" width="17" text="REPITA LA CONTRASEÑA" posY="4" posX="1" gridWidth="17">
+      <LStr text="REPITA LA CONTRASEÑA"/>
+    </Label>
+    <FormField name="formonly.contrasena2" colName="contrasena2" sqlType="VARCHAR" fieldId="1" sqlTabName="formonly" tabIndex="2">
+      <Edit width="18" isPassword="1" sizePolicy="initial" posY="4" posX="19" gridWidth="18"/>
+    </FormField>
+    <Button name="reestablecer_contrasena" width="17" text="Reestablecer Contraseña" posY="6" posX="1" gridWidth="17" tabIndex="3">
+      <LStr text="Reestablecer Contraseña"/>
+    </Button>
+    <Button name="button2" width="18" text="Salir" posY="6" posX="19" gridWidth="18" tabIndex="4">
+      <LStr text="Salir"/>
+    </Button>
+  </Grid>
+  <RecordView tabName="formonly">
+    <Link colName="contrasena" fieldIdRef="0"/>
+    <Link colName="contrasena2" fieldIdRef="1"/>
+  </RecordView>
+  <RecordView tabName="undefined">
+    <Link colName="contrasena" fieldIdRef="0"/>
+    <Link colName="contrasena2" fieldIdRef="1"/>
+  </RecordView>
+</Form>

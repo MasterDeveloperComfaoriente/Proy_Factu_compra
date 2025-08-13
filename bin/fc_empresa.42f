@@ -1,0 +1,206 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<Form name="fc_empresa.tmp" build="3.10.18" sqlDbName="empresa" spacing="normal" text="REGISTRO EMPRESA" width="95" height="33">
+  <Grid name="gr1" width="95" height="33">
+    <Label name="lb1" width="38" text="PARAMETROS GENERALES -  NO OBLIGADOS A FACTURAR" color="blue" posY="1" posX="30" gridWidth="38"/>
+    <HLine posY="2" posX="0" gridWidth="94"/>
+    <Label name="lb2" width="5" text="N.I.T :" posY="3" posX="2" gridWidth="5"/>
+    <FormField name="fc_empresa.nit" colName="nit" sqlType="CHAR(20)" fieldId="0" sqlTabName="fc_empresa" tabIndex="4">
+      <Edit width="20" posY="3" posX="10" gridWidth="20"/>
+    </FormField>
+    <Label name="lb4" width="6" text="Digver" posY="3" posX="31" gridWidth="6"/>
+    <FormField name="fc_empresa.digver" colName="digver" sqlType="CHAR(1)" fieldId="1" sqlTabName="fc_empresa" tabIndex="1">
+      <Edit width="2" posY="3" posX="38" gridWidth="2"/>
+    </FormField>
+    <Label name="lb3" width="10" text="Razon Social:" posY="4" posX="2" gridWidth="10"/>
+    <FormField name="fc_empresa.razsoc" colName="razsoc" sqlType="CHAR(80)" fieldId="2" sqlTabName="fc_empresa" tabIndex="2">
+      <Edit width="80" shift="up" posY="4" posX="13" gridWidth="80"/>
+    </FormField>
+    <HLine posY="5" posX="0" gridWidth="95"/>
+    <Label name="lb5" width="14" text="Gran Contribuyente : " posY="6" posX="2" gridWidth="14"/>
+    <FormField name="fc_empresa.gran_contri" colName="gran_contri" sqlType="CHAR(1)" fieldId="3" sqlTabName="fc_empresa" tabIndex="3">
+      <ComboBox width="23" posY="6" posX="17" gridWidth="25"/>
+    </FormField>
+    <Label name="lb6" width="8" text="Resolucion : " posY="7" posX="2" gridWidth="8"/>
+    <FormField name="fc_empresa.res_gran" colName="res_gran" sqlType="CHAR(50)" fieldId="4" sqlTabName="fc_empresa" tabIndex="5">
+      <Edit width="50" shift="up" posY="7" posX="11" gridWidth="50"/>
+    </FormField>
+    <Label name="lb7" width="13" text="Fecha Resolucion : " posY="7" posX="62" gridWidth="13"/>
+    <FormField name="fc_empresa.fec_gran" colName="fec_gran" sqlType="DATE" fieldId="5" sqlTabName="fc_empresa" tabIndex="6">
+      <DateEdit width="8" posY="7" posX="76" gridWidth="10"/>
+    </FormField>
+    <HLine posY="8" posX="0" gridWidth="95"/>
+    <Label name="lb8" width="18" text="Autoretenedor Retefuente: " posY="9" posX="2" gridWidth="18"/>
+    <FormField name="fc_empresa.autoret" colName="autoret" sqlType="CHAR(1)" fieldId="6" sqlTabName="fc_empresa" tabIndex="7">
+      <ComboBox width="23" posY="9" posX="21" gridWidth="25"/>
+    </FormField>
+    <Label name="lb9" width="8" text="Resolucion : " posY="10" posX="2" gridWidth="8"/>
+    <FormField name="fc_empresa.res_autoret" colName="res_autoret" sqlType="CHAR(50)" fieldId="7" sqlTabName="fc_empresa" tabIndex="8">
+      <Edit width="50" shift="up" posY="10" posX="11" gridWidth="50"/>
+    </FormField>
+    <Label name="lb10" width="13" text="Fecha Resolucion : " posY="10" posX="62" gridWidth="13"/>
+    <FormField name="fc_empresa.fec_autoret" colName="fec_autoret" sqlType="DATE" fieldId="8" sqlTabName="fc_empresa" tabIndex="9">
+      <DateEdit width="8" posY="10" posX="76" gridWidth="10"/>
+    </FormField>
+    <HLine posY="11" posX="0" gridWidth="95"/>
+    <Label name="lb13" width="14" text="Autoretenedor ICA: " posY="12" posX="2" gridWidth="14"/>
+    <FormField name="fc_empresa.autoica" colName="autoica" sqlType="CHAR(1)" fieldId="9" sqlTabName="fc_empresa" tabIndex="12">
+      <ComboBox width="23" posY="12" posX="17" gridWidth="25"/>
+    </FormField>
+    <Label name="lb14" width="8" text="Resolucion : " posY="13" posX="2" gridWidth="8"/>
+    <FormField name="fc_empresa.res_autoica" colName="res_autoica" sqlType="CHAR(50)" fieldId="10" sqlTabName="fc_empresa" tabIndex="13">
+      <Edit width="50" shift="up" posY="13" posX="11" gridWidth="50"/>
+    </FormField>
+    <Label name="lb15" width="13" text="Fecha Resolucion : " posY="13" posX="62" gridWidth="13"/>
+    <FormField name="fc_empresa.fec_autoica" colName="fec_autoica" sqlType="DATE" fieldId="11" sqlTabName="fc_empresa" tabIndex="14">
+      <DateEdit width="8" posY="13" posX="76" gridWidth="10"/>
+    </FormField>
+    <HLine posY="14" posX="0" gridWidth="95"/>
+    <Label name="lb20" width="8" text="Cod.Reg :" posY="15" posX="2" gridWidth="8"/>
+    <FormField name="fc_empresa.codreg" colName="codreg" sqlType="CHAR(2)" fieldId="12" sqlTabName="fc_empresa" tabIndex="19">
+      <Edit width="3" posY="15" posX="11" gridWidth="3"/>
+    </FormField>
+    <Label name="lb11" width="8" text="Regimen : " posY="15" posX="15" gridWidth="8"/>
+    <FormField name="fc_empresa.regimen" colName="regimen" sqlType="CHAR(50)" fieldId="13" sqlTabName="fc_empresa" tabIndex="10">
+      <Edit width="50" posY="15" posX="24" gridWidth="50"/>
+    </FormField>
+    <Label name="lb12" width="7" text="Moneda : " posY="15" posX="75" gridWidth="7"/>
+    <FormField name="fc_empresa.moneda" colName="moneda" sqlType="CHAR(3)" fieldId="14" sqlTabName="fc_empresa" tabIndex="11">
+      <Edit width="4" posY="15" posX="83" gridWidth="4"/>
+    </FormField>
+    <HLine posY="16" posX="0" gridWidth="95"/>
+    <Label name="lb16" width="19" text="Numero Inicial Nota Debito : " posY="17" posX="2" gridWidth="19"/>
+    <FormField name="fc_empresa.numnota_d" colName="numnota_d" sqlType="INTEGER" fieldId="15" sqlTabName="fc_empresa" tabIndex="15">
+      <Edit width="14" shift="up" posY="17" posX="22" gridWidth="14"/>
+    </FormField>
+    <Label name="lb17" width="19" text="Numero Inicial  Nota Credito : " posY="17" posX="39" gridWidth="19"/>
+    <FormField name="fc_empresa.numnota_c" colName="numnota_c" sqlType="INTEGER" fieldId="16" sqlTabName="fc_empresa" tabIndex="16">
+      <Edit width="14" shift="up" posY="17" posX="60" gridWidth="14"/>
+    </FormField>
+    <Label name="lb18" width="24" text="Tipo Comprobante Nota Debito Caja : " posY="19" posX="2" gridWidth="24"/>
+    <FormField name="fc_empresa.codcop_notad" colName="codcop_notad" sqlType="CHAR(4)" fieldId="17" sqlTabName="fc_empresa" tabIndex="17">
+      <Edit width="4" shift="up" posY="19" posX="34" gridWidth="4"/>
+    </FormField>
+    <Label name="lb19" width="25" text="Tipo Comprobante Nota Credito Caja : " posY="19" posX="45" gridWidth="25"/>
+    <FormField name="fc_empresa.codcop_notac" colName="codcop_notac" sqlType="CHAR(4)" fieldId="18" sqlTabName="fc_empresa" tabIndex="18">
+      <Edit width="4" shift="up" posY="19" posX="79" gridWidth="4"/>
+    </FormField>
+    <Label name="lb28" width="30" text="Tipo Comprobante Nota Debito Eps Subsidiado:" posY="20" posX="2" gridWidth="30"/>
+    <FormField name="fc_empresa.codcop_notad_eps" colName="codcop_notad_eps" sqlType="CHAR(4)" fieldId="19" sqlTabName="fc_empresa" tabIndex="24">
+      <Edit width="4" shift="up" posY="20" posX="34" gridWidth="4"/>
+    </FormField>
+    <Label name="lb29" width="31" text="Tipo Comprobante Nota Credito Eps Subsidiado:" posY="20" posX="45" gridWidth="31"/>
+    <FormField name="fc_empresa.codcop_notac_eps" colName="codcop_notac_eps" sqlType="CHAR(4)" fieldId="20" sqlTabName="fc_empresa" tabIndex="25">
+      <Edit width="4" shift="up" posY="20" posX="79" gridWidth="4"/>
+    </FormField>
+    <Label name="lb30" width="31" text="Tipo Comprobante Nota Debito Eps Contributivo:" posY="21" posX="2" gridWidth="31"/>
+    <FormField name="fc_empresa.codcop_notad_epsc" colName="codcop_notad_epsc" sqlType="CHAR(4)" fieldId="21" sqlTabName="fc_empresa" tabIndex="26">
+      <Edit width="4" shift="up" posY="21" posX="34" gridWidth="4"/>
+    </FormField>
+    <Label name="lb31" width="31" text="Tipo Comprobante Nota Credito Eps Contributivo:" posY="21" posX="45" gridWidth="31"/>
+    <FormField name="fc_empresa.codcop_notac_epsc" colName="codcop_notac_epsc" sqlType="CHAR(4)" fieldId="22" sqlTabName="fc_empresa" tabIndex="27">
+      <Edit width="4" shift="up" posY="21" posX="79" gridWidth="4"/>
+    </FormField>
+    <Label name="lb32" width="24" text="Tipo Comprobante Nota Debito Ips:" posY="22" posX="2" gridWidth="24"/>
+    <FormField name="fc_empresa.codcop_notad_ips" colName="codcop_notad_ips" sqlType="CHAR(4)" fieldId="23" sqlTabName="fc_empresa" tabIndex="28">
+      <Edit width="4" shift="up" posY="22" posX="34" gridWidth="4"/>
+    </FormField>
+    <Label name="lb33" width="25" text="Tipo Comprobante Nota Credito Ips:" posY="22" posX="45" gridWidth="25"/>
+    <FormField name="fc_empresa.codcop_notac_ips" colName="codcop_notac_ips" sqlType="CHAR(4)" fieldId="24" sqlTabName="fc_empresa" tabIndex="29">
+      <Edit width="4" shift="up" posY="22" posX="79" gridWidth="4"/>
+    </FormField>
+    <Label name="lb34" width="30" text="Tipo Comprobante Nota Debito en Creditos:" posY="23" posX="2" gridWidth="30"/>
+    <FormField name="fc_empresa.codcop_notad_cre" colName="codcop_notad_cre" sqlType="CHAR(4)" fieldId="25" sqlTabName="fc_empresa" tabIndex="30">
+      <Edit width="4" shift="up" posY="23" posX="34" gridWidth="4"/>
+    </FormField>
+    <Label name="lb35" width="31" text="Tipo Comprobante Nota Credito en Creditos:" posY="23" posX="45" gridWidth="31"/>
+    <FormField name="fc_empresa.codcop_notac_cre" colName="codcop_notac_cre" sqlType="CHAR(4)" fieldId="26" sqlTabName="fc_empresa" tabIndex="31">
+      <Edit width="4" shift="up" posY="23" posX="79" gridWidth="4"/>
+    </FormField>
+    <Label name="lb27" width="17" text="" posY="24" posX="35" gridWidth="17"/>
+    <Label name="lb21" width="18" text="CAMPOS DISEÑO FACTURA" color="blue" posY="25" posX="34" gridWidth="18"/>
+    <HLine posY="26" posX="0" gridWidth="95"/>
+    <Label name="lb23" width="17" text="" posY="27" posX="35" gridWidth="17"/>
+    <Label name="lb22" width="19" text="Leyenda Encabezado Factura:" posY="28" posX="2" gridWidth="19"/>
+    <FormField name="fc_empresa.leyenda_enc" colName="leyenda_enc" sqlType="CHAR(50)" fieldId="27" sqlTabName="fc_empresa" tabIndex="20">
+      <Edit width="66" shift="up" posY="28" posX="22" gridWidth="66"/>
+    </FormField>
+    <Label name="lb24" width="10" text="Pie de pagina 1:" posY="29" posX="2" gridWidth="10"/>
+    <FormField name="fc_empresa.piepag_1" colName="piepag_1" sqlType="CHAR(80)" fieldId="28" sqlTabName="fc_empresa" tabIndex="21">
+      <Edit width="75" shift="up" posY="29" posX="13" gridWidth="75"/>
+    </FormField>
+    <Label name="lb25" width="10" text="Pie de pagina 2:" posY="30" posX="2" gridWidth="10"/>
+    <FormField name="fc_empresa.piepag_2" colName="piepag_2" sqlType="CHAR(80)" fieldId="29" sqlTabName="fc_empresa" tabIndex="22">
+      <Edit width="75" shift="up" posY="30" posX="13" gridWidth="75"/>
+    </FormField>
+    <Label name="lb26" width="10" text="Pie de pagina 3:" posY="31" posX="2" gridWidth="10"/>
+    <FormField name="fc_empresa.piepag_3" colName="piepag_3" sqlType="CHAR(80)" fieldId="30" sqlTabName="fc_empresa" tabIndex="23">
+      <Edit width="75" shift="up" posY="31" posX="13" gridWidth="75"/>
+    </FormField>
+  </Grid>
+  <RecordView tabName="fc_empresa">
+    <Link colName="nit" fieldIdRef="0"/>
+    <Link colName="digver" fieldIdRef="1"/>
+    <Link colName="razsoc" fieldIdRef="2"/>
+    <Link colName="gran_contri" fieldIdRef="3"/>
+    <Link colName="res_gran" fieldIdRef="4"/>
+    <Link colName="fec_gran" fieldIdRef="5"/>
+    <Link colName="autoret" fieldIdRef="6"/>
+    <Link colName="res_autoret" fieldIdRef="7"/>
+    <Link colName="fec_autoret" fieldIdRef="8"/>
+    <Link colName="autoica" fieldIdRef="9"/>
+    <Link colName="res_autoica" fieldIdRef="10"/>
+    <Link colName="fec_autoica" fieldIdRef="11"/>
+    <Link colName="codreg" fieldIdRef="12"/>
+    <Link colName="regimen" fieldIdRef="13"/>
+    <Link colName="moneda" fieldIdRef="14"/>
+    <Link colName="numnota_d" fieldIdRef="15"/>
+    <Link colName="numnota_c" fieldIdRef="16"/>
+    <Link colName="codcop_notad" fieldIdRef="17"/>
+    <Link colName="codcop_notac" fieldIdRef="18"/>
+    <Link colName="codcop_notad_eps" fieldIdRef="19"/>
+    <Link colName="codcop_notac_eps" fieldIdRef="20"/>
+    <Link colName="codcop_notad_epsc" fieldIdRef="21"/>
+    <Link colName="codcop_notac_epsc" fieldIdRef="22"/>
+    <Link colName="codcop_notad_ips" fieldIdRef="23"/>
+    <Link colName="codcop_notac_ips" fieldIdRef="24"/>
+    <Link colName="codcop_notad_cre" fieldIdRef="25"/>
+    <Link colName="codcop_notac_cre" fieldIdRef="26"/>
+    <Link colName="leyenda_enc" fieldIdRef="27"/>
+    <Link colName="piepag_1" fieldIdRef="28"/>
+    <Link colName="piepag_2" fieldIdRef="29"/>
+    <Link colName="piepag_3" fieldIdRef="30"/>
+  </RecordView>
+  <RecordView tabName="undefined">
+    <Link colName="digver" fieldIdRef="1"/>
+    <Link colName="razsoc" fieldIdRef="2"/>
+    <Link colName="gran_contri" fieldIdRef="3"/>
+    <Link colName="nit" fieldIdRef="0"/>
+    <Link colName="res_gran" fieldIdRef="4"/>
+    <Link colName="fec_gran" fieldIdRef="5"/>
+    <Link colName="autoret" fieldIdRef="6"/>
+    <Link colName="res_autoret" fieldIdRef="7"/>
+    <Link colName="fec_autoret" fieldIdRef="8"/>
+    <Link colName="regimen" fieldIdRef="13"/>
+    <Link colName="moneda" fieldIdRef="14"/>
+    <Link colName="autoica" fieldIdRef="9"/>
+    <Link colName="res_autoica" fieldIdRef="10"/>
+    <Link colName="fec_autoica" fieldIdRef="11"/>
+    <Link colName="numnota_d" fieldIdRef="15"/>
+    <Link colName="numnota_c" fieldIdRef="16"/>
+    <Link colName="codcop_notad" fieldIdRef="17"/>
+    <Link colName="codcop_notac" fieldIdRef="18"/>
+    <Link colName="codreg" fieldIdRef="12"/>
+    <Link colName="leyenda_enc" fieldIdRef="27"/>
+    <Link colName="piepag_1" fieldIdRef="28"/>
+    <Link colName="piepag_2" fieldIdRef="29"/>
+    <Link colName="piepag_3" fieldIdRef="30"/>
+    <Link colName="codcop_notad_eps" fieldIdRef="19"/>
+    <Link colName="codcop_notac_eps" fieldIdRef="20"/>
+    <Link colName="codcop_notad_epsc" fieldIdRef="21"/>
+    <Link colName="codcop_notac_epsc" fieldIdRef="22"/>
+    <Link colName="codcop_notad_ips" fieldIdRef="23"/>
+    <Link colName="codcop_notac_ips" fieldIdRef="24"/>
+    <Link colName="codcop_notad_cre" fieldIdRef="25"/>
+    <Link colName="codcop_notac_cre" fieldIdRef="26"/>
+  </RecordView>
+</Form>

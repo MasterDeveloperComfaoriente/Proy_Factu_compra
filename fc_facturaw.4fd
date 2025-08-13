@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ManagedForm databaseName="empresa" fileVersion="30a00" gstVersion="30a0b" name="ManagedForm" uid="{e3125345-376e-46b7-b4e1-dd420c88e38f}">
+  <AGSettings>
+    <DynamicProperties version="2"/>
+  </AGSettings>
+  <Record additionalTables="" joinLeft="" joinOperator="" joinRight="" name="prefv" order="" uid="{1d3204dc-838a-4203-82f4-f894f6e8f85d}" where="">
+    <RecordField colName="prefijo" fieldIdRef="1" fieldType="TABLE_COLUMN" name="fe_factura_m.prefijo" sqlTabName="fe_factura_m" sqlType="CHAR" table_alias_name="" uid="{72908ba8-d175-481f-969b-af499c2e631e}"/>
+    <RecordField colName="numfac" fieldIdRef="4" fieldType="TABLE_COLUMN" name="fe_factura_m.numfac" sqlTabName="fe_factura_m" sqlType="INTEGER" table_alias_name="" uid="{ab3643f5-493e-450d-baa2-292a3149d91c}"/>
+    <RecordField colName="nit" fieldIdRef="2" fieldType="TABLE_COLUMN" name="fe_factura_m.nit" sqlTabName="fe_factura_m" sqlType="CHAR" table_alias_name="" uid="{f5f92110-b6b4-449c-9ac3-44e9373a2ff3}"/>
+    <RecordField colName="razsoc" fieldIdRef="3" fieldType="TABLE_COLUMN" name="fe_terceros.razsoc" sqlTabName="fe_terceros" sqlType="CHAR" table_alias_name="" uid="{39111f68-ddbd-4c5b-8b11-05eef9f4c0a0}"/>
+    <RecordField colName="valor" fieldIdRef="5" fieldType="TABLE_COLUMN" name="fe_factura_d.valor" precisionDecimal="12" scaleDecimal="2" sqlTabName="fe_factura_d" sqlType="DECIMAL" table_alias_name="" uid="{6d92af8c-d412-4eb4-adca-1e8cb446f212}"/>
+  </Record>
+  <Form gridHeight="15" gridWidth="90" name="gen02v">
+    <Grid gridHeight="13" gridWidth="87" name="Grid1" posX="2" posY="1">
+      <Group gridHeight="11" gridWidth="83" name="Group1" posX="2" posY="1" text="FACTURAS EMITIDAS">
+        <Label gridHeight="1" gridWidth="6" justify="center" name="Label1" posX="3" posY="1" text="Prefijo"/>
+        <Label gridHeight="1" gridWidth="7" name="Label3" posX="10" posY="1" text="N° Factura"/>
+        <Label gridHeight="1" gridWidth="10" name="Label2" posX="19" posY="1" text="Cliente/Tercero"/>
+        <Label gridHeight="1" gridWidth="25" name="Label4" posX="37" posY="1" text="Nombre del Cliente y/o Razon Social"/>
+        <Label gridHeight="1" gridWidth="8" name="Label5" posX="70" posY="1" text="Valor Total"/>
+        <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="prefijo" columnCount="1" fieldId="1" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="6" name="fe_factura_m.prefijo" noEntry="true" notNull="true" posX="3" posY="2" repeat="true" required="true" rowCount="8" sqlTabName="fe_factura_m" sqlType="CHAR" stepX="1" stepY="0" tabIndex="1" table_alias_name="" widget="Edit"/>
+        <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="numfac" columnCount="1" fieldId="4" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="7" name="fe_factura_m.numfac" noEntry="true" notNull="true" posX="10" posY="2" repeat="true" required="true" rowCount="8" sqlTabName="fe_factura_m" sqlType="INTEGER" stepX="1" stepY="0" tabIndex="3" table_alias_name="" widget="Edit"/>
+        <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="nit" columnCount="1" fieldId="2" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="14" name="fe_factura_m.nit" noEntry="false" notNull="false" posX="18" posY="2" repeat="true" required="false" rowCount="8" sqlTabName="fe_factura_m" sqlType="CHAR" stepX="1" stepY="0" tabIndex="4" table_alias_name="" widget="Edit"/>
+        <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="razsoc" columnCount="1" fieldId="3" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="35" name="fe_terceros.razsoc" noEntry="true" notNull="false" posX="33" posY="2" repeat="true" required="false" rowCount="8" sqlTabName="fe_terceros" sqlType="CHAR" stepX="1" stepY="0" tabIndex="2" table_alias_name="" widget="Edit"/>
+        <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="valor" columnCount="1" fieldId="5" fieldType="TABLE_COLUMN" format="---,---,--&amp;" gridHeight="1" gridWidth="12" name="fe_factura_d.valor" noEntry="true" notNull="true" posX="69" posY="2" precisionDecimal="12" repeat="true" required="true" rowCount="8" scaleDecimal="2" sqlTabName="fe_factura_d" sqlType="DECIMAL" stepX="1" stepY="0" tabIndex="5" table_alias_name="" widget="Edit"/>
+      </Group>
+    </Grid>
+  </Form>
+  <DiagramLayout>
+    <![CDATA[AAAAAgAAAEwAewAxAGQAMwAyADAANABkAGMALQA4ADMAOABhAC0ANAAyADAAMwAtADgAMgBmADQALQBmADgAOQA0AGYANgBlADgAZgA4ADUAZAB9QFUAAAAAAADAVsAAAAAAAD+wo9cKPXCnAQ==]]>
+  </DiagramLayout>
+</ManagedForm>

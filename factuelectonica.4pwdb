@@ -1,0 +1,3015 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<WorkspaceDatabase fileContentsEncoding="iso88591" version="2.0">
+<File m="fe_beneficios" n="fe_beneficios.4gl" ts="20210304104810768">
+<Ref t="fe_globales.4gl"/>
+<Fct c="10" el="830" l="781" n="bfe_tarifasroww(currrow INTEGER,prevrow INTEGER,pagenum INTEGER)" t="F" v="pub"/>
+<Fct c="10" el="780" l="687" n="fe_beneficiosval()" t="F" v="pub">
+<Call c="8" l="700" n="FGL_WINMESSAGE" t="F"/>
+<Call c="7" l="715" n="bfe_tarifasroww" t="F"/>
+<Call c="9" l="727" n="bfe_tarifasroww" t="F"/>
+<Call c="9" l="739" n="bfe_tarifasroww" t="F"/>
+<Call c="9" l="763" n="bfe_tarifasroww" t="F"/>
+</Fct>
+<Fct c="10" el="684" l="636" n="beneficiosremove()" t="F" v="pub"/>
+<Fct c="10" el="635" l="456" n="beneficiosupdate()" t="F" v="pub">
+<Call c="35" l="478" n="villac02val" p="fe_contable1.4gl" t="F"/>
+<Call c="34" l="507" n="villac02val" p="fe_contable1.4gl" t="F"/>
+<Call c="8" l="548" n="FGL_WINMESSAGE" t="F"/>
+<Call c="8" l="569" n="FGL_WINMESSAGE" t="F"/>
+</Fct>
+<Fct c="10" el="455" l="332" n="beneficiosquery(exist INTEGER)" t="F" v="pub">
+<Call c="8" l="369" n="beneficiosgetcurr" t="F"/>
+<Call c="8" l="370" n="beneficiosshowcurr" t="F"/>
+<Call c="9" l="391" n="beneficiosgetcurr" t="F"/>
+<Call c="9" l="392" n="beneficiosshowcurr" t="F"/>
+<Call c="9" l="402" n="beneficiosgetcurr" t="F"/>
+<Call c="9" l="403" n="beneficiosshowcurr" t="F"/>
+<Call c="9" l="406" n="opcion" p="fe_main.4gl" t="F"/>
+<Call c="12" l="412" n="beneficiosupdate" t="F"/>
+<Call c="12" l="419" n="beneficiosgetcurr" t="F"/>
+<Call c="12" l="420" n="beneficiosshowcurr" t="F"/>
+<Call c="9" l="426" n="opcion" p="fe_main.4gl" t="F"/>
+<Call c="11" l="432" n="beneficiosremove" t="F"/>
+<Call c="12" l="439" n="beneficiosshowcurr" t="F"/>
+</Fct>
+<Fct c="10" el="331" l="74" n="beneficiosadd()" t="F" v="pub">
+<Call c="35" l="136" n="villac02val" p="fe_contable1.4gl" t="F"/>
+<Call c="34" l="165" n="villac02val" p="fe_contable1.4gl" t="F"/>
+<Call c="8" l="206" n="FGL_WINMESSAGE" t="F"/>
+<Call c="8" l="227" n="FGL_WINMESSAGE" t="F"/>
+</Fct>
+<Fct c="10" el="73" l="63" n="beneficiosdplyg()" t="F" v="pub"/>
+<Fct c="10" el="62" l="53" n="beneficiosshowcurr(rownum INTEGER,maxnum INTEGER)" t="F" v="pub">
+<Call c="7" l="61" n="beneficiosdplyg" t="F"/>
+</Fct>
+<Fct c="10" el="51" l="46" n="beneficiosgetcurr(tpcodigo unknown)" t="F" v="pub"/>
+<Fct c="11" el="45" l="3" n="beneficiosmain()" t="F" v="pub">
+<Call c="9" l="19" n="opcion" p="fe_main.4gl" t="F"/>
+<Call c="10" l="21" n="beneficiosadd" t="F"/>
+<Call c="9" l="31" n="opcion" p="fe_main.4gl" t="F"/>
+<Call c="10" l="33" n="beneficiosquery" t="F"/>
+<Call c="10" l="39" n="beneficiosdplyg" t="F"/>
+</Fct>
+</File>
+<File m="fe_comgen" n="fe_comgen.4gl" ts="20210304104810758">
+<Ref t="fe_globales.4gl"/>
+<Fct c="10" el="965" l="866" n="fefact_mrow2(currrow INTEGER,prevrow INTEGER,pagenum INTEGER)" t="F" v="pub"/>
+<Fct c="10" el="864" l="775" n="fe_factura_mval2()" t="F" v="pub">
+<Call c="9" l="792" n="FGL_WINMESSAGE" t="F"/>
+<Call c="7" l="809" n="fefact_mrow2" t="F"/>
+<Call c="9" l="818" n="fefact_mrow2" t="F"/>
+<Call c="9" l="828" n="fefact_mrow2" t="F"/>
+<Call c="9" l="850" n="fefact_mrow2" t="F"/>
+</Fct>
+<Fct c="10" el="773" l="769" n="fin_mensaje_espera()" t="F" v="pub"/>
+<Fct c="10" el="767" l="757" n="mue_mensaje_espera(mensa STRING,pos SMALLINT)" t="F" v="pub"/>
+<Fct c="10" el="755" l="748" n="ini_mensaje_espera(titulo STRING)" t="F" v="pub"/>
+<Fct c="10" el="745" l="694" n="conta09row(currrow INTEGER,prevrow INTEGER,pagenum INTEGER)" t="F" v="pub"/>
+<Fct c="10" el="693" l="596" n="conta09val()" t="F" v="pub">
+<Call c="7" l="628" n="conta09row" t="F"/>
+<Call c="9" l="640" n="conta09row" t="F"/>
+<Call c="9" l="652" n="conta09row" t="F"/>
+<Call c="9" l="676" n="conta09row" t="F"/>
+</Fct>
+<Fct c="10" el="592" l="543" n="comfec()" t="F" v="pub"/>
+<Fct c="10" el="502" l="447" n="gener25row(currrow INTEGER,prevrow INTEGER,pagenum INTEGER)" t="F" v="pub"/>
+<Fct c="10" el="445" l="393" n="gener25val(maxnum INTEGER)" t="F" v="pub">
+<Call c="7" l="405" n="gener25row" t="F"/>
+<Call c="12" l="419" n="gener25row" t="F"/>
+<Call c="12" l="430" n="gener25row" t="F"/>
+</Fct>
+<Fct c="10" el="392" l="246" n="camlet()" t="F" v="pub"/>
+<Fct c="10" el="245" l="228" n="campag(pi INTEGER,pf INTEGER)" t="F" v="pub"/>
+<Fct c="10" el="227" l="217" n="camcop(nc INTEGER)" t="F" v="pub"/>
+<Fct c="10" el="216" l="184" n="defecto()" t="F" v="pub"/>
+<Fct c="10" el="183" l="154" n="repfile()" t="F" v="pub"/>
+<Fct c="10" el="153" l="5" n="manimp()" t="F" v="pub">
+<Call c="7" l="78" n="defecto" t="F"/>
+<Call c="7" l="82" n="gener25row" t="F"/>
+<Call c="12" l="90" n="gener25val" t="F"/>
+<Call c="12" l="92" n="defecto" t="F"/>
+<Call c="12" l="96" n="camlet" t="F"/>
+<Call c="12" l="97" n="defecto" t="F"/>
+<Call c="12" l="101" n="camcop" t="F"/>
+<Call c="12" l="102" n="defecto" t="F"/>
+<Call c="12" l="106" n="campag" t="F"/>
+<Call c="12" l="107" n="defecto" t="F"/>
+<Call c="12" l="116" n="showfile" p="fe_factura.4gl" t="F"/>
+<Call c="12" l="122" n="repfile" t="F"/>
+</Fct>
+</File>
+<File m="fe_compras" n="fe_compras.4gl" ts="20200610180023722">
+<Ref t="fe_globales.4gl"/>
+<Fct c="10" el="911" l="863" n="fe_comprasremove()" t="F" v="pub"/>
+<Fct c="10" el="971" l="914" n="mostrar_datos_factura()" t="F" v="pub"/>
+<Fct c="10" el="861" l="749" n="fe_comprasupdate()" t="F" v="pub"/>
+<Fct c="10" el="412" l="317" n="fe_factura_mval()" t="F" v="pub">
+<Call c="8" l="332" n="FGL_WINMESSAGE" t="F"/>
+<Call c="7" l="347" n="fefact_mrow" t="F"/>
+<Call c="9" l="359" n="fefact_mrow" t="F"/>
+<Call c="9" l="371" n="fefact_mrow" t="F"/>
+<Call c="9" l="395" n="fefact_mrow" t="F"/>
+</Fct>
+<Fct c="10" el="564" l="470" n="fe_factura_mediocval()" t="F" v="pub">
+<Call c="8" l="483" n="FGL_WINMESSAGE" t="F"/>
+<Call c="7" l="498" n="fefact_mediocrow" t="F"/>
+<Call c="9" l="510" n="fefact_mediocrow" t="F"/>
+<Call c="9" l="522" n="fefact_mediocrow" t="F"/>
+<Call c="9" l="546" n="fefact_mediocrow" t="F"/>
+</Fct>
+<Fct c="10" el="615" l="566" n="fefact_mediocrow(currrow INTEGER,prevrow INTEGER,pagenum INTEGER)" t="F" v="pub"/>
+<Fct c="10" el="283" l="110" n="fe_comprasadd()" t="F" v="pub">
+<Call c="10" l="132" n="fe_factura_mval" t="F"/>
+<Call c="11" l="145" n="mostrar_datos_factura" t="F"/>
+<Call c="9" l="150" n="fe_factura_mval" t="F"/>
+<Call c="12" l="163" n="mostrar_datos_factura" t="F"/>
+<Call c="10" l="170" n="mostrar_datos_factura" t="F"/>
+<Call c="10" l="198" n="FGL_WINMESSAGE" t="F"/>
+</Fct>
+<Fct c="11" el="44" l="5" n="fe_comprasmain()" t="F" v="pub">
+<Call c="10" l="26" n="fe_comprasadd" t="F"/>
+<Call c="10" l="34" n="fe_comprasquery" t="F"/>
+</Fct>
+<Fct c="10" el="314" l="303" n="fe_comprashowcurr(rownum INTEGER,maxnum INTEGER)" t="F" v="pub">
+<Call c="7" l="312" n="fe_comprasdplyg" t="F"/>
+</Fct>
+<Fct c="10" el="467" l="414" n="fefact_mrow(currrow INTEGER,prevrow INTEGER,pagenum INTEGER)" t="F" v="pub"/>
+<Fct c="10" el="107" l="47" n="fe_comprasdplyg()" t="F" v="pub"/>
+<Fct c="10" el="301" l="287" n="fe_comprasgetcurr(tpprefijo INTEGER,tpnumfac INTEGER)" t="F" v="pub"/>
+<Fct c="10" el="744" l="618" n="fe_comprasquery(exist INTEGER)" t="F" v="pub">
+<Call c="8" l="660" n="fe_comprasgetcurr" t="F"/>
+<Call c="8" l="661" n="fe_comprashowcurr" t="F"/>
+<Call c="8" l="683" n="fe_comprasgetcurr" t="F"/>
+<Call c="8" l="684" n="fe_comprashowcurr" t="F"/>
+<Call c="8" l="694" n="fe_comprasgetcurr" t="F"/>
+<Call c="8" l="695" n="fe_comprashowcurr" t="F"/>
+<Call c="11" l="703" n="fe_comprasupdate" t="F"/>
+<Call c="11" l="710" n="fe_comprasgetcurr" t="F"/>
+<Call c="11" l="711" n="fe_comprashowcurr" t="F"/>
+<Call c="11" l="721" n="fe_comprasremove" t="F"/>
+<Call c="13" l="728" n="fe_comprashowcurr" t="F"/>
+</Fct>
+</File>
+<File m="fe_comrep" n="fe_comrep.4gl" ts="20191114110926073">
+<Ref t="fe_globales.4gl"/>
+<Fct c="8" el="198" l="108" n="rpcartipccf(mfe_compras RECORD,msaldo DECIMAL(12,0)" t="R" v="pub"/>
+<Fct c="10" el="106" l="32" n="com_exttc()" t="F" v="pub">
+<Call c="7" l="43" n="comfec" p="fe_comgen.4gl" t="F"/>
+<Call c="7" l="51" n="fe_factura_mediocval" p="fe_compras.4gl" t="F"/>
+<Call c="15" l="58" n="rpcartipccf" t="R"/>
+<Call c="22" l="97" n="rpcartipccf" t="R"/>
+<Call c="16" l="100" n="rpcartipccf" t="R"/>
+<Call c="7" l="105" n="manimp" p="fe_comgen.4gl" t="F"/>
+</Fct>
+</File>
+<File m="fe_contable1" n="fe_contable1.4gl" ts="20200220164014061">
+<Ref t="fe_globales.4gl"/>
+<Fct c="10" el="1520" l="1509" n="fe_conta1showcurr(rownum INTEGER,maxnum INTEGER)" t="F" v="pub">
+<Call c="7" l="1519" n="fe_conta1dplyg" t="F"/>
+</Fct>
+<Fct c="10" el="1646" l="1522" n="fe_conta1query(exist SMALLINT)" t="F" v="pub">
+<Call c="8" l="1568" n="fe_conta1getcurr" t="F"/>
+<Call c="8" l="1569" n="fe_conta1showcurr" t="F"/>
+<Call c="9" l="1595" n="fe_conta1getcurr" t="F"/>
+<Call c="9" l="1596" n="fe_conta1showcurr" t="F"/>
+<Call c="9" l="1606" n="fe_conta1getcurr" t="F"/>
+<Call c="9" l="1607" n="fe_conta1showcurr" t="F"/>
+<Call c="11" l="1613" n="fe_conta1update" t="F"/>
+<Call c="11" l="1617" n="fe_conta1getcurr" t="F"/>
+<Call c="11" l="1618" n="fe_conta1showcurr" t="F"/>
+<Call c="11" l="1626" n="fe_conta1remove" t="F"/>
+<Call c="12" l="1630" n="fe_conta1showcurr" t="F"/>
+</Fct>
+<Fct c="8" el="2314" l="2256" n="rconta2(mprefijo CHAR(5)" t="R" v="pub"/>
+<Fct c="10" el="2006" l="1873" n="niif233row(currrow INTEGER,prevrow INTEGER,pagenum INTEGER)" t="F" v="pub"/>
+<Fct c="10" el="1507" l="1458" n="fe_conta1getcurr(tpcodigo INTEGER)" t="F" v="pub"/>
+<Fct c="8" el="2228" l="2171" n="rconta()" t="R" v="pub"/>
+<Fct c="10" el="2103" l="2007" n="villac06val()" t="F" v="pub">
+<Call c="7" l="2038" n="niif147row" t="F"/>
+<Call c="9" l="2050" n="niif147row" t="F"/>
+<Call c="9" l="2062" n="niif147row" t="F"/>
+<Call c="9" l="2086" n="niif147row" t="F"/>
+</Fct>
+<Fct c="10" el="2153" l="2104" n="niif147row(currrow INTEGER,prevrow INTEGER,pagenum INTEGER)" t="F" v="pub"/>
+<Fct c="10" el="2255" l="2230" n="rep_conta2()" t="F" v="pub">
+<Call c="14" l="2243" n="rconta2" t="R"/>
+<Call c="19" l="2251" n="rconta2" t="R"/>
+<Call c="15" l="2253" n="rconta2" t="R"/>
+<Call c="6" l="2254" n="impsn" p="fe_factura.4gl" t="F"/>
+</Fct>
+<Fct c="10" el="94" l="72" n="fe_conta1dplyg()" t="F" v="pub"/>
+<Fct c="10" el="738" l="96" n="fe_conta1add()" t="F" v="pub">
+<Call c="10" l="110" n="fe_serviciosval" p="fe_tarifas.4gl" t="F"/>
+<Call c="35" l="173" n="villac02val" t="F"/>
+<Call c="33" l="201" n="villac06val" t="F"/>
+<Call c="36" l="228" n="villac02val" t="F"/>
+<Call c="34" l="256" n="villac06val" t="F"/>
+<Call c="35" l="283" n="villac02val" t="F"/>
+<Call c="33" l="311" n="villac06val" t="F"/>
+<Call c="35" l="338" n="villac02val" t="F"/>
+<Call c="33" l="366" n="villac06val" t="F"/>
+<Call c="37" l="392" n="villac02val" t="F"/>
+<Call c="35" l="420" n="villac06val" t="F"/>
+<Call c="35" l="447" n="villac02val" t="F"/>
+<Call c="33" l="475" n="villac06val" t="F"/>
+<Call c="36" l="503" n="villac02val" t="F"/>
+<Call c="34" l="531" n="villac06val" t="F"/>
+<Call c="37" l="557" n="villac02val" t="F"/>
+<Call c="35" l="585" n="villac06val" t="F"/>
+<Call c="36" l="611" n="villac02val" t="F"/>
+<Call c="34" l="639" n="villac06val" t="F"/>
+</Fct>
+<Fct c="10" el="2170" l="2155" n="rep_conta()" t="F" v="pub">
+<Call c="14" l="2161" n="rconta" t="R"/>
+<Call c="19" l="2166" n="rconta" t="R"/>
+<Call c="15" l="2168" n="rconta" t="R"/>
+<Call c="6" l="2169" n="impsn" p="fe_factura.4gl" t="F"/>
+</Fct>
+<Fct c="10" el="70" l="2" n="fe_conta1main()" t="F" v="pub">
+<Call c="10" l="11" n="fe_conta1add" t="F"/>
+<Call c="10" l="18" n="fe_conta1dplyg" t="F"/>
+<Call c="10" l="20" n="fe_conta1query" t="F"/>
+<Call c="10" l="26" n="fe_conta1dplyg" t="F"/>
+<Call c="11" l="36" n="fe_conta1update" t="F"/>
+<Call c="10" l="42" n="fe_conta1dplyg" t="F"/>
+<Call c="11" l="52" n="fe_conta1remove" t="F"/>
+<Call c="10" l="60" n="fe_conta1dplyg" t="F"/>
+<Call c="10" l="62" n="rep_conta" t="F"/>
+<Call c="10" l="64" n="rep_conta2" t="F"/>
+</Fct>
+<Fct c="10" el="1456" l="1400" n="fe_conta1remove()" t="F" v="pub"/>
+<Fct c="10" el="1871" l="1647" n="villac02val()" t="F" v="pub">
+<Call c="7" l="1768" n="niif233row" t="F"/>
+<Call c="9" l="1780" n="niif233row" t="F"/>
+<Call c="9" l="1792" n="niif233row" t="F"/>
+<Call c="9" l="1816" n="niif233row" t="F"/>
+</Fct>
+<Fct c="10" el="1398" l="740" n="fe_conta1update()" t="F" v="pub">
+<Call c="35" l="818" n="villac02val" t="F"/>
+<Call c="33" l="846" n="villac06val" t="F"/>
+<Call c="36" l="873" n="villac02val" t="F"/>
+<Call c="34" l="901" n="villac06val" t="F"/>
+<Call c="35" l="927" n="villac02val" t="F"/>
+<Call c="33" l="955" n="villac06val" t="F"/>
+<Call c="35" l="982" n="villac02val" t="F"/>
+<Call c="33" l="1010" n="villac06val" t="F"/>
+<Call c="37" l="1037" n="villac02val" t="F"/>
+<Call c="35" l="1065" n="villac06val" t="F"/>
+<Call c="35" l="1092" n="villac02val" t="F"/>
+<Call c="33" l="1120" n="villac06val" t="F"/>
+<Call c="36" l="1147" n="villac02val" t="F"/>
+<Call c="34" l="1175" n="villac06val" t="F"/>
+<Call c="37" l="1204" n="villac02val" t="F"/>
+<Call c="35" l="1232" n="villac06val" t="F"/>
+<Call c="36" l="1260" n="villac02val" t="F"/>
+<Call c="34" l="1288" n="villac06val" t="F"/>
+</Fct>
+</File>
+<File m="fe_contable3" n="fe_contable3.4gl" ts="20200218113115678">
+<Ref t="fe_globales.4gl"/>
+<Fct c="10" el="828" l="817" n="fe_conta3showcurr(rownum INTEGER,maxnum INTEGER)" t="F" v="pub">
+<Call c="7" l="827" n="fe_conta3dplyg" t="F"/>
+</Fct>
+<Fct c="10" el="88" l="69" n="fe_conta3dplyg()" t="F" v="pub"/>
+<Fct c="10" el="467" l="90" n="fe_conta3add()" t="F" v="pub">
+<Call c="10" l="103" n="fe_serviciosval" p="fe_tarifas.4gl" t="F"/>
+<Call c="12" l="165" n="fe_prefijosval" p="fe_servicios.4gl" t="F"/>
+<Call c="8" l="214" n="FGL_WINMESSAGE" t="F"/>
+<Call c="8" l="237" n="FGL_WINMESSAGE" t="F"/>
+<Call c="8" l="261" n="FGL_WINMESSAGE" t="F"/>
+<Call c="8" l="283" n="FGL_WINMESSAGE" t="F"/>
+<Call c="8" l="304" n="FGL_WINMESSAGE" t="F"/>
+<Call c="8" l="326" n="FGL_WINMESSAGE" t="F"/>
+<Call c="8" l="348" n="FGL_WINMESSAGE" t="F"/>
+<Call c="8" l="369" n="FGL_WINMESSAGE" t="F"/>
+<Call c="8" l="390" n="FGL_WINMESSAGE" t="F"/>
+</Fct>
+<Fct c="10" el="815" l="802" n="fe_conta3getcurr(tpcodigo INTEGER)" t="F" v="pub"/>
+<Fct c="10" el="67" l="2" n="fe_conta3main()" t="F" v="pub">
+<Call c="10" l="11" n="fe_conta3add" t="F"/>
+<Call c="10" l="18" n="fe_conta3dplyg" t="F"/>
+<Call c="10" l="20" n="fe_conta3query" t="F"/>
+<Call c="10" l="26" n="fe_conta3dplyg" t="F"/>
+<Call c="11" l="36" n="fe_conta3update" t="F"/>
+<Call c="10" l="42" n="fe_conta3dplyg" t="F"/>
+<Call c="11" l="52" n="fe_conta3remove" t="F"/>
+<Call c="10" l="60" n="fe_conta3dplyg" t="F"/>
+</Fct>
+<Fct c="10" el="800" l="750" n="fe_conta3remove()" t="F" v="pub"/>
+<Fct c="10" el="748" l="469" n="fe_conta3update()" t="F" v="pub">
+<Call c="8" l="494" n="FGL_WINMESSAGE" t="F"/>
+<Call c="8" l="515" n="FGL_WINMESSAGE" t="F"/>
+<Call c="8" l="537" n="FGL_WINMESSAGE" t="F"/>
+<Call c="8" l="560" n="FGL_WINMESSAGE" t="F"/>
+<Call c="8" l="582" n="FGL_WINMESSAGE" t="F"/>
+<Call c="9" l="603" n="FGL_WINMESSAGE" t="F"/>
+<Call c="8" l="624" n="FGL_WINMESSAGE" t="F"/>
+<Call c="8" l="645" n="FGL_WINMESSAGE" t="F"/>
+<Call c="8" l="666" n="FGL_WINMESSAGE" t="F"/>
+</Fct>
+<Fct c="10" el="948" l="830" n="fe_conta3query(exist SMALLINT)" t="F" v="pub">
+<Call c="8" l="873" n="fe_conta3getcurr" t="F"/>
+<Call c="8" l="874" n="fe_conta3showcurr" t="F"/>
+<Call c="9" l="897" n="fe_conta3getcurr" t="F"/>
+<Call c="9" l="898" n="fe_conta3showcurr" t="F"/>
+<Call c="9" l="908" n="fe_conta3getcurr" t="F"/>
+<Call c="9" l="909" n="fe_conta3showcurr" t="F"/>
+<Call c="11" l="915" n="fe_conta3update" t="F"/>
+<Call c="11" l="919" n="fe_conta3getcurr" t="F"/>
+<Call c="11" l="920" n="fe_conta3showcurr" t="F"/>
+<Call c="11" l="928" n="fe_conta3remove" t="F"/>
+<Call c="12" l="932" n="fe_conta3showcurr" t="F"/>
+</Fct>
+</File>
+<File m="fe_empresa" n="fe_empresa.4gl" ts="20210304104810540">
+<Ref t="fe_globales.4gl"/>
+<Fct c="10" el="671" l="662" n="corregir_nit(mnit CHAR(14))" t="F" v="pub"/>
+<Fct c="10" el="660" l="616" n="digver()" t="F" v="pub">
+<Call c="12" l="635" n="corregir_nit" t="F"/>
+</Fct>
+<Fct c="10" el="613" l="610" n="empgetcurr()" t="F" v="pub"/>
+<Fct c="10" el="608" l="71" n="empupdate()" t="F" v="pub">
+<Call c="9" l="91" n="digver" t="F"/>
+<Call c="8" l="299" n="FGL_WINMESSAGE" t="F"/>
+<Call c="8" l="320" n="FGL_WINMESSAGE" t="F"/>
+<Call c="8" l="341" n="FGL_WINMESSAGE" t="F"/>
+<Call c="8" l="362" n="FGL_WINMESSAGE" t="F"/>
+<Call c="8" l="383" n="FGL_WINMESSAGE" t="F"/>
+<Call c="8" l="404" n="FGL_WINMESSAGE" t="F"/>
+<Call c="8" l="425" n="FGL_WINMESSAGE" t="F"/>
+<Call c="8" l="446" n="FGL_WINMESSAGE" t="F"/>
+<Call c="8" l="467" n="FGL_WINMESSAGE" t="F"/>
+<Call c="8" l="488" n="FGL_WINMESSAGE" t="F"/>
+</Fct>
+<Fct c="11" el="68" l="35" n="empmain()" t="F" v="pub">
+<Call c="7" l="55" n="empgetcurr" t="F"/>
+<Call c="9" l="60" n="opcion" p="fe_main.4gl" t="F"/>
+<Call c="11" l="62" n="empupdate" t="F"/>
+</Fct>
+</File>
+<File m="fe_estados" n="fe_estados.4gl" ts="20200823125024472">
+<Ref t="fe_globales.4gl"/>
+<Fct c="10" el="478" l="430" n="edofactremove()" t="F" v="pub"/>
+<Fct c="10" el="429" l="328" n="edofactupdate()" t="F" v="pub"/>
+<Fct c="10" el="327" l="201" n="edofactquery(exist INTEGER)" t="F" v="pub">
+<Call c="8" l="239" n="edofactgetcurr" t="F"/>
+<Call c="8" l="240" n="edofactshowcurr" t="F"/>
+<Call c="9" l="262" n="edofactgetcurr" t="F"/>
+<Call c="9" l="263" n="edofactshowcurr" t="F"/>
+<Call c="9" l="273" n="edofactgetcurr" t="F"/>
+<Call c="9" l="274" n="edofactshowcurr" t="F"/>
+<Call c="11" l="284" n="edofactupdate" t="F"/>
+<Call c="11" l="291" n="edofactgetcurr" t="F"/>
+<Call c="11" l="292" n="edofactshowcurr" t="F"/>
+<Call c="11" l="304" n="edofactremove" t="F"/>
+<Call c="12" l="311" n="edofactshowcurr" t="F"/>
+</Fct>
+<Fct c="10" el="199" l="65" n="edofactadd()" t="F" v="pub"/>
+<Fct c="10" el="64" l="62" n="fe_estadosdplyg()" t="F" v="pub"/>
+<Fct c="10" el="61" l="51" n="edofactshowcurr(rownum INTEGER,maxnum INTEGER)" t="F" v="pub">
+<Call c="6" l="60" n="fe_estadosdplyg" t="F"/>
+</Fct>
+<Fct c="10" el="50" l="45" n="edofactgetcurr(tpcodigo unknown)" t="F" v="pub"/>
+<Fct c="10" el="44" l="3" n="edofact_main()" t="F" v="pub">
+<Call c="10" l="21" n="edofactadd" t="F"/>
+<Call c="10" l="33" n="edofactquery" t="F"/>
+</Fct>
+</File>
+<File m="fe_estados_fac" n="fe_estados_fac.4gl" ts="20210304104810545">
+<Ref t="fe_globales.4gl"/>
+<Fct c="10" el="208" l="157" n="histfacdplyg()" t="F" v="pub"/>
+<Fct c="10" el="155" l="144" n="hisfactshowcurr(rownum INTEGER,maxnum INTEGER)" t="F" v="pub">
+<Call c="7" l="154" n="histfacdplyg" t="F"/>
+</Fct>
+<Fct c="10" el="142" l="131" n="hisfactgetcurr(tpprefijo unknown,tpnumfac unknown)" t="F" v="pub"/>
+<Fct c="10" el="129" l="4" n="con_hisfact()" t="F" v="pub">
+<Call c="8" l="73" n="hisfactgetcurr" t="F"/>
+<Call c="8" l="74" n="hisfactshowcurr" t="F"/>
+<Call c="9" l="95" n="hisfactgetcurr" t="F"/>
+<Call c="9" l="96" n="hisfactshowcurr" t="F"/>
+<Call c="9" l="105" n="hisfactgetcurr" t="F"/>
+<Call c="9" l="106" n="hisfactshowcurr" t="F"/>
+</Fct>
+</File>
+<File m="fe_factura" n="fe_factura.4gl" ts="20210304104810740">
+<Ref t="fe_globales.4gl"/>
+<Fct c="10" el="7015" l="6927" n="fe_factura_mremove()" t="F" v="pub">
+<Call c="9" l="6936" n="FGL_WINMESSAGE" t="F"/>
+</Fct>
+<Fct c="10" el="6925" l="6875" n="reversa_comp_rechazo()" t="F" v="pub">
+<Call c="9" l="6896" n="FGL_WINMESSAGE" t="F"/>
+<Call c="9" l="6906" n="FGL_WINMESSAGE" t="F"/>
+<Call c="9" l="6916" n="FGL_WINMESSAGE" t="F"/>
+<Call c="8" l="6923" n="gen_comp_factura_n_rever" p="fe_factura_otr.4gl" t="F"/>
+<Call c="8" l="6924" n="gen_comp_factura_s_n_rever" p="fe_factura_otr.4gl" t="F"/>
+</Fct>
+<Fct c="10" el="6873" l="6788" n="genera_comprobante()" t="F" v="pub">
+<Call c="9" l="6809" n="consulta_estado_documento_2" t="F"/>
+<Call c="12" l="6831" n="gen_comp_factura" p="fe_factura_otr.4gl" t="F"/>
+<Call c="12" l="6836" n="ini_mensaje_espera" p="fe_comgen.4gl" t="F"/>
+<Call c="12" l="6837" n="niif141act" p="fe_factura_otr.4gl" t="F"/>
+<Call c="12" l="6838" n="fin_mensaje_espera" p="fe_comgen.4gl" t="F"/>
+<Call c="12" l="6839" n="gen_comp_factura_s" p="fe_factura_otr.4gl" t="F"/>
+<Call c="12" l="6844" n="ini_mensaje_espera" p="fe_comgen.4gl" t="F"/>
+<Call c="12" l="6845" n="niif141act" p="fe_factura_otr.4gl" t="F"/>
+<Call c="12" l="6846" n="fin_mensaje_espera" p="fe_comgen.4gl" t="F"/>
+<Call c="12" l="6847" n="gen_comp_factura_a" p="fe_factura_otr.4gl" t="F"/>
+<Call c="12" l="6852" n="ini_mensaje_espera" p="fe_comgen.4gl" t="F"/>
+<Call c="12" l="6853" n="niif141act" p="fe_factura_otr.4gl" t="F"/>
+<Call c="12" l="6854" n="fin_mensaje_espera" p="fe_comgen.4gl" t="F"/>
+<Call c="12" l="6855" n="gen_comp_factura_b" p="fe_factura_otr.4gl" t="F"/>
+<Call c="12" l="6860" n="ini_mensaje_espera" p="fe_comgen.4gl" t="F"/>
+<Call c="12" l="6861" n="niif141act" p="fe_factura_otr.4gl" t="F"/>
+<Call c="12" l="6862" n="fin_mensaje_espera" p="fe_comgen.4gl" t="F"/>
+<Call c="11" l="6865" n="FGL_WINMESSAGE" t="F"/>
+<Call c="10" l="6870" n="FGL_WINMESSAGE" t="F"/>
+</Fct>
+<Fct c="10" el="6787" l="6737" n="habilita_genera_comprobante()" t="F" v="pub">
+<Call c="10" l="6768" n="FGL_WINMESSAGE" t="F"/>
+<Call c="10" l="6776" n="FGL_WINMESSAGE" t="F"/>
+<Call c="10" l="6785" n="FGL_WINMESSAGE" t="F"/>
+</Fct>
+<Fct c="10" el="6736" l="6697" n="aprueba_masivo()" t="F" v="pub">
+<Call c="9" l="6733" n="aprueba_factu" t="F"/>
+</Fct>
+<Fct c="10" el="6695" l="6611" n="nucleorow(currrow INTEGER,prevrow INTEGER,pagenum INTEGER)" t="F" v="pub"/>
+<Fct c="10" el="6609" l="6505" n="nucleo(mcedtra unknown)" t="F" v="pub">
+<Call c="8" l="6522" n="FGL_WINMESSAGE" t="F"/>
+<Call c="7" l="6544" n="nucleorow" t="F"/>
+<Call c="9" l="6556" n="nucleorow" t="F"/>
+<Call c="9" l="6568" n="nucleorow" t="F"/>
+<Call c="9" l="6592" n="nucleorow" t="F"/>
+</Fct>
+<Fct c="10" el="6503" l="6498" n="facterdplyg()" t="F" v="pub"/>
+<Fct c="8" el="6495" l="6386" n="rprec_xlspp()" t="R" v="pub"/>
+<Fct c="10" el="6383" l="6313" n="rep_facturas_pagoo()" t="F" v="pub">
+<Call c="7" l="6333" n="confecr" p="fe_main.4gl" t="F"/>
+<Call c="16" l="6353" n="configureOutput_excel" p="fe_main.4gl" t="F"/>
+<Call c="16" l="6355" n="rprec_xlspp" t="R"/>
+<Call c="23" l="6364" n="rprec_xlspp" t="R"/>
+<Call c="23" l="6374" n="rprec_xlspp" t="R"/>
+<Call c="16" l="6377" n="rprec_xlspp" t="R"/>
+</Fct>
+<Fct c="8" el="6309" l="6242" n="rprec_xls_cont()" t="R" v="pub"/>
+<Fct c="10" el="6240" l="6181" n="rep_facturas_contab()" t="F" v="pub">
+<Call c="7" l="6201" n="confecr" p="fe_main.4gl" t="F"/>
+<Call c="15" l="6207" n="rprec_xls_cont" t="R"/>
+<Call c="21" l="6231" n="rprec_xls_cont" t="R"/>
+<Call c="16" l="6233" n="rprec_xls_cont" t="R"/>
+<Call c="8" l="6239" n="manimp" p="fe_comgen.4gl" t="F"/>
+</Fct>
+<Fct c="10" el="6179" l="6125" n="doccopcon141_niif()" t="F" v="pub"/>
+<Fct c="10" el="6123" l="6033" n="conefvalniif141()" t="F" v="pub">
+<Call c="9" l="6096" n="FGL_WINMESSAGE" t="F"/>
+</Fct>
+<Fct c="8" el="6031" l="5948" n="rprec_xlsp()" t="R" v="pub"/>
+<Fct c="10" el="5945" l="5894" n="rep_facturas_pago()" t="F" v="pub">
+<Call c="7" l="5913" n="confecr" p="fe_main.4gl" t="F"/>
+<Call c="16" l="5926" n="configureOutput_excel" p="fe_main.4gl" t="F"/>
+<Call c="16" l="5928" n="rprec_xlsp" t="R"/>
+<Call c="22" l="5937" n="rprec_xlsp" t="R"/>
+<Call c="16" l="5939" n="rprec_xlsp" t="R"/>
+</Fct>
+<Fct c="8" el="5891" l="5817" n="rprec_xls_est()" t="R" v="pub"/>
+<Fct c="10" el="5815" l="5728" n="rep_facturas_estados()" t="F" v="pub">
+<Call c="7" l="5748" n="confecr" p="fe_main.4gl" t="F"/>
+<Call c="17" l="5769" n="rprec_xls_est" t="R"/>
+<Call c="18" l="5771" n="configureOutput_excel" p="fe_main.4gl" t="F"/>
+<Call c="17" l="5772" n="rprec_xls_est" t="R"/>
+<Call c="18" l="5789" n="nomredondea" t="F"/>
+<Call c="18" l="5790" n="nomredondea" t="F"/>
+<Call c="18" l="5791" n="nomredondea" t="F"/>
+<Call c="21" l="5805" n="rprec_xls_est" t="R"/>
+<Call c="16" l="5807" n="rprec_xls_est" t="R"/>
+<Call c="9" l="5813" n="impsn" t="F"/>
+</Fct>
+<Fct c="8" el="5724" l="5657" n="nrprec_xls()" t="R" v="pub"/>
+<Fct c="10" el="5654" l="5614" n="rep_facturas_nit()" t="F" v="pub">
+<Call c="7" l="5626" n="confecr" p="fe_main.4gl" t="F"/>
+<Call c="7" l="5633" n="fe_nit" p="fe_main.4gl" t="F"/>
+<Call c="16" l="5639" n="configureOutput_excel" p="fe_main.4gl" t="F"/>
+<Call c="15" l="5640" n="nrprec_xls" t="R"/>
+<Call c="26" l="5646" n="nrprec_xls" t="R"/>
+<Call c="16" l="5648" n="nrprec_xls" t="R"/>
+</Fct>
+<Fct c="8" el="5611" l="5559" n="rprec_xls()" t="R" v="pub"/>
+<Fct c="8" el="5557" l="5508" n="rprec_xls_ant()" t="R" v="pub"/>
+<Fct c="10" el="5506" l="5424" n="rep_facturas()" t="F" v="pub">
+<Call c="7" l="5444" n="confecr" p="fe_main.4gl" t="F"/>
+<Call c="17" l="5457" n="rprec_xls" t="R"/>
+<Call c="18" l="5462" n="configureOutput_excel" p="fe_main.4gl" t="F"/>
+<Call c="17" l="5463" n="rprec_xls" t="R"/>
+<Call c="18" l="5480" n="nomredondea" t="F"/>
+<Call c="18" l="5481" n="nomredondea" t="F"/>
+<Call c="18" l="5482" n="nomredondea" t="F"/>
+<Call c="21" l="5496" n="rprec_xls" t="R"/>
+<Call c="16" l="5498" n="rprec_xls" t="R"/>
+<Call c="7" l="5504" n="impsn" t="F"/>
+</Fct>
+<Fct c="10" el="5422" l="5028" n="factu_terceros()" t="F" v="pub">
+<Call c="10" l="5387" n="nucleo" t="F"/>
+</Fct>
+<Fct c="10" el="5025" l="4942" n="valida_factu()" t="F" v="pub"/>
+<Fct c="8" el="4940" l="4669" n="archifactu(mtot_reg INTEGER)" t="R" v="pub">
+<Call c="8" l="4705" n="letras" t="F"/>
+</Fct>
+<Fct c="10" el="4667" l="4593" n="aprueba_factu(mmtp CHAR(1))" t="F" v="pub">
+<Call c="9" l="4660" n="act_totales_factura" p="fe_factura_otr.4gl" t="F"/>
+<Call c="10" l="4662" n="envio_documento" t="F"/>
+<Call c="10" l="4664" n="envio_documento_2" t="F"/>
+</Fct>
+<Fct c="10" el="4591" l="4567" n="readfile(fn STRING)" t="F" v="pub"/>
+<Fct c="10" el="4565" l="4557" n="showfile(fn STRING)" t="F" v="pub">
+<Call c="13" l="4562" n="readfile" t="F"/>
+</Fct>
+<Fct c="10" el="4555" l="4545" n="nomredondea(valdec DECIMAL(12,2))" t="F" v="pub"/>
+<Fct c="10" el="4543" l="4507" n="impsn(ubicacion CHAR(100))" t="F" v="pub">
+<Call c="6" l="4520" n="showfile" t="F"/>
+</Fct>
+<Fct c="10" el="4505" l="4456" n="fe_categoriasrow(currrow INTEGER,prevrow INTEGER,pagenum INTEGER)" t="F" v="pub"/>
+<Fct c="10" el="4455" l="4362" n="fe_categoriasval()" t="F" v="pub">
+<Call c="8" l="4375" n="FGL_WINMESSAGE" t="F"/>
+<Call c="7" l="4390" n="fe_categoriasrow" t="F"/>
+<Call c="9" l="4402" n="fe_categoriasrow" t="F"/>
+<Call c="9" l="4414" n="fe_categoriasrow" t="F"/>
+<Call c="9" l="4438" n="fe_categoriasrow" t="F"/>
+</Fct>
+<Fct c="10" el="4360" l="4139" n="letras()" t="F" v="pub"/>
+<Fct c="8" el="4136" l="4003" n="brfactu2(mfe_factura_m RECORD,mfe_factura_d RECORD,mtotfacc unknown,mtotivaa unknown)" t="R" v="pub">
+<Call c="16" l="4099" n="nomredondea" t="F"/>
+<Call c="16" l="4100" n="nomredondea" t="F"/>
+<Call c="16" l="4101" n="nomredondea" t="F"/>
+<Call c="14" l="4111" n="nomredondea" t="F"/>
+<Call c="7" l="4112" n="letras" t="F"/>
+<Call c="21" l="4126" n="nomredondea" t="F"/>
+<Call c="21" l="4129" n="nomredondea" t="F"/>
+</Fct>
+<Fct c="8" el="4001" l="3808" n="brfactu(mfe_factura_m RECORD,mfe_factura_d RECORD,mtotfacc unknown,mtotivaa unknown)" t="R" v="pub">
+<Call c="16" l="3882" n="nomredondea" t="F"/>
+<Call c="16" l="3883" n="nomredondea" t="F"/>
+<Call c="16" l="3884" n="nomredondea" t="F"/>
+<Call c="14" l="3898" n="nomredondea" t="F"/>
+<Call c="7" l="3899" n="letras" t="F"/>
+<Call c="21" l="3915" n="nomredondea" t="F"/>
+<Call c="21" l="3918" n="nomredondea" t="F"/>
+</Fct>
+<Fct c="10" el="3807" l="3678" n="imprime_ordenp()" t="F" v="pub">
+<Call c="9" l="3722" n="FGL_WINMESSAGE" t="F"/>
+<Call c="16" l="3743" n="configureOutputt" p="fe_main.4gl" t="F"/>
+<Call c="15" l="3744" n="brfactu2" t="R"/>
+<Call c="15" l="3746" n="brfactu" t="R"/>
+<Call c="15" l="3767" n="nomredondea" t="F"/>
+<Call c="21" l="3793" n="brfactu2" t="R"/>
+<Call c="21" l="3795" n="brfactu" t="R"/>
+<Call c="15" l="3800" n="brfactu2" t="R"/>
+<Call c="15" l="3802" n="brfactu" t="R"/>
+<Call c="7" l="3805" n="impsn" t="F"/>
+</Fct>
+<Fct c="8" el="3676" l="3536" n="hrfactu(mtotfacc unknown,mtotivaa unknown)" t="R" v="pub">
+<Call c="14" l="3631" n="nomredondea" t="F"/>
+<Call c="14" l="3632" n="nomredondea" t="F"/>
+<Call c="14" l="3633" n="nomredondea" t="F"/>
+<Call c="7" l="3644" n="letras" t="F"/>
+</Fct>
+<Fct c="8" el="3534" l="3415" n="rfactu(mtotfacc unknown,mtotivaa unknown)" t="R" v="pub">
+<Call c="14" l="3508" n="nomredondea" t="F"/>
+<Call c="14" l="3509" n="nomredondea" t="F"/>
+<Call c="14" l="3510" n="nomredondea" t="F"/>
+<Call c="7" l="3527" n="letras" t="F"/>
+</Fct>
+<Fct c="10" el="3414" l="3315" n="imprime_factu()" t="F" v="pub">
+<Call c="9" l="3351" n="FGL_WINMESSAGE" t="F"/>
+<Call c="10" l="3358" n="FGL_WINMESSAGE" t="F"/>
+<Call c="15" l="3368" n="rfactu" t="R"/>
+<Call c="15" l="3371" n="hrfactu_r" p="fe_reportes.4gl" t="R"/>
+<Call c="14" l="3384" n="nomredondea" t="F"/>
+<Call c="20" l="3401" n="rfactu" t="R"/>
+<Call c="20" l="3404" n="hrfactu_r" p="fe_reportes.4gl" t="R"/>
+<Call c="16" l="3408" n="rfactu" t="R"/>
+<Call c="16" l="3411" n="hrfactu_r" p="fe_reportes.4gl" t="R"/>
+<Call c="6" l="3413" n="impsn" t="F"/>
+</Fct>
+<Fct c="10" el="3313" l="3286" n="mvalorfac(y INTEGER)" t="F" v="pub">
+<Call c="32" l="3291" n="nomredondea" t="F"/>
+<Call c="34" l="3296" n="nomredondea" t="F"/>
+</Fct>
+<Fct c="10" el="3285" l="3224" n="fe_factura_mshowview(currrow INTEGER,prevrow INTEGER,pagenum INTEGER)" t="F" v="pub"/>
+<Fct c="10" el="3223" l="3095" n="fe_factura_mview()" t="F" v="pub">
+<Call c="8" l="3122" n="FGL_WINMESSAGE" t="F"/>
+<Call c="7" l="3144" n="fe_factura_mshowview" t="F"/>
+<Call c="9" l="3155" n="fe_factura_mshowview" t="F"/>
+<Call c="9" l="3166" n="fe_factura_mshowview" t="F"/>
+<Call c="9" l="3177" n="fe_factura_mshowview" t="F"/>
+<Call c="9" l="3188" n="fe_factura_mshowview" t="F"/>
+<Call c="9" l="3212" n="fe_factura_mshowview" t="F"/>
+</Fct>
+<Fct c="10" el="3094" l="2925" n="fe_factura_mquery(exist SMALLINT)" t="F" v="pub">
+<Call c="9" l="2944" n="FGL_WINMESSAGE" t="F"/>
+<Call c="8" l="2963" n="fe_factura_mgetcurr" t="F"/>
+<Call c="8" l="2964" n="fe_factura_mshowcurr" t="F"/>
+<Call c="8" l="2968" n="FGL_WINMESSAGE" t="F"/>
+<Call c="9" l="2979" n="fe_factura_mgetcurr" t="F"/>
+<Call c="9" l="2980" n="fe_factura_mshowcurr" t="F"/>
+<Call c="9" l="2985" n="fe_factura_mgetcurr" t="F"/>
+<Call c="9" l="2986" n="fe_factura_mshowcurr" t="F"/>
+<Call c="9" l="2996" n="fe_factura_mgetcurr" t="F"/>
+<Call c="9" l="2997" n="fe_factura_mshowcurr" t="F"/>
+<Call c="9" l="3007" n="fe_factura_mgetcurr" t="F"/>
+<Call c="9" l="3008" n="fe_factura_mshowcurr" t="F"/>
+<Call c="9" l="3011" n="opcion" p="fe_main.4gl" t="F"/>
+<Call c="11" l="3016" n="fe_factura_mview" t="F"/>
+<Call c="11" l="3017" n="fe_factura_mdetail" t="F"/>
+<Call c="9" l="3022" n="opcion" p="fe_main.4gl" t="F"/>
+<Call c="11" l="3028" n="fe_factura_mupdate" t="F"/>
+<Call c="11" l="3032" n="fe_factura_mgetcurr" t="F"/>
+<Call c="11" l="3033" n="fe_factura_mshowcurr" t="F"/>
+<Call c="9" l="3039" n="opcion" p="fe_main.4gl" t="F"/>
+<Call c="11" l="3045" n="fe_factura_mremove" t="F"/>
+<Call c="12" l="3052" n="fe_factura_mshowcurr" t="F"/>
+<Call c="9" l="3059" n="opcion" p="fe_main.4gl" t="F"/>
+<Call c="14" l="3067" n="aprueba_factu" t="F"/>
+<Call c="12" l="3069" n="FGL_WINMESSAGE" t="F"/>
+<Call c="11" l="3077" n="fe_factura_mshowcurr" t="F"/>
+</Fct>
+<Fct c="10" el="2924" l="2915" n="fe_factura_mshowcurr(rownum INTEGER,maxnum INTEGER)" t="F" v="pub">
+<Call c="7" l="2923" n="fe_factura_mdetail" t="F"/>
+</Fct>
+<Fct c="10" el="2914" l="2895" n="fe_factura_mgetcurr(tpprefijo unknown,tpdocumento unknown)" t="F" v="pub">
+<Call c="7" l="2913" n="fe_factura_mgetdetail" t="F"/>
+</Fct>
+<Fct c="10" el="2893" l="1548" n="fe_factura_madd()" t="F" v="pub">
+<Call c="7" l="1562" n="fe_factura_minitta" t="F"/>
+<Call c="10" l="1581" n="fe_prefijosval" p="fe_servicios.4gl" t="F"/>
+<Call c="12" l="1613" n="fe_prefijosval" p="fe_servicios.4gl" t="F"/>
+<Call c="10" l="1672" n="FGL_WINMESSAGE" t="F"/>
+<Call c="10" l="1677" n="FGL_WINMESSAGE" t="F"/>
+<Call c="11" l="1681" n="FGL_WINMESSAGE" t="F"/>
+<Call c="11" l="1685" n="FGL_WINMESSAGE" t="F"/>
+<Call c="11" l="1692" n="FGL_WINMESSAGE" t="F"/>
+<Call c="14" l="1698" n="FGL_WINMESSAGE" t="F"/>
+<Call c="11" l="1719" n="FGL_WINMESSAGE" t="F"/>
+<Call c="11" l="1728" n="FGL_WINMESSAGE" t="F"/>
+<Call c="15" l="1767" n="FGL_WINMESSAGE" t="F"/>
+<Call c="15" l="1776" n="FGL_WINMESSAGE" t="F"/>
+<Call c="11" l="1843" n="FGL_WINMESSAGE" t="F"/>
+<Call c="13" l="1852" n="FGL_WINMESSAGE" t="F"/>
+<Call c="13" l="1864" n="FGL_WINMESSAGE" t="F"/>
+<Call c="12" l="1874" n="FGL_WINMESSAGE" t="F"/>
+<Call c="12" l="1883" n="FGL_WINMESSAGE" t="F"/>
+<Call c="12" l="1889" n="FGL_WINMESSAGE" t="F"/>
+<Call c="15" l="1903" n="FGL_WINMESSAGE" t="F"/>
+<Call c="15" l="1912" n="FGL_WINMESSAGE" t="F"/>
+<Call c="10" l="1922" n="FGL_WINMESSAGE" t="F"/>
+<Call c="10" l="1936" n="FGL_WINMESSAGE" t="F"/>
+<Call c="10" l="1953" n="FGL_WINMESSAGE" t="F"/>
+<Call c="10" l="1960" n="FGL_WINMESSAGE" t="F"/>
+<Call c="10" l="1967" n="FGL_WINMESSAGE" t="F"/>
+<Call c="11" l="1974" n="FGL_WINMESSAGE" t="F"/>
+<Call c="10" l="1980" n="FGL_WINMESSAGE" t="F"/>
+<Call c="10" l="1985" n="FGL_WINMESSAGE" t="F"/>
+<Call c="11" l="1989" n="FGL_WINMESSAGE" t="F"/>
+<Call c="10" l="1995" n="FGL_WINMESSAGE" t="F"/>
+<Call c="10" l="1999" n="FGL_WINMESSAGE" t="F"/>
+<Call c="10" l="2003" n="FGL_WINMESSAGE" t="F"/>
+<Call c="10" l="2007" n="FGL_WINMESSAGE" t="F"/>
+<Call c="11" l="2012" n="FGL_WINMESSAGE" t="F"/>
+<Call c="10" l="2021" n="FGL_WINMESSAGE" t="F"/>
+<Call c="10" l="2025" n="FGL_WINMESSAGE" t="F"/>
+<Call c="10" l="2029" n="FGL_WINMESSAGE" t="F"/>
+<Call c="10" l="2040" n="FGL_WINMESSAGE" t="F"/>
+<Call c="10" l="2044" n="FGL_WINMESSAGE" t="F"/>
+<Call c="10" l="2048" n="FGL_WINMESSAGE" t="F"/>
+<Call c="10" l="2052" n="FGL_WINMESSAGE" t="F"/>
+<Call c="10" l="2064" n="FGL_WINMESSAGE" t="F"/>
+<Call c="10" l="2068" n="FGL_WINMESSAGE" t="F"/>
+<Call c="10" l="2072" n="FGL_WINMESSAGE" t="F"/>
+<Call c="10" l="2076" n="FGL_WINMESSAGE" t="F"/>
+<Call c="8" l="2082" n="FGL_WINMESSAGE" t="F"/>
+<Call c="8" l="2090" n="fe_factura_minitta" t="F"/>
+<Call c="10" l="2101" n="fe_serviciosval2" p="fe_tarifas.4gl" t="F"/>
+<Call c="11" l="2107" n="FGL_WINMESSAGE" t="F"/>
+<Call c="11" l="2113" n="FGL_WINMESSAGE" t="F"/>
+<Call c="13" l="2124" n="FGL_WINMESSAGE" t="F"/>
+<Call c="13" l="2137" n="FGL_WINMESSAGE" t="F"/>
+<Call c="12" l="2146" n="FGL_WINMESSAGE" t="F"/>
+<Call c="12" l="2152" n="FGL_WINMESSAGE" t="F"/>
+<Call c="13" l="2203" n="FGL_WINMESSAGE" t="F"/>
+<Call c="13" l="2210" n="FGL_WINMESSAGE" t="F"/>
+<Call c="17" l="2395" n="FGL_WINMESSAGE" t="F"/>
+<Call c="17" l="2400" n="FGL_WINMESSAGE" t="F"/>
+<Call c="11" l="2469" n="FGL_WINMESSAGE" t="F"/>
+<Call c="10" l="2479" n="fe_sub_serviciosval" p="fe_tarifas.4gl" t="F"/>
+<Call c="11" l="2485" n="FGL_WINMESSAGE" t="F"/>
+<Call c="11" l="2491" n="FGL_WINMESSAGE" t="F"/>
+<Call c="12" l="2503" n="FGL_WINMESSAGE" t="F"/>
+<Call c="12" l="2509" n="FGL_WINMESSAGE" t="F"/>
+<Call c="10" l="2524" n="fe_beneficiosval" p="fe_beneficios.4gl" t="F"/>
+<Call c="11" l="2530" n="FGL_WINMESSAGE" t="F"/>
+<Call c="11" l="2536" n="FGL_WINMESSAGE" t="F"/>
+<Call c="12" l="2547" n="FGL_WINMESSAGE" t="F"/>
+<Call c="12" l="2553" n="FGL_WINMESSAGE" t="F"/>
+<Call c="15" l="2575" n="fe_categoriasval" t="F"/>
+<Call c="17" l="2581" n="FGL_WINMESSAGE" t="F"/>
+<Call c="17" l="2592" n="FGL_WINMESSAGE" t="F"/>
+<Call c="12" l="2621" n="FGL_WINMESSAGE" t="F"/>
+<Call c="14" l="2633" n="FGL_WINMESSAGE" t="F"/>
+<Call c="14" l="2656" n="FGL_WINMESSAGE" t="F"/>
+<Call c="10" l="2675" n="FGL_WINMESSAGE" t="F"/>
+<Call c="10" l="2691" n="FGL_WINMESSAGE" t="F"/>
+<Call c="11" l="2701" n="FGL_WINMESSAGE" t="F"/>
+<Call c="9" l="2710" n="mvalorfac" t="F"/>
+<Call c="10" l="2722" n="factu_terceros" t="F"/>
+<Call c="11" l="2751" n="conefvalniif141" t="F"/>
+<Call c="11" l="2772" n="FGL_WINMESSAGE" t="F"/>
+<Call c="13" l="2794" n="FGL_WINMESSAGE" t="F"/>
+<Call c="8" l="2807" n="FGL_WINMESSAGE" t="F"/>
+<Call c="8" l="2815" n="fe_factura_minitta" t="F"/>
+<Call c="8" l="2834" n="fe_factura_mrownull" t="F"/>
+<Call c="8" l="2879" n="fe_factura_mrownull" t="F"/>
+<Call c="7" l="2885" n="FGL_WINMESSAGE" t="F"/>
+<Call c="7" l="2889" n="FGL_WINMESSAGE" t="F"/>
+</Fct>
+<Fct c="10" el="1546" l="250" n="fe_factura_mupdate()" t="F" v="pub">
+<Call c="7" l="261" n="fe_factura_minitta" t="F"/>
+<Call c="8" l="266" n="fe_factura_mrownull" t="F"/>
+<Call c="8" l="282" n="FGL_WINMESSAGE" t="F"/>
+<Call c="8" l="290" n="FGL_WINMESSAGE" t="F"/>
+<Call c="14" l="304" n="FGL_WINMESSAGE" t="F"/>
+<Call c="11" l="329" n="FGL_WINMESSAGE" t="F"/>
+<Call c="11" l="341" n="FGL_WINMESSAGE" t="F"/>
+<Call c="15" l="382" n="FGL_WINMESSAGE" t="F"/>
+<Call c="15" l="391" n="FGL_WINMESSAGE" t="F"/>
+<Call c="11" l="444" n="FGL_WINMESSAGE" t="F"/>
+<Call c="14" l="450" n="FGL_WINMESSAGE" t="F"/>
+<Call c="11" l="471" n="FGL_WINMESSAGE" t="F"/>
+<Call c="11" l="481" n="FGL_WINMESSAGE" t="F"/>
+<Call c="15" l="520" n="FGL_WINMESSAGE" t="F"/>
+<Call c="15" l="529" n="FGL_WINMESSAGE" t="F"/>
+<Call c="11" l="583" n="FGL_WINMESSAGE" t="F"/>
+<Call c="13" l="592" n="FGL_WINMESSAGE" t="F"/>
+<Call c="13" l="604" n="FGL_WINMESSAGE" t="F"/>
+<Call c="12" l="614" n="FGL_WINMESSAGE" t="F"/>
+<Call c="12" l="623" n="FGL_WINMESSAGE" t="F"/>
+<Call c="12" l="629" n="FGL_WINMESSAGE" t="F"/>
+<Call c="15" l="643" n="FGL_WINMESSAGE" t="F"/>
+<Call c="15" l="652" n="FGL_WINMESSAGE" t="F"/>
+<Call c="10" l="662" n="FGL_WINMESSAGE" t="F"/>
+<Call c="10" l="673" n="FGL_WINMESSAGE" t="F"/>
+<Call c="10" l="690" n="FGL_WINMESSAGE" t="F"/>
+<Call c="10" l="697" n="FGL_WINMESSAGE" t="F"/>
+<Call c="10" l="704" n="FGL_WINMESSAGE" t="F"/>
+<Call c="11" l="711" n="FGL_WINMESSAGE" t="F"/>
+<Call c="10" l="717" n="FGL_WINMESSAGE" t="F"/>
+<Call c="10" l="722" n="FGL_WINMESSAGE" t="F"/>
+<Call c="11" l="726" n="FGL_WINMESSAGE" t="F"/>
+<Call c="10" l="732" n="FGL_WINMESSAGE" t="F"/>
+<Call c="10" l="736" n="FGL_WINMESSAGE" t="F"/>
+<Call c="10" l="740" n="FGL_WINMESSAGE" t="F"/>
+<Call c="10" l="744" n="FGL_WINMESSAGE" t="F"/>
+<Call c="11" l="749" n="FGL_WINMESSAGE" t="F"/>
+<Call c="10" l="754" n="FGL_WINMESSAGE" t="F"/>
+<Call c="10" l="758" n="FGL_WINMESSAGE" t="F"/>
+<Call c="10" l="768" n="FGL_WINMESSAGE" t="F"/>
+<Call c="10" l="772" n="FGL_WINMESSAGE" t="F"/>
+<Call c="10" l="776" n="FGL_WINMESSAGE" t="F"/>
+<Call c="10" l="780" n="FGL_WINMESSAGE" t="F"/>
+<Call c="10" l="784" n="FGL_WINMESSAGE" t="F"/>
+<Call c="10" l="788" n="FGL_WINMESSAGE" t="F"/>
+<Call c="10" l="792" n="FGL_WINMESSAGE" t="F"/>
+<Call c="10" l="796" n="FGL_WINMESSAGE" t="F"/>
+<Call c="8" l="803" n="FGL_WINMESSAGE" t="F"/>
+<Call c="8" l="805" n="fe_factura_minitta" t="F"/>
+<Call c="10" l="822" n="fe_serviciosval2" p="fe_tarifas.4gl" t="F"/>
+<Call c="11" l="828" n="FGL_WINMESSAGE" t="F"/>
+<Call c="11" l="834" n="FGL_WINMESSAGE" t="F"/>
+<Call c="13" l="846" n="FGL_WINMESSAGE" t="F"/>
+<Call c="12" l="855" n="FGL_WINMESSAGE" t="F"/>
+<Call c="12" l="861" n="FGL_WINMESSAGE" t="F"/>
+<Call c="13" l="913" n="FGL_WINMESSAGE" t="F"/>
+<Call c="13" l="920" n="FGL_WINMESSAGE" t="F"/>
+<Call c="17" l="1058" n="FGL_WINMESSAGE" t="F"/>
+<Call c="17" l="1063" n="FGL_WINMESSAGE" t="F"/>
+<Call c="11" l="1126" n="FGL_WINMESSAGE" t="F"/>
+<Call c="10" l="1137" n="fe_sub_serviciosval" p="fe_tarifas.4gl" t="F"/>
+<Call c="11" l="1144" n="FGL_WINMESSAGE" t="F"/>
+<Call c="11" l="1150" n="FGL_WINMESSAGE" t="F"/>
+<Call c="12" l="1161" n="FGL_WINMESSAGE" t="F"/>
+<Call c="12" l="1167" n="FGL_WINMESSAGE" t="F"/>
+<Call c="10" l="1183" n="fe_beneficiosval" p="fe_beneficios.4gl" t="F"/>
+<Call c="11" l="1189" n="FGL_WINMESSAGE" t="F"/>
+<Call c="11" l="1195" n="FGL_WINMESSAGE" t="F"/>
+<Call c="12" l="1206" n="FGL_WINMESSAGE" t="F"/>
+<Call c="12" l="1212" n="FGL_WINMESSAGE" t="F"/>
+<Call c="12" l="1234" n="fe_categoriasval" t="F"/>
+<Call c="13" l="1240" n="FGL_WINMESSAGE" t="F"/>
+<Call c="14" l="1251" n="FGL_WINMESSAGE" t="F"/>
+<Call c="12" l="1280" n="FGL_WINMESSAGE" t="F"/>
+<Call c="14" l="1292" n="FGL_WINMESSAGE" t="F"/>
+<Call c="14" l="1315" n="FGL_WINMESSAGE" t="F"/>
+<Call c="10" l="1334" n="FGL_WINMESSAGE" t="F"/>
+<Call c="10" l="1343" n="FGL_WINMESSAGE" t="F"/>
+<Call c="11" l="1354" n="FGL_WINMESSAGE" t="F"/>
+<Call c="9" l="1370" n="mvalorfac" t="F"/>
+<Call c="10" l="1382" n="factu_terceros" t="F"/>
+<Call c="11" l="1410" n="conefvalniif141" t="F"/>
+<Call c="11" l="1431" n="FGL_WINMESSAGE" t="F"/>
+<Call c="9" l="1440" n="FGL_WINMESSAGE" t="F"/>
+<Call c="9" l="1442" n="fe_factura_minitta" t="F"/>
+<Call c="10" l="1484" n="fe_factura_mrownull" t="F"/>
+<Call c="9" l="1530" n="fe_factura_mrownull" t="F"/>
+<Call c="8" l="1539" n="fe_factura_mdetail" t="F"/>
+<Call c="8" l="1540" n="FGL_WINMESSAGE" t="F"/>
+<Call c="8" l="1543" n="FGL_WINMESSAGE" t="F"/>
+</Fct>
+<Fct c="10" el="248" l="220" n="fe_factura_mgetdetail()" t="F" v="pub">
+<Call c="7" l="222" n="fe_factura_minitga" t="F"/>
+</Fct>
+<Fct c="10" el="219" l="205" n="fe_factura_mrownull(x SMALLINT)" t="F" v="pub"/>
+<Fct c="10" el="204" l="199" n="fe_factura_mgatota()" t="F" v="pub"/>
+<Fct c="10" el="198" l="193" n="fe_factura_mtatoga()" t="F" v="pub"/>
+<Fct c="10" el="192" l="164" n="fe_factura_mdetail()" t="F" v="pub"/>
+<Fct c="10" el="163" l="158" n="fe_factura_minitta()" t="F" v="pub"/>
+<Fct c="10" el="157" l="152" n="fe_factura_minitga()" t="F" v="pub"/>
+<Fct c="10" el="151" l="50" n="fe_factura_mmain()" t="F" v="pub">
+<Call c="7" l="103" n="fe_factura_minitga" t="F"/>
+<Call c="7" l="104" n="fe_factura_minitta" t="F"/>
+<Call c="9" l="108" n="opcion" p="fe_main.4gl" t="F"/>
+<Call c="10" l="110" n="fe_factura_madd" t="F"/>
+<Call c="10" l="117" n="fe_factura_mdetail" t="F"/>
+<Call c="9" l="121" n="opcion" p="fe_main.4gl" t="F"/>
+<Call c="10" l="123" n="fe_factura_mquery" t="F"/>
+<Call c="10" l="129" n="fe_factura_mdetail" t="F"/>
+<Call c="9" l="133" n="opcion" p="fe_main.4gl" t="F"/>
+<Call c="11" l="136" n="FGL_WINMESSAGE" t="F"/>
+<Call c="11" l="138" n="fe_factura_mview" t="F"/>
+<Call c="11" l="139" n="fe_factura_mdetail" t="F"/>
+<Call c="9" l="145" n="imprime_ordenp" t="F"/>
+</Fct>
+</File>
+<File m="fe_factura_m" n="fe_factura_m.4gl" ts="20210304104810780">
+<Ref t="fe_globales.4gl"/>
+<Fct c="10" el="799" l="282" n="factura_mupdate()" t="F" v="pub">
+<Call c="7" l="289" n="factura_minitta" t="F"/>
+<Call c="8" l="294" n="factura_mrownull" t="F"/>
+<Call c="10" l="320" n="FGL_WINMESSAGE" t="F"/>
+<Call c="11" l="324" n="FGL_WINMESSAGE" t="F"/>
+<Call c="10" l="330" n="FGL_WINMESSAGE" t="F"/>
+<Call c="10" l="334" n="FGL_WINMESSAGE" t="F"/>
+<Call c="8" l="348" n="FGL_WINMESSAGE" t="F"/>
+<Call c="8" l="350" n="factura_minitta" t="F"/>
+<Call c="9" l="736" n="FGL_WINMESSAGE" t="F"/>
+<Call c="9" l="738" n="factura_minitta" t="F"/>
+<Call c="10" l="760" n="factura_mrownull" t="F"/>
+<Call c="9" l="785" n="factura_mrownull" t="F"/>
+<Call c="8" l="791" n="fact_reng_ter_mdetail" t="F"/>
+<Call c="8" l="792" n="FGL_WINMESSAGE" t="F"/>
+<Call c="8" l="795" n="FGL_WINMESSAGE" t="F"/>
+</Fct>
+<Fct c="10" el="280" l="268" n="factura_mrownull(x SMALLINT)" t="F" v="pub"/>
+<Fct c="10" el="266" l="260" n="factura_mdetail()" t="F" v="pub"/>
+<Fct c="10" el="258" l="253" n="factura_minitta()" t="F" v="pub"/>
+<Fct c="10" el="251" l="139" n="fact_reng_ter_mquery(exist INTEGER)" t="F" v="pub">
+<Call c="8" l="178" n="factura_mgetcurr" t="F"/>
+<Call c="8" l="179" n="factura_mshowcurr" t="F"/>
+<Call c="9" l="196" n="factura_mgetcurr" t="F"/>
+<Call c="9" l="197" n="factura_mshowcurr" t="F"/>
+<Call c="9" l="202" n="factura_mgetcurr" t="F"/>
+<Call c="9" l="203" n="factura_mshowcurr" t="F"/>
+<Call c="9" l="213" n="factura_mgetcurr" t="F"/>
+<Call c="9" l="214" n="factura_mshowcurr" t="F"/>
+<Call c="9" l="224" n="factura_mgetcurr" t="F"/>
+<Call c="9" l="225" n="factura_mshowcurr" t="F"/>
+<Call c="11" l="231" n="factura_mupdate" t="F"/>
+<Call c="10" l="235" n="factura_mgetcurr" t="F"/>
+<Call c="10" l="236" n="factura_mshowcurr" t="F"/>
+</Fct>
+<Fct c="10" el="137" l="128" n="factura_mshowcurr(rownum INTEGER,maxnum INTEGER)" t="F" v="pub">
+<Call c="7" l="136" n="fact_reng_ter_mdetail" t="F"/>
+</Fct>
+<Fct c="10" el="126" l="109" n="factura_mgetcurr(tpprefijo unknown,tpdocumento unknown)" t="F" v="pub">
+<Call c="7" l="125" n="factura_mgetdetail" t="F"/>
+</Fct>
+<Fct c="10" el="107" l="91" n="factura_mgetdetail()" t="F" v="pub">
+<Call c="6" l="93" n="factura_reng_terinitga" t="F"/>
+</Fct>
+<Fct c="10" el="89" l="83" n="fact_reng_ter_mdetail()" t="F" v="pub"/>
+<Fct c="10" el="81" l="76" n="factura_reng_terinitga()" t="F" v="pub"/>
+<Fct c="10" el="74" l="27" n="factura_reng_termain()" t="F" v="pub">
+<Call c="9" l="48" n="factura_reng_terinitga" t="F"/>
+<Call c="10" l="62" n="fact_reng_ter_mquery" t="F"/>
+</Fct>
+</File>
+<File m="fe_factura_otr" n="fe_factura_otr.4gl" ts="20210304104810632">
+<Ref t="fe_globales.4gl"/>
+<Fct c="10" el="11218" l="11164" n="nivauxniif1()" t="F" v="pub"/>
+<Fct c="10" el="11163" l="11154" n="ins22genniif141()" t="F" v="pub"/>
+<Fct c="10" el="11153" l="11144" n="ins49genniif141()" t="F" v="pub"/>
+<Fct c="10" el="11143" l="11134" n="ins07genniif141()" t="F" v="pub"/>
+<Fct c="10" el="11133" l="11125" n="ins05genniif141()" t="F" v="pub"/>
+<Fct c="10" el="11124" l="11003" n="ins03genniif141()" t="F" v="pub"/>
+<Fct c="10" el="11002" l="10830" n="mes13genniif141()" t="F" v="pub">
+<Call c="12" l="10839" n="ins03genniif141" t="F"/>
+<Call c="13" l="10844" n="nivauxniif1" t="F"/>
+<Call c="13" l="10850" n="nivauxniif1" t="F"/>
+<Call c="13" l="10856" n="nivauxniif1" t="F"/>
+<Call c="13" l="10862" n="nivauxniif1" t="F"/>
+<Call c="13" l="10868" n="nivauxniif1" t="F"/>
+<Call c="13" l="10874" n="nivauxniif1" t="F"/>
+<Call c="13" l="10880" n="nivauxniif1" t="F"/>
+<Call c="13" l="10887" n="nivauxniif1" t="F"/>
+<Call c="13" l="10893" n="nivauxniif1" t="F"/>
+<Call c="13" l="10899" n="nivauxniif1" t="F"/>
+<Call c="13" l="10905" n="nivauxniif1" t="F"/>
+<Call c="13" l="10911" n="nivauxniif1" t="F"/>
+<Call c="13" l="10917" n="nivauxniif1" t="F"/>
+<Call c="13" l="10923" n="nivauxniif1" t="F"/>
+<Call c="13" l="10934" n="ins05genniif141" t="F"/>
+<Call c="13" l="10951" n="ins07genniif141" t="F"/>
+<Call c="16" l="10971" n="ins49genniif141" t="F"/>
+</Fct>
+<Fct c="10" el="10829" l="10597" n="mes12genniif141()" t="F" v="pub">
+<Call c="12" l="10606" n="ins03genniif141" t="F"/>
+<Call c="13" l="10611" n="nivauxniif1" t="F"/>
+<Call c="13" l="10617" n="nivauxniif1" t="F"/>
+<Call c="13" l="10623" n="nivauxniif1" t="F"/>
+<Call c="13" l="10629" n="nivauxniif1" t="F"/>
+<Call c="13" l="10635" n="nivauxniif1" t="F"/>
+<Call c="13" l="10641" n="nivauxniif1" t="F"/>
+<Call c="13" l="10647" n="nivauxniif1" t="F"/>
+<Call c="13" l="10654" n="nivauxniif1" t="F"/>
+<Call c="13" l="10660" n="nivauxniif1" t="F"/>
+<Call c="13" l="10666" n="nivauxniif1" t="F"/>
+<Call c="13" l="10672" n="nivauxniif1" t="F"/>
+<Call c="13" l="10678" n="nivauxniif1" t="F"/>
+<Call c="13" l="10684" n="nivauxniif1" t="F"/>
+<Call c="13" l="10690" n="nivauxniif1" t="F"/>
+<Call c="11" l="10697" n="nivauxniif1" t="F"/>
+<Call c="11" l="10703" n="nivauxniif1" t="F"/>
+<Call c="11" l="10709" n="nivauxniif1" t="F"/>
+<Call c="11" l="10715" n="nivauxniif1" t="F"/>
+<Call c="11" l="10721" n="nivauxniif1" t="F"/>
+<Call c="11" l="10727" n="nivauxniif1" t="F"/>
+<Call c="11" l="10733" n="nivauxniif1" t="F"/>
+<Call c="13" l="10743" n="ins05genniif141" t="F"/>
+<Call c="13" l="10760" n="ins07genniif141" t="F"/>
+<Call c="9" l="10779" n="ins49genniif141" t="F"/>
+<Call c="13" l="10814" n="ins22genniif141" t="F"/>
+<Call c="11" l="10827" n="FGL_WINMESSAGE" t="F"/>
+</Fct>
+<Fct c="10" el="10596" l="10364" n="mes11genniif141()" t="F" v="pub">
+<Call c="12" l="10373" n="ins03genniif141" t="F"/>
+<Call c="13" l="10378" n="nivauxniif1" t="F"/>
+<Call c="13" l="10384" n="nivauxniif1" t="F"/>
+<Call c="13" l="10390" n="nivauxniif1" t="F"/>
+<Call c="13" l="10396" n="nivauxniif1" t="F"/>
+<Call c="13" l="10402" n="nivauxniif1" t="F"/>
+<Call c="13" l="10408" n="nivauxniif1" t="F"/>
+<Call c="13" l="10414" n="nivauxniif1" t="F"/>
+<Call c="13" l="10421" n="nivauxniif1" t="F"/>
+<Call c="13" l="10427" n="nivauxniif1" t="F"/>
+<Call c="13" l="10433" n="nivauxniif1" t="F"/>
+<Call c="13" l="10439" n="nivauxniif1" t="F"/>
+<Call c="13" l="10445" n="nivauxniif1" t="F"/>
+<Call c="13" l="10451" n="nivauxniif1" t="F"/>
+<Call c="13" l="10457" n="nivauxniif1" t="F"/>
+<Call c="11" l="10464" n="nivauxniif1" t="F"/>
+<Call c="11" l="10470" n="nivauxniif1" t="F"/>
+<Call c="11" l="10476" n="nivauxniif1" t="F"/>
+<Call c="11" l="10482" n="nivauxniif1" t="F"/>
+<Call c="11" l="10488" n="nivauxniif1" t="F"/>
+<Call c="11" l="10494" n="nivauxniif1" t="F"/>
+<Call c="11" l="10500" n="nivauxniif1" t="F"/>
+<Call c="13" l="10510" n="ins05genniif141" t="F"/>
+<Call c="13" l="10527" n="ins07genniif141" t="F"/>
+<Call c="9" l="10546" n="ins49genniif141" t="F"/>
+<Call c="13" l="10581" n="ins22genniif141" t="F"/>
+<Call c="11" l="10594" n="FGL_WINMESSAGE" t="F"/>
+</Fct>
+<Fct c="10" el="10363" l="10131" n="mes10genniif141()" t="F" v="pub">
+<Call c="12" l="10140" n="ins03genniif141" t="F"/>
+<Call c="13" l="10145" n="nivauxniif1" t="F"/>
+<Call c="13" l="10151" n="nivauxniif1" t="F"/>
+<Call c="13" l="10157" n="nivauxniif1" t="F"/>
+<Call c="13" l="10163" n="nivauxniif1" t="F"/>
+<Call c="13" l="10169" n="nivauxniif1" t="F"/>
+<Call c="13" l="10175" n="nivauxniif1" t="F"/>
+<Call c="13" l="10181" n="nivauxniif1" t="F"/>
+<Call c="13" l="10188" n="nivauxniif1" t="F"/>
+<Call c="13" l="10194" n="nivauxniif1" t="F"/>
+<Call c="13" l="10200" n="nivauxniif1" t="F"/>
+<Call c="13" l="10206" n="nivauxniif1" t="F"/>
+<Call c="13" l="10212" n="nivauxniif1" t="F"/>
+<Call c="13" l="10218" n="nivauxniif1" t="F"/>
+<Call c="13" l="10224" n="nivauxniif1" t="F"/>
+<Call c="11" l="10231" n="nivauxniif1" t="F"/>
+<Call c="11" l="10237" n="nivauxniif1" t="F"/>
+<Call c="11" l="10243" n="nivauxniif1" t="F"/>
+<Call c="11" l="10249" n="nivauxniif1" t="F"/>
+<Call c="11" l="10255" n="nivauxniif1" t="F"/>
+<Call c="11" l="10261" n="nivauxniif1" t="F"/>
+<Call c="11" l="10267" n="nivauxniif1" t="F"/>
+<Call c="13" l="10277" n="ins05genniif141" t="F"/>
+<Call c="13" l="10294" n="ins07genniif141" t="F"/>
+<Call c="9" l="10313" n="ins49genniif141" t="F"/>
+<Call c="13" l="10348" n="ins22genniif141" t="F"/>
+<Call c="11" l="10361" n="FGL_WINMESSAGE" t="F"/>
+</Fct>
+<Fct c="10" el="10130" l="9898" n="mes09genniif141()" t="F" v="pub">
+<Call c="12" l="9907" n="ins03genniif141" t="F"/>
+<Call c="13" l="9912" n="nivauxniif1" t="F"/>
+<Call c="13" l="9918" n="nivauxniif1" t="F"/>
+<Call c="13" l="9924" n="nivauxniif1" t="F"/>
+<Call c="13" l="9930" n="nivauxniif1" t="F"/>
+<Call c="13" l="9936" n="nivauxniif1" t="F"/>
+<Call c="13" l="9942" n="nivauxniif1" t="F"/>
+<Call c="13" l="9948" n="nivauxniif1" t="F"/>
+<Call c="13" l="9955" n="nivauxniif1" t="F"/>
+<Call c="13" l="9961" n="nivauxniif1" t="F"/>
+<Call c="13" l="9967" n="nivauxniif1" t="F"/>
+<Call c="13" l="9973" n="nivauxniif1" t="F"/>
+<Call c="13" l="9979" n="nivauxniif1" t="F"/>
+<Call c="13" l="9985" n="nivauxniif1" t="F"/>
+<Call c="13" l="9991" n="nivauxniif1" t="F"/>
+<Call c="11" l="9998" n="nivauxniif1" t="F"/>
+<Call c="11" l="10004" n="nivauxniif1" t="F"/>
+<Call c="11" l="10010" n="nivauxniif1" t="F"/>
+<Call c="11" l="10016" n="nivauxniif1" t="F"/>
+<Call c="11" l="10022" n="nivauxniif1" t="F"/>
+<Call c="11" l="10028" n="nivauxniif1" t="F"/>
+<Call c="11" l="10034" n="nivauxniif1" t="F"/>
+<Call c="13" l="10044" n="ins05genniif141" t="F"/>
+<Call c="13" l="10061" n="ins07genniif141" t="F"/>
+<Call c="9" l="10080" n="ins49genniif141" t="F"/>
+<Call c="13" l="10115" n="ins22genniif141" t="F"/>
+<Call c="11" l="10128" n="FGL_WINMESSAGE" t="F"/>
+</Fct>
+<Fct c="10" el="9897" l="9665" n="mes08genniif141()" t="F" v="pub">
+<Call c="12" l="9674" n="ins03genniif141" t="F"/>
+<Call c="13" l="9679" n="nivauxniif1" t="F"/>
+<Call c="13" l="9685" n="nivauxniif1" t="F"/>
+<Call c="13" l="9691" n="nivauxniif1" t="F"/>
+<Call c="13" l="9697" n="nivauxniif1" t="F"/>
+<Call c="13" l="9703" n="nivauxniif1" t="F"/>
+<Call c="13" l="9709" n="nivauxniif1" t="F"/>
+<Call c="13" l="9715" n="nivauxniif1" t="F"/>
+<Call c="13" l="9722" n="nivauxniif1" t="F"/>
+<Call c="13" l="9728" n="nivauxniif1" t="F"/>
+<Call c="13" l="9734" n="nivauxniif1" t="F"/>
+<Call c="13" l="9740" n="nivauxniif1" t="F"/>
+<Call c="13" l="9746" n="nivauxniif1" t="F"/>
+<Call c="13" l="9752" n="nivauxniif1" t="F"/>
+<Call c="13" l="9758" n="nivauxniif1" t="F"/>
+<Call c="11" l="9765" n="nivauxniif1" t="F"/>
+<Call c="11" l="9771" n="nivauxniif1" t="F"/>
+<Call c="11" l="9777" n="nivauxniif1" t="F"/>
+<Call c="11" l="9783" n="nivauxniif1" t="F"/>
+<Call c="11" l="9789" n="nivauxniif1" t="F"/>
+<Call c="11" l="9795" n="nivauxniif1" t="F"/>
+<Call c="11" l="9801" n="nivauxniif1" t="F"/>
+<Call c="13" l="9811" n="ins05genniif141" t="F"/>
+<Call c="13" l="9828" n="ins07genniif141" t="F"/>
+<Call c="9" l="9847" n="ins49genniif141" t="F"/>
+<Call c="13" l="9882" n="ins22genniif141" t="F"/>
+<Call c="11" l="9895" n="FGL_WINMESSAGE" t="F"/>
+</Fct>
+<Fct c="10" el="9664" l="9432" n="mes07genniif141()" t="F" v="pub">
+<Call c="12" l="9441" n="ins03genniif141" t="F"/>
+<Call c="13" l="9446" n="nivauxniif1" t="F"/>
+<Call c="13" l="9452" n="nivauxniif1" t="F"/>
+<Call c="13" l="9458" n="nivauxniif1" t="F"/>
+<Call c="13" l="9464" n="nivauxniif1" t="F"/>
+<Call c="13" l="9470" n="nivauxniif1" t="F"/>
+<Call c="13" l="9476" n="nivauxniif1" t="F"/>
+<Call c="13" l="9482" n="nivauxniif1" t="F"/>
+<Call c="13" l="9489" n="nivauxniif1" t="F"/>
+<Call c="13" l="9495" n="nivauxniif1" t="F"/>
+<Call c="13" l="9501" n="nivauxniif1" t="F"/>
+<Call c="13" l="9507" n="nivauxniif1" t="F"/>
+<Call c="13" l="9513" n="nivauxniif1" t="F"/>
+<Call c="13" l="9519" n="nivauxniif1" t="F"/>
+<Call c="13" l="9525" n="nivauxniif1" t="F"/>
+<Call c="11" l="9532" n="nivauxniif1" t="F"/>
+<Call c="11" l="9538" n="nivauxniif1" t="F"/>
+<Call c="11" l="9544" n="nivauxniif1" t="F"/>
+<Call c="11" l="9550" n="nivauxniif1" t="F"/>
+<Call c="11" l="9556" n="nivauxniif1" t="F"/>
+<Call c="11" l="9562" n="nivauxniif1" t="F"/>
+<Call c="11" l="9568" n="nivauxniif1" t="F"/>
+<Call c="13" l="9578" n="ins05genniif141" t="F"/>
+<Call c="13" l="9595" n="ins07genniif141" t="F"/>
+<Call c="9" l="9614" n="ins49genniif141" t="F"/>
+<Call c="13" l="9649" n="ins22genniif141" t="F"/>
+<Call c="11" l="9662" n="FGL_WINMESSAGE" t="F"/>
+</Fct>
+<Fct c="10" el="9431" l="9199" n="mes06genniif141()" t="F" v="pub">
+<Call c="12" l="9208" n="ins03genniif141" t="F"/>
+<Call c="13" l="9213" n="nivauxniif1" t="F"/>
+<Call c="13" l="9219" n="nivauxniif1" t="F"/>
+<Call c="13" l="9225" n="nivauxniif1" t="F"/>
+<Call c="13" l="9231" n="nivauxniif1" t="F"/>
+<Call c="13" l="9237" n="nivauxniif1" t="F"/>
+<Call c="13" l="9243" n="nivauxniif1" t="F"/>
+<Call c="13" l="9249" n="nivauxniif1" t="F"/>
+<Call c="13" l="9256" n="nivauxniif1" t="F"/>
+<Call c="13" l="9262" n="nivauxniif1" t="F"/>
+<Call c="13" l="9268" n="nivauxniif1" t="F"/>
+<Call c="13" l="9274" n="nivauxniif1" t="F"/>
+<Call c="13" l="9280" n="nivauxniif1" t="F"/>
+<Call c="13" l="9286" n="nivauxniif1" t="F"/>
+<Call c="13" l="9292" n="nivauxniif1" t="F"/>
+<Call c="11" l="9299" n="nivauxniif1" t="F"/>
+<Call c="11" l="9305" n="nivauxniif1" t="F"/>
+<Call c="11" l="9311" n="nivauxniif1" t="F"/>
+<Call c="11" l="9317" n="nivauxniif1" t="F"/>
+<Call c="11" l="9323" n="nivauxniif1" t="F"/>
+<Call c="11" l="9329" n="nivauxniif1" t="F"/>
+<Call c="11" l="9335" n="nivauxniif1" t="F"/>
+<Call c="13" l="9345" n="ins05genniif141" t="F"/>
+<Call c="13" l="9362" n="ins07genniif141" t="F"/>
+<Call c="9" l="9381" n="ins49genniif141" t="F"/>
+<Call c="13" l="9416" n="ins22genniif141" t="F"/>
+<Call c="11" l="9429" n="FGL_WINMESSAGE" t="F"/>
+</Fct>
+<Fct c="10" el="9198" l="8966" n="mes05genniif141()" t="F" v="pub">
+<Call c="12" l="8975" n="ins03genniif141" t="F"/>
+<Call c="13" l="8980" n="nivauxniif1" t="F"/>
+<Call c="13" l="8986" n="nivauxniif1" t="F"/>
+<Call c="13" l="8992" n="nivauxniif1" t="F"/>
+<Call c="13" l="8998" n="nivauxniif1" t="F"/>
+<Call c="13" l="9004" n="nivauxniif1" t="F"/>
+<Call c="13" l="9010" n="nivauxniif1" t="F"/>
+<Call c="13" l="9016" n="nivauxniif1" t="F"/>
+<Call c="13" l="9023" n="nivauxniif1" t="F"/>
+<Call c="13" l="9029" n="nivauxniif1" t="F"/>
+<Call c="13" l="9035" n="nivauxniif1" t="F"/>
+<Call c="13" l="9041" n="nivauxniif1" t="F"/>
+<Call c="13" l="9047" n="nivauxniif1" t="F"/>
+<Call c="13" l="9053" n="nivauxniif1" t="F"/>
+<Call c="13" l="9059" n="nivauxniif1" t="F"/>
+<Call c="11" l="9066" n="nivauxniif1" t="F"/>
+<Call c="11" l="9072" n="nivauxniif1" t="F"/>
+<Call c="11" l="9078" n="nivauxniif1" t="F"/>
+<Call c="11" l="9084" n="nivauxniif1" t="F"/>
+<Call c="11" l="9090" n="nivauxniif1" t="F"/>
+<Call c="11" l="9096" n="nivauxniif1" t="F"/>
+<Call c="11" l="9102" n="nivauxniif1" t="F"/>
+<Call c="13" l="9112" n="ins05genniif141" t="F"/>
+<Call c="13" l="9129" n="ins07genniif141" t="F"/>
+<Call c="9" l="9148" n="ins49genniif141" t="F"/>
+<Call c="13" l="9183" n="ins22genniif141" t="F"/>
+<Call c="11" l="9196" n="FGL_WINMESSAGE" t="F"/>
+</Fct>
+<Fct c="10" el="8965" l="8733" n="mes04genniif141()" t="F" v="pub">
+<Call c="12" l="8742" n="ins03genniif141" t="F"/>
+<Call c="13" l="8747" n="nivauxniif1" t="F"/>
+<Call c="13" l="8753" n="nivauxniif1" t="F"/>
+<Call c="13" l="8759" n="nivauxniif1" t="F"/>
+<Call c="13" l="8765" n="nivauxniif1" t="F"/>
+<Call c="13" l="8771" n="nivauxniif1" t="F"/>
+<Call c="13" l="8777" n="nivauxniif1" t="F"/>
+<Call c="13" l="8783" n="nivauxniif1" t="F"/>
+<Call c="13" l="8790" n="nivauxniif1" t="F"/>
+<Call c="13" l="8796" n="nivauxniif1" t="F"/>
+<Call c="13" l="8802" n="nivauxniif1" t="F"/>
+<Call c="13" l="8808" n="nivauxniif1" t="F"/>
+<Call c="13" l="8814" n="nivauxniif1" t="F"/>
+<Call c="13" l="8820" n="nivauxniif1" t="F"/>
+<Call c="13" l="8826" n="nivauxniif1" t="F"/>
+<Call c="11" l="8833" n="nivauxniif1" t="F"/>
+<Call c="11" l="8839" n="nivauxniif1" t="F"/>
+<Call c="11" l="8845" n="nivauxniif1" t="F"/>
+<Call c="11" l="8851" n="nivauxniif1" t="F"/>
+<Call c="11" l="8857" n="nivauxniif1" t="F"/>
+<Call c="11" l="8863" n="nivauxniif1" t="F"/>
+<Call c="11" l="8869" n="nivauxniif1" t="F"/>
+<Call c="13" l="8879" n="ins05genniif141" t="F"/>
+<Call c="13" l="8896" n="ins07genniif141" t="F"/>
+<Call c="9" l="8915" n="ins49genniif141" t="F"/>
+<Call c="13" l="8950" n="ins22genniif141" t="F"/>
+<Call c="11" l="8963" n="FGL_WINMESSAGE" t="F"/>
+</Fct>
+<Fct c="10" el="8732" l="8500" n="mes03genniif141()" t="F" v="pub">
+<Call c="12" l="8509" n="ins03genniif141" t="F"/>
+<Call c="13" l="8514" n="nivauxniif1" t="F"/>
+<Call c="13" l="8520" n="nivauxniif1" t="F"/>
+<Call c="13" l="8526" n="nivauxniif1" t="F"/>
+<Call c="13" l="8532" n="nivauxniif1" t="F"/>
+<Call c="13" l="8538" n="nivauxniif1" t="F"/>
+<Call c="13" l="8544" n="nivauxniif1" t="F"/>
+<Call c="13" l="8550" n="nivauxniif1" t="F"/>
+<Call c="13" l="8557" n="nivauxniif1" t="F"/>
+<Call c="13" l="8563" n="nivauxniif1" t="F"/>
+<Call c="13" l="8569" n="nivauxniif1" t="F"/>
+<Call c="13" l="8575" n="nivauxniif1" t="F"/>
+<Call c="13" l="8581" n="nivauxniif1" t="F"/>
+<Call c="13" l="8587" n="nivauxniif1" t="F"/>
+<Call c="13" l="8593" n="nivauxniif1" t="F"/>
+<Call c="11" l="8600" n="nivauxniif1" t="F"/>
+<Call c="11" l="8606" n="nivauxniif1" t="F"/>
+<Call c="11" l="8612" n="nivauxniif1" t="F"/>
+<Call c="11" l="8618" n="nivauxniif1" t="F"/>
+<Call c="11" l="8624" n="nivauxniif1" t="F"/>
+<Call c="11" l="8630" n="nivauxniif1" t="F"/>
+<Call c="11" l="8636" n="nivauxniif1" t="F"/>
+<Call c="13" l="8646" n="ins05genniif141" t="F"/>
+<Call c="13" l="8663" n="ins07genniif141" t="F"/>
+<Call c="9" l="8682" n="ins49genniif141" t="F"/>
+<Call c="13" l="8717" n="ins22genniif141" t="F"/>
+<Call c="11" l="8730" n="FGL_WINMESSAGE" t="F"/>
+</Fct>
+<Fct c="10" el="8499" l="8267" n="mes02genniif141()" t="F" v="pub">
+<Call c="12" l="8276" n="ins03genniif141" t="F"/>
+<Call c="13" l="8281" n="nivauxniif1" t="F"/>
+<Call c="13" l="8287" n="nivauxniif1" t="F"/>
+<Call c="13" l="8293" n="nivauxniif1" t="F"/>
+<Call c="13" l="8299" n="nivauxniif1" t="F"/>
+<Call c="13" l="8305" n="nivauxniif1" t="F"/>
+<Call c="13" l="8311" n="nivauxniif1" t="F"/>
+<Call c="13" l="8317" n="nivauxniif1" t="F"/>
+<Call c="13" l="8324" n="nivauxniif1" t="F"/>
+<Call c="13" l="8330" n="nivauxniif1" t="F"/>
+<Call c="13" l="8336" n="nivauxniif1" t="F"/>
+<Call c="13" l="8342" n="nivauxniif1" t="F"/>
+<Call c="13" l="8348" n="nivauxniif1" t="F"/>
+<Call c="13" l="8354" n="nivauxniif1" t="F"/>
+<Call c="13" l="8360" n="nivauxniif1" t="F"/>
+<Call c="11" l="8367" n="nivauxniif1" t="F"/>
+<Call c="11" l="8373" n="nivauxniif1" t="F"/>
+<Call c="11" l="8379" n="nivauxniif1" t="F"/>
+<Call c="11" l="8385" n="nivauxniif1" t="F"/>
+<Call c="11" l="8391" n="nivauxniif1" t="F"/>
+<Call c="11" l="8397" n="nivauxniif1" t="F"/>
+<Call c="11" l="8403" n="nivauxniif1" t="F"/>
+<Call c="13" l="8413" n="ins05genniif141" t="F"/>
+<Call c="13" l="8430" n="ins07genniif141" t="F"/>
+<Call c="9" l="8449" n="ins49genniif141" t="F"/>
+<Call c="13" l="8484" n="ins22genniif141" t="F"/>
+<Call c="11" l="8497" n="FGL_WINMESSAGE" t="F"/>
+</Fct>
+<Fct c="10" el="8266" l="7923" n="mes01genniif141()" t="F" v="pub">
+<Call c="8" l="7932" n="ins03genniif141" t="F"/>
+<Call c="9" l="7940" n="nivauxniif1" t="F"/>
+<Call c="9" l="7949" n="nivauxniif1" t="F"/>
+<Call c="9" l="7958" n="nivauxniif1" t="F"/>
+<Call c="9" l="7967" n="nivauxniif1" t="F"/>
+<Call c="9" l="7976" n="nivauxniif1" t="F"/>
+<Call c="9" l="7985" n="nivauxniif1" t="F"/>
+<Call c="9" l="7994" n="nivauxniif1" t="F"/>
+<Call c="9" l="8004" n="nivauxniif1" t="F"/>
+<Call c="9" l="8013" n="nivauxniif1" t="F"/>
+<Call c="9" l="8022" n="nivauxniif1" t="F"/>
+<Call c="9" l="8031" n="nivauxniif1" t="F"/>
+<Call c="9" l="8040" n="nivauxniif1" t="F"/>
+<Call c="9" l="8049" n="nivauxniif1" t="F"/>
+<Call c="9" l="8058" n="nivauxniif1" t="F"/>
+<Call c="7" l="8068" n="nivauxniif1" t="F"/>
+<Call c="7" l="8077" n="nivauxniif1" t="F"/>
+<Call c="7" l="8086" n="nivauxniif1" t="F"/>
+<Call c="7" l="8095" n="nivauxniif1" t="F"/>
+<Call c="7" l="8104" n="nivauxniif1" t="F"/>
+<Call c="7" l="8113" n="nivauxniif1" t="F"/>
+<Call c="7" l="8122" n="nivauxniif1" t="F"/>
+<Call c="9" l="8136" n="ins05genniif141" t="F"/>
+<Call c="9" l="8169" n="ins07genniif141" t="F"/>
+<Call c="9" l="8203" n="ins49genniif141" t="F"/>
+<Call c="9" l="8239" n="ins22genniif141" t="F"/>
+<Call c="7" l="8264" n="FGL_WINMESSAGE" t="F"/>
+</Fct>
+<Fct c="10" el="7921" l="7787" n="n_actefectoniif141()" t="F" v="pub"/>
+<Fct c="10" el="7786" l="7652" n="actefectoniif141()" t="F" v="pub"/>
+<Fct c="10" el="7651" l="7642" n="ins22niif141()" t="F" v="pub"/>
+<Fct c="10" el="7641" l="7632" n="ins49niif141()" t="F" v="pub"/>
+<Fct c="10" el="7631" l="7622" n="ins07niif141()" t="F" v="pub"/>
+<Fct c="10" el="7621" l="7613" n="ins05niif141()" t="F" v="pub"/>
+<Fct c="10" el="7612" l="7484" n="ins03niif141()" t="F" v="pub"/>
+<Fct c="10" el="7483" l="7268" n="mes13niif141()" t="F" v="pub">
+<Call c="12" l="7278" n="ins03niif141" t="F"/>
+<Call c="13" l="7283" n="nivauxniif1" t="F"/>
+<Call c="13" l="7290" n="nivauxniif1" t="F"/>
+<Call c="13" l="7297" n="nivauxniif1" t="F"/>
+<Call c="13" l="7304" n="nivauxniif1" t="F"/>
+<Call c="13" l="7311" n="nivauxniif1" t="F"/>
+<Call c="13" l="7318" n="nivauxniif1" t="F"/>
+<Call c="13" l="7325" n="nivauxniif1" t="F"/>
+<Call c="13" l="7333" n="nivauxniif1" t="F"/>
+<Call c="13" l="7340" n="nivauxniif1" t="F"/>
+<Call c="13" l="7347" n="nivauxniif1" t="F"/>
+<Call c="13" l="7354" n="nivauxniif1" t="F"/>
+<Call c="13" l="7361" n="nivauxniif1" t="F"/>
+<Call c="13" l="7368" n="nivauxniif1" t="F"/>
+<Call c="13" l="7375" n="nivauxniif1" t="F"/>
+<Call c="9" l="7389" n="ins05niif141" t="F"/>
+<Call c="13" l="7425" n="ins07niif141" t="F"/>
+<Call c="16" l="7449" n="ins49niif141" t="F"/>
+</Fct>
+<Fct c="10" el="7267" l="6989" n="mes12niif141()" t="F" v="pub">
+<Call c="12" l="6999" n="ins03niif141" t="F"/>
+<Call c="13" l="7004" n="nivauxniif1" t="F"/>
+<Call c="13" l="7011" n="nivauxniif1" t="F"/>
+<Call c="13" l="7018" n="nivauxniif1" t="F"/>
+<Call c="13" l="7025" n="nivauxniif1" t="F"/>
+<Call c="13" l="7032" n="nivauxniif1" t="F"/>
+<Call c="13" l="7039" n="nivauxniif1" t="F"/>
+<Call c="13" l="7046" n="nivauxniif1" t="F"/>
+<Call c="13" l="7054" n="nivauxniif1" t="F"/>
+<Call c="13" l="7061" n="nivauxniif1" t="F"/>
+<Call c="13" l="7068" n="nivauxniif1" t="F"/>
+<Call c="13" l="7075" n="nivauxniif1" t="F"/>
+<Call c="13" l="7082" n="nivauxniif1" t="F"/>
+<Call c="13" l="7089" n="nivauxniif1" t="F"/>
+<Call c="13" l="7096" n="nivauxniif1" t="F"/>
+<Call c="11" l="7104" n="nivauxniif1" t="F"/>
+<Call c="11" l="7111" n="nivauxniif1" t="F"/>
+<Call c="11" l="7118" n="nivauxniif1" t="F"/>
+<Call c="11" l="7125" n="nivauxniif1" t="F"/>
+<Call c="11" l="7132" n="nivauxniif1" t="F"/>
+<Call c="11" l="7139" n="nivauxniif1" t="F"/>
+<Call c="11" l="7146" n="nivauxniif1" t="F"/>
+<Call c="13" l="7158" n="ins05niif141" t="F"/>
+<Call c="13" l="7179" n="ins07niif141" t="F"/>
+<Call c="9" l="7202" n="ins49niif141" t="F"/>
+<Call c="13" l="7241" n="ins22niif141" t="F"/>
+<Call c="13" l="7258" n="actefectoniif141" t="F"/>
+<Call c="13" l="7260" n="n_actefectoniif141" t="F"/>
+<Call c="11" l="7265" n="FGL_WINMESSAGE" t="F"/>
+</Fct>
+<Fct c="10" el="6988" l="6710" n="mes11niif141()" t="F" v="pub">
+<Call c="12" l="6720" n="ins03niif141" t="F"/>
+<Call c="13" l="6725" n="nivauxniif1" t="F"/>
+<Call c="13" l="6732" n="nivauxniif1" t="F"/>
+<Call c="13" l="6739" n="nivauxniif1" t="F"/>
+<Call c="13" l="6746" n="nivauxniif1" t="F"/>
+<Call c="13" l="6753" n="nivauxniif1" t="F"/>
+<Call c="13" l="6760" n="nivauxniif1" t="F"/>
+<Call c="13" l="6767" n="nivauxniif1" t="F"/>
+<Call c="13" l="6775" n="nivauxniif1" t="F"/>
+<Call c="13" l="6782" n="nivauxniif1" t="F"/>
+<Call c="13" l="6789" n="nivauxniif1" t="F"/>
+<Call c="13" l="6796" n="nivauxniif1" t="F"/>
+<Call c="13" l="6803" n="nivauxniif1" t="F"/>
+<Call c="13" l="6810" n="nivauxniif1" t="F"/>
+<Call c="13" l="6817" n="nivauxniif1" t="F"/>
+<Call c="11" l="6825" n="nivauxniif1" t="F"/>
+<Call c="11" l="6832" n="nivauxniif1" t="F"/>
+<Call c="11" l="6839" n="nivauxniif1" t="F"/>
+<Call c="11" l="6846" n="nivauxniif1" t="F"/>
+<Call c="11" l="6853" n="nivauxniif1" t="F"/>
+<Call c="11" l="6860" n="nivauxniif1" t="F"/>
+<Call c="11" l="6867" n="nivauxniif1" t="F"/>
+<Call c="13" l="6879" n="ins05niif141" t="F"/>
+<Call c="13" l="6900" n="ins07niif141" t="F"/>
+<Call c="9" l="6923" n="ins49niif141" t="F"/>
+<Call c="13" l="6962" n="ins22niif141" t="F"/>
+<Call c="13" l="6979" n="actefectoniif141" t="F"/>
+<Call c="13" l="6981" n="n_actefectoniif141" t="F"/>
+<Call c="11" l="6986" n="FGL_WINMESSAGE" t="F"/>
+</Fct>
+<Fct c="10" el="6709" l="6431" n="mes10niif141()" t="F" v="pub">
+<Call c="12" l="6441" n="ins03niif141" t="F"/>
+<Call c="13" l="6446" n="nivauxniif1" t="F"/>
+<Call c="13" l="6453" n="nivauxniif1" t="F"/>
+<Call c="13" l="6460" n="nivauxniif1" t="F"/>
+<Call c="13" l="6467" n="nivauxniif1" t="F"/>
+<Call c="13" l="6474" n="nivauxniif1" t="F"/>
+<Call c="13" l="6481" n="nivauxniif1" t="F"/>
+<Call c="13" l="6488" n="nivauxniif1" t="F"/>
+<Call c="13" l="6496" n="nivauxniif1" t="F"/>
+<Call c="13" l="6503" n="nivauxniif1" t="F"/>
+<Call c="13" l="6510" n="nivauxniif1" t="F"/>
+<Call c="13" l="6517" n="nivauxniif1" t="F"/>
+<Call c="13" l="6524" n="nivauxniif1" t="F"/>
+<Call c="13" l="6531" n="nivauxniif1" t="F"/>
+<Call c="13" l="6538" n="nivauxniif1" t="F"/>
+<Call c="11" l="6546" n="nivauxniif1" t="F"/>
+<Call c="11" l="6553" n="nivauxniif1" t="F"/>
+<Call c="11" l="6560" n="nivauxniif1" t="F"/>
+<Call c="11" l="6567" n="nivauxniif1" t="F"/>
+<Call c="11" l="6574" n="nivauxniif1" t="F"/>
+<Call c="11" l="6581" n="nivauxniif1" t="F"/>
+<Call c="11" l="6588" n="nivauxniif1" t="F"/>
+<Call c="13" l="6600" n="ins05niif141" t="F"/>
+<Call c="13" l="6621" n="ins07niif141" t="F"/>
+<Call c="9" l="6644" n="ins49niif141" t="F"/>
+<Call c="13" l="6683" n="ins22niif141" t="F"/>
+<Call c="13" l="6700" n="actefectoniif141" t="F"/>
+<Call c="13" l="6702" n="n_actefectoniif141" t="F"/>
+<Call c="12" l="6707" n="FGL_WINMESSAGE" t="F"/>
+</Fct>
+<Fct c="10" el="6430" l="6152" n="mes09niif141()" t="F" v="pub">
+<Call c="12" l="6162" n="ins03niif141" t="F"/>
+<Call c="13" l="6167" n="nivauxniif1" t="F"/>
+<Call c="13" l="6174" n="nivauxniif1" t="F"/>
+<Call c="13" l="6181" n="nivauxniif1" t="F"/>
+<Call c="13" l="6188" n="nivauxniif1" t="F"/>
+<Call c="13" l="6195" n="nivauxniif1" t="F"/>
+<Call c="13" l="6202" n="nivauxniif1" t="F"/>
+<Call c="13" l="6209" n="nivauxniif1" t="F"/>
+<Call c="13" l="6217" n="nivauxniif1" t="F"/>
+<Call c="13" l="6224" n="nivauxniif1" t="F"/>
+<Call c="13" l="6231" n="nivauxniif1" t="F"/>
+<Call c="13" l="6238" n="nivauxniif1" t="F"/>
+<Call c="13" l="6245" n="nivauxniif1" t="F"/>
+<Call c="13" l="6252" n="nivauxniif1" t="F"/>
+<Call c="13" l="6259" n="nivauxniif1" t="F"/>
+<Call c="11" l="6267" n="nivauxniif1" t="F"/>
+<Call c="11" l="6274" n="nivauxniif1" t="F"/>
+<Call c="11" l="6281" n="nivauxniif1" t="F"/>
+<Call c="11" l="6288" n="nivauxniif1" t="F"/>
+<Call c="11" l="6295" n="nivauxniif1" t="F"/>
+<Call c="11" l="6302" n="nivauxniif1" t="F"/>
+<Call c="11" l="6309" n="nivauxniif1" t="F"/>
+<Call c="13" l="6321" n="ins05niif141" t="F"/>
+<Call c="13" l="6342" n="ins07niif141" t="F"/>
+<Call c="9" l="6365" n="ins49niif141" t="F"/>
+<Call c="13" l="6404" n="ins22niif141" t="F"/>
+<Call c="13" l="6421" n="actefectoniif141" t="F"/>
+<Call c="13" l="6423" n="n_actefectoniif141" t="F"/>
+<Call c="11" l="6428" n="FGL_WINMESSAGE" t="F"/>
+</Fct>
+<Fct c="10" el="6151" l="5873" n="mes08niif141()" t="F" v="pub">
+<Call c="12" l="5883" n="ins03niif141" t="F"/>
+<Call c="13" l="5888" n="nivauxniif1" t="F"/>
+<Call c="13" l="5895" n="nivauxniif1" t="F"/>
+<Call c="13" l="5902" n="nivauxniif1" t="F"/>
+<Call c="13" l="5909" n="nivauxniif1" t="F"/>
+<Call c="13" l="5916" n="nivauxniif1" t="F"/>
+<Call c="13" l="5923" n="nivauxniif1" t="F"/>
+<Call c="13" l="5930" n="nivauxniif1" t="F"/>
+<Call c="13" l="5938" n="nivauxniif1" t="F"/>
+<Call c="13" l="5945" n="nivauxniif1" t="F"/>
+<Call c="13" l="5952" n="nivauxniif1" t="F"/>
+<Call c="13" l="5959" n="nivauxniif1" t="F"/>
+<Call c="13" l="5966" n="nivauxniif1" t="F"/>
+<Call c="13" l="5973" n="nivauxniif1" t="F"/>
+<Call c="13" l="5980" n="nivauxniif1" t="F"/>
+<Call c="11" l="5988" n="nivauxniif1" t="F"/>
+<Call c="11" l="5995" n="nivauxniif1" t="F"/>
+<Call c="11" l="6002" n="nivauxniif1" t="F"/>
+<Call c="11" l="6009" n="nivauxniif1" t="F"/>
+<Call c="11" l="6016" n="nivauxniif1" t="F"/>
+<Call c="11" l="6023" n="nivauxniif1" t="F"/>
+<Call c="11" l="6030" n="nivauxniif1" t="F"/>
+<Call c="13" l="6042" n="ins05niif141" t="F"/>
+<Call c="13" l="6063" n="ins07niif141" t="F"/>
+<Call c="9" l="6086" n="ins49niif141" t="F"/>
+<Call c="13" l="6125" n="ins22niif141" t="F"/>
+<Call c="13" l="6142" n="actefectoniif141" t="F"/>
+<Call c="13" l="6144" n="n_actefectoniif141" t="F"/>
+<Call c="11" l="6149" n="FGL_WINMESSAGE" t="F"/>
+</Fct>
+<Fct c="10" el="5872" l="5594" n="mes07niif141()" t="F" v="pub">
+<Call c="12" l="5604" n="ins03niif141" t="F"/>
+<Call c="13" l="5609" n="nivauxniif1" t="F"/>
+<Call c="13" l="5616" n="nivauxniif1" t="F"/>
+<Call c="13" l="5623" n="nivauxniif1" t="F"/>
+<Call c="13" l="5630" n="nivauxniif1" t="F"/>
+<Call c="13" l="5637" n="nivauxniif1" t="F"/>
+<Call c="13" l="5644" n="nivauxniif1" t="F"/>
+<Call c="13" l="5651" n="nivauxniif1" t="F"/>
+<Call c="13" l="5659" n="nivauxniif1" t="F"/>
+<Call c="13" l="5666" n="nivauxniif1" t="F"/>
+<Call c="13" l="5673" n="nivauxniif1" t="F"/>
+<Call c="13" l="5680" n="nivauxniif1" t="F"/>
+<Call c="13" l="5687" n="nivauxniif1" t="F"/>
+<Call c="13" l="5694" n="nivauxniif1" t="F"/>
+<Call c="13" l="5701" n="nivauxniif1" t="F"/>
+<Call c="11" l="5709" n="nivauxniif1" t="F"/>
+<Call c="11" l="5716" n="nivauxniif1" t="F"/>
+<Call c="11" l="5723" n="nivauxniif1" t="F"/>
+<Call c="11" l="5730" n="nivauxniif1" t="F"/>
+<Call c="11" l="5737" n="nivauxniif1" t="F"/>
+<Call c="11" l="5744" n="nivauxniif1" t="F"/>
+<Call c="11" l="5751" n="nivauxniif1" t="F"/>
+<Call c="13" l="5763" n="ins05niif141" t="F"/>
+<Call c="13" l="5784" n="ins07niif141" t="F"/>
+<Call c="9" l="5807" n="ins49niif141" t="F"/>
+<Call c="13" l="5846" n="ins22niif141" t="F"/>
+<Call c="13" l="5863" n="actefectoniif141" t="F"/>
+<Call c="13" l="5865" n="n_actefectoniif141" t="F"/>
+<Call c="11" l="5870" n="FGL_WINMESSAGE" t="F"/>
+</Fct>
+<Fct c="10" el="5593" l="5315" n="mes06niif141()" t="F" v="pub">
+<Call c="12" l="5325" n="ins03niif141" t="F"/>
+<Call c="13" l="5330" n="nivauxniif1" t="F"/>
+<Call c="13" l="5337" n="nivauxniif1" t="F"/>
+<Call c="13" l="5344" n="nivauxniif1" t="F"/>
+<Call c="13" l="5351" n="nivauxniif1" t="F"/>
+<Call c="13" l="5358" n="nivauxniif1" t="F"/>
+<Call c="13" l="5365" n="nivauxniif1" t="F"/>
+<Call c="13" l="5372" n="nivauxniif1" t="F"/>
+<Call c="13" l="5380" n="nivauxniif1" t="F"/>
+<Call c="13" l="5387" n="nivauxniif1" t="F"/>
+<Call c="13" l="5394" n="nivauxniif1" t="F"/>
+<Call c="13" l="5401" n="nivauxniif1" t="F"/>
+<Call c="13" l="5408" n="nivauxniif1" t="F"/>
+<Call c="13" l="5415" n="nivauxniif1" t="F"/>
+<Call c="13" l="5422" n="nivauxniif1" t="F"/>
+<Call c="11" l="5430" n="nivauxniif1" t="F"/>
+<Call c="11" l="5437" n="nivauxniif1" t="F"/>
+<Call c="11" l="5444" n="nivauxniif1" t="F"/>
+<Call c="11" l="5451" n="nivauxniif1" t="F"/>
+<Call c="11" l="5458" n="nivauxniif1" t="F"/>
+<Call c="11" l="5465" n="nivauxniif1" t="F"/>
+<Call c="11" l="5472" n="nivauxniif1" t="F"/>
+<Call c="13" l="5484" n="ins05niif141" t="F"/>
+<Call c="13" l="5505" n="ins07niif141" t="F"/>
+<Call c="9" l="5528" n="ins49niif141" t="F"/>
+<Call c="13" l="5567" n="ins22niif141" t="F"/>
+<Call c="13" l="5584" n="actefectoniif141" t="F"/>
+<Call c="13" l="5586" n="n_actefectoniif141" t="F"/>
+<Call c="11" l="5591" n="FGL_WINMESSAGE" t="F"/>
+</Fct>
+<Fct c="10" el="5314" l="5036" n="mes05niif141()" t="F" v="pub">
+<Call c="12" l="5046" n="ins03niif141" t="F"/>
+<Call c="13" l="5051" n="nivauxniif1" t="F"/>
+<Call c="13" l="5058" n="nivauxniif1" t="F"/>
+<Call c="13" l="5065" n="nivauxniif1" t="F"/>
+<Call c="13" l="5072" n="nivauxniif1" t="F"/>
+<Call c="13" l="5079" n="nivauxniif1" t="F"/>
+<Call c="13" l="5086" n="nivauxniif1" t="F"/>
+<Call c="13" l="5093" n="nivauxniif1" t="F"/>
+<Call c="13" l="5101" n="nivauxniif1" t="F"/>
+<Call c="13" l="5108" n="nivauxniif1" t="F"/>
+<Call c="13" l="5115" n="nivauxniif1" t="F"/>
+<Call c="13" l="5122" n="nivauxniif1" t="F"/>
+<Call c="13" l="5129" n="nivauxniif1" t="F"/>
+<Call c="13" l="5136" n="nivauxniif1" t="F"/>
+<Call c="13" l="5143" n="nivauxniif1" t="F"/>
+<Call c="11" l="5151" n="nivauxniif1" t="F"/>
+<Call c="11" l="5158" n="nivauxniif1" t="F"/>
+<Call c="11" l="5165" n="nivauxniif1" t="F"/>
+<Call c="11" l="5172" n="nivauxniif1" t="F"/>
+<Call c="11" l="5179" n="nivauxniif1" t="F"/>
+<Call c="11" l="5186" n="nivauxniif1" t="F"/>
+<Call c="11" l="5193" n="nivauxniif1" t="F"/>
+<Call c="13" l="5205" n="ins05niif141" t="F"/>
+<Call c="13" l="5226" n="ins07niif141" t="F"/>
+<Call c="9" l="5249" n="ins49niif141" t="F"/>
+<Call c="13" l="5288" n="ins22niif141" t="F"/>
+<Call c="13" l="5305" n="actefectoniif141" t="F"/>
+<Call c="13" l="5307" n="n_actefectoniif141" t="F"/>
+<Call c="11" l="5312" n="FGL_WINMESSAGE" t="F"/>
+</Fct>
+<Fct c="10" el="5035" l="4757" n="mes04niif141()" t="F" v="pub">
+<Call c="12" l="4767" n="ins03niif141" t="F"/>
+<Call c="13" l="4772" n="nivauxniif1" t="F"/>
+<Call c="13" l="4779" n="nivauxniif1" t="F"/>
+<Call c="13" l="4786" n="nivauxniif1" t="F"/>
+<Call c="13" l="4793" n="nivauxniif1" t="F"/>
+<Call c="13" l="4800" n="nivauxniif1" t="F"/>
+<Call c="13" l="4807" n="nivauxniif1" t="F"/>
+<Call c="13" l="4814" n="nivauxniif1" t="F"/>
+<Call c="13" l="4822" n="nivauxniif1" t="F"/>
+<Call c="13" l="4829" n="nivauxniif1" t="F"/>
+<Call c="13" l="4836" n="nivauxniif1" t="F"/>
+<Call c="13" l="4843" n="nivauxniif1" t="F"/>
+<Call c="13" l="4850" n="nivauxniif1" t="F"/>
+<Call c="13" l="4857" n="nivauxniif1" t="F"/>
+<Call c="13" l="4864" n="nivauxniif1" t="F"/>
+<Call c="11" l="4872" n="nivauxniif1" t="F"/>
+<Call c="11" l="4879" n="nivauxniif1" t="F"/>
+<Call c="11" l="4886" n="nivauxniif1" t="F"/>
+<Call c="11" l="4893" n="nivauxniif1" t="F"/>
+<Call c="11" l="4900" n="nivauxniif1" t="F"/>
+<Call c="11" l="4907" n="nivauxniif1" t="F"/>
+<Call c="11" l="4914" n="nivauxniif1" t="F"/>
+<Call c="13" l="4926" n="ins05niif141" t="F"/>
+<Call c="13" l="4947" n="ins07niif141" t="F"/>
+<Call c="9" l="4970" n="ins49niif141" t="F"/>
+<Call c="13" l="5009" n="ins22niif141" t="F"/>
+<Call c="13" l="5026" n="actefectoniif141" t="F"/>
+<Call c="13" l="5028" n="n_actefectoniif141" t="F"/>
+<Call c="12" l="5033" n="FGL_WINMESSAGE" t="F"/>
+</Fct>
+<Fct c="10" el="4756" l="4478" n="mes03niif141()" t="F" v="pub">
+<Call c="12" l="4488" n="ins03niif141" t="F"/>
+<Call c="13" l="4493" n="nivauxniif1" t="F"/>
+<Call c="13" l="4500" n="nivauxniif1" t="F"/>
+<Call c="13" l="4507" n="nivauxniif1" t="F"/>
+<Call c="13" l="4514" n="nivauxniif1" t="F"/>
+<Call c="13" l="4521" n="nivauxniif1" t="F"/>
+<Call c="13" l="4528" n="nivauxniif1" t="F"/>
+<Call c="13" l="4535" n="nivauxniif1" t="F"/>
+<Call c="13" l="4543" n="nivauxniif1" t="F"/>
+<Call c="13" l="4550" n="nivauxniif1" t="F"/>
+<Call c="13" l="4557" n="nivauxniif1" t="F"/>
+<Call c="13" l="4564" n="nivauxniif1" t="F"/>
+<Call c="13" l="4571" n="nivauxniif1" t="F"/>
+<Call c="13" l="4578" n="nivauxniif1" t="F"/>
+<Call c="13" l="4585" n="nivauxniif1" t="F"/>
+<Call c="11" l="4593" n="nivauxniif1" t="F"/>
+<Call c="11" l="4600" n="nivauxniif1" t="F"/>
+<Call c="11" l="4607" n="nivauxniif1" t="F"/>
+<Call c="11" l="4614" n="nivauxniif1" t="F"/>
+<Call c="11" l="4621" n="nivauxniif1" t="F"/>
+<Call c="11" l="4628" n="nivauxniif1" t="F"/>
+<Call c="11" l="4635" n="nivauxniif1" t="F"/>
+<Call c="13" l="4647" n="ins05niif141" t="F"/>
+<Call c="13" l="4668" n="ins07niif141" t="F"/>
+<Call c="9" l="4691" n="ins49niif141" t="F"/>
+<Call c="13" l="4730" n="ins22niif141" t="F"/>
+<Call c="13" l="4747" n="actefectoniif141" t="F"/>
+<Call c="13" l="4749" n="n_actefectoniif141" t="F"/>
+<Call c="12" l="4754" n="FGL_WINMESSAGE" t="F"/>
+</Fct>
+<Fct c="10" el="4477" l="4199" n="mes02niif141()" t="F" v="pub">
+<Call c="12" l="4209" n="ins03niif141" t="F"/>
+<Call c="13" l="4214" n="nivauxniif1" t="F"/>
+<Call c="13" l="4221" n="nivauxniif1" t="F"/>
+<Call c="13" l="4228" n="nivauxniif1" t="F"/>
+<Call c="13" l="4235" n="nivauxniif1" t="F"/>
+<Call c="13" l="4242" n="nivauxniif1" t="F"/>
+<Call c="13" l="4249" n="nivauxniif1" t="F"/>
+<Call c="13" l="4256" n="nivauxniif1" t="F"/>
+<Call c="13" l="4264" n="nivauxniif1" t="F"/>
+<Call c="13" l="4271" n="nivauxniif1" t="F"/>
+<Call c="13" l="4278" n="nivauxniif1" t="F"/>
+<Call c="13" l="4285" n="nivauxniif1" t="F"/>
+<Call c="13" l="4292" n="nivauxniif1" t="F"/>
+<Call c="13" l="4299" n="nivauxniif1" t="F"/>
+<Call c="13" l="4306" n="nivauxniif1" t="F"/>
+<Call c="11" l="4314" n="nivauxniif1" t="F"/>
+<Call c="11" l="4321" n="nivauxniif1" t="F"/>
+<Call c="11" l="4328" n="nivauxniif1" t="F"/>
+<Call c="11" l="4335" n="nivauxniif1" t="F"/>
+<Call c="11" l="4342" n="nivauxniif1" t="F"/>
+<Call c="11" l="4349" n="nivauxniif1" t="F"/>
+<Call c="11" l="4356" n="nivauxniif1" t="F"/>
+<Call c="13" l="4368" n="ins05niif141" t="F"/>
+<Call c="13" l="4389" n="ins07niif141" t="F"/>
+<Call c="9" l="4412" n="ins49niif141" t="F"/>
+<Call c="13" l="4451" n="ins22niif141" t="F"/>
+<Call c="13" l="4468" n="actefectoniif141" t="F"/>
+<Call c="13" l="4470" n="n_actefectoniif141" t="F"/>
+<Call c="11" l="4475" n="FGL_WINMESSAGE" t="F"/>
+</Fct>
+<Fct c="10" el="4198" l="3806" n="mes01niif141()" t="F" v="pub">
+<Call c="8" l="3816" n="ins03niif141" t="F"/>
+<Call c="9" l="3824" n="nivauxniif1" t="F"/>
+<Call c="9" l="3834" n="nivauxniif1" t="F"/>
+<Call c="9" l="3844" n="nivauxniif1" t="F"/>
+<Call c="9" l="3854" n="nivauxniif1" t="F"/>
+<Call c="9" l="3864" n="nivauxniif1" t="F"/>
+<Call c="9" l="3874" n="nivauxniif1" t="F"/>
+<Call c="9" l="3884" n="nivauxniif1" t="F"/>
+<Call c="9" l="3895" n="nivauxniif1" t="F"/>
+<Call c="9" l="3905" n="nivauxniif1" t="F"/>
+<Call c="9" l="3915" n="nivauxniif1" t="F"/>
+<Call c="9" l="3925" n="nivauxniif1" t="F"/>
+<Call c="9" l="3935" n="nivauxniif1" t="F"/>
+<Call c="9" l="3945" n="nivauxniif1" t="F"/>
+<Call c="9" l="3955" n="nivauxniif1" t="F"/>
+<Call c="7" l="3966" n="nivauxniif1" t="F"/>
+<Call c="7" l="3976" n="nivauxniif1" t="F"/>
+<Call c="7" l="3986" n="nivauxniif1" t="F"/>
+<Call c="7" l="3996" n="nivauxniif1" t="F"/>
+<Call c="7" l="4006" n="nivauxniif1" t="F"/>
+<Call c="7" l="4016" n="nivauxniif1" t="F"/>
+<Call c="7" l="4026" n="nivauxniif1" t="F"/>
+<Call c="9" l="4042" n="ins05niif141" t="F"/>
+<Call c="9" l="4079" n="ins07niif141" t="F"/>
+<Call c="9" l="4117" n="ins49niif141" t="F"/>
+<Call c="9" l="4157" n="ins22niif141" t="F"/>
+<Call c="9" l="4186" n="actefectoniif141" t="F"/>
+<Call c="9" l="4188" n="n_actefectoniif141" t="F"/>
+<Call c="7" l="4196" n="FGL_WINMESSAGE" t="F"/>
+</Fct>
+<Fct c="10" el="3805" l="3504" n="verniif141act()" t="F" v="pub">
+<Call c="9" l="3525" n="FGL_WINMESSAGE" t="F"/>
+<Call c="11" l="3794" n="mue_mensaje_espera" p="fe_comgen.4gl" t="F"/>
+</Fct>
+<Fct c="10" el="3503" l="3325" n="niif141act()" t="F" v="pub">
+<Call c="8" l="3338" n="verniif141act" t="F"/>
+<Call c="10" l="3362" n="mue_mensaje_espera" p="fe_comgen.4gl" t="F"/>
+<Call c="10" l="3368" n="mue_mensaje_espera" p="fe_comgen.4gl" t="F"/>
+<Call c="11" l="3372" n="mes01niif141" t="F"/>
+<Call c="11" l="3373" n="mes01genniif141" t="F"/>
+<Call c="11" l="3378" n="mes02niif141" t="F"/>
+<Call c="11" l="3379" n="mes02genniif141" t="F"/>
+<Call c="11" l="3384" n="mes03niif141" t="F"/>
+<Call c="11" l="3385" n="mes03genniif141" t="F"/>
+<Call c="11" l="3390" n="mes04niif141" t="F"/>
+<Call c="11" l="3391" n="mes04genniif141" t="F"/>
+<Call c="11" l="3396" n="mes05niif141" t="F"/>
+<Call c="11" l="3397" n="mes05genniif141" t="F"/>
+<Call c="11" l="3402" n="mes06niif141" t="F"/>
+<Call c="11" l="3403" n="mes06genniif141" t="F"/>
+<Call c="11" l="3408" n="mes07niif141" t="F"/>
+<Call c="11" l="3409" n="mes07genniif141" t="F"/>
+<Call c="11" l="3414" n="mes08niif141" t="F"/>
+<Call c="11" l="3415" n="mes08genniif141" t="F"/>
+<Call c="11" l="3420" n="mes09niif141" t="F"/>
+<Call c="11" l="3421" n="mes09genniif141" t="F"/>
+<Call c="11" l="3426" n="mes10niif141" t="F"/>
+<Call c="11" l="3427" n="mes10genniif141" t="F"/>
+<Call c="11" l="3432" n="mes11niif141" t="F"/>
+<Call c="11" l="3433" n="mes11genniif141" t="F"/>
+<Call c="11" l="3438" n="mes12niif141" t="F"/>
+<Call c="11" l="3439" n="mes12genniif141" t="F"/>
+<Call c="11" l="3444" n="mes13niif141" t="F"/>
+<Call c="11" l="3445" n="mes13genniif141" t="F"/>
+</Fct>
+<Fct c="10" el="3320" l="3228" n="registro_tercero_copago(mid_paciente unknown)" t="F" v="pub"/>
+<Fct c="10" el="3226" l="3116" n="migra_copagos(tpdocumento unknown,mregimen unknown)" t="F" v="pub">
+<Call c="16" l="3174" n="registro_tercero_copago" t="F"/>
+</Fct>
+<Fct c="10" el="3114" l="3098" n="traer_factura_pago()" t="F" v="pub">
+<Call c="7" l="3113" n="migra_copagos" t="F"/>
+</Fct>
+<Fct c="10" el="3095" l="2761" n="gen_comp_factura_s_n_rever(mprefijo CHAR(5),mdo1 INTEGER)" t="F" v="pub">
+<Call c="7" l="2818" n="FGL_WINMESSAGE" t="F"/>
+<Call c="7" l="2822" n="FGL_WINMESSAGE" t="F"/>
+<Call c="6" l="2826" n="doccopcon141_niif" p="fe_factura.4gl" t="F"/>
+<Call c="7" l="2864" n="FGL_WINMESSAGE" t="F"/>
+<Call c="7" l="2874" n="FGL_WINMESSAGE" t="F"/>
+<Call c="7" l="3088" n="FGL_WINMESSAGE" t="F"/>
+<Call c="7" l="3091" n="FGL_WINMESSAGE" t="F"/>
+</Fct>
+<Fct c="10" el="2759" l="2164" n="gen_comp_factura_n_rever(mprefijo CHAR(5),mdo1 INTEGER)" t="F" v="pub">
+<Call c="6" l="2213" n="doccopcon141_niif" p="fe_factura.4gl" t="F"/>
+<Call c="7" l="2251" n="FGL_WINMESSAGE" t="F"/>
+<Call c="7" l="2261" n="FGL_WINMESSAGE" t="F"/>
+<Call c="25" l="2312" n="nomredondea" p="fe_factura.4gl" t="F"/>
+<Call c="26" l="2313" n="nomredondea" p="fe_factura.4gl" t="F"/>
+<Call c="7" l="2752" n="FGL_WINMESSAGE" t="F"/>
+<Call c="7" l="2755" n="FGL_WINMESSAGE" t="F"/>
+</Fct>
+<Fct c="10" el="2162" l="2033" n="act_totales_nota(mtipo unknown,mdocum unknown)" t="F" v="pub">
+<Call c="20" l="2075" n="nomredondea" p="fe_factura.4gl" t="F"/>
+<Call c="20" l="2077" n="nomredondea" p="fe_factura.4gl" t="F"/>
+<Call c="21" l="2080" n="nomredondea" p="fe_factura.4gl" t="F"/>
+<Call c="21" l="2082" n="nomredondea" p="fe_factura.4gl" t="F"/>
+</Fct>
+<Fct c="10" el="2031" l="1891" n="act_totales_factura(mpref unknown,mdocum unknown)" t="F" v="pub">
+<Call c="20" l="1946" n="nomredondea" p="fe_factura.4gl" t="F"/>
+<Call c="22" l="1951" n="nomredondea" p="fe_factura.4gl" t="F"/>
+</Fct>
+<Fct c="10" el="1889" l="1504" n="gen_comp_factura_b(mmtp CHAR(1))" t="F" v="pub">
+<Call c="7" l="1561" n="FGL_WINMESSAGE" t="F"/>
+<Call c="7" l="1565" n="FGL_WINMESSAGE" t="F"/>
+<Call c="6" l="1569" n="doccopcon141_niif" p="fe_factura.4gl" t="F"/>
+<Call c="7" l="1607" n="FGL_WINMESSAGE" t="F"/>
+<Call c="7" l="1617" n="FGL_WINMESSAGE" t="F"/>
+<Call c="8" l="1879" n="FGL_WINMESSAGE" t="F"/>
+<Call c="8" l="1884" n="FGL_WINMESSAGE" t="F"/>
+</Fct>
+<Fct c="10" el="1502" l="1136" n="gen_comp_factura_a(mmtp CHAR(1))" t="F" v="pub">
+<Call c="7" l="1193" n="FGL_WINMESSAGE" t="F"/>
+<Call c="7" l="1197" n="FGL_WINMESSAGE" t="F"/>
+<Call c="6" l="1201" n="doccopcon141_niif" p="fe_factura.4gl" t="F"/>
+<Call c="7" l="1239" n="FGL_WINMESSAGE" t="F"/>
+<Call c="7" l="1249" n="FGL_WINMESSAGE" t="F"/>
+<Call c="8" l="1492" n="FGL_WINMESSAGE" t="F"/>
+<Call c="8" l="1497" n="FGL_WINMESSAGE" t="F"/>
+</Fct>
+<Fct c="10" el="1133" l="777" n="gen_comp_factura_s(mmtp CHAR(1))" t="F" v="pub">
+<Call c="7" l="830" n="FGL_WINMESSAGE" t="F"/>
+<Call c="7" l="834" n="FGL_WINMESSAGE" t="F"/>
+<Call c="6" l="838" n="doccopcon141_niif" p="fe_factura.4gl" t="F"/>
+<Call c="7" l="876" n="FGL_WINMESSAGE" t="F"/>
+<Call c="7" l="886" n="FGL_WINMESSAGE" t="F"/>
+<Call c="8" l="1123" n="FGL_WINMESSAGE" t="F"/>
+<Call c="8" l="1128" n="FGL_WINMESSAGE" t="F"/>
+</Fct>
+<Fct c="10" el="775" l="3" n="gen_comp_factura(mmtp CHAR(1))" t="F" v="pub">
+<Call c="6" l="66" n="doccopcon141_niif" p="fe_factura.4gl" t="F"/>
+<Call c="7" l="104" n="FGL_WINMESSAGE" t="F"/>
+<Call c="7" l="114" n="FGL_WINMESSAGE" t="F"/>
+<Call c="27" l="165" n="nomredondea" p="fe_factura.4gl" t="F"/>
+<Call c="28" l="166" n="nomredondea" p="fe_factura.4gl" t="F"/>
+<Call c="8" l="765" n="FGL_WINMESSAGE" t="F"/>
+<Call c="8" l="770" n="FGL_WINMESSAGE" t="F"/>
+</Fct>
+</File>
+<File m="fe_globales" n="fe_globales.4gl" ts="20210304104810840"/>
+<File m="fe_main" n="fe_main.4gl" ts="20210304104810749">
+<Ref t="fe_globales.4gl"/>
+<Fct c="10" el="777" l="751" n="configureOutput_reportes(device CHAR(3))" t="F" v="pub">
+<Call c="12" l="757" n="fgl_report_loadCurrentSettings" t="F"/>
+<Call c="10" l="761" n="fgl_report_selectDevice" t="F"/>
+<Call c="10" l="762" n="fgl_report_selectPreview" t="F"/>
+<Call c="10" l="763" n="fgl_report_setPageMargins" t="F"/>
+<Call c="10" l="764" n="fgl_report_setAutoformatType" t="F"/>
+<Call c="10" l="765" n="fgl_report_configureCompatibilityOutput" t="F"/>
+<Call c="10" l="775" n="fgl_report_configurePageSize" t="F"/>
+<Call c="12" l="776" n="fgl_report_commitCurrentSettings" t="F"/>
+</Fct>
+<Fct c="10" el="748" l="737" n="getPreviewDevice()" t="F" v="pub"/>
+<Fct c="10" el="734" l="705" n="configureOutput_p(mtam INTEGER,msup CHAR(5),minf CHAR(5),mizq CHAR(5),mder CHAR(5),device CHAR(3))" t="F" v="pub">
+<Call c="12" l="710" n="fgl_report_loadCurrentSettings" t="F"/>
+<Call c="10" l="716" n="fgl_report_configureAutoformatOutput" t="F"/>
+<Call c="10" l="721" n="fgl_report_setPageMargins" t="F"/>
+<Call c="10" l="728" n="fgl_report_selectDevice" t="F"/>
+<Call c="10" l="729" n="fgl_report_selectDevice" t="F"/>
+<Call c="34" l="729" n="getPreviewDevice" t="F"/>
+<Call c="12" l="733" n="fgl_report_commitCurrentSettings" t="F"/>
+</Fct>
+<Fct c="10" el="701" l="656" n="fe_nit()" t="F" v="pub"/>
+<Fct c="10" el="654" l="621" n="confec()" t="F" v="pub"/>
+<Fct c="10" el="620" l="569" n="confecr()" t="F" v="pub"/>
+<Fct c="10" el="567" l="492" n="configureOutput_x(device CHAR(3))" t="F" v="pub">
+<Call c="12" l="498" n="fgl_report_loadCurrentSettings" t="F"/>
+<Call c="10" l="502" n="fgl_report_selectDevice" t="F"/>
+<Call c="10" l="503" n="fgl_report_configureXLSDevice" t="F"/>
+<Call c="10" l="546" n="fgl_report_configurePDFDevice" t="F"/>
+<Call c="10" l="547" n="fgl_report_configureSVGDevice" t="F"/>
+<Call c="10" l="550" n="fgl_report_selectPreview" t="F"/>
+<Call c="10" l="551" n="fgl_report_setPageMargins" t="F"/>
+<Call c="10" l="552" n="fgl_report_setAutoformatType" t="F"/>
+<Call c="10" l="553" n="fgl_report_configureCompatibilityOutput" t="F"/>
+<Call c="10" l="556" n="fgl_report_configurePageSize" t="F"/>
+<Call c="12" l="566" n="fgl_report_commitCurrentSettings" t="F"/>
+</Fct>
+<Fct c="10" el="485" l="468" n="configureOutput_excel(mtam INTEGER,msup CHAR(5),minf CHAR(5),mizq CHAR(5),mder CHAR(5),device CHAR(4))" t="F" v="pub">
+<Call c="12" l="472" n="fgl_report_loadCurrentSettings" t="F"/>
+<Call c="10" l="477" n="fgl_report_selectPreview" t="F"/>
+<Call c="10" l="478" n="fgl_report_configureCompatibilityOutput" t="F"/>
+<Call c="10" l="479" n="fgl_report_setAutoformatType" t="F"/>
+<Call c="10" l="480" n="fgl_report_setPageMargins" t="F"/>
+<Call c="10" l="481" n="fgl_report_selectDevice" t="F"/>
+<Call c="10" l="482" n="fgl_report_setXLSXMergeCells" t="F"/>
+<Call c="12" l="484" n="fgl_report_commitCurrentSettings" t="F"/>
+</Fct>
+<Fct c="10" el="465" l="388" n="configureOutputt(device CHAR(3),tx VARCHAR(4),ty VARCHAR(4),tl INTEGER,mi CHAR(5))" t="F" v="pub">
+<Call c="12" l="394" n="fgl_report_loadCurrentSettings" t="F"/>
+<Call c="10" l="398" n="fgl_report_selectDevice" t="F"/>
+<Call c="10" l="399" n="fgl_report_configureXLSDevice" t="F"/>
+<Call c="10" l="400" n="fgl_report_setXLSXMergeCells" t="F"/>
+<Call c="10" l="443" n="fgl_report_configurePDFDevice" t="F"/>
+<Call c="10" l="444" n="fgl_report_configureSVGDevice" t="F"/>
+<Call c="10" l="447" n="fgl_report_selectPreview" t="F"/>
+<Call c="10" l="448" n="fgl_report_setPageMargins" t="F"/>
+<Call c="10" l="449" n="fgl_report_setAutoformatType" t="F"/>
+<Call c="11" l="452" n="fgl_report_configureCompatibilityOutput" t="F"/>
+<Call c="10" l="454" n="fgl_report_configurePageSize" t="F"/>
+<Call c="12" l="464" n="fgl_report_commitCurrentSettings" t="F"/>
+</Fct>
+<Fct c="10" el="385" l="366" n="nommes(mmes CHAR(2))" t="F" v="pub"/>
+<Fct c="10" el="364" l="333" n="opcion()" t="F" v="pub"/>
+<Fct c="10" el="331" l="312" n="encripta()" t="F" v="pub"/>
+<Fct c="10" el="310" l="266" n="clave()" t="F" v="pub">
+<Call c="7" l="280" n="encripta" t="F"/>
+</Fct>
+<Fct c="10" el="264" l="256" n="ingreso()" t="F" v="pub">
+<Call c="7" l="263" n="clave" t="F"/>
+</Fct>
+<Fct c="1" el="254" l="7" n="main()" t="F" v="pub">
+<Call c="7" l="14" n="ingreso" t="F"/>
+<Call c="7" l="16" n="opcion" t="F"/>
+<Call c="13" l="43" n="nommes" t="F"/>
+<Call c="11" l="55" n="empmain" p="fe_empresa.4gl" t="F"/>
+<Call c="10" l="58" n="opcion" t="F"/>
+<Call c="12" l="60" n="prefijosmain" p="fe_prefijos.4gl" t="F"/>
+<Call c="12" l="63" n="rep_ley115_microd" p="fe_reportes.4gl" t="F"/>
+<Call c="12" l="65" n="resdev_tarifas" p="fe_reportes.4gl" t="F"/>
+<Call c="10" l="68" n="opcion" t="F"/>
+<Call c="12" l="70" n="serviciosmain" p="fe_servicios.4gl" t="F"/>
+<Call c="10" l="74" n="opcion" t="F"/>
+<Call c="12" l="76" n="sub_serviciosmain" p="fe_sub_servicios.4gl" t="F"/>
+<Call c="10" l="80" n="opcion" t="F"/>
+<Call c="11" l="82" n="tarifasmain" p="fe_tarifas.4gl" t="F"/>
+<Call c="10" l="85" n="fe_servicios_caja_main" t="F"/>
+<Call c="11" l="87" n="codserviciosusumain" t="F"/>
+<Call c="10" l="90" n="opcion" t="F"/>
+<Call c="11" l="92" n="fe_conta1main" p="fe_contable1.4gl" t="F"/>
+<Call c="10" l="96" n="opcion" t="F"/>
+<Call c="11" l="98" n="fe_conta3main" p="fe_contable3.4gl" t="F"/>
+<Call c="10" l="102" n="fe_unidades_main" p="fe_unidades.4gl" t="F"/>
+<Call c="10" l="104" n="fe_paises_main" t="F"/>
+<Call c="10" l="106" n="fe_deptos_main" t="F"/>
+<Call c="10" l="108" n="fe_ciudades_main" t="F"/>
+<Call c="10" l="110" n="fe_descuentos_main" t="F"/>
+<Call c="10" l="112" n="fe_impuestos_main" t="F"/>
+<Call c="11" l="114" n="fe_tipobligacion_main" t="F"/>
+<Call c="11" l="116" n="generar_pdf_factu" t="F"/>
+<Call c="11" l="118" n="generar_pdf_nota" t="F"/>
+<Call c="10" l="122" n="opcion" t="F"/>
+<Call c="11" l="124" n="prefijosusumain" p="fe_prefijos_usua.4gl" t="F"/>
+<Call c="10" l="128" n="opcion" t="F"/>
+<Call c="11" l="130" n="prefijosusuumain" p="fe_prefijos_usum.4gl" t="F"/>
+<Call c="10" l="134" n="opcion" t="F"/>
+<Call c="11" l="136" n="tercerosmain" p="fe_terceros.4gl" t="F"/>
+<Call c="10" l="140" n="opcion" t="F"/>
+<Call c="11" l="142" n="fe_factura_mmain" p="fe_factura.4gl" t="F"/>
+<Call c="10" l="145" n="enviar_factura_dian" t="F"/>
+<Call c="11" l="147" n="enviar_nota_dian" t="F"/>
+<Call c="11" l="149" n="consulta_estados_factu" t="F"/>
+<Call c="11" l="151" n="consulta_estados_factu_masivo" t="F"/>
+<Call c="11" l="153" n="consulta_estados_nota" t="F"/>
+<Call c="10" l="156" n="opcion" t="F"/>
+<Call c="11" l="158" n="fe_nota_mmain" p="fe_nota.4gl" t="F"/>
+<Call c="11" l="161" n="rep_facturas" p="fe_factura.4gl" t="F"/>
+<Call c="11" l="163" n="rep_facturas_nit" p="fe_factura.4gl" t="F"/>
+<Call c="11" l="165" n="rep_facturas_pago" p="fe_factura.4gl" t="F"/>
+<Call c="11" l="167" n="rep_facturas_pagoo" p="fe_factura.4gl" t="F"/>
+<Call c="11" l="169" n="rep_facturas_ter" p="fe_reportes.4gl" t="F"/>
+<Call c="11" l="171" n="rep_facturas_ter2" p="fe_reportes.4gl" t="F"/>
+<Call c="11" l="173" n="rep_facturas_movi" p="fe_reportes.4gl" t="F"/>
+<Call c="11" l="175" n="rep_facturas_estados" p="fe_factura.4gl" t="F"/>
+<Call c="11" l="177" n="rep_facturas_contab" p="fe_factura.4gl" t="F"/>
+<Call c="11" l="179" n="ssf_circular_002" p="fe_reportes.4gl" t="F"/>
+<Call c="11" l="181" n="consol_coberturas" p="fe_reportes.4gl" t="F"/>
+<Call c="12" l="183" n="resing_tarifas" p="fe_reportes.4gl" t="F"/>
+<Call c="12" l="185" n="subdem_ssf" p="fe_reportes.4gl" t="F"/>
+<Call c="11" l="187" n="detalladofactu" p="fe_reportes.4gl" t="F"/>
+<Call c="11" l="189" n="detalladonota" p="fe_nota.4gl" t="F"/>
+<Call c="10" l="194" n="opcion" t="F"/>
+<Call c="12" l="196" n="aprueba_masivo" p="fe_factura.4gl" t="F"/>
+<Call c="10" l="200" n="opcion" t="F"/>
+<Call c="12" l="202" n="genera_comprobante" p="fe_factura.4gl" t="F"/>
+<Call c="10" l="206" n="opcion" t="F"/>
+<Call c="12" l="208" n="genera_comprobante_notas" p="fe_nota.4gl" t="F"/>
+<Call c="10" l="212" n="opcion" t="F"/>
+<Call c="12" l="214" n="reversa_comp_rechazo" p="fe_factura.4gl" t="F"/>
+<Call c="10" l="218" n="opcion" t="F"/>
+<Call c="12" l="220" n="habilita_genera_comprobante" p="fe_factura.4gl" t="F"/>
+<Call c="10" l="223" n="rep_notas" p="fe_nota.4gl" t="F"/>
+<Call c="10" l="225" n="rep_notas_cont" p="fe_nota.4gl" t="F"/>
+<Call c="11" l="228" n="traer_factura_pago" p="fe_factura_otr.4gl" t="F"/>
+<Call c="11" l="231" n="opcion" t="F"/>
+<Call c="11" l="233" n="fe_comprasmain" p="fe_compras.4gl" t="F"/>
+<Call c="11" l="236" n="fe_mediosc_ADmain" p="fe_medios_c_AD.4gl" t="F"/>
+<Call c="11" l="238" n="beneficiosmain" p="fe_beneficios.4gl" t="F"/>
+<Call c="11" l="240" n="com_exttc" p="fe_comrep.4gl" t="F"/>
+<Call c="10" l="242" n="factura_reng_termain" p="fe_factura_m.4gl" t="F"/>
+<Call c="10" l="244" n="edofact_main" p="fe_estados.4gl" t="F"/>
+<Call c="9" l="246" n="con_hisrespenvio" p="fe_respenvio.4gl" t="F"/>
+<Call c="9" l="248" n="con_hisfact" p="fe_estados_fac.4gl" t="F"/>
+</Fct>
+</File>
+<File m="fe_medio_pago_aux" n="fe_medio_pago_aux.4gl" ts="20190822111658057">
+<Ref t="fe_globales.4gl"/>
+<Fct c="10" el="475" l="53" n="medpagauxupdate()" t="F" v="pub">
+<Call c="35" l="65" n="villac02val" p="fe_contable1.4gl" t="F"/>
+<Call c="33" l="94" n="villac06val" p="fe_contable1.4gl" t="F"/>
+<Call c="35" l="123" n="villac02val" p="fe_contable1.4gl" t="F"/>
+<Call c="33" l="152" n="villac06val" p="fe_contable1.4gl" t="F"/>
+<Call c="35" l="181" n="villac02val" p="fe_contable1.4gl" t="F"/>
+<Call c="33" l="211" n="villac06val" p="fe_contable1.4gl" t="F"/>
+<Call c="35" l="239" n="villac02val" p="fe_contable1.4gl" t="F"/>
+<Call c="33" l="269" n="villac06val" p="fe_contable1.4gl" t="F"/>
+<Call c="35" l="297" n="villac02val" p="fe_contable1.4gl" t="F"/>
+<Call c="33" l="326" n="villac06val" p="fe_contable1.4gl" t="F"/>
+<Call c="35" l="354" n="villac02val" p="fe_contable1.4gl" t="F"/>
+<Call c="33" l="384" n="villac06val" p="fe_contable1.4gl" t="F"/>
+</Fct>
+<Fct c="10" el="506" l="477" n="medpagauxgetcurr()" t="F" v="pub"/>
+<Fct c="11" el="50" l="16" n="medpagauxmain()" t="F" v="pub">
+<Call c="7" l="25" n="medpagauxgetcurr" t="F"/>
+<Call c="9" l="42" n="opcion" p="fe_main.4gl" t="F"/>
+<Call c="11" l="44" n="medpagauxupdate" t="F"/>
+</Fct>
+</File>
+<File m="fe_medios_c_AD" n="fe_medios_c_AD.4gl" ts="20191015173140711">
+<Ref t="fe_globales.4gl"/>
+<Fct c="10" el="469" l="421" n="fe_medioscremove()" t="F" v="pub"/>
+<Fct c="10" el="288" l="278" n="fe_medioschowcurr(rownum INTEGER,maxnum INTEGER)" t="F" v="pub">
+<Call c="6" l="287" n="fe_mediocdplyg" t="F"/>
+</Fct>
+<Fct c="10" el="274" l="267" n="fe_medioscgetcurr(tpcodmed CHAR(2)" t="F" v="pub"/>
+<Fct c="10" el="177" l="43" n="fe_mediocdd()" t="F" v="pub"/>
+<Fct c="10" el="262" l="182" n="fe_mediocupdate()" t="F" v="pub"/>
+<Fct c="10" el="41" l="39" n="fe_mediocdplyg()" t="F" v="pub"/>
+<Fct c="11" el="37" l="3" n="fe_mediosc_ADmain()" t="F" v="pub">
+<Call c="10" l="15" n="fe_mediocdd" t="F"/>
+<Call c="10" l="25" n="fe_mediocquery" t="F"/>
+</Fct>
+<Fct c="10" el="415" l="291" n="fe_mediocquery(exist INTEGER)" t="F" v="pub">
+<Call c="8" l="330" n="fe_medioscgetcurr" t="F"/>
+<Call c="8" l="331" n="fe_medioschowcurr" t="F"/>
+<Call c="9" l="354" n="fe_medioscgetcurr" t="F"/>
+<Call c="9" l="355" n="fe_medioschowcurr" t="F"/>
+<Call c="9" l="365" n="fe_medioscgetcurr" t="F"/>
+<Call c="9" l="366" n="fe_medioschowcurr" t="F"/>
+<Call c="11" l="373" n="fe_mediocupdate" t="F"/>
+<Call c="11" l="380" n="fe_medioscgetcurr" t="F"/>
+<Call c="11" l="381" n="fe_medioschowcurr" t="F"/>
+<Call c="11" l="392" n="fe_medioscremove" t="F"/>
+<Call c="12" l="399" n="fe_medioschowcurr" t="F"/>
+</Fct>
+</File>
+<File m="fe_nota" n="fe_nota.4gl" ts="20210304104810690">
+<Ref t="fe_globales.4gl"/>
+<Fct c="10" el="6384" l="6318" n="fe_nota_mremove()" t="F" v="pub">
+<Call c="9" l="6327" n="FGL_WINMESSAGE" t="F"/>
+</Fct>
+<Fct c="8" el="6317" l="6268" n="norprec_cont()" t="R" v="pub"/>
+<Fct c="10" el="6266" l="6202" n="rep_notas_cont()" t="F" v="pub">
+<Call c="7" l="6228" n="confecr" p="fe_main.4gl" t="F"/>
+<Call c="17" l="6234" n="norprec_cont" t="R"/>
+<Call c="21" l="6258" n="norprec_cont" t="R"/>
+<Call c="16" l="6260" n="norprec_cont" t="R"/>
+<Call c="9" l="6265" n="manimp" p="fe_comgen.4gl" t="F"/>
+</Fct>
+<Fct c="10" el="6200" l="6111" n="genera_comprobante_notas()" t="F" v="pub">
+<Call c="9" l="6134" n="consulta_estado_documento_2" t="F"/>
+<Call c="9" l="6136" n="consulta_estado_documento_2" t="F"/>
+<Call c="16" l="6161" n="gen_comp_factura_n" t="F"/>
+<Call c="17" l="6166" n="ini_mensaje_espera" p="fe_comgen.4gl" t="F"/>
+<Call c="17" l="6167" n="niif141act" p="fe_factura_otr.4gl" t="F"/>
+<Call c="17" l="6168" n="fin_mensaje_espera" p="fe_comgen.4gl" t="F"/>
+<Call c="16" l="6169" n="gen_comp_factura_s_n" t="F"/>
+<Call c="17" l="6174" n="ini_mensaje_espera" p="fe_comgen.4gl" t="F"/>
+<Call c="17" l="6175" n="niif141act" p="fe_factura_otr.4gl" t="F"/>
+<Call c="17" l="6176" n="fin_mensaje_espera" p="fe_comgen.4gl" t="F"/>
+<Call c="16" l="6177" n="gen_comp_factura_b_n" t="F"/>
+<Call c="17" l="6182" n="ini_mensaje_espera" p="fe_comgen.4gl" t="F"/>
+<Call c="17" l="6183" n="niif141act" p="fe_factura_otr.4gl" t="F"/>
+<Call c="17" l="6184" n="fin_mensaje_espera" p="fe_comgen.4gl" t="F"/>
+</Fct>
+<Fct c="10" el="6109" l="6030" n="aprueba_nota_2()" t="F" v="pub">
+<Call c="7" l="6103" n="act_totales_nota" p="fe_factura_otr.4gl" t="F"/>
+<Call c="9" l="6105" n="envio_documento" t="F"/>
+<Call c="9" l="6107" n="envio_documento" t="F"/>
+</Fct>
+<Fct c="10" el="6028" l="6010" n="contabiliza_nota()" t="F" v="pub">
+<Call c="13" l="6017" n="gen_comp_factura_n" t="F"/>
+<Call c="13" l="6018" n="gen_comp_factura_s_n" t="F"/>
+<Call c="13" l="6019" n="gen_comp_factura_b_n" t="F"/>
+</Fct>
+<Fct c="8" el="6008" l="5936" n="norarqgennnfac(tp RECORD,mprefijo CHAR(5))" t="R" v="pub"/>
+<Fct c="10" el="5935" l="5838" n="detalladonota()" t="F" v="pub">
+<Call c="7" l="5863" n="confecr" p="fe_main.4gl" t="F"/>
+<Call c="15" l="5890" n="norarqgennnfac" t="R"/>
+<Call c="20" l="5930" n="norarqgennnfac" t="R"/>
+<Call c="16" l="5932" n="norarqgennnfac" t="R"/>
+<Call c="7" l="5933" n="impsn" p="fe_factura.4gl" t="F"/>
+</Fct>
+<Fct c="8" el="5835" l="5778" n="norprec_xls()" t="R" v="pub"/>
+<Fct c="8" el="5776" l="5738" n="norprec_xls_ant()" t="R" v="pub"/>
+<Fct c="10" el="5736" l="5648" n="rep_notas()" t="F" v="pub">
+<Call c="7" l="5674" n="confecr" p="fe_main.4gl" t="F"/>
+<Call c="17" l="5687" n="norprec_xls" t="R"/>
+<Call c="18" l="5689" n="configureOutput_excel" p="fe_main.4gl" t="F"/>
+<Call c="17" l="5690" n="norprec_xls" t="R"/>
+<Call c="18" l="5707" n="nomredondea" p="fe_factura.4gl" t="F"/>
+<Call c="18" l="5708" n="nomredondea" p="fe_factura.4gl" t="F"/>
+<Call c="18" l="5709" n="nomredondea" p="fe_factura.4gl" t="F"/>
+<Call c="21" l="5726" n="norprec_xls" t="R"/>
+<Call c="16" l="5728" n="norprec_xls" t="R"/>
+<Call c="9" l="5734" n="impsn" p="fe_factura.4gl" t="F"/>
+</Fct>
+<Fct c="10" el="5645" l="5330" n="gen_comp_nota_s()" t="F" v="pub">
+<Call c="7" l="5388" n="FGL_WINMESSAGE" t="F"/>
+<Call c="7" l="5392" n="FGL_WINMESSAGE" t="F"/>
+<Call c="6" l="5396" n="doccopcon141_niif" p="fe_factura.4gl" t="F"/>
+<Call c="7" l="5434" n="FGL_WINMESSAGE" t="F"/>
+<Call c="7" l="5444" n="FGL_WINMESSAGE" t="F"/>
+<Call c="7" l="5638" n="FGL_WINMESSAGE" t="F"/>
+<Call c="7" l="5641" n="FGL_WINMESSAGE" t="F"/>
+</Fct>
+<Fct c="10" el="5328" l="4856" n="gen_comp_nota()" t="F" v="pub">
+<Call c="6" l="4907" n="doccopcon141_niif" p="fe_factura.4gl" t="F"/>
+<Call c="7" l="4945" n="FGL_WINMESSAGE" t="F"/>
+<Call c="7" l="4955" n="FGL_WINMESSAGE" t="F"/>
+<Call c="22" l="5005" n="nomredondea" p="fe_factura.4gl" t="F"/>
+<Call c="23" l="5006" n="nomredondea" p="fe_factura.4gl" t="F"/>
+<Call c="7" l="5324" n="FGL_WINMESSAGE" t="F"/>
+</Fct>
+<Fct c="10" el="4853" l="3892" n="fe_nota_mupdate()" t="F" v="pub">
+<Call c="7" l="3903" n="fe_nota_minitta" t="F"/>
+<Call c="8" l="3908" n="fe_nota_mrownull" t="F"/>
+<Call c="8" l="3924" n="FGL_WINMESSAGE" t="F"/>
+<Call c="8" l="3932" n="FGL_WINMESSAGE" t="F"/>
+<Call c="10" l="3940" n="FGL_WINMESSAGE" t="F"/>
+<Call c="11" l="3944" n="FGL_WINMESSAGE" t="F"/>
+<Call c="11" l="3948" n="FGL_WINMESSAGE" t="F"/>
+<Call c="10" l="3956" n="FGL_WINMESSAGE" t="F"/>
+<Call c="11" l="3961" n="FGL_WINMESSAGE" t="F"/>
+<Call c="11" l="3968" n="FGL_WINMESSAGE" t="F"/>
+<Call c="11" l="3976" n="FGL_WINMESSAGE" t="F"/>
+<Call c="10" l="3989" n="fe_prefijosval" p="fe_servicios.4gl" t="F"/>
+<Call c="12" l="4016" n="fe_prefijosval" p="fe_servicios.4gl" t="F"/>
+<Call c="11" l="4056" n="fe_factura_mval2" p="fe_comgen.4gl" t="F"/>
+<Call c="13" l="4058" n="FGL_WINMESSAGE" t="F"/>
+<Call c="11" l="4069" n="FGL_WINMESSAGE" t="F"/>
+<Call c="11" l="4073" n="FGL_WINMESSAGE" t="F"/>
+<Call c="11" l="4082" n="FGL_WINMESSAGE" t="F"/>
+<Call c="10" l="4134" n="FGL_WINMESSAGE" t="F"/>
+<Call c="11" l="4138" n="FGL_WINMESSAGE" t="F"/>
+<Call c="10" l="4145" n="FGL_WINMESSAGE" t="F"/>
+<Call c="10" l="4149" n="FGL_WINMESSAGE" t="F"/>
+<Call c="10" l="4153" n="FGL_WINMESSAGE" t="F"/>
+<Call c="10" l="4157" n="FGL_WINMESSAGE" t="F"/>
+<Call c="11" l="4162" n="FGL_WINMESSAGE" t="F"/>
+<Call c="11" l="4169" n="FGL_WINMESSAGE" t="F"/>
+<Call c="10" l="4174" n="FGL_WINMESSAGE" t="F"/>
+<Call c="10" l="4178" n="FGL_WINMESSAGE" t="F"/>
+<Call c="10" l="4182" n="FGL_WINMESSAGE" t="F"/>
+<Call c="10" l="4192" n="fe_nota_mgetdetaill" t="F"/>
+<Call c="10" l="4193" n="fe_nota_mdetaill" t="F"/>
+<Call c="10" l="4202" n="FGL_WINMESSAGE" t="F"/>
+<Call c="10" l="4206" n="FGL_WINMESSAGE" t="F"/>
+<Call c="10" l="4210" n="FGL_WINMESSAGE" t="F"/>
+<Call c="10" l="4214" n="FGL_WINMESSAGE" t="F"/>
+<Call c="11" l="4220" n="FGL_WINMESSAGE" t="F"/>
+<Call c="11" l="4227" n="FGL_WINMESSAGE" t="F"/>
+<Call c="10" l="4236" n="FGL_WINMESSAGE" t="F"/>
+<Call c="10" l="4240" n="FGL_WINMESSAGE" t="F"/>
+<Call c="8" l="4246" n="FGL_WINMESSAGE" t="F"/>
+<Call c="8" l="4249" n="fe_nota_minitta" t="F"/>
+<Call c="7" l="4252" n="fe_nota_mgetdetaill" t="F"/>
+<Call c="7" l="4253" n="fe_nota_mdetaill" t="F"/>
+<Call c="10" l="4262" n="fe_serviciosval2" p="fe_tarifas.4gl" t="F"/>
+<Call c="11" l="4268" n="FGL_WINMESSAGE" t="F"/>
+<Call c="11" l="4274" n="FGL_WINMESSAGE" t="F"/>
+<Call c="13" l="4286" n="FGL_WINMESSAGE" t="F"/>
+<Call c="12" l="4295" n="FGL_WINMESSAGE" t="F"/>
+<Call c="12" l="4301" n="FGL_WINMESSAGE" t="F"/>
+<Call c="13" l="4352" n="FGL_WINMESSAGE" t="F"/>
+<Call c="13" l="4359" n="FGL_WINMESSAGE" t="F"/>
+<Call c="17" l="4497" n="FGL_WINMESSAGE" t="F"/>
+<Call c="17" l="4502" n="FGL_WINMESSAGE" t="F"/>
+<Call c="11" l="4565" n="FGL_WINMESSAGE" t="F"/>
+<Call c="10" l="4575" n="fe_sub_serviciosval" p="fe_tarifas.4gl" t="F"/>
+<Call c="11" l="4581" n="FGL_WINMESSAGE" t="F"/>
+<Call c="11" l="4587" n="FGL_WINMESSAGE" t="F"/>
+<Call c="12" l="4599" n="FGL_WINMESSAGE" t="F"/>
+<Call c="12" l="4605" n="FGL_WINMESSAGE" t="F"/>
+<Call c="10" l="4620" n="fe_beneficiosval" p="fe_beneficios.4gl" t="F"/>
+<Call c="11" l="4626" n="FGL_WINMESSAGE" t="F"/>
+<Call c="11" l="4632" n="FGL_WINMESSAGE" t="F"/>
+<Call c="12" l="4643" n="FGL_WINMESSAGE" t="F"/>
+<Call c="12" l="4649" n="FGL_WINMESSAGE" t="F"/>
+<Call c="15" l="4666" n="fe_categoriasval" p="fe_factura.4gl" t="F"/>
+<Call c="17" l="4672" n="FGL_WINMESSAGE" t="F"/>
+<Call c="17" l="4683" n="FGL_WINMESSAGE" t="F"/>
+<Call c="12" l="4703" n="FGL_WINMESSAGE" t="F"/>
+<Call c="14" l="4714" n="FGL_WINMESSAGE" t="F"/>
+<Call c="10" l="4732" n="FGL_WINMESSAGE" t="F"/>
+<Call c="10" l="4741" n="FGL_WINMESSAGE" t="F"/>
+<Call c="11" l="4752" n="FGL_WINMESSAGE" t="F"/>
+<Call c="9" l="4761" n="mvalornota" t="F"/>
+<Call c="9" l="4779" n="FGL_WINMESSAGE" t="F"/>
+<Call c="9" l="4781" n="fe_nota_minitta" t="F"/>
+<Call c="10" l="4812" n="fe_nota_mrownull" t="F"/>
+<Call c="9" l="4840" n="fe_nota_mrownull" t="F"/>
+<Call c="8" l="4846" n="fe_nota_mdetail" t="F"/>
+<Call c="8" l="4847" n="FGL_WINMESSAGE" t="F"/>
+<Call c="8" l="4850" n="FGL_WINMESSAGE" t="F"/>
+</Fct>
+<Fct c="8" el="3890" l="3754" n="brnota(mtotfacc unknown,mtotivaa unknown)" t="R" v="pub">
+<Call c="14" l="3856" n="nomredondea" p="fe_factura.4gl" t="F"/>
+<Call c="14" l="3857" n="nomredondea" p="fe_factura.4gl" t="F"/>
+<Call c="14" l="3858" n="nomredondea" p="fe_factura.4gl" t="F"/>
+<Call c="14" l="3867" n="nomredondea" p="fe_factura.4gl" t="F"/>
+<Call c="7" l="3868" n="letras" p="fe_factura.4gl" t="F"/>
+<Call c="20" l="3881" n="nomredondea" p="fe_factura.4gl" t="F"/>
+</Fct>
+<Fct c="10" el="3753" l="3678" n="imprime_ordenn()" t="F" v="pub">
+<Call c="9" l="3708" n="FGL_WINMESSAGE" t="F"/>
+<Call c="14" l="3716" n="brnota" t="R"/>
+<Call c="14" l="3730" n="nomredondea" p="fe_factura.4gl" t="F"/>
+<Call c="19" l="3749" n="brnota" t="R"/>
+<Call c="15" l="3751" n="brnota" t="R"/>
+<Call c="6" l="3752" n="impsn" p="fe_factura.4gl" t="F"/>
+</Fct>
+<Fct c="10" el="3675" l="3322" n="gen_comp_factura_b_n()" t="F" v="pub">
+<Call c="7" l="3385" n="FGL_WINMESSAGE" t="F"/>
+<Call c="7" l="3389" n="FGL_WINMESSAGE" t="F"/>
+<Call c="6" l="3393" n="doccopcon141_niif" p="fe_factura.4gl" t="F"/>
+<Call c="7" l="3431" n="FGL_WINMESSAGE" t="F"/>
+<Call c="7" l="3441" n="FGL_WINMESSAGE" t="F"/>
+<Call c="7" l="3668" n="FGL_WINMESSAGE" t="F"/>
+<Call c="7" l="3671" n="FGL_WINMESSAGE" t="F"/>
+</Fct>
+<Fct c="10" el="3319" l="2963" n="gen_comp_factura_a_n()" t="F" v="pub">
+<Call c="7" l="3027" n="FGL_WINMESSAGE" t="F"/>
+<Call c="7" l="3031" n="FGL_WINMESSAGE" t="F"/>
+<Call c="6" l="3035" n="doccopcon141_niif" p="fe_factura.4gl" t="F"/>
+<Call c="7" l="3073" n="FGL_WINMESSAGE" t="F"/>
+<Call c="7" l="3083" n="FGL_WINMESSAGE" t="F"/>
+<Call c="7" l="3312" n="FGL_WINMESSAGE" t="F"/>
+<Call c="7" l="3315" n="FGL_WINMESSAGE" t="F"/>
+</Fct>
+<Fct c="10" el="2960" l="2643" n="gen_comp_factura_s_n()" t="F" v="pub">
+<Call c="7" l="2701" n="FGL_WINMESSAGE" t="F"/>
+<Call c="7" l="2705" n="FGL_WINMESSAGE" t="F"/>
+<Call c="6" l="2709" n="doccopcon141_niif" p="fe_factura.4gl" t="F"/>
+<Call c="7" l="2747" n="FGL_WINMESSAGE" t="F"/>
+<Call c="7" l="2757" n="FGL_WINMESSAGE" t="F"/>
+<Call c="7" l="2953" n="FGL_WINMESSAGE" t="F"/>
+<Call c="7" l="2956" n="FGL_WINMESSAGE" t="F"/>
+</Fct>
+<Fct c="10" el="2641" l="1987" n="gen_comp_factura_n()" t="F" v="pub">
+<Call c="6" l="2078" n="doccopcon141_niif" p="fe_factura.4gl" t="F"/>
+<Call c="7" l="2116" n="FGL_WINMESSAGE" t="F"/>
+<Call c="7" l="2126" n="FGL_WINMESSAGE" t="F"/>
+<Call c="25" l="2178" n="nomredondea" p="fe_factura.4gl" t="F"/>
+<Call c="26" l="2179" n="nomredondea" p="fe_factura.4gl" t="F"/>
+<Call c="7" l="2637" n="FGL_WINMESSAGE" t="F"/>
+</Fct>
+<Fct c="8" el="1985" l="1762" n="archinota(mtotfacc unknown,mtotivaa unknown,mtotimpcc unknown,op CHAR(1))" t="R" v="pub">
+<Call c="8" l="1795" n="letras" p="fe_factura.4gl" t="F"/>
+</Fct>
+<Fct c="10" el="1760" l="1618" n="aprueba_nota()" t="F" v="pub"/>
+<Fct c="10" el="1616" l="1602" n="mvalornota(y INTEGER)" t="F" v="pub">
+<Call c="26" l="1606" n="nomredondea" p="fe_factura.4gl" t="F"/>
+<Call c="27" l="1611" n="nomredondea" p="fe_factura.4gl" t="F"/>
+</Fct>
+<Fct c="10" el="1601" l="1540" n="fe_nota_mshowview(currrow INTEGER,prevrow INTEGER,pagenum INTEGER)" t="F" v="pub"/>
+<Fct c="10" el="1539" l="1410" n="fe_nota_mview()" t="F" v="pub">
+<Call c="8" l="1437" n="FGL_WINMESSAGE" t="F"/>
+<Call c="7" l="1460" n="fe_nota_mshowview" t="F"/>
+<Call c="9" l="1471" n="fe_nota_mshowview" t="F"/>
+<Call c="9" l="1482" n="fe_nota_mshowview" t="F"/>
+<Call c="9" l="1493" n="fe_nota_mshowview" t="F"/>
+<Call c="9" l="1504" n="fe_nota_mshowview" t="F"/>
+<Call c="9" l="1528" n="fe_nota_mshowview" t="F"/>
+</Fct>
+<Fct c="10" el="1409" l="1235" n="fe_nota_mquery(exist SMALLINT)" t="F" v="pub">
+<Call c="8" l="1256" n="FGL_WINMESSAGE" t="F"/>
+<Call c="8" l="1276" n="fe_nota_mgetcurr" t="F"/>
+<Call c="8" l="1277" n="fe_nota_mshowcurr" t="F"/>
+<Call c="8" l="1281" n="FGL_WINMESSAGE" t="F"/>
+<Call c="9" l="1292" n="fe_nota_mgetcurr" t="F"/>
+<Call c="9" l="1293" n="fe_nota_mshowcurr" t="F"/>
+<Call c="9" l="1298" n="fe_nota_mgetcurr" t="F"/>
+<Call c="9" l="1299" n="fe_nota_mshowcurr" t="F"/>
+<Call c="9" l="1309" n="fe_nota_mgetcurr" t="F"/>
+<Call c="9" l="1310" n="fe_nota_mshowcurr" t="F"/>
+<Call c="9" l="1320" n="fe_nota_mgetcurr" t="F"/>
+<Call c="9" l="1321" n="fe_nota_mshowcurr" t="F"/>
+<Call c="9" l="1324" n="opcion" p="fe_main.4gl" t="F"/>
+<Call c="11" l="1329" n="fe_nota_mview" t="F"/>
+<Call c="11" l="1330" n="fe_nota_mdetail" t="F"/>
+<Call c="9" l="1336" n="opcion" p="fe_main.4gl" t="F"/>
+<Call c="11" l="1342" n="fe_nota_mupdate" t="F"/>
+<Call c="11" l="1346" n="fe_nota_mgetcurr" t="F"/>
+<Call c="11" l="1347" n="fe_nota_mshowcurr" t="F"/>
+<Call c="9" l="1354" n="opcion" p="fe_main.4gl" t="F"/>
+<Call c="11" l="1360" n="fe_nota_mremove" t="F"/>
+<Call c="12" l="1367" n="fe_nota_mshowcurr" t="F"/>
+<Call c="9" l="1375" n="opcion" p="fe_main.4gl" t="F"/>
+<Call c="12" l="1382" n="aprueba_nota_2" t="F"/>
+<Call c="12" l="1384" n="FGL_WINMESSAGE" t="F"/>
+<Call c="11" l="1392" n="fe_nota_mshowcurr" t="F"/>
+</Fct>
+<Fct c="10" el="1234" l="1225" n="fe_nota_mshowcurr(rownum INTEGER,maxnum INTEGER)" t="F" v="pub">
+<Call c="7" l="1233" n="fe_nota_mdetail" t="F"/>
+</Fct>
+<Fct c="10" el="1224" l="1209" n="fe_nota_mgetcurr(tptipo unknown,tpdocumento unknown)" t="F" v="pub">
+<Call c="7" l="1223" n="fe_nota_mgetdetail" t="F"/>
+</Fct>
+<Fct c="10" el="1208" l="239" n="fe_nota_madd()" t="F" v="pub">
+<Call c="7" l="253" n="fe_nota_minitta" t="F"/>
+<Call c="10" l="262" n="FGL_WINMESSAGE" t="F"/>
+<Call c="10" l="293" n="FGL_WINMESSAGE" t="F"/>
+<Call c="10" l="299" n="FGL_WINMESSAGE" t="F"/>
+<Call c="11" l="303" n="FGL_WINMESSAGE" t="F"/>
+<Call c="11" l="307" n="FGL_WINMESSAGE" t="F"/>
+<Call c="10" l="315" n="FGL_WINMESSAGE" t="F"/>
+<Call c="11" l="320" n="FGL_WINMESSAGE" t="F"/>
+<Call c="11" l="327" n="FGL_WINMESSAGE" t="F"/>
+<Call c="11" l="335" n="FGL_WINMESSAGE" t="F"/>
+<Call c="10" l="348" n="fe_prefijosval" p="fe_servicios.4gl" t="F"/>
+<Call c="12" l="375" n="fe_prefijosval" p="fe_servicios.4gl" t="F"/>
+<Call c="11" l="415" n="fe_factura_mval2" p="fe_comgen.4gl" t="F"/>
+<Call c="13" l="417" n="FGL_WINMESSAGE" t="F"/>
+<Call c="11" l="429" n="FGL_WINMESSAGE" t="F"/>
+<Call c="11" l="433" n="FGL_WINMESSAGE" t="F"/>
+<Call c="11" l="442" n="FGL_WINMESSAGE" t="F"/>
+<Call c="10" l="505" n="FGL_WINMESSAGE" t="F"/>
+<Call c="11" l="509" n="FGL_WINMESSAGE" t="F"/>
+<Call c="10" l="516" n="FGL_WINMESSAGE" t="F"/>
+<Call c="10" l="520" n="FGL_WINMESSAGE" t="F"/>
+<Call c="10" l="524" n="FGL_WINMESSAGE" t="F"/>
+<Call c="10" l="528" n="FGL_WINMESSAGE" t="F"/>
+<Call c="11" l="533" n="FGL_WINMESSAGE" t="F"/>
+<Call c="11" l="540" n="FGL_WINMESSAGE" t="F"/>
+<Call c="10" l="545" n="FGL_WINMESSAGE" t="F"/>
+<Call c="10" l="549" n="FGL_WINMESSAGE" t="F"/>
+<Call c="10" l="553" n="FGL_WINMESSAGE" t="F"/>
+<Call c="10" l="563" n="fe_nota_mgetdetaill" t="F"/>
+<Call c="10" l="564" n="fe_nota_mdetaill" t="F"/>
+<Call c="10" l="573" n="FGL_WINMESSAGE" t="F"/>
+<Call c="10" l="577" n="FGL_WINMESSAGE" t="F"/>
+<Call c="10" l="581" n="FGL_WINMESSAGE" t="F"/>
+<Call c="10" l="585" n="FGL_WINMESSAGE" t="F"/>
+<Call c="11" l="591" n="FGL_WINMESSAGE" t="F"/>
+<Call c="11" l="598" n="FGL_WINMESSAGE" t="F"/>
+<Call c="10" l="607" n="FGL_WINMESSAGE" t="F"/>
+<Call c="10" l="611" n="FGL_WINMESSAGE" t="F"/>
+<Call c="8" l="617" n="FGL_WINMESSAGE" t="F"/>
+<Call c="8" l="620" n="fe_nota_minitta" t="F"/>
+<Call c="7" l="623" n="fe_nota_mgetdetaill" t="F"/>
+<Call c="7" l="624" n="fe_nota_mdetaill" t="F"/>
+<Call c="10" l="633" n="fe_serviciosval2" p="fe_tarifas.4gl" t="F"/>
+<Call c="11" l="639" n="FGL_WINMESSAGE" t="F"/>
+<Call c="11" l="645" n="FGL_WINMESSAGE" t="F"/>
+<Call c="13" l="657" n="FGL_WINMESSAGE" t="F"/>
+<Call c="12" l="666" n="FGL_WINMESSAGE" t="F"/>
+<Call c="12" l="672" n="FGL_WINMESSAGE" t="F"/>
+<Call c="13" l="723" n="FGL_WINMESSAGE" t="F"/>
+<Call c="13" l="730" n="FGL_WINMESSAGE" t="F"/>
+<Call c="17" l="868" n="FGL_WINMESSAGE" t="F"/>
+<Call c="17" l="873" n="FGL_WINMESSAGE" t="F"/>
+<Call c="11" l="936" n="FGL_WINMESSAGE" t="F"/>
+<Call c="10" l="946" n="fe_sub_serviciosval" p="fe_tarifas.4gl" t="F"/>
+<Call c="11" l="952" n="FGL_WINMESSAGE" t="F"/>
+<Call c="11" l="958" n="FGL_WINMESSAGE" t="F"/>
+<Call c="12" l="970" n="FGL_WINMESSAGE" t="F"/>
+<Call c="12" l="976" n="FGL_WINMESSAGE" t="F"/>
+<Call c="10" l="991" n="fe_beneficiosval" p="fe_beneficios.4gl" t="F"/>
+<Call c="11" l="997" n="FGL_WINMESSAGE" t="F"/>
+<Call c="11" l="1003" n="FGL_WINMESSAGE" t="F"/>
+<Call c="12" l="1014" n="FGL_WINMESSAGE" t="F"/>
+<Call c="12" l="1020" n="FGL_WINMESSAGE" t="F"/>
+<Call c="15" l="1037" n="fe_categoriasval" p="fe_factura.4gl" t="F"/>
+<Call c="17" l="1043" n="FGL_WINMESSAGE" t="F"/>
+<Call c="17" l="1054" n="FGL_WINMESSAGE" t="F"/>
+<Call c="12" l="1074" n="FGL_WINMESSAGE" t="F"/>
+<Call c="14" l="1085" n="FGL_WINMESSAGE" t="F"/>
+<Call c="10" l="1103" n="FGL_WINMESSAGE" t="F"/>
+<Call c="10" l="1112" n="FGL_WINMESSAGE" t="F"/>
+<Call c="11" l="1123" n="FGL_WINMESSAGE" t="F"/>
+<Call c="9" l="1132" n="mvalornota" t="F"/>
+<Call c="8" l="1152" n="FGL_WINMESSAGE" t="F"/>
+<Call c="8" l="1154" n="fe_nota_minitta" t="F"/>
+<Call c="8" l="1170" n="fe_nota_mrownull" t="F"/>
+<Call c="8" l="1196" n="fe_nota_mrownull" t="F"/>
+<Call c="7" l="1202" n="FGL_WINMESSAGE" t="F"/>
+<Call c="7" l="1205" n="FGL_WINMESSAGE" t="F"/>
+</Fct>
+<Fct c="10" el="238" l="234" n="fe_nota_mdetaill()" t="F" v="pub"/>
+<Fct c="10" el="233" l="203" n="fe_nota_mgetdetaill()" t="F" v="pub">
+<Call c="7" l="205" n="fe_nota_minitga" t="F"/>
+</Fct>
+<Fct c="10" el="202" l="174" n="fe_nota_mgetdetail()" t="F" v="pub">
+<Call c="7" l="176" n="fe_nota_minitga" t="F"/>
+</Fct>
+<Fct c="10" el="173" l="158" n="fe_nota_mrownull(x SMALLINT)" t="F" v="pub"/>
+<Fct c="10" el="157" l="152" n="fe_nota_mgatota()" t="F" v="pub"/>
+<Fct c="10" el="151" l="146" n="fe_nota_mtatoga()" t="F" v="pub"/>
+<Fct c="10" el="145" l="117" n="fe_nota_mdetail()" t="F" v="pub"/>
+<Fct c="10" el="116" l="111" n="fe_nota_minitta()" t="F" v="pub"/>
+<Fct c="10" el="110" l="105" n="fe_nota_minitga()" t="F" v="pub"/>
+<Fct c="10" el="104" l="12" n="fe_nota_mmain()" t="F" v="pub">
+<Call c="8" l="58" n="fe_nota_minitga" t="F"/>
+<Call c="8" l="59" n="fe_nota_minitta" t="F"/>
+<Call c="9" l="63" n="opcion" p="fe_main.4gl" t="F"/>
+<Call c="10" l="65" n="fe_nota_madd" t="F"/>
+<Call c="10" l="72" n="fe_nota_mdetail" t="F"/>
+<Call c="9" l="76" n="opcion" p="fe_main.4gl" t="F"/>
+<Call c="10" l="78" n="fe_nota_mquery" t="F"/>
+<Call c="10" l="84" n="fe_nota_mdetail" t="F"/>
+<Call c="9" l="88" n="opcion" p="fe_main.4gl" t="F"/>
+<Call c="11" l="91" n="FGL_WINMESSAGE" t="F"/>
+<Call c="11" l="93" n="fe_nota_mview" t="F"/>
+<Call c="11" l="94" n="fe_nota_mdetail" t="F"/>
+</Fct>
+</File>
+<File m="fe_prefijos" n="fe_prefijos.4gl" ts="20210304104810830">
+<Ref t="fe_globales.4gl"/>
+<Fct c="8" el="930" l="887" n="rprefijos()" t="R" v="pub"/>
+<Fct c="10" el="886" l="870" n="rep_prefijos()" t="F" v="pub">
+<Call c="14" l="875" n="rprefijos" t="R"/>
+<Call c="19" l="882" n="rprefijos" t="R"/>
+<Call c="15" l="884" n="rprefijos" t="R"/>
+<Call c="6" l="885" n="impsn" p="fe_factura.4gl" t="F"/>
+</Fct>
+<Fct c="10" el="868" l="743" n="prefijosquery(exist INTEGER)" t="F" v="pub">
+<Call c="8" l="782" n="prefijosgetcurr" t="F"/>
+<Call c="8" l="783" n="prefijosshowcurr" t="F"/>
+<Call c="9" l="804" n="prefijosgetcurr" t="F"/>
+<Call c="9" l="805" n="prefijosshowcurr" t="F"/>
+<Call c="9" l="815" n="prefijosgetcurr" t="F"/>
+<Call c="9" l="816" n="prefijosshowcurr" t="F"/>
+<Call c="9" l="819" n="opcion" p="fe_main.4gl" t="F"/>
+<Call c="12" l="825" n="prefijosupdate" t="F"/>
+<Call c="12" l="832" n="prefijosgetcurr" t="F"/>
+<Call c="12" l="833" n="prefijosshowcurr" t="F"/>
+<Call c="9" l="839" n="opcion" p="fe_main.4gl" t="F"/>
+<Call c="11" l="845" n="prefijosremove" t="F"/>
+<Call c="12" l="852" n="prefijosshowcurr" t="F"/>
+</Fct>
+<Fct c="10" el="741" l="732" n="prefijosshowcurr(rownum INTEGER,maxnum INTEGER)" t="F" v="pub">
+<Call c="7" l="740" n="prefijosdplyg" t="F"/>
+</Fct>
+<Fct c="10" el="730" l="723" n="prefijosgetcurr(tpprefijo unknown)" t="F" v="pub"/>
+<Fct c="10" el="721" l="459" n="prefijosupdate()" t="F" v="pub"/>
+<Fct c="10" el="457" l="173" n="prefijosadd()" t="F" v="pub"/>
+<Fct c="10" el="171" l="164" n="prefijosdplyg()" t="F" v="pub"/>
+<Fct c="10" el="162" l="104" n="prefijosremove()" t="F" v="pub"/>
+<Fct c="11" el="102" l="3" n="prefijosmain()" t="F" v="pub">
+<Call c="9" l="31" n="opcion" p="fe_main.4gl" t="F"/>
+<Call c="10" l="33" n="prefijosadd" t="F"/>
+<Call c="10" l="40" n="prefijosdplyg" t="F"/>
+<Call c="9" l="44" n="opcion" p="fe_main.4gl" t="F"/>
+<Call c="10" l="46" n="prefijosquery" t="F"/>
+<Call c="10" l="52" n="prefijosdplyg" t="F"/>
+<Call c="9" l="56" n="opcion" p="fe_main.4gl" t="F"/>
+<Call c="11" l="66" n="prefijosupdate" t="F"/>
+<Call c="10" l="72" n="prefijosdplyg" t="F"/>
+<Call c="9" l="76" n="opcion" p="fe_main.4gl" t="F"/>
+<Call c="11" l="86" n="prefijosremove" t="F"/>
+<Call c="10" l="94" n="prefijosdplyg" t="F"/>
+<Call c="10" l="97" n="rep_prefijos" t="F"/>
+</Fct>
+</File>
+<File m="fe_prefijos_usua" n="fe_prefijos_usua.4gl" ts="20191001103758354">
+<Ref t="fe_globales.4gl"/>
+<Fct c="10" el="100" l="93" n="linconrownull(x SMALLINT)" t="F" v="pub"/>
+<Fct c="10" el="410" l="290" n="linconquery(exist SMALLINT)" t="F" v="pub">
+<Call c="8" l="325" n="lincongetcurr" t="F"/>
+<Call c="8" l="326" n="linconshowcurr" t="F"/>
+<Call c="9" l="343" n="lincongetcurr" t="F"/>
+<Call c="9" l="344" n="linconshowcurr" t="F"/>
+<Call c="9" l="349" n="lincongetcurr" t="F"/>
+<Call c="9" l="350" n="linconshowcurr" t="F"/>
+<Call c="9" l="360" n="lincongetcurr" t="F"/>
+<Call c="9" l="361" n="linconshowcurr" t="F"/>
+<Call c="9" l="371" n="lincongetcurr" t="F"/>
+<Call c="9" l="372" n="linconshowcurr" t="F"/>
+<Call c="9" l="375" n="opcion" p="fe_main.4gl" t="F"/>
+<Call c="11" l="381" n="linconupdate" t="F"/>
+<Call c="11" l="388" n="lincongetcurr" t="F"/>
+<Call c="11" l="389" n="linconshowcurr" t="F"/>
+<Call c="8" l="406" n="linconinitga" t="F"/>
+</Fct>
+<Fct c="10" el="567" l="518" n="gener02row(currrow INTEGER,prevrow INTEGER,pagenum INTEGER)" t="F" v="pub"/>
+<Fct c="10" el="278" l="272" n="lincongetcurr(tpprefijo CHAR(5)" t="F" v="pub">
+<Call c="7" l="277" n="lincongetdetail" t="F"/>
+</Fct>
+<Fct c="10" el="517" l="411" n="gener02val()" t="F" v="pub">
+<Call c="8" l="425" n="FGL_WINMESSAGE" t="F"/>
+<Call c="7" l="452" n="gener02row" t="F"/>
+<Call c="9" l="464" n="gener02row" t="F"/>
+<Call c="9" l="476" n="gener02row" t="F"/>
+<Call c="9" l="500" n="gener02row" t="F"/>
+</Fct>
+<Fct c="10" el="92" l="87" n="lincongatota()" t="F" v="pub"/>
+<Fct c="10" el="86" l="81" n="lincontatoga()" t="F" v="pub"/>
+<Fct c="10" el="270" l="117" n="linconupdate()" t="F" v="pub">
+<Call c="7" l="124" n="linconinitta" t="F"/>
+<Call c="8" l="129" n="linconrownull" t="F"/>
+<Call c="10" l="147" n="gener02val" t="F"/>
+<Call c="9" l="208" n="linconinitta" t="F"/>
+<Call c="9" l="249" n="linconrownull" t="F"/>
+</Fct>
+<Fct c="10" el="72" l="67" n="linconinitta()" t="F" v="pub"/>
+<Fct c="10" el="66" l="61" n="linconinitga()" t="F" v="pub"/>
+<Fct c="10" el="60" l="10" n="prefijosusumain()" t="F" v="pub">
+<Call c="7" l="19" n="linconinitga" t="F"/>
+<Call c="7" l="20" n="linconinitta" t="F"/>
+<Call c="9" l="24" n="opcion" p="fe_main.4gl" t="F"/>
+<Call c="10" l="26" n="linconquery" t="F"/>
+<Call c="10" l="32" n="lincondetail" t="F"/>
+<Call c="9" l="36" n="opcion" p="fe_main.4gl" t="F"/>
+<Call c="11" l="46" n="linconupdate" t="F"/>
+<Call c="10" l="52" n="lincondetail" t="F"/>
+</Fct>
+<Fct c="10" el="289" l="279" n="linconshowcurr(rownum INTEGER,maxnum INTEGER)" t="F" v="pub">
+<Call c="7" l="288" n="lincondetail" t="F"/>
+</Fct>
+<Fct c="10" el="116" l="101" n="lincongetdetail()" t="F" v="pub">
+<Call c="7" l="103" n="linconinitga" t="F"/>
+</Fct>
+<Fct c="10" el="80" l="73" n="lincondetail()" t="F" v="pub"/>
+</File>
+<File m="fe_prefijos_usum" n="fe_prefijos_usum.4gl" ts="20190924175026545">
+<Ref t="fe_globales.4gl"/>
+<Fct c="10" el="74" l="69" n="linconinittaa()" t="F" v="pub"/>
+<Fct c="10" el="321" l="311" n="linconshowcurrr(rownum INTEGER,maxnum INTEGER)" t="F" v="pub">
+<Call c="7" l="320" n="lincondetaill" t="F"/>
+</Fct>
+<Fct c="10" el="68" l="63" n="linconinitgaa()" t="F" v="pub"/>
+<Fct c="10" el="62" l="12" n="prefijosusuumain()" t="F" v="pub">
+<Call c="7" l="21" n="linconinitgaa" t="F"/>
+<Call c="7" l="22" n="linconinittaa" t="F"/>
+<Call c="9" l="26" n="opcion" p="fe_main.4gl" t="F"/>
+<Call c="10" l="28" n="linconqueryy" t="F"/>
+<Call c="10" l="34" n="lincondetaill" t="F"/>
+<Call c="9" l="38" n="opcion" p="fe_main.4gl" t="F"/>
+<Call c="11" l="48" n="linconupdatee" t="F"/>
+<Call c="10" l="54" n="lincondetaill" t="F"/>
+</Fct>
+<Fct c="10" el="310" l="304" n="lincongetcurrr(tpprefijo CHAR(5)" t="F" v="pub">
+<Call c="7" l="309" n="lincongetdetaill" t="F"/>
+</Fct>
+<Fct c="10" el="118" l="103" n="lincongetdetaill()" t="F" v="pub">
+<Call c="7" l="105" n="linconinitgaa" t="F"/>
+</Fct>
+<Fct c="10" el="82" l="75" n="lincondetaill()" t="F" v="pub"/>
+<Fct c="10" el="102" l="95" n="linconrownulll(x SMALLINT)" t="F" v="pub"/>
+<Fct c="10" el="442" l="322" n="linconqueryy(exist SMALLINT)" t="F" v="pub">
+<Call c="8" l="357" n="lincongetcurrr" t="F"/>
+<Call c="8" l="358" n="linconshowcurrr" t="F"/>
+<Call c="9" l="375" n="lincongetcurrr" t="F"/>
+<Call c="9" l="376" n="linconshowcurrr" t="F"/>
+<Call c="9" l="381" n="lincongetcurrr" t="F"/>
+<Call c="9" l="382" n="linconshowcurrr" t="F"/>
+<Call c="9" l="392" n="lincongetcurrr" t="F"/>
+<Call c="9" l="393" n="linconshowcurrr" t="F"/>
+<Call c="9" l="403" n="lincongetcurrr" t="F"/>
+<Call c="9" l="404" n="linconshowcurrr" t="F"/>
+<Call c="9" l="407" n="opcion" p="fe_main.4gl" t="F"/>
+<Call c="11" l="413" n="linconupdatee" t="F"/>
+<Call c="11" l="420" n="lincongetcurrr" t="F"/>
+<Call c="11" l="421" n="linconshowcurrr" t="F"/>
+<Call c="8" l="438" n="linconinitgaa" t="F"/>
+</Fct>
+<Fct c="10" el="94" l="89" n="lincongatotaa()" t="F" v="pub"/>
+<Fct c="10" el="88" l="83" n="lincontatogaa()" t="F" v="pub"/>
+<Fct c="10" el="302" l="119" n="linconupdatee()" t="F" v="pub">
+<Call c="7" l="126" n="linconinittaa" t="F"/>
+<Call c="8" l="131" n="linconrownulll" t="F"/>
+<Call c="10" l="149" n="gener02val" p="fe_prefijos_usua.4gl" t="F"/>
+<Call c="9" l="240" n="linconinittaa" t="F"/>
+<Call c="9" l="281" n="linconrownulll" t="F"/>
+</Fct>
+</File>
+<File m="fe_reportes" n="fe_reportes.4gl" ts="20210304104810808">
+<Ref t="fe_globales.4gl"/>
+<Fct c="8" el="3403" l="3337" n="resumendev_ssf2(tp RECORD)" t="R" v="pub"/>
+<Fct c="10" el="3336" l="3241" n="resdev_tarifas()" t="F" v="pub">
+<Call c="6" l="3262" n="confecr" p="fe_main.4gl" t="F"/>
+<Call c="17" l="3284" n="resumendev_ssf2" t="R"/>
+<Call c="18" l="3286" n="configureOutput_excel" p="fe_main.4gl" t="F"/>
+<Call c="17" l="3287" n="resumendev_ssf2" t="R"/>
+<Call c="19" l="3329" n="resumendev_ssf2" t="R"/>
+<Call c="15" l="3331" n="resumendev_ssf2" t="R"/>
+<Call c="8" l="3333" n="impsn" p="fe_factura.4gl" t="F"/>
+</Fct>
+<Fct c="8" el="3239" l="3172" n="terley115_txtpp(mprefijo CHAR(5),tpreg RECORD)" t="R" v="pub"/>
+<Fct c="10" el="3170" l="2989" n="rep_ley115_microd()" t="F" v="pub">
+<Call c="7" l="3033" n="confecr" p="fe_main.4gl" t="F"/>
+<Call c="16" l="3045" n="terley115_txtpp" t="R"/>
+<Call c="17" l="3047" n="configureOutputt" p="fe_main.4gl" t="F"/>
+<Call c="16" l="3049" n="terley115_txtpp" t="R"/>
+<Call c="24" l="3157" n="terley115_txtpp" t="R"/>
+<Call c="18" l="3161" n="terley115_txtpp" t="R"/>
+<Call c="9" l="3166" n="impsn" p="fe_factura.4gl" t="F"/>
+<Call c="18" l="3168" n="terley115_txtpp" t="R"/>
+</Fct>
+<Fct c="8" el="2987" l="2887" n="repo_subdemanda(tp RECORD,mtiprep CHAR(1))" t="R" v="pub"/>
+<Fct c="10" el="2885" l="2685" n="subdem_ssf()" t="F" v="pub">
+<Call c="8" l="2706" n="confecr" p="fe_main.4gl" t="F"/>
+<Call c="17" l="2745" n="repo_subdemanda" t="R"/>
+<Call c="18" l="2747" n="configureOutput_excel" p="fe_main.4gl" t="F"/>
+<Call c="17" l="2748" n="repo_subdemanda" t="R"/>
+<Call c="19" l="2878" n="repo_subdemanda" t="R"/>
+<Call c="15" l="2880" n="repo_subdemanda" t="R"/>
+<Call c="8" l="2882" n="impsn" p="fe_factura.4gl" t="F"/>
+</Fct>
+<Fct c="8" el="2683" l="2616" n="resumentar_ssf2(tp RECORD)" t="R" v="pub"/>
+<Fct c="10" el="2614" l="2516" n="resing_tarifas()" t="F" v="pub">
+<Call c="6" l="2536" n="confecr" p="fe_main.4gl" t="F"/>
+<Call c="17" l="2559" n="resumentar_ssf2" t="R"/>
+<Call c="18" l="2561" n="configureOutput_excel" p="fe_main.4gl" t="F"/>
+<Call c="17" l="2562" n="resumentar_ssf2" t="R"/>
+<Call c="19" l="2607" n="resumentar_ssf2" t="R"/>
+<Call c="15" l="2609" n="resumentar_ssf2" t="R"/>
+<Call c="8" l="2611" n="impsn" p="fe_factura.4gl" t="F"/>
+</Fct>
+<Fct c="8" el="2514" l="2408" n="cobrep_resumen_ssf(tp RECORD)" t="R" v="pub"/>
+<Fct c="10" el="2406" l="2193" n="consol_coberturas()" t="F" v="pub">
+<Call c="6" l="2217" n="confecr" p="fe_main.4gl" t="F"/>
+<Call c="17" l="2243" n="cobrep_resumen_ssf" t="R"/>
+<Call c="18" l="2245" n="configureOutput_excel" p="fe_main.4gl" t="F"/>
+<Call c="17" l="2246" n="cobrep_resumen_ssf" t="R"/>
+<Call c="19" l="2398" n="cobrep_resumen_ssf" t="R"/>
+<Call c="15" l="2400" n="cobrep_resumen_ssf" t="R"/>
+<Call c="8" l="2402" n="impsn" p="fe_factura.4gl" t="F"/>
+</Fct>
+<Fct c="8" el="2191" l="2086" n="nuerep_resumen_ssf(tp RECORD,mprefijo CHAR(5))" t="R" v="pub"/>
+<Fct c="10" el="2084" l="2075" n="validarmes_col()" t="F" v="pub"/>
+<Fct c="10" el="2073" l="1755" n="ssf_circular_002()" t="F" v="pub">
+<Call c="6" l="1797" n="confecr" p="fe_main.4gl" t="F"/>
+<Call c="17" l="1825" n="nuerep_resumen_ssf" t="R"/>
+<Call c="18" l="1827" n="configureOutput_excel" p="fe_main.4gl" t="F"/>
+<Call c="17" l="1828" n="nuerep_resumen_ssf" t="R"/>
+<Call c="19" l="2065" n="nuerep_resumen_ssf" t="R"/>
+<Call c="15" l="2067" n="nuerep_resumen_ssf" t="R"/>
+<Call c="8" l="2069" n="impsn" p="fe_factura.4gl" t="F"/>
+</Fct>
+<Fct c="8" el="1753" l="1611" n="terrprec_txtpp2()" t="R" v="pub"/>
+<Fct c="8" el="1610" l="1489" n="terrprec_xlspp2()" t="R" v="pub"/>
+<Fct c="10" el="1488" l="1416" n="rep_facturas_ter2()" t="F" v="pub">
+<Call c="7" l="1438" n="confecr" p="fe_main.4gl" t="F"/>
+<Call c="16" l="1448" n="terrprec_txtpp2" t="R"/>
+<Call c="17" l="1450" n="configureOutputt" p="fe_main.4gl" t="F"/>
+<Call c="16" l="1451" n="terrprec_xlspp2" t="R"/>
+<Call c="27" l="1472" n="terrprec_txtpp2" t="R"/>
+<Call c="26" l="1474" n="terrprec_xlspp2" t="R"/>
+<Call c="18" l="1479" n="terrprec_txtpp2" t="R"/>
+<Call c="9" l="1484" n="impsn" p="fe_factura.4gl" t="F"/>
+<Call c="18" l="1486" n="terrprec_xlspp2" t="R"/>
+</Fct>
+<Fct c="10" el="1414" l="1294" n="imprime_factu_rr()" t="F" v="pub">
+<Call c="9" l="1340" n="FGL_WINMESSAGE" t="F"/>
+<Call c="10" l="1350" n="FGL_WINMESSAGE" t="F"/>
+<Call c="4" l="1366" n="fgl_report_loadCurrentSettings" t="F"/>
+<Call c="18" l="1367" n="fgl_report_commitCurrentSettings" t="F"/>
+<Call c="17" l="1368" n="hrfactu_rr" t="R"/>
+<Call c="16" l="1387" n="nomredondea" p="fe_factura.4gl" t="F"/>
+<Call c="24" l="1408" n="hrfactu_rr" t="R"/>
+<Call c="16" l="1412" n="hrfactu_rr" t="R"/>
+</Fct>
+<Fct c="8" el="1289" l="1219" n="mterrprec_xlspp()" t="R" v="pub"/>
+<Fct c="10" el="1216" l="1164" n="rep_facturas_movi()" t="F" v="pub">
+<Call c="7" l="1183" n="confecr" p="fe_main.4gl" t="F"/>
+<Call c="16" l="1190" n="configureOutput_excel" p="fe_main.4gl" t="F"/>
+<Call c="16" l="1192" n="mterrprec_xlspp" t="R"/>
+<Call c="23" l="1206" n="mterrprec_xlspp" t="R"/>
+<Call c="16" l="1210" n="mterrprec_xlspp" t="R"/>
+</Fct>
+<Fct c="8" el="1162" l="1065" n="terrprec_txtpp()" t="R" v="pub"/>
+<Fct c="8" el="1064" l="954" n="terrprec_xlspp()" t="R" v="pub"/>
+<Fct c="10" el="952" l="874" n="rep_facturas_ter()" t="F" v="pub">
+<Call c="7" l="902" n="confecr" p="fe_main.4gl" t="F"/>
+<Call c="16" l="912" n="terrprec_txtpp" t="R"/>
+<Call c="17" l="914" n="configureOutputt" p="fe_main.4gl" t="F"/>
+<Call c="16" l="916" n="terrprec_xlspp" t="R"/>
+<Call c="26" l="936" n="terrprec_txtpp" t="R"/>
+<Call c="26" l="938" n="terrprec_xlspp" t="R"/>
+<Call c="18" l="943" n="terrprec_txtpp" t="R"/>
+<Call c="9" l="948" n="impsn" p="fe_factura.4gl" t="F"/>
+<Call c="18" l="950" n="terrprec_xlspp" t="R"/>
+</Fct>
+<Fct c="8" el="872" l="800" n="rarqgennnfac(tp RECORD,mprefijo CHAR(5))" t="R" v="pub"/>
+<Fct c="10" el="799" l="702" n="detalladofactu()" t="F" v="pub">
+<Call c="7" l="726" n="confecr" p="fe_main.4gl" t="F"/>
+<Call c="15" l="752" n="rarqgennnfac" t="R"/>
+<Call c="20" l="794" n="rarqgennnfac" t="R"/>
+<Call c="16" l="796" n="rarqgennnfac" t="R"/>
+<Call c="7" l="797" n="impsn" p="fe_factura.4gl" t="F"/>
+</Fct>
+<Fct c="8" el="700" l="493" n="hrfactu_rr(mfe_factura_m RECORD,mfe_factura_d RECORD,mtotfacc unknown,mtotivaa unknown)" t="R" v="pub">
+<Call c="15" l="635" n="nomredondea" p="fe_factura.4gl" t="F"/>
+<Call c="15" l="636" n="nomredondea" p="fe_factura.4gl" t="F"/>
+<Call c="15" l="637" n="nomredondea" p="fe_factura.4gl" t="F"/>
+<Call c="7" l="677" n="letras" p="fe_factura.4gl" t="F"/>
+</Fct>
+<Fct c="8" el="489" l="249" n="hrfactu_r(mtotfacc unknown,mtotivaa unknown)" t="R" v="pub">
+<Call c="15" l="427" n="nomredondea" p="fe_factura.4gl" t="F"/>
+<Call c="15" l="428" n="nomredondea" p="fe_factura.4gl" t="F"/>
+<Call c="15" l="429" n="nomredondea" p="fe_factura.4gl" t="F"/>
+<Call c="7" l="466" n="letras" p="fe_factura.4gl" t="F"/>
+</Fct>
+<Fct c="8" el="247" l="130" n="rfactu_r(mtotfacc unknown,mtotivaa unknown)" t="R" v="pub">
+<Call c="16" l="221" n="nomredondea" p="fe_factura.4gl" t="F"/>
+<Call c="16" l="222" n="nomredondea" p="fe_factura.4gl" t="F"/>
+<Call c="16" l="223" n="nomredondea" p="fe_factura.4gl" t="F"/>
+<Call c="7" l="241" n="letras" p="fe_factura.4gl" t="F"/>
+</Fct>
+<Fct c="10" el="129" l="7" n="imprime_factu_r()" t="F" v="pub">
+<Call c="9" l="44" n="FGL_WINMESSAGE" t="F"/>
+<Call c="10" l="51" n="FGL_WINMESSAGE" t="F"/>
+<Call c="17" l="72" n="rfactu_r" t="R"/>
+<Call c="17" l="74" n="hrfactu_r" t="R"/>
+<Call c="8" l="77" n="fgl_report_loadCurrentSettings" t="F"/>
+<Call c="20" l="79" n="fgl_report_commitCurrentSettings" t="F"/>
+<Call c="19" l="80" n="hrfactu_r" t="R"/>
+<Call c="8" l="83" n="fgl_report_loadCurrentSettings" t="F"/>
+<Call c="20" l="85" n="fgl_report_commitCurrentSettings" t="F"/>
+<Call c="19" l="86" n="hrfactu_r" t="R"/>
+<Call c="16" l="96" n="nomredondea" p="fe_factura.4gl" t="F"/>
+<Call c="20" l="118" n="rfactu_r" t="R"/>
+<Call c="20" l="120" n="hrfactu_r" t="R"/>
+<Call c="16" l="124" n="rfactu_r" t="R"/>
+<Call c="7" l="125" n="impsn" p="fe_factura.4gl" t="F"/>
+<Call c="16" l="127" n="hrfactu_r" t="R"/>
+</Fct>
+</File>
+<File m="fe_respenvio" n="fe_respenvio.4gl" ts="20200823125024375">
+<Ref t="fe_globales.4gl"/>
+<Fct c="10" el="183" l="155" n="histrespdplyg()" t="F" v="pub"/>
+<Fct c="10" el="153" l="142" n="histrespshowcurr(rownum INTEGER,maxnum INTEGER)" t="F" v="pub">
+<Call c="7" l="152" n="histrespdplyg" t="F"/>
+</Fct>
+<Fct c="10" el="140" l="127" n="histrespgetcurr(tpprefijo unknown,tpnumfac unknown)" t="F" v="pub"/>
+<Fct c="10" el="124" l="3" n="con_hisrespenvio()" t="F" v="pub">
+<Call c="8" l="68" n="histrespgetcurr" t="F"/>
+<Call c="8" l="69" n="histrespshowcurr" t="F"/>
+<Call c="9" l="90" n="histrespgetcurr" t="F"/>
+<Call c="9" l="91" n="histrespshowcurr" t="F"/>
+<Call c="9" l="100" n="histrespgetcurr" t="F"/>
+<Call c="9" l="101" n="histrespshowcurr" t="F"/>
+</Fct>
+</File>
+<File m="fe_servicios" n="fe_servicios.4gl" ts="20200625110545108">
+<Ref t="fe_globales.4gl"/>
+<Fct c="10" el="982" l="933" n="fe_prefijosrow(currrow INTEGER,prevrow INTEGER,pagenum INTEGER)" t="F" v="pub"/>
+<Fct c="10" el="1210" l="1161" n="univalrow(currrow INTEGER,prevrow INTEGER,pagenum INTEGER)" t="F" v="pub"/>
+<Fct c="10" el="185" l="178" n="serviciosdplyg()" t="F" v="pub"/>
+<Fct c="10" el="461" l="187" n="serviciosadd()" t="F" v="pub">
+<Call c="12" l="250" n="unidval" t="F"/>
+</Fct>
+<Fct c="10" el="703" l="694" n="serviciosshowcurr(rownum INTEGER,maxnum INTEGER)" t="F" v="pub">
+<Call c="7" l="702" n="serviciosdplyg" t="F"/>
+</Fct>
+<Fct c="10" el="1002" l="985" n="rep_servicios()" t="F" v="pub">
+<Call c="14" l="990" n="rservicios" t="R"/>
+<Call c="19" l="998" n="rservicios" t="R"/>
+<Call c="15" l="1000" n="rservicios" t="R"/>
+<Call c="6" l="1001" n="impsn" p="fe_factura.4gl" t="F"/>
+</Fct>
+<Fct c="10" el="176" l="118" n="serviciosremove()" t="F" v="pub"/>
+<Fct c="10" el="692" l="687" n="serviciosgetcurr(tpcodigo CHAR(5)" t="F" v="pub"/>
+<Fct c="11" el="116" l="3" n="serviciosmain()" t="F" v="pub">
+<Call c="9" l="45" n="opcion" p="fe_main.4gl" t="F"/>
+<Call c="10" l="47" n="serviciosadd" t="F"/>
+<Call c="10" l="54" n="serviciosdplyg" t="F"/>
+<Call c="9" l="58" n="opcion" p="fe_main.4gl" t="F"/>
+<Call c="10" l="60" n="serviciosquery" t="F"/>
+<Call c="10" l="66" n="serviciosdplyg" t="F"/>
+<Call c="9" l="70" n="opcion" p="fe_main.4gl" t="F"/>
+<Call c="11" l="80" n="serviciosupdate" t="F"/>
+<Call c="10" l="86" n="serviciosdplyg" t="F"/>
+<Call c="9" l="90" n="opcion" p="fe_main.4gl" t="F"/>
+<Call c="11" l="100" n="serviciosremove" t="F"/>
+<Call c="10" l="108" n="serviciosdplyg" t="F"/>
+<Call c="10" l="111" n="rep_servicios" t="F"/>
+</Fct>
+<Fct c="10" el="685" l="463" n="serviciosupdate()" t="F" v="pub">
+<Call c="12" l="508" n="unidval" t="F"/>
+</Fct>
+<Fct c="10" el="1159" l="1051" n="unidval()" t="F" v="pub">
+<Call c="8" l="1065" n="FGL_WINMESSAGE" t="F"/>
+<Call c="7" l="1094" n="univalrow" t="F"/>
+<Call c="9" l="1106" n="univalrow" t="F"/>
+<Call c="9" l="1118" n="univalrow" t="F"/>
+<Call c="9" l="1142" n="univalrow" t="F"/>
+</Fct>
+<Fct c="10" el="833" l="705" n="serviciosquery(exist INTEGER)" t="F" v="pub">
+<Call c="8" l="747" n="serviciosgetcurr" t="F"/>
+<Call c="8" l="748" n="serviciosshowcurr" t="F"/>
+<Call c="9" l="769" n="serviciosgetcurr" t="F"/>
+<Call c="9" l="770" n="serviciosshowcurr" t="F"/>
+<Call c="9" l="780" n="serviciosgetcurr" t="F"/>
+<Call c="9" l="781" n="serviciosshowcurr" t="F"/>
+<Call c="9" l="784" n="opcion" p="fe_main.4gl" t="F"/>
+<Call c="12" l="790" n="serviciosupdate" t="F"/>
+<Call c="12" l="797" n="serviciosgetcurr" t="F"/>
+<Call c="12" l="798" n="serviciosshowcurr" t="F"/>
+<Call c="9" l="804" n="opcion" p="fe_main.4gl" t="F"/>
+<Call c="11" l="810" n="serviciosremove" t="F"/>
+<Call c="12" l="817" n="serviciosshowcurr" t="F"/>
+</Fct>
+<Fct c="10" el="932" l="835" n="fe_prefijosval()" t="F" v="pub">
+<Call c="8" l="850" n="FGL_WINMESSAGE" t="F"/>
+<Call c="7" l="867" n="fe_prefijosrow" t="F"/>
+<Call c="9" l="879" n="fe_prefijosrow" t="F"/>
+<Call c="9" l="891" n="fe_prefijosrow" t="F"/>
+<Call c="9" l="915" n="fe_prefijosrow" t="F"/>
+</Fct>
+<Fct c="8" el="1049" l="1003" n="rservicios()" t="R" v="pub"/>
+</File>
+<File m="fe_sub_servicios" n="fe_sub_servicios.4gl" ts="20191125160555559">
+<Ref t="fe_globales.4gl"/>
+<Fct c="8" el="699" l="653" n="rsubservicios()" t="R" v="pub"/>
+<Fct c="10" el="505" l="496" n="sub_serviciosshowcurr(rownum INTEGER,maxnum INTEGER)" t="F" v="pub">
+<Call c="7" l="504" n="sub_serviciosdplyg" t="F"/>
+</Fct>
+<Fct c="10" el="494" l="488" n="sub_serviciosgetcurr(tpcodigo CHAR(5)" t="F" v="pub"/>
+<Fct c="10" el="163" l="157" n="sub_serviciosdplyg()" t="F" v="pub"/>
+<Fct c="10" el="352" l="165" n="sub_serviciosadd()" t="F" v="pub">
+<Call c="12" l="220" n="fe_serviciosval" p="fe_tarifas.4gl" t="F"/>
+</Fct>
+<Fct c="10" el="652" l="636" n="rep_sservicios()" t="F" v="pub">
+<Call c="14" l="641" n="rsubservicios" t="R"/>
+<Call c="19" l="648" n="rsubservicios" t="R"/>
+<Call c="15" l="650" n="rsubservicios" t="R"/>
+<Call c="6" l="651" n="impsn" p="fe_factura.4gl" t="F"/>
+</Fct>
+<Fct c="10" el="155" l="95" n="sub_serviciosremove()" t="F" v="pub"/>
+<Fct c="11" el="93" l="3" n="sub_serviciosmain()" t="F" v="pub">
+<Call c="9" l="22" n="opcion" p="fe_main.4gl" t="F"/>
+<Call c="10" l="24" n="sub_serviciosadd" t="F"/>
+<Call c="10" l="31" n="sub_serviciosdplyg" t="F"/>
+<Call c="9" l="35" n="opcion" p="fe_main.4gl" t="F"/>
+<Call c="10" l="37" n="sub_serviciosquery" t="F"/>
+<Call c="10" l="43" n="sub_serviciosdplyg" t="F"/>
+<Call c="9" l="47" n="opcion" p="fe_main.4gl" t="F"/>
+<Call c="11" l="57" n="sub_serviciosupdate" t="F"/>
+<Call c="10" l="63" n="sub_serviciosdplyg" t="F"/>
+<Call c="9" l="67" n="opcion" p="fe_main.4gl" t="F"/>
+<Call c="11" l="77" n="sub_serviciosremove" t="F"/>
+<Call c="10" l="85" n="sub_serviciosdplyg" t="F"/>
+<Call c="10" l="88" n="rep_sservicios" t="F"/>
+</Fct>
+<Fct c="10" el="486" l="354" n="sub_serviciosupdate()" t="F" v="pub">
+<Call c="12" l="391" n="fe_serviciosval" p="fe_tarifas.4gl" t="F"/>
+</Fct>
+<Fct c="10" el="634" l="507" n="sub_serviciosquery(exist INTEGER)" t="F" v="pub">
+<Call c="8" l="548" n="sub_serviciosgetcurr" t="F"/>
+<Call c="8" l="549" n="sub_serviciosshowcurr" t="F"/>
+<Call c="9" l="570" n="sub_serviciosgetcurr" t="F"/>
+<Call c="9" l="571" n="sub_serviciosshowcurr" t="F"/>
+<Call c="9" l="581" n="sub_serviciosgetcurr" t="F"/>
+<Call c="9" l="582" n="sub_serviciosshowcurr" t="F"/>
+<Call c="9" l="585" n="opcion" p="fe_main.4gl" t="F"/>
+<Call c="12" l="591" n="sub_serviciosupdate" t="F"/>
+<Call c="12" l="598" n="sub_serviciosgetcurr" t="F"/>
+<Call c="12" l="599" n="sub_serviciosshowcurr" t="F"/>
+<Call c="9" l="605" n="opcion" p="fe_main.4gl" t="F"/>
+<Call c="11" l="611" n="sub_serviciosremove" t="F"/>
+<Call c="12" l="618" n="sub_serviciosshowcurr" t="F"/>
+</Fct>
+</File>
+<File m="fe_tarifas" n="fe_tarifas.4gl" ts="20200124172028208">
+<Ref t="fe_globales.4gl"/>
+<Fct c="10" el="1036" l="938" n="fe_serviciosval2(mprefijo CHAR(5)" t="F" v="pub">
+<Call c="8" l="954" n="FGL_WINMESSAGE" t="F"/>
+<Call c="7" l="971" n="fe_tarifasrow" t="F"/>
+<Call c="9" l="983" n="fe_tarifasrow" t="F"/>
+<Call c="9" l="995" n="fe_tarifasrow" t="F"/>
+<Call c="9" l="1019" n="fe_tarifasrow" t="F"/>
+</Fct>
+<Fct c="10" el="1118" l="1089" n="rep_tarifas()" t="F" v="pub">
+<Call c="14" l="1105" n="rtarifas" t="R"/>
+<Call c="19" l="1114" n="rtarifas" t="R"/>
+<Call c="15" l="1116" n="rtarifas" t="R"/>
+<Call c="6" l="1117" n="impsn" p="fe_factura.4gl" t="F"/>
+</Fct>
+<Fct c="8" el="1165" l="1119" n="rtarifas()" t="R" v="pub"/>
+<Fct c="10" el="789" l="740" n="fe_tarifasrown(currrow INTEGER,prevrow INTEGER,pagenum INTEGER)" t="F" v="pub"/>
+<Fct c="10" el="494" l="482" n="tarifasgetcurr(tpcodigo CHAR(5)" t="F" v="pub"/>
+<Fct c="10" el="158" l="148" n="tarifasdplyg()" t="F" v="pub"/>
+<Fct c="10" el="146" l="96" n="tarifasremove()" t="F" v="pub"/>
+<Fct c="10" el="367" l="160" n="tarifasadd()" t="F" v="pub">
+<Call c="12" l="173" n="fe_serviciosval" t="F"/>
+<Call c="12" l="206" n="fe_prefijosval" p="fe_servicios.4gl" t="F"/>
+</Fct>
+<Fct c="10" el="1087" l="1038" n="fe_tarifasrow(currrow INTEGER,prevrow INTEGER,pagenum INTEGER)" t="F" v="pub"/>
+<Fct c="10" el="480" l="369" n="tarifasupdate()" t="F" v="pub"/>
+<Fct c="10" el="636" l="507" n="tarifasquery(exist INTEGER)" t="F" v="pub">
+<Call c="8" l="550" n="tarifasgetcurr" t="F"/>
+<Call c="8" l="551" n="tarifasshowcurr" t="F"/>
+<Call c="9" l="572" n="tarifasgetcurr" t="F"/>
+<Call c="9" l="573" n="tarifasshowcurr" t="F"/>
+<Call c="9" l="583" n="tarifasgetcurr" t="F"/>
+<Call c="9" l="584" n="tarifasshowcurr" t="F"/>
+<Call c="9" l="587" n="opcion" p="fe_main.4gl" t="F"/>
+<Call c="12" l="593" n="tarifasupdate" t="F"/>
+<Call c="12" l="600" n="tarifasgetcurr" t="F"/>
+<Call c="12" l="601" n="tarifasshowcurr" t="F"/>
+<Call c="9" l="607" n="opcion" p="fe_main.4gl" t="F"/>
+<Call c="11" l="613" n="tarifasremove" t="F"/>
+<Call c="12" l="620" n="tarifasshowcurr" t="F"/>
+</Fct>
+<Fct c="11" el="94" l="4" n="tarifasmain()" t="F" v="pub">
+<Call c="9" l="23" n="opcion" p="fe_main.4gl" t="F"/>
+<Call c="10" l="25" n="tarifasadd" t="F"/>
+<Call c="10" l="32" n="tarifasdplyg" t="F"/>
+<Call c="9" l="36" n="opcion" p="fe_main.4gl" t="F"/>
+<Call c="10" l="38" n="tarifasquery" t="F"/>
+<Call c="10" l="44" n="tarifasdplyg" t="F"/>
+<Call c="9" l="48" n="opcion" p="fe_main.4gl" t="F"/>
+<Call c="11" l="58" n="tarifasupdate" t="F"/>
+<Call c="10" l="64" n="tarifasdplyg" t="F"/>
+<Call c="9" l="68" n="opcion" p="fe_main.4gl" t="F"/>
+<Call c="11" l="78" n="tarifasremove" t="F"/>
+<Call c="10" l="86" n="tarifasdplyg" t="F"/>
+<Call c="10" l="89" n="rep_tarifas" t="F"/>
+</Fct>
+<Fct c="10" el="738" l="638" n="fe_serviciosval()" t="F" v="pub">
+<Call c="8" l="654" n="FGL_WINMESSAGE" t="F"/>
+<Call c="7" l="673" n="fe_tarifasrown" t="F"/>
+<Call c="9" l="685" n="fe_tarifasrown" t="F"/>
+<Call c="9" l="697" n="fe_tarifasrown" t="F"/>
+<Call c="9" l="721" n="fe_tarifasrown" t="F"/>
+</Fct>
+<Fct c="10" el="886" l="791" n="fe_sub_serviciosval()" t="F" v="pub">
+<Call c="8" l="805" n="FGL_WINMESSAGE" t="F"/>
+<Call c="7" l="821" n="fe_tarifasroww" t="F"/>
+<Call c="9" l="833" n="fe_tarifasroww" t="F"/>
+<Call c="9" l="845" n="fe_tarifasroww" t="F"/>
+<Call c="9" l="869" n="fe_tarifasroww" t="F"/>
+</Fct>
+<Fct c="10" el="936" l="887" n="fe_tarifasroww(currrow INTEGER,prevrow INTEGER,pagenum INTEGER)" t="F" v="pub"/>
+<Fct c="10" el="505" l="496" n="tarifasshowcurr(rownum INTEGER,maxnum INTEGER)" t="F" v="pub">
+<Call c="7" l="504" n="tarifasdplyg" t="F"/>
+</Fct>
+</File>
+<File m="fe_terceros" n="fe_terceros.4gl" ts="20210304104810822">
+<Ref t="fe_globales.4gl"/>
+<Fct c="10" el="1882" l="1863" n="act_digver_vacios()" t="F" v="pub"/>
+<Fct c="10" el="1861" l="1785" n="migra_cliente()" t="F" v="pub"/>
+<Fct c="10" el="1783" l="1734" n="gener09row(currrow INTEGER,prevrow INTEGER,pagenum INTEGER)" t="F" v="pub"/>
+<Fct c="10" el="1733" l="1640" n="gener09val()" t="F" v="pub">
+<Call c="8" l="1653" n="FGL_WINMESSAGE" t="F"/>
+<Call c="7" l="1668" n="gener09row" t="F"/>
+<Call c="9" l="1680" n="gener09row" t="F"/>
+<Call c="9" l="1692" n="gener09row" t="F"/>
+<Call c="9" l="1716" n="gener09row" t="F"/>
+</Fct>
+<Fct c="10" el="1638" l="1619" n="partir_nombret(mnombre CHAR(50))" t="F" v="pub"/>
+<Fct c="10" el="1617" l="1568" n="fe_facturadorrow(currrow INTEGER,prevrow INTEGER,pagenum INTEGER)" t="F" v="pub"/>
+<Fct c="10" el="1567" l="1474" n="fe_facturadorval()" t="F" v="pub">
+<Call c="8" l="1487" n="FGL_WINMESSAGE" t="F"/>
+<Call c="7" l="1502" n="fe_facturadorrow" t="F"/>
+<Call c="9" l="1514" n="fe_facturadorrow" t="F"/>
+<Call c="9" l="1526" n="fe_facturadorrow" t="F"/>
+<Call c="9" l="1550" n="fe_facturadorrow" t="F"/>
+</Fct>
+<Fct c="10" el="1472" l="1423" n="fe_paisrow(currrow INTEGER,prevrow INTEGER,pagenum INTEGER)" t="F" v="pub"/>
+<Fct c="10" el="1422" l="1329" n="fe_paisval()" t="F" v="pub">
+<Call c="8" l="1342" n="FGL_WINMESSAGE" t="F"/>
+<Call c="7" l="1357" n="fe_paisrow" t="F"/>
+<Call c="9" l="1369" n="fe_paisrow" t="F"/>
+<Call c="9" l="1381" n="fe_paisrow" t="F"/>
+<Call c="9" l="1405" n="fe_paisrow" t="F"/>
+</Fct>
+<Fct c="10" el="1327" l="1202" n="tercerosquery(exist INTEGER)" t="F" v="pub">
+<Call c="8" l="1241" n="tercerosgetcurr" t="F"/>
+<Call c="8" l="1242" n="tercerosshowcurr" t="F"/>
+<Call c="9" l="1263" n="tercerosgetcurr" t="F"/>
+<Call c="9" l="1264" n="tercerosshowcurr" t="F"/>
+<Call c="9" l="1274" n="tercerosgetcurr" t="F"/>
+<Call c="9" l="1275" n="tercerosshowcurr" t="F"/>
+<Call c="9" l="1278" n="opcion" p="fe_main.4gl" t="F"/>
+<Call c="12" l="1284" n="tercerosupdate" t="F"/>
+<Call c="12" l="1291" n="tercerosgetcurr" t="F"/>
+<Call c="12" l="1292" n="tercerosshowcurr" t="F"/>
+<Call c="9" l="1298" n="opcion" p="fe_main.4gl" t="F"/>
+<Call c="11" l="1304" n="tercerosremove" t="F"/>
+<Call c="12" l="1311" n="tercerosshowcurr" t="F"/>
+</Fct>
+<Fct c="10" el="1200" l="1191" n="tercerosshowcurr(rownum INTEGER,maxnum INTEGER)" t="F" v="pub">
+<Call c="7" l="1199" n="tercerosdplyg" t="F"/>
+</Fct>
+<Fct c="10" el="1189" l="1183" n="tercerosgetcurr(tpnit unknown)" t="F" v="pub"/>
+<Fct c="10" el="1181" l="807" n="tercerosupdate()" t="F" v="pub">
+<Call c="9" l="942" n="gener09val" t="F"/>
+<Call c="8" l="975" n="gener09val" t="F"/>
+<Call c="12" l="985" n="fe_paisval" t="F"/>
+<Call c="10" l="1017" n="fe_paisval" t="F"/>
+<Call c="9" l="1058" n="fe_facturadorval" t="F"/>
+</Fct>
+<Fct c="10" el="805" l="240" n="tercerosadd()" t="F" v="pub">
+<Call c="11" l="287" n="digver" p="fe_empresa.4gl" t="F"/>
+<Call c="11" l="371" n="partir_nombret" t="F"/>
+<Call c="12" l="393" n="partir_nombret" t="F"/>
+<Call c="13" l="415" n="partir_nombret" t="F"/>
+<Call c="9" l="525" n="gener09val" t="F"/>
+<Call c="12" l="559" n="fe_paisval" t="F"/>
+<Call c="9" l="639" n="gener09val" t="F"/>
+<Call c="10" l="647" n="fe_paisval" t="F"/>
+<Call c="9" l="654" n="fe_facturadorval" t="F"/>
+<Call c="9" l="752" n="digver" p="fe_empresa.4gl" t="F"/>
+</Fct>
+<Fct c="10" el="238" l="224" n="tercerosdplyg()" t="F" v="pub"/>
+<Fct c="10" el="222" l="174" n="tercerosremove()" t="F" v="pub"/>
+<Fct c="11" el="172" l="5" n="tercerosmain()" t="F" v="pub">
+<Call c="9" l="57" n="opcion" p="fe_main.4gl" t="F"/>
+<Call c="10" l="59" n="tercerosadd" t="F"/>
+<Call c="10" l="66" n="tercerosdplyg" t="F"/>
+<Call c="9" l="70" n="opcion" p="fe_main.4gl" t="F"/>
+<Call c="10" l="72" n="tercerosquery" t="F"/>
+<Call c="10" l="78" n="tercerosdplyg" t="F"/>
+<Call c="9" l="82" n="opcion" p="fe_main.4gl" t="F"/>
+<Call c="11" l="92" n="tercerosupdate" t="F"/>
+<Call c="10" l="98" n="tercerosdplyg" t="F"/>
+<Call c="9" l="102" n="opcion" p="fe_main.4gl" t="F"/>
+<Call c="11" l="112" n="tercerosremove" t="F"/>
+<Call c="10" l="120" n="tercerosdplyg" t="F"/>
+<Call c="9" l="125" n="opcion" p="fe_main.4gl" t="F"/>
+<Call c="12" l="136" n="migra_cliente" t="F"/>
+<Call c="10" l="150" n="tercerosdplyg" t="F"/>
+<Call c="12" l="161" n="terobligacionmain" t="F"/>
+<Call c="10" l="167" n="tercerosdplyg" t="F"/>
+</Fct>
+</File>
+<File m="fe_unidades" n="fe_unidades.4gl" ts="20200803105536214">
+<Ref t="fe_globales.4gl"/>
+<Fct c="10" el="407" l="357" n="fe_unidshowbrow(currrow INTEGER,prevrow INTEGER,pagenum INTEGER)" t="F" v="pub"/>
+<Fct c="10" el="356" l="252" n="fe_unidbrowse()" t="F" v="pub">
+<Call c="7" l="285" n="fe_unidshowbrow" t="F"/>
+<Call c="9" l="295" n="fe_unidshowbrow" t="F"/>
+<Call c="9" l="305" n="fe_unidshowbrow" t="F"/>
+<Call c="9" l="315" n="fe_unidshowbrow" t="F"/>
+<Call c="9" l="325" n="fe_unidshowbrow" t="F"/>
+<Call c="9" l="347" n="fe_unidshowbrow" t="F"/>
+</Fct>
+<Fct c="10" el="250" l="241" n="fe_unidshowcurr(rownum INTEGER,maxnum INTEGER)" t="F" v="pub">
+<Call c="7" l="249" n="fe_unidodplyg" t="F"/>
+</Fct>
+<Fct c="10" el="240" l="235" n="fe_unidgetcurr(tpcoduni unknown)" t="F" v="pub"/>
+<Fct c="10" el="234" l="229" n="fe_unidgatota()" t="F" v="pub"/>
+<Fct c="10" el="228" l="101" n="fe_unidupdate(x SMALLINT)" t="F" v="pub">
+<Call c="7" l="107" n="fe_unidgatota" t="F"/>
+<Call c="8" l="166" n="fe_unidinitta" t="F"/>
+<Call c="8" l="167" n="fe_uniddetail" t="F"/>
+</Fct>
+<Fct c="10" el="100" l="98" n="fe_unidodplyg()" t="F" v="pub"/>
+<Fct c="10" el="97" l="92" n="fe_uniddetail()" t="F" v="pub"/>
+<Fct c="10" el="91" l="67" n="fe_unidgetdetail()" t="F" v="pub">
+<Call c="7" l="74" n="fe_unidinitga" t="F"/>
+</Fct>
+<Fct c="10" el="66" l="61" n="fe_unidinitta()" t="F" v="pub"/>
+<Fct c="10" el="60" l="55" n="fe_unidinitga()" t="F" v="pub"/>
+<Fct c="10" el="54" l="12" n="fe_unidades_main()" t="F" v="pub">
+<Call c="7" l="19" n="fe_unidinitga" t="F"/>
+<Call c="7" l="20" n="fe_unidinitta" t="F"/>
+<Call c="7" l="21" n="fe_unidgetdetail" t="F"/>
+<Call c="7" l="22" n="fe_uniddetail" t="F"/>
+<Call c="10" l="28" n="fe_unidupdate" t="F"/>
+<Call c="10" l="29" n="fe_unidgetdetail" t="F"/>
+<Call c="10" l="30" n="fe_uniddetail" t="F"/>
+<Call c="10" l="36" n="fe_unidbrowse" t="F"/>
+</Fct>
+</File>
+<File m="" n="fe_principal.per" ts="20200715125704131"/>
+</WorkspaceDatabase>

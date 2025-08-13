@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<Form name="fc_estados.tmp" build="3.10.18" sqlDbName="empresa" text="Form" width="90" height="14">
+  <LStr text="Form"/>
+  <Grid name="empresa1" width="90" height="14">
+    <Label name="label6" width="22" text="" color="green" blink="1" underline="1" justify="center" posY="1" posX="34" gridWidth="22">
+      <LStr text=""/>
+    </Label>
+    <Label name="label7" width="22" text="ESTADOS DE LA FACTURACION" color="green" blink="1" underline="1" justify="center" posY="2" posX="34" gridWidth="22">
+      <LStr text="ESTADOS DE LA FACTURACION"/>
+    </Label>
+    <Label name="label8" width="22" text="" color="green" blink="1" underline="1" justify="center" posY="3" posX="34" gridWidth="22">
+      <LStr text=""/>
+    </Label>
+    <HLine posY="4" posX="0" gridWidth="90"/>
+    <Label name="label9" width="22" text="" color="green" blink="1" underline="1" justify="center" posY="5" posX="34" gridWidth="22">
+      <LStr text=""/>
+    </Label>
+    <Label name="label1" width="11" text="Cod. Estado :" posY="7" posX="1" gridWidth="11">
+      <LStr text="Cod. Estado :"/>
+    </Label>
+    <FormField name="fc_estados.codest" colName="codest" sqlType="CHAR(10)" required="1" notNull="1" fieldId="0" sqlTabName="fc_estados" tabIndex="1">
+      <Edit width="11" scroll="1" posY="7" posX="13" gridWidth="11"/>
+    </FormField>
+    <Label name="label2" width="11" text="Nombre:" posY="8" posX="1" gridWidth="11">
+      <LStr text="Nombre:"/>
+    </Label>
+    <FormField name="fc_estados.nombre_est" colName="nombre_est" sqlType="CHAR(30)" fieldId="1" sqlTabName="fc_estados" tabIndex="2">
+      <Edit width="59" scroll="1" posY="8" posX="13" gridWidth="59"/>
+    </FormField>
+    <Label name="label5" width="11" text="Desc del estado:" posY="9" posX="1" gridWidth="11">
+      <LStr text="Desc del estado:"/>
+    </Label>
+    <FormField name="fc_estados.descrip_est" colName="descrip_est" sqlType="CHAR(60)" fieldId="2" sqlTabName="fc_estados" tabIndex="4">
+      <Edit width="75" scroll="1" posY="9" posX="13" gridWidth="75"/>
+    </FormField>
+    <Label name="label3" width="11" text="Tipo estado:" posY="10" posX="1" gridWidth="11">
+      <LStr text="Tipo estado:"/>
+    </Label>
+    <FormField name="fc_estados.tipo" colName="tipo" sqlType="CHAR(1)" fieldId="3" sqlTabName="fc_estados" tabIndex="3" notNull="1" required="1">
+      <ComboBox width="35" scroll="1" posY="10" posX="13" gridWidth="37"/>
+    </FormField>
+  </Grid>
+  <RecordView tabName="fc_estados">
+    <Link colName="codest" fieldIdRef="0"/>
+    <Link colName="nombre_est" fieldIdRef="1"/>
+    <Link colName="descrip_est" fieldIdRef="2"/>
+    <Link colName="tipo" fieldIdRef="3"/>
+  </RecordView>
+  <RecordView tabName="record1">
+    <Link colName="codest" fieldIdRef="0"/>
+    <Link colName="nombre_est" fieldIdRef="1"/>
+    <Link colName="tipo" fieldIdRef="3"/>
+    <Link colName="descrip_est" fieldIdRef="2"/>
+  </RecordView>
+</Form>

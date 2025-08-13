@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<Form name="fc_sub_servicios.tmp" build="3.10.18" sqlDbName="empresa" spacing="normal" text="INFORMACION DE SUB.COD.SERVICIOS" width="84" height="10">
+  <Grid name="gr3" width="84" height="10">
+    <Label name="lb31" width="29" text="SUBCODIGOS SERVICIOS FACTURACION" posY="1" posX="25" gridWidth="29"/>
+    <HLine posY="2" posX="1" gridWidth="83"/>
+    <Label name="lb32" width="17" text="SUB.CODIGO SERVICIO : " posY="3" posX="2" gridWidth="17"/>
+    <FormField name="fc_sub_servicios.codigo" colName="codigo" sqlType="CHAR(5)" fieldId="0" sqlTabName="fc_sub_servicios" tabIndex="1">
+      <Edit width="5" posY="3" posX="21" gridWidth="5"/>
+    </FormField>
+    <Label name="lb59" width="13" text="COD.SERVICIO : " posY="4" posX="2" gridWidth="13"/>
+    <FormField name="fc_sub_servicios.codser" colName="codser" sqlType="CHAR(5)" fieldId="1" sqlTabName="fc_sub_servicios" tabIndex="5">
+      <Edit width="5" shift="up" posY="4" posX="21" gridWidth="5"/>
+    </FormField>
+    <FormField name="formonly.detcodser" colName="detcodser" sqlType="CHAR" fieldId="2" sqlTabName="formonly" tabIndex="4" noEntry="1">
+      <Edit width="50" shift="up" posY="4" posX="27" gridWidth="50"/>
+    </FormField>
+    <HLine posY="5" posX="0" gridWidth="83"/>
+    <Label name="lb61" width="12" text="DESCRIPCION : " posY="6" posX="2" gridWidth="12"/>
+    <FormField name="fc_sub_servicios.descripcion" colName="descripcion" sqlType="CHAR(50)" fieldId="3" sqlTabName="fc_sub_servicios" tabIndex="2">
+      <Edit width="50" shift="up" posY="6" posX="18" gridWidth="50"/>
+    </FormField>
+    <HLine posY="7" posX="0" gridWidth="83"/>
+    <Label name="lb3" width="7" text="ESTADO : " posY="8" posX="31" gridWidth="7"/>
+    <FormField name="fc_sub_servicios.estado" colName="estado" sqlType="CHAR(1)" fieldId="4" sqlTabName="fc_sub_servicios" tabIndex="3">
+      <ComboBox width="15" posY="8" posX="40" gridWidth="17"/>
+    </FormField>
+  </Grid>
+  <RecordView tabName="fc_sub_servicios">
+    <Link colName="codigo" fieldIdRef="0"/>
+    <Link colName="codser" fieldIdRef="1"/>
+    <Link colName="descripcion" fieldIdRef="3"/>
+    <Link colName="estado" fieldIdRef="4"/>
+  </RecordView>
+  <RecordView tabName="formonly">
+    <Link colName="detcodser" fieldIdRef="2"/>
+  </RecordView>
+  <RecordView tabName="undefined">
+    <Link colName="codigo" fieldIdRef="0"/>
+    <Link colName="descripcion" fieldIdRef="3"/>
+    <Link colName="estado" fieldIdRef="4"/>
+    <Link colName="detcodser" fieldIdRef="2"/>
+    <Link colName="codser" fieldIdRef="1"/>
+  </RecordView>
+</Form>

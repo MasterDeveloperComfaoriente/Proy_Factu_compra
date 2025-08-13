@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ManagedForm databaseName="empresa" fileVersion="30a00" gstVersion="30a0b" name="ManagedForm" uid="{008bb54e-5095-4889-818c-6483ad37bdce}">
+  <AGSettings>
+    <DynamicProperties version="2"/>
+  </AGSettings>
+  <Record additionalTables="" joinLeft="" joinOperator="" joinRight="" name="Undefined" order="" uid="{93b7ff57-7433-47a3-b526-9bec3bec176e}" where="">
+    <RecordField colName="codigo" fieldIdRef="0" fieldType="TABLE_COLUMN" name="fe_conta2.codigo" sqlTabName="fe_conta2" sqlType="CHAR" table_alias_name="" uid="{13f5930b-3b48-4f34-9772-f0c52d8142e6}"/>
+    <RecordField colName="mdetser" fieldIdRef="1" name="mdetser" sqlTabName="formonly" table_alias_name="" uid="{7d69fc3f-8514-4bc0-be96-aa1af795a245}"/>
+    <RecordField colName="area" fieldIdRef="5" fieldType="TABLE_COLUMN" name="fe_conta2.area" sqlTabName="fe_conta2" sqlType="CHAR" table_alias_name="" uid="{011d5425-8a08-493c-9a1d-64408aa207b1}"/>
+    <RecordField colName="centro" fieldIdRef="2" fieldType="TABLE_COLUMN" name="fe_conta2.centro" sqlTabName="fe_conta2" sqlType="CHAR" table_alias_name="" uid="{871fc7e5-5ed4-4724-8194-e156cf095346}"/>
+    <RecordField colName="proyecto" fieldIdRef="3" fieldType="TABLE_COLUMN" name="fe_conta2.proyecto" sqlTabName="fe_conta2" sqlType="CHAR" table_alias_name="" uid="{728e8ff3-90b4-427c-89d6-0ccee1665bc5}"/>
+    <RecordField colName="sucursal" fieldIdRef="4" fieldType="TABLE_COLUMN" name="fe_conta2.sucursal" sqlTabName="fe_conta2" sqlType="CHAR" table_alias_name="" uid="{cca41c70-9c01-4088-9dc3-b6a3815b23a7}"/>
+  </Record>
+  <Form gridHeight="18" gridWidth="84" name="fe_conta2">
+    <Grid gridHeight="17" gridWidth="82" name="Grid1" posX="0" posY="0">
+      <Label gridHeight="1" gridWidth="18" lstrcomment="false" lstrtext="false" name="lb6" posX="29" posY="1" text="PARAMETROS CONTABLES"/>
+      <HLine gridWidth="82" name="HLine1" posX="0" posY="3"/>
+      <Label gridHeight="1" gridWidth="17" lstrcomment="false" lstrtext="false" name="lb1" posX="3" posY="5" text="CODIGO DEL SERVICIO : "/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" autoNext="false" colName="codigo" comment="DIGITE EL CODIGO DEL SERVICIO" fieldId="0" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="5" name="fe_conta2.codigo" notNull="true" picture="#####" posX="22" posY="5" required="true" sqlTabName="fe_conta2" sqlType="CHAR" tabIndex="1" table_alias_name="" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="8" lstrcomment="false" lstrtext="false" name="lb2" posX="28" posY="5" text="DETALLE : "/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="mdetser" fieldId="1" gridHeight="1" gridWidth="40" name="mdetser" noEntry="true" posX="39" posY="5" sqlTabName="formonly" tabIndex="2" table_alias_name="" widget="Edit"/>
+      <HLine gridWidth="82" name="HLine2" posX="0" posY="7"/>
+      <Label gridHeight="1" gridWidth="7" lstrcomment="false" lstrtext="false" name="lb52" posX="8" posY="10" text="AREA : "/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="area" comment="DIGITE AL AUXILIAR DEL IVA &lt;?&gt;AYUDA" fieldId="5" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="15" name="fe_conta2.area" posX="20" posY="10" sqlTabName="fe_conta2" sqlType="CHAR" tabIndex="3" table_alias_name="" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="12" lstrcomment="false" lstrtext="false" name="lb3" posX="44" posY="10" text="CENTRO COSTO : "/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="centro" comment="DIGITE AL AUXILIAR DEL IVA &lt;?&gt;AYUDA" fieldId="2" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="15" name="fe_conta2.centro" posX="60" posY="10" sqlTabName="fe_conta2" sqlType="CHAR" tabIndex="4" table_alias_name="" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="9" lstrcomment="false" lstrtext="false" name="lb5" posX="7" posY="13" text="SUCURSAL : "/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="sucursal" comment="DIGITE AL AUXILIAR DEL IVA &lt;?&gt;AYUDA" fieldId="4" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="15" name="fe_conta2.sucursal" posX="20" posY="13" sqlTabName="fe_conta2" sqlType="CHAR" tabIndex="6" table_alias_name="" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="9" lstrcomment="false" lstrtext="false" name="lb4" posX="44" posY="13" text="PROYECTO : "/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="proyecto" comment="DIGITE AL AUXILIAR DEL IVA &lt;?&gt;AYUDA" fieldId="3" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="15" name="fe_conta2.proyecto" posX="60" posY="13" sqlTabName="fe_conta2" sqlType="CHAR" tabIndex="5" table_alias_name="" widget="Edit"/>
+    </Grid>
+  </Form>
+  <DiagramLayout>
+    <![CDATA[AAAAAgAAAEwAewA5ADMAYgA3AGYAZgA1ADcALQA3ADQAMwAzAC0ANAA3AGEAMwAtAGIANQAyADYALQA5AGIAZQBjADMAYgBlAGMAMQA3ADYAZQB9AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ==]]>
+  </DiagramLayout>
+</ManagedForm>

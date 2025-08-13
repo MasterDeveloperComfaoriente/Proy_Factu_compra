@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<Form name="Vista_Reportes.tmp" build="3.10.18" text="Form" width="56" height="10">
+  <LStr text="Form"/>
+  <Grid name="grid1" width="56" height="10">
+    <FormField name="formonly.ruta" colName="ruta" fieldId="0" sqlTabName="formonly" tabIndex="1">
+      <Edit width="37" posY="1" posX="6" gridWidth="37"/>
+    </FormField>
+    <Button name="bt_selruta" width="11" text="Elegir Ruta" posY="1" posX="44" gridWidth="11" tabIndex="2">
+      <LStr text="Elegir Ruta"/>
+    </Button>
+  </Grid>
+  <RecordView tabName="formonly">
+    <Link colName="ruta" fieldIdRef="0"/>
+  </RecordView>
+  <RecordView tabName="undefined">
+    <Link colName="ruta" fieldIdRef="0"/>
+  </RecordView>
+</Form>

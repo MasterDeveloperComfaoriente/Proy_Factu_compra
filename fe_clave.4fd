@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ManagedForm databaseName="empresa" fileVersion="30a00" gstVersion="30a0b" name="ManagedForm" uid="{7e9748cf-b4ad-4468-baed-070641740b0a}">
+  <AGSettings>
+    <DynamicProperties version="2"/>
+  </AGSettings>
+  <Record additionalTables="" joinLeft="" joinOperator="" joinRight="" name="Undefined" order="" uid="{c78ebc22-2c8b-474e-aa97-cf01cf46e662}" where="">
+    <RecordField colName="mclave" fieldIdRef="0" name="mclave" sqlTabName="formonly" sqlType="CHAR" table_alias_name="" uid="{289e2bc9-3c10-4e63-b38d-f7f5e006775e}"/>
+  </Record>
+  <Form gridHeight="18" gridWidth="45" name="c_clave" text="CLAVE DE ACCESO">
+    <Grid gridHeight="16" gridWidth="42" name="gr3" posX="0" posY="0">
+      <Image autoScale="true" gridHeight="9" gridWidth="25" height="7" image="formulario" name="logo" posX="8" posY="0" stretch="none" unitHeight="characters" unitWidth="characters" width="33"/>
+      <Label gridHeight="1" gridWidth="7" name="lb3" posX="11" posY="10" text="CLAVE :"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="mclave" fieldId="0" gridHeight="1" gridWidth="7" invisible="true" name="mclave" posX="19" posY="10" sqlTabName="formonly" sqlType="CHAR" tabIndex="1" table_alias_name="" widget="Edit"/>
+    </Grid>
+  </Form>
+  <DiagramLayout>
+    <![CDATA[AAAAAgAAAEwAewBjADcAOABlAGIAYwAyADIALQAyAGMAOABiAC0ANAA3ADQAZQAtAGEAYQA5ADcALQBjAGYAMAAxAGMAZgA0ADYAZQA2ADYAMgB9AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ==]]>
+  </DiagramLayout>
+</ManagedForm>

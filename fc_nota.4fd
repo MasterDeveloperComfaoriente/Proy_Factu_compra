@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ManagedForm databaseName="empresa" fileVersion="30a00" gstVersion="30a0b" name="ManagedForm" uid="{35c16bb9-da8d-4df5-b00e-8ee142959dd4}">
+  <AGSettings>
+    <DynamicProperties version="2"/>
+  </AGSettings>
+  <Record additionalTables="" joinLeft="" joinOperator="" joinRight="" name="ofe" order="" uid="{c52b2232-ecf9-4b80-a38c-29a9f731386d}" where="">
+    <RecordField colName="codigo" fieldIdRef="13" fieldType="TABLE_COLUMN" name="fc_nota_d.codigo" sqlTabName="fc_nota_d" sqlType="CHAR" table_alias_name="" uid="{441c358c-6fe0-4e10-b8e3-930d6a48077e}"/>
+    <RecordField colName="descripcion" fieldIdRef="26" fieldType="TABLE_COLUMN" name="fc_servicios.descripcion" sqlTabName="fc_servicios" sqlType="CHAR" table_alias_name="" uid="{318d72dd-9fad-4af4-a276-685ea7537c34}"/>
+    <RecordField colName="subcodigo" fieldIdRef="8" fieldType="TABLE_COLUMN" name="fc_nota_d.subcodigo" sqlTabName="fc_nota_d" table_alias_name="" uid="{99a227b6-a9c9-46b5-9c11-6b1672cad5d1}"/>
+    <RecordField colName="tipo" fieldIdRef="15" fieldType="NON_DATABASE" name="descri" sqlTabName="fc_nota_d" table_alias_name="" uid="{7464a5e1-c24c-45e1-b25b-06dd55d8beaa}"/>
+    <RecordField colName="cantidad" fieldIdRef="17" fieldType="TABLE_COLUMN" name="fc_nota_d.cantidad" sqlTabName="fc_nota_d" sqlType="INTEGER" table_alias_name="" uid="{92864443-ce60-49f9-9939-6dbcbf17b5a1}"/>
+    <RecordField colName="valoruni" fieldIdRef="18" fieldType="TABLE_COLUMN" name="fc_nota_d.valoruni" precisionDecimal="12" scaleDecimal="2" sqlTabName="fc_nota_d" sqlType="DECIMAL" table_alias_name="" uid="{9adc9f2f-3ad8-49b8-ba01-65ad46601629}"/>
+    <RecordField colName="valor" fieldIdRef="20" fieldType="TABLE_COLUMN" name="fc_factura_d.valor" precisionDecimal="12" scaleDecimal="2" sqlTabName="fc_factura_d" sqlType="DECIMAL" table_alias_name="" uid="{b7136ff9-179b-492a-a053-456ebaa98856}"/>
+  </Record>
+  <Record additionalTables="" joinLeft="" joinOperator="" joinRight="" name="Undefined" order="" uid="{24fb0bfb-0d0b-44a0-b192-6734aac3f084}" where="">
+    <RecordField colName="documento" fieldIdRef="0" fieldType="TABLE_COLUMN" name="fc_nota_m.documento" sqlTabName="fc_nota_m" sqlType="CHAR" table_alias_name="" uid="{863f1ca5-1217-4179-bcdf-9d19e6899a2b}"/>
+    <RecordField colName="" fieldIdRef="1" fieldType="NON_DATABASE" name="mnit" sqlTabName="" sqlType="CHAR" table_alias_name="" uid="{5695b9c4-193e-4b83-9140-b56b3e3a551f}"/>
+    <RecordField colName="fecha_elaboracion" fieldIdRef="6" fieldType="TABLE_COLUMN" name="fc_nota_m.fecha_elaboracion" sqlTabName="fc_nota_m" sqlType="DATE" table_alias_name="" uid="{b1f83e9b-1b18-40c7-a2f8-7d07c0d7fca0}"/>
+    <RecordField colName="estado" fieldIdRef="9" fieldType="TABLE_COLUMN" name="fc_nota_m.estado" sqlTabName="fc_nota_m" sqlType="CHAR" table_alias_name="" uid="{4aa9aaa2-6179-41c1-93a7-f17ce85333c9}"/>
+    <RecordField colName="numnota" fieldIdRef="11" fieldType="TABLE_COLUMN" name="fc_nota_m.numnota" sqlTabName="fc_nota_m" sqlType="INTEGER" table_alias_name="" uid="{24dd3103-8f16-4468-bff5-1dded7809106}"/>
+    <RecordField colName="cude" fieldIdRef="12" fieldType="TABLE_COLUMN" name="fc_nota_m.cude" sqlTabName="fc_nota_m" table_alias_name="" uid="{39c28f12-e98e-4fbd-84d7-6032a122a7e8}"/>
+    <RecordField colName="fecha_nota" fieldIdRef="7" fieldType="TABLE_COLUMN" name="fc_nota_m.fecha_nota" sqlTabName="fc_nota_m" sqlType="DATE" table_alias_name="" uid="{a10462b6-8d2e-4d3b-8bd7-7f1cd0ceb6c5}"/>
+    <RecordField colName="hora" fieldIdRef="22" fieldType="TABLE_COLUMN" name="fc_nota_m.hora" sqlTabName="fc_nota_m" sqlType="CHAR" table_alias_name="" uid="{1312467f-da28-41df-ab5b-f4aa2ac77594}"/>
+    <RecordField colName="" fieldIdRef="2" fieldType="NON_DATABASE" name="mrazsoc" sqlTabName="" sqlType="CHAR" table_alias_name="" uid="{f9884393-0579-4ed5-8991-cfa2fa406a37}"/>
+    <RecordField colName="codest" fieldIdRef="10" fieldType="TABLE_COLUMN" name="fc_nota_m.codest" sqlTabName="fc_nota_m" sqlType="CHAR" table_alias_name="" uid="{9cb1febf-1a97-4b47-b70a-77b35513425f}"/>
+    <RecordField colName="fecest" fieldIdRef="21" fieldType="TABLE_COLUMN" name="fc_nota_m.fecest" sqlTabName="fc_nota_m" sqlType="DATE" table_alias_name="" uid="{68df7bd7-4994-43ba-8e08-267a3a136f7e}"/>
+    <RecordField colName="horaest" fieldIdRef="25" fieldType="TABLE_COLUMN" name="fc_nota_m.horaest" sqlTabName="fc_nota_m" sqlType="CHAR" table_alias_name="" uid="{34e89e45-5b70-4b49-9604-24e5b5c6ecf5}"/>
+    <RecordField colName="nota1" fieldIdRef="3" fieldType="TABLE_COLUMN" name="fc_nota_m.nota1" sqlTabName="fc_nota_m" sqlType="CHAR" table_alias_name="" uid="{4e2d385b-109d-41cc-8076-06d601ab22d8}"/>
+    <RecordField colName="prefijo" fieldIdRef="23" fieldType="TABLE_COLUMN" name="fc_nota_m.prefijo" sqlTabName="fc_nota_m" sqlType="CHAR" table_alias_name="" uid="{e19b0da6-51e7-4572-a24e-fdd8d4c0e2f4}"/>
+    <RecordField colName="" fieldIdRef="24" fieldType="NON_DATABASE" name="mprefijo" sqlTabName="" sqlType="CHAR" table_alias_name="" uid="{1f9e435a-a2c2-48a0-a51d-3e90bbf5a07f}"/>
+    <RecordField colName="numfac" fieldIdRef="27" fieldType="TABLE_COLUMN" name="fc_nota_m.numfac" sqlTabName="fc_nota_m" sqlType="INTEGER" table_alias_name="" uid="{ab8a685c-94d5-44bb-b41f-da6dbd2b4edd}"/>
+    <RecordField colName="" fieldIdRef="28" fieldType="NON_DATABASE" name="mfecfactu" sqlTabName="" sqlType="DATE" table_alias_name="" uid="{95cf8a6b-864f-46f3-bdab-e6e785e9e8ec}"/>
+    <RecordField colName="tipo" fieldIdRef="4" fieldType="TABLE_COLUMN" name="fc_nota_m.tipo" sqlTabName="fc_nota_m" sqlType="CHAR" table_alias_name="" uid="{f64bca69-a489-4e86-847b-9a202ff17c5a}"/>
+    <RecordField colName="tipo_nota" fieldIdRef="5" fieldType="TABLE_COLUMN" name="fc_nota_m.tipo_nota" sqlTabName="fc_nota_m" sqlType="CHAR" table_alias_name="" uid="{2a376075-a41a-480b-aace-e247cfe13e81}"/>
+    <RecordField colName="tipo_nota_c" fieldIdRef="30" fieldType="TABLE_COLUMN" name="fc_nota_m.tipo_nota_c" sqlTabName="fc_nota_m" sqlType="CHAR" table_alias_name="" uid="{f8b53b5d-ca84-4718-96b2-0dcbb2345988}"/>
+    <RecordField colName="codcop" fieldIdRef="34" fieldType="TABLE_COLUMN" name="fc_nota_m.codcop" sqlTabName="fc_nota_m" uid="{eef1667d-43ec-4a6f-9bd0-2a111d3d3a34}"/>
+    <RecordField colName="docu" fieldIdRef="35" fieldType="TABLE_COLUMN" name="fc_nota_m.docu" sqlTabName="fc_nota_m" uid="{53f648ea-2f29-4f5a-86aa-343e8549503e}"/>
+  </Record>
+  <Form gridHeight="27" gridWidth="159" name="notas" text="MODULO DE NOTAS DEBITO-CREDITO">
+    <Grid gridHeight="25" gridWidth="155" name="Grid1" posX="0" posY="0">
+      <Label gridHeight="1" gridWidth="8" name="Label17" posX="1" posY="1" text="Tipo Nota:"/>
+      <ComboBox aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" case="upper" colName="tipo" fieldId="4" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="23" items="" name="fc_nota_m.tipo" posX="10" posY="1" sqlTabName="fc_nota_m" sqlType="CHAR" tabIndex="6" table_alias_name="" title="ComboBox2" widget="ComboBox"/>
+      <Label gridHeight="1" gridWidth="11" name="Label7" posX="34" posY="1" text="Numero interno :"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="documento" fieldId="0" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="7" name="fc_nota_m.documento" notNull="true" posX="46" posY="1" required="true" sqlTabName="fc_nota_m" sqlType="CHAR" tabIndex="-1" table_alias_name="" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="10" name="Label18" posX="54" posY="1" text="Numero Nota :"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="numnota" fieldId="11" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="7" name="fc_nota_m.numnota" noEntry="true" notNull="false" posX="65" posY="1" required="false" sqlTabName="fc_nota_m" sqlType="INTEGER" tabIndex="-1" table_alias_name="" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="13" name="Label3" posX="73" posY="1" text="Fecha elaboracion :"/>
+      <DateEdit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="fecha_elaboracion" fieldId="6" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="10" name="fc_nota_m.fecha_elaboracion" noEntry="true" posX="87" posY="1" sqlTabName="fc_nota_m" sqlType="DATE" tabIndex="-1" table_alias_name="" title="DateEdit1" widget="DateEdit"/>
+      <Label gridHeight="1" gridWidth="9" name="Label20" posX="98" posY="1" text="Fecha Nota :"/>
+      <DateEdit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="fecha_nota" fieldId="7" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="10" name="fc_nota_m.fecha_nota" noEntry="true" posX="108" posY="1" sqlTabName="fc_nota_m" sqlType="DATE" tabIndex="-1" table_alias_name="" title="DateEdit1" widget="DateEdit"/>
+      <Label gridHeight="1" gridWidth="5" name="Label21" posX="119" posY="1" text="Hora :"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="hora" fieldId="22" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="6" name="fc_nota_m.hora" noEntry="true" posX="125" posY="1" sqlTabName="fc_nota_m" sqlType="CHAR" tabIndex="-1" table_alias_name="" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="13" name="Label2" posX="1" posY="2" text="Motivo Nota Dian: "/>
+      <ComboBox aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" case="upper" colName="tipo_nota" fieldId="5" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="46" items="" name="fc_nota_m.tipo_nota" posX="16" posY="2" sqlTabName="fc_nota_m" sqlType="CHAR" tabIndex="7" table_alias_name="" title="ComboBox2" widget="ComboBox"/>
+      <Label gridHeight="1" gridWidth="13" name="Label26" posX="64" posY="2" text="Motivo Nota CCF: "/>
+      <ComboBox aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" case="upper" colName="tipo_nota_c" fieldId="30" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="51" items="" name="fc_nota_m.tipo_nota_c" posX="78" posY="2" sqlTabName="fc_nota_m" sqlType="CHAR" tabIndex="10" table_alias_name="" title="ComboBox2" widget="ComboBox"/>
+      <HLine gridWidth="155" name="HLine1" posX="0" posY="3"/>
+      <Label gridHeight="1" gridWidth="6" name="Label22" posX="1" posY="4" text="Prefijo:"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" case="upper" colName="prefijo" fieldId="23" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="5" name="fc_nota_m.prefijo" noEntry="false" notNull="true" posX="8" posY="4" required="true" sqlTabName="fc_nota_m" sqlType="CHAR" tabIndex="2" table_alias_name="" widget="Edit"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" autoNext="true" case="upper" colName="" fieldId="24" fieldType="NON_DATABASE" gridHeight="1" gridWidth="25" length="1" name="mprefijo" noEntry="true" notNull="false" posX="14" posY="4" sqlTabName="" sqlType="CHAR" tabIndex="3" table_alias_name="" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="13" name="Label23" posX="40" posY="4" text="Numero Documento :"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="numfac" fieldId="27" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="8" name="fc_nota_m.numfac" noEntry="false" notNull="true" posX="54" posY="4" required="true" sqlTabName="fc_nota_m" sqlType="INTEGER" tabIndex="4" table_alias_name="" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="5" name="Label19" posX="63" posY="4" text="CUDE:"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="cude" fieldId="12" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="76" name="fc_nota_m.cude" noEntry="true" notNull="false" posX="69" posY="4" required="false" sqlTabName="fc_nota_m" tabIndex="-1" table_alias_name="" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="8" name="Label16" posX="1" posY="5" text="Proveedor :"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" autoNext="true" case="upper" colName="" comment="DIGITE EL NUMERO DEL DOCUMENTO" fieldId="1" fieldType="NON_DATABASE" gridHeight="1" gridWidth="20" length="1" name="mnit" notNull="true" posX="10" posY="5" required="true" sqlTabName="" sqlType="CHAR" tabIndex="-1" table_alias_name="" widget="Edit"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" autoNext="true" case="upper" colName="" fieldId="2" fieldType="NON_DATABASE" gridHeight="1" gridWidth="50" length="1" name="mrazsoc" noEntry="true" notNull="false" posX="32" posY="5" sqlTabName="" sqlType="CHAR" tabIndex="-1" table_alias_name="" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="9" name="Label25" posX="83" posY="5" text="Fecha Factu :"/>
+      <DateEdit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="" fieldId="28" fieldType="NON_DATABASE" gridHeight="1" gridWidth="10" length="1" name="mfecfactu" noEntry="true" posX="93" posY="5" sqlTabName="" sqlType="DATE" tabIndex="5" table_alias_name="" title="DateEdit1" widget="DateEdit"/>
+      <HLine gridWidth="155" name="HLine2" posX="0" posY="6"/>
+      <Label gridHeight="1" gridWidth="5" name="Label1" posX="1" posY="7" text="Nota:"/>
+      <TextEdit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" case="upper" colName="nota1" fieldId="3" fieldType="TABLE_COLUMN" gridHeight="3" gridWidth="100" name="fc_nota_m.nota1" posX="8" posY="7" sqlTabName="fc_nota_m" sqlType="CHAR" tabIndex="1" table_alias_name="" title="TextEdit1" widget="TextEdit"/>
+      <HLine gridWidth="155" name="HLine3" posX="0" posY="10"/>
+      <Label gridHeight="1" gridWidth="6" name="Label5" posX="1" posY="11" text="Estado :"/>
+      <ComboBox aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="estado" fieldId="9" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="20" items="" name="fc_nota_m.estado" posX="8" posY="11" sqlTabName="fc_nota_m" sqlType="CHAR" tabIndex="-1" table_alias_name="" title="ComboBox2" widget="ComboBox"/>
+      <Label gridHeight="1" gridWidth="9" name="Label4" posX="30" posY="11" text="Cod/Estado :"/>
+      <ComboBox aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="codest" fieldId="10" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="16" items="" name="fc_nota_m.codest" noEntry="true" posX="40" posY="11" sqlTabName="fc_nota_m" sqlType="CHAR" tabIndex="-1" table_alias_name="" title="ComboBox2" widget="ComboBox"/>
+      <Label gridHeight="1" gridWidth="11" name="Label6" posX="58" posY="11" text="Fecha Estado :"/>
+      <DateEdit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="fecest" fieldId="21" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="10" name="fc_nota_m.fecest" noEntry="true" posX="70" posY="11" sqlTabName="fc_nota_m" sqlType="DATE" tabIndex="-1" table_alias_name="" title="DateEdit1" widget="DateEdit"/>
+      <Label gridHeight="1" gridWidth="5" name="Label24" posX="81" posY="11" text="Hora :"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="horaest" fieldId="25" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="5" name="fc_nota_m.horaest" noEntry="true" posX="87" posY="11" sqlTabName="fc_nota_m" sqlType="CHAR" tabIndex="-1" table_alias_name="" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="13" name="label30" posX="93" posY="11" text="Compr Contable :"/>
+      <Edit colName="codcop" fieldId="34" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="3" name="fc_nota_m.codcop" noEntry="true" posX="107" posY="11" sqlTabName="fc_nota_m" tabIndex="-1" title="edit1" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="2" name="label31" posX="111" posY="11" text="-"/>
+      <Edit colName="docu" fieldId="35" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="8" name="fc_nota_m.docu" noEntry="true" posX="114" posY="11" sqlTabName="fc_nota_m" tabIndex="-1" title="edit2" widget="Edit"/>
+      <HLine gridWidth="155" name="HLine4" posX="0" posY="12"/>
+      <Label gridHeight="1" gridWidth="7" name="Label8" posX="1" posY="13" text="Cod/Serv"/>
+      <Label gridHeight="1" gridWidth="14" name="Label14" posX="10" posY="13" text="Descripcion Servicio"/>
+      <Label gridHeight="1" gridWidth="6" name="Label27" posX="29" posY="13" text="Sub.Cod"/>
+      <Label gridHeight="1" gridWidth="14" name="Label28" posX="48" posY="13" text="Descripcion Servicio"/>
+      <Label gridHeight="1" gridWidth="5" name="Label10" posX="76" posY="13" text="Cant."/>
+      <Label gridHeight="1" gridWidth="9" name="Label11" posX="84" posY="13" text="Valor Unitario"/>
+      <Label gridHeight="1" gridWidth="8" name="Label13" posX="99" posY="13" text="Valor Total"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" autoNext="true" colName="codigo" columnCount="1" comment="DIGITE EL CODIGO DEL SERVICIO" fieldId="13" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="5" name="fc_nota_d.codigo" noEntry="true" notNull="true" posX="1" posY="14" repeat="true" required="true" rowCount="9" sqlTabName="fc_nota_d" sqlType="CHAR" stepX="1" stepY="0" tabIndex="-1" table_alias_name="" widget="Edit"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" autoNext="true" colName="descripcion" columnCount="1" comment="DESCRIPCION DEL SERVICIO" fieldId="26" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="22" name="fc_servicios.descripcion" noEntry="true" notNull="true" posX="7" posY="14" repeat="true" required="true" rowCount="9" sqlTabName="fc_servicios" sqlType="CHAR" stepX="1" stepY="0" tabIndex="-1" table_alias_name="" widget="Edit"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" autoNext="true" colName="subcodigo" columnCount="1" comment="DIGITE EL CODIGO DEL SERVICIO" fieldId="8" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="5" name="fc_nota_d.subcodigo" notNull="false" posX="30" posY="14" repeat="true" required="false" rowCount="9" sqlTabName="fc_nota_d" stepX="1" stepY="0" tabIndex="8" table_alias_name="" widget="Edit"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" autoNext="true" colName="tipo" columnCount="1" comment="DESCRIPCION DEL SERVICIO" fieldId="15" fieldType="NON_DATABASE" gridHeight="1" gridWidth="37" length="2" name="descri" noEntry="true" notNull="true" posX="36" posY="14" repeat="true" required="true" rowCount="9" sqlTabName="fc_nota_d" sqlType="CHAR" stepX="1" stepY="0" tabIndex="9" table_alias_name="" widget="Edit"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" autoNext="true" colName="cantidad" columnCount="1" comment="DIGITE LA CANTIDAD DE PERSONAS" fieldId="17" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="6" name="fc_nota_d.cantidad" notNull="true" posX="75" posY="14" repeat="true" required="true" rowCount="9" sqlTabName="fc_nota_d" sqlType="INTEGER" stepX="1" stepY="0" tabIndex="-1" table_alias_name="" widget="Edit"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" autoNext="true" colName="valoruni" columnCount="1" comment="VALOR UNITARIO DEL CONVENIO" fieldId="18" fieldType="TABLE_COLUMN" format="###,###,##&amp;.&amp;&amp;" gridHeight="1" gridWidth="14" name="fc_nota_d.valoruni" notNull="true" posX="82" posY="14" precisionDecimal="12" repeat="true" required="true" rowCount="9" scaleDecimal="2" sqlTabName="fc_nota_d" sqlType="DECIMAL" stepX="1" stepY="0" tabIndex="-1" table_alias_name="" widget="Edit"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" autoNext="true" colName="valor" columnCount="1" comment="VALOR TOTAL" fieldId="20" fieldType="TABLE_COLUMN" format="###,###,##&amp;.&amp;&amp;" gridHeight="1" gridWidth="14" name="fc_factura_d.valor" noEntry="true" notNull="true" posX="97" posY="14" precisionDecimal="12" repeat="true" required="true" rowCount="9" scaleDecimal="2" sqlTabName="fc_factura_d" sqlType="DECIMAL" stepX="1" stepY="0" tabIndex="-1" table_alias_name="" widget="Edit"/>
+    </Grid>
+  </Form>
+  <DiagramLayout>
+    <![CDATA[AAAAAgAAAEwAewBjADUAMgBiADIAMgAzADIALQBlAGMAZgA5AC0ANABiADgAMAAtAGEAMwA4AGMALQAyADkAYQA5AGYANwAzADEAMwA4ADYAZAB9AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAEwAewAyADQAZgBiADAAYgBmAGIALQAwAGQAMABiAC0ANAA0AGEAMAAtAGIAMQA5ADIALQA2ADcAMwA0AGEAYQBjADMAZgAwADgANAB9QG5AAAAAAADAFAAAAAAAAD9QYk3S8an8AQ==]]>
+  </DiagramLayout>
+</ManagedForm>

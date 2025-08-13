@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<Form name="fc_tipobligacion.tmp" build="3.10.18" sqlDbName="empresa" text="OBLIGACIONES" width="49" height="16">
+  <LStr text="OBLIGACIONES"/>
+  <Grid name="gr3" width="49" height="16">
+    <Group name="group1" text="TIPO DE OBLIGACIONES TRIBUTARIAS" posY="1" posX="2" gridWidth="47" gridHeight="14">
+      <LStr text="TIPO DE OBLIGACIONES TRIBUTARIAS"/>
+      <Label name="label1" width="7" text="CODIGO" justify="center" posY="2" posX="2" gridWidth="7">
+        <LStr text="CODIGO"/>
+      </Label>
+      <Label name="label2" width="10" text="DESCRIPCION" posY="2" posX="23" gridWidth="10">
+        <LStr text="DESCRIPCION"/>
+      </Label>
+      <Matrix pageSize="10" name="fe_tipobligacion.codigo_oblig" colName="codigo_oblig" sqlType="CHAR(7)" fieldId="0" sqlTabName="fe_tipobligacion" tabIndex="1" notNull="1" required="1">
+        <Edit width="7" shift="up" justify="center" posY="3" posX="2" gridWidth="7"/>
+      </Matrix>
+      <Matrix pageSize="10" name="fe_tipobligacion.descripcion" colName="descripcion" sqlType="CHAR(35)" fieldId="1" sqlTabName="fe_tipobligacion" tabIndex="2" notNull="1" required="1">
+        <Edit width="35" shift="up" posY="3" posX="11" gridWidth="35"/>
+      </Matrix>
+    </Group>
+  </Grid>
+  <RecordView tabName="fe_tipobligacion">
+    <Link colName="codigo_oblig" fieldIdRef="0"/>
+    <Link colName="descripcion" fieldIdRef="1"/>
+  </RecordView>
+  <RecordView tabName="obligaciones">
+    <Link colName="codigo_oblig" fieldIdRef="0"/>
+    <Link colName="descripcion" fieldIdRef="1"/>
+  </RecordView>
+</Form>

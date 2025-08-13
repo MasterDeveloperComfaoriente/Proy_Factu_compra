@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ManagedForm databaseName="empresa" fileVersion="30a00" gstVersion="30a0b" name="ManagedForm" uid="{4bf21a84-7143-4797-be16-86456f5375fb}">
+  <AGSettings>
+    <DynamicProperties version="2"/>
+  </AGSettings>
+  <Record additionalTables="" joinLeft="" joinOperator="" joinRight="" masterTable="fe_estados" name="Record1" order="" uid="{87fdfafb-4a72-4273-ac40-3e7b46c0bb42}" where="">
+    <RecordField colName="codest" fieldIdRef="1" fieldType="TABLE_COLUMN" name="fc_estados.codest" sqlTabName="fc_estados" sqlType="CHAR" table_alias_name="" uid="{082ff7e1-6380-49ba-bd10-e6b3daac5d41}"/>
+    <RecordField colName="nombre_est" fieldIdRef="2" fieldType="TABLE_COLUMN" name="fc_estados.nombre_est" sqlTabName="fc_estados" sqlType="CHAR" table_alias_name="" uid="{f63e1ad0-a6bb-46ff-81d1-c054fc43811f}"/>
+    <RecordField colName="tipo" fieldIdRef="3" fieldType="TABLE_COLUMN" name="fc_estados.tipo" sqlTabName="fc_estados" sqlType="CHAR" table_alias_name="" uid="{b0d40936-4ea5-42a2-acf6-fd2fd4287006}"/>
+    <RecordField colName="descrip_est" fieldIdRef="5" fieldType="TABLE_COLUMN" name="fc_estados.descrip_est" sqlTabName="fc_estados" sqlType="CHAR" table_alias_name="" uid="{b7f9fd2b-8861-40a0-91e3-01174ea94def}"/>
+  </Record>
+  <Form gridHeight="16" gridWidth="92" name="Form" text="Form">
+    <Grid gridHeight="14" gridWidth="90" name="empresa1" posX="1" posY="1">
+      <Label blink="true" color="green" gridHeight="1" gridWidth="22" justify="center" name="Label6" posX="34" posY="1" text="" underline="true"/>
+      <Label blink="true" color="green" gridHeight="1" gridWidth="22" justify="center" name="Label7" posX="34" posY="2" text="ESTADOS DE LA FACTURACION" underline="true"/>
+      <Label blink="true" color="green" gridHeight="1" gridWidth="22" justify="center" name="Label8" posX="34" posY="3" text="" underline="true"/>
+      <HLine gridWidth="90" name="HLine1" posX="0" posY="4"/>
+      <Label blink="true" color="green" gridHeight="1" gridWidth="22" justify="center" name="Label9" posX="34" posY="5" text="" underline="true"/>
+      <Label gridHeight="1" gridWidth="11" name="Label1" posX="1" posY="7" text="Cod. Estado :"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="codest" fieldId="1" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="11" name="fc_estados.codest" noEntry="false" notNull="true" posX="13" posY="7" scroll="true" sqlTabName="fc_estados" sqlType="CHAR" tabIndex="1" table_alias_name="" title="codest" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="11" name="Label2" posX="1" posY="8" text="Nombre:"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="nombre_est" fieldId="2" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="59" name="fc_estados.nombre_est" posX="13" posY="8" scroll="true" sqlTabName="fc_estados" sqlType="CHAR" tabIndex="2" table_alias_name="" title="nombre" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="11" name="Label5" posX="1" posY="9" text="Desc del estado:"/>
+      <Edit aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="descrip_est" fieldId="5" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="75" name="fc_estados.descrip_est" posX="13" posY="9" scroll="true" sqlTabName="fc_estados" sqlType="CHAR" tabIndex="4" table_alias_name="" title="descripcion" widget="Edit"/>
+      <Label gridHeight="1" gridWidth="11" name="Label3" posX="1" posY="10" text="Tipo estado:"/>
+      <ComboBox aggregateColName="" aggregateName="" aggregateTableAliasName="" aggregateTableName="" colName="tipo" fieldId="3" fieldType="TABLE_COLUMN" gridHeight="1" gridWidth="37" items="" name="fc_estados.tipo" notNull="true" posX="13" posY="10" scroll="true" sqlTabName="fc_estados" sqlType="CHAR" tabIndex="3" table_alias_name="" title="tipo" widget="ComboBox"/>
+    </Grid>
+  </Form>
+  <DiagramLayout>
+    <![CDATA[AAAAAgAAAEwAewA4ADcAZgBkAGYAYQBmAGIALQA0AGEANwAyAC0ANAAyADcAMwAtAGEAYwA0ADAALQAzAGUANwBiADQANgBjADAAYgBiADQAMgB9AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ==]]>
+  </DiagramLayout>
+</ManagedForm>
